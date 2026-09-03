@@ -1010,14 +1010,194 @@ Las entrevistas deberán registrarse en video para conservar evidencia del proce
 <a id="capitulo-iii-requirements-specification"></a>
 # Capítulo III: Requirements Specification
 
+En este capítulo se presenta la especificación preliminar de los requisitos de BottleTrack, tomando como base el dominio del problema, las assumptions definidas durante el proceso Lean UX y las necesidades inicialmente identificadas para los segmentos objetivo.
+
+BottleTrack estará compuesto principalmente por una **Web Application responsive**, un **RESTful API de desarrollo propio** y un **Landing Page** encargado de presentar la propuesta de valor de CodeCrafters.
+
+La Web Application estará orientada principalmente a tres tipos de usuario:
+
+- Administradores de las empresas distribuidoras.
+- Supervisores o encargados de flota.
+- Conductores o repartidores.
+
+Los requisitos funcionales serán representados mediante Epics y User Stories. Asimismo, se incluirán Technical Stories relacionadas con los servicios requeridos por el RESTful API y las integraciones externas de BottleTrack.
+
+
+
 <a id="31-user-stories"></a>
 ## 3.1. User Stories.
+
+### Epics
+
+Las Epics de BottleTrack agrupan las principales capacidades del producto y permiten organizar las User Stories y Technical Stories de acuerdo con el dominio al que pertenecen.
+
+| ID | Título | Descripción |
+| --- | --- | --- |
+| **EP01** | Landing Page | Presentación de BottleTrack, su propuesta de valor, segmentos objetivo y principales beneficios. |
+| **EP02** | Identity and Access Management | Gestión de autenticación, sesiones, usuarios, roles y permisos de acceso a BottleTrack. |
+| **EP03** | Company Management | Gestión de la información de la empresa distribuidora y de los usuarios que forman parte de ella. |
+| **EP04** | Fleet Management | Gestión de vehículos y conductores utilizados durante las operaciones de transporte. |
+| **EP05** | Transport Operations Management | Creación, asignación, inicio, seguimiento y finalización de las operaciones de transporte. |
+| **EP06** | Delivery Management | Gestión de puntos de entrega, rutas y estados de las entregas realizadas durante una operación. |
+| **EP07** | Incident Management | Registro, evidencia, consulta y seguimiento de incidencias ocurridas durante las operaciones de transporte. |
+| **EP08** | Monitoring and Analytics | Seguimiento del progreso de las operaciones, dashboard, indicadores e historial de operaciones. |
+| **EP09** | External Services Integration | Integración de BottleTrack con servicios externos de mapas y geolocalización para complementar las operaciones de transporte. |
+
+
+### User Stories
+
+| ID | Título | Descripción | Criterios de Aceptación |
+| --- | --- | --- | --- |
+| **US01** | Conocer BottleTrack | Como visitante, deseo conocer qué es BottleTrack para determinar si la solución responde a mis necesidades. | **Escenario 1:** Given que el visitante accede al sitio del producto, when consulta la información de BottleTrack, then obtiene una descripción de su propósito y propuesta de valor.<br><br>**Escenario 2:** Given que el visitante desea conocer la solución, when consulta sus beneficios, then puede identificar los principales problemas que BottleTrack busca atender. |
+| **US02** | Conocer beneficios por segmento | Como visitante perteneciente a un segmento objetivo, deseo conocer los beneficios relacionados con mi perfil para comprender cómo BottleTrack podría ayudarme. | **Escenario 1:** Given que existen diferentes segmentos objetivo, when el visitante consulta la información del producto, then puede identificar beneficios asociados con los segmentos considerados. |
+| **US03** | Acceder a la aplicación | Como visitante interesado en BottleTrack, deseo acceder a la aplicación web para continuar mi experiencia con el producto. | **Escenario 1:** Given que el visitante desea utilizar BottleTrack, when realiza la acción de acceso al producto, then es dirigido hacia la experiencia web correspondiente. |
+| **US04** | Iniciar sesión | Como usuario registrado, deseo autenticarme en BottleTrack para acceder a las funcionalidades correspondientes a mi rol. | **Escenario 1:** Given que el usuario proporciona credenciales válidas, when solicita autenticarse, then el sistema autoriza su acceso.<br><br>**Escenario 2:** Given que las credenciales son inválidas, when se solicita la autenticación, then el sistema rechaza el acceso. |
+| **US05** | Cerrar sesión | Como usuario autenticado, deseo finalizar mi sesión para evitar accesos posteriores desde la sesión activa. | **Escenario 1:** Given que existe una sesión activa, when el usuario solicita finalizarla, then el sistema invalida la sesión correspondiente. |
+| **US06** | Consultar perfil | Como usuario autenticado, deseo consultar la información de mi perfil para conocer los datos asociados con mi cuenta. | **Escenario 1:** Given que el usuario se encuentra autenticado, when consulta su perfil, then el sistema proporciona la información registrada para su cuenta. |
+| **US07** | Gestionar usuarios | Como administrador, deseo registrar y actualizar usuarios para controlar quiénes pueden utilizar BottleTrack dentro de la empresa. | **Escenario 1:** Given que se proporcionan datos válidos, when el administrador registra un usuario, then el usuario queda asociado con la empresa.<br><br>**Escenario 2:** Given que existe un usuario registrado, when el administrador actualiza sus datos, then el sistema conserva la nueva información. |
+| **US08** | Asignar rol a usuario | Como administrador, deseo asignar roles a los usuarios para determinar las funcionalidades a las que pueden acceder. | **Escenario 1:** Given que existe un usuario registrado, when el administrador asigna un rol válido, then el sistema conserva la relación entre el usuario y el rol. |
+| **US09** | Gestionar información de empresa | Como administrador, deseo mantener actualizada la información de la empresa para que BottleTrack utilice correctamente sus datos. | **Escenario 1:** Given que la empresa se encuentra registrada, when el administrador actualiza información válida, then el sistema conserva los cambios. |
+| **US10** | Registrar vehículo | Como administrador o supervisor, deseo registrar un vehículo para incorporarlo a los recursos disponibles para las operaciones. | **Escenario 1:** Given que se proporcionan datos válidos del vehículo, when se solicita su registro, then el vehículo queda almacenado.<br><br>**Escenario 2:** Given que faltan datos obligatorios, when se intenta registrar el vehículo, then el sistema rechaza el registro. |
+| **US11** | Actualizar vehículo | Como administrador o supervisor, deseo actualizar la información de un vehículo para mantener los datos de la flota vigentes. | **Escenario 1:** Given que existe un vehículo registrado, when se proporcionan datos válidos para actualizarlo, then el sistema conserva la nueva información. |
+| **US12** | Consultar vehículos disponibles | Como supervisor de flota, deseo conocer los vehículos disponibles para determinar cuáles pueden ser asignados a una operación. | **Escenario 1:** Given que existen vehículos registrados, when el supervisor consulta los vehículos disponibles, then el sistema proporciona aquellos cuyo estado permite su asignación. |
+| **US13** | Registrar conductor | Como administrador o supervisor, deseo registrar un conductor para incorporarlo al personal disponible para las operaciones. | **Escenario 1:** Given que se proporcionan datos válidos del conductor, when se solicita su registro, then el conductor queda almacenado.<br><br>**Escenario 2:** Given que falta información requerida, when se intenta realizar el registro, then el sistema rechaza la operación. |
+| **US14** | Actualizar conductor | Como administrador o supervisor, deseo actualizar la información de un conductor para mantener sus datos vigentes. | **Escenario 1:** Given que existe un conductor registrado, when se proporcionan datos válidos para actualizarlo, then el sistema conserva la nueva información. |
+| **US15** | Consultar conductores disponibles | Como supervisor de flota, deseo conocer los conductores disponibles para determinar quién puede ser asignado a una operación. | **Escenario 1:** Given que existen conductores registrados, when se consulta la disponibilidad, then el sistema proporciona aquellos que pueden participar en una operación. |
+| **US16** | Crear operación de transporte | Como supervisor de flota, deseo registrar una operación de transporte para organizar una nueva jornada de distribución. | **Escenario 1:** Given que se proporcionan los datos requeridos, when el supervisor registra la operación, then el sistema crea la operación con estado pendiente.<br><br>**Escenario 2:** Given que falta información obligatoria, when se intenta registrar la operación, then el sistema rechaza la solicitud. |
+| **US17** | Asignar vehículo a operación | Como supervisor de flota, deseo asignar un vehículo disponible a una operación para establecer el recurso que realizará el transporte. | **Escenario 1:** Given que existe un vehículo disponible, when el supervisor realiza la asignación, then el vehículo queda asociado con la operación.<br><br>**Escenario 2:** Given que el vehículo no se encuentra disponible, when se intenta realizar la asignación, then el sistema rechaza la solicitud. |
+| **US18** | Asignar conductor a operación | Como supervisor de flota, deseo asignar un conductor disponible a una operación para determinar quién será responsable de ejecutarla. | **Escenario 1:** Given que existe un conductor disponible, when el supervisor realiza la asignación, then el conductor queda asociado con la operación.<br><br>**Escenario 2:** Given que el conductor no se encuentra disponible, when se intenta realizar la asignación, then el sistema rechaza la solicitud. |
+| **US19** | Consultar operaciones | Como supervisor de flota, deseo consultar las operaciones registradas para conocer su estado y principales datos. | **Escenario 1:** Given que existen operaciones registradas, when el supervisor realiza la consulta, then el sistema proporciona las operaciones correspondientes. |
+| **US20** | Consultar operación asignada | Como conductor, deseo consultar la operación que tengo asignada para conocer el trabajo que debo realizar durante mi jornada. | **Escenario 1:** Given que el conductor posee una operación asignada, when consulta sus operaciones, then obtiene la información correspondiente.<br><br>**Escenario 2:** Given que no posee operaciones asignadas, when realiza la consulta, then el sistema indica que no existen operaciones pendientes. |
+| **US21** | Iniciar operación | Como conductor, deseo iniciar la operación asignada para informar que la ejecución de la ruta ha comenzado. | **Escenario 1:** Given que existe una operación pendiente asignada al conductor, when registra el inicio, then la operación cambia a estado en curso. |
+| **US22** | Finalizar operación | Como conductor o supervisor, deseo finalizar una operación cuando las actividades correspondientes hayan concluido para dejar constancia de su cierre. | **Escenario 1:** Given que una operación se encuentra en curso y cumple las condiciones de finalización, when se solicita finalizarla, then la operación queda registrada como completada. |
+| **US23** | Registrar punto de entrega | Como supervisor de flota, deseo agregar puntos de entrega a una operación para establecer los establecimientos que deberán ser atendidos. | **Escenario 1:** Given que existe una operación, when se registra información válida de un punto de entrega, then el punto queda asociado con la operación.<br><br>**Escenario 2:** Given que faltan datos obligatorios, when se intenta registrar el punto, then el sistema rechaza la solicitud. |
+| **US24** | Organizar puntos de entrega | Como supervisor de flota, deseo establecer el orden de los puntos de entrega para definir la secuencia de atención de la operación. | **Escenario 1:** Given que existen varios puntos de entrega asociados con una operación, when el supervisor define su secuencia, then el sistema conserva el orden establecido. |
+| **US25** | Consultar ruta asignada | Como conductor, deseo consultar los puntos de entrega de mi operación para conocer los lugares que debo atender. | **Escenario 1:** Given que existe una operación asignada, when el conductor consulta sus entregas, then el sistema proporciona los puntos asociados y su estado. |
+| **US26** | Consultar detalle de entrega | Como conductor, deseo consultar información de un punto de entrega para conocer los datos necesarios antes de atenderlo. | **Escenario 1:** Given que existe un punto de entrega asignado, when el conductor solicita su información, then el sistema proporciona los datos registrados para dicho punto. |
+| **US27** | Actualizar estado de entrega | Como conductor, deseo actualizar el estado de una entrega para informar el resultado de la visita realizada. | **Escenario 1:** Given que existe una entrega pendiente, when el conductor registra un estado permitido, then el sistema conserva el nuevo estado.<br><br>**Escenario 2:** Given que el estado ha sido actualizado, when el supervisor consulta la operación, then puede conocer el resultado registrado. |
+| **US28** | Registrar entrega parcial | Como conductor, deseo registrar una entrega parcial para informar que solo una parte de los productos pudo ser entregada. | **Escenario 1:** Given que una entrega no puede completarse totalmente, when el conductor registra el resultado y el motivo correspondiente, then la entrega queda identificada como parcial. |
+| **US29** | Registrar entrega no realizada | Como conductor, deseo registrar que una entrega no pudo realizarse para dejar constancia del resultado de la visita. | **Escenario 1:** Given que una entrega no puede efectuarse, when el conductor registra el motivo correspondiente, then el sistema conserva la entrega como no realizada. |
+| **US30** | Registrar incidencia | Como conductor, deseo registrar una incidencia para informar un problema ocurrido durante una operación o entrega. | **Escenario 1:** Given que ocurre un problema durante la operación, when el conductor proporciona la información requerida, then la incidencia queda registrada y relacionada con la operación.<br><br>**Escenario 2:** Given que faltan datos requeridos, when se intenta registrar la incidencia, then el sistema rechaza la solicitud. |
+| **US31** | Adjuntar evidencia de incidencia | Como conductor, deseo adjuntar evidencia a una incidencia para complementar la información del problema ocurrido. | **Escenario 1:** Given que existe una incidencia registrada, when se proporciona evidencia válida, then la evidencia queda asociada con la incidencia. |
+| **US32** | Consultar incidencias | Como supervisor de flota, deseo consultar las incidencias registradas para conocer los problemas ocurridos durante las operaciones. | **Escenario 1:** Given que existen incidencias registradas, when el supervisor realiza la consulta, then el sistema proporciona los registros correspondientes. |
+| **US33** | Actualizar estado de incidencia | Como supervisor de flota, deseo actualizar el estado de una incidencia para realizar seguimiento hasta su resolución. | **Escenario 1:** Given que existe una incidencia pendiente, when el supervisor registra un nuevo estado válido, then el sistema conserva la modificación. |
+| **US34** | Consultar progreso de operación | Como supervisor de flota, deseo consultar el progreso de una operación para conocer el estado de sus entregas. | **Escenario 1:** Given que existe una operación en curso, when el supervisor consulta su progreso, then obtiene las entregas completadas, pendientes, parciales y no realizadas. |
+| **US35** | Consultar dashboard | Como administrador o supervisor, deseo consultar indicadores generales para conocer rápidamente el estado de las operaciones de transporte. | **Escenario 1:** Given que existen operaciones registradas, when el usuario consulta los indicadores, then el sistema proporciona información calculada a partir de las operaciones disponibles. |
+| **US36** | Consultar historial de operaciones | Como supervisor de flota, deseo consultar operaciones anteriores para revisar información histórica sobre entregas e incidencias. | **Escenario 1:** Given que existen operaciones finalizadas, when el supervisor consulta el historial, then el sistema proporciona los registros correspondientes. |
+| **US37** | Consultar detalle histórico | Como supervisor de flota, deseo consultar el detalle de una operación finalizada para analizar los resultados de su ejecución. | **Escenario 1:** Given que existe una operación finalizada, when el supervisor consulta su detalle, then obtiene información relacionada con vehículo, conductor, entregas e incidencias. |
+| **US38** | Consultar ubicación de entrega | Como conductor o supervisor, deseo consultar la ubicación de un punto de entrega para facilitar la identificación del destino. | **Escenario 1:** Given que el punto de entrega contiene una ubicación válida, when se solicita consultar su ubicación, then el sistema obtiene información geográfica asociada al destino. |
+
+
+### Technical Stories
+
+Las Technical Stories representan los requerimientos técnicos necesarios para implementar el Backend RESTful API de BottleTrack, así como las integraciones necesarias para soportar las funcionalidades de la Web Application.
+
+| ID | Título | Descripción | Criterios de Aceptación |
+| --- | --- | --- | --- |
+| **TS01** | Authentication REST API | Como Developer, deseo disponer de servicios RESTful de autenticación para permitir que los usuarios autorizados accedan a BottleTrack. | **Escenario 1:** Given que el servicio recibe credenciales válidas, when procesa la solicitud de autenticación, then devuelve una respuesta exitosa con la información necesaria para autorizar al usuario.<br><br>**Escenario 2:** Given que el servicio recibe credenciales inválidas, when procesa la solicitud, then devuelve una respuesta de autenticación fallida.<br><br>**Escenario 3:** Given que un usuario no se encuentra autorizado, when intenta acceder a un recurso protegido, then el servicio rechaza la solicitud. |
+| **TS02** | User and Company REST API | Como Developer, deseo disponer de servicios RESTful para administrar usuarios, roles y empresas para soportar las funcionalidades administrativas de BottleTrack. | **Escenario 1:** Given que se recibe información válida de un usuario, when se solicita su registro, then el servicio crea el recurso y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Given que existe un usuario registrado, when se solicita actualizar información válida, then el servicio conserva los cambios.<br><br>**Escenario 3:** Given que se recibe información inválida, when el servicio procesa la solicitud, then devuelve el código de error correspondiente. |
+| **TS03** | Vehicle Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar vehículos para permitir que el Frontend gestione los recursos de la flota. | **Escenario 1:** Given que se proporciona información válida de un vehículo, when se solicita su registro, then el servicio almacena el recurso y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Given que existe un vehículo registrado, when se solicita su actualización con información válida, then el servicio conserva los cambios.<br><br>**Escenario 3:** Given que se solicitan los vehículos disponibles, when el servicio procesa la consulta, then devuelve los vehículos cuyo estado permite su asignación. |
+| **TS04** | Driver Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar conductores para soportar la gestión del personal encargado de las operaciones. | **Escenario 1:** Given que se proporciona información válida de un conductor, when se solicita su registro, then el servicio almacena el recurso.<br><br>**Escenario 2:** Given que existe un conductor registrado, when se solicita actualizar sus datos, then el servicio conserva la información modificada.<br><br>**Escenario 3:** Given que se solicitan conductores disponibles, when el servicio procesa la consulta, then devuelve aquellos que pueden ser asignados a una operación. |
+| **TS05** | Transport Operations REST API | Como Developer, deseo disponer de servicios RESTful para crear, consultar y actualizar operaciones de transporte para soportar el proceso principal de BottleTrack. | **Escenario 1:** Given que se recibe información válida de una operación, when se solicita su creación, then el servicio almacena la operación y devuelve el recurso creado.<br><br>**Escenario 2:** Given que existe una operación registrada, when se solicita su información, then el servicio devuelve los datos correspondientes.<br><br>**Escenario 3:** Given que una operación cumple las condiciones para cambiar de estado, when se solicita la actualización, then el servicio conserva el nuevo estado. |
+| **TS06** | Resource Assignment Service | Como Developer, deseo implementar servicios para asignar vehículos y conductores a operaciones para garantizar que los recursos utilizados se encuentren disponibles. | **Escenario 1:** Given que el vehículo y conductor se encuentran disponibles, when se solicita su asignación, then el servicio registra la relación con la operación.<br><br>**Escenario 2:** Given que un vehículo ya está asignado a una operación incompatible, when se intenta asignarlo nuevamente, then el servicio rechaza la solicitud.<br><br>**Escenario 3:** Given que un conductor no se encuentra disponible, when se intenta asignarlo, then el servicio rechaza la operación. |
+| **TS07** | Delivery Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar puntos de entrega y sus estados para soportar la ejecución y seguimiento de las rutas. | **Escenario 1:** Given que existe una operación válida, when se registra un punto de entrega con información correcta, then queda asociado con la operación.<br><br>**Escenario 2:** Given que existen varios puntos de entrega, when se actualiza su secuencia, then el servicio conserva el nuevo orden.<br><br>**Escenario 3:** Given que existe una entrega pendiente, when se recibe una actualización de estado válida, then el servicio conserva el nuevo estado. |
+| **TS08** | Incident Management REST API | Como Developer, deseo disponer de servicios RESTful para registrar, consultar y actualizar incidencias para soportar el seguimiento de problemas ocurridos durante las operaciones. | **Escenario 1:** Given que se recibe información válida de una incidencia, when se solicita su registro, then queda almacenada y asociada con la operación o entrega correspondiente.<br><br>**Escenario 2:** Given que existen incidencias registradas, when se solicita su consulta, then el servicio devuelve los registros correspondientes.<br><br>**Escenario 3:** Given que existe una incidencia pendiente, when se proporciona un nuevo estado válido, then el servicio conserva la actualización. |
+| **TS09** | Incident Evidence Service | Como Developer, deseo disponer de un servicio para gestionar evidencias asociadas a incidencias para conservar información complementaria de los problemas reportados. | **Escenario 1:** Given que existe una incidencia válida, when se proporciona una evidencia permitida, then el servicio almacena la referencia y la relaciona con la incidencia.<br><br>**Escenario 2:** Given que la evidencia no cumple con las restricciones establecidas, when se intenta almacenarla, then el servicio rechaza la solicitud.<br><br>**Escenario 3:** Given que una incidencia posee evidencias, when se consulta su detalle, then el servicio proporciona la información asociada. |
+| **TS10** | Monitoring REST API | Como Developer, deseo disponer de servicios de consulta y cálculo de indicadores para soportar el seguimiento y dashboard de las operaciones de transporte. | **Escenario 1:** Given que existen operaciones registradas, when se solicita el resumen operacional, then el servicio devuelve indicadores calculados a partir de la información disponible.<br><br>**Escenario 2:** Given que existe una operación en curso, when se solicita su progreso, then el servicio devuelve los estados de sus entregas.<br><br>**Escenario 3:** Given que no existen datos suficientes, when se solicitan indicadores, then el servicio devuelve resultados consistentes sin generar errores. |
+| **TS11** | Operation History REST API | Como Developer, deseo disponer de servicios para consultar operaciones finalizadas para proporcionar información histórica al Frontend Web Application. | **Escenario 1:** Given que existen operaciones finalizadas, when se solicita el historial, then el servicio devuelve los registros correspondientes.<br><br>**Escenario 2:** Given que se solicita el detalle de una operación existente, when el servicio procesa la consulta, then devuelve información de vehículo, conductor, entregas e incidencias relacionadas.<br><br>**Escenario 3:** Given que la operación solicitada no existe, when se procesa la consulta, then el servicio devuelve la respuesta de recurso no encontrado correspondiente. |
+| **TS12** | Maps Service Integration | Como Developer, deseo integrar BottleTrack con un servicio externo de mapas o geolocalización para obtener información geográfica relacionada con los puntos de entrega. | **Escenario 1:** Given que se proporciona una ubicación válida, when BottleTrack consulta el servicio externo, then obtiene información geográfica utilizable.<br><br>**Escenario 2:** Given que el servicio externo no se encuentra disponible, when BottleTrack realiza la solicitud, then controla el fallo sin afectar la información principal de la operación.<br><br>**Escenario 3:** Given que la ubicación proporcionada no puede ser identificada, when se realiza la consulta, then el sistema informa que no fue posible obtener la información geográfica. |
+| **TS13** | OpenAPI Documentation | Como Developer, deseo documentar los servicios RESTful mediante OpenAPI para facilitar su comprensión, prueba e integración con el Frontend Web Application. | **Escenario 1:** Given que un endpoint forma parte del RESTful API, when se consulta la documentación, then se muestran sus operaciones, parámetros, requests y responses principales.<br><br>**Escenario 2:** Given que un endpoint requiere autenticación, when se consulta su documentación, then se identifica el mecanismo de autorización requerido.<br><br>**Escenario 3:** Given que el API se encuentra desplegado, when un Developer accede a su documentación, then puede conocer y probar los endpoints disponibles. |
+
 
 <a id="32-impact-mapping"></a>
 ## 3.2. Impact Mapping.
 
-<a id="33-product-backlog"></a>
-## 3.3. Product Backlog.
+
+
+## 3.3. Product Backlog
+
+El Product Backlog de BottleTrack contiene las User Stories y Technical Stories identificadas para el desarrollo del producto.
+
+La priorización inicial considera principalmente el valor aportado al core business de BottleTrack, representado por el proceso de creación, ejecución y seguimiento de una operación de transporte.
+
+Las estimaciones utilizan la escala de Story Points:
+
+**1, 2, 3, 5 y 8.**
+
+| Orden | ID | Título | Story Points | Epic |
+| ---: | --- | --- | ---: | --- |
+| 1 | US16 | Crear operación de transporte | 5 | EP05 - Transport Operations Management |
+| 2 | US17 | Asignar vehículo a operación | 3 | EP05 - Transport Operations Management |
+| 3 | US18 | Asignar conductor a operación | 3 | EP05 - Transport Operations Management |
+| 4 | US23 | Registrar punto de entrega | 5 | EP06 - Delivery Management |
+| 5 | US24 | Organizar puntos de entrega | 3 | EP06 - Delivery Management |
+| 6 | US20 | Consultar operación asignada | 3 | EP05 - Transport Operations Management |
+| 7 | US25 | Consultar ruta asignada | 3 | EP06 - Delivery Management |
+| 8 | US21 | Iniciar operación | 2 | EP05 - Transport Operations Management |
+| 9 | US27 | Actualizar estado de entrega | 5 | EP06 - Delivery Management |
+| 10 | US28 | Registrar entrega parcial | 3 | EP06 - Delivery Management |
+| 11 | US29 | Registrar entrega no realizada | 3 | EP06 - Delivery Management |
+| 12 | US30 | Registrar incidencia | 5 | EP07 - Incident Management |
+| 13 | US31 | Adjuntar evidencia de incidencia | 5 | EP07 - Incident Management |
+| 14 | US34 | Consultar progreso de operación | 5 | EP08 - Monitoring and Analytics |
+| 15 | US32 | Consultar incidencias | 3 | EP07 - Incident Management |
+| 16 | US33 | Actualizar estado de incidencia | 3 | EP07 - Incident Management |
+| 17 | US22 | Finalizar operación | 3 | EP05 - Transport Operations Management |
+| 18 | US35 | Consultar dashboard | 5 | EP08 - Monitoring and Analytics |
+| 19 | US36 | Consultar historial de operaciones | 3 | EP08 - Monitoring and Analytics |
+| 20 | US37 | Consultar detalle histórico | 3 | EP08 - Monitoring and Analytics |
+| 21 | US10 | Registrar vehículo | 3 | EP04 - Fleet Management |
+| 22 | US11 | Actualizar vehículo | 2 | EP04 - Fleet Management |
+| 23 | US12 | Consultar vehículos disponibles | 2 | EP04 - Fleet Management |
+| 24 | US13 | Registrar conductor | 3 | EP04 - Fleet Management |
+| 25 | US14 | Actualizar conductor | 2 | EP04 - Fleet Management |
+| 26 | US15 | Consultar conductores disponibles | 2 | EP04 - Fleet Management |
+| 27 | US19 | Consultar operaciones | 3 | EP05 - Transport Operations Management |
+| 28 | US26 | Consultar detalle de entrega | 2 | EP06 - Delivery Management |
+| 29 | US38 | Consultar ubicación de entrega | 5 | EP09 - External Services Integration |
+| 30 | US01 | Conocer BottleTrack | 3 | EP01 - Landing Page |
+| 31 | US02 | Conocer beneficios por segmento | 3 | EP01 - Landing Page |
+| 32 | US03 | Acceder a la aplicación | 2 | EP01 - Landing Page |
+| 33 | US04 | Iniciar sesión | 5 | EP02 - Identity and Access Management |
+| 34 | US05 | Cerrar sesión | 1 | EP02 - Identity and Access Management |
+| 35 | US06 | Consultar perfil | 2 | EP02 - Identity and Access Management |
+| 36 | US07 | Gestionar usuarios | 5 | EP03 - Company Management |
+| 37 | US08 | Asignar rol a usuario | 3 | EP03 - Company Management |
+| 38 | US09 | Gestionar información de empresa | 3 | EP03 - Company Management |
+| 39 | TS05 | Transport Operations REST API | 8 | EP05 - Transport Operations Management |
+| 40 | TS06 | Resource Assignment Service | 5 | EP05 - Transport Operations Management |
+| 41 | TS07 | Delivery Management REST API | 8 | EP06 - Delivery Management |
+| 42 | TS08 | Incident Management REST API | 8 | EP07 - Incident Management |
+| 43 | TS09 | Incident Evidence Service | 5 | EP07 - Incident Management |
+| 44 | TS10 | Monitoring REST API | 8 | EP08 - Monitoring and Analytics |
+| 45 | TS03 | Vehicle Management REST API | 5 | EP04 - Fleet Management |
+| 46 | TS04 | Driver Management REST API | 5 | EP04 - Fleet Management |
+| 47 | TS11 | Operation History REST API | 5 | EP08 - Monitoring and Analytics |
+| 48 | TS01 | Authentication REST API | 5 | EP02 - Identity and Access Management |
+| 49 | TS02 | User and Company REST API | 8 | EP03 - Company Management |
+| 50 | TS12 | Maps Service Integration | 8 | EP09 - External Services Integration |
+| 51 | TS13 | OpenAPI Documentation | 5 | EP02 - Identity and Access Management |
+
+### Criterios de priorización
+
+La priorización inicial del Product Backlog considera los siguientes criterios:
+
+1. Valor generado para las operaciones de transporte.
+2. Importancia para los principales usuarios de BottleTrack.
+3. Relación con el core business del producto.
+4. Dependencias entre funcionalidades.
+5. Necesidad para construir y validar el MVP.
+6. Complejidad estimada de implementación.
+
+El flujo principal priorizado es:
+
+**Crear operación → Asignar vehículo → Asignar conductor → Registrar puntos de entrega → Ejecutar ruta → Actualizar entregas → Registrar incidencias → Monitorear operación → Finalizar operación → Consultar historial.**
+
+Las User Stories relacionadas con el Landing Page deberán ser consideradas desde el primer Sprint debido a que este producto forma parte del alcance requerido para BottleTrack.
+
+Las Technical Stories representan principalmente el trabajo requerido en el Backend RESTful API para proporcionar los servicios utilizados por el Frontend Web Application.
+
+
 
 <hr>
 
