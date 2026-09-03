@@ -264,20 +264,163 @@ De esta manera, CodeCrafters busca reducir la dependencia de procesos manuales y
 <a id="12-solution-profile"></a>
 ## 1.2. Solution Profile
 
-<a id="121-antecedentes-y-problematica"></a>
+BottleTrack es una solución web desarrollada por CodeCrafters orientada a mejorar la gestión y el seguimiento de las operaciones de transporte de bebidas embotelladas. La plataforma busca centralizar la información relacionada con vehículos, conductores, rutas, puntos de entrega e incidencias, permitiendo que los actores involucrados tengan una mayor visibilidad sobre el desarrollo de las operaciones de distribución.
+
+La solución está dirigida principalmente a empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores y repartidores, así como a bodegas y minimarkets que forman parte de los puntos de entrega.
+
 ### 1.2.1. Antecedentes y problemática
 
-<a id="122-lean-ux-process"></a>
-### 1.2.2. Lean UX Process.
+#### Contexto del mercado
 
-<a id="1221-lean-ux-problem-statements"></a>
-#### <i>**1.2.2.1. Lean UX Problem Statements.**</i>
+La distribución de bebidas embotelladas requiere la coordinación constante de vehículos, conductores, rutas y múltiples puntos de entrega. Durante estas operaciones pueden presentarse retrasos, entregas incompletas, productos dañados, cambios en las rutas u otras incidencias que deben ser comunicadas y atendidas por los responsables de la distribución.
 
-<a id="1222-lean-ux-assumptions"></a>
-#### <i>**1.2.2.2. Lean UX Assumptions.**</i>
+En el contexto peruano, la eficiencia logística representa un aspecto relevante para la competitividad de las empresas. De acuerdo con los resultados de la Encuesta Nacional de Logística del Perú, los costos logísticos representan aproximadamente el 16% del valor de las ventas de las empresas. En el caso de las microempresas, este porcentaje alcanza aproximadamente el 21.1%.
 
-<a id="1223-lean-ux-hypothesis-statements"></a>
-#### <i>**1.2.2.3. Lean UX Hypothesis Statements.**</i>
+Asimismo, la misma encuesta evidencia diferencias relacionadas con el cumplimiento de los pedidos. Mientras las empresas grandes alcanzan aproximadamente un 51.1% de pedidos considerados "perfectos", en las microempresas este indicador se reduce aproximadamente al 34.5%. Un pedido perfecto es aquel que se entrega completo, a tiempo, sin daños y sin errores en la documentación.
+
+Dentro de los costos logísticos, el transporte y la distribución constituyen uno de los componentes más importantes. Esta situación evidencia la necesidad de incorporar herramientas y procesos que permitan mejorar la planificación, seguimiento y control de las operaciones de transporte.
+
+Por otro lado, las bodegas representan un canal importante dentro del comercio peruano. Según información basada en la Encuesta Nacional de Hogares (ENAHO) 2024, las bodegas concentraron aproximadamente el 23.3% del gasto de los hogares en alimentos y bebidas, lo que evidencia su relevancia como puntos de comercialización y, por lo tanto, como destinos frecuentes dentro de las operaciones de distribución.
+
+#### Problema raíz
+
+Durante una operación de distribución intervienen diferentes actores que necesitan intercambiar información constantemente. Cuando la información relacionada con vehículos, conductores, rutas, entregas e incidencias se encuentra distribuida entre diferentes medios o se registra de manera manual, puede resultar difícil obtener una visión actualizada del estado de una operación.
+
+Por ejemplo, un supervisor puede necesitar conocer qué conductor está realizando una determinada ruta, qué entregas ya fueron completadas, cuáles continúan pendientes y si ocurrió alguna incidencia durante el traslado.
+
+De manera similar, los conductores necesitan conocer los puntos de entrega asignados y contar con un mecanismo que les permita informar el estado de cada entrega o comunicar problemas ocurridos durante el recorrido.
+
+Esta falta de centralización puede generar dificultades como:
+
+- Limitada visibilidad sobre el avance de las rutas.
+- Dificultad para conocer el estado actual de las entregas.
+- Comunicación tardía de retrasos o incidencias.
+- Información dispersa entre diferentes medios.
+- Dificultad para mantener un historial de las operaciones realizadas.
+- Mayor esfuerzo por parte de los supervisores para recopilar y verificar información.
+- Poca evidencia sobre problemas ocurridos durante una entrega, como productos dañados, faltantes o retrasos.
+
+BottleTrack busca abordar esta problemática mediante una plataforma web que permita centralizar y organizar la información generada durante las operaciones de transporte.
+
+#### Evidencia de la problemática
+
+La necesidad de mejorar la gestión logística se encuentra respaldada por estudios realizados sobre el desempeño logístico en el Perú.
+
+La Encuesta Nacional de Logística indica que los costos logísticos representan aproximadamente el 16% del valor de las ventas de las empresas peruanas y pueden alcanzar el 21.1% en las microempresas. Además, existen diferencias importantes en el porcentaje de pedidos entregados correctamente entre empresas grandes y pequeñas.
+
+El Banco Interamericano de Desarrollo también identifica al transporte y distribución como uno de los componentes de mayor impacto dentro de los costos logísticos y señala la transformación digital y la incorporación de sistemas tecnológicos como elementos relevantes para la modernización de la logística y el transporte en el país.
+
+Además, la participación de las bodegas dentro del gasto de los hogares en alimentos y bebidas evidencia la importancia de estos establecimientos dentro de los canales de comercialización peruanos y respalda su consideración como uno de los segmentos relacionados con BottleTrack.
+
+Estos datos permiten establecer un contexto inicial para el proyecto. Sin embargo, las necesidades específicas relacionadas con el seguimiento de rutas, entregas e incidencias deberán ser validadas posteriormente mediante entrevistas y experimentos con los segmentos objetivo de BottleTrack.
+
+---
+
+### 1.2.2. Lean UX Process
+
+Para el desarrollo de BottleTrack, CodeCrafters aplicará los principios de Lean UX con el objetivo de validar las necesidades de los usuarios antes de desarrollar completamente la solución.
+
+Este enfoque permitirá identificar las principales suposiciones del equipo, transformarlas en hipótesis y comprobarlas mediante entrevistas, prototipos y posteriormente un Producto Mínimo Viable (MVP).
+
+De esta manera, las decisiones relacionadas con el producto se basarán progresivamente en evidencia obtenida de los usuarios y no únicamente en las ideas iniciales del equipo.
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+##### Problem Statement General
+
+Las empresas que realizan operaciones de distribución de bebidas necesitan coordinar vehículos, conductores, rutas y múltiples puntos de entrega. Cuando esta información se gestiona mediante diferentes herramientas o procesos manuales, los responsables pueden tener dificultades para conocer el estado actualizado de las operaciones, lo que puede generar mayor tiempo de supervisión y una reacción tardía frente a retrasos o incidencias.
+
+¿Cómo podríamos mejorar la visibilidad y el seguimiento de las operaciones de transporte para que supervisores, conductores y empresas distribuidoras puedan gestionar sus entregas de manera más organizada y eficiente?
+
+##### Problem Statement - Supervisores o encargados de flota
+
+Los supervisores necesitan conocer el estado de las rutas, vehículos, conductores y entregas que se encuentran bajo su responsabilidad. Cuando la información se encuentra distribuida entre diferentes medios, puede resultar difícil conocer rápidamente qué operaciones están desarrollándose correctamente y cuáles presentan algún problema.
+
+¿Cómo podríamos centralizar la información de las operaciones de transporte para que los supervisores puedan identificar rápidamente el estado de las rutas, entregas e incidencias?
+
+##### Problem Statement - Conductores y repartidores
+
+Los conductores y repartidores necesitan conocer las rutas y puntos de entrega asignados, además de comunicar el resultado de cada entrega y cualquier problema ocurrido durante el recorrido.
+
+Cuando no existe un mecanismo centralizado para registrar esta información, la comunicación con el supervisor puede depender de llamadas, mensajes u otros medios separados del proceso de gestión.
+
+¿Cómo podríamos facilitar el registro del avance de las entregas y el reporte de incidencias para que los conductores puedan comunicar el estado de sus operaciones de manera rápida y sencilla?
+
+##### Problem Statement - Bodegas y minimarkets
+
+Las bodegas y minimarkets dependen del abastecimiento realizado por diferentes distribuidores y pueden verse afectados por retrasos, entregas incompletas o productos dañados.
+
+¿Cómo podríamos mejorar la información relacionada con las entregas para contribuir a una mejor coordinación entre los distribuidores y los establecimientos que reciben los productos?
+
+---
+
+#### 1.2.2.2. Lean UX Assumptions
+
+Las siguientes suposiciones representan creencias iniciales de CodeCrafters sobre el negocio, los usuarios y la viabilidad tecnológica de BottleTrack. Estas deberán ser validadas durante el desarrollo del proyecto mediante entrevistas, experimentos y pruebas con usuarios.
+
+##### Suposiciones de Negocio
+
+- Creemos que las empresas distribuidoras de bebidas tienen la necesidad de mejorar el seguimiento de sus operaciones de transporte.
+- Creemos que centralizar la información de vehículos, conductores, rutas, entregas e incidencias aportará valor a las empresas distribuidoras.
+- Creemos que las empresas estarían dispuestas a utilizar una plataforma web que les permita tener mayor control sobre sus operaciones de distribución.
+- Creemos que un modelo de suscripción SaaS podría ser viable para empresas que necesiten utilizar BottleTrack de manera continua.
+- Creemos que reducir el tiempo utilizado para recopilar información sobre las operaciones representa un beneficio para los supervisores.
+- Creemos que mantener un historial de rutas, entregas e incidencias permitirá a las empresas contar con información útil para evaluar sus operaciones.
+
+##### Suposiciones de Usuario
+
+- Creemos que los supervisores necesitan visualizar rápidamente el estado general de las operaciones de transporte.
+- Creemos que los supervisores consideran importante conocer qué vehículo y conductor se encuentran asignados a cada operación.
+- Creemos que los conductores necesitan consultar fácilmente las rutas y puntos de entrega que tienen asignados.
+- Creemos que los conductores estarían dispuestos a actualizar el estado de una entrega desde un dispositivo móvil.
+- Creemos que los conductores necesitan una forma sencilla de reportar retrasos, productos dañados, faltantes u otras incidencias.
+- Creemos que las bodegas y minimarkets valoran recibir sus pedidos completos y dentro del horario esperado.
+- Creemos que los usuarios prefieren procesos simples que requieran pocos pasos para registrar una entrega o incidencia.
+
+##### Suposiciones Técnicas
+
+- Creemos que una aplicación web responsive permitirá que BottleTrack pueda utilizarse tanto desde computadoras como desde dispositivos móviles.
+- Creemos que una RESTful API permitirá administrar y compartir la información necesaria entre los diferentes componentes de BottleTrack.
+- Creemos que es técnicamente viable registrar y consultar información de vehículos, conductores, rutas, entregas e incidencias en tiempo cercano al real.
+- Creemos que podemos integrar servicios externos de mapas o geolocalización para complementar la gestión de las rutas.
+- Creemos que posteriormente será posible integrar dispositivos IoT o servicios GPS sin que el funcionamiento principal de BottleTrack dependa inicialmente de ellos.
+- Creemos que la arquitectura propuesta permitirá ampliar las funcionalidades del producto conforme se validen nuevas necesidades de los usuarios.
+
+---
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+A partir de las suposiciones identificadas, se plantean las siguientes hipótesis que deberán ser validadas durante el desarrollo de BottleTrack.
+
+##### Hipótesis 1 - Gestión y seguimiento de operaciones
+
+Creemos que mejorar la visibilidad de las operaciones de transporte se logrará si los supervisores o encargados de flota pueden consultar desde una plataforma centralizada los vehículos, conductores, rutas y estados de las entregas.
+
+Sabremos que esta hipótesis es válida cuando, durante las pruebas con usuarios, los supervisores puedan identificar correctamente el estado de una operación y consideren que la información presentada facilita el seguimiento de sus actividades.
+
+##### Hipótesis 2 - Seguimiento de entregas
+
+Creemos que mejorar el control de las entregas se logrará si los conductores y repartidores pueden actualizar fácilmente el estado de cada punto de entrega durante su ruta mediante BottleTrack.
+
+Sabremos que esta hipótesis es válida cuando los conductores puedan registrar correctamente una entrega como pendiente, completada, parcial, retrasada o no entregada sin requerir asistencia durante las pruebas de usabilidad.
+
+##### Hipótesis 3 - Registro de incidencias
+
+Creemos que mejorar la comunicación de problemas ocurridos durante el transporte se logrará si los conductores pueden registrar incidencias desde BottleTrack indicando el tipo de problema, una descripción y evidencia relacionada con el evento.
+
+Sabremos que esta hipótesis es válida cuando los conductores puedan registrar una incidencia correctamente y los supervisores puedan identificarla y comprender lo ocurrido utilizando la información almacenada en la plataforma.
+
+##### Hipótesis 4 - Centralización de información
+
+Creemos que reducir el esfuerzo necesario para supervisar las operaciones se logrará si las empresas distribuidoras cuentan con una plataforma que centralice la información relacionada con vehículos, conductores, rutas, entregas e incidencias.
+
+Sabremos que esta hipótesis es válida cuando los usuarios indiquen que BottleTrack les permite encontrar la información necesaria de una operación de manera más sencilla que mediante los métodos que utilizan actualmente.
+
+##### Hipótesis 5 - Uso desde dispositivos móviles
+
+Creemos que facilitar la actualización de información durante las rutas se logrará si los conductores pueden utilizar BottleTrack desde sus dispositivos móviles mediante una interfaz web responsive.
+
+Sabremos que esta hipótesis es válida cuando los conductores puedan consultar sus rutas, actualizar entregas y registrar incidencias desde un dispositivo móvil sin presentar dificultades significativas durante las pruebas de usabilidad.
 
 <a id="1224-lean-ux-canvas"></a>
 #### <i>**1.2.2.4. Lean UX Canvas.**</i>
