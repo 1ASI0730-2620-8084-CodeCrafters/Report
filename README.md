@@ -162,8 +162,103 @@
 <a id="111-descripcion-de-la-startup"></a>
 ### 1.1.1. Descripción de la Startup
 
+**CodeCrafters** es una startup orientada al desarrollo de soluciones tecnológicas que buscan optimizar la gestión y supervisión de procesos relacionados con el transporte y distribución de productos.
+
+Como parte de esta iniciativa, CodeCrafters desarrolla **BottleTrack**, una plataforma web enfocada en la **gestión y seguimiento del transporte de bebidas embotelladas**. La solución permite centralizar información relacionada con vehículos, conductores, rutas, entregas e incidencias ocurridas durante el proceso de distribución.
+
+BottleTrack está dirigida principalmente a **empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores y repartidores, así como bodegas y minimarkets que reciben los productos**.
+
+La plataforma busca mejorar la organización de las operaciones de transporte, facilitar el seguimiento de las entregas y permitir un mejor control de las incidencias que puedan presentarse durante la distribución.
+
+#### Misión
+
+Desarrollar soluciones web que permitan a las empresas distribuidoras de bebidas gestionar de manera eficiente sus operaciones de transporte, facilitando el control de vehículos, conductores, rutas, entregas e incidencias mediante una plataforma centralizada, accesible y fácil de utilizar.
+
+#### Visión
+
+Convertirnos en una startup tecnológica reconocida por desarrollar soluciones digitales innovadoras para la gestión del transporte y distribución, contribuyendo a que las empresas puedan optimizar sus operaciones, mejorar el seguimiento de sus entregas y tomar decisiones basadas en información confiable.
+
+#### Modelo de Negocio
+
+CodeCrafters plantea para BottleTrack un modelo de negocio basado en **Software as a Service (SaaS)** mediante suscripción.
+
+Las empresas distribuidoras podrán acceder a la plataforma a través del pago de una tarifa periódica, la cual podrá variar según factores como:
+
+* Cantidad de vehículos registrados.
+* Cantidad de conductores.
+* Cantidad de usuarios.
+* Número de operaciones de transporte gestionadas.
+* Funcionalidades disponibles dentro del plan contratado.
+
+Este modelo permitirá ofrecer diferentes planes de servicio de acuerdo con las necesidades y el tamaño de cada empresa.
+
+#### Público Objetivo Principal
+
+BottleTrack está dirigido principalmente a los siguientes segmentos:
+
+* **Empresas distribuidoras de bebidas:** organizaciones que necesitan gestionar y supervisar sus operaciones de transporte y distribución.
+* **Supervisores o encargados de flota:** responsables de asignar vehículos, conductores y rutas, además de realizar el seguimiento de las operaciones.
+* **Conductores y repartidores:** usuarios encargados de realizar las rutas, actualizar el estado de las entregas y reportar incidencias durante el transporte.
+* **Bodegas y minimarkets:** establecimientos que reciben las bebidas y forman parte de los puntos de entrega dentro de las rutas de distribución.
+
+El principal valor diferencial de **BottleTrack** consiste en centralizar la gestión de las operaciones de transporte en una única plataforma, permitiendo conocer el estado de las entregas, registrar incidencias y mantener organizada la información relacionada con vehículos, conductores y rutas.
+
+De esta manera, CodeCrafters busca reducir la dependencia de procesos manuales y mejorar la visibilidad y control de las operaciones de distribución de bebidas embotelladas.
+
+
 <a id="112-perfiles-de-integrantes-del-equipo"></a>
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| **Integrante**            |   									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** |                                          	|
+| **Carrera**               |                    		            	|
+| **Descripción**           | 											|
+| **Foto**                  |                                           |>
+
+
+---
+
+
+| **Integrante**            |   									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** |                                          	|
+| **Carrera**               |                    		            	|
+| **Descripción**           | 											|
+| **Foto**                  |                                           |>
+
+
+---
+
+| **Integrante**            |   									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** |                                          	|
+| **Carrera**               |                    		            	|
+| **Descripción**           | 											|
+| **Foto**                  |                                           |>
+
+
+---
+
+| **Integrante**            |   									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** |                                          	|
+| **Carrera**               |                    		            	|
+| **Descripción**           | 											|
+| **Foto**                  |                                           |>
+
+
+
+---
+
+| **Integrante**            |   									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** |                                          	|
+| **Carrera**               |                    		            	|
+| **Descripción**           | 											|
+| **Foto**                  |                                           |>
+
+</div>
 
 
 <a id="12-solution-profile"></a>
