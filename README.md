@@ -471,9 +471,6 @@ Estas empresas realizan operaciones que requieren trasladar productos desde alma
 - Mantener información histórica de rutas, entregas e incidencias.
 - Tener mayor visibilidad sobre los recursos utilizados en la distribución.
 
-#### Información estadística de sustento
-
-> **Pendiente de incorporar:** información estadística proveniente de una fuente confiable relacionada con la cantidad de empresas dedicadas al comercio o distribución de bebidas en el Perú, tamaño del sector o importancia económica de la actividad logística.
 
 ---
 
@@ -491,7 +488,7 @@ Son responsables de organizar y supervisar los recursos involucrados en las oper
 - **Nivel de adopción tecnológica esperado:** medio.
 - **Dispositivos utilizados:** principalmente computadora y smartphone.
 
-> Los rangos y características anteriores constituyen aproximaciones iniciales y deberán ser validados mediante entrevistas.
+
 
 #### Características del segmento
 
@@ -509,9 +506,6 @@ Son responsables de organizar y supervisar los recursos involucrados en las oper
 - Revisar incidencias ocurridas durante el transporte.
 - Consultar información histórica de las operaciones.
 
-#### Información estadística de sustento
-
-> **Pendiente de incorporar:** estadísticas sobre empleo en actividades de transporte, logística o distribución en el Perú que permitan respaldar las características y relevancia de este segmento.
 
 ---
 
@@ -529,7 +523,6 @@ Son responsables de ejecutar las rutas de distribución y trasladar las bebidas 
 - **Nivel de adopción tecnológica esperado:** bajo a medio.
 - **Dispositivo de mayor disponibilidad:** smartphone.
 
-> Estas características representan assumptions iniciales y deberán validarse posteriormente mediante las entrevistas.
 
 #### Características del segmento
 
@@ -547,9 +540,6 @@ Son responsables de ejecutar las rutas de distribución y trasladar las bebidas 
 - Comunicar retrasos, productos dañados, faltantes u otras incidencias.
 - Evitar procesos complejos que interfieran con la ejecución de sus actividades.
 
-#### Información estadística de sustento
-
-> **Pendiente de incorporar:** información estadística relacionada con trabajadores del sector transporte, conductores profesionales o empleo en actividades de distribución en el Perú.
 
 ---
 
@@ -567,7 +557,6 @@ Aunque inicialmente no constituyen los principales usuarios administrativos de B
 - **Nivel de adopción tecnológica esperado:** bajo a medio.
 - **Dispositivos utilizados:** principalmente smartphone.
 
-> Los rangos indicados deberán validarse posteriormente mediante investigación con representantes reales del segmento.
 
 #### Características del segmento
 
@@ -584,9 +573,6 @@ Aunque inicialmente no constituyen los principales usuarios administrativos de B
 - Disponer de una adecuada coordinación con los distribuidores.
 - Reducir inconvenientes asociados con retrasos o entregas incompletas.
 
-#### Información estadística de sustento
-
-> **Pendiente de incorporar:** estadísticas oficiales sobre la cantidad de bodegas y minimarkets en el Perú o sobre su participación en la comercialización de alimentos y bebidas.
 
 ---
 
@@ -610,24 +596,384 @@ Esta clasificación inicial será revisada después de realizar las entrevistas 
 
 
 
-<a id="capitulo-ii-requirements-elicitation-analysis"></a>
 # Capítulo II: Requirements Elicitation & Analysis
 
-<a id="21-competidores"></a>
-## 2.1. Competidores.
+En este capítulo se desarrolla el proceso de levantamiento y análisis de información necesario para comprender con mayor profundidad el dominio en el que se desarrolla BottleTrack.
 
-<a id="211-analisis-competitivo"></a>
-### 2.1.1. Análisis competitivo.
+Para ello, CodeCrafters realizará inicialmente un análisis de soluciones existentes que compiten directa o indirectamente con la propuesta. Posteriormente, se desarrollará un proceso de investigación mediante entrevistas a representantes de los segmentos objetivo.
 
-<a id="212-estrategias-y-tacticas-frente-a-competidores"></a>
-### 2.1.2. Estrategias y tácticas frente a competidores.
+La información obtenida permitirá validar o corregir las suposiciones planteadas inicialmente por el equipo y servirá como base para la posterior construcción de User Personas, User Task Matrix, User Journey Maps, Empathy Maps y demás artefactos del proceso de Needfinding.
+
+---
+
+## 2.1. Competidores
+
+Con la finalidad de comprender el entorno competitivo en el cual se desarrollará BottleTrack, CodeCrafters identificó tres soluciones digitales que ofrecen funcionalidades relacionadas con planificación de rutas, seguimiento de entregas, gestión de transporte y monitoreo de operaciones logísticas.
+
+Los competidores seleccionados son:
+
+1. **SimpliRoute**
+2. **Drivin**
+3. **DispatchTrack**
+
+Estas plataformas constituyen competidores directos o parcialmente directos debido a que atienden necesidades relacionadas con la gestión de última milla, planificación de rutas, seguimiento de vehículos, control de entregas y comunicación de incidencias.
+
+A diferencia de estas soluciones, BottleTrack plantea inicialmente un enfoque orientado a las operaciones de distribución de bebidas embotelladas, buscando ofrecer una experiencia más acotada y sencilla para empresas distribuidoras, supervisores de flota y conductores o repartidores.
+
+### Competidor 1: SimpliRoute
+
+**SimpliRoute** es una plataforma de gestión logística y última milla que permite a las empresas planificar y optimizar rutas de entrega.
+
+Entre sus principales capacidades se encuentran la planificación de rutas con múltiples puntos de entrega, monitoreo de vehículos y conductores, seguimiento de pedidos, registro de pruebas de entrega, generación de reportes y herramientas para la gestión de flotas.
+
+La solución dispone además de una aplicación para conductores desde la cual pueden consultar las rutas asignadas y reportar información relacionada con las entregas.
+
+### Competidor 2: Drivin
+
+**Drivin**, actualmente presentado como Descartes Drivin, es una plataforma SaaS de gestión de transporte (Transportation Management System - TMS).
+
+La solución permite planificar y optimizar rutas, administrar vehículos, monitorear operaciones en tiempo real, gestionar entregas y generar reportes asociados al desempeño logístico.
+
+Drivin también dispone de funcionalidades dirigidas a los conductores y permite integrar información proveniente de otros sistemas utilizados por las organizaciones.
+
+### Competidor 3: DispatchTrack
+
+**DispatchTrack** es una plataforma SaaS orientada a la gestión de operaciones de última milla.
+
+La solución incluye optimización de rutas, seguimiento en tiempo real, aplicaciones móviles para conductores, comunicación con clientes y registro digital de evidencia de entrega mediante fotografías, firmas y notas.
+
+DispatchTrack atiende diferentes industrias y cuenta con soluciones relacionadas específicamente con distribución de alimentos y bebidas, por lo que representa un competidor relevante para analizar dentro del dominio de BottleTrack.
+
+---
+
+### 2.1.1. Análisis competitivo
+
+El análisis competitivo tiene como objetivo identificar las principales características, fortalezas y limitaciones de soluciones existentes relacionadas con la gestión de operaciones de transporte.
+
+La pregunta que orienta este análisis es:
+
+> **¿Cómo puede BottleTrack diferenciarse de las soluciones actuales de gestión logística y transporte para ofrecer una propuesta de valor adecuada a empresas que realizan distribución de bebidas embotelladas?**
+
+#### Competitive Analysis Landscape
+
+| Criterio | **BottleTrack - CodeCrafters** | **SimpliRoute** | **Drivin** | **DispatchTrack** |
+| --- | --- | --- | --- | --- |
+| **Overview** | Plataforma web orientada a la gestión y seguimiento del transporte de bebidas embotelladas. | Plataforma de optimización de rutas y gestión de última milla. | TMS SaaS para planificación, monitoreo y gestión de operaciones de transporte. | Plataforma SaaS especializada en gestión y optimización de última milla. |
+| **Ventaja competitiva** | Enfoque específico en operaciones de distribución de bebidas embotelladas y propuesta inicial simplificada para pequeñas y medianas operaciones. | Optimización avanzada de rutas mediante algoritmos e inteligencia artificial. | Amplio conjunto de funcionalidades para administrar integralmente operaciones de transporte. | Plataforma integral de última milla con funcionalidades especializadas para diferentes industrias, incluyendo alimentos y bebidas. |
+| **Valor ofrecido al cliente** | Centralización de vehículos, conductores, rutas, entregas e incidencias en una plataforma enfocada en las necesidades del dominio. | Reducción de tiempos y recursos utilizados en la planificación y ejecución de rutas. | Mayor control y visibilidad de la operación logística desde la planificación hasta la entrega. | Gestión end-to-end de las operaciones de última milla y mejora de la visibilidad sobre las entregas. |
+| **Mercado objetivo** | Empresas distribuidoras de bebidas, especialmente aquellas que requieren organizar y controlar operaciones de reparto. | Empresas que realizan operaciones de distribución y última milla. | Empresas de diferentes industrias que requieren administrar operaciones de transporte. | Distribuidores, retailers, empresas logísticas y compañías que gestionan operaciones de última milla. |
+| **Estrategia de marketing** | Landing Page, demostraciones del producto, contacto directo con empresas distribuidoras y pruebas piloto. | Contenido digital, demostraciones, pruebas del producto, casos de éxito y herramientas gratuitas relacionadas con logística. | Demostraciones comerciales, casos de éxito, contenido especializado y contacto empresarial. | Demostraciones, contenido especializado, casos de clientes y estrategias B2B orientadas a distintas industrias. |
+| **Productos y servicios** | Gestión de vehículos, conductores, operaciones, rutas, entregas, incidencias y dashboard de seguimiento. | Optimización de rutas, monitoreo, gestión de flota, prueba de entrega, reportes y comunicación con clientes. | Planificación y optimización de rutas, monitoreo de flota, gestión de recursos, aplicación para conductores y reportes. | Optimización de rutas, seguimiento en tiempo real, aplicación para conductores, proof of delivery, comunicación con clientes y analytics. |
+| **Precios y costos** | Modelo SaaS por suscripción. La estructura final de planes y precios será validada posteriormente. | Dispone de planes por suscripción y alternativas personalizadas dependiendo del tamaño de la operación. | Modelo SaaS con pago periódico relacionado con la cantidad de vehículos utilizados. | Modelo SaaS orientado a empresas. Los precios se gestionan mediante contacto comercial y demostración. |
+| **Canales de distribución** | Web responsive. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. |
 
 
-<a id="22-entrevistas"></a>
-## 2.2. Entrevistas.
+---
 
-<a id="221-diseno-de-entrevistas"></a>
-### 2.2.1. Diseño de entrevistas.
+#### Análisis SWOT
+
+##### BottleTrack - CodeCrafters
+
+| | |
+| --- | --- |
+| **Fortalezas** | Enfoque específico en distribución de bebidas embotelladas; propuesta sencilla y especializada; posibilidad de adaptar el producto a las necesidades encontradas durante las entrevistas; plataforma web responsive. |
+| **Debilidades** | Producto nuevo sin clientes ni posicionamiento inicial; menor cantidad de funcionalidades que plataformas consolidadas; recursos limitados del equipo; funcionalidades avanzadas como optimización automática todavía fuera del alcance inicial. |
+| **Oportunidades** | Digitalización de pequeñas y medianas operaciones de distribución; empresas que necesitan soluciones más sencillas; posibilidad de especializar funcionalidades en problemas propios de distribución de bebidas; futura incorporación de GPS, IoT y analytics. |
+| **Amenazas** | Existencia de plataformas consolidadas; incorporación de nuevas funcionalidades por parte de competidores; resistencia de algunas empresas a cambiar sus procesos actuales; capacidad de competidores grandes para atender múltiples tipos de operaciones. |
+
+##### SimpliRoute
+
+| | |
+| --- | --- |
+| **Fortalezas** | Amplia experiencia en optimización de rutas; monitoreo en tiempo real; herramientas de inteligencia artificial; gestión de flota; aplicación para conductores; prueba de entrega y reportes. |
+| **Debilidades** | Desde la perspectiva de BottleTrack, su amplio conjunto de funcionalidades podría representar una mayor complejidad para organizaciones que solo requieran procesos básicos de distribución. No está orientado exclusivamente al transporte de bebidas embotelladas. |
+| **Oportunidades** | Crecimiento de operaciones de última milla; adopción de inteligencia artificial; integración con sistemas empresariales y expansión a nuevas industrias. |
+| **Amenazas** | Competencia creciente de otras plataformas TMS y de última milla; desarrollo de soluciones especializadas para determinados sectores. |
+
+##### Drivin
+
+| | |
+| --- | --- |
+| **Fortalezas** | Plataforma TMS integral; planificación y optimización de rutas; monitoreo en tiempo real; aplicación para conductores; integración con otros sistemas y capacidad para manejar operaciones complejas. |
+| **Debilidades** | Su amplitud funcional puede resultar superior a las necesidades de empresas con operaciones pequeñas; no se especializa exclusivamente en distribución de bebidas embotelladas. |
+| **Oportunidades** | Crecimiento de la digitalización logística; expansión del modelo SaaS y demanda de mayor trazabilidad en las operaciones de transporte. |
+| **Amenazas** | Competencia con otras plataformas globales de transporte y surgimiento de soluciones especializadas de menor complejidad. |
+
+##### DispatchTrack
+
+| | |
+| --- | --- |
+| **Fortalezas** | Amplio conjunto de herramientas de última milla; optimización de rutas; seguimiento en tiempo real; proof of delivery; aplicaciones para conductores y experiencia en industrias de alimentos y bebidas. |
+| **Debilidades** | Su propuesta está orientada a una gestión amplia de última milla y puede resultar más extensa de lo requerido para una pequeña empresa distribuidora. |
+| **Oportunidades** | Crecimiento del comercio y distribución de última milla; expansión de soluciones especializadas para industrias de alimentos y bebidas. |
+| **Amenazas** | Competencia de plataformas regionales de TMS y optimización logística; desarrollo de herramientas especializadas para determinados mercados locales. |
+
+---
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+A partir del análisis competitivo, CodeCrafters plantea estrategias preliminares para posicionar BottleTrack frente a plataformas consolidadas como SimpliRoute, Drivin y DispatchTrack.
+
+#### Estrategia 1: Especialización en distribución de bebidas embotelladas
+
+BottleTrack buscará diferenciarse mediante un enfoque inicial específico en las necesidades de empresas que realizan distribución de bebidas embotelladas.
+
+**Tácticas:**
+
+- Diseñar los flujos de la plataforma considerando situaciones habituales de distribución de bebidas.
+- Incorporar registro de incidencias relacionadas con productos dañados, botellas rotas, faltantes y entregas incompletas.
+- Adaptar los términos y procesos del sistema al lenguaje utilizado por empresas distribuidoras.
+- Validar las funcionalidades directamente con personas que participen en este tipo de operaciones.
+
+#### Estrategia 2: Mantener una experiencia sencilla
+
+En lugar de competir inicialmente por cantidad de funcionalidades, BottleTrack buscará ofrecer una experiencia enfocada en las actividades esenciales de sus usuarios.
+
+**Tácticas:**
+
+- Reducir la cantidad de pasos necesarios para actualizar una entrega.
+- Diseñar una interfaz responsive adecuada para conductores.
+- Priorizar las operaciones más frecuentes identificadas durante las entrevistas.
+- Evitar incorporar funcionalidades avanzadas que no hayan demostrado aportar valor a los segmentos objetivo.
+
+#### Estrategia 3: Enfocarse inicialmente en pequeñas y medianas operaciones
+
+Las grandes plataformas logísticas poseen capacidades para administrar operaciones de alta complejidad. BottleTrack podrá explorar una propuesta más accesible para empresas que requieren controlar una cantidad menor de vehículos, conductores y rutas.
+
+**Tácticas:**
+
+- Diseñar planes SaaS de acuerdo con el tamaño de la operación.
+- Permitir un proceso sencillo de incorporación de empresas, vehículos y conductores.
+- Realizar pruebas piloto con empresas distribuidoras pequeñas o medianas.
+- Recoger retroalimentación frecuente de los usuarios para mejorar progresivamente el producto.
+
+#### Estrategia 4: Diferenciación mediante información de incidencias
+
+BottleTrack buscará proporcionar especial importancia al registro y seguimiento de eventos que afectan el desarrollo de las entregas.
+
+**Tácticas:**
+
+- Clasificar las incidencias por tipos.
+- Permitir registrar descripción y evidencia del problema.
+- Asociar cada incidencia con una operación y entrega específica.
+- Permitir al supervisor consultar posteriormente el historial de incidencias.
+
+#### Estrategia 5: Evolución progresiva de las capacidades tecnológicas
+
+BottleTrack priorizará inicialmente las funcionalidades principales y dejará capacidades tecnológicas de mayor complejidad para etapas posteriores.
+
+**Tácticas:**
+
+- Desarrollar inicialmente gestión de recursos, rutas, entregas e incidencias.
+- Evaluar posteriormente integración con GPS y servicios de mapas.
+- Considerar integración con dispositivos IoT cuando las necesidades de los usuarios lo justifiquen.
+- Incorporar analytics y optimización de rutas de manera progresiva.
+
+---
+
+## 2.2. Entrevistas
+
+El proceso de entrevistas permitirá a CodeCrafters obtener información directamente de representantes de los segmentos objetivo de BottleTrack.
+
+El propósito principal será comprender cómo se realizan actualmente las operaciones de distribución, identificar necesidades y frustraciones, conocer las herramientas utilizadas por los participantes y validar o refutar las assumptions formuladas durante el Lean UX Process.
+
+Las entrevistas estarán orientadas a comprender la situación actual de los usuarios y no a confirmar que la solución propuesta por CodeCrafters es correcta.
+
+Los segmentos considerados para las entrevistas son:
+
+1. Empresas distribuidoras de bebidas.
+2. Supervisores o encargados de flota.
+3. Conductores y repartidores.
+4. Bodegas y minimarkets.
+
+La información recopilada servirá posteriormente para realizar el análisis de entrevistas y construir los User Personas correspondientes a cada segmento.
+
+### 2.2.1. Diseño de entrevistas
+
+Las entrevistas serán de tipo semiestructurado. Se contará con un conjunto de preguntas principales previamente definido y preguntas complementarias que podrán utilizarse para profundizar en las respuestas de cada participante.
+
+Antes de iniciar cada entrevista se solicitará autorización al participante para registrar la sesión en video con fines académicos.
+
+Las preguntas evitarán presentar inicialmente BottleTrack o sugerir una determinada solución, debido a que el objetivo es conocer el comportamiento real de los participantes y los problemas que experimentan actualmente.
+
+#### Información general del entrevistado
+
+Estas preguntas se realizarán a todos los participantes y permitirán recopilar información necesaria para la posterior construcción de los User Personas.
+
+| # | Pregunta |
+| --- | --- |
+| 1 | ¿Cuál es su edad? |
+| 2 | ¿En qué distrito reside? |
+| 3 | ¿Cuál es su ocupación y qué función realiza actualmente? |
+| 4 | ¿Cuánto tiempo lleva realizando esta actividad? |
+| 5 | ¿Con quiénes suele coordinar durante su jornada de trabajo? |
+| 6 | ¿Qué dispositivos tecnológicos utiliza con mayor frecuencia? |
+| 7 | ¿Qué aplicaciones o servicios digitales utiliza habitualmente para trabajar o comunicarse? |
+| 8 | ¿Desde qué dispositivo suele acceder a estos servicios: computadora, smartphone, tablet u otro? |
+| 9 | ¿Qué tan cómodo se siente utilizando nuevas aplicaciones o herramientas digitales? |
+| 10 | ¿Qué es lo que más valora en una herramienta tecnológica utilizada para su trabajo? |
+
+---
+
+#### Entrevista - Empresas distribuidoras de bebidas
+
+**Objetivo:** comprender cómo las empresas organizan actualmente sus operaciones de distribución, qué dificultades experimentan y qué resultados esperan obtener de sus procesos logísticos.
+
+##### Preguntas principales
+
+| # | Pregunta |
+| --- | --- |
+| 1 | Cuénteme cómo se organiza normalmente una jornada de distribución de bebidas en su empresa. |
+| 2 | ¿Cómo deciden qué vehículos y conductores participarán en cada operación? |
+| 3 | ¿Cómo organizan actualmente las rutas y puntos de entrega? |
+| 4 | ¿Cómo conocen el estado de las entregas mientras los vehículos están realizando una ruta? |
+| 5 | Cuénteme sobre la última vez que ocurrió un problema durante una entrega. ¿Qué ocurrió y cómo lo resolvieron? |
+| 6 | ¿Qué información necesitan conservar después de finalizar una operación de transporte? |
+| 7 | ¿Qué herramientas utilizan actualmente para gestionar o supervisar las operaciones de distribución? |
+| 8 | ¿Qué parte del proceso de distribución les genera actualmente mayor dificultad o consume más tiempo? |
+| 9 | ¿Cómo evalúan si una operación de distribución fue realizada correctamente? |
+| 10 | ¿Qué cambios les gustaría conseguir en la manera en que actualmente gestionan sus operaciones? |
+
+##### Preguntas complementarias
+
+| # | Pregunta |
+| --- | --- |
+| 1 | ¿Con qué frecuencia realizan operaciones de distribución? |
+| 2 | Aproximadamente, ¿cuántos vehículos y conductores participan en estas operaciones? |
+| 3 | ¿Cuántos puntos de entrega puede atender una ruta normalmente? |
+| 4 | ¿Quién necesita consultar la información generada durante las operaciones? |
+| 5 | ¿Qué ocurre cuando una entrega no puede realizarse? |
+| 6 | ¿Cómo manejan actualmente los productos dañados, faltantes o devoluciones? |
+
+---
+
+#### Entrevista - Supervisores o encargados de flota
+
+**Objetivo:** conocer cómo los supervisores planifican y monitorean las operaciones y cuáles son sus principales dificultades para obtener información sobre vehículos, conductores, rutas y entregas.
+
+##### Preguntas principales
+
+| # | Pregunta |
+| --- | --- |
+| 1 | Cuénteme cómo comienza normalmente su jornada cuando debe organizar las operaciones de transporte. |
+| 2 | ¿Cómo asigna actualmente los vehículos y conductores a una operación? |
+| 3 | ¿Cómo se determinan las rutas y los puntos que debe atender cada conductor? |
+| 4 | Una vez que los vehículos salen a realizar las entregas, ¿cómo conoce el avance de cada ruta? |
+| 5 | ¿Qué información necesita consultar con mayor frecuencia durante una operación? |
+| 6 | Cuénteme sobre una situación reciente en la que una entrega se haya retrasado o haya tenido algún inconveniente. ¿Cómo se enteró? |
+| 7 | ¿Cómo registran actualmente las incidencias que ocurren durante las rutas? |
+| 8 | ¿Qué información necesita revisar cuando finaliza una jornada? |
+| 9 | ¿Qué actividad relacionada con la supervisión de las operaciones le consume más tiempo? |
+| 10 | ¿Qué resultado le gustaría conseguir para mejorar la supervisión de las operaciones? |
+
+##### Preguntas complementarias
+
+| # | Pregunta |
+| --- | --- |
+| 1 | ¿Con cuántos conductores suele coordinar durante una jornada? |
+| 2 | ¿Con qué frecuencia necesita comunicarse con los conductores durante una ruta? |
+| 3 | ¿Qué medios utiliza para comunicarse con ellos? |
+| 4 | ¿Qué ocurre cuando necesita consultar información de una operación realizada días o semanas atrás? |
+| 5 | ¿Qué tipo de incidencia ocurre con mayor frecuencia? |
+| 6 | ¿Desde qué dispositivo preferiría consultar la información de las operaciones mientras trabaja? |
+
+---
+
+#### Entrevista - Conductores y repartidores
+
+**Objetivo:** comprender cómo los conductores ejecutan actualmente sus rutas, reciben información sobre las entregas y comunican el resultado o los problemas ocurridos durante su jornada.
+
+##### Preguntas principales
+
+| # | Pregunta |
+| --- | --- |
+| 1 | Cuénteme cómo recibe la información de las entregas que debe realizar durante el día. |
+| 2 | ¿Cómo sabe qué ruta debe seguir y en qué orden debe visitar los puntos de entrega? |
+| 3 | ¿Qué información necesita conocer antes de realizar una entrega? |
+| 4 | ¿Qué hace actualmente después de completar una entrega? |
+| 5 | Cuénteme sobre la última vez que tuvo un problema durante una entrega. ¿Qué ocurrió y qué hizo? |
+| 6 | ¿Cómo comunica actualmente al supervisor que una entrega se realizó correctamente o presentó algún problema? |
+| 7 | ¿Qué dificultades suele encontrar durante una ruta de distribución? |
+| 8 | ¿Qué herramientas o aplicaciones utiliza durante su jornada? |
+| 9 | ¿Existe alguna actividad administrativa o de reporte que considere incómoda o que le tome demasiado tiempo? |
+| 10 | ¿Qué resultado le ayudaría a realizar sus entregas de una manera más organizada? |
+
+##### Preguntas complementarias
+
+| # | Pregunta |
+| --- | --- |
+| 1 | ¿Utiliza su propio teléfono durante el trabajo o la empresa le proporciona uno? |
+| 2 | ¿Con qué frecuencia necesita comunicarse con el supervisor? |
+| 3 | ¿Qué hace cuando encuentra productos dañados o faltantes? |
+| 4 | ¿Qué hace cuando el cliente no puede recibir el pedido? |
+| 5 | ¿Cómo demuestra actualmente que realizó una entrega? |
+| 6 | ¿En qué situaciones le resulta difícil utilizar el teléfono mientras está realizando una entrega? |
+
+---
+
+#### Entrevista - Bodegas y minimarkets
+
+**Objetivo:** conocer la experiencia de los establecimientos que reciben productos de las empresas distribuidoras y comprender los principales problemas relacionados con tiempos, estado y cumplimiento de las entregas.
+
+##### Preguntas principales
+
+| # | Pregunta |
+| --- | --- |
+| 1 | Cuénteme cómo realiza normalmente sus pedidos de bebidas a sus proveedores. |
+| 2 | ¿Con qué frecuencia recibe entregas de bebidas en su establecimiento? |
+| 3 | ¿Cómo sabe aproximadamente cuándo llegará un pedido? |
+| 4 | ¿Qué hace cuando una entrega demora más de lo esperado? |
+| 5 | Cuénteme sobre la última vez que recibió una entrega incompleta o con productos dañados. ¿Qué ocurrió? |
+| 6 | ¿Cómo verifica que los productos recibidos coincidan con lo solicitado? |
+| 7 | ¿Cómo comunica actualmente un problema relacionado con una entrega? |
+| 8 | ¿Qué consecuencias tiene para su negocio recibir productos tarde o de manera incompleta? |
+| 9 | ¿Qué información relacionada con una entrega considera más importante conocer? |
+| 10 | ¿Qué resultado le gustaría obtener para mejorar la coordinación con sus distribuidores? |
+
+##### Preguntas complementarias
+
+| # | Pregunta |
+| --- | --- |
+| 1 | ¿Trabaja con uno o varios distribuidores de bebidas? |
+| 2 | ¿Qué medios utiliza normalmente para comunicarse con ellos? |
+| 3 | ¿Utiliza aplicaciones digitales para realizar o consultar pedidos? |
+| 4 | ¿Desde qué dispositivo suele hacerlo? |
+| 5 | ¿Con qué frecuencia encuentra diferencias entre lo solicitado y lo recibido? |
+| 6 | ¿Qué considera una entrega satisfactoria? |
+
+---
+
+#### Información complementaria para construcción de arquetipos
+
+Además de las respuestas relacionadas directamente con las operaciones de distribución, durante las entrevistas se buscará recopilar información que permita comprender mejor las características de cada participante.
+
+La información considerada incluirá:
+
+- Datos demográficos.
+- Ocupación y experiencia.
+- Contexto laboral.
+- Personalidad y comportamiento.
+- Habilidades relacionadas con su actividad.
+- Herramientas y marcas tecnológicas utilizadas.
+- Dispositivos de preferencia.
+- Navegadores utilizados.
+- Canales digitales de interacción.
+- Objetivos personales relacionados con su actividad.
+- Frustraciones.
+- Motivaciones.
+- Contexto o background del participante.
+
+Esta información será analizada posteriormente y únicamente se utilizarán aquellas características que puedan ser respaldadas por los datos obtenidos durante las entrevistas.
+
+---
+
+#### Consideraciones para la realización de las entrevistas
+
+Las entrevistas deberán realizarse con representantes reales de cada segmento objetivo. Durante la sesión el entrevistador deberá procurar que las preguntas sean abiertas y permitan al participante explicar experiencias reales.
+
+Se evitarán preguntas que induzcan una respuesta determinada, tales como "¿Le gustaría utilizar una aplicación que haga...?". En su lugar, se priorizarán preguntas sobre experiencias anteriores, por ejemplo: "Cuénteme sobre la última vez que tuvo un problema durante una entrega".
+
+Las entrevistas deberán registrarse en video para conservar evidencia del proceso de investigación y permitir posteriormente el análisis de las respuestas obtenidas.
 
 <a id="222-registro-de-entrevistas"></a>
 ### 2.2.2. Registro de entrevistas.
