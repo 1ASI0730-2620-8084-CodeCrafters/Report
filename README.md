@@ -209,58 +209,53 @@ De esta manera, CodeCrafters busca reducir la dependencia de procesos manuales y
 <a id="112-perfiles-de-integrantes-del-equipo"></a>
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
+A continuación se presenta la ficha de cada integrante del equipo, indicando su código de estudiante, la carrera que cursa y un resumen de los principales conocimientos técnicos y habilidades que aporta al equipo.
 
-
----
-
-
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
-
+| **Integrante**            | Palacin Lazo, Gerardo Valentin |
+| :------------------------ | :----------------------------- |
+| **Código del Estudiante** | U20211C201 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="docs/team-members/gerardo-palacin.jpeg" alt="Fotografía de Gerardo Valentin Palacin Lazo" width="140"> |
 
 ---
 
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
-
-
----
-
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
-
-
+| **Integrante**            | Crispin Valdivia, Angel Gabriel |
+| :------------------------ | :------------------------------ |
+| **Código del Estudiante** | U20221G181 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="docs/team-members/angel-crispin.jpg" alt="Fotografía de Angel Gabriel Crispin Valdivia" width="140"> |
 
 ---
 
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
+| **Integrante**            | Cumba Rengifo, Leonardo Raul |
+| :------------------------ | :--------------------------- |
+| **Código del Estudiante** | U202311912 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="docs/team-members/leonardo-cumba.jpeg" alt="Fotografía de Leonardo Raul Cumba Rengifo" width="140"> |
 
-</div>
+---
+
+| **Integrante**            | Huapaya Buitron, Ariana Alheli |
+| :------------------------ | :----------------------------- |
+| **Código del Estudiante** | U201819645 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="docs/team-members/ariana-huapaya.jpeg" alt="Fotografía de Ariana Alheli Huapaya Buitron" width="140"> |
+
+---
+
+| **Integrante**            | Pezo Castilla, Maria Jose |
+| :------------------------ | :------------------------ |
+| **Código del Estudiante** | U20221C590 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="docs/team-members/maria-pezo.jpeg" alt="Fotografía de Maria Jose Pezo Castilla" width="140"> |
 
 
+<a id="12-solution-profile"></a>
 ## 1.2. Solution Profile
 
 BottleTrack es una plataforma web desarrollada por CodeCrafters para apoyar la gestión y seguimiento de las operaciones de transporte de bebidas embotelladas.
