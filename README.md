@@ -1217,30 +1217,224 @@ Las Technical Stories representan principalmente el trabajo requerido en el Back
 <a id="41-style-guidelines"></a>
 ## 4.1. Style Guidelines.
 
+En esta sección el equipo establece el repositorio central de decisiones visuales que comparten el Landing Page y la Frontend Web Application de BottleTrack. El objetivo es que ambos productos se perciban como una sola experiencia, tal como lo exige la consistencia entre el sitio web estático y la aplicación web.
+
+Las decisiones se implementaron como variables CSS en el archivo `assets/css/tokens.css` del repositorio del Landing Page, y se documentan de forma viva en la vista `style-guide.html`, que funciona como referencia consultable para todo el equipo. Ningún valor visual se escribe directamente en las vistas: siempre se consume el token correspondiente, de modo que un cambio de marca se realiza en un solo lugar.
+
 <a id="411-general-style-guidelines"></a>
 ### 4.1.1. General Style Guidelines.
 
+**Branding**
+
+BottleTrack es el producto de la startup CodeCrafters. La marca se apoya en el color naranja, asociado al movimiento y a la señalización logística, y en una comunicación directa centrada en la trazabilidad. El logotipo se representa con una marca cuadrada de esquinas redondeadas acompañada del nombre del producto en tipografía de alto peso.
+
+**Tono de comunicación**
+
+El equipo definió las siguientes dimensiones para el lenguaje aplicado en toda la experiencia:
+
+| Dimensión | Decisión | Sustento |
+| :-------- | :------- | :------- |
+| Divertido / Serio | Serio | El usuario consulta la plataforma mientras la carga está en riesgo; el contenido informa, no entretiene. |
+| Formal / Casual | Casual moderado | Los segmentos incluyen conductores y supervisores de operación, para quienes un lenguaje excesivamente formal genera distancia. |
+| Respetuoso / Irreverente | Respetuoso | La plataforma registra incidencias que afectan el desempeño de personas, por lo que el lenguaje evita cualquier tono de sanción. |
+| Entusiasta / Sereno | Sereno | Las alertas deben leerse con calma para no amplificar la urgencia de la operación. |
+
+**Colores**
+
+La paleta se organiza en una sola rampa de marca de tres peldaños, separados por contraste y no por matiz. Solo los dos peldaños oscuros son legibles como texto sobre fondo blanco; el color de marca se emplea únicamente como fondo con texto blanco encima.
+
+| Token | Valor | Contraste sobre blanco | Rol |
+| :---- | :---- | :--------------------- | :-- |
+| `--primary` | `#f97316` | 3.0:1 | Color de marca. Fondo de botones y acentos, nunca texto. |
+| `--primary-mid` | `#b34900` | 5.4:1 (AA) | Primer peldaño legible. Enlaces y texto destacado. |
+| `--primary-dark` | `#4f2000` | 12.4:1 | Titulares, estados de hover y acentos profundos. |
+| `--primary-soft` | `#ffedd5` | — | Fondo tenue para botones terciarios y numeradores. |
+
+Los colores neutros se reducen a cuatro roles de línea ordenados por jerarquía y no por tono, de manera que un divisor interno no pese lo mismo que el borde de una tarjeta clicable:
+
+| Token | Valor | Rol |
+| :---- | :---- | :-- |
+| `--line` | `#efeceb` | Divisor dentro de una superficie. |
+| `--border` | `#ded8d3` | Borde por defecto de una superficie. |
+| `--control` | `#c2c2c2` | Borde de un elemento interactivo en reposo. |
+| `--control-hover` | `#a3a3a3` | El mismo elemento bajo el cursor. |
+
+Los estados se resuelven con cuatro roles, cada uno con tres piezas: el color sólido para puntos y barras, el fuerte para el hover y para el texto sobre el suave, y el suave como fondo de etiqueta. La pareja suave más fuerte cumple el nivel AA por diseño.
+
+| Rol | Sólido | Fuerte | Suave | Uso en BottleTrack |
+| :-- | :----- | :----- | :---- | :----------------- |
+| `danger` | `#e7000b` | `#c10007` | `#ffe2e2` | Botellas rotas, entrega fallida, incidencia crítica. |
+| `warning` | `#eab308` | `#854d0e` | `#fef9c3` | Ruta retrasada, temperatura fuera de rango. |
+| `success` | `#30b875` | `#044137` | `#e0f5eb` | Entrega realizada, incidencia resuelta. |
+| `info` | `#155dfc` | `#1447e6` | `#dbeafe` | Envío en tránsito, aviso informativo. |
+
+Una decisión relevante es que el rol `success` conserva una familia verde propia y el rol `warning` se desplazó hacia el ámbar. Al ser el naranja el color de la marca, un estado de aviso naranja dejaría de leerse como señal y una confirmación naranja se confundiría con un elemento de marca.
+
+**Tipografía**
+
+La familia tipográfica es Manrope, con una pila de respaldo de tipografías de sistema. La escala parte de una base de 16 píxeles y crece en pasos definidos como variables, evitando valores arbitrarios.
+
+| Token | Tamaño | Uso |
+| :---- | :----- | :-- |
+| `--text-5xl` | 3 rem | Titular principal del Landing Page. |
+| `--text-4xl` | 2.25 rem | Título de página. |
+| `--text-3xl` | 1.875 rem | Título de sección. |
+| `--text-xl` | 1.25 rem | Título de tarjeta. |
+| `--text-lg` | 1.125 rem | Párrafo de entrada de sección. |
+| `--text-base` | 1 rem | Cuerpo de texto por defecto. |
+| `--text-sm` | 0.875 rem | Texto secundario, etiquetas y botones. |
+| `--text-xs` | 0.75 rem | Metadatos y etiquetas de estado. |
+
+Los pesos se limitan a cuatro valores (400, 500, 600 y 700) y la altura de línea a tres (1.2 para titulares, 1.35 para texto compacto y 1.6 para cuerpo).
+
+**Espaciado**
+
+El sistema de espaciado utiliza una base de cuatro píxeles expuesta como escala de tokens, desde `--space-1` hasta `--space-24`. Toda separación entre elementos consume un valor de la escala, lo que sostiene el ritmo vertical de las vistas en ambos productos.
+
 <a id="412-web-style-guidelines"></a>
 ### 4.1.2. Web Style Guidelines.
+
+**Superficies y elevación**
+
+Una superficie apagada se pinta siempre con un color opaco (`--surface-muted`) y nunca con una capa translúcida, porque una capa translúcida deja pasar el color que se encuentre detrás y produce resultados distintos según la sección. La elevación se reserva para elementos que efectivamente flotan: una tarjeta estática se define por su borde, y solo la tarjeta clicable recibe sombra al recibir el cursor.
+
+**Componentes compartidos**
+
+Los componentes se implementaron en `assets/css/components.css` y son los mismos que consumirá la Frontend Web Application, adaptándolos a la biblioteca de componentes PrimeVue bajo el lenguaje de diseño Material Design:
+
+| Componente | Variantes | Comportamiento |
+| :--------- | :-------- | :------------- |
+| Botón | Primario, secundario, terciario y deshabilitado | El botón deshabilitado utiliza los tokens `--disabled` y `--disabled-ink`, con un contraste bajo deliberado para que se lea inerte. |
+| Tarjeta | Estática e interactiva | La interactiva refuerza el borde en reposo y añade elevación en hover. |
+| Etiqueta de estado | Cuatro roles de estado | Combina siempre el fondo suave con el texto fuerte del mismo rol. |
+| Campo de formulario | Reposo, hover y deshabilitado | Etiqueta asociada mediante el atributo `for`. |
+
+**Responsive web design**
+
+El Landing Page se construyó con una aproximación fluida basada en unidades relativas, `grid` y `flex`. Los puntos de quiebre son dos: 60 rem, donde el bloque principal pasa de dos columnas a una, y 48 rem, donde la navegación se colapsa en un menú desplegable y la escala tipográfica reduce sus tamaños mayores.
+
+**Interacción y accesibilidad**
+
+Las transiciones duran 160 milisegundos y se anulan cuando el sistema operativo declara la preferencia `prefers-reduced-motion`. Todo elemento enfocable expone un contorno visible mediante `:focus-visible`. La experiencia incluye un enlace de salto al contenido principal, atributos ARIA en los controles que cambian de estado y texto alternativo en las imágenes.
 
 
 <a id="42-information-architecture"></a>
 ## 4.2. Information Architecture.
 
+En esta sección el equipo plantea las decisiones que dirigen la manera como se organiza el contenido en el Landing Page y en la Frontend Web Application de BottleTrack. El criterio que guía estas decisiones es que cada segmento objetivo encuentre lo que necesita sin recorrer contenido que no le corresponde, considerando que los segmentos operan en contextos muy distintos: el supervisor consulta la plataforma desde una oficina y el conductor desde un teléfono, en ruta y con poco tiempo disponible.
+
 <a id="421-organization-systems"></a>
 ### 4.2.1. Organization Systems.
+
+**Organización visual del contenido**
+
+| Producto | Esquema aplicado | Sustento |
+| :------- | :--------------- | :------- |
+| Landing Page | Jerárquica | El visitante llega sin conocer el producto, por lo que el contenido desciende desde la propuesta de valor hasta el detalle de las funcionalidades y los segmentos. |
+| Landing Page, sección "Cómo funciona" | Secuencial | La operación se explica como tres pasos ordenados en el tiempo, del despacho al cierre de la incidencia. |
+| Web Application, tablero de rutas | Matricial | El supervisor compara varias rutas simultáneas según estado, avance y alertas, sin que exista un orden de lectura obligatorio. |
+| Web Application, registro de incidencias | Secuencial | El reporte de una incidencia es un flujo de pasos que el conductor completa hasta adjuntar la evidencia. |
+
+**Esquemas de categorización**
+
+| Esquema | Dónde se aplica |
+| :------ | :-------------- |
+| Por audiencia | Sección de segmentos del Landing Page, donde cada bloque se dirige a un segmento objetivo y ofrece su propio llamado a la acción. |
+| Por tópicos | Funcionalidades del producto, agrupadas en seguimiento y monitoreo IoT por un lado, y reporte de incidencias por el otro. |
+| Cronológico | Historial de eventos de una ruta y bitácora de incidencias en la Web Application, ordenados del evento más reciente al más antiguo. |
+| Alfabético | Listados auxiliares de la Web Application, como el catálogo de vehículos y de puntos de entrega. |
 
 <a id="422-labeling-systems"></a>
 ### 4.2.2. Labeling Systems.
 
+Las etiquetas se redactan con el mínimo número de palabras y utilizan el vocabulario del Ubiquitous Language del dominio, de manera que el visitante y el usuario reconozcan de inmediato a qué conjunto de información se refieren. El idioma por defecto de la interfaz es el inglés, con la traducción al español latinoamericano disponible mediante el selector de idioma.
+
+| Etiqueta (en-US) | Etiqueta (es-419) | Conjunto de información asociado |
+| :--------------- | :---------------- | :------------------------------- |
+| Features | Funcionalidades | Capacidades del producto. |
+| How it works | Cómo funciona | Explicación del flujo de la operación. |
+| Who it is for | Para quién es | Segmentos objetivo y sus llamados a la acción. |
+| The product | El producto | Video About the Product. |
+| The team | El equipo | Video About the Team. |
+| Route | Ruta | Recorrido asignado a un vehículo con sus puntos de entrega. |
+| Stop | Parada | Punto de entrega individual dentro de una ruta. |
+| Shipment | Envío | Carga de producto asociada a una ruta. |
+| Incident | Incidencia | Problema reportado durante el transporte. |
+| In transit | En tránsito | Estado de un envío que ya salió y no ha llegado. |
+| Delivered | Entregado | Estado de una parada completada. |
+
+Las etiquetas de estado se acompañan siempre de su color de rol, pero nunca dependen únicamente del color para comunicar el significado, de manera que la información siga siendo comprensible para personas con dificultades en la percepción del color.
+
 <a id="423-seo-tags-and-meta-tags"></a>
 ### 4.2.3. SEO Tags and Meta Tags.
+
+Los siguientes valores se encuentran implementados en las vistas del Landing Page.
+
+**Vista principal (`index.html`)**
+
+| Etiqueta | Valor |
+| :------- | :---- |
+| `title` | BottleTrack \| Bottled beverage transport tracking and IoT monitoring |
+| `description` | BottleTrack lets beverage distributors follow every route in real time, monitor cargo with IoT sensors and report transport incidents with evidence. |
+| `keywords` | beverage logistics, fleet tracking, IoT monitoring, cold chain, delivery incidents, transport management |
+| `author` | CodeCrafters |
+| `og:title` | BottleTrack \| Bottled beverage transport tracking |
+| `og:type` | website |
+| `og:locale` | en_US |
+| `og:locale:alternate` | es_419 |
+
+**Vista de términos y condiciones (`terms-of-service.html`)**
+
+| Etiqueta | Valor |
+| :------- | :---- |
+| `title` | Terms and conditions of service \| BottleTrack |
+| `description` | Terms and conditions of service for the BottleTrack platform, including the ethical and professional commitments adopted by CodeCrafters. |
+| `keywords` | terms of service, conditions, privacy, BottleTrack, CodeCrafters |
+| `author` | CodeCrafters |
+
+**Vistas de la Frontend Web Application**
+
+| Vista | `title` | `description` |
+| :---- | :------ | :------------ |
+| Monitoring | Fleet monitoring \| BottleTrack | Real time view of every active route, with cargo temperature and impact alerts. |
+| Incidents | Incident reporting \| BottleTrack | Report damaged product, broken bottles, missing units and delays with photographic evidence. |
+| Analytics | Delivery indicators \| BottleTrack | Product loss, delivery compliance and recurring failures across the distribution operation. |
 
 <a id="424-searching-systems"></a>
 ### 4.2.4. Searching Systems.
 
+El Landing Page no incorpora un sistema de búsqueda, ya que su volumen de contenido es reducido y la navegación por secciones basta para recorrerlo por completo.
+
+En la Frontend Web Application la búsqueda sí resulta necesaria, porque el volumen de rutas e incidencias crece con la operación. Las decisiones son las siguientes:
+
+| Vista | Búsqueda | Filtros | Presentación de los resultados |
+| :---- | :------- | :------ | :----------------------------- |
+| Rutas | Por código de ruta, placa del vehículo o nombre del conductor | Estado del envío, rango de fechas y vehículo | Listado con el estado, el avance y la alerta más reciente de cada ruta. |
+| Incidencias | Por código de incidencia o punto de entrega | Tipo de incidencia, severidad, estado de seguimiento y rango de fechas | Listado ordenado del reporte más reciente al más antiguo, con etiqueta de estado. |
+| Puntos de entrega | Por nombre del cliente o distrito | Distrito y tipo de establecimiento | Listado alfabético. |
+
+Cuando una búsqueda no arroja resultados, la vista comunica de forma explícita que no se encontraron coincidencias e indica qué filtros se encuentran activos, para que el usuario pueda retirarlos sin abandonar la vista.
+
 <a id="425-navigation-systems"></a>
 ### 4.2.5. Navigation Systems.
+
+**Landing Page**
+
+La navegación principal se mantiene fija en la parte superior durante todo el recorrido y enlaza a las secciones mediante desplazamiento suave dentro de la misma página. Esto permite que el visitante conserve en todo momento la referencia de dónde se encuentra y pueda saltar a cualquier sección sin retroceder.
+
+El recorrido esperado del visitante desciende desde la propuesta de valor hasta los segmentos objetivo. Cada segmento presenta un llamado a la acción propio que redirige a la vista correspondiente de la Frontend Web Application:
+
+| Segmento objetivo | Llamado a la acción | Vista de destino |
+| :---------------- | :------------------ | :--------------- |
+| Supervisores o encargados de flota | Monitor your fleet | Monitoring |
+| Conductores y repartidores | Report an incident | Incidents |
+| Empresas distribuidoras de bebidas | See the indicators | Analytics |
+
+En dispositivos con ancho menor a 48 rem la navegación se colapsa en un menú desplegable que expone su estado mediante el atributo `aria-expanded` y se cierra automáticamente al seleccionar un enlace. El pie de página repite los enlaces principales y añade el acceso a los términos y condiciones del servicio.
+
+**Frontend Web Application**
+
+La aplicación utiliza una barra lateral persistente como sistema de navegación global, con acceso a las secciones de rutas, incidencias e indicadores. Dentro de cada sección se emplea navegación contextual mediante una ruta de migas que permite regresar del detalle de una ruta o de una incidencia al listado del que se ingresó, sin perder los filtros aplicados.
 
 
 <a id="43-landing-page-ui-design"></a>
