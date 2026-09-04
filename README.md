@@ -1505,17 +1505,179 @@ La aplicación utiliza una barra lateral persistente como sistema de navegación
 <a id="51-software-configuration-management"></a>
 ## 5.1. Software Configuration Management.
 
+En esta sección el equipo establece las decisiones y convenciones que permiten mantener la consistencia del producto durante todo el ciclo de vida. Estas decisiones son de cumplimiento obligatorio para los cinco integrantes y se aplican de manera idéntica en los cuatro repositorios del proyecto.
+
 <a id="511-software-development-environment-configuration"></a>
 ### 5.1.1. Software Development Environment Configuration.
+
+A continuación se indican los productos de software que utiliza el equipo, el propósito de cada uno dentro del proyecto y la ruta de referencia o de descarga correspondiente.
+
+**Project Management**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| Trello | Product Backlog y Sprint Backlog del equipo, con el tablero público de control de estado. | https://trello.com |
+| Microsoft Teams | Reuniones de Sprint Planning, Review y Retrospective del equipo. | https://www.microsoft.com/microsoft-teams |
+| Microsoft Stream | Publicación de los videos de entrevistas y de exposición con enlace privado. | https://www.microsoft.com/microsoft-stream |
+
+**Requirements Management**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| UXPressia | Elaboración de User Personas, Empathy Maps, User Journey Maps e Impact Maps. | https://uxpressia.com |
+| Miro | Sesiones de Big Picture EventStorming y Design-Level EventStorming. | https://miro.com |
+
+**Product UX/UI Design**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| Figma | Wireframes, Mock-ups y Prototypes del Landing Page y de la Web Application. | https://www.figma.com |
+| FigJam | Wireflow Diagrams y User Flow Diagrams. | https://www.figma.com/figjam |
+| Structurizr | Diagramas de arquitectura de software bajo el C4 Model. | https://structurizr.com |
+| LucidChart | Diagramas UML de clases. | https://www.lucidchart.com |
+| ERDPlus | Diagramas de base de datos. | https://erdplus.com |
+
+**Software Development**
+
+| Producto | Propósito | Ruta de descarga |
+| :------- | :-------- | :--------------- |
+| JetBrains WebStorm | Entorno de desarrollo del Landing Page y de la Frontend Web Application. | https://www.jetbrains.com/webstorm |
+| JetBrains Rider | Entorno de desarrollo de los Web Services en C#. | https://www.jetbrains.com/rider |
+| Node.js y npm | Ejecución del entorno de desarrollo y gestión de dependencias de la Frontend Web Application. | https://nodejs.org |
+| .NET SDK | Compilación y ejecución de los Web Services. | https://dotnet.microsoft.com/download |
+| MySQL Server | Sistema de gestión de base de datos relacional. | https://dev.mysql.com/downloads |
+| Git | Control de versiones distribuido. | https://git-scm.com/downloads |
+
+**Software Deployment**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| GitHub Pages | Publicación del Landing Page. | https://pages.github.com |
+| Vercel | Publicación de la Frontend Web Application. | https://vercel.com |
+
+**Software Documentation**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| GitHub | Alojamiento del informe en formato Markdown y de los repositorios de código. | https://github.com |
+| Swagger / OpenAPI | Documentación de los endpoints de los Web Services. | https://swagger.io |
 
 <a id="512-source-code-management"></a>
 ### 5.1.2. Source Code Management.
 
+El seguimiento de modificaciones se realiza con Git, gestionado desde GitHub. El equipo trabaja dentro de una organización pública, con un repositorio independiente por producto.
+
+| Repositorio | Contenido | URL |
+| :---------- | :-------- | :-- |
+| Landing-Page | Sitio web estático en HTML5, CSS3 y JavaScript. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page |
+| Frontend-Web-Application | Aplicación web desarrollada con Vue Framework. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Application |
+| Web-Services | RESTful API en ASP.NET Core, incluyendo las pruebas unitarias y de aceptación. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Web-Services |
+| Report | Informe del proyecto en formato Markdown. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report |
+
+**GitFlow como Workflow de control de versiones**
+
+El equipo aplica GitFlow según el modelo descrito por Vincent Driessen. La estructura de ramas es la siguiente:
+
+| Rama | Propósito | Origen | Destino del merge |
+| :--- | :-------- | :----- | :---------------- |
+| `main` | Contiene únicamente versiones publicadas y estables. Cada commit de esta rama corresponde a un release etiquetado. | — | — |
+| `develop` | Rama de integración donde converge el trabajo terminado antes de conformar un release. | `main` | — |
+| `feature/<nombre>` | Una rama por cada feature. Concentra el trabajo de una funcionalidad hasta que queda terminada. | `develop` | `develop` |
+| `release/<versión>` | Preparación de una versión: correcciones finales y ajuste del número de versión. | `develop` | `main` y `develop` |
+| `hotfix/<nombre>` | Corrección urgente sobre una versión ya publicada. | `main` | `main` y `develop` |
+
+Las convenciones de nomenclatura de las ramas son las siguientes, empleando siempre kebab-case y el idioma inglés:
+
+| Tipo de rama | Convención | Ejemplo |
+| :----------- | :--------- | :------ |
+| Feature | `feature/<nombre-de-la-funcionalidad>` | `feature/design-system` |
+| Release | `release/<major>.<minor>.<patch>` | `release/1.0.0` |
+| Hotfix | `hotfix/<nombre-de-la-corrección>` | `hotfix/broken-segment-link` |
+
+La integración de una rama hacia `develop` o hacia `main` se realiza mediante un merge sin avance rápido, de modo que el commit de merge preserve en el historial la existencia de la rama y el conjunto de commits que la conformaron.
+
+**Semantic Versioning**
+
+Los releases se nombran siguiendo la especificación Semantic Versioning 2.0.0, con el formato `MAJOR.MINOR.PATCH`. Se incrementa el número mayor ante un cambio incompatible en la interfaz pública de los Web Services, el número menor ante la incorporación de nueva funcionalidad compatible, y el número de parche ante una corrección de defectos. Cada versión publicada en `main` recibe una etiqueta con el prefijo `v`, por ejemplo `v1.0.0`.
+
+**Conventional Commits**
+
+Los mensajes de commit siguen la especificación Conventional Commits, con la estructura `<type>(<scope>): <description>`. La descripción se redacta en inglés, en modo imperativo y en minúsculas.
+
+| Tipo | Uso |
+| :--- | :-- |
+| `feat` | Incorporación de una nueva funcionalidad. |
+| `fix` | Corrección de un defecto. |
+| `docs` | Cambios en la documentación o en el informe. |
+| `style` | Cambios que no afectan el comportamiento del código. |
+| `refactor` | Reorganización del código sin cambio de comportamiento. |
+| `test` | Incorporación o corrección de pruebas. |
+| `chore` | Tareas de configuración y mantenimiento del repositorio. |
+
+Ejemplos aplicados en el proyecto: `feat(design-system): add color, typography and spacing tokens`, `feat(landing): add home page with segment calls to action`, `docs(requirements): add user stories and product backlog`.
+
+Adicionalmente, el equipo acordó mantener commits de alcance acotado, de manera que cada uno concentre un cambio comprensible de forma aislada y el historial permita evidenciar con claridad el aporte individual de cada integrante.
+
 <a id="513-source-code-style-guide-and-conventions"></a>
 ### 5.1.3. Source Code Style Guide and Conventions.
 
+Toda la nomenclatura de elementos del código se escribe en inglés, sin excepción, en los cuatro repositorios. Las referencias adoptadas por lenguaje son las siguientes:
+
+| Lenguaje | Referencia adoptada |
+| :------- | :------------------ |
+| HTML | HTML Style Guide and Coding Conventions y Google HTML/CSS Style Guide. |
+| CSS | Google HTML/CSS Style Guide. |
+| JavaScript | Google JavaScript Style Guide, MDN JavaScript guidelines y W3C JavaScript Style Guide. |
+| Vue | Vue Style Guide. |
+| C# | C# Coding Conventions y Microsoft ASP.NET Core Coding Guidelines. |
+| Gherkin | Gherkin Conventions for Readable Specifications. |
+
+**Convenciones de nomenclatura**
+
+| Elemento | Convención | Ejemplo |
+| :------- | :--------- | :------ |
+| Archivos y carpetas de HTML, CSS y assets | kebab-case en minúsculas | `terms-of-service.html`, `assets/css/tokens.css` |
+| Clases CSS | kebab-case bajo la convención BEM | `.site-header__inner`, `.button--primary` |
+| Variables CSS | kebab-case con doble guion inicial | `--primary-dark` |
+| Variables y funciones de JavaScript | camelCase | `resolveInitialLanguage` |
+| Constantes de JavaScript | SCREAMING_SNAKE_CASE | `DEFAULT_LANGUAGE` |
+| Componentes de Vue | PascalCase | `RouteMonitorCard.vue` |
+| Clases, métodos y propiedades públicas de C# | PascalCase | `ShipmentTrackingService` |
+| Campos privados de C# | camelCase con guion bajo inicial | `_shipmentRepository` |
+| Endpoints de la API | kebab-case en plural | `/api/v1/shipments`, `/api/v1/incidents` |
+| Tablas y columnas de base de datos | snake_case | `delivery_stops`, `reported_at` |
+
+**Convenciones adicionales adoptadas por el equipo**
+
+El código se escribe sin comentarios: la legibilidad se sostiene con nombres autoexplicativos y con funciones de responsabilidad única. La indentación es de cuatro espacios en HTML, CSS y JavaScript. Los valores visuales nunca se escriben de forma directa en las vistas, sino que se consumen desde los tokens del design system.
+
 <a id="514-software-deployment-configuration"></a>
 ### 5.1.4. Software Deployment Configuration.
+
+**Landing Page**
+
+El Landing Page se publica en GitHub Pages a partir de la rama `main` del repositorio `Landing-Page`. Al tratarse de un sitio web estático sin proceso de construcción, no requiere configuración adicional. Los pasos son los siguientes:
+
+1. Integrar en `develop` las ramas de feature terminadas mediante un merge sin avance rápido.
+2. Crear la rama `release/<versión>` a partir de `develop`.
+3. Integrar la rama de release en `main`, etiquetar la versión con Semantic Versioning y publicar los cambios junto con la etiqueta.
+4. En la configuración del repositorio, en la sección Pages, seleccionar la publicación desde la rama `main` y el directorio raíz.
+5. Verificar la publicación en la URL entregada por GitHub Pages.
+
+**Frontend Web Application**
+
+La aplicación web se publica en Vercel a partir de la rama `main` del repositorio `Frontend-Web-Application`, mediante la integración de Vercel con GitHub. Los pasos son los siguientes:
+
+1. Importar el repositorio desde el panel de Vercel.
+2. Configurar el comando de construcción y el directorio de salida que corresponden a un proyecto de Vue.
+3. Registrar la variable de entorno con la URL base de los Web Services.
+4. Confirmar la publicación automática que Vercel ejecuta ante cada integración en `main`.
+
+Una vez publicada la aplicación, la URL definitiva se registra en los llamados a la acción de cada segmento objetivo del Landing Page, de modo que ambos productos queden enlazados.
+
+**Web Services**
+
+Los Web Services se publicarán en un proveedor de nube junto con la base de datos MySQL. La configuración correspondiente se documentará en la entrega en la que se despliegue la primera versión de este producto.
 
 
 <a id="52-landing-page-services-applications-implementation"></a>
