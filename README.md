@@ -5,9 +5,9 @@
 
 <h3 align="center">INGENIERÍA DE SOFTWARE</h3>
 <h4 align="center">CICLO 5</h4>
-<h4 align="center">1ASI0729 - APLICACIONES WEB</h4>
+<h4 align="center">1ASI0730 - APLICACIONES WEB</h4>
 <h4 align="center"><strong>NRC:</strong> 8084</h4>
-<h4 align="center"><strong>PROFESOR:</strong> Angel Augusto Velasquez Nuñez</h4>
+<h4 align="center"><strong>PROFESOR:</strong> Velásquez Núñez, Ángel Augusto</h4>
 
 <h3 align="center">INFORME DE TRABAJO FINAL</h3>
 <h4 align="center"><strong>CICLO:</strong> 2026-20</h4>
