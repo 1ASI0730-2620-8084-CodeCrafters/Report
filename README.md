@@ -36,6 +36,7 @@
 
 <hr>
 
+<a id="project-report-collaboration-insights"></a>
 # **Project Report Collaboration Insights**
 
 <hr>
@@ -264,6 +265,7 @@ La solución busca centralizar la información relacionada con vehículos, condu
 
 BottleTrack está orientado principalmente a empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores y repartidores, considerando también a las bodegas y minimarkets como actores relevantes dentro del proceso de distribución.
 
+<a id="121-antecedentes-y-problematica"></a>
 ### 1.2.1. Antecedentes y problemática
 
 La distribución de bebidas embotelladas requiere la coordinación constante entre empresas distribuidoras, supervisores de flota, conductores, repartidores y establecimientos que reciben los productos.
@@ -328,12 +330,14 @@ Para mantener un alcance viable durante el desarrollo del proyecto, se considera
 
 ---
 
+<a id="122-lean-ux-process"></a>
 ### 1.2.2. Lean UX Process
 
 CodeCrafters aplicará el enfoque Lean UX para identificar y validar las principales suposiciones relacionadas con BottleTrack.
 
 Durante esta etapa se definirán las creencias iniciales del equipo sobre el negocio, los usuarios, los beneficios esperados y las funcionalidades propuestas. Estas suposiciones serán posteriormente contrastadas mediante entrevistas, prototipos, pruebas de usabilidad y el desarrollo progresivo de un Producto Mínimo Viable (MVP).
 
+<a id="1221-lean-ux-problem-statements"></a>
 #### 1.2.2.1. Lean UX Problem Statements
 
 BottleTrack corresponde a una nueva iniciativa, por lo que el Problem Statement se plantea considerando el estado actual del dominio, los segmentos involucrados, las brechas identificadas y la estrategia inicial del producto.
@@ -352,6 +356,7 @@ Consideraremos que BottleTrack está generando valor cuando los usuarios puedan 
 
 ---
 
+<a id="1222-lean-ux-assumptions"></a>
 #### 1.2.2.2. Lean UX Assumptions
 
 Las siguientes assumptions representan las creencias iniciales de CodeCrafters y deberán ser validadas mediante investigación con los segmentos objetivo.
@@ -401,6 +406,7 @@ Las siguientes assumptions representan las creencias iniciales de CodeCrafters y
 
 ---
 
+<a id="1223-lean-ux-hypothesis-statements"></a>
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 Los siguientes Hypothesis Statements se derivan directamente de los Feature Assumptions establecidos anteriormente.
@@ -436,6 +442,7 @@ Creemos que lograremos **facilitar la actualización de información durante las
 
 
 
+<a id="13-segmentos-objetivo"></a>
 ## 1.3. Segmentos objetivo
 
 Los segmentos objetivo de BottleTrack se encuentran relacionados con las diferentes actividades que forman parte del proceso de distribución de bebidas embotelladas.
@@ -591,6 +598,7 @@ Esta clasificación inicial será revisada después de realizar las entrevistas 
 
 
 
+<a id="capitulo-ii-requirements-elicitation-analysis"></a>
 # Capítulo II: Requirements Elicitation & Analysis
 
 En este capítulo se desarrolla el proceso de levantamiento y análisis de información necesario para comprender con mayor profundidad el dominio en el que se desarrolla BottleTrack.
@@ -601,6 +609,7 @@ La información obtenida permitirá validar o corregir las suposiciones plantead
 
 ---
 
+<a id="21-competidores"></a>
 ## 2.1. Competidores
 
 Con la finalidad de comprender el entorno competitivo en el cual se desarrollará BottleTrack, CodeCrafters identificó tres soluciones digitales que ofrecen funcionalidades relacionadas con planificación de rutas, seguimiento de entregas, gestión de transporte y monitoreo de operaciones logísticas.
@@ -641,6 +650,7 @@ DispatchTrack atiende diferentes industrias y cuenta con soluciones relacionadas
 
 ---
 
+<a id="211-analisis-competitivo"></a>
 ### 2.1.1. Análisis competitivo
 
 El análisis competitivo tiene como objetivo identificar las principales características, fortalezas y limitaciones de soluciones existentes relacionadas con la gestión de operaciones de transporte.
@@ -705,6 +715,7 @@ La pregunta que orienta este análisis es:
 
 ---
 
+<a id="212-estrategias-y-tacticas-frente-a-competidores"></a>
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 A partir del análisis competitivo, CodeCrafters plantea estrategias preliminares para posicionar BottleTrack frente a plataformas consolidadas como SimpliRoute, Drivin y DispatchTrack.
@@ -766,6 +777,7 @@ BottleTrack priorizará inicialmente las funcionalidades principales y dejará c
 
 ---
 
+<a id="22-entrevistas"></a>
 ## 2.2. Entrevistas
 
 El proceso de entrevistas permitirá a CodeCrafters obtener información directamente de representantes de los segmentos objetivo de BottleTrack.
@@ -783,6 +795,7 @@ Los segmentos considerados para las entrevistas son:
 
 La información recopilada servirá posteriormente para realizar el análisis de entrevistas y construir los User Personas correspondientes a cada segmento.
 
+<a id="221-diseno-de-entrevistas"></a>
 ### 2.2.1. Diseño de entrevistas
 
 Las entrevistas serán de tipo semiestructurado. Se contará con un conjunto de preguntas principales previamente definido y preguntas complementarias que podrán utilizarse para profundizar en las respuestas de cada participante.
@@ -1109,6 +1122,7 @@ Las Technical Stories representan los requerimientos técnicos necesarios para i
 
 
 
+<a id="33-product-backlog"></a>
 ## 3.3. Product Backlog
 
 El Product Backlog de BottleTrack contiene las User Stories y Technical Stories identificadas para el desarrollo del producto.
