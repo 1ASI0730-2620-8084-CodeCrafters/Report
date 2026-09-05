@@ -5,9 +5,9 @@
 
 <h3 align="center">INGENIERÍA DE SOFTWARE</h3>
 <h4 align="center">CICLO 5</h4>
-<h4 align="center">1ASI0729 - APLICACIONES WEB</h4>
+<h4 align="center">1ASI0730 - APLICACIONES WEB</h4>
 <h4 align="center"><strong>NRC:</strong> 8084</h4>
-<h4 align="center"><strong>PROFESOR:</strong> Angel Augusto Velasquez Nuñez</h4>
+<h4 align="center"><strong>PROFESOR:</strong> Velásquez Núñez, Ángel Augusto</h4>
 
 <h3 align="center">INFORME DE TRABAJO FINAL</h3>
 <h4 align="center"><strong>CICLO:</strong> 2026-20</h4>
@@ -30,12 +30,22 @@
 <a id="registro-de-versiones-del-informe"></a>
 # **Registro de Versiones del Informe**
 
-| Versión | Fecha | Autor   | Descripción de modificación |
-|:--------|:------|:--------|:----------------------------|
-| AV1     |       | Gerardo | palabra                     |
+| Versión | Fecha | Autor | Descripción de modificación |
+|:--------|:------|:------|:----------------------------|
+| 1.0 | 2026-09-01 | Palacin Lazo, Gerardo Valentin | Creación del informe a partir de la plantilla del curso, con la carátula, el índice y la estructura de capítulos. |
+| 1.1 | 2026-09-02 | Cumba Rengifo, Leonardo Raul | Redacción del Capítulo I, incluyendo el Startup Profile, el Solution Profile con el análisis 5W y 2H, el Lean UX Process y los segmentos objetivo. |
+| 1.2 | 2026-09-02 | Cumba Rengifo, Leonardo Raul | Redacción del Capítulo II con el análisis competitivo, las estrategias frente a competidores y el diseño de entrevistas por segmento. |
+| 1.3 | 2026-09-03 | Cumba Rengifo, Leonardo Raul | Redacción del Capítulo III con las Epics, User Stories, Technical Stories y el Product Backlog priorizado. |
+| 1.4 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Corrección del código del curso y del nombre del profesor en la carátula, y reparación de los enlaces del índice que no resolvían. |
+| 1.5 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Incorporación de las fichas de perfil de los integrantes del equipo con sus fotografías. |
+| 1.6 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Redacción de las secciones 4.1 Style Guidelines y 4.2 Information Architecture del Capítulo IV. |
+| 1.7 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Redacción de la sección 5.1 Software Configuration Management del Capítulo V. |
+| 1.8 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Incorporación de la sección Student Outcome, el Ubiquitous Language y los Anexos del informe. |
+| 1.9 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Incorporación del Impact Mapping, la Bibliografía en formato APA y las muestras visuales del design system. |
 
 <hr>
 
+<a id="project-report-collaboration-insights"></a>
 # **Project Report Collaboration Insights**
 
 <hr>
@@ -150,6 +160,19 @@
 <a id="student-outcome"></a>
 # **Student Outcome**
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 5**
+
+Criterio: _La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos._
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+| :------------------ | :------------------ | :----------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Crispin Valdivia, Angel Gabriel**<br>_AV1_<br>Lideró la definición del design system de BottleTrack, estableciendo la rampa de color de marca, la escala tipográfica y de espaciado, y los componentes compartidos, dejándolos documentados en una vista de style guide consultable por todo el equipo.<br>Lideró la implementación del Landing Page en HTML5, CSS3 y JavaScript, incluyendo la internacionalización en inglés y español latinoamericano y las características de accesibilidad.<br>Estableció el flujo de trabajo GitFlow y las convenciones de Conventional Commits y Semantic Versioning que el equipo aplica en los cuatro repositorios.<br><br>**Cumba Rengifo, Leonardo Raul**<br>_AV1_<br>Lideró la elaboración del Solution Profile, aplicando la técnica de las 5 W y 2 H sobre el dominio del transporte de bebidas embotelladas.<br>Condujo la ejecución del Lean UX Process, redactando el Problem Statement, los cinco tipos de assumptions y los hypothesis statements del proyecto.<br>Lideró el análisis competitivo frente a SimpliRoute, Drivin y DispatchTrack, y la especificación de los User Stories y el Product Backlog.<br><br>**Palacin Lazo, Gerardo Valentin**<br>_AV1_<br>Estableció la estructura base del informe del proyecto y la organización del repositorio de documentación del equipo.<br>_Pendiente de completar por el integrante._<br><br>**Huapaya Buitron, Ariana Alheli**<br>_AV1_<br>_Pendiente de completar por la integrante._<br><br>**Pezo Castilla, Maria Jose**<br>_AV1_<br>_Pendiente de completar por la integrante._ | _AV1_<br>El equipo distribuyó el liderazgo por aspectos del proyecto en lugar de concentrarlo en una sola persona, de modo que cada integrante condujo el área en la que aportaba mayor conocimiento y colaboró en las restantes.<br>La adopción de GitFlow y de Conventional Commits desde el primer día permitió que el liderazgo ejercido por cada integrante quedara documentado de forma verificable en el historial de los repositorios, y no solo en la percepción de los miembros.<br>El equipo comprobó que definir un design system antes de implementar el Landing Page evitó decisiones visuales dispersas y redujo la necesidad de correcciones posteriores. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Crispin Valdivia, Angel Gabriel**<br>_AV1_<br>Incorporó criterios de diseño inclusivo en el Landing Page, con atributos ARIA, texto alternativo en las imágenes, enlace de salto al contenido y respeto por la preferencia de movimiento reducido del sistema operativo.<br>Implementó la internacionalización en inglés y español latinoamericano para que la experiencia sea accesible a los distintos perfiles de usuario de la operación.<br>Documentó las convenciones de código y de despliegue en el informe, de manera que cualquier integrante pueda incorporarse al desarrollo sin depender de explicaciones verbales.<br><br>**Cumba Rengifo, Leonardo Raul**<br>_AV1_<br>Identificó y caracterizó los segmentos objetivo del proyecto, incluyendo sus necesidades iniciales y su priorización.<br>Diseñó las guías de entrevista diferenciadas para cada segmento, considerando el contexto particular de conductores, supervisores y distribuidoras.<br>Estableció los criterios de priorización del Product Backlog en función del valor para el negocio.<br><br>**Palacin Lazo, Gerardo Valentin**<br>_AV1_<br>_Pendiente de completar por el integrante._<br><br>**Huapaya Buitron, Ariana Alheli**<br>_AV1_<br>_Pendiente de completar por la integrante._<br><br>**Pezo Castilla, Maria Jose**<br>_AV1_<br>_Pendiente de completar por la integrante._ | _AV1_<br>El equipo estableció como meta de la primera iteración la publicación del Landing Page y la especificación de los requisitos del producto, y organizó el trabajo en tareas asignadas a integrantes específicos para alcanzarla.<br>El uso de un tablero de control y de ramas de feature independientes permitió que varios integrantes avanzaran en paralelo sin bloquearse entre sí.<br>La incorporación de accesibilidad e internacionalización desde la primera versión del producto, y no como una corrección posterior, reflejó el compromiso del equipo con una solución inclusiva. |
+
 <hr>
 
 
@@ -209,58 +232,53 @@ De esta manera, CodeCrafters busca reducir la dependencia de procesos manuales y
 <a id="112-perfiles-de-integrantes-del-equipo"></a>
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
+A continuación se presenta la ficha de cada integrante del equipo, indicando su código de estudiante, la carrera que cursa y un resumen de los principales conocimientos técnicos y habilidades que aporta al equipo.
 
-
----
-
-
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
-
+| **Integrante**            | Palacin Lazo, Gerardo Valentin |
+| :------------------------ | :----------------------------- |
+| **Código del Estudiante** | U20211C201 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="img/team-members/gerardo-palacin.jpeg" alt="Fotografía de Gerardo Valentin Palacin Lazo" width="140"> |
 
 ---
 
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
-
-
----
-
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
-
-
+| **Integrante**            | Crispin Valdivia, Angel Gabriel |
+| :------------------------ | :------------------------------ |
+| **Código del Estudiante** | U20221G181 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="img/team-members/angel-crispin.jpg" alt="Fotografía de Angel Gabriel Crispin Valdivia" width="140"> |
 
 ---
 
-| **Integrante**            |   									    |
-| :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                          	|
-| **Carrera**               |                    		            	|
-| **Descripción**           | 											|
-| **Foto**                  |                                           |>
+| **Integrante**            | Cumba Rengifo, Leonardo Raul |
+| :------------------------ | :--------------------------- |
+| **Código del Estudiante** | U202311912 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="img/team-members/leonardo-cumba.jpeg" alt="Fotografía de Leonardo Raul Cumba Rengifo" width="140"> |
 
-</div>
+---
+
+| **Integrante**            | Huapaya Buitron, Ariana Alheli |
+| :------------------------ | :----------------------------- |
+| **Código del Estudiante** | U201819645 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="img/team-members/ariana-huapaya.jpeg" alt="Fotografía de Ariana Alheli Huapaya Buitron" width="140"> |
+
+---
+
+| **Integrante**            | Pezo Castilla, Maria Jose |
+| :------------------------ | :------------------------ |
+| **Código del Estudiante** | U20221C590 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Foto**                  | <img src="img/team-members/maria-pezo.jpeg" alt="Fotografía de Maria Jose Pezo Castilla" width="140"> |
 
 
+<a id="12-solution-profile"></a>
 ## 1.2. Solution Profile
 
 BottleTrack es una plataforma web desarrollada por CodeCrafters para apoyar la gestión y seguimiento de las operaciones de transporte de bebidas embotelladas.
@@ -269,6 +287,7 @@ La solución busca centralizar la información relacionada con vehículos, condu
 
 BottleTrack está orientado principalmente a empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores y repartidores, considerando también a las bodegas y minimarkets como actores relevantes dentro del proceso de distribución.
 
+<a id="121-antecedentes-y-problematica"></a>
 ### 1.2.1. Antecedentes y problemática
 
 La distribución de bebidas embotelladas requiere la coordinación constante entre empresas distribuidoras, supervisores de flota, conductores, repartidores y establecimientos que reciben los productos.
@@ -333,12 +352,14 @@ Para mantener un alcance viable durante el desarrollo del proyecto, se considera
 
 ---
 
+<a id="122-lean-ux-process"></a>
 ### 1.2.2. Lean UX Process
 
 CodeCrafters aplicará el enfoque Lean UX para identificar y validar las principales suposiciones relacionadas con BottleTrack.
 
 Durante esta etapa se definirán las creencias iniciales del equipo sobre el negocio, los usuarios, los beneficios esperados y las funcionalidades propuestas. Estas suposiciones serán posteriormente contrastadas mediante entrevistas, prototipos, pruebas de usabilidad y el desarrollo progresivo de un Producto Mínimo Viable (MVP).
 
+<a id="1221-lean-ux-problem-statements"></a>
 #### 1.2.2.1. Lean UX Problem Statements
 
 BottleTrack corresponde a una nueva iniciativa, por lo que el Problem Statement se plantea considerando el estado actual del dominio, los segmentos involucrados, las brechas identificadas y la estrategia inicial del producto.
@@ -357,6 +378,7 @@ Consideraremos que BottleTrack está generando valor cuando los usuarios puedan 
 
 ---
 
+<a id="1222-lean-ux-assumptions"></a>
 #### 1.2.2.2. Lean UX Assumptions
 
 Las siguientes assumptions representan las creencias iniciales de CodeCrafters y deberán ser validadas mediante investigación con los segmentos objetivo.
@@ -406,6 +428,7 @@ Las siguientes assumptions representan las creencias iniciales de CodeCrafters y
 
 ---
 
+<a id="1223-lean-ux-hypothesis-statements"></a>
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 Los siguientes Hypothesis Statements se derivan directamente de los Feature Assumptions establecidos anteriormente.
@@ -441,6 +464,7 @@ Creemos que lograremos **facilitar la actualización de información durante las
 
 
 
+<a id="13-segmentos-objetivo"></a>
 ## 1.3. Segmentos objetivo
 
 Los segmentos objetivo de BottleTrack se encuentran relacionados con las diferentes actividades que forman parte del proceso de distribución de bebidas embotelladas.
@@ -596,6 +620,7 @@ Esta clasificación inicial será revisada después de realizar las entrevistas 
 
 
 
+<a id="capitulo-ii-requirements-elicitation-analysis"></a>
 # Capítulo II: Requirements Elicitation & Analysis
 
 En este capítulo se desarrolla el proceso de levantamiento y análisis de información necesario para comprender con mayor profundidad el dominio en el que se desarrolla BottleTrack.
@@ -606,6 +631,7 @@ La información obtenida permitirá validar o corregir las suposiciones plantead
 
 ---
 
+<a id="21-competidores"></a>
 ## 2.1. Competidores
 
 Con la finalidad de comprender el entorno competitivo en el cual se desarrollará BottleTrack, CodeCrafters identificó tres soluciones digitales que ofrecen funcionalidades relacionadas con planificación de rutas, seguimiento de entregas, gestión de transporte y monitoreo de operaciones logísticas.
@@ -646,6 +672,7 @@ DispatchTrack atiende diferentes industrias y cuenta con soluciones relacionadas
 
 ---
 
+<a id="211-analisis-competitivo"></a>
 ### 2.1.1. Análisis competitivo
 
 El análisis competitivo tiene como objetivo identificar las principales características, fortalezas y limitaciones de soluciones existentes relacionadas con la gestión de operaciones de transporte.
@@ -710,6 +737,7 @@ La pregunta que orienta este análisis es:
 
 ---
 
+<a id="212-estrategias-y-tacticas-frente-a-competidores"></a>
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 A partir del análisis competitivo, CodeCrafters plantea estrategias preliminares para posicionar BottleTrack frente a plataformas consolidadas como SimpliRoute, Drivin y DispatchTrack.
@@ -771,6 +799,7 @@ BottleTrack priorizará inicialmente las funcionalidades principales y dejará c
 
 ---
 
+<a id="22-entrevistas"></a>
 ## 2.2. Entrevistas
 
 El proceso de entrevistas permitirá a CodeCrafters obtener información directamente de representantes de los segmentos objetivo de BottleTrack.
@@ -788,6 +817,7 @@ Los segmentos considerados para las entrevistas son:
 
 La información recopilada servirá posteriormente para realizar el análisis de entrevistas y construir los User Personas correspondientes a cada segmento.
 
+<a id="221-diseno-de-entrevistas"></a>
 ### 2.2.1. Diseño de entrevistas
 
 Las entrevistas serán de tipo semiestructurado. Se contará con un conjunto de preguntas principales previamente definido y preguntas complementarias que podrán utilizarse para profundizar en las respuestas de cada participante.
@@ -1004,6 +1034,62 @@ Las entrevistas deberán registrarse en video para conservar evidencia del proce
 <a id="25-ubiquitous-language"></a>
 ## 2.5. Ubiquitous Language.
 
+El Ubiquitous Language es el glosario de términos y conceptos del dominio del negocio que todos los miembros del equipo y los interesados emplean sin ambigüedad. Los términos que se presentan a continuación corresponden al dominio de la distribución y el transporte de bebidas embotelladas, y no a conceptos técnicos de la ingeniería de software. Cada término se define en inglés, que es el idioma adoptado para la nomenclatura del código y para la interfaz por defecto de los productos, acompañado de su equivalente en español entre paréntesis.
+
+Este glosario es la fuente de la que se derivan los nombres de las entidades del modelo, los endpoints de la API y las etiquetas de la interfaz descritas en el Labeling System, de manera que un mismo concepto se nombre igual en la conversación con el cliente, en el informe, en la interfaz y en el código.
+
+**Términos del proceso de distribución**
+
+| Término | Definición |
+| :------ | :--------- |
+| **Bottling Plant** (Planta embotelladora) | Instalación donde el producto es envasado y desde la cual se despacha hacia los puntos de entrega. Constituye el origen de la operación de transporte. |
+| **Distributor** (Distribuidora) | Empresa responsable de trasladar el producto embotellado desde la planta hasta los puntos de venta. Es la organización que contrata la plataforma. |
+| **Fleet** (Flota) | Conjunto de vehículos con los que la distribuidora ejecuta sus operaciones de reparto. |
+| **Vehicle** (Vehículo) | Unidad de transporte identificada por su placa, a la que se asigna una ruta y sobre la cual pueden encontrarse instalados dispositivos de monitoreo. |
+| **Driver** (Conductor) | Persona responsable de conducir el vehículo, ejecutar las entregas de una ruta y reportar las incidencias que ocurran durante el trayecto. |
+| **Supervisor** (Supervisor) | Persona responsable de planificar y controlar las rutas de la flota, atender las alertas y dar seguimiento a las incidencias hasta su cierre. |
+| **Delivery Point** (Punto de entrega) | Establecimiento que recibe el producto, como una bodega, un minimarket o un cliente mayorista. |
+
+**Términos de la operación de transporte**
+
+| Término | Definición |
+| :------ | :--------- |
+| **Shipment** (Envío) | Carga de producto embotellado que se despacha desde la planta con destino a uno o varios puntos de entrega. Es la unidad sobre la que se realiza el seguimiento. |
+| **Route** (Ruta) | Recorrido planificado que un vehículo debe cubrir para completar un envío, conformado por una secuencia ordenada de paradas. |
+| **Stop** (Parada) | Cada punto de entrega individual dentro de una ruta, con su estado propio de cumplimiento. |
+| **Dispatch** (Despacho) | Acto de registrar un envío, asignarle un vehículo y un conductor, y autorizar su salida de la planta. |
+| **Route Progress** (Avance de la ruta) | Proporción de paradas completadas respecto del total de paradas planificadas para una ruta. |
+| **Proof of Delivery** (Constancia de entrega) | Registro que confirma que el producto fue recibido en una parada, incluyendo la cantidad efectivamente entregada. |
+| **Shortage** (Faltante) | Diferencia negativa entre la cantidad de producto despachada y la cantidad recibida en el punto de entrega. |
+| **Product Loss** (Merma) | Cantidad de producto que no llega en condiciones de ser vendido, ya sea por rotura, daño o faltante. |
+
+**Términos del monitoreo con dispositivos IoT**
+
+| Término | Definición |
+| :------ | :--------- |
+| **IoT Device** (Dispositivo IoT) | Equipo instalado en el vehículo o en la carga que registra y transmite información del transporte hacia la plataforma. |
+| **Sensor** (Sensor) | Componente del dispositivo que mide una magnitud específica del transporte, como la posición, la temperatura o la aceleración. |
+| **Sensor Reading** (Lectura de sensor) | Valor registrado por un sensor en un instante determinado, asociado a un envío y a una posición del recorrido. |
+| **Cargo Temperature** (Temperatura de la carga) | Temperatura registrada en el compartimento donde viaja el producto embotellado. |
+| **Safe Range** (Rango seguro) | Intervalo de valores dentro del cual una magnitud monitoreada se considera aceptable para preservar la calidad del producto. |
+| **Impact** (Golpe) | Movimiento brusco detectado por los sensores, que representa un riesgo de rotura para el producto embotellado. |
+| **Alert** (Alerta) | Aviso generado automáticamente cuando una lectura de sensor se sitúa fuera del rango seguro o cuando se detecta un golpe. |
+| **Telemetry** (Telemetría) | Conjunto de lecturas transmitidas por los dispositivos durante el trayecto, que sustenta el seguimiento del envío. |
+
+**Términos del reporte de incidencias**
+
+| Término | Definición |
+| :------ | :--------- |
+| **Incident** (Incidencia) | Problema ocurrido durante el transporte que afecta la entrega, reportado por el conductor o generado a partir de una alerta. |
+| **Incident Type** (Tipo de incidencia) | Clasificación de la incidencia según su naturaleza: producto dañado, botellas rotas, unidades faltantes o retraso. |
+| **Broken Bottle** (Botella rota) | Unidad de producto que llega quebrada y no puede ser entregada al punto de venta. |
+| **Damaged Product** (Producto dañado) | Unidad que, sin estar rota, presenta un deterioro que impide su comercialización. |
+| **Delay** (Retraso) | Diferencia entre el momento planificado y el momento real de llegada a una parada. |
+| **Evidence** (Evidencia) | Registro fotográfico y descriptivo que el conductor adjunta a una incidencia para sustentar lo ocurrido. |
+| **Severity** (Severidad) | Grado de afectación de una incidencia sobre la operación, empleado por el supervisor para priorizar su atención. |
+| **Incident Follow-up** (Seguimiento de incidencia) | Proceso mediante el cual el supervisor revisa una incidencia reportada, registra las acciones tomadas y determina su cierre. |
+| **Resolution** (Resolución) | Cierre de una incidencia por parte del supervisor, con la conclusión de lo ocurrido y la acción adoptada. |
+
 <hr>
 
 
@@ -1112,8 +1198,7 @@ Las Technical Stories representan los requerimientos técnicos necesarios para i
 <a id="32-impact-mapping"></a>
 ## 3.2. Impact Mapping.
 
-
-
+<a id="33-product-backlog"></a>
 ## 3.3. Product Backlog
 
 El Product Backlog de BottleTrack contiene las User Stories y Technical Stories identificadas para el desarrollo del producto.
@@ -1208,30 +1293,255 @@ Las Technical Stories representan principalmente el trabajo requerido en el Back
 <a id="41-style-guidelines"></a>
 ## 4.1. Style Guidelines.
 
+En esta sección el equipo establece el repositorio central de decisiones visuales que comparten el Landing Page y la Frontend Web Application de BottleTrack. El objetivo es que ambos productos se perciban como una sola experiencia, tal como lo exige la consistencia entre el sitio web estático y la aplicación web.
+
+Las decisiones se implementaron como variables CSS en el archivo `assets/css/tokens.css` del repositorio del Landing Page, y se documentan de forma viva en la vista `style-guide.html`, que funciona como referencia consultable para todo el equipo. Ningún valor visual se escribe directamente en las vistas: siempre se consume el token correspondiente, de modo que un cambio de marca se realiza en un solo lugar.
+
 <a id="411-general-style-guidelines"></a>
 ### 4.1.1. General Style Guidelines.
 
+**Branding**
+
+BottleTrack es el producto de la startup CodeCrafters. La marca se apoya en el color naranja, asociado al movimiento y a la señalización logística, y en una comunicación directa centrada en la trazabilidad. El logotipo se representa con una marca cuadrada de esquinas redondeadas acompañada del nombre del producto en tipografía de alto peso.
+
+**Tono de comunicación**
+
+El equipo definió las siguientes dimensiones para el lenguaje aplicado en toda la experiencia:
+
+| Dimensión | Decisión | Sustento |
+| :-------- | :------- | :------- |
+| Divertido / Serio | Serio | El usuario consulta la plataforma mientras la carga está en riesgo; el contenido informa, no entretiene. |
+| Formal / Casual | Casual moderado | Los segmentos incluyen conductores y supervisores de operación, para quienes un lenguaje excesivamente formal genera distancia. |
+| Respetuoso / Irreverente | Respetuoso | La plataforma registra incidencias que afectan el desempeño de personas, por lo que el lenguaje evita cualquier tono de sanción. |
+| Entusiasta / Sereno | Sereno | Las alertas deben leerse con calma para no amplificar la urgencia de la operación. |
+
+**Colores**
+
+La paleta se organiza en una sola rampa de marca de tres peldaños, separados por contraste y no por matiz. Solo los dos peldaños oscuros son legibles como texto sobre fondo blanco; el color de marca se emplea únicamente como fondo con texto blanco encima.
+
+| Muestra | Token | Valor | Contraste sobre blanco | Rol |
+| :------ | :---- | :---- | :--------------------- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#f97316;border:1px solid #ded8d3;"></div> | `--primary` | `#f97316` | 3.0:1 | Color de marca. Fondo de botones y acentos, nunca texto. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#b34900;border:1px solid #ded8d3;"></div> | `--primary-mid` | `#b34900` | 5.4:1 (AA) | Primer peldaño legible. Enlaces y texto destacado. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#4f2000;border:1px solid #ded8d3;"></div> | `--primary-dark` | `#4f2000` | 12.4:1 | Titulares, estados de hover y acentos profundos. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#ffedd5;border:1px solid #ded8d3;"></div> | `--primary-soft` | `#ffedd5` | — | Fondo tenue para botones terciarios y numeradores. |
+
+Las superficies y el color de texto general se resuelven con cuatro valores. Una superficie apagada se pinta siempre con un color opaco, nunca con una capa translúcida.
+
+| Muestra | Token | Valor | Rol |
+| :------ | :---- | :---- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#ffffff;border:1px solid #ded8d3;"></div> | `--background` / `--surface` | `#ffffff` | Fondo de la página y de las tarjetas. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#f6f2ef;border:1px solid #ded8d3;"></div> | `--surface-muted` | `#f6f2ef` | Superficie en segundo plano, para alternar secciones. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#303030;border:1px solid #ded8d3;"></div> | `--foreground` | `#303030` | Color de texto general, en reemplazo del negro puro. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#202020;border:1px solid #ded8d3;"></div> | `--chrome` | `#202020` | Fondo del pie de página y del marco de la aplicación. |
+
+Los colores neutros se reducen a cuatro roles de línea ordenados por jerarquía y no por tono, de manera que un divisor interno no pese lo mismo que el borde de una tarjeta clicable:
+
+| Muestra | Token | Valor | Rol |
+| :------ | :---- | :---- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#efeceb;border:1px solid #ded8d3;"></div> | `--line` | `#efeceb` | Divisor dentro de una superficie. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#ded8d3;border:1px solid #ded8d3;"></div> | `--border` | `#ded8d3` | Borde por defecto de una superficie. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#c2c2c2;border:1px solid #ded8d3;"></div> | `--control` | `#c2c2c2` | Borde de un elemento interactivo en reposo. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#a3a3a3;border:1px solid #ded8d3;"></div> | `--control-hover` | `#a3a3a3` | El mismo elemento bajo el cursor. |
+
+Los estados se resuelven con cuatro roles, cada uno con tres piezas: el color sólido para puntos y barras, el fuerte para el hover y para el texto sobre el suave, y el suave como fondo de etiqueta. La pareja suave más fuerte cumple el nivel AA por diseño.
+
+| Rol | Sólido | Fuerte | Suave | Uso en BottleTrack |
+| :-- | :----- | :----- | :---- | :----------------- |
+| `danger` | <div style="width:48px;height:24px;border-radius:4px;background-color:#e7000b;border:1px solid #ded8d3;"></div><br>`#e7000b` | <div style="width:48px;height:24px;border-radius:4px;background-color:#c10007;border:1px solid #ded8d3;"></div><br>`#c10007` | <div style="width:48px;height:24px;border-radius:4px;background-color:#ffe2e2;border:1px solid #ded8d3;"></div><br>`#ffe2e2` | Botellas rotas, entrega fallida, incidencia crítica. |
+| `warning` | <div style="width:48px;height:24px;border-radius:4px;background-color:#eab308;border:1px solid #ded8d3;"></div><br>`#eab308` | <div style="width:48px;height:24px;border-radius:4px;background-color:#854d0e;border:1px solid #ded8d3;"></div><br>`#854d0e` | <div style="width:48px;height:24px;border-radius:4px;background-color:#fef9c3;border:1px solid #ded8d3;"></div><br>`#fef9c3` | Ruta retrasada, temperatura fuera de rango. |
+| `success` | <div style="width:48px;height:24px;border-radius:4px;background-color:#30b875;border:1px solid #ded8d3;"></div><br>`#30b875` | <div style="width:48px;height:24px;border-radius:4px;background-color:#044137;border:1px solid #ded8d3;"></div><br>`#044137` | <div style="width:48px;height:24px;border-radius:4px;background-color:#e0f5eb;border:1px solid #ded8d3;"></div><br>`#e0f5eb` | Entrega realizada, incidencia resuelta. |
+| `info` | <div style="width:48px;height:24px;border-radius:4px;background-color:#155dfc;border:1px solid #ded8d3;"></div><br>`#155dfc` | <div style="width:48px;height:24px;border-radius:4px;background-color:#1447e6;border:1px solid #ded8d3;"></div><br>`#1447e6` | <div style="width:48px;height:24px;border-radius:4px;background-color:#dbeafe;border:1px solid #ded8d3;"></div><br>`#dbeafe` | Envío en tránsito, aviso informativo. |
+
+Finalmente, el estado deshabilitado cuenta con su propia pareja de tokens. Su contraste bajo es deliberado, ya que las pautas de accesibilidad eximen a los controles deshabilitados justamente para que se lean inertes.
+
+| Muestra | Token | Valor | Rol |
+| :------ | :---- | :---- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#eae7e5;border:1px solid #ded8d3;"></div> | `--disabled` | `#eae7e5` | Relleno del control deshabilitado. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#a09a96;border:1px solid #ded8d3;"></div> | `--disabled-ink` | `#a09a96` | Texto del control deshabilitado. |
+
+Una decisión relevante es que el rol `success` conserva una familia verde propia y el rol `warning` se desplazó hacia el ámbar. Al ser el naranja el color de la marca, un estado de aviso naranja dejaría de leerse como señal y una confirmación naranja se confundiría con un elemento de marca.
+
+**Tipografía**
+
+La familia tipográfica es Manrope, con una pila de respaldo de tipografías de sistema. La escala parte de una base de 16 píxeles y crece en pasos definidos como variables, evitando valores arbitrarios.
+
+| Muestra | Token | Tamaño | Uso |
+| :------ | :---- | :----- | :-- |
+| <span style="font-size:48px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-5xl` | 3 rem · 48 px | Titular principal del Landing Page. |
+| <span style="font-size:36px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-4xl` | 2.25 rem · 36 px | Título de página. |
+| <span style="font-size:30px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-3xl` | 1.875 rem · 30 px | Título de sección. |
+| <span style="font-size:20px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-xl` | 1.25 rem · 20 px | Título de tarjeta. |
+| <span style="font-size:18px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-lg` | 1.125 rem · 18 px | Párrafo de entrada de sección. |
+| <span style="font-size:16px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-base` | 1 rem · 16 px | Cuerpo de texto por defecto. |
+| <span style="font-size:14px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-sm` | 0.875 rem · 14 px | Texto secundario, etiquetas y botones. |
+| <span style="font-size:12px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-xs` | 0.75 rem · 12 px | Metadatos y etiquetas de estado. |
+
+Los pesos se limitan a cuatro valores (400, 500, 600 y 700) y la altura de línea a tres: 1.2 para titulares, 1.35 para texto compacto y 1.6 para cuerpo de texto.
+
+**Espaciado**
+
+El sistema de espaciado utiliza una base de cuatro píxeles expuesta como escala de tokens. Toda separación entre elementos consume un valor de la escala, lo que sostiene el ritmo vertical de las vistas en ambos productos y evita el uso de valores arbitrarios.
+
+| Muestra | Token | Valor | Uso habitual |
+| :------ | :---- | :---- | :----------- |
+| <div style="width:4px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-1` | 4 px | Separación mínima entre elementos contiguos. |
+| <div style="width:8px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-2` | 8 px | Separación entre una etiqueta y su campo. |
+| <div style="width:12px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-3` | 12 px | Relleno vertical de botones y etiquetas de estado. |
+| <div style="width:16px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-4` | 16 px | Separación entre tarjetas de una rejilla. |
+| <div style="width:20px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-5` | 20 px | Separación entre bloques de texto del encabezado principal. |
+| <div style="width:24px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-6` | 24 px | Relleno interno de una tarjeta y márgenes laterales del contenedor. |
+| <div style="width:32px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-8` | 32 px | Separación entre bloques del pie de página. |
+| <div style="width:40px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-10` | 40 px | Separación entre columnas en pantallas medianas. |
+| <div style="width:48px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-12` | 48 px | Relleno vertical de sección en vista móvil. |
+| <div style="width:64px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-16` | 64 px | Separación entre las dos columnas del encabezado principal. |
+| <div style="width:80px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-20` | 80 px | Relleno vertical de sección en vista de escritorio. |
+| <div style="width:96px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-24` | 96 px | Espacio superior del encabezado principal. |
+
 <a id="412-web-style-guidelines"></a>
 ### 4.1.2. Web Style Guidelines.
+
+**Superficies y elevación**
+
+Una superficie apagada se pinta siempre con un color opaco (`--surface-muted`) y nunca con una capa translúcida, porque una capa translúcida deja pasar el color que se encuentre detrás y produce resultados distintos según la sección. La elevación se reserva para elementos que efectivamente flotan: una tarjeta estática se define por su borde, y solo la tarjeta clicable recibe sombra al recibir el cursor.
+
+**Componentes compartidos**
+
+Los componentes se implementaron en `assets/css/components.css` y son los mismos que consumirá la Frontend Web Application, adaptándolos a la biblioteca de componentes PrimeVue bajo el lenguaje de diseño Material Design:
+
+| Componente | Variantes | Comportamiento |
+| :--------- | :-------- | :------------- |
+| Botón | Primario, secundario, terciario y deshabilitado | El botón deshabilitado utiliza los tokens `--disabled` y `--disabled-ink`, con un contraste bajo deliberado para que se lea inerte. |
+| Tarjeta | Estática e interactiva | La interactiva refuerza el borde en reposo y añade elevación en hover. |
+| Etiqueta de estado | Cuatro roles de estado | Combina siempre el fondo suave con el texto fuerte del mismo rol. |
+| Campo de formulario | Reposo, hover y deshabilitado | Etiqueta asociada mediante el atributo `for`. |
+
+**Responsive web design**
+
+El Landing Page se construyó con una aproximación fluida basada en unidades relativas, `grid` y `flex`. Los puntos de quiebre son dos: 60 rem, donde el bloque principal pasa de dos columnas a una, y 48 rem, donde la navegación se colapsa en un menú desplegable y la escala tipográfica reduce sus tamaños mayores.
+
+**Interacción y accesibilidad**
+
+Las transiciones duran 160 milisegundos y se anulan cuando el sistema operativo declara la preferencia `prefers-reduced-motion`. Todo elemento enfocable expone un contorno visible mediante `:focus-visible`. La experiencia incluye un enlace de salto al contenido principal, atributos ARIA en los controles que cambian de estado y texto alternativo en las imágenes.
 
 
 <a id="42-information-architecture"></a>
 ## 4.2. Information Architecture.
 
+En esta sección el equipo plantea las decisiones que dirigen la manera como se organiza el contenido en el Landing Page y en la Frontend Web Application de BottleTrack. El criterio que guía estas decisiones es que cada segmento objetivo encuentre lo que necesita sin recorrer contenido que no le corresponde, considerando que los segmentos operan en contextos muy distintos: el supervisor consulta la plataforma desde una oficina y el conductor desde un teléfono, en ruta y con poco tiempo disponible.
+
 <a id="421-organization-systems"></a>
 ### 4.2.1. Organization Systems.
+
+**Organización visual del contenido**
+
+| Producto | Esquema aplicado | Sustento |
+| :------- | :--------------- | :------- |
+| Landing Page | Jerárquica | El visitante llega sin conocer el producto, por lo que el contenido desciende desde la propuesta de valor hasta el detalle de las funcionalidades y los segmentos. |
+| Landing Page, sección "Cómo funciona" | Secuencial | La operación se explica como tres pasos ordenados en el tiempo, del despacho al cierre de la incidencia. |
+| Web Application, tablero de rutas | Matricial | El supervisor compara varias rutas simultáneas según estado, avance y alertas, sin que exista un orden de lectura obligatorio. |
+| Web Application, registro de incidencias | Secuencial | El reporte de una incidencia es un flujo de pasos que el conductor completa hasta adjuntar la evidencia. |
+
+**Esquemas de categorización**
+
+| Esquema | Dónde se aplica |
+| :------ | :-------------- |
+| Por audiencia | Sección de segmentos del Landing Page, donde cada bloque se dirige a un segmento objetivo y ofrece su propio llamado a la acción. |
+| Por tópicos | Funcionalidades del producto, agrupadas en seguimiento y monitoreo IoT por un lado, y reporte de incidencias por el otro. |
+| Cronológico | Historial de eventos de una ruta y bitácora de incidencias en la Web Application, ordenados del evento más reciente al más antiguo. |
+| Alfabético | Listados auxiliares de la Web Application, como el catálogo de vehículos y de puntos de entrega. |
 
 <a id="422-labeling-systems"></a>
 ### 4.2.2. Labeling Systems.
 
+Las etiquetas se redactan con el mínimo número de palabras y utilizan el vocabulario del Ubiquitous Language del dominio, de manera que el visitante y el usuario reconozcan de inmediato a qué conjunto de información se refieren. El idioma por defecto de la interfaz es el inglés, con la traducción al español latinoamericano disponible mediante el selector de idioma.
+
+| Etiqueta (en-US) | Etiqueta (es-419) | Conjunto de información asociado |
+| :--------------- | :---------------- | :------------------------------- |
+| Features | Funcionalidades | Capacidades del producto. |
+| How it works | Cómo funciona | Explicación del flujo de la operación. |
+| Who it is for | Para quién es | Segmentos objetivo y sus llamados a la acción. |
+| The product | El producto | Video About the Product. |
+| The team | El equipo | Video About the Team. |
+| Route | Ruta | Recorrido asignado a un vehículo con sus puntos de entrega. |
+| Stop | Parada | Punto de entrega individual dentro de una ruta. |
+| Shipment | Envío | Carga de producto asociada a una ruta. |
+| Incident | Incidencia | Problema reportado durante el transporte. |
+| In transit | En tránsito | Estado de un envío que ya salió y no ha llegado. |
+| Delivered | Entregado | Estado de una parada completada. |
+
+Las etiquetas de estado se acompañan siempre de su color de rol, pero nunca dependen únicamente del color para comunicar el significado, de manera que la información siga siendo comprensible para personas con dificultades en la percepción del color.
+
 <a id="423-seo-tags-and-meta-tags"></a>
 ### 4.2.3. SEO Tags and Meta Tags.
+
+Los siguientes valores se encuentran implementados en las vistas del Landing Page.
+
+**Vista principal (`index.html`)**
+
+| Etiqueta | Valor |
+| :------- | :---- |
+| `title` | BottleTrack \| Bottled beverage transport tracking and IoT monitoring |
+| `description` | BottleTrack lets beverage distributors follow every route in real time, monitor cargo with IoT sensors and report transport incidents with evidence. |
+| `keywords` | beverage logistics, fleet tracking, IoT monitoring, cold chain, delivery incidents, transport management |
+| `author` | CodeCrafters |
+| `og:title` | BottleTrack \| Bottled beverage transport tracking |
+| `og:type` | website |
+| `og:locale` | en_US |
+| `og:locale:alternate` | es_419 |
+
+**Vista de términos y condiciones (`terms-of-service.html`)**
+
+| Etiqueta | Valor |
+| :------- | :---- |
+| `title` | Terms and conditions of service \| BottleTrack |
+| `description` | Terms and conditions of service for the BottleTrack platform, including the ethical and professional commitments adopted by CodeCrafters. |
+| `keywords` | terms of service, conditions, privacy, BottleTrack, CodeCrafters |
+| `author` | CodeCrafters |
+
+**Vistas de la Frontend Web Application**
+
+| Vista | `title` | `description` |
+| :---- | :------ | :------------ |
+| Monitoring | Fleet monitoring \| BottleTrack | Real time view of every active route, with cargo temperature and impact alerts. |
+| Incidents | Incident reporting \| BottleTrack | Report damaged product, broken bottles, missing units and delays with photographic evidence. |
+| Analytics | Delivery indicators \| BottleTrack | Product loss, delivery compliance and recurring failures across the distribution operation. |
 
 <a id="424-searching-systems"></a>
 ### 4.2.4. Searching Systems.
 
+El Landing Page no incorpora un sistema de búsqueda, ya que su volumen de contenido es reducido y la navegación por secciones basta para recorrerlo por completo.
+
+En la Frontend Web Application la búsqueda sí resulta necesaria, porque el volumen de rutas e incidencias crece con la operación. Las decisiones son las siguientes:
+
+| Vista | Búsqueda | Filtros | Presentación de los resultados |
+| :---- | :------- | :------ | :----------------------------- |
+| Rutas | Por código de ruta, placa del vehículo o nombre del conductor | Estado del envío, rango de fechas y vehículo | Listado con el estado, el avance y la alerta más reciente de cada ruta. |
+| Incidencias | Por código de incidencia o punto de entrega | Tipo de incidencia, severidad, estado de seguimiento y rango de fechas | Listado ordenado del reporte más reciente al más antiguo, con etiqueta de estado. |
+| Puntos de entrega | Por nombre del cliente o distrito | Distrito y tipo de establecimiento | Listado alfabético. |
+
+Cuando una búsqueda no arroja resultados, la vista comunica de forma explícita que no se encontraron coincidencias e indica qué filtros se encuentran activos, para que el usuario pueda retirarlos sin abandonar la vista.
+
 <a id="425-navigation-systems"></a>
 ### 4.2.5. Navigation Systems.
+
+**Landing Page**
+
+La navegación principal se mantiene fija en la parte superior durante todo el recorrido y enlaza a las secciones mediante desplazamiento suave dentro de la misma página. Esto permite que el visitante conserve en todo momento la referencia de dónde se encuentra y pueda saltar a cualquier sección sin retroceder.
+
+El recorrido esperado del visitante desciende desde la propuesta de valor hasta los segmentos objetivo. Cada segmento presenta un llamado a la acción propio que redirige a la vista correspondiente de la Frontend Web Application:
+
+| Segmento objetivo | Llamado a la acción | Vista de destino |
+| :---------------- | :------------------ | :--------------- |
+| Supervisores o encargados de flota | Monitor your fleet | Monitoring |
+| Conductores y repartidores | Report an incident | Incidents |
+| Empresas distribuidoras de bebidas | See the indicators | Analytics |
+
+En dispositivos con ancho menor a 48 rem la navegación se colapsa en un menú desplegable que expone su estado mediante el atributo `aria-expanded` y se cierra automáticamente al seleccionar un enlace. El pie de página repite los enlaces principales y añade el acceso a los términos y condiciones del servicio.
+
+**Frontend Web Application**
+
+La aplicación utiliza una barra lateral persistente como sistema de navegación global, con acceso a las secciones de rutas, incidencias e indicadores. Dentro de cada sección se emplea navegación contextual mediante una ruta de migas que permite regresar del detalle de una ruta o de una incidencia al listado del que se ingresó, sin perder los filtros aplicados.
 
 
 <a id="43-landing-page-ui-design"></a>
@@ -1302,17 +1612,179 @@ Las Technical Stories representan principalmente el trabajo requerido en el Back
 <a id="51-software-configuration-management"></a>
 ## 5.1. Software Configuration Management.
 
+En esta sección el equipo establece las decisiones y convenciones que permiten mantener la consistencia del producto durante todo el ciclo de vida. Estas decisiones son de cumplimiento obligatorio para los cinco integrantes y se aplican de manera idéntica en los cuatro repositorios del proyecto.
+
 <a id="511-software-development-environment-configuration"></a>
 ### 5.1.1. Software Development Environment Configuration.
+
+A continuación se indican los productos de software que utiliza el equipo, el propósito de cada uno dentro del proyecto y la ruta de referencia o de descarga correspondiente.
+
+**Project Management**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| Trello | Product Backlog y Sprint Backlog del equipo, con el tablero público de control de estado. | https://trello.com |
+| Microsoft Teams | Reuniones de Sprint Planning, Review y Retrospective del equipo. | https://www.microsoft.com/microsoft-teams |
+| Microsoft Stream | Publicación de los videos de entrevistas y de exposición con enlace privado. | https://www.microsoft.com/microsoft-stream |
+
+**Requirements Management**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| UXPressia | Elaboración de User Personas, Empathy Maps, User Journey Maps e Impact Maps. | https://uxpressia.com |
+| Miro | Sesiones de Big Picture EventStorming y Design-Level EventStorming. | https://miro.com |
+
+**Product UX/UI Design**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| Figma | Wireframes, Mock-ups y Prototypes del Landing Page y de la Web Application. | https://www.figma.com |
+| FigJam | Wireflow Diagrams y User Flow Diagrams. | https://www.figma.com/figjam |
+| Structurizr | Diagramas de arquitectura de software bajo el C4 Model. | https://structurizr.com |
+| LucidChart | Diagramas UML de clases. | https://www.lucidchart.com |
+| ERDPlus | Diagramas de base de datos. | https://erdplus.com |
+
+**Software Development**
+
+| Producto | Propósito | Ruta de descarga |
+| :------- | :-------- | :--------------- |
+| JetBrains WebStorm | Entorno de desarrollo del Landing Page y de la Frontend Web Application. | https://www.jetbrains.com/webstorm |
+| JetBrains Rider | Entorno de desarrollo de los Web Services en C#. | https://www.jetbrains.com/rider |
+| Node.js y npm | Ejecución del entorno de desarrollo y gestión de dependencias de la Frontend Web Application. | https://nodejs.org |
+| .NET SDK | Compilación y ejecución de los Web Services. | https://dotnet.microsoft.com/download |
+| MySQL Server | Sistema de gestión de base de datos relacional. | https://dev.mysql.com/downloads |
+| Git | Control de versiones distribuido. | https://git-scm.com/downloads |
+
+**Software Deployment**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| GitHub Pages | Publicación del Landing Page. | https://pages.github.com |
+| Vercel | Publicación de la Frontend Web Application. | https://vercel.com |
+
+**Software Documentation**
+
+| Producto | Propósito | Ruta de referencia |
+| :------- | :-------- | :----------------- |
+| GitHub | Alojamiento del informe en formato Markdown y de los repositorios de código. | https://github.com |
+| Swagger / OpenAPI | Documentación de los endpoints de los Web Services. | https://swagger.io |
 
 <a id="512-source-code-management"></a>
 ### 5.1.2. Source Code Management.
 
+El seguimiento de modificaciones se realiza con Git, gestionado desde GitHub. El equipo trabaja dentro de una organización pública, con un repositorio independiente por producto.
+
+| Repositorio | Contenido | URL |
+| :---------- | :-------- | :-- |
+| Landing-Page | Sitio web estático en HTML5, CSS3 y JavaScript. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page |
+| Frontend-Web-Application | Aplicación web desarrollada con Vue Framework. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Application |
+| Web-Services | RESTful API en ASP.NET Core, incluyendo las pruebas unitarias y de aceptación. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Web-Services |
+| Report | Informe del proyecto en formato Markdown. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report |
+
+**GitFlow como Workflow de control de versiones**
+
+El equipo aplica GitFlow según el modelo descrito por Vincent Driessen. La estructura de ramas es la siguiente:
+
+| Rama | Propósito | Origen | Destino del merge |
+| :--- | :-------- | :----- | :---------------- |
+| `main` | Contiene únicamente versiones publicadas y estables. Cada commit de esta rama corresponde a un release etiquetado. | — | — |
+| `develop` | Rama de integración donde converge el trabajo terminado antes de conformar un release. | `main` | — |
+| `feature/<nombre>` | Una rama por cada feature. Concentra el trabajo de una funcionalidad hasta que queda terminada. | `develop` | `develop` |
+| `release/<versión>` | Preparación de una versión: correcciones finales y ajuste del número de versión. | `develop` | `main` y `develop` |
+| `hotfix/<nombre>` | Corrección urgente sobre una versión ya publicada. | `main` | `main` y `develop` |
+
+Las convenciones de nomenclatura de las ramas son las siguientes, empleando siempre kebab-case y el idioma inglés:
+
+| Tipo de rama | Convención | Ejemplo |
+| :----------- | :--------- | :------ |
+| Feature | `feature/<nombre-de-la-funcionalidad>` | `feature/design-system` |
+| Release | `release/<major>.<minor>.<patch>` | `release/1.0.0` |
+| Hotfix | `hotfix/<nombre-de-la-corrección>` | `hotfix/broken-segment-link` |
+
+La integración de una rama hacia `develop` o hacia `main` se realiza mediante un merge sin avance rápido, de modo que el commit de merge preserve en el historial la existencia de la rama y el conjunto de commits que la conformaron.
+
+**Semantic Versioning**
+
+Los releases se nombran siguiendo la especificación Semantic Versioning 2.0.0, con el formato `MAJOR.MINOR.PATCH`. Se incrementa el número mayor ante un cambio incompatible en la interfaz pública de los Web Services, el número menor ante la incorporación de nueva funcionalidad compatible, y el número de parche ante una corrección de defectos. Cada versión publicada en `main` recibe una etiqueta con el prefijo `v`, por ejemplo `v1.0.0`.
+
+**Conventional Commits**
+
+Los mensajes de commit siguen la especificación Conventional Commits, con la estructura `<type>(<scope>): <description>`. La descripción se redacta en inglés, en modo imperativo y en minúsculas.
+
+| Tipo | Uso |
+| :--- | :-- |
+| `feat` | Incorporación de una nueva funcionalidad. |
+| `fix` | Corrección de un defecto. |
+| `docs` | Cambios en la documentación o en el informe. |
+| `style` | Cambios que no afectan el comportamiento del código. |
+| `refactor` | Reorganización del código sin cambio de comportamiento. |
+| `test` | Incorporación o corrección de pruebas. |
+| `chore` | Tareas de configuración y mantenimiento del repositorio. |
+
+Ejemplos aplicados en el proyecto: `feat(design-system): add color, typography and spacing tokens`, `feat(landing): add home page with segment calls to action`, `docs(requirements): add user stories and product backlog`.
+
+Adicionalmente, el equipo acordó mantener commits de alcance acotado, de manera que cada uno concentre un cambio comprensible de forma aislada y el historial permita evidenciar con claridad el aporte individual de cada integrante.
+
 <a id="513-source-code-style-guide-and-conventions"></a>
 ### 5.1.3. Source Code Style Guide and Conventions.
 
+Toda la nomenclatura de elementos del código se escribe en inglés, sin excepción, en los cuatro repositorios. Las referencias adoptadas por lenguaje son las siguientes:
+
+| Lenguaje | Referencia adoptada |
+| :------- | :------------------ |
+| HTML | HTML Style Guide and Coding Conventions y Google HTML/CSS Style Guide. |
+| CSS | Google HTML/CSS Style Guide. |
+| JavaScript | Google JavaScript Style Guide, MDN JavaScript guidelines y W3C JavaScript Style Guide. |
+| Vue | Vue Style Guide. |
+| C# | C# Coding Conventions y Microsoft ASP.NET Core Coding Guidelines. |
+| Gherkin | Gherkin Conventions for Readable Specifications. |
+
+**Convenciones de nomenclatura**
+
+| Elemento | Convención | Ejemplo |
+| :------- | :--------- | :------ |
+| Archivos y carpetas de HTML, CSS y assets | kebab-case en minúsculas | `terms-of-service.html`, `assets/css/tokens.css` |
+| Clases CSS | kebab-case bajo la convención BEM | `.site-header__inner`, `.button--primary` |
+| Variables CSS | kebab-case con doble guion inicial | `--primary-dark` |
+| Variables y funciones de JavaScript | camelCase | `resolveInitialLanguage` |
+| Constantes de JavaScript | SCREAMING_SNAKE_CASE | `DEFAULT_LANGUAGE` |
+| Componentes de Vue | PascalCase | `RouteMonitorCard.vue` |
+| Clases, métodos y propiedades públicas de C# | PascalCase | `ShipmentTrackingService` |
+| Campos privados de C# | camelCase con guion bajo inicial | `_shipmentRepository` |
+| Endpoints de la API | kebab-case en plural | `/api/v1/shipments`, `/api/v1/incidents` |
+| Tablas y columnas de base de datos | snake_case | `delivery_stops`, `reported_at` |
+
+**Convenciones adicionales adoptadas por el equipo**
+
+El código se escribe sin comentarios: la legibilidad se sostiene con nombres autoexplicativos y con funciones de responsabilidad única. La indentación es de cuatro espacios en HTML, CSS y JavaScript. Los valores visuales nunca se escriben de forma directa en las vistas, sino que se consumen desde los tokens del design system.
+
 <a id="514-software-deployment-configuration"></a>
 ### 5.1.4. Software Deployment Configuration.
+
+**Landing Page**
+
+El Landing Page se publica en GitHub Pages a partir de la rama `main` del repositorio `Landing-Page`. Al tratarse de un sitio web estático sin proceso de construcción, no requiere configuración adicional. Los pasos son los siguientes:
+
+1. Integrar en `develop` las ramas de feature terminadas mediante un merge sin avance rápido.
+2. Crear la rama `release/<versión>` a partir de `develop`.
+3. Integrar la rama de release en `main`, etiquetar la versión con Semantic Versioning y publicar los cambios junto con la etiqueta.
+4. En la configuración del repositorio, en la sección Pages, seleccionar la publicación desde la rama `main` y el directorio raíz.
+5. Verificar la publicación en la URL entregada por GitHub Pages.
+
+**Frontend Web Application**
+
+La aplicación web se publica en Vercel a partir de la rama `main` del repositorio `Frontend-Web-Application`, mediante la integración de Vercel con GitHub. Los pasos son los siguientes:
+
+1. Importar el repositorio desde el panel de Vercel.
+2. Configurar el comando de construcción y el directorio de salida que corresponden a un proyecto de Vue.
+3. Registrar la variable de entorno con la URL base de los Web Services.
+4. Confirmar la publicación automática que Vercel ejecuta ante cada integración en `main`.
+
+Una vez publicada la aplicación, la URL definitiva se registra en los llamados a la acción de cada segmento objetivo del Landing Page, de modo que ambos productos queden enlazados.
+
+**Web Services**
+
+Los Web Services se publicarán en un proveedor de nube junto con la base de datos MySQL. La configuración correspondiente se documentará en la entrega en la que se despliegue la primera versión de este producto.
 
 
 <a id="52-landing-page-services-applications-implementation"></a>
@@ -1380,8 +1852,105 @@ Las Technical Stories representan principalmente el trabajo requerido en el Back
 <a id="bibliografia"></a>
 # Bibliografía
 
+Las siguientes referencias, presentadas en formato APA, constituyen la base conceptual y técnica sobre la que el equipo desarrolló el presente trabajo.
+
+Atlassian. (s.f.). *Gitflow workflow*. https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+Brown, S. (s.f.). *The C4 model for visualising software architecture*. https://c4model.com/
+
+Conventional Commits. (s.f.). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/
+
+Driessen, V. (2010, 5 de enero). *A successful Git branching model*. https://nvie.com/posts/a-successful-git-branching-model/
+
+Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
+
+Fowler, M. (2006, 20 de octubre). *Ubiquitous language*. https://martinfowler.com/bliki/UbiquitousLanguage.html
+
+Gothelf, J., y Seiden, J. (2021). *Lean UX: Creating great products with agile teams* (3.ª ed.). O'Reilly Media.
+
+Nielsen Norman Group. (2018, 5 de enero). *Empathy mapping: The first step in design thinking*. https://www.nngroup.com/articles/empathy-mapping/
+
+Nielsen Norman Group. (2021, 8 de agosto). *Design systems 101*. https://www.nngroup.com/articles/design-systems-101/
+
+Preston-Werner, T. (s.f.). *Semantic Versioning 2.0.0*. https://semver.org/
+
+Schwaber, K., y Sutherland, J. (2020). *The Scrum Guide: The definitive guide to Scrum, the rules of the game*. https://scrumguides.org/
+
+SpecFlow. (s.f.). *Gherkin conventions for readable specifications*. https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
+
+UXPressia. (s.f.). *How to create an impact map in 4 easy steps*. https://uxpressia.com/blog/build-impact-map-4-easy-steps
+
+World Wide Web Consortium. (2023, 5 de octubre). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
+
 <hr>
 
 
 <a id="anexos"></a>
 # Anexos
+
+<a id="anexo-a-videos-de-exposiciones"></a>
+## Anexo A. Videos de Exposiciones
+
+En esta sección se registra de forma progresiva el video de exposición correspondiente a cada entrega del proyecto. Cada video se encuentra publicado en Microsoft Stream con enlace privado y sigue la nomenclatura establecida en el enunciado del trabajo final.
+
+| Entrega | Título del video | Enlace |
+| :------ | :--------------- | :----- |
+| AV1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-av1 | _Pendiente de publicación._ |
+| TB1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb1 | _Pendiente de publicación._ |
+| AV2 | upc-pre-202620-1asi0730-8084-codecrafters-expo-av2 | _Pendiente de publicación._ |
+| TB2 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb2 | _Pendiente de publicación._ |
+
+<hr>
+
+<a id="anexo-b-videos-de-entrevistas"></a>
+## Anexo B. Videos de Entrevistas
+
+En esta sección se consolidan los videos de entrevistas realizadas durante el ciclo de vida del proyecto, tanto las de Needfinding como las de validación. Cada video reúne las entrevistas de un mismo proceso, con títulos que identifican al entrevistado, el segmento objetivo y la fecha de la entrevista.
+
+| Proceso | Sprint | Nombre del archivo | Enlace |
+| :------ | :----- | :----------------- | :----- |
+| Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | _Pendiente de publicación._ |
+| Validation Interviews | Sprint 3 | upc-pre-202620-1asi0730-8084-codecrafters-validation-sprint-3 | _Pendiente de publicación._ |
+
+<hr>
+
+<a id="anexo-c-repositorios-del-proyecto"></a>
+## Anexo C. Repositorios del Proyecto
+
+En esta sección se relacionan los repositorios de la organización pública de GitHub en los que el equipo desarrolla los productos de software y la documentación del proyecto.
+
+| Producto | Repositorio |
+| :------- | :---------- |
+| Informe del proyecto | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report |
+| Landing Page | https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page |
+| Frontend Web Application | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Application |
+| Web Services | https://github.com/1ASI0730-2620-8084-CodeCrafters/Web-Services |
+
+<hr>
+
+<a id="anexo-d-productos-desplegados"></a>
+## Anexo D. Productos Desplegados
+
+En esta sección se registran las URL de los productos publicados, que se irán incorporando conforme cada uno alcance su primer despliegue.
+
+| Producto | Plataforma de despliegue | URL |
+| :------- | :----------------------- | :-- |
+| Landing Page | GitHub Pages | _Pendiente de publicación._ |
+| Frontend Web Application | Vercel | _Pendiente de publicación._ |
+| Web Services | Por definir | _Pendiente de publicación._ |
+| Documentación de la API | Swagger | _Pendiente de publicación._ |
+
+<hr>
+
+<a id="anexo-e-herramientas-colaborativas"></a>
+## Anexo E. Herramientas Colaborativas
+
+En esta sección se registran los espacios de trabajo compartidos que el equipo utiliza para elaborar los artefactos del proyecto.
+
+| Herramienta | Propósito | Enlace |
+| :---------- | :-------- | :----- |
+| Trello | Product Backlog y Sprint Backlog | _Pendiente de registro._ |
+| UXPressia | User Personas, Empathy Maps, Journey Maps e Impact Map | _Pendiente de registro._ |
+| Miro | Big Picture EventStorming y Design-Level EventStorming | _Pendiente de registro._ |
+| Figma | Wireframes, Mock-ups y Prototypes | _Pendiente de registro._ |
+| Structurizr | Diagramas C4 de arquitectura de software | _Pendiente de registro._ |
