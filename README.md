@@ -1319,30 +1319,46 @@ El equipo definió las siguientes dimensiones para el lenguaje aplicado en toda 
 
 La paleta se organiza en una sola rampa de marca de tres peldaños, separados por contraste y no por matiz. Solo los dos peldaños oscuros son legibles como texto sobre fondo blanco; el color de marca se emplea únicamente como fondo con texto blanco encima.
 
-| Token | Valor | Contraste sobre blanco | Rol |
-| :---- | :---- | :--------------------- | :-- |
-| `--primary` | `#f97316` | 3.0:1 | Color de marca. Fondo de botones y acentos, nunca texto. |
-| `--primary-mid` | `#b34900` | 5.4:1 (AA) | Primer peldaño legible. Enlaces y texto destacado. |
-| `--primary-dark` | `#4f2000` | 12.4:1 | Titulares, estados de hover y acentos profundos. |
-| `--primary-soft` | `#ffedd5` | — | Fondo tenue para botones terciarios y numeradores. |
+| Muestra | Token | Valor | Contraste sobre blanco | Rol |
+| :------ | :---- | :---- | :--------------------- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#f97316;border:1px solid #ded8d3;"></div> | `--primary` | `#f97316` | 3.0:1 | Color de marca. Fondo de botones y acentos, nunca texto. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#b34900;border:1px solid #ded8d3;"></div> | `--primary-mid` | `#b34900` | 5.4:1 (AA) | Primer peldaño legible. Enlaces y texto destacado. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#4f2000;border:1px solid #ded8d3;"></div> | `--primary-dark` | `#4f2000` | 12.4:1 | Titulares, estados de hover y acentos profundos. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#ffedd5;border:1px solid #ded8d3;"></div> | `--primary-soft` | `#ffedd5` | — | Fondo tenue para botones terciarios y numeradores. |
+
+Las superficies y el color de texto general se resuelven con cuatro valores. Una superficie apagada se pinta siempre con un color opaco, nunca con una capa translúcida.
+
+| Muestra | Token | Valor | Rol |
+| :------ | :---- | :---- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#ffffff;border:1px solid #ded8d3;"></div> | `--background` / `--surface` | `#ffffff` | Fondo de la página y de las tarjetas. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#f6f2ef;border:1px solid #ded8d3;"></div> | `--surface-muted` | `#f6f2ef` | Superficie en segundo plano, para alternar secciones. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#303030;border:1px solid #ded8d3;"></div> | `--foreground` | `#303030` | Color de texto general, en reemplazo del negro puro. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#202020;border:1px solid #ded8d3;"></div> | `--chrome` | `#202020` | Fondo del pie de página y del marco de la aplicación. |
 
 Los colores neutros se reducen a cuatro roles de línea ordenados por jerarquía y no por tono, de manera que un divisor interno no pese lo mismo que el borde de una tarjeta clicable:
 
-| Token | Valor | Rol |
-| :---- | :---- | :-- |
-| `--line` | `#efeceb` | Divisor dentro de una superficie. |
-| `--border` | `#ded8d3` | Borde por defecto de una superficie. |
-| `--control` | `#c2c2c2` | Borde de un elemento interactivo en reposo. |
-| `--control-hover` | `#a3a3a3` | El mismo elemento bajo el cursor. |
+| Muestra | Token | Valor | Rol |
+| :------ | :---- | :---- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#efeceb;border:1px solid #ded8d3;"></div> | `--line` | `#efeceb` | Divisor dentro de una superficie. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#ded8d3;border:1px solid #ded8d3;"></div> | `--border` | `#ded8d3` | Borde por defecto de una superficie. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#c2c2c2;border:1px solid #ded8d3;"></div> | `--control` | `#c2c2c2` | Borde de un elemento interactivo en reposo. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#a3a3a3;border:1px solid #ded8d3;"></div> | `--control-hover` | `#a3a3a3` | El mismo elemento bajo el cursor. |
 
 Los estados se resuelven con cuatro roles, cada uno con tres piezas: el color sólido para puntos y barras, el fuerte para el hover y para el texto sobre el suave, y el suave como fondo de etiqueta. La pareja suave más fuerte cumple el nivel AA por diseño.
 
 | Rol | Sólido | Fuerte | Suave | Uso en BottleTrack |
 | :-- | :----- | :----- | :---- | :----------------- |
-| `danger` | `#e7000b` | `#c10007` | `#ffe2e2` | Botellas rotas, entrega fallida, incidencia crítica. |
-| `warning` | `#eab308` | `#854d0e` | `#fef9c3` | Ruta retrasada, temperatura fuera de rango. |
-| `success` | `#30b875` | `#044137` | `#e0f5eb` | Entrega realizada, incidencia resuelta. |
-| `info` | `#155dfc` | `#1447e6` | `#dbeafe` | Envío en tránsito, aviso informativo. |
+| `danger` | <div style="width:48px;height:24px;border-radius:4px;background-color:#e7000b;border:1px solid #ded8d3;"></div><br>`#e7000b` | <div style="width:48px;height:24px;border-radius:4px;background-color:#c10007;border:1px solid #ded8d3;"></div><br>`#c10007` | <div style="width:48px;height:24px;border-radius:4px;background-color:#ffe2e2;border:1px solid #ded8d3;"></div><br>`#ffe2e2` | Botellas rotas, entrega fallida, incidencia crítica. |
+| `warning` | <div style="width:48px;height:24px;border-radius:4px;background-color:#eab308;border:1px solid #ded8d3;"></div><br>`#eab308` | <div style="width:48px;height:24px;border-radius:4px;background-color:#854d0e;border:1px solid #ded8d3;"></div><br>`#854d0e` | <div style="width:48px;height:24px;border-radius:4px;background-color:#fef9c3;border:1px solid #ded8d3;"></div><br>`#fef9c3` | Ruta retrasada, temperatura fuera de rango. |
+| `success` | <div style="width:48px;height:24px;border-radius:4px;background-color:#30b875;border:1px solid #ded8d3;"></div><br>`#30b875` | <div style="width:48px;height:24px;border-radius:4px;background-color:#044137;border:1px solid #ded8d3;"></div><br>`#044137` | <div style="width:48px;height:24px;border-radius:4px;background-color:#e0f5eb;border:1px solid #ded8d3;"></div><br>`#e0f5eb` | Entrega realizada, incidencia resuelta. |
+| `info` | <div style="width:48px;height:24px;border-radius:4px;background-color:#155dfc;border:1px solid #ded8d3;"></div><br>`#155dfc` | <div style="width:48px;height:24px;border-radius:4px;background-color:#1447e6;border:1px solid #ded8d3;"></div><br>`#1447e6` | <div style="width:48px;height:24px;border-radius:4px;background-color:#dbeafe;border:1px solid #ded8d3;"></div><br>`#dbeafe` | Envío en tránsito, aviso informativo. |
+
+Finalmente, el estado deshabilitado cuenta con su propia pareja de tokens. Su contraste bajo es deliberado, ya que las pautas de accesibilidad eximen a los controles deshabilitados justamente para que se lean inertes.
+
+| Muestra | Token | Valor | Rol |
+| :------ | :---- | :---- | :-- |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#eae7e5;border:1px solid #ded8d3;"></div> | `--disabled` | `#eae7e5` | Relleno del control deshabilitado. |
+| <div style="width:48px;height:24px;border-radius:4px;background-color:#a09a96;border:1px solid #ded8d3;"></div> | `--disabled-ink` | `#a09a96` | Texto del control deshabilitado. |
 
 Una decisión relevante es que el rol `success` conserva una familia verde propia y el rol `warning` se desplazó hacia el ámbar. Al ser el naranja el color de la marca, un estado de aviso naranja dejaría de leerse como señal y una confirmación naranja se confundiría con un elemento de marca.
 
@@ -1350,22 +1366,37 @@ Una decisión relevante es que el rol `success` conserva una familia verde propi
 
 La familia tipográfica es Manrope, con una pila de respaldo de tipografías de sistema. La escala parte de una base de 16 píxeles y crece en pasos definidos como variables, evitando valores arbitrarios.
 
-| Token | Tamaño | Uso |
-| :---- | :----- | :-- |
-| `--text-5xl` | 3 rem | Titular principal del Landing Page. |
-| `--text-4xl` | 2.25 rem | Título de página. |
-| `--text-3xl` | 1.875 rem | Título de sección. |
-| `--text-xl` | 1.25 rem | Título de tarjeta. |
-| `--text-lg` | 1.125 rem | Párrafo de entrada de sección. |
-| `--text-base` | 1 rem | Cuerpo de texto por defecto. |
-| `--text-sm` | 0.875 rem | Texto secundario, etiquetas y botones. |
-| `--text-xs` | 0.75 rem | Metadatos y etiquetas de estado. |
+| Muestra | Token | Tamaño | Uso |
+| :------ | :---- | :----- | :-- |
+| <span style="font-size:48px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-5xl` | 3 rem · 48 px | Titular principal del Landing Page. |
+| <span style="font-size:36px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-4xl` | 2.25 rem · 36 px | Título de página. |
+| <span style="font-size:30px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-3xl` | 1.875 rem · 30 px | Título de sección. |
+| <span style="font-size:20px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-xl` | 1.25 rem · 20 px | Título de tarjeta. |
+| <span style="font-size:18px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-lg` | 1.125 rem · 18 px | Párrafo de entrada de sección. |
+| <span style="font-size:16px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-base` | 1 rem · 16 px | Cuerpo de texto por defecto. |
+| <span style="font-size:14px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-sm` | 0.875 rem · 14 px | Texto secundario, etiquetas y botones. |
+| <span style="font-size:12px;font-weight:700;color:#4f2000;line-height:1.2;">Aa</span> | `--text-xs` | 0.75 rem · 12 px | Metadatos y etiquetas de estado. |
 
-Los pesos se limitan a cuatro valores (400, 500, 600 y 700) y la altura de línea a tres (1.2 para titulares, 1.35 para texto compacto y 1.6 para cuerpo).
+Los pesos se limitan a cuatro valores (400, 500, 600 y 700) y la altura de línea a tres: 1.2 para titulares, 1.35 para texto compacto y 1.6 para cuerpo de texto.
 
 **Espaciado**
 
-El sistema de espaciado utiliza una base de cuatro píxeles expuesta como escala de tokens, desde `--space-1` hasta `--space-24`. Toda separación entre elementos consume un valor de la escala, lo que sostiene el ritmo vertical de las vistas en ambos productos.
+El sistema de espaciado utiliza una base de cuatro píxeles expuesta como escala de tokens. Toda separación entre elementos consume un valor de la escala, lo que sostiene el ritmo vertical de las vistas en ambos productos y evita el uso de valores arbitrarios.
+
+| Muestra | Token | Valor | Uso habitual |
+| :------ | :---- | :---- | :----------- |
+| <div style="width:4px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-1` | 4 px | Separación mínima entre elementos contiguos. |
+| <div style="width:8px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-2` | 8 px | Separación entre una etiqueta y su campo. |
+| <div style="width:12px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-3` | 12 px | Relleno vertical de botones y etiquetas de estado. |
+| <div style="width:16px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-4` | 16 px | Separación entre tarjetas de una rejilla. |
+| <div style="width:20px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-5` | 20 px | Separación entre bloques de texto del encabezado principal. |
+| <div style="width:24px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-6` | 24 px | Relleno interno de una tarjeta y márgenes laterales del contenedor. |
+| <div style="width:32px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-8` | 32 px | Separación entre bloques del pie de página. |
+| <div style="width:40px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-10` | 40 px | Separación entre columnas en pantallas medianas. |
+| <div style="width:48px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-12` | 48 px | Relleno vertical de sección en vista móvil. |
+| <div style="width:64px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-16` | 64 px | Separación entre las dos columnas del encabezado principal. |
+| <div style="width:80px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-20` | 80 px | Relleno vertical de sección en vista de escritorio. |
+| <div style="width:96px;height:12px;border-radius:2px;background-color:#f97316;"></div> | `--space-24` | 96 px | Espacio superior del encabezado principal. |
 
 <a id="412-web-style-guidelines"></a>
 ### 4.1.2. Web Style Guidelines.
