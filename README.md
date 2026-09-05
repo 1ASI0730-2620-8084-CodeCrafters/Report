@@ -1034,6 +1034,62 @@ Las entrevistas deberán registrarse en video para conservar evidencia del proce
 <a id="25-ubiquitous-language"></a>
 ## 2.5. Ubiquitous Language.
 
+El Ubiquitous Language es el glosario de términos y conceptos del dominio del negocio que todos los miembros del equipo y los interesados emplean sin ambigüedad. Los términos que se presentan a continuación corresponden al dominio de la distribución y el transporte de bebidas embotelladas, y no a conceptos técnicos de la ingeniería de software. Cada término se define en inglés, que es el idioma adoptado para la nomenclatura del código y para la interfaz por defecto de los productos, acompañado de su equivalente en español entre paréntesis.
+
+Este glosario es la fuente de la que se derivan los nombres de las entidades del modelo, los endpoints de la API y las etiquetas de la interfaz descritas en el Labeling System, de manera que un mismo concepto se nombre igual en la conversación con el cliente, en el informe, en la interfaz y en el código.
+
+**Términos del proceso de distribución**
+
+| Término | Definición |
+| :------ | :--------- |
+| **Bottling Plant** (Planta embotelladora) | Instalación donde el producto es envasado y desde la cual se despacha hacia los puntos de entrega. Constituye el origen de la operación de transporte. |
+| **Distributor** (Distribuidora) | Empresa responsable de trasladar el producto embotellado desde la planta hasta los puntos de venta. Es la organización que contrata la plataforma. |
+| **Fleet** (Flota) | Conjunto de vehículos con los que la distribuidora ejecuta sus operaciones de reparto. |
+| **Vehicle** (Vehículo) | Unidad de transporte identificada por su placa, a la que se asigna una ruta y sobre la cual pueden encontrarse instalados dispositivos de monitoreo. |
+| **Driver** (Conductor) | Persona responsable de conducir el vehículo, ejecutar las entregas de una ruta y reportar las incidencias que ocurran durante el trayecto. |
+| **Supervisor** (Supervisor) | Persona responsable de planificar y controlar las rutas de la flota, atender las alertas y dar seguimiento a las incidencias hasta su cierre. |
+| **Delivery Point** (Punto de entrega) | Establecimiento que recibe el producto, como una bodega, un minimarket o un cliente mayorista. |
+
+**Términos de la operación de transporte**
+
+| Término | Definición |
+| :------ | :--------- |
+| **Shipment** (Envío) | Carga de producto embotellado que se despacha desde la planta con destino a uno o varios puntos de entrega. Es la unidad sobre la que se realiza el seguimiento. |
+| **Route** (Ruta) | Recorrido planificado que un vehículo debe cubrir para completar un envío, conformado por una secuencia ordenada de paradas. |
+| **Stop** (Parada) | Cada punto de entrega individual dentro de una ruta, con su estado propio de cumplimiento. |
+| **Dispatch** (Despacho) | Acto de registrar un envío, asignarle un vehículo y un conductor, y autorizar su salida de la planta. |
+| **Route Progress** (Avance de la ruta) | Proporción de paradas completadas respecto del total de paradas planificadas para una ruta. |
+| **Proof of Delivery** (Constancia de entrega) | Registro que confirma que el producto fue recibido en una parada, incluyendo la cantidad efectivamente entregada. |
+| **Shortage** (Faltante) | Diferencia negativa entre la cantidad de producto despachada y la cantidad recibida en el punto de entrega. |
+| **Product Loss** (Merma) | Cantidad de producto que no llega en condiciones de ser vendido, ya sea por rotura, daño o faltante. |
+
+**Términos del monitoreo con dispositivos IoT**
+
+| Término | Definición |
+| :------ | :--------- |
+| **IoT Device** (Dispositivo IoT) | Equipo instalado en el vehículo o en la carga que registra y transmite información del transporte hacia la plataforma. |
+| **Sensor** (Sensor) | Componente del dispositivo que mide una magnitud específica del transporte, como la posición, la temperatura o la aceleración. |
+| **Sensor Reading** (Lectura de sensor) | Valor registrado por un sensor en un instante determinado, asociado a un envío y a una posición del recorrido. |
+| **Cargo Temperature** (Temperatura de la carga) | Temperatura registrada en el compartimento donde viaja el producto embotellado. |
+| **Safe Range** (Rango seguro) | Intervalo de valores dentro del cual una magnitud monitoreada se considera aceptable para preservar la calidad del producto. |
+| **Impact** (Golpe) | Movimiento brusco detectado por los sensores, que representa un riesgo de rotura para el producto embotellado. |
+| **Alert** (Alerta) | Aviso generado automáticamente cuando una lectura de sensor se sitúa fuera del rango seguro o cuando se detecta un golpe. |
+| **Telemetry** (Telemetría) | Conjunto de lecturas transmitidas por los dispositivos durante el trayecto, que sustenta el seguimiento del envío. |
+
+**Términos del reporte de incidencias**
+
+| Término | Definición |
+| :------ | :--------- |
+| **Incident** (Incidencia) | Problema ocurrido durante el transporte que afecta la entrega, reportado por el conductor o generado a partir de una alerta. |
+| **Incident Type** (Tipo de incidencia) | Clasificación de la incidencia según su naturaleza: producto dañado, botellas rotas, unidades faltantes o retraso. |
+| **Broken Bottle** (Botella rota) | Unidad de producto que llega quebrada y no puede ser entregada al punto de venta. |
+| **Damaged Product** (Producto dañado) | Unidad que, sin estar rota, presenta un deterioro que impide su comercialización. |
+| **Delay** (Retraso) | Diferencia entre el momento planificado y el momento real de llegada a una parada. |
+| **Evidence** (Evidencia) | Registro fotográfico y descriptivo que el conductor adjunta a una incidencia para sustentar lo ocurrido. |
+| **Severity** (Severidad) | Grado de afectación de una incidencia sobre la operación, empleado por el supervisor para priorizar su atención. |
+| **Incident Follow-up** (Seguimiento de incidencia) | Proceso mediante el cual el supervisor revisa una incidencia reportada, registra las acciones tomadas y determina su cierre. |
+| **Resolution** (Resolución) | Cierre de una incidencia por parte del supervisor, con la conclusión de lo ocurrido y la acción adoptada. |
+
 <hr>
 
 
