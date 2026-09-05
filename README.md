@@ -1852,8 +1852,105 @@ Los Web Services se publicarán en un proveedor de nube junto con la base de dat
 <a id="bibliografia"></a>
 # Bibliografía
 
+Las siguientes referencias, presentadas en formato APA, constituyen la base conceptual y técnica sobre la que el equipo desarrolló el presente trabajo.
+
+Atlassian. (s.f.). *Gitflow workflow*. https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+Brown, S. (s.f.). *The C4 model for visualising software architecture*. https://c4model.com/
+
+Conventional Commits. (s.f.). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/
+
+Driessen, V. (2010, 5 de enero). *A successful Git branching model*. https://nvie.com/posts/a-successful-git-branching-model/
+
+Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
+
+Fowler, M. (2006, 20 de octubre). *Ubiquitous language*. https://martinfowler.com/bliki/UbiquitousLanguage.html
+
+Gothelf, J., y Seiden, J. (2021). *Lean UX: Creating great products with agile teams* (3.ª ed.). O'Reilly Media.
+
+Nielsen Norman Group. (2018, 5 de enero). *Empathy mapping: The first step in design thinking*. https://www.nngroup.com/articles/empathy-mapping/
+
+Nielsen Norman Group. (2021, 8 de agosto). *Design systems 101*. https://www.nngroup.com/articles/design-systems-101/
+
+Preston-Werner, T. (s.f.). *Semantic Versioning 2.0.0*. https://semver.org/
+
+Schwaber, K., y Sutherland, J. (2020). *The Scrum Guide: The definitive guide to Scrum, the rules of the game*. https://scrumguides.org/
+
+SpecFlow. (s.f.). *Gherkin conventions for readable specifications*. https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
+
+UXPressia. (s.f.). *How to create an impact map in 4 easy steps*. https://uxpressia.com/blog/build-impact-map-4-easy-steps
+
+World Wide Web Consortium. (2023, 5 de octubre). *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/
+
 <hr>
 
 
 <a id="anexos"></a>
 # Anexos
+
+<a id="anexo-a-videos-de-exposiciones"></a>
+## Anexo A. Videos de Exposiciones
+
+En esta sección se registra de forma progresiva el video de exposición correspondiente a cada entrega del proyecto. Cada video se encuentra publicado en Microsoft Stream con enlace privado y sigue la nomenclatura establecida en el enunciado del trabajo final.
+
+| Entrega | Título del video | Enlace |
+| :------ | :--------------- | :----- |
+| AV1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-av1 | _Pendiente de publicación._ |
+| TB1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb1 | _Pendiente de publicación._ |
+| AV2 | upc-pre-202620-1asi0730-8084-codecrafters-expo-av2 | _Pendiente de publicación._ |
+| TB2 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb2 | _Pendiente de publicación._ |
+
+<hr>
+
+<a id="anexo-b-videos-de-entrevistas"></a>
+## Anexo B. Videos de Entrevistas
+
+En esta sección se consolidan los videos de entrevistas realizadas durante el ciclo de vida del proyecto, tanto las de Needfinding como las de validación. Cada video reúne las entrevistas de un mismo proceso, con títulos que identifican al entrevistado, el segmento objetivo y la fecha de la entrevista.
+
+| Proceso | Sprint | Nombre del archivo | Enlace |
+| :------ | :----- | :----------------- | :----- |
+| Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | _Pendiente de publicación._ |
+| Validation Interviews | Sprint 3 | upc-pre-202620-1asi0730-8084-codecrafters-validation-sprint-3 | _Pendiente de publicación._ |
+
+<hr>
+
+<a id="anexo-c-repositorios-del-proyecto"></a>
+## Anexo C. Repositorios del Proyecto
+
+En esta sección se relacionan los repositorios de la organización pública de GitHub en los que el equipo desarrolla los productos de software y la documentación del proyecto.
+
+| Producto | Repositorio |
+| :------- | :---------- |
+| Informe del proyecto | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report |
+| Landing Page | https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page |
+| Frontend Web Application | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Application |
+| Web Services | https://github.com/1ASI0730-2620-8084-CodeCrafters/Web-Services |
+
+<hr>
+
+<a id="anexo-d-productos-desplegados"></a>
+## Anexo D. Productos Desplegados
+
+En esta sección se registran las URL de los productos publicados, que se irán incorporando conforme cada uno alcance su primer despliegue.
+
+| Producto | Plataforma de despliegue | URL |
+| :------- | :----------------------- | :-- |
+| Landing Page | GitHub Pages | _Pendiente de publicación._ |
+| Frontend Web Application | Vercel | _Pendiente de publicación._ |
+| Web Services | Por definir | _Pendiente de publicación._ |
+| Documentación de la API | Swagger | _Pendiente de publicación._ |
+
+<hr>
+
+<a id="anexo-e-herramientas-colaborativas"></a>
+## Anexo E. Herramientas Colaborativas
+
+En esta sección se registran los espacios de trabajo compartidos que el equipo utiliza para elaborar los artefactos del proyecto.
+
+| Herramienta | Propósito | Enlace |
+| :---------- | :-------- | :----- |
+| Trello | Product Backlog y Sprint Backlog | _Pendiente de registro._ |
+| UXPressia | User Personas, Empathy Maps, Journey Maps e Impact Map | _Pendiente de registro._ |
+| Miro | Big Picture EventStorming y Design-Level EventStorming | _Pendiente de registro._ |
+| Figma | Wireframes, Mock-ups y Prototypes | _Pendiente de registro._ |
+| Structurizr | Diagramas C4 de arquitectura de software | _Pendiente de registro._ |
