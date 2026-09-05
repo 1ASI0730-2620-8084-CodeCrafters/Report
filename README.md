@@ -30,9 +30,18 @@
 <a id="registro-de-versiones-del-informe"></a>
 # **Registro de Versiones del Informe**
 
-| Versión | Fecha | Autor   | Descripción de modificación |
-|:--------|:------|:--------|:----------------------------|
-| AV1     |       | Gerardo | palabra                     |
+| Versión | Fecha | Autor | Descripción de modificación |
+|:--------|:------|:------|:----------------------------|
+| 1.0 | 2026-09-01 | Palacin Lazo, Gerardo Valentin | Creación del informe a partir de la plantilla del curso, con la carátula, el índice y la estructura de capítulos. |
+| 1.1 | 2026-09-02 | Cumba Rengifo, Leonardo Raul | Redacción del Capítulo I, incluyendo el Startup Profile, el Solution Profile con el análisis 5W y 2H, el Lean UX Process y los segmentos objetivo. |
+| 1.2 | 2026-09-02 | Cumba Rengifo, Leonardo Raul | Redacción del Capítulo II con el análisis competitivo, las estrategias frente a competidores y el diseño de entrevistas por segmento. |
+| 1.3 | 2026-09-03 | Cumba Rengifo, Leonardo Raul | Redacción del Capítulo III con las Epics, User Stories, Technical Stories y el Product Backlog priorizado. |
+| 1.4 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Corrección del código del curso y del nombre del profesor en la carátula, y reparación de los enlaces del índice que no resolvían. |
+| 1.5 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Incorporación de las fichas de perfil de los integrantes del equipo con sus fotografías. |
+| 1.6 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Redacción de las secciones 4.1 Style Guidelines y 4.2 Information Architecture del Capítulo IV. |
+| 1.7 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Redacción de la sección 5.1 Software Configuration Management del Capítulo V. |
+| 1.8 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Incorporación de la sección Student Outcome, el Ubiquitous Language y los Anexos del informe. |
+| 1.9 | 2026-09-03 | Crispin Valdivia, Angel Gabriel | Incorporación del Impact Mapping, la Bibliografía en formato APA y las muestras visuales del design system. |
 
 <hr>
 
