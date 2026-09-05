@@ -239,7 +239,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | **Código del Estudiante** | U20211C201 |
 | **Carrera**               | Ingeniería de Software |
 | **Descripción**           | _Pendiente de redacción por el integrante._ |
-| **Foto**                  | <img src="docs/team-members/gerardo-palacin.jpeg" alt="Fotografía de Gerardo Valentin Palacin Lazo" width="140"> |
+| **Foto**                  | <img src="img/team-members/gerardo-palacin.jpeg" alt="Fotografía de Gerardo Valentin Palacin Lazo" width="140"> |
 
 ---
 
@@ -248,7 +248,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | **Código del Estudiante** | U20221G181 |
 | **Carrera**               | Ingeniería de Software |
 | **Descripción**           | _Pendiente de redacción por el integrante._ |
-| **Foto**                  | <img src="docs/team-members/angel-crispin.jpg" alt="Fotografía de Angel Gabriel Crispin Valdivia" width="140"> |
+| **Foto**                  | <img src="img/team-members/angel-crispin.jpg" alt="Fotografía de Angel Gabriel Crispin Valdivia" width="140"> |
 
 ---
 
@@ -257,7 +257,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | **Código del Estudiante** | U202311912 |
 | **Carrera**               | Ingeniería de Software |
 | **Descripción**           | _Pendiente de redacción por el integrante._ |
-| **Foto**                  | <img src="docs/team-members/leonardo-cumba.jpeg" alt="Fotografía de Leonardo Raul Cumba Rengifo" width="140"> |
+| **Foto**                  | <img src="img/team-members/leonardo-cumba.jpeg" alt="Fotografía de Leonardo Raul Cumba Rengifo" width="140"> |
 
 ---
 
@@ -266,7 +266,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | **Código del Estudiante** | U201819645 |
 | **Carrera**               | Ingeniería de Software |
 | **Descripción**           | _Pendiente de redacción por el integrante._ |
-| **Foto**                  | <img src="docs/team-members/ariana-huapaya.jpeg" alt="Fotografía de Ariana Alheli Huapaya Buitron" width="140"> |
+| **Foto**                  | <img src="img/team-members/ariana-huapaya.jpeg" alt="Fotografía de Ariana Alheli Huapaya Buitron" width="140"> |
 
 ---
 
@@ -275,7 +275,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | **Código del Estudiante** | U20221C590 |
 | **Carrera**               | Ingeniería de Software |
 | **Descripción**           | _Pendiente de redacción por el integrante._ |
-| **Foto**                  | <img src="docs/team-members/maria-pezo.jpeg" alt="Fotografía de Maria Jose Pezo Castilla" width="140"> |
+| **Foto**                  | <img src="img/team-members/maria-pezo.jpeg" alt="Fotografía de Maria Jose Pezo Castilla" width="140"> |
 
 
 <a id="12-solution-profile"></a>
@@ -1197,8 +1197,6 @@ Las Technical Stories representan los requerimientos técnicos necesarios para i
 
 <a id="32-impact-mapping"></a>
 ## 3.2. Impact Mapping.
-
-
 
 <a id="33-product-backlog"></a>
 ## 3.3. Product Backlog
