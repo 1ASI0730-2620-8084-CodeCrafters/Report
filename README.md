@@ -1583,8 +1583,16 @@ La aplicación utiliza una barra lateral persistente como sistema de navegación
 <a id="462-software-architecture-context-diagram"></a>
 ### 4.6.2. Software Architecture Context Diagram.
 
+El diagrama de contexto muestra los principales actores que interactúan con la plataforma BottleTrack y la relación general con el sistema.
+
+![BottleTrack Context Diagram](img/DDD-SA/C4-model/context.png)
+
 <a id="463-software-architecture-container-diagrams"></a>
 ### 4.6.3. Software Architecture Container Diagrams.
+
+El diagrama de contenedores descompone BottleTrack en sus principales partes de software, mostrando cómo los usuarios interactúan con la Landing Page, la Web Application, el Backend API y la Database.
+
+![BottleTrack Container Diagram](img/DDD-SA/C4-model/container.png)
 
 <a id="464-software-architecture-components-diagrams"></a>
 ### 4.6.4. Software Architecture Components Diagrams.

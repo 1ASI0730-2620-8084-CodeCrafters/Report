@@ -1,0 +1,14 @@
+@startuml BottleTrack-Context
+
+!include <C4/C4_Context>
+
+Person(company, "Company Representative", "Representative of a beverage distribution company who oversees the transportation and distribution operations.")
+
+Person(supervisor, "Fleet Supervisor", "User who manages vehicles, drivers, routes, deliveries and transportation operations.")
+
+System(bottletrack, "BottleTrack", "Web platform for managing and tracking beverage transportation and distribution operations.")
+
+Rel(company, bottletrack, "Manages and monitors operations")
+Rel(supervisor, bottletrack, "Manages vehicles, drivers, routes and deliveries")
+
+@enduml
