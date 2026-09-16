@@ -1607,6 +1607,8 @@ El diagrama de contenedores descompone BottleTrack en sus principales partes de 
     <img src="img/ClassDiagrams.png" alt="ClassDiagrams.png" width="80%">
 </p>
 
+link:  https://lucid.app/lucidchart/ea3b075d-44d9-4fb0-a58f-6d6c2762bf85/edit?viewport_loc=-1138%2C-648%2C9955%2C6088%2C0_0&invitationId=inv_15a7c100-9dc0-469a-a127-a7b60c647f1e
+
 
 # 4.8. Database Design
 
