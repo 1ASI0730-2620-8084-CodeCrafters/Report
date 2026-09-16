@@ -1601,10 +1601,20 @@ El diagrama de contenedores descompone BottleTrack en sus principales partes de 
 <a id="47-software-object-oriented-design"></a>
 ## 4.7. Software Object-Oriented Design.
 
+###  4.7.1 Class Diagrams
+
+<p align="center">
+    <img src="img/ClassDiagrams.png" alt="ClassDiagrams.png" width="80%">
+</p>
+
 
 # 4.8. Database Design
 
 ### 4.8.1. Database Diagrams.
+
+<p align="center">
+    <img src="img/DatabaseDiagrams.png" alt="DatabaseDiagrams.png" width="80%">
+</p>
 
 <hr>
 
