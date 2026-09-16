@@ -1601,12 +1601,562 @@ El diagrama de contenedores descompone BottleTrack en sus principales partes de 
 <a id="47-software-object-oriented-design"></a>
 ## 4.7. Software Object-Oriented Design.
 
-<a id="471-class-diagrams"></a>
-### 4.7.1. Class Diagrams.
+# 4.7. Software Object-Oriented Design
+
+Esta sección profundiza el detalle de implementación de cada uno de los 5 Bounded
+Contexts identificados en el Event Storming (Identidad y Accesos, Gestión de Flota,
+Operaciones y Rutas, Monitoreo IoT y Gestión de Incidencias), llevándolos de
+"aggregates candidatos" (nivel Big Picture) a un modelo de clases formal (nivel
+Design-Level), con un enfoque de **modelo de dominio rico**: cada aggregate expone
+métodos que reflejan los Commands identificados en el Event Storming y protege sus
+propias reglas de negocio (invariantes), en vez de ser una simple bolsa de datos.
+
+Convenciones usadas en todos los diagramas:
+
+- `+` público, `-` privado, `#` protegido. Los atributos de estado se mantienen
+  privados y solo se exponen/mutan a través de métodos públicos que representan
+  los Commands del dominio.
+- Las relaciones entre aggregates de **distintos** Bounded Contexts nunca se dibujan
+  como asociación de objetos (composición/agregación): siguiendo buenas prácticas
+  DDD, se referencian solo por identificador (`Guid`), para no acoplar contexts entre
+  sí. Esa referencia se documenta como comentario en el atributo correspondiente.
+- Dentro de un mismo Bounded Context sí se usan composición (`*--`) cuando una
+  Entity no tiene sentido de vida fuera de su Aggregate Root, y asociación con
+  multiplicidad calificada (`"1" --> "0..*"`) cuando son Aggregate Roots independientes.
+
+## 4.7.1. Class Diagrams
+
+### 1. Identidad y Accesos (Genérico)
+
+`Organization` y `User` son dos Aggregate Roots independientes (así se identificaron
+en el Event Storming). La policy *"Cuando se registra una distribuidora, crear su
+usuario administrador"* se modela como una operación de dominio que, al finalizar
+`RegisterDistributor`, invoca la creación del primer `User` con rol `Administrador`.
 
 
-<a id="48-database-design"></a>
-## 4.8. Database Design.
+classDiagram
+    class Organization {
+        -Id: Guid
+        -BusinessName: string
+        -TaxId: string
+        -TradeName: string
+        -Phone: string
+        -Email: string
+        -Address: string
+        -LogoUrl: string
+        -CreatedAt: DateTime
+        +RegisterDistributor(businessName: string, taxId: string, adminEmail: string, adminPassword: string)$ Organization
+        +UpdateProfile(tradeName: string, phone: string, email: string, address: string) void
+    }
+
+    class User {
+        -Id: Guid
+        -OrganizationId: Guid
+        -FirstName: string
+        -LastName: string
+        -Email: string
+        -PasswordHash: string
+        -Role: RoleType
+        -Status: UserStatus
+        -Phone: string
+        -LicenseNumber: string
+        -CreatedAt: DateTime
+        +RegisterUser(organizationId: Guid, firstName: string, lastName: string, email: string, password: string)$ User
+        +AssignRoleToUser(role: RoleType) void
+        +Authenticate(password: string) bool
+        +Deactivate() void
+        #HashPassword(rawPassword: string) string
+    }
+
+    class RoleType {
+        <<enumeration>>
+        Administrador
+        Supervisor
+        Conductor
+    }
+
+    class UserStatus {
+        <<enumeration>>
+        Activo
+        Inactivo
+    }
+
+    Organization "1" --> "1..*" User : OrganizationId
+    User --> RoleType : tiene
+    User --> UserStatus : tiene
+
+
+### 2. Gestión de Flota (Soporte)
+
+`Vehicle` y `Driver` son Aggregate Roots independientes entre sí. `Vehicle` guarda
+`IoTDeviceId` como referencia por identificador al Aggregate `IoTDevice` del
+Bounded Context Monitoreo IoT (no se dibuja aquí, ver sección 4). `Driver` guarda
+`UserId` como referencia al Aggregate `User` de Identidad y Accesos.
+
+
+classDiagram
+    class Vehicle {
+        -Id: Guid
+        -OrganizationId: Guid
+        -PlateNumber: string
+        -Brand: string
+        -Model: string
+        -Year: int
+        -CapacityTons: decimal
+        -Status: VehicleStatus
+        -IoTDeviceId: Guid
+        +RegisterVehicle(organizationId: Guid, plateNumber: string, brand: string, model: string, year: int, capacityTons: decimal)$ Vehicle
+        +InstallIoTDevice(deviceId: Guid) void
+        +MarkAsAvailable() void
+        +MarkAsInOperation() void
+        +SendToMaintenance() void
+    }
+
+    class Driver {
+        -Id: Guid
+        -OrganizationId: Guid
+        -UserId: Guid
+        -FirstName: string
+        -LastName: string
+        -DNI: string
+        -LicenseNumber: string
+        -Phone: string
+        -Status: DriverStatus
+        +RegisterDriver(organizationId: Guid, userId: Guid, firstName: string, lastName: string, dni: string, licenseNumber: string, phone: string)$ Driver
+        +MarkAsAvailable() void
+        +MarkAsInOperation() void
+        +Deactivate() void
+    }
+
+    class VehicleStatus {
+        <<enumeration>>
+        Disponible
+        EnOperacion
+        Mantenimiento
+        Inactivo
+    }
+
+    class DriverStatus {
+        <<enumeration>>
+        Disponible
+        EnOperacion
+        Inactivo
+    }
+
+    Vehicle --> VehicleStatus : tiene
+    Driver --> DriverStatus : tiene
+
+
+### 3. Operaciones y Rutas (Core)
+
+En el Event Storming, `Transport Operation`, `Delivery Stop` y `Shipment` aparecen
+como tres aggregates candidatos. A nivel de Design-Level EventStorming se
+refinaron así: **`TransportOperation`** es el Aggregate Root que garantiza la
+consistencia transaccional de toda la operación (asignación de vehículo/conductor,
+despacho y la regla *"cuando todas las paradas quedan cerradas, completar la
+operación"*); **`DeliveryStop`** pasa a ser una Entity hija (no tiene sentido de vida
+fuera de una operación); y **`Shipment`** se modela como una Entity hija de cada
+`DeliveryStop`, representando el detalle de la carga de esa parada específica, lo que
+permite aplicar la policy *"cuando se completa el envío, calcular la demora del
+envío"* de forma aislada por parada.
+
+
+classDiagram
+    class TransportOperation {
+        -Id: Guid
+        -Code: string
+        -OrganizationId: Guid
+        -Description: string
+        -ScheduledDate: DateTime
+        -VehicleId: Guid
+        -DriverId: Guid
+        -Status: OperationStatus
+        -DispatchedAt: DateTime
+        -CompletedAt: DateTime
+        -Stops: List~DeliveryStop~
+        +CreateTransportOperation(organizationId: Guid, description: string, scheduledDate: DateTime)$ TransportOperation
+        +AssignVehicleAndDriver(vehicleId: Guid, driverId: Guid) void
+        +AddDeliveryPoint(customerName: string, address: string) void
+        +DispatchOperation() void
+        +ConfirmDelivery(stopId: Guid) void
+        +CompleteOperation() void
+        +Cancel(reason: string) void
+        -AllStopsClosed() bool
+    }
+
+    class DeliveryStop {
+        -Id: Guid
+        -TransportOperationId: Guid
+        -SequenceNumber: int
+        -CustomerName: string
+        -Address: string
+        -Status: DeliveryStatus
+        -ConfirmedAt: DateTime
+        -Shipment: Shipment
+        +ConfirmDelivery() void
+        +MarkAsNotDelivered(reason: string) void
+    }
+
+    class Shipment {
+        -Id: Guid
+        -DeliveryStopId: Guid
+        -ProductDescription: string
+        -QuantityBoxes: int
+        -EstimatedDeliveryTime: DateTime
+        -ActualDeliveryTime: DateTime
+        -DelayMinutes: int
+        +RegisterShipment(productDescription: string, quantityBoxes: int, estimatedDeliveryTime: DateTime)$ Shipment
+        +CalculateDelay() int
+    }
+
+    class OperationStatus {
+        <<enumeration>>
+        Pendiente
+        EnCurso
+        Completada
+        Cancelada
+    }
+
+    class DeliveryStatus {
+        <<enumeration>>
+        Pendiente
+        Completada
+        NoEntregada
+    }
+
+    TransportOperation "1" *-- "1..*" DeliveryStop : contiene
+    DeliveryStop "1" *-- "1" Shipment : entrega
+    TransportOperation --> OperationStatus : tiene
+    DeliveryStop --> DeliveryStatus : tiene
+
+
+> Nota: `VehicleId` y `DriverId` en `TransportOperation` son referencias por Id a los
+> Aggregates `Vehicle` y `Driver` del Bounded Context Gestión de Flota.
+
+### 4. Monitoreo IoT (Core)
+
+`IoTDevice` es el Aggregate Root; acumula un historial de `SensorReading` (Entity
+hija). Cuando una lectura sale de rango seguro o detecta un impacto, se genera un
+`Alert` (Aggregate Root propio, ya que tiene ciclo de vida y estado —reconocida o
+no— independiente de la lectura que la originó).
+
+
+classDiagram
+    class IoTDevice {
+        -Id: Guid
+        -SerialNumber: string
+        -VehicleId: Guid
+        -SafeTemperatureMin: decimal
+        -SafeTemperatureMax: decimal
+        -Status: DeviceStatus
+        -Readings: List~SensorReading~
+        +RegisterDevice(serialNumber: string, vehicleId: Guid)$ IoTDevice
+        +ConfigureSafeRange(min: decimal, max: decimal) void
+        +RegisterSensorReading(latitude: decimal, longitude: decimal, temperature: decimal, impactDetected: bool) SensorReading
+    }
+
+    class SensorReading {
+        -Id: Guid
+        -IoTDeviceId: Guid
+        -Timestamp: DateTime
+        -Latitude: decimal
+        -Longitude: decimal
+        -TemperatureCelsius: decimal
+        -ImpactDetected: bool
+        +IsOutOfSafeRange(min: decimal, max: decimal) bool
+        +HasImpact() bool
+    }
+
+    class Alert {
+        -Id: Guid
+        -IoTDeviceId: Guid
+        -SensorReadingId: Guid
+        -Type: AlertType
+        -RaisedAt: DateTime
+        -Acknowledged: bool
+        -AcknowledgedBy: Guid
+        -AcknowledgedAt: DateTime
+        +RaiseAlert(deviceId: Guid, readingId: Guid, type: AlertType)$ Alert
+        +Acknowledge(userId: Guid) void
+    }
+
+    class DeviceStatus {
+        <<enumeration>>
+        Activo
+        Inactivo
+    }
+
+    class AlertType {
+        <<enumeration>>
+        TemperaturaFueraDeRango
+        Impacto
+    }
+
+    IoTDevice "1" *-- "0..*" SensorReading : registra
+    SensorReading "1" ..> "0..1" Alert : puede generar
+    IoTDevice --> DeviceStatus : tiene
+    Alert --> AlertType : tiene
+
+
+> Nota: `VehicleId` en `IoTDevice` y `AcknowledgedBy` en `Alert` son referencias por
+> Id a los Aggregates `Vehicle` (Gestión de Flota) y `User` (Identidad y Accesos),
+> respectivamente.
+
+### 5. Gestión de Incidencias (Core)
+
+`Incident` es el Aggregate Root y acumula `Evidence` (Entity hija) como archivos
+adjuntos de soporte.
+
+
+classDiagram
+    class Incident {
+        -Id: Guid
+        -Code: string
+        -TransportOperationId: Guid
+        -ReportedBy: Guid
+        -Type: IncidentType
+        -Description: string
+        -Severity: SeverityLevel
+        -Status: IncidentStatus
+        -ReportedAt: DateTime
+        -ResolvedAt: DateTime
+        -ClosedAt: DateTime
+        -EvidenceItems: List~Evidence~
+        +ReportIncident(transportOperationId: Guid, reportedBy: Guid, type: IncidentType, description: string)$ Incident
+        +AttachEvidence(fileUrl: string, fileType: string, uploadedBy: Guid) void
+        +AssignSeverity(level: SeverityLevel) void
+        +Review() void
+        +Resolve(resolutionNotes: string) void
+        +Close() void
+        -HasEvidence() bool
+    }
+
+    class Evidence {
+        -Id: Guid
+        -IncidentId: Guid
+        -FileUrl: string
+        -FileType: string
+        -UploadedAt: DateTime
+        -UploadedBy: Guid
+    }
+
+    class IncidentType {
+        <<enumeration>>
+        Retraso
+        ProductoDanado
+        FallaDeVehiculo
+        DireccionIncorrecta
+    }
+
+    class SeverityLevel {
+        <<enumeration>>
+        Baja
+        Media
+        Alta
+    }
+
+    class IncidentStatus {
+        <<enumeration>>
+        Abierta
+        EnRevision
+        Resuelta
+        Cerrada
+    }
+
+    Incident "1" *-- "0..*" Evidence : adjunta
+    Incident --> IncidentType : tiene
+    Incident --> SeverityLevel : tiene
+    Incident --> IncidentStatus : tiene
+
+
+> Nota: `TransportOperationId` en `Incident` es una referencia por Id al Aggregate
+> `TransportOperation` del Bounded Context Operaciones y Rutas (esto materializa la
+> policy *"cuando se reporta una incidencia, notificar al supervisor de la
+> operación"*), y `ReportedBy` es una referencia al Aggregate `User`.
+
+---
+
+# 4.8. Database Design
+
+A diferencia del Class Diagram (que se presenta **uno por Bounded Context**, para
+preservar la separación conceptual entre módulos), el statement pide para esta
+sección **un único Database Diagram que incluya los objetos de base de datos de
+cada Bounded Context**: BottleTrack se despliega sobre una sola base de datos
+relacional física (MySQL / PostgreSQL, según el Container Diagram), así que tiene
+sentido documentarla como un solo esquema consolidado, con sus tablas, columnas,
+constraints (`PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`) y relaciones entre tablas,
+incluyendo las que cruzan de un Bounded Context a otro (por ejemplo
+`Vehicles.OrganizationId → Organizations.Id`, o `Incidents.TransportOperationId →
+TransportOperations.Id`). Las tablas se agrupan a continuación por el Bounded
+Context al que pertenece cada Aggregate, solo como guía de lectura del diagrama.
+
+## 4.8.1. Database Diagrams
+
+Agrupación de tablas por Bounded Context (para guiar la lectura del diagrama):
+
+- **Identidad y Accesos**: `Organizations`, `Users`
+- **Gestión de Flota**: `Vehicles`, `Drivers`
+- **Operaciones y Rutas**: `TransportOperations`, `DeliveryStops`, `Shipments`
+- **Monitoreo IoT**: `IotDevices`, `SensorReadings`, `Alerts`
+- **Gestión de Incidencias**: `Incidents`, `Evidence`
+
+
+erDiagram
+    ORGANIZATIONS ||--o{ USERS : "OrganizationId"
+    ORGANIZATIONS ||--o{ VEHICLES : "OrganizationId"
+    ORGANIZATIONS ||--o{ DRIVERS : "OrganizationId"
+    ORGANIZATIONS ||--o{ TRANSPORT_OPERATIONS : "OrganizationId"
+    USERS ||--o| DRIVERS : "UserId"
+    USERS ||--o{ ALERTS : "AcknowledgedBy"
+    USERS ||--o{ INCIDENTS : "ReportedBy"
+    USERS ||--o{ EVIDENCE : "UploadedBy"
+    VEHICLES ||--o| IOT_DEVICES : "VehicleId"
+    VEHICLES ||--o{ TRANSPORT_OPERATIONS : "VehicleId"
+    DRIVERS ||--o{ TRANSPORT_OPERATIONS : "DriverId"
+    IOT_DEVICES ||--o{ ALERTS : "IoTDeviceId"
+    IOT_DEVICES ||--o{ SENSOR_READINGS : "IoTDeviceId"
+    SENSOR_READINGS ||--o| ALERTS : "SensorReadingId"
+    TRANSPORT_OPERATIONS ||--o{ DELIVERY_STOPS : "TransportOperationId"
+    TRANSPORT_OPERATIONS ||--o{ INCIDENTS : "TransportOperationId"
+    DELIVERY_STOPS ||--|| SHIPMENTS : "DeliveryStopId"
+    INCIDENTS ||--o{ EVIDENCE : "IncidentId"
+
+    ORGANIZATIONS {
+        char36 Id PK
+        varchar255 BusinessName
+        varchar20 TaxId
+        varchar255 TradeName
+        varchar30 Phone
+        varchar255 Email
+        varchar255 Address
+        varchar500 LogoUrl
+        datetime CreatedAt
+    }
+
+    USERS {
+        char36 Id PK
+        char36 OrganizationId FK
+        varchar100 FirstName
+        varchar100 LastName
+        varchar255 Email UK
+        varchar255 PasswordHash
+        varchar20 Role
+        varchar20 Status
+        varchar30 Phone
+        varchar30 LicenseNumber
+        datetime CreatedAt
+    }
+
+    VEHICLES {
+        char36 Id PK
+        char36 OrganizationId FK
+        varchar10 PlateNumber UK
+        varchar60 Brand
+        varchar60 Model
+        int Year
+        decimal_5_2 CapacityTons
+        varchar20 Status
+    }
+
+    DRIVERS {
+        char36 Id PK
+        char36 OrganizationId FK
+        char36 UserId FK
+        varchar100 FirstName
+        varchar100 LastName
+        varchar15 DNI UK
+        varchar30 LicenseNumber UK
+        varchar30 Phone
+        varchar20 Status
+    }
+
+    TRANSPORT_OPERATIONS {
+        char36 Id PK
+        varchar10 Code UK
+        char36 OrganizationId FK
+        varchar255 Description
+        date ScheduledDate
+        char36 VehicleId FK
+        char36 DriverId FK
+        varchar20 Status
+        datetime DispatchedAt
+        datetime CompletedAt
+    }
+
+    DELIVERY_STOPS {
+        char36 Id PK
+        char36 TransportOperationId FK
+        int SequenceNumber
+        varchar255 CustomerName
+        varchar255 Address
+        varchar20 Status
+        datetime ConfirmedAt
+    }
+
+    SHIPMENTS {
+        char36 Id PK
+        char36 DeliveryStopId FK
+        varchar255 ProductDescription
+        int QuantityBoxes
+        datetime EstimatedDeliveryTime
+        datetime ActualDeliveryTime
+        int DelayMinutes
+    }
+
+    IOT_DEVICES {
+        char36 Id PK
+        varchar60 SerialNumber UK
+        char36 VehicleId FK
+        decimal_5_2 SafeTemperatureMin
+        decimal_5_2 SafeTemperatureMax
+        varchar20 Status
+    }
+
+    SENSOR_READINGS {
+        char36 Id PK
+        char36 IoTDeviceId FK
+        datetime Timestamp
+        decimal_9_6 Latitude
+        decimal_9_6 Longitude
+        decimal_5_2 TemperatureCelsius
+        boolean ImpactDetected
+    }
+
+    ALERTS {
+        char36 Id PK
+        char36 IoTDeviceId FK
+        char36 SensorReadingId FK
+        varchar30 Type
+        datetime RaisedAt
+        boolean Acknowledged
+        char36 AcknowledgedBy FK
+        datetime AcknowledgedAt
+    }
+
+    INCIDENTS {
+        char36 Id PK
+        varchar10 Code UK
+        char36 TransportOperationId FK
+        char36 ReportedBy FK
+        varchar30 Type
+        varchar500 Description
+        varchar10 Severity
+        varchar20 Status
+        datetime ReportedAt
+        datetime ResolvedAt
+        datetime ClosedAt
+    }
+
+    EVIDENCE {
+        char36 Id PK
+        char36 IncidentId FK
+        varchar500 FileUrl
+        varchar30 FileType
+        datetime UploadedAt
+        char36 UploadedBy FK
+    }
+```
+
 
 <a id="481-database-diagrams"></a>
 ### 4.8.1. Database Diagrams.
