@@ -1014,19 +1014,50 @@ Las entrevistas deberán registrarse en video para conservar evidencia del proce
 
 <a id="23-needfinding"></a>
 ## 2.3. Needfinding.
+El proceso de Needfinding permite identificar y sintetizar las principales necesidades, objetivos, comportamientos, dificultades y motivaciones de los segmentos objetivo de BottleTrack. Para ello, se consideran los resultados obtenidos mediante las entrevistas realizadas a representantes de los segmentos y el análisis previo del dominio y de las soluciones existentes.
+
+A partir de la información recolectada se identificaron tres segmentos objetivo: empresas distribuidoras de bebidas, supervisores o encargados de flota, y bodegas y minimercados. Cada segmento presenta una participación diferente dentro del proceso de distribución de bebidas, por lo que sus necesidades y actividades se analizan de manera diferenciada.
+
+Los resultados del proceso se representan mediante tres User Personas, un User Task Matrix, tres User Journey Maps en su escenario As-Is y tres Empathy Maps. Los User Personas, User Journey Maps y Empathy Maps fueron elaborados en UXPressia, mientras que el User Task Matrix fue elaborado en Canva.
+
+Estos artefactos permiten consolidar los hallazgos de la investigación y establecer una comprensión común de los usuarios antes de definir los requisitos funcionales de BottleTrack. En particular, los User Journey Maps representan el proceso actual de cada segmento sin la existencia de la solución propuesta, permitiendo identificar los principales puntos de dolor y oportunidades de mejora.
 
 <a id="231-user-personas"></a>
 ### 2.3.1. User Personas.
+#### User Persona del Segmento Objetivo 1: Empresas distribuidoras de bebidas
+<img src="img/chapter2/user-persona-1.jpeg" alt="User Persona 1">
+
+#### User Persona del Segmento Objetivo 2: Supervisores o encargados de flota
+<img src="img/chapter2/user-persona-2.jpeg" alt="User Persona 2">
+
+#### User Persona del Segmento Objetivo 3: Bodegas y minimercados
+<img src="img/chapter2/user-persona-3.jpeg" alt="User Persona 3">
 
 <a id="232-user-task-matrix"></a>
 ### 2.3.2. User Task Matrix.
+<img src="img/chapter2/user-task-matrix.jpeg" alt="User Task Matix">
 
 <a id="233-user-journey-mapping"></a>
 ### 2.3.3. User Journey Mapping.
+#### User Persona 1: Carlos Mendoza
+<img src="img/chapter2/user-journey-map-segmento-1.jpeg" alt="User Journey Mapping - Segmento 1">
+
+#### User Persona 2: Luis Torres
+<img src="img/chapter2/user-journey-map-segmento-2.jpeg" alt="User Journey Mapping - Segmento 2">
+
+#### User Persona 3: María Fernández
+<img src="img/chapter2/user-journey-map-segmento-3.jpeg" alt="User Journey Mapping - Segmento 3">
 
 <a id="234-empathy-mapping"></a>
 ### 2.3.4. Empathy Mapping.
+#### User Persona 1: Carlos Mendoza
+<img src="img/chapter2/empathy-map-segmento-1.jpeg" alt="Empathy Mapping - Segmento 1">
 
+#### User Persona 2: Luis Torres
+<img src="img/chapter2/empathy-map-segmento-2.jpeg" alt="Empathy Mapping - Segmento 2">
+
+#### User Persona 3: María Fernández
+<img src="img/chapter2/empathy-map-segmento-3.jpeg" alt="Empathy Mapping - Segmento 3">
 
 <a id="24-big-picture-eventstorming"></a>
 ## 2.4. Big Picture EventStorming.
