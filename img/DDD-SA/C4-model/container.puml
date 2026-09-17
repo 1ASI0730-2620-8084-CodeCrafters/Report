@@ -1,0 +1,32 @@
+@startuml BottleTrack-Container
+
+!include <C4/C4_Container>
+
+Person(company, "Company Representative", "Representative of a beverage distribution company who oversees transportation and distribution operations.")
+
+Person(supervisor, "Fleet Supervisor", "User who manages vehicles, drivers, routes, deliveries and transportation operations.")
+
+System_Boundary(bottletrack, "BottleTrack") {
+
+    Container(landing, "Landing Page", "HTML5, CSS3, JavaScript", "Public entry point that presents BottleTrack and provides access to the platform.")
+
+    Container(webapp, "Web Application", "Vue.js, HTML5, CSS3, JavaScript", "Web application used to manage and monitor beverage transportation and distribution operations.")
+
+    Container(api, "Backend API", "ASP.NET Core, C#", "RESTful API that handles business logic and communication with the database.")
+
+    ContainerDb(database, "Database", "MySQL Server / PostgreSQL", "Stores information about vehicles, drivers, routes, deliveries and incidents.")
+}
+
+Rel(company, landing, "Accesses", "HTTPS")
+
+Rel(supervisor, landing, "Accesses", "HTTPS")
+
+Rel(landing, webapp, "Redirects to", "HTTPS")
+
+Rel(supervisor, webapp, "Uses", "HTTPS")
+
+Rel(webapp, api, "Sends requests and receives data", "REST/JSON")
+
+Rel(api, database, "Reads from and writes to", "SQL")
+
+@enduml
