@@ -274,7 +274,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | :------------------------ | :------------------------ |
 | **Código del Estudiante** | U20221C590 |
 | **Carrera**               | Ingeniería de Software |
-| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Descripción**           | Me apasiona el desarrollo de software y me interesa seguir fortaleciendo mis conocimientos en programación y tecnologías digitales. Tengo conocimientos en Java, Python y desarrollo web, además de interés en bases de datos y computación en la nube. Me considero una persona responsable, con capacidad para aprender rápidamente y trabajar en equipo. Busco seguir desarrollando mis habilidades y afrontar nuevos retos que me permitan crecer profesionalmente. |
 | **Foto**                  | <img src="img/team-members/maria-pezo.jpeg" alt="Fotografía de Maria Jose Pezo Castilla" width="140"> |
 
 
