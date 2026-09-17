@@ -1583,12 +1583,33 @@ La aplicación utiliza una barra lateral persistente como sistema de navegación
 <a id="462-software-architecture-context-diagram"></a>
 ### 4.6.2. Software Architecture Context Diagram.
 
+El diagrama de contexto presenta a BottleTrack como el sistema principal y muestra su interacción con los actores y sistemas externos que participan en la solución. El Administrador utiliza la plataforma para gestionar la organización, usuarios y supervisar la operación; el Supervisor de Flota la utiliza para gestionar la flota, planificar operaciones, monitorear la telemetría y atender incidencias; mientras que el Conductor utiliza la plataforma para ejecutar las entregas y reportar incidencias durante su recorrido.
+Además, el Dispositivo IoT del Vehículo se comunica con BottleTrack para enviar información de ubicación, temperatura de carga e impactos.
+
+<img src="img/DD-SoftwareArchitecture/context_diagram.png" alt="Context Diagram" width="800">
+
 <a id="463-software-architecture-container-diagrams"></a>
 ### 4.6.3. Software Architecture Container Diagrams.
+
+El diagrama de contenedores descompone BottleTrack en sus principales partes tecnológicas. La Web Application, desarrollada como una SPA con Vue 3 y PrimeVue, proporciona la interfaz utilizada por el Administrador, Supervisor de Flota y Conductor. 
+Esta aplicación se comunica mediante HTTPS con la BottleTrack API, implementada con ASP.NET Core Web API y Entity Framework Core, que concentra la lógica de negocio y el acceso a los datos. La información del sistema se almacena en una Base de Datos relacional, mientras que el Dispositivo IoT del Vehículo envía directamente sus lecturas de telemetría a la API mediante HTTPS/REST.
+
+<img src="img/DD-SoftwareArchitecture/container_diagram.png" alt="Container Diagram" width="800">
 
 <a id="464-software-architecture-components-diagrams"></a>
 ### 4.6.4. Software Architecture Components Diagrams.
 
+Los diagramas de componentes muestran la organización interna de los principales containers de BottleTrack. 
+La BottleTrack API está implementada como un monolito modular y se organiza mediante cinco componentes correspondientes a los Bounded Contexts identificados durante el Event Storming: Identidad y Accesos, Gestión de Flota, Operaciones y Rutas, Monitoreo IoT y Gestión de Incidencias.
+<hr>
+
+La BottleTrack API concentra la lógica de negocio del sistema y está organizada internamente mediante cinco módulos correspondientes a los Bounded Contexts de BottleTrack.
+
+<img src="img/DD-SoftwareArchitecture/componentAPI_diagram.png" alt="API component Diagram" width="800">
+
+La Web Application contiene los componentes responsables de la interacción con los usuarios de BottleTrack.
+
+<img src="img/DD-SoftwareArchitecture/componentWebApp_diagram.png" alt="Web Application component Diagram" width="800">
 
 <a id="47-software-object-oriented-design"></a>
 ## 4.7. Software Object-Oriented Design.
@@ -1596,12 +1617,52 @@ La aplicación utiliza una barra lateral persistente como sistema de navegación
 <a id="471-class-diagrams"></a>
 ### 4.7.1. Class Diagrams.
 
+Visualización general del diagrama de clases:
+
+<img src="img/Software-Object-Oriented-Design/ClassDiagrams.png" alt="Class Diagrams" width="800">
+
+[Ver Diagrama de Arquitectura](https://lucid.app/lucidchart/ea3b075d-44d9-4fb0-a58f-6d6c2762bf85/edit?viewport_loc=-1138%2C-648%2C9955%2C6088%2C0_0&invitationId=inv_15a7c100-9dc0-469a-a127-a7b60c647f1e)
+<hr>
+
+### 1. Identity and Access
+
+Gestiona las organizaciones y usuarios que forman parte de BottleTrack. Permite registrar la información de la empresa, crear usuarios, asignar roles y controlar su estado de acceso dentro de la plataforma.
+<img src="img/Software-Object-Oriented-Design/I&A_database.png" alt="Identity and Access class" width="800">
+
+### 2. Fleet Management
+
+Gestiona los vehículos y conductores pertenecientes a una organización. Permite registrar sus datos, controlar su disponibilidad y estado, además de asociar dispositivos IoT a los vehículos.
+
+<img src="img/Software-Object-Oriented-Design/FleetManagement_database.png" alt="Fleet Management class" width="800">
+
+### 3. IoT Monitoring
+
+Gestiona los dispositivos IoT instalados en los vehículos y las lecturas obtenidas durante su operación. Permite registrar ubicación, temperatura e impactos, así como generar y gestionar alertas ante condiciones fuera de los rangos establecidos.
+
+<img src="img/Software-Object-Oriented-Design/IoTMonitoring_database.png" alt="IoT Monitoring class" width="800">
+
+### 4. Operations and Routes
+
+Gestiona las operaciones de transporte desde su creación hasta su finalización. Permite asignar vehículos y conductores, definir puntos de entrega, registrar envíos y controlar el estado de cada operación y entrega.
+
+<img src="img/Software-Object-Oriented-Design/Op&Routes_database.png" alt="Operations and Routes class" width="800">
+
+### 5. Incident Management
+
+Gestiona las incidencias que se presentan durante las operaciones de transporte. Permite registrar el problema, adjuntar evidencias, asignar su severidad, realizar su seguimiento y controlar su resolución y cierre.
+
+<img src="img/Software-Object-Oriented-Design/IncidentManagement_database.png" alt="Incident Management class" width="800">
+
 
 <a id="48-database-design"></a>
 ## 4.8. Database Design.
 
+En esta sección se presentan los diagramas de base de datos correspondientes a cada Bounded Context del sistema. Los diagramas muestran las tablas, sus columnas, tipos de datos, claves primarias y foráneas, así como las relaciones entre las tablas, garantizando la persistencia correcta de la información.
+
 <a id="481-database-diagrams"></a>
 ### 4.8.1. Database Diagrams.
+
+<img src="img/Database-Design/DatabaseDiagrams.png" alt="Database Diagrams" width="800">
 
 <hr>
 
