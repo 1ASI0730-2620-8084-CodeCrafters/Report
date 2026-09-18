@@ -2067,10 +2067,15 @@ Los Web Services se publicarán en un proveedor de nube junto con la base de dat
 #### 5.2.x.4. Development Evidence for Sprint Review.
 
 <a id="52x5-execution-evidence-for-sprint-review"></a>
-#### 5.2.x.5. Execution Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Se evidencia el avance del primer sprint por medio del desarrollo del los capitulos del reporte asi tambien como la creación de un landing page que evidencia nos de a conocer y el modelo de negocio. 
+Por medio de este enlace: https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/
 
 <a id="52x6-services-documentation-evidence-for-sprint-review"></a>
-#### 5.2.x.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+En el primer Sprint solamente se ha desarrollado la Landing Page por lo que no se ha hecho uso de servicios web.
 
 <a id="52x7-software-deployment-evidence-for-sprint-review"></a>
 #### 5.2.x.7. Software Deployment Evidence for Sprint Review.
