@@ -999,15 +999,21 @@ Los principales problemas identificados son la planificación manual de rutas, e
 | # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Rodrigo Alonso | 39 años | Miraflores | <img src="img/chapter2/interview-rodrigo-alonso.jpeg" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQBEz4WjtPJfQ7tdUoRLgCEGARl_T6mESG_qbuhWi5Yr9u0?e=pmUB2N) | 00:00:00 | 8:39 |
-| 2 | Jorge Castilla | 37 años | [Distrito] | *(captura del video)* | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQBEz4WjtPJfQ7tdUoRLgCEGARl_T6mESG_qbuhWi5Yr9u0?e=pmUB2N) | [hh:mm:ss] | [mm:ss] |
+| 2 | Jorge Castilla | 37 años | La Molina | <img src="img/chapter2/interview-jorge-castilla.jpeg" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQA8zEtRuL5WTqnoOyQuJX5xATWNF1bk48oNO7vGYDMmLLg?e=QSsQ3y) | 00:00:00 | 11:40 |
 | 3 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
 
 *Resumen de entrevista 1:*
+
 Rodrigo Alonso, supervisor de operaciones y flota con siete años de experiencia, describe una jornada centrada en la planificación de entregas, asignación de vehículos y conductores, seguimiento de rutas y atención de incidencias. Actualmente utiliza principalmente Excel, WhatsApp y llamadas telefónicas para organizar y consultar información relacionada con las operaciones.
 Durante la entrevista se identificó que el seguimiento de las operaciones requiere una comunicación constante con los conductores, debido a que la información sobre el avance de las entregas no se encuentra disponible de manera centralizada. Asimismo, las incidencias suelen comunicarse inicialmente mediante WhatsApp y posteriormente pueden registrarse en archivos Excel, generando información distribuida entre diferentes medios.
 El entrevistado señaló que una de las actividades que mayor tiempo le demanda es recopilar información sobre el estado de las operaciones, especialmente cuando existen varios vehículos trabajando simultáneamente. También manifestó dificultades para consultar información histórica, debido a que debe revisar archivos y conversaciones anteriores. Finalmente, indicó que valora herramientas rápidas y sencillas que permiten consultar información de manera ordenada y reducir la necesidad de realizar múltiples coordinaciones.
 
 *Resumen de entrevista 2:*
+
+Jorge Castilla, supervisor de distribución con cinco años de experiencia en el área, describe sus principales actividades relacionadas con la organización y seguimiento de las operaciones de entrega. Durante su jornada coordina principalmente con conductores, personal de almacén y administración, utilizando WhatsApp, Excel, correo electrónico y Google Drive como herramientas de apoyo.
+La entrevista permitió identificar que la planificación de las operaciones se realiza considerando la disponibilidad de vehículos y conductores, así como la ubicación y cantidad de los puntos de entrega. Una vez iniciadas las rutas, el seguimiento depende principalmente de las actualizaciones proporcionadas por los conductores mediante WhatsApp. Cuando necesite información específica, debe solicitarla directamente, debido a que no dispone de una fuente única de consulta.
+Asimismo, se identificó que el registro de incidencias se realiza de manera distribuida. Las comunicaciones y fotografías pueden permanecer en WhatsApp, mientras que parte de la información se registra posteriormente en archivos Excel. Esta situación dificulta la reconstrucción de algunos eventos y la consulta de operaciones anteriores.
+El entrevistado considera importante contar con información actualizada, organizada y fácil de consultar. Durante las operaciones prefiere utilizar el teléfono inteligente debido a su movilidad, mientras utiliza la computadora para revisar información más detallada.
 
 *Resumen de entrevista 3:*
 
