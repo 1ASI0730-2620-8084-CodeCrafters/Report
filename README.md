@@ -1005,7 +1005,7 @@ Los principales problemas identificados son la planificación manual de rutas, e
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Rodrigo Alonso | 39 años | Miraflores | <img src="img/chapter2/interview-rodrigo-alonso.jpeg" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQBEz4WjtPJfQ7tdUoRLgCEGARl_T6mESG_qbuhWi5Yr9u0?e=pmUB2N) | 00:00:00 | 8:39 |
 | 2 | Jorge Castilla | 37 años | La Molina | <img src="img/chapter2/interview-jorge-castilla.jpeg" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQA8zEtRuL5WTqnoOyQuJX5xATWNF1bk48oNO7vGYDMmLLg?e=QSsQ3y) | 00:00:00 | 11:40 |
-| 3 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+| 3 | Pablo ludeña flores | 21 | Miraflores|  <img src="img/chapter2/EntrevistaA.png" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCANZeXFcbdQJFldztGiFupAXmK7J74aOjTF2SN9wugVdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KqzyQU) | 00 | 5:00] |
 
 *Resumen de entrevista 1:*
 
@@ -1021,6 +1021,16 @@ Asimismo, se identificó que el registro de incidencias se realiza de manera dis
 El entrevistado considera importante contar con información actualizada, organizada y fácil de consultar. Durante las operaciones prefiere utilizar el teléfono inteligente debido a su movilidad, mientras utiliza la computadora para revisar información más detallada.
 
 *Resumen de entrevista 3:*
+
+Pablo Ludeña Flores, supervisor de distribución con cinco años de experiencia en el área, explica las principales actividades que realiza para organizar y supervisar las operaciones de entrega. Durante su jornada mantiene coordinación constante con conductores, personal de almacén y personal administrativo, utilizando herramientas como WhatsApp, Excel, correo electrónico y Google Drive.
+
+La entrevista permitió identificar que la planificación de las rutas depende principalmente de la disponibilidad de los vehículos y conductores, así como de la cantidad y ubicación de los puntos de entrega. Una vez iniciadas las operaciones, el seguimiento se realiza principalmente mediante mensajes y reportes enviados por los conductores a través de WhatsApp, por lo que muchas veces debe solicitar información directamente cuando necesita conocer el estado de una entrega.
+
+También se identificó que la información relacionada con incidencias se encuentra distribuida en diferentes medios. Fotografías, mensajes y evidencias pueden permanecer en WhatsApp, mientras que algunos datos son registrados posteriormente en archivos de Excel, dificultando la consulta y revisión de operaciones anteriores.
+
+Pablo considera importante contar con una herramienta que permita disponer de información actualizada, organizada y centralizada. Durante las operaciones prefiere utilizar el teléfono móvil por la facilidad de acceso, mientras que utiliza la computadora para revisar información más detallada y realizar tareas administrativas.
+
+
 
 **Segmento Ojetivo 3:Bodegas y minimarkets**
 
@@ -2165,6 +2175,22 @@ La distribución del trabajo permitió que los integrantes participaran en difer
 
 <a id="conclusiones-y-recomendaciones"></a>
 ## Conclusiones y recomendaciones.
+
+### Conclusiones
+
+1. La aplicación de Event Storming y Domain-Driven Design permitió identificar 5 Bounded Contexts claros (Identidad y Accesos, Gestión de Flota, Operaciones y Rutas, Monitoreo IoT, Gestión de Incidencias), lo que hizo posible diseñar BottleTrack como un monolito modular con responsabilidades bien separadas, en lugar de un backend monolítico sin fronteras internas definidas.
+
+2. El alcance del producto no fue estático durante el desarrollo: la eliminación del rol de Conductor como usuario de la plataforma obligó a actualizar en cascada las User Stories, el Product Backlog, el Class Diagram y los mock-ups ya construidos. Esto evidenció que mantener sincronizados los artefactos de diseño con las decisiones de negocio es tan importante como generarlos la primera vez.
+
+3. El Sprint 1 mostró una brecha entre lo planificado y lo entregado (27 story points comprometidos frente a 8 realmente completados): el equipo priorizó cerrar la documentación técnica y la Landing Page, dejando las pantallas de identidad, usuarios y empresa solo a nivel de diseño en Figma, sin pasar a implementación.
+
+### Recomendaciones
+
+1. Cerrar el diseño en Figma de cada pantalla *antes* de comprometerla en un sprint de implementación, para evitar que el tiempo de desarrollo se use en decisiones de diseño pendientes.
+
+2. Recalibrar la Sprint Velocity del equipo usando el dato real del Sprint 1 (8 puntos) en lugar de la capacidad estimada inicialmente (27), y reservar explícitamente horas para trabajo de documentación en la planificación de los siguientes sprints, en vez de tratarlo como actividad paralela sin costo.
+
+3. Resolver antes del Sprint 2 los dos puntos de arquitectura que quedaron abiertos: si el Bounded Context "Monitoreo IoT" sigue en alcance (no hay ninguna User Story que use sensores o alertas de dispositivo) y si se debe incorporar al C4 Model el sistema externo de mapas/geolocalización que piden EP09 y TS12 — ambos afectan directamente el Class Diagram, el Database Diagram y la estimación de las historias pendientes.
 
 <a id="video-about-the-team"></a>
 ## Video About-the-Team.
