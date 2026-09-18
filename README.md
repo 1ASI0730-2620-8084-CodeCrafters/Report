@@ -1228,6 +1228,14 @@ Las Technical Stories representan los requerimientos técnicos necesarios para i
 
 <a id="32-impact-mapping"></a>
 ## 3.2. Impact Mapping.
+#### User Persona 1: Carlos Mendoza
+<img src="img/chapter3/impact-map-segmento-1.jpeg" alt="Impact Map - Segmento 1">
+
+#### User Persona 2: Luis Torres
+<img src="img/chapter3/impact-map-segmento-2.jpeg" alt="Impact Map - Segmento 2">
+
+#### User Persona 3: María Fernández
+<img src="img/chapter3/impact-map-segmento-3.jpeg" alt="Impact Map - Segmento 3">
 
 <a id="33-product-backlog"></a>
 ## 3.3. Product Backlog
