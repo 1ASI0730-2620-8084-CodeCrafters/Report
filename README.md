@@ -2099,25 +2099,6 @@ Durante el Sprint 1, el equipo trabajó de manera colaborativa en la implementac
 La distribución del trabajo permitió que los integrantes participaran en diferentes actividades relacionadas con la implementación, incluyendo la construcción de la estructura del Landing Page, incorporación de contenido, desarrollo de las secciones orientadas a los segmentos objetivo, navegación, llamadas a la acción, adaptación responsive y revisión de la versión desplegada.
 
 
-<a id="53-validation-interviews"></a>
-## 5.3. Validation Interviews.
-
-<a id="531-diseno-de-entrevistas"></a>
-### 5.3.1. Diseño de Entrevistas.
-
-<a id="532-registro-de-entrevistas"></a>
-### 5.3.2. Registro de Entrevistas.
-
-<a id="533-evaluaciones-segun-heuristicas"></a>
-### 5.3.3. Evaluaciones según heurísticas.
-
-
-<a id="54-video-about-the-product"></a>
-## 5.4. Video About-the-Product.
-
-<hr>
-
-
 <a id="conclusiones"></a>
 # Conclusiones
 
