@@ -909,38 +909,6 @@ Estas preguntas se realizarán a todos los participantes y permitirán recopilar
 
 ---
 
-#### Entrevista - Conductores y repartidores
-
-**Objetivo:** comprender cómo los conductores ejecutan actualmente sus rutas, reciben información sobre las entregas y comunican el resultado o los problemas ocurridos durante su jornada.
-
-##### Preguntas principales
-
-| # | Pregunta |
-| --- | --- |
-| 1 | Cuénteme cómo recibe la información de las entregas que debe realizar durante el día. |
-| 2 | ¿Cómo sabe qué ruta debe seguir y en qué orden debe visitar los puntos de entrega? |
-| 3 | ¿Qué información necesita conocer antes de realizar una entrega? |
-| 4 | ¿Qué hace actualmente después de completar una entrega? |
-| 5 | Cuénteme sobre la última vez que tuvo un problema durante una entrega. ¿Qué ocurrió y qué hizo? |
-| 6 | ¿Cómo comunica actualmente al supervisor que una entrega se realizó correctamente o presentó algún problema? |
-| 7 | ¿Qué dificultades suele encontrar durante una ruta de distribución? |
-| 8 | ¿Qué herramientas o aplicaciones utiliza durante su jornada? |
-| 9 | ¿Existe alguna actividad administrativa o de reporte que considere incómoda o que le tome demasiado tiempo? |
-| 10 | ¿Qué resultado le ayudaría a realizar sus entregas de una manera más organizada? |
-
-##### Preguntas complementarias
-
-| # | Pregunta |
-| --- | --- |
-| 1 | ¿Utiliza su propio teléfono durante el trabajo o la empresa le proporciona uno? |
-| 2 | ¿Con qué frecuencia necesita comunicarse con el supervisor? |
-| 3 | ¿Qué hace cuando encuentra productos dañados o faltantes? |
-| 4 | ¿Qué hace cuando el cliente no puede recibir el pedido? |
-| 5 | ¿Cómo demuestra actualmente que realizó una entrega? |
-| 6 | ¿En qué situaciones le resulta difícil utilizar el teléfono mientras está realizando una entrega? |
-
----
-
 #### Entrevista - Bodegas y minimarkets
 
 **Objetivo:** conocer la experiencia de los establecimientos que reciben productos de las empresas distribuidoras y comprender los principales problemas relacionados con tiempos, estado y cumplimiento de las entregas.
@@ -1007,6 +975,61 @@ Las entrevistas deberán registrarse en video para conservar evidencia del proce
 
 <a id="222-registro-de-entrevistas"></a>
 ### 2.2.2. Registro de entrevistas.
+**Segmento Ojetivo 1: Empresas distribuidoras de bebidas**
+
+| # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Luis Angel Tufiño Argüelles | 32 | Pueblo libre | <img src="img/chapter2/luisE.png" alt="Entrevista - Luis"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCr82Alu2z7SZKNCmFaEpDPASkBq9PbtANVy94HciHpe8M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m3dgc1) |  00:00:00   | 11:23 |
+| 2 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+| 3 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+
+*Resumen de entrevista 1:*
+
+Luis Ramírez, supervisor de distribución con 8 años de experiencia, explica que su empresa organiza diariamente los pedidos, vehículos, conductores y rutas para abastecer bodegas, minimarkets y pequeños comercios. Actualmente utilizan principalmente Excel, Google Maps, WhatsApp y llamadas telefónicas, lo que dificulta mantener la información centralizada y hacer seguimiento a varias entregas al mismo tiempo.
+
+Los principales problemas identificados son la planificación manual de rutas, el seguimiento de los vehículos y el registro desordenado de incidencias como productos faltantes, dañados o entregas parciales. Luis considera importante contar con un sistema que permita visualizar en un solo lugar las rutas, vehículos, conductores y estado de cada entrega, además de registrar directamente si una entrega fue completada, parcial o presentó algún inconveniente.
+
+
+*Resumen de entrevista 2:*
+
+*Resumen de entrevista 3:*
+
+**Segmento Ojetivo 2: Supervisores o encargados de flota**
+
+| # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Rodrigo Alonso | 39 años | Miraflores | <img src="img/chapter2/interview-rodrigo-alonso.jpeg" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQBEz4WjtPJfQ7tdUoRLgCEGARl_T6mESG_qbuhWi5Yr9u0?e=pmUB2N) | 00:00:00 | 8:39 |
+| 2 | Jorge Castilla | 37 años | [Distrito] | *(captura del video)* | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQBEz4WjtPJfQ7tdUoRLgCEGARl_T6mESG_qbuhWi5Yr9u0?e=pmUB2N) | [hh:mm:ss] | [mm:ss] |
+| 3 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+
+*Resumen de entrevista 1:*
+Rodrigo Alonso, supervisor de operaciones y flota con siete años de experiencia, describe una jornada centrada en la planificación de entregas, asignación de vehículos y conductores, seguimiento de rutas y atención de incidencias. Actualmente utiliza principalmente Excel, WhatsApp y llamadas telefónicas para organizar y consultar información relacionada con las operaciones.
+Durante la entrevista se identificó que el seguimiento de las operaciones requiere una comunicación constante con los conductores, debido a que la información sobre el avance de las entregas no se encuentra disponible de manera centralizada. Asimismo, las incidencias suelen comunicarse inicialmente mediante WhatsApp y posteriormente pueden registrarse en archivos Excel, generando información distribuida entre diferentes medios.
+El entrevistado señaló que una de las actividades que mayor tiempo le demanda es recopilar información sobre el estado de las operaciones, especialmente cuando existen varios vehículos trabajando simultáneamente. También manifestó dificultades para consultar información histórica, debido a que debe revisar archivos y conversaciones anteriores. Finalmente, indicó que valora herramientas rápidas y sencillas que permiten consultar información de manera ordenada y reducir la necesidad de realizar múltiples coordinaciones.
+
+*Resumen de entrevista 2:*
+
+*Resumen de entrevista 3:*
+
+**Segmento Ojetivo 3:Bodegas y minimarkets**
+
+| # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Arturo Axel Saravia Huaricancha | 20 | Los Olivos |  <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">| [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) |  00:00:00 | 6:06 |
+| 2 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+| 3 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+
+*Resumen de entrevista 1:*
+
+En esta entrevista, el participante es un estudiante universitario que trabaja medio tiempo durante sus vacaciones en una bodega, donde ayuda atendiendo clientes, revisando stock y recibiendo pedidos de los proveedores.
+
+Se identificó que la bodega trabaja con varios distribuidores y que la comunicación se realiza principalmente mediante WhatsApp y llamadas. Uno de los principales problemas es no conocer con precisión la hora de llegada de los pedidos, además de recibir ocasionalmente productos incompletos o con diferencias respecto a lo solicitado.
+
+El entrevistado considera importante poder conocer el estado del pedido, la cantidad de productos, la hora aproximada de llegada y posibles retrasos, ya que esto permitiría organizarse mejor y reducir la necesidad de estar contactando constantemente al proveedor.
+
+*Resumen de entrevista 2:*
+
+*Resumen de entrevista 3:*
 
 <a id="223-analisis-de-entrevistas"></a>
 ### 2.2.3. Análisis de entrevistas.
@@ -1162,6 +1185,7 @@ Las Epics de BottleTrack agrupan las principales capacidades del producto y perm
 | **EP09** | External Services Integration | Integración de BottleTrack con servicios externos de mapas y geolocalización para complementar las operaciones de transporte. |
 
 
+
 ### User Stories
 
 | ID | Título | Descripción | Criterios de Aceptación |
@@ -1185,25 +1209,24 @@ Las Epics de BottleTrack agrupan las principales capacidades del producto y perm
 | **US17** | Asignar vehículo a operación | Como supervisor de flota, deseo asignar un vehículo disponible a una operación para establecer el recurso que realizará el transporte. | **Escenario 1:** Given que existe un vehículo disponible, when el supervisor realiza la asignación, then el vehículo queda asociado con la operación.<br><br>**Escenario 2:** Given que el vehículo no se encuentra disponible, when se intenta realizar la asignación, then el sistema rechaza la solicitud. |
 | **US18** | Asignar conductor a operación | Como supervisor de flota, deseo asignar un conductor disponible a una operación para determinar quién será responsable de ejecutarla. | **Escenario 1:** Given que existe un conductor disponible, when el supervisor realiza la asignación, then el conductor queda asociado con la operación.<br><br>**Escenario 2:** Given que el conductor no se encuentra disponible, when se intenta realizar la asignación, then el sistema rechaza la solicitud. |
 | **US19** | Consultar operaciones | Como supervisor de flota, deseo consultar las operaciones registradas para conocer su estado y principales datos. | **Escenario 1:** Given que existen operaciones registradas, when el supervisor realiza la consulta, then el sistema proporciona las operaciones correspondientes. |
-| **US20** | Consultar operación asignada | Como conductor, deseo consultar la operación que tengo asignada para conocer el trabajo que debo realizar durante mi jornada. | **Escenario 1:** Given que el conductor posee una operación asignada, when consulta sus operaciones, then obtiene la información correspondiente.<br><br>**Escenario 2:** Given que no posee operaciones asignadas, when realiza la consulta, then el sistema indica que no existen operaciones pendientes. |
-| **US21** | Iniciar operación | Como conductor, deseo iniciar la operación asignada para informar que la ejecución de la ruta ha comenzado. | **Escenario 1:** Given que existe una operación pendiente asignada al conductor, when registra el inicio, then la operación cambia a estado en curso. |
-| **US22** | Finalizar operación | Como conductor o supervisor, deseo finalizar una operación cuando las actividades correspondientes hayan concluido para dejar constancia de su cierre. | **Escenario 1:** Given que una operación se encuentra en curso y cumple las condiciones de finalización, when se solicita finalizarla, then la operación queda registrada como completada. |
+| **US21** | Iniciar operación | Como supervisor de flota, deseo iniciar una operación de transporte para registrar que la ejecución de la ruta ha comenzado. | **Escenario 1:** Given que existe una operación pendiente, when el supervisor registra el inicio, then la operación cambia a estado en curso. |
+| **US22** | Finalizar operación | Como supervisor de flota, deseo finalizar una operación cuando las actividades correspondientes hayan concluido para dejar constancia de su cierre. | **Escenario 1:** Given que una operación se encuentra en curso y cumple las condiciones de finalización, when el supervisor solicita finalizarla, then la operación queda registrada como completada. |
 | **US23** | Registrar punto de entrega | Como supervisor de flota, deseo agregar puntos de entrega a una operación para establecer los establecimientos que deberán ser atendidos. | **Escenario 1:** Given que existe una operación, when se registra información válida de un punto de entrega, then el punto queda asociado con la operación.<br><br>**Escenario 2:** Given que faltan datos obligatorios, when se intenta registrar el punto, then el sistema rechaza la solicitud. |
 | **US24** | Organizar puntos de entrega | Como supervisor de flota, deseo establecer el orden de los puntos de entrega para definir la secuencia de atención de la operación. | **Escenario 1:** Given que existen varios puntos de entrega asociados con una operación, when el supervisor define su secuencia, then el sistema conserva el orden establecido. |
-| **US25** | Consultar ruta asignada | Como conductor, deseo consultar los puntos de entrega de mi operación para conocer los lugares que debo atender. | **Escenario 1:** Given que existe una operación asignada, when el conductor consulta sus entregas, then el sistema proporciona los puntos asociados y su estado. |
-| **US26** | Consultar detalle de entrega | Como conductor, deseo consultar información de un punto de entrega para conocer los datos necesarios antes de atenderlo. | **Escenario 1:** Given que existe un punto de entrega asignado, when el conductor solicita su información, then el sistema proporciona los datos registrados para dicho punto. |
-| **US27** | Actualizar estado de entrega | Como conductor, deseo actualizar el estado de una entrega para informar el resultado de la visita realizada. | **Escenario 1:** Given que existe una entrega pendiente, when el conductor registra un estado permitido, then el sistema conserva el nuevo estado.<br><br>**Escenario 2:** Given que el estado ha sido actualizado, when el supervisor consulta la operación, then puede conocer el resultado registrado. |
-| **US28** | Registrar entrega parcial | Como conductor, deseo registrar una entrega parcial para informar que solo una parte de los productos pudo ser entregada. | **Escenario 1:** Given que una entrega no puede completarse totalmente, when el conductor registra el resultado y el motivo correspondiente, then la entrega queda identificada como parcial. |
-| **US29** | Registrar entrega no realizada | Como conductor, deseo registrar que una entrega no pudo realizarse para dejar constancia del resultado de la visita. | **Escenario 1:** Given que una entrega no puede efectuarse, when el conductor registra el motivo correspondiente, then el sistema conserva la entrega como no realizada. |
-| **US30** | Registrar incidencia | Como conductor, deseo registrar una incidencia para informar un problema ocurrido durante una operación o entrega. | **Escenario 1:** Given que ocurre un problema durante la operación, when el conductor proporciona la información requerida, then la incidencia queda registrada y relacionada con la operación.<br><br>**Escenario 2:** Given que faltan datos requeridos, when se intenta registrar la incidencia, then el sistema rechaza la solicitud. |
-| **US31** | Adjuntar evidencia de incidencia | Como conductor, deseo adjuntar evidencia a una incidencia para complementar la información del problema ocurrido. | **Escenario 1:** Given que existe una incidencia registrada, when se proporciona evidencia válida, then la evidencia queda asociada con la incidencia. |
+| **US25** | Consultar ruta de una operación | Como supervisor de flota, deseo consultar los puntos de entrega de una operación para conocer los lugares que deben ser atendidos. | **Escenario 1:** Given que existe una operación registrada, when el supervisor consulta sus puntos de entrega, then el sistema proporciona los puntos asociados y su estado. |
+| **US26** | Consultar detalle de entrega | Como supervisor de flota, deseo consultar información de un punto de entrega para conocer los datos necesarios antes de dar seguimiento a su atención. | **Escenario 1:** Given que existe un punto de entrega registrado, when el supervisor solicita su información, then el sistema proporciona los datos registrados para dicho punto. |
+| **US27** | Actualizar estado de entrega | Como supervisor de flota, deseo actualizar el estado de una entrega para registrar el resultado de la visita reportado por el conductor. | **Escenario 1:** Given que existe una entrega pendiente, when el supervisor registra un estado permitido, then el sistema conserva el nuevo estado. |
+| **US28** | Registrar entrega parcial | Como supervisor de flota, deseo registrar una entrega parcial para dejar constancia de que solo una parte de los productos pudo ser entregada. | **Escenario 1:** Given que una entrega no puede completarse totalmente, when el supervisor registra el resultado y el motivo correspondiente, then la entrega queda identificada como parcial. |
+| **US29** | Registrar entrega no realizada | Como supervisor de flota, deseo registrar que una entrega no pudo realizarse para dejar constancia del resultado de la visita. | **Escenario 1:** Given que una entrega no puede efectuarse, when el supervisor registra el motivo correspondiente, then el sistema conserva la entrega como no realizada. |
+| **US30** | Registrar incidencia | Como supervisor de flota, deseo registrar una incidencia para dejar constancia de un problema ocurrido durante una operación o entrega. | **Escenario 1:** Given que ocurre un problema durante la operación, when el supervisor proporciona la información requerida, then la incidencia queda registrada y relacionada con la operación.<br><br>**Escenario 2:** Given que faltan datos requeridos, when se intenta registrar la incidencia, then el sistema rechaza la solicitud. |
+| **US31** | Adjuntar evidencia de incidencia | Como supervisor de flota, deseo adjuntar evidencia a una incidencia para complementar la información del problema ocurrido. | **Escenario 1:** Given que existe una incidencia registrada, when se proporciona evidencia válida, then la evidencia queda asociada con la incidencia. |
 | **US32** | Consultar incidencias | Como supervisor de flota, deseo consultar las incidencias registradas para conocer los problemas ocurridos durante las operaciones. | **Escenario 1:** Given que existen incidencias registradas, when el supervisor realiza la consulta, then el sistema proporciona los registros correspondientes. |
 | **US33** | Actualizar estado de incidencia | Como supervisor de flota, deseo actualizar el estado de una incidencia para realizar seguimiento hasta su resolución. | **Escenario 1:** Given que existe una incidencia pendiente, when el supervisor registra un nuevo estado válido, then el sistema conserva la modificación. |
 | **US34** | Consultar progreso de operación | Como supervisor de flota, deseo consultar el progreso de una operación para conocer el estado de sus entregas. | **Escenario 1:** Given que existe una operación en curso, when el supervisor consulta su progreso, then obtiene las entregas completadas, pendientes, parciales y no realizadas. |
 | **US35** | Consultar dashboard | Como administrador o supervisor, deseo consultar indicadores generales para conocer rápidamente el estado de las operaciones de transporte. | **Escenario 1:** Given que existen operaciones registradas, when el usuario consulta los indicadores, then el sistema proporciona información calculada a partir de las operaciones disponibles. |
 | **US36** | Consultar historial de operaciones | Como supervisor de flota, deseo consultar operaciones anteriores para revisar información histórica sobre entregas e incidencias. | **Escenario 1:** Given que existen operaciones finalizadas, when el supervisor consulta el historial, then el sistema proporciona los registros correspondientes. |
 | **US37** | Consultar detalle histórico | Como supervisor de flota, deseo consultar el detalle de una operación finalizada para analizar los resultados de su ejecución. | **Escenario 1:** Given que existe una operación finalizada, when el supervisor consulta su detalle, then obtiene información relacionada con vehículo, conductor, entregas e incidencias. |
-| **US38** | Consultar ubicación de entrega | Como conductor o supervisor, deseo consultar la ubicación de un punto de entrega para facilitar la identificación del destino. | **Escenario 1:** Given que el punto de entrega contiene una ubicación válida, when se solicita consultar su ubicación, then el sistema obtiene información geográfica asociada al destino. |
+| **US38** | Consultar ubicación de entrega | Como supervisor de flota, deseo consultar la ubicación de un punto de entrega para facilitar la identificación del destino. | **Escenario 1:** Given que el punto de entrega contiene una ubicación válida, when se solicita consultar su ubicación, then el sistema obtiene información geográfica asociada al destino. |
 
 
 ### Technical Stories
@@ -1243,7 +1266,7 @@ Las Technical Stories representan los requerimientos técnicos necesarios para i
 
 El Product Backlog de BottleTrack contiene las User Stories y Technical Stories identificadas para el desarrollo del producto.
 
-La priorización inicial considera principalmente el valor aportado al core business de BottleTrack, representado por el proceso de creación, ejecución y seguimiento de una operación de transporte.
+La priorización considera principalmente las dependencias técnicas entre funcionalidades (una operación no puede crearse sin usuarios ni recursos de flota registrados) y el valor aportado al core business de BottleTrack, representado por el proceso de creación, ejecución y seguimiento de una operación de transporte.
 
 Las estimaciones utilizan la escala de Story Points:
 
@@ -1251,78 +1274,75 @@ Las estimaciones utilizan la escala de Story Points:
 
 | Orden | ID | Título | Story Points | Epic |
 | ---: | --- | --- | ---: | --- |
-| 1 | US16 | Crear operación de transporte | 5 | EP05 - Transport Operations Management |
-| 2 | US17 | Asignar vehículo a operación | 3 | EP05 - Transport Operations Management |
-| 3 | US18 | Asignar conductor a operación | 3 | EP05 - Transport Operations Management |
-| 4 | US23 | Registrar punto de entrega | 5 | EP06 - Delivery Management |
-| 5 | US24 | Organizar puntos de entrega | 3 | EP06 - Delivery Management |
-| 6 | US20 | Consultar operación asignada | 3 | EP05 - Transport Operations Management |
-| 7 | US25 | Consultar ruta asignada | 3 | EP06 - Delivery Management |
-| 8 | US21 | Iniciar operación | 2 | EP05 - Transport Operations Management |
-| 9 | US27 | Actualizar estado de entrega | 5 | EP06 - Delivery Management |
-| 10 | US28 | Registrar entrega parcial | 3 | EP06 - Delivery Management |
-| 11 | US29 | Registrar entrega no realizada | 3 | EP06 - Delivery Management |
-| 12 | US30 | Registrar incidencia | 5 | EP07 - Incident Management |
-| 13 | US31 | Adjuntar evidencia de incidencia | 5 | EP07 - Incident Management |
-| 14 | US34 | Consultar progreso de operación | 5 | EP08 - Monitoring and Analytics |
-| 15 | US32 | Consultar incidencias | 3 | EP07 - Incident Management |
-| 16 | US33 | Actualizar estado de incidencia | 3 | EP07 - Incident Management |
-| 17 | US22 | Finalizar operación | 3 | EP05 - Transport Operations Management |
-| 18 | US35 | Consultar dashboard | 5 | EP08 - Monitoring and Analytics |
-| 19 | US36 | Consultar historial de operaciones | 3 | EP08 - Monitoring and Analytics |
-| 20 | US37 | Consultar detalle histórico | 3 | EP08 - Monitoring and Analytics |
-| 21 | US10 | Registrar vehículo | 3 | EP04 - Fleet Management |
-| 22 | US11 | Actualizar vehículo | 2 | EP04 - Fleet Management |
-| 23 | US12 | Consultar vehículos disponibles | 2 | EP04 - Fleet Management |
-| 24 | US13 | Registrar conductor | 3 | EP04 - Fleet Management |
-| 25 | US14 | Actualizar conductor | 2 | EP04 - Fleet Management |
-| 26 | US15 | Consultar conductores disponibles | 2 | EP04 - Fleet Management |
-| 27 | US19 | Consultar operaciones | 3 | EP05 - Transport Operations Management |
-| 28 | US26 | Consultar detalle de entrega | 2 | EP06 - Delivery Management |
-| 29 | US38 | Consultar ubicación de entrega | 5 | EP09 - External Services Integration |
-| 30 | US01 | Conocer BottleTrack | 3 | EP01 - Landing Page |
-| 31 | US02 | Conocer beneficios por segmento | 3 | EP01 - Landing Page |
-| 32 | US03 | Acceder a la aplicación | 2 | EP01 - Landing Page |
-| 33 | US04 | Iniciar sesión | 5 | EP02 - Identity and Access Management |
-| 34 | US05 | Cerrar sesión | 1 | EP02 - Identity and Access Management |
-| 35 | US06 | Consultar perfil | 2 | EP02 - Identity and Access Management |
-| 36 | US07 | Gestionar usuarios | 5 | EP03 - Company Management |
-| 37 | US08 | Asignar rol a usuario | 3 | EP03 - Company Management |
-| 38 | US09 | Gestionar información de empresa | 3 | EP03 - Company Management |
-| 39 | TS05 | Transport Operations REST API | 8 | EP05 - Transport Operations Management |
-| 40 | TS06 | Resource Assignment Service | 5 | EP05 - Transport Operations Management |
-| 41 | TS07 | Delivery Management REST API | 8 | EP06 - Delivery Management |
-| 42 | TS08 | Incident Management REST API | 8 | EP07 - Incident Management |
-| 43 | TS09 | Incident Evidence Service | 5 | EP07 - Incident Management |
-| 44 | TS10 | Monitoring REST API | 8 | EP08 - Monitoring and Analytics |
-| 45 | TS03 | Vehicle Management REST API | 5 | EP04 - Fleet Management |
-| 46 | TS04 | Driver Management REST API | 5 | EP04 - Fleet Management |
-| 47 | TS11 | Operation History REST API | 5 | EP08 - Monitoring and Analytics |
-| 48 | TS01 | Authentication REST API | 5 | EP02 - Identity and Access Management |
-| 49 | TS02 | User and Company REST API | 8 | EP03 - Company Management |
+| 1 | US09 | Gestionar información de empresa | 3 | EP03 - Company Management |
+| 2 | US07 | Gestionar usuarios | 5 | EP03 - Company Management |
+| 3 | US08 | Asignar rol a usuario | 3 | EP03 - Company Management |
+| 4 | US04 | Iniciar sesión | 5 | EP02 - Identity and Access Management |
+| 5 | US05 | Cerrar sesión | 1 | EP02 - Identity and Access Management |
+| 6 | US06 | Consultar perfil | 2 | EP02 - Identity and Access Management |
+| 7 | US10 | Registrar vehículo | 3 | EP04 - Fleet Management |
+| 8 | US11 | Actualizar vehículo | 2 | EP04 - Fleet Management |
+| 9 | US12 | Consultar vehículos disponibles | 2 | EP04 - Fleet Management |
+| 10 | US13 | Registrar conductor | 3 | EP04 - Fleet Management |
+| 11 | US14 | Actualizar conductor | 2 | EP04 - Fleet Management |
+| 12 | US15 | Consultar conductores disponibles | 2 | EP04 - Fleet Management |
+| 13 | US16 | Crear operación de transporte | 5 | EP05 - Transport Operations Management |
+| 14 | US17 | Asignar vehículo a operación | 3 | EP05 - Transport Operations Management |
+| 15 | US18 | Asignar conductor a operación | 3 | EP05 - Transport Operations Management |
+| 16 | US19 | Consultar operaciones | 3 | EP05 - Transport Operations Management |
+| 17 | US21 | Iniciar operación | 2 | EP05 - Transport Operations Management |
+| 18 | US22 | Finalizar operación | 3 | EP05 - Transport Operations Management |
+| 19 | US23 | Registrar punto de entrega | 5 | EP06 - Delivery Management |
+| 20 | US24 | Organizar puntos de entrega | 3 | EP06 - Delivery Management |
+| 21 | US25 | Consultar ruta de una operación | 3 | EP06 - Delivery Management |
+| 22 | US26 | Consultar detalle de entrega | 2 | EP06 - Delivery Management |
+| 23 | US27 | Actualizar estado de entrega | 5 | EP06 - Delivery Management |
+| 24 | US28 | Registrar entrega parcial | 3 | EP06 - Delivery Management |
+| 25 | US29 | Registrar entrega no realizada | 3 | EP06 - Delivery Management |
+| 26 | US30 | Registrar incidencia | 5 | EP07 - Incident Management |
+| 27 | US31 | Adjuntar evidencia de incidencia | 5 | EP07 - Incident Management |
+| 28 | US32 | Consultar incidencias | 3 | EP07 - Incident Management |
+| 29 | US33 | Actualizar estado de incidencia | 3 | EP07 - Incident Management |
+| 30 | US34 | Consultar progreso de operación | 5 | EP08 - Monitoring and Analytics |
+| 31 | US35 | Consultar dashboard | 5 | EP08 - Monitoring and Analytics |
+| 32 | US36 | Consultar historial de operaciones | 3 | EP08 - Monitoring and Analytics |
+| 33 | US37 | Consultar detalle histórico | 3 | EP08 - Monitoring and Analytics |
+| 34 | US38 | Consultar ubicación de entrega | 5 | EP09 - External Services Integration |
+| 35 | US01 | Conocer BottleTrack | 3 | EP01 - Landing Page |
+| 36 | US02 | Conocer beneficios por segmento | 3 | EP01 - Landing Page |
+| 37 | US03 | Acceder a la aplicación | 2 | EP01 - Landing Page |
+| 38 | TS02 | User and Company REST API | 8 | EP03 - Company Management |
+| 39 | TS01 | Authentication REST API | 5 | EP02 - Identity and Access Management |
+| 40 | TS13 | OpenAPI Documentation | 5 | EP02 - Identity and Access Management |
+| 41 | TS03 | Vehicle Management REST API | 5 | EP04 - Fleet Management |
+| 42 | TS04 | Driver Management REST API | 5 | EP04 - Fleet Management |
+| 43 | TS05 | Transport Operations REST API | 8 | EP05 - Transport Operations Management |
+| 44 | TS06 | Resource Assignment Service | 5 | EP05 - Transport Operations Management |
+| 45 | TS07 | Delivery Management REST API | 8 | EP06 - Delivery Management |
+| 46 | TS08 | Incident Management REST API | 8 | EP07 - Incident Management |
+| 47 | TS09 | Incident Evidence Service | 5 | EP07 - Incident Management |
+| 48 | TS10 | Monitoring REST API | 8 | EP08 - Monitoring and Analytics |
+| 49 | TS11 | Operation History REST API | 5 | EP08 - Monitoring and Analytics |
 | 50 | TS12 | Maps Service Integration | 8 | EP09 - External Services Integration |
-| 51 | TS13 | OpenAPI Documentation | 5 | EP02 - Identity and Access Management |
 
 ### Criterios de priorización
 
-La priorización inicial del Product Backlog considera los siguientes criterios:
+La priorización del Product Backlog considera los siguientes criterios:
 
-1. Valor generado para las operaciones de transporte.
-2. Importancia para los principales usuarios de BottleTrack.
-3. Relación con el core business del producto.
-4. Dependencias entre funcionalidades.
+1. Dependencias técnicas entre funcionalidades (una operación no puede crearse ni asignarse sin que existan primero la empresa, los usuarios y los recursos de flota).
+2. Valor generado para las operaciones de transporte.
+3. Importancia para los principales usuarios de BottleTrack.
+4. Relación con el core business del producto.
 5. Necesidad para construir y validar el MVP.
 6. Complejidad estimada de implementación.
 
 El flujo principal priorizado es:
 
-**Crear operación → Asignar vehículo → Asignar conductor → Registrar puntos de entrega → Ejecutar ruta → Actualizar entregas → Registrar incidencias → Monitorear operación → Finalizar operación → Consultar historial.**
+**Registrar empresa y usuarios → Registrar vehículos y conductores → Crear operación → Asignar vehículo y conductor → Registrar puntos de entrega → Ejecutar ruta → Actualizar entregas → Registrar incidencias → Monitorear operación → Finalizar operación → Consultar historial.**
 
-Las User Stories relacionadas con el Landing Page deberán ser consideradas desde el primer Sprint debido a que este producto forma parte del alcance requerido para BottleTrack.
+Las User Stories relacionadas con el Landing Page deberán ser consideradas desde el primer Sprint (en paralelo, por un frontstream independiente) debido a que este producto forma parte del alcance requerido para BottleTrack, aunque su valor para el core business del transporte sea menor.
 
 Las Technical Stories representan principalmente el trabajo requerido en el Backend RESTful API para proporcionar los servicios utilizados por el Frontend Web Application.
-
-
 
 <hr>
 
