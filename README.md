@@ -2087,8 +2087,32 @@ Con el objetivo de optimizar la organización y la colaboración del equipo, se 
 |Pezo Castilla, Maria Jose| MariaJosePezo | C | C | C |
 |Huapaya Buitron, Ariana Alheli | xxxx | C | C | C |
 
+
 <a id="52x3-sprint-backlog-n"></a>
-#### 5.2.x.3. Sprint Backlog n.
+#### 5.2.1.3. Sprint Backlog 1.
+
+| User Story ID | User Story Título | Task ID | Task Título | Descripción | Estimación (Horas) | Asignado a | Estado (To do/In-Process/To-Review/Done) |
+| --- | --- | --- | --- | --- | ---: | --- | --- |
+| US-01 | Conocer BottleTrack | UT-01 | Maquetar sección Hero | Diseñar y maquetar la sección Hero de la Landing Page que comunique la propuesta de valor de BottleTrack. | 3 | Angel Crispin | Done |
+| US-01 | Conocer BottleTrack | UT-02 | Maquetar sección "El problema" | Diseñar y maquetar la sección que describe el problema que resuelve BottleTrack (pérdidas en la ruta, falta de visibilidad). | 2 | Leonardo Cumba | Done |
+| US-02 | Conocer beneficios por segmento | UT-01 | Maquetar sección "Qué hace BottleTrack" | Diseñar las tarjetas de capacidades del producto (seguimiento de entregas y monitoreo IoT, reporte de incidencias). | 2 | Gerardo Palacin | Done |
+| US-02 | Conocer beneficios por segmento | UT-02 | Maquetar sección "Para quién es" | Diseñar las tarjetas de segmentos objetivo (supervisores de logística, jefes de distribución). | 2 | Maria Pezo | Done |
+| US-03 | Acceder a la aplicación | UT-01 | Crear navbar y botón CTA | Implementar la barra de navegación con el botón "Comenzar" que redirige al Login de la plataforma. | 2 | Angel Crispin | Done |
+| US-09 | Gestionar información de empresa | UT-01 | Diseñar en Figma pantalla de empresa | Diseñar en Figma la pantalla de configuración/edición de la información de la empresa distribuidora. | 2 | Maria Pezo | Done |
+| US-09 | Gestionar información de empresa | UT-02 | Implementar edición de datos de empresa | Desarrollar el formulario y el servicio para actualizar la información de la empresa. | 3 | Maria Pezo | To Do |
+| US-07 | Gestionar usuarios | UT-01 | Diseñar en Figma pantallas de usuarios | Diseñar en Figma el listado, registro y edición de usuarios de la empresa. | 3 | Leonardo Cumba | Done |
+| US-07 | Gestionar usuarios | UT-02 | Implementar CRUD de usuarios | Desarrollar el registro, listado y edición de usuarios en frontend y backend. | 5 | Leonardo Cumba | To Do |
+| US-08 | Asignar rol a usuario | UT-01 | Diseñar en Figma selector de rol | Diseñar en Figma el control para asignar rol (Administrador/Supervisor) dentro del formulario de usuario. | 1.5 | Leonardo Cumba | Done |
+| US-08 | Asignar rol a usuario | UT-02 | Implementar asignación de rol | Desarrollar la asignación de rol en backend y su reflejo en el frontend. | 2.5 | Gerardo Palacin | To Do |
+| US-04 | Iniciar sesión | UT-01 | Diseñar en Figma pantalla de Login | Diseñar en Figma la pantalla de inicio de sesión con validación de credenciales. | 2 | Gerardo Palacin | Done |
+| US-04 | Iniciar sesión | UT-02 | Implementar autenticación | Desarrollar el formulario de login, su validación y el servicio de autenticación en backend. | 5 | Angel Crispin | To Do |
+| US-05 | Cerrar sesión | UT-01 | Implementar cierre de sesión | Desarrollar la invalidación de la sesión activa al cerrar sesión. | 1 | Angel Crispin | To Do |
+| US-06 | Consultar perfil | UT-01 | Diseñar en Figma pantalla de perfil | Diseñar en Figma la pantalla de consulta de datos del perfil del usuario. | 1 | Gerardo Palacin | Done |
+| US-06 | Consultar perfil | UT-02 | Implementar consulta de perfil | Desarrollar el servicio y la vista que muestran los datos del perfil autenticado. | 1.5 | Maria Pezo | To Do |
+
+link: 
+
+https://trello.com/invite/b/6aad94b717b9b2347dd4d8e0/ATTIba07b47b67a6659798dd9dad4326f9e659F64594/sprint-1
 
 <a id="52x4-development-evidence-for-sprint-review"></a>
 #### 5.2.x.4. Development Evidence for Sprint Review.
