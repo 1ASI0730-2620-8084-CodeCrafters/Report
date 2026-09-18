@@ -2051,14 +2051,48 @@ Los Web Services se publicarán en un proveedor de nube junto con la base de dat
 <a id="52-landing-page-services-applications-implementation"></a>
 ## 5.2. Landing Page, Services & Applications Implementation.
 
-<a id="52x-sprint-n"></a>
-### 5.2.x. Sprint n
-
 <a id="52x1-sprint-planning-n"></a>
-#### 5.2.x.1. Sprint Planning n.
+#### 5.2.1.1. Sprint Planning 1.
+
+| Sprint 1                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Date**                           | 2026-09-02                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Time**                           | 17:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Location**                       | Via Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared By**                    | Crispin Valdivia, Angel Gabriel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Attendees to planning meeting**  | Crispin Valdivia, Angel Gabriel;Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose; Huapaya Buitron, Ariana Alheli                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 1 Review Summary**        | Durante este sprint se desarrollaron las principales funcionalidades de Frigora tanto en frontend como en backend. Se implementaron módulos para la gestión de usuarios, técnicos, equipos de refrigeración y solicitudes de mantenimiento, además de mejorar la experiencia de navegación de la plataforma. El equipo logró integrar diversos componentes del sistema y validar los flujos principales de negocio, obteniendo una versión funcional que servirá como base para futuras mejoras. |
+| **Sprint 1 Retrospective Summary** | La retrospectiva permitió identificar oportunidades de mejora relacionadas con la distribución de tareas, la coordinación entre frontend y backend y la planificación de actividades individuales. Asimismo, se concluyó que una definición más detallada de los criterios de aceptación y revisiones periódicas de integración contribuirán a reducir retrabajos y optimizar el avance en los siguientes sprints.                                                                               |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint 1 Goal**                  | Implementar las funcionalidades principales de Frigora mediante el desarrollo e integración del frontend y backend de la plataforma. El objetivo fue habilitar la gestión de usuarios, técnicos, equipos de refrigeración y solicitudes de mantenimiento, además de proporcionar una interfaz intuitiva que permita a los usuarios interactuar eficientemente con los servicios ofrecidos por el sistema.                                                                                        |
+| **Sprint 1 Velocity**              | 19                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sum of Story Points**            | 19                
+
+| **Attendees to planning meeting**  | Crispin Valdivia, Angel Gabriel; Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose; Huapaya Buitron, Ariana Alheli |
+| **Sprint 1 Review Summary**        | Durante este sprint el equipo completó la documentación de arquitectura y diseño del producto (C4 Model, Class Diagram, Database Diagram, User Stories y Product Backlog), y desarrolló e implementó la Landing Page de BottleTrack (wireframe y mock-up de alta fidelidad, con estructura de navegación y presentación de la propuesta de valor). Las funcionalidades de la Web Application correspondientes a este sprint (gestión de identidad, usuarios y empresa) quedaron únicamente a nivel de diseño en Figma; su implementación en frontend y backend no se completó y pasa al siguiente sprint. |
+| **Sprint 1 Retrospective Summary** | La retrospectiva evidenció que el equipo comprometió más trabajo del que pudo completar en el sprint: se planificó implementar la gestión de identidad, usuarios y empresa, pero el tiempo se concentró en cerrar la documentación técnica y la Landing Page, dejando el diseño en Figma de la Web Application sin pasar a código. El equipo concluyó que, para el siguiente sprint, el diseño en Figma de cada pantalla debe cerrarse *antes* de iniciar su implementación, y que la estimación de story points debe considerar el tiempo dedicado a documentación como trabajo real del equipo, no como actividad paralela sin costo. |
+| **Sprint Goal & User Stories**     |  |
+| **Sprint 1 Goal**                  | Habilitar la base funcional de BottleTrack implementando la gestión de identidad, usuarios y empresa, junto con la Landing Page del producto. El objetivo se valida cuando un usuario puede autenticarse correctamente, un administrador puede gestionar usuarios y roles dentro de su empresa, y la Landing Page comunica la propuesta de valor de forma navegable y responsiva. |
+| **Sprint 1 Velocity**              | 8   |
+| **Sum of Story Points**            | 27  |
+
+
 
 <a id="52x2-aspect-leader-and-colaborators"></a>
-#### 5.2.x.2. Aspect Leader and Colaborators.
+#### 5.2.1.2. Aspect Leader and Colaborators.
+
+Durante este cuarto sprint, el equipo se enfocó principalmente en la consolidación de la plataforma, priorizando la resolución de errores detectados en sprints previos, el reforzamiento de la seguridad mediante el control de accesos y el refinamiento general de las funcionalidades para asegurar un sistema estable.
+
+Con el objetivo de optimizar la organización y la colaboración del equipo, se actualizó la matriz de Liderazgo y Colaboración (LACX), la cual asigna responsabilidades y roles específicos a cada miembro del equipo en relación con los aspectos clave abordados durante este cuarto Sprint.
+
+| Team Member <br> (Last Name, First Name) | Github Username | Resolución de errores de sprints previos <br> Leader (L) / Collaborator (C) | Seguridad, control de accesos y optimización de rendimiento <br> Leader (L) / Collaborator (C) | Refinamiento de funcionalidades y ajustes finales <br> Leader (L) / Collaborator (C) |
+|---|---|---|---|---|
+|Crispin Valdivia, Angel Gabriel|FaureGalliard | L | L | L |
+|Cumba Rengifo, Leonardo Raul| LeonardoC72 | C | C | C |
+|Palacin Lazo, Gerardo Valentin| GerardoPalacin03 | C | C | C |
+|Pezo Castilla, Maria Jose| MariaJosePezo | C | C | C |
+|Huapaya Buitron, Ariana Alheli | xxxx | C | C | C |
 
 <a id="52x3-sprint-backlog-n"></a>
 #### 5.2.x.3. Sprint Backlog n.
