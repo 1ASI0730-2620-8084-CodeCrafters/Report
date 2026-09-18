@@ -1061,6 +1061,7 @@ Estos artefactos permiten consolidar los hallazgos de la investigación y establ
 
 <a id="24-big-picture-eventstorming"></a>
 ## 2.4. Big Picture EventStorming.
+<img src="img/chapter2/big-picture-eventstorming.jpeg" alt="Big Picture EventStorming">
 
 <a id="25-ubiquitous-language"></a>
 ## 2.5. Ubiquitous Language.
