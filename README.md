@@ -2078,29 +2078,35 @@ Por medio de este enlace: https://1asi0730-2620-8084-codecrafters.github.io/Land
 En el primer Sprint solamente se ha desarrollado la Landing Page por lo que no se ha hecho uso de servicios web.
 
 <a id="52x7-software-deployment-evidence-for-sprint-review"></a>
-#### 5.2.x.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+Durante el Sprint 1 se realizó el proceso de implementación y despliegue de la primera versión funcional del Landing Page de BottleTrack, correspondiente al alcance definido para el primer entregable del proyecto. De acuerdo con el alcance de AV1, en este Sprint se priorizó contar con una versión publicada y accesible del Landing Page.
+
+Para el despliegue se utilizó GitHub Pages, aprovechando el repositorio destinado al desarrollo del Landing Page. La publicación permitió disponer de una versión accesible mediante una URL pública, facilitando la revisión de la solución y la posterior validación de la navegación y contenido implementado.
+
+El proceso realizado durante el Sprint comprendió las siguientes actividades:
+
+1. Desarrollo y organización de los archivos correspondientes al Landing Page.
+2. Integración de la estructura, contenido y estilos definidos para la primera versión.
+3. Verificación de la navegación entre las principales secciones del Landing Page.
+4. Revisión de la visualización en diferentes dimensiones de pantalla, considerando el enfoque responsive.
+5. Configuración del repositorio para la publicación mediante GitHub Pages.
+6. Publicación de la versión desarrollada en la rama configurada para el despliegue.
+7. Verificación del acceso mediante la URL pública del Landing Page.
+8. Comprobación final de las principales secciones y llamadas a la acción disponibles en la versión desplegada.
+
+**Información del despliegue**
+| Producto     | Repositorio / Plataforma | Tecnología               | Plataforma de Deployment | Estado     | URL                                                                                                                                |
+| ------------ | ------------------------ | ------------------------ | ------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Landing Page | GitHub – Landing-Page    | HTML5, CSS3 y JavaScript | GitHub Pages             | Desplegado | [https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/](https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/) |
+
+
+El Landing Page fue desarrollado utilizando HTML5, CSS3 y JavaScript, tecnologías establecidas para este producto en el proyecto. Asimismo, el uso de GitHub para el control de versiones y GitFlow/Conventional Commits forma parte de las convenciones definidas para el desarrollo del proyecto.
 
 <a id="52x8-team-colaboration-insights-during-sprint"></a>
-#### 5.2.x.8. Team Colaboration Insights during Sprint.
+#### 5.2.1.8. Team Colaboration Insights during Sprint.
+Durante el Sprint 1, el equipo trabajó de manera colaborativa en la implementación de la primera versión del Landing Page de BottleTrack. La coordinación de las actividades se realizó mediante Trello para el seguimiento del Product Backlog y Sprint Backlog, mientras que GitHub fue utilizado para el control de versiones y registro de las contribuciones realizadas durante el desarrollo.
 
-
-<a id="53-validation-interviews"></a>
-## 5.3. Validation Interviews.
-
-<a id="531-diseno-de-entrevistas"></a>
-### 5.3.1. Diseño de Entrevistas.
-
-<a id="532-registro-de-entrevistas"></a>
-### 5.3.2. Registro de Entrevistas.
-
-<a id="533-evaluaciones-segun-heuristicas"></a>
-### 5.3.3. Evaluaciones según heurísticas.
-
-
-<a id="54-video-about-the-product"></a>
-## 5.4. Video About-the-Product.
-
-<hr>
+La distribución del trabajo permitió que los integrantes participaran en diferentes actividades relacionadas con la implementación, incluyendo la construcción de la estructura del Landing Page, incorporación de contenido, desarrollo de las secciones orientadas a los segmentos objetivo, navegación, llamadas a la acción, adaptación responsive y revisión de la versión desplegada.
 
 
 <a id="conclusiones"></a>
