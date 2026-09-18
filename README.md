@@ -1610,8 +1610,16 @@ La aplicación utiliza una barra lateral persistente como sistema de navegación
 <a id="431-landing-page-wireframe"></a>
 ### 4.3.1. Landing Page Wireframe.
 
+![image1](img/landingPageUIDesign/landing1_wireframe.png)
+![image2](img/landingPageUIDesign/landing2_wireframe.png)
+![image3](img/landingPageUIDesign/landing3_wireframe.png)
+
 <a id="432-landing-page-mock-up"></a>
 ### 4.3.2. Landing Page Mock-up.
+
+![image4](img/landingPageUIDesign/landing1_mockup.png)
+![image5](img/landingPageUIDesign/landing2_mockup.png)
+![image6](img/landingPageUIDesign/landing3_mockup.png)
 
 
 <a id="44-web-applications-uxui-design"></a>
