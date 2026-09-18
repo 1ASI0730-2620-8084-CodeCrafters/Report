@@ -1600,11 +1600,94 @@ La aplicación utiliza una barra lateral persistente como sistema de navegación
 <a id="441-web-applications-wireframes"></a>
 ### 4.4.1. Web Applications Wireframes.
 
+**Login**<br>
+Formulario de inicio de sesión para acceder a la aplicación.
+
+<img src="img/webApplicationUxDesign/wireframes/loginWA_wireframe.png" alt=" login WF" width="800">
+
+**Profile**<br>
+Sección del perfil de usuario con información personal, roles y certificaciones.
+
+<img src="img/webApplicationUxDesign/wireframes/profileWA_wireframe.png" alt=" profile WF" width="800">
+
+<hr>
+
+**Administrator Interface**
+
+Permisos para registrar nuevos usuarios a la plataforma
+
+<img src="img/webApplicationUxDesign/wireframes/registrouser_admin_WA_wireframe.png" alt=" user WF" width="800">
+
+Configuración de empresa con sus respectivos datos
+
+<img src="img/webApplicationUxDesign/wireframes/config_admin_WA_wireframe.png" alt=" configuration WF" width="800">
+
+Permisos para designar los datos de un vehículo en condiciones
+
+<img src="img/webApplicationUxDesign/wireframes/registrovehiculo_admin_WA_wireframe.png" alt=" vehicle WF" width="800">
+
+Permisos para designar los datos de una responsable conductor 
+
+<img src="img/webApplicationUxDesign/wireframes/registroconductor_admin_WA_wireframe.png" alt=" driver WF" width="800">
+
+Panel de análisis con métricas, reportes e incidentes
+
+<img src="img/webApplicationUxDesign/wireframes/dashboard_admin_WA_wireframe.png" alt=" dashboard WF" width="800">
+
+**Supervisor Interface**
+
+Historial de operaciones registradas por el supervisor
+
+<img src="img/webApplicationUxDesign/wireframes/browser_supervisor_WA_wireframe.png" alt=" config WF" width="800">
+
+Detalles de cada operación con respecto a la incidencia
+
+<img src="img/webApplicationUxDesign/wireframes/incident_browser_supervisor_WA_wireframe.png" alt=" incident WF" width="800">
+
+Visualización de puntos de entrega y sus cambios de estado
+
+<img src="img/webApplicationUxDesign/wireframes/deliverypoint_supervisor_WA_wireframe.png" alt=" delivery WF" width="800">
+
+Visualización de resumen por incidencia
+
+<img src="img/webApplicationUxDesign/wireframes/driver_browser_supervisor_WA_wireframe.png" alt=" driver WF" width="800">
+
+Creación de operación de transporte 
+
+<img src="img/webApplicationUxDesign/wireframes/newoperation_supervisor_WA_wireframe.png" alt=" new operation WF" width="800">
+
+Lista resumen de las operacion asignadas al supervisor 
+
+<img src="img/webApplicationUxDesign/wireframes/operationlist_supervisor_WA_wireframe.png" alt=" list WF" width="800">
+
+Dashboard relacionado a las responsabilidades del supervisor
+
+<img src="img/webApplicationUxDesign/wireframes/dashboard_supervisor_WA_wireframe.png" alt=" dashboard WF" width="800">
+
+
 <a id="442-web-applications-wireflow-diagrams"></a>
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
+Flujo del administrador
+
+<img src="img/webApplicationUxDesign/wireflow/admin_WA_wireflow.png" alt=" admin WF" width="800">
+
+Flujo del supervisor
+
+<img src="img/webApplicationUxDesign/wireflow/supervisor_WA_wireflow.png" alt=" supervisor WF" width="800">
+
+
 <a id="443-web-applications-mock-ups"></a>
 ### 4.4.3. Web Applications Mock-ups.
+
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_login_WA_wireframe.png" alt=" supervisor WF" width="800">
+
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin1_WA_wireframe.png" alt=" supervisor WF" width="800">
+
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin2_WA_wireframe.png" alt=" supervisor WF" width="800">
+
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin3_WA_wireframe.png" alt=" supervisor WF" width="800">
+
 
 <a id="444-web-applications-user-flow-diagrams"></a>
 ### 4.4.4. Web Applications User Flow Diagrams.
