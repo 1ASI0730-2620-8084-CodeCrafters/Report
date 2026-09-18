@@ -1266,7 +1266,7 @@ Las Technical Stories representan los requerimientos técnicos necesarios para i
 
 El Product Backlog de BottleTrack contiene las User Stories y Technical Stories identificadas para el desarrollo del producto.
 
-La priorización inicial considera principalmente el valor aportado al core business de BottleTrack, representado por el proceso de creación, ejecución y seguimiento de una operación de transporte.
+La priorización considera principalmente las dependencias técnicas entre funcionalidades (una operación no puede crearse sin usuarios ni recursos de flota registrados) y el valor aportado al core business de BottleTrack, representado por el proceso de creación, ejecución y seguimiento de una operación de transporte.
 
 Las estimaciones utilizan la escala de Story Points:
 
@@ -1274,78 +1274,75 @@ Las estimaciones utilizan la escala de Story Points:
 
 | Orden | ID | Título | Story Points | Epic |
 | ---: | --- | --- | ---: | --- |
-| 1 | US16 | Crear operación de transporte | 5 | EP05 - Transport Operations Management |
-| 2 | US17 | Asignar vehículo a operación | 3 | EP05 - Transport Operations Management |
-| 3 | US18 | Asignar conductor a operación | 3 | EP05 - Transport Operations Management |
-| 4 | US23 | Registrar punto de entrega | 5 | EP06 - Delivery Management |
-| 5 | US24 | Organizar puntos de entrega | 3 | EP06 - Delivery Management |
-| 6 | US20 | Consultar operación asignada | 3 | EP05 - Transport Operations Management |
-| 7 | US25 | Consultar ruta asignada | 3 | EP06 - Delivery Management |
-| 8 | US21 | Iniciar operación | 2 | EP05 - Transport Operations Management |
-| 9 | US27 | Actualizar estado de entrega | 5 | EP06 - Delivery Management |
-| 10 | US28 | Registrar entrega parcial | 3 | EP06 - Delivery Management |
-| 11 | US29 | Registrar entrega no realizada | 3 | EP06 - Delivery Management |
-| 12 | US30 | Registrar incidencia | 5 | EP07 - Incident Management |
-| 13 | US31 | Adjuntar evidencia de incidencia | 5 | EP07 - Incident Management |
-| 14 | US34 | Consultar progreso de operación | 5 | EP08 - Monitoring and Analytics |
-| 15 | US32 | Consultar incidencias | 3 | EP07 - Incident Management |
-| 16 | US33 | Actualizar estado de incidencia | 3 | EP07 - Incident Management |
-| 17 | US22 | Finalizar operación | 3 | EP05 - Transport Operations Management |
-| 18 | US35 | Consultar dashboard | 5 | EP08 - Monitoring and Analytics |
-| 19 | US36 | Consultar historial de operaciones | 3 | EP08 - Monitoring and Analytics |
-| 20 | US37 | Consultar detalle histórico | 3 | EP08 - Monitoring and Analytics |
-| 21 | US10 | Registrar vehículo | 3 | EP04 - Fleet Management |
-| 22 | US11 | Actualizar vehículo | 2 | EP04 - Fleet Management |
-| 23 | US12 | Consultar vehículos disponibles | 2 | EP04 - Fleet Management |
-| 24 | US13 | Registrar conductor | 3 | EP04 - Fleet Management |
-| 25 | US14 | Actualizar conductor | 2 | EP04 - Fleet Management |
-| 26 | US15 | Consultar conductores disponibles | 2 | EP04 - Fleet Management |
-| 27 | US19 | Consultar operaciones | 3 | EP05 - Transport Operations Management |
-| 28 | US26 | Consultar detalle de entrega | 2 | EP06 - Delivery Management |
-| 29 | US38 | Consultar ubicación de entrega | 5 | EP09 - External Services Integration |
-| 30 | US01 | Conocer BottleTrack | 3 | EP01 - Landing Page |
-| 31 | US02 | Conocer beneficios por segmento | 3 | EP01 - Landing Page |
-| 32 | US03 | Acceder a la aplicación | 2 | EP01 - Landing Page |
-| 33 | US04 | Iniciar sesión | 5 | EP02 - Identity and Access Management |
-| 34 | US05 | Cerrar sesión | 1 | EP02 - Identity and Access Management |
-| 35 | US06 | Consultar perfil | 2 | EP02 - Identity and Access Management |
-| 36 | US07 | Gestionar usuarios | 5 | EP03 - Company Management |
-| 37 | US08 | Asignar rol a usuario | 3 | EP03 - Company Management |
-| 38 | US09 | Gestionar información de empresa | 3 | EP03 - Company Management |
-| 39 | TS05 | Transport Operations REST API | 8 | EP05 - Transport Operations Management |
-| 40 | TS06 | Resource Assignment Service | 5 | EP05 - Transport Operations Management |
-| 41 | TS07 | Delivery Management REST API | 8 | EP06 - Delivery Management |
-| 42 | TS08 | Incident Management REST API | 8 | EP07 - Incident Management |
-| 43 | TS09 | Incident Evidence Service | 5 | EP07 - Incident Management |
-| 44 | TS10 | Monitoring REST API | 8 | EP08 - Monitoring and Analytics |
-| 45 | TS03 | Vehicle Management REST API | 5 | EP04 - Fleet Management |
-| 46 | TS04 | Driver Management REST API | 5 | EP04 - Fleet Management |
-| 47 | TS11 | Operation History REST API | 5 | EP08 - Monitoring and Analytics |
-| 48 | TS01 | Authentication REST API | 5 | EP02 - Identity and Access Management |
-| 49 | TS02 | User and Company REST API | 8 | EP03 - Company Management |
+| 1 | US09 | Gestionar información de empresa | 3 | EP03 - Company Management |
+| 2 | US07 | Gestionar usuarios | 5 | EP03 - Company Management |
+| 3 | US08 | Asignar rol a usuario | 3 | EP03 - Company Management |
+| 4 | US04 | Iniciar sesión | 5 | EP02 - Identity and Access Management |
+| 5 | US05 | Cerrar sesión | 1 | EP02 - Identity and Access Management |
+| 6 | US06 | Consultar perfil | 2 | EP02 - Identity and Access Management |
+| 7 | US10 | Registrar vehículo | 3 | EP04 - Fleet Management |
+| 8 | US11 | Actualizar vehículo | 2 | EP04 - Fleet Management |
+| 9 | US12 | Consultar vehículos disponibles | 2 | EP04 - Fleet Management |
+| 10 | US13 | Registrar conductor | 3 | EP04 - Fleet Management |
+| 11 | US14 | Actualizar conductor | 2 | EP04 - Fleet Management |
+| 12 | US15 | Consultar conductores disponibles | 2 | EP04 - Fleet Management |
+| 13 | US16 | Crear operación de transporte | 5 | EP05 - Transport Operations Management |
+| 14 | US17 | Asignar vehículo a operación | 3 | EP05 - Transport Operations Management |
+| 15 | US18 | Asignar conductor a operación | 3 | EP05 - Transport Operations Management |
+| 16 | US19 | Consultar operaciones | 3 | EP05 - Transport Operations Management |
+| 17 | US21 | Iniciar operación | 2 | EP05 - Transport Operations Management |
+| 18 | US22 | Finalizar operación | 3 | EP05 - Transport Operations Management |
+| 19 | US23 | Registrar punto de entrega | 5 | EP06 - Delivery Management |
+| 20 | US24 | Organizar puntos de entrega | 3 | EP06 - Delivery Management |
+| 21 | US25 | Consultar ruta de una operación | 3 | EP06 - Delivery Management |
+| 22 | US26 | Consultar detalle de entrega | 2 | EP06 - Delivery Management |
+| 23 | US27 | Actualizar estado de entrega | 5 | EP06 - Delivery Management |
+| 24 | US28 | Registrar entrega parcial | 3 | EP06 - Delivery Management |
+| 25 | US29 | Registrar entrega no realizada | 3 | EP06 - Delivery Management |
+| 26 | US30 | Registrar incidencia | 5 | EP07 - Incident Management |
+| 27 | US31 | Adjuntar evidencia de incidencia | 5 | EP07 - Incident Management |
+| 28 | US32 | Consultar incidencias | 3 | EP07 - Incident Management |
+| 29 | US33 | Actualizar estado de incidencia | 3 | EP07 - Incident Management |
+| 30 | US34 | Consultar progreso de operación | 5 | EP08 - Monitoring and Analytics |
+| 31 | US35 | Consultar dashboard | 5 | EP08 - Monitoring and Analytics |
+| 32 | US36 | Consultar historial de operaciones | 3 | EP08 - Monitoring and Analytics |
+| 33 | US37 | Consultar detalle histórico | 3 | EP08 - Monitoring and Analytics |
+| 34 | US38 | Consultar ubicación de entrega | 5 | EP09 - External Services Integration |
+| 35 | US01 | Conocer BottleTrack | 3 | EP01 - Landing Page |
+| 36 | US02 | Conocer beneficios por segmento | 3 | EP01 - Landing Page |
+| 37 | US03 | Acceder a la aplicación | 2 | EP01 - Landing Page |
+| 38 | TS02 | User and Company REST API | 8 | EP03 - Company Management |
+| 39 | TS01 | Authentication REST API | 5 | EP02 - Identity and Access Management |
+| 40 | TS13 | OpenAPI Documentation | 5 | EP02 - Identity and Access Management |
+| 41 | TS03 | Vehicle Management REST API | 5 | EP04 - Fleet Management |
+| 42 | TS04 | Driver Management REST API | 5 | EP04 - Fleet Management |
+| 43 | TS05 | Transport Operations REST API | 8 | EP05 - Transport Operations Management |
+| 44 | TS06 | Resource Assignment Service | 5 | EP05 - Transport Operations Management |
+| 45 | TS07 | Delivery Management REST API | 8 | EP06 - Delivery Management |
+| 46 | TS08 | Incident Management REST API | 8 | EP07 - Incident Management |
+| 47 | TS09 | Incident Evidence Service | 5 | EP07 - Incident Management |
+| 48 | TS10 | Monitoring REST API | 8 | EP08 - Monitoring and Analytics |
+| 49 | TS11 | Operation History REST API | 5 | EP08 - Monitoring and Analytics |
 | 50 | TS12 | Maps Service Integration | 8 | EP09 - External Services Integration |
-| 51 | TS13 | OpenAPI Documentation | 5 | EP02 - Identity and Access Management |
 
 ### Criterios de priorización
 
-La priorización inicial del Product Backlog considera los siguientes criterios:
+La priorización del Product Backlog considera los siguientes criterios:
 
-1. Valor generado para las operaciones de transporte.
-2. Importancia para los principales usuarios de BottleTrack.
-3. Relación con el core business del producto.
-4. Dependencias entre funcionalidades.
+1. Dependencias técnicas entre funcionalidades (una operación no puede crearse ni asignarse sin que existan primero la empresa, los usuarios y los recursos de flota).
+2. Valor generado para las operaciones de transporte.
+3. Importancia para los principales usuarios de BottleTrack.
+4. Relación con el core business del producto.
 5. Necesidad para construir y validar el MVP.
 6. Complejidad estimada de implementación.
 
 El flujo principal priorizado es:
 
-**Crear operación → Asignar vehículo → Asignar conductor → Registrar puntos de entrega → Ejecutar ruta → Actualizar entregas → Registrar incidencias → Monitorear operación → Finalizar operación → Consultar historial.**
+**Registrar empresa y usuarios → Registrar vehículos y conductores → Crear operación → Asignar vehículo y conductor → Registrar puntos de entrega → Ejecutar ruta → Actualizar entregas → Registrar incidencias → Monitorear operación → Finalizar operación → Consultar historial.**
 
-Las User Stories relacionadas con el Landing Page deberán ser consideradas desde el primer Sprint debido a que este producto forma parte del alcance requerido para BottleTrack.
+Las User Stories relacionadas con el Landing Page deberán ser consideradas desde el primer Sprint (en paralelo, por un frontstream independiente) debido a que este producto forma parte del alcance requerido para BottleTrack, aunque su valor para el core business del transporte sea menor.
 
 Las Technical Stories representan principalmente el trabajo requerido en el Backend RESTful API para proporcionar los servicios utilizados por el Frontend Web Application.
-
-
 
 <hr>
 
