@@ -979,11 +979,16 @@ Las entrevistas deberán registrarse en video para conservar evidencia del proce
 
 | # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+| 1 | Luis Angel Tufiño Argüelles | 32 | Pueblo libre | <img src="img/chapter2/luisE.png" alt="Entrevista - Luis"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCr82Alu2z7SZKNCmFaEpDPASkBq9PbtANVy94HciHpe8M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m3dgc1) |  00:00:00   | 11:23 |
 | 2 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
 | 3 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
 
 *Resumen de entrevista 1:*
+
+Luis Ramírez, supervisor de distribución con 8 años de experiencia, explica que su empresa organiza diariamente los pedidos, vehículos, conductores y rutas para abastecer bodegas, minimarkets y pequeños comercios. Actualmente utilizan principalmente Excel, Google Maps, WhatsApp y llamadas telefónicas, lo que dificulta mantener la información centralizada y hacer seguimiento a varias entregas al mismo tiempo.
+
+Los principales problemas identificados son la planificación manual de rutas, el seguimiento de los vehículos y el registro desordenado de incidencias como productos faltantes, dañados o entregas parciales. Luis considera importante contar con un sistema que permita visualizar en un solo lugar las rutas, vehículos, conductores y estado de cada entrega, además de registrar directamente si una entrega fue completada, parcial o presentó algún inconveniente.
+
 
 *Resumen de entrevista 2:*
 
@@ -1010,11 +1015,17 @@ El entrevistado señaló que una de las actividades que mayor tiempo le demanda 
 
 | # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+| 1 | Arturo Axel Saravia Huaricancha | 20 | Los Olivos |  <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">| [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) |  00:00:00 | 6:06 |
 | 2 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
 | 3 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
 
 *Resumen de entrevista 1:*
+
+En esta entrevista, el participante es un estudiante universitario que trabaja medio tiempo durante sus vacaciones en una bodega, donde ayuda atendiendo clientes, revisando stock y recibiendo pedidos de los proveedores.
+
+Se identificó que la bodega trabaja con varios distribuidores y que la comunicación se realiza principalmente mediante WhatsApp y llamadas. Uno de los principales problemas es no conocer con precisión la hora de llegada de los pedidos, además de recibir ocasionalmente productos incompletos o con diferencias respecto a lo solicitado.
+
+El entrevistado considera importante poder conocer el estado del pedido, la cantidad de productos, la hora aproximada de llegada y posibles retrasos, ya que esto permitiría organizarse mejor y reducir la necesidad de estar contactando constantemente al proveedor.
 
 *Resumen de entrevista 2:*
 
