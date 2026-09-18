@@ -1619,6 +1619,7 @@ La aplicación utiliza una barra lateral persistente como sistema de navegación
 
 <a id="461-design-level-event-storming"></a>
 ### 4.6.1. Design-level Event Storming.
+<img src="img/chapter4/design-level-eventstorming.jpeg" alt="Design Level EventStorming">
 
 <a id="462-software-architecture-context-diagram"></a>
 ### 4.6.2. Software Architecture Context Diagram.
