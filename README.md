@@ -1700,22 +1700,44 @@ Flujo del supervisor
 <a id="443-web-applications-mock-ups"></a>
 ### 4.4.3. Web Applications Mock-ups.
 
+**Administrador**
+
 <img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_login_WA_wireframe.png" alt=" supervisor WF" width="800">
 
 <img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin1_WA_wireframe.png" alt=" supervisor WF" width="800">
 
 <img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin2_WA_wireframe.png" alt=" supervisor WF" width="800">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin3_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin3_WA_wireframe.png" alt=" supervisor WF" width="500">
+
+**Supervisor**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super1_WA_wireframe.png" alt=" supervisor WF" width="800">
+
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super2_WA_wireframe.png" alt=" supervisor WF" width="800">
+
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super3_WA_wireframe.png" alt=" supervisor WF" width="800">
+
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super4_WA_wireframe.png" alt=" supervisor WF" width="800">
 
 
 <a id="444-web-applications-user-flow-diagrams"></a>
 ### 4.4.4. Web Applications User Flow Diagrams.
 
+**Admninistrador**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_admin_WA_wireflow.png" alt=" supervisor WF" width="800">
+
+**Supervisor**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_super_WA_wireflow.png" alt=" supervisor WF" width="800">
+
+
 
 <a id="45-web-applications-prototyping"></a>
 ## 4.5. Web Applications Prototyping.
 
+<img src="img/webApplicationUxDesign/prototype_WA.png" alt=" supervisor WF" width="800">
 
 <a id="46-domain-driven-software-architecture"></a>
 ## 4.6. Domain-Driven Software Architecture.
