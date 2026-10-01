@@ -1,0 +1,52 @@
+workspace "BottleTrack" "Beverage distribution management system" {
+
+    !identifiers hierarchical
+
+    model {
+
+        administrator = person "Administrator" "Manages users, roles and distribution operations."
+
+        fleetSupervisor = person "Fleet Supervisor" "Plans operations, assigns vehicles and drivers, monitors the fleet and manages incidents."
+
+        driver = person "Driver" "Executes deliveries, confirms delivery status and reports incidents."
+
+        iotDevice = softwareSystem "Vehicle IoT Device" "Provides vehicle telemetry data during transportation."
+
+        bottleTrack = softwareSystem "BottleTrack" "Manages, plans and monitors beverage distribution operations."
+
+        administrator -> bottleTrack "Manages users, roles and operations"
+
+        fleetSupervisor -> bottleTrack "Plans, assigns and monitors operations"
+
+        driver -> bottleTrack "Views assigned operations, confirms deliveries and reports incidents"
+
+        iotDevice -> bottleTrack "Sends vehicle telemetry data"
+    }
+
+    views {
+
+        systemContext bottleTrack "SystemContext" {
+            include *
+            autolayout lr
+            title "System Context View - BottleTrack"
+        }
+
+        styles {
+
+            element "Person" {
+                shape person
+                background #08427b
+                color #ffffff
+            }
+
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+
+            relationship "Relationship" {
+                thickness 2
+            }
+        }
+    }
+}

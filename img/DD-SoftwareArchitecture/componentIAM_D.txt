@@ -1,0 +1,100 @@
+workspace "BottleTrack - Identity and Access Management" "BottleTrack Component Diagram" {
+
+    !identifiers hierarchical
+
+    model {
+
+        administrator = person "Administrator" "Manages the organization, users and roles."
+
+        bottleTrack = softwareSystem "BottleTrack" "Beverage distribution management system." {
+
+            webApplication = container "Web Application" "Provides the user interface for BottleTrack." "Vue.js / PrimeVue"
+
+            backendApi = container "Backend API" "Provides the business logic and REST API for BottleTrack." "ASP.NET Core / C# / Entity Framework Core" {
+
+                identityAccessController = component "Identity Access Controller" "Handles requests related to organization registration, user registration, role assignment and authentication." "ASP.NET Core Controller"
+
+                identityAccessService = component "Identity Access Service" "Coordinates organization registration, user management, role assignment and authentication." "C# / ASP.NET Core"
+
+                organizationRepository = component "Organization Repository" "Provides persistence operations for organizations." "Entity Framework Core"
+
+                userRepository = component "User Repository" "Provides persistence operations for users and roles." "Entity Framework Core"
+            }
+
+            database = container "Database" "Stores organizations, users, roles and other BottleTrack information." "PostgreSQL"
+        }
+
+
+        administrator -> bottleTrack.webApplication "Uses"
+
+        bottleTrack.webApplication -> bottleTrack.backendApi "Makes API requests" "HTTPS / JSON"
+
+        administrator -> bottleTrack.backendApi.identityAccessController "Manages organization, users and roles"
+
+        bottleTrack.backendApi.identityAccessController -> bottleTrack.backendApi.identityAccessService "Calls"
+
+        bottleTrack.backendApi.identityAccessService -> bottleTrack.backendApi.organizationRepository "Manages organization data"
+
+        bottleTrack.backendApi.identityAccessService -> bottleTrack.backendApi.userRepository "Manages user and role data"
+
+        bottleTrack.backendApi.organizationRepository -> bottleTrack.database "Reads from and writes to" "Entity Framework Core"
+
+        bottleTrack.backendApi.userRepository -> bottleTrack.database "Reads from and writes to" "Entity Framework Core"
+    }
+
+
+    views {
+
+        component bottleTrack.backendApi "Diagram1" {
+
+            include administrator
+            include bottleTrack.webApplication
+
+            include bottleTrack.backendApi.identityAccessController
+            include bottleTrack.backendApi.identityAccessService
+            include bottleTrack.backendApi.organizationRepository
+            include bottleTrack.backendApi.userRepository
+
+            include bottleTrack.database
+
+            autolayout lr
+
+            title "Component View - Identity and Access Management"
+        }
+
+
+        styles {
+
+            element "Person" {
+                shape person
+                background #08427b
+                color #ffffff
+            }
+
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+
+            element "Container" {
+                background #438dd5
+                color #ffffff
+            }
+
+            element "Component" {
+                background #85bbf0
+                color #000000
+            }
+
+            element "Database" {
+                shape cylinder
+                background #438dd5
+                color #ffffff
+            }
+
+            relationship "Relationship" {
+                thickness 2
+            }
+        }
+    }
+}

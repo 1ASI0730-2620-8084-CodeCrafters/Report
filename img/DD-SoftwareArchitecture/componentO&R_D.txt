@@ -1,0 +1,114 @@
+workspace "BottleTrack - Operations and Routes" "BottleTrack Component Diagram" {
+
+    !identifiers hierarchical
+
+    model {
+
+        fleetSupervisor = person "Fleet Supervisor" "Plans and monitors transportation operations and routes."
+
+        driver = person "Driver" "Executes assigned operations and confirms deliveries."
+
+        bottleTrack = softwareSystem "BottleTrack" "Beverage distribution management system." {
+
+            webApplication = container "Web Application" "Provides the user interface for BottleTrack." "Vue.js / PrimeVue"
+
+            backendApi = container "Backend API" "Provides the business logic and REST API for BottleTrack." "ASP.NET Core / C# / Entity Framework Core" {
+
+                operationsController = component "Operations Controller" "Handles requests related to transport operations, delivery stops and shipments." "ASP.NET Core Controller"
+
+                operationsService = component "Operations Service" "Coordinates operation creation, vehicle and driver assignment, route planning, dispatch and delivery confirmation." "C# / ASP.NET Core"
+
+                transportOperationRepository = component "Transport Operation Repository" "Provides persistence operations for transport operations." "Entity Framework Core"
+
+                deliveryStopRepository = component "Delivery Stop Repository" "Provides persistence operations for delivery stops and route information." "Entity Framework Core"
+
+                shipmentRepository = component "Shipment Repository" "Provides persistence operations for shipments and delivery information." "Entity Framework Core"
+            }
+
+            database = container "Database" "Stores transportation operations, delivery stops, shipments and related information." "PostgreSQL"
+        }
+
+
+        fleetSupervisor -> bottleTrack.webApplication "Uses"
+
+        driver -> bottleTrack.webApplication "Uses"
+
+        bottleTrack.webApplication -> bottleTrack.backendApi "Makes API requests" "HTTPS / JSON"
+
+        fleetSupervisor -> bottleTrack.backendApi.operationsController "Manages operations and routes"
+
+        driver -> bottleTrack.backendApi.operationsController "Confirms deliveries"
+
+        bottleTrack.backendApi.operationsController -> bottleTrack.backendApi.operationsService "Calls"
+
+        bottleTrack.backendApi.operationsService -> bottleTrack.backendApi.transportOperationRepository "Manages transport operations"
+
+        bottleTrack.backendApi.operationsService -> bottleTrack.backendApi.deliveryStopRepository "Manages delivery stops and routes"
+
+        bottleTrack.backendApi.operationsService -> bottleTrack.backendApi.shipmentRepository "Manages shipments and deliveries"
+
+        bottleTrack.backendApi.transportOperationRepository -> bottleTrack.database "Reads from and writes to" "Entity Framework Core"
+
+        bottleTrack.backendApi.deliveryStopRepository -> bottleTrack.database "Reads from and writes to" "Entity Framework Core"
+
+        bottleTrack.backendApi.shipmentRepository -> bottleTrack.database "Reads from and writes to" "Entity Framework Core"
+    }
+
+
+    views {
+
+        component bottleTrack.backendApi "Diagram3" {
+
+            include fleetSupervisor
+            include driver
+            include bottleTrack.webApplication
+
+            include bottleTrack.backendApi.operationsController
+            include bottleTrack.backendApi.operationsService
+            include bottleTrack.backendApi.transportOperationRepository
+            include bottleTrack.backendApi.deliveryStopRepository
+            include bottleTrack.backendApi.shipmentRepository
+
+            include bottleTrack.database
+
+            autolayout lr
+
+            title "Component View - Operations and Routes"
+        }
+
+
+        styles {
+
+            element "Person" {
+                shape person
+                background #08427b
+                color #ffffff
+            }
+
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+
+            element "Container" {
+                background #438dd5
+                color #ffffff
+            }
+
+            element "Component" {
+                background #85bbf0
+                color #000000
+            }
+
+            element "Database" {
+                shape cylinder
+                background #438dd5
+                color #ffffff
+            }
+
+            relationship "Relationship" {
+                thickness 2
+            }
+        }
+    }
+}

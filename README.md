@@ -1782,39 +1782,46 @@ Flujo del supervisor
 <a id="462-software-architecture-context-diagram"></a>
 ### 4.6.2. Software Architecture Context Diagram.
 
-El diagrama de contexto muestra los principales actores que interactúan con la plataforma BottleTrack y la relación general con el sistema.
+![contextdiagram](img/DD-SoftwareArchitecture/contextDiagram.png)
 
-![BottleTrack Context Diagram](img/DDD-SA/C4-model/context.png)
-El diagrama de contexto presenta a BottleTrack como el sistema principal y muestra su interacción con los actores y sistemas externos que participan en la solución. El Administrador utiliza la plataforma para gestionar la organización, usuarios y supervisar la operación; el Supervisor de Flota la utiliza para gestionar la flota, planificar operaciones, monitorear la telemetría y atender incidencias; mientras que el Conductor utiliza la plataforma para ejecutar las entregas y reportar incidencias durante su recorrido.
-Además, el Dispositivo IoT del Vehículo se comunica con BottleTrack para enviar información de ubicación, temperatura de carga e impactos.
-
-<img src="img/DD-SoftwareArchitecture/context_diagram.png" alt="Context Diagram" width="800">
+En el centro se encuentra el sistema BottleTrack, que interactúa principalmente con tres tipos de usuarios: el Administrator, el Fleet Supervisor y el Driver. 
+Cada uno utiliza el sistema según sus responsabilidades dentro de la operación de distribución. Además, BottleTrack recibe información del Vehicle IoT Device para obtener datos de telemetría de los vehículos.
 
 <a id="463-software-architecture-container-diagrams"></a>
 ### 4.6.3. Software Architecture Container Diagrams.
 
-El diagrama de contenedores descompone BottleTrack en sus principales partes de software, mostrando cómo los usuarios interactúan con la Landing Page, la Web Application, el Backend API y la Database.
+![containerdiagram](img/DD-SoftwareArchitecture/containerDiagram.png)
 
-![BottleTrack Container Diagram](img/DDD-SA/C4-model/container.png)
-El diagrama de contenedores descompone BottleTrack en sus principales partes tecnológicas. La Web Application, desarrollada como una SPA con Vue 3 y PrimeVue, proporciona la interfaz utilizada por el Administrador, Supervisor de Flota y Conductor. 
-Esta aplicación se comunica mediante HTTPS con la BottleTrack API, implementada con ASP.NET Core Web API y Entity Framework Core, que concentra la lógica de negocio y el acceso a los datos. La información del sistema se almacena en una Base de Datos relacional, mientras que el Dispositivo IoT del Vehículo envía directamente sus lecturas de telemetría a la API mediante HTTPS/REST.
-
-<img src="img/DD-SoftwareArchitecture/container_diagram.png" alt="Container Diagram" width="800">
+Aqui hacemos un zoom dentro de BottleTrack para mostrar sus principales containers. Tenemos la Landing Page, la Web Application, el Backend API y la Database. La Web Application utiliza Vue.js y PrimeVue, el Backend API utiliza ASP.NET Core, C# y Entity Framework Core, y la información se almacena en PostgreSQL. 
+La Web Application se comunica con el Backend API mediante HTTPS y JSON, mientras que el Backend API gestiona el acceso a la base de datos.
 
 <a id="464-software-architecture-components-diagrams"></a>
 ### 4.6.4. Software Architecture Components Diagrams.
 
-Los diagramas de componentes muestran la organización interna de los principales containers de BottleTrack. 
-La BottleTrack API está implementada como un monolito modular y se organiza mediante cinco componentes correspondientes a los Bounded Contexts identificados durante el Event Storming: Identidad y Accesos, Gestión de Flota, Operaciones y Rutas, Monitoreo IoT y Gestión de Incidencias.
+![component1](img/DD-SoftwareArchitecture/componentIAM_D.png)
+
+Este diagrama representa la estructura interna del Bounded Context de Identidad y Accesos. Su función es gestionar la organización, los usuarios, los roles y la autenticación dentro de BottleTrack. El Controller recibe las solicitudes, el Service coordina la lógica de negocio y los Repository gestionan la persistencia de la información.
 <hr>
 
-La BottleTrack API concentra la lógica de negocio del sistema y está organizada internamente mediante cinco módulos correspondientes a los Bounded Contexts de BottleTrack.
+![component2](img/DD-SoftwareArchitecture/componentFleetM_D.png)
 
-<img src="img/DD-SoftwareArchitecture/componentAPI_diagram.png" alt="API component Diagram" width="800">
+Este diagrama representa la estructura interna del Bounded Context de Gestión de Flota. Su función es administrar los vehículos y conductores, incluyendo su registro, instalación de dispositivos IoT y disponibilidad de los vehículos. El Controller recibe las solicitudes, el Service gestiona la lógica del negocio y los Repository se encargan de la persistencia de la información.
+<hr>
 
-La Web Application contiene los componentes responsables de la interacción con los usuarios de BottleTrack.
+![component3](img/DD-SoftwareArchitecture/componentO&R_D.png)
 
-<img src="img/DD-SoftwareArchitecture/componentWebApp_diagram.png" alt="Web Application component Diagram" width="800">
+Este diagrama representa la estructura interna del Bounded Context de Operaciones y Rutas. Su función es gestionar las operaciones de transporte, los puntos de entrega y los envíos, desde la creación y asignación de una operación hasta el despacho y la confirmación de las entregas. El Controller recibe las solicitudes, el Service coordina la lógica de negocio y los Repository gestionan la persistencia de cada elemento.
+<hr>
+
+![component4](img/DD-SoftwareArchitecture/componentIoTM_D.png)
+
+Este diagrama representa la estructura interna del Bounded Context de IoT Monitoring de BottleTrack. Su función es gestionar los dispositivos IoT registrados, las lecturas de sensores y las alertas generadas a partir de los rangos configurados. Se mantiene como un módulo interno del Backend API, ya que BottleTrack utiliza una arquitectura de modular monolith.
+<hr>
+
+![component5](img/DD-SoftwareArchitecture/componentIM_D.png)
+Representa la estructura interna de Incident Management, encargado de gestionar los incidentes, las evidencias asociadas, su severidad, revisión, resolución y cierre. Los agregados definidos en el reporte son Incident y Evidence.
+<hr>
+
 
 <a id="47-software-object-oriented-design"></a>
 ## 4.7. Software Object-Oriented Design.
