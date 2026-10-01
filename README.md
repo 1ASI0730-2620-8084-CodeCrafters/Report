@@ -1828,12 +1828,6 @@ Representa la estructura interna de Incident Management, encargado de gestionar 
 
 ###  4.7.1 Class Diagrams
 
-<p align="center">
-    <img src="img/ClassDiagrams.png" alt="ClassDiagrams.png" width="80%">
-</p>
-
-link:  https://lucid.app/lucidchart/ea3b075d-44d9-4fb0-a58f-6d6c2762bf85/edit?viewport_loc=-1138%2C-648%2C9955%2C6088%2C0_0&invitationId=inv_15a7c100-9dc0-469a-a127-a7b60c647f1e
-
 Visualización general del diagrama de clases:
 
 <img src="img/Software-Object-Oriented-Design/ClassDiagrams.png" alt="Class Diagrams" width="800">
