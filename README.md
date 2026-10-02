@@ -2272,114 +2272,190 @@ Los Web Services se publicarán en un proveedor de nube junto con la base de dat
 <a id="52-landing-page-services-applications-implementation"></a>
 ## 5.2. Landing Page, Services & Applications Implementation.
 
-<a id="52x1-sprint-planning-n"></a>
-#### 5.2.1.1. Sprint Planning 1.
+<a id="52x-sprint-n"></a>
+### 5.2.1. Sprint 1
 
 <a id="52x1-sprint-planning-n"></a>
 #### 5.2.1.1. Sprint Planning 1.
 
-| Sprint 1                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Date**                            | 2026-09-02                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Time**                            | 5:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Location**                        | Via Discord                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Prepared By**                     | Crispin Valdivia, Angel Gabriel                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Attendees to planning meeting**   | Crispin Valdivia, Angel Gabriel; Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose; Huapaya Buitron, Ariana Alheli                                                                                                                                                                                                                                                                                            |
-| **Sprint 1 Review Summary**         | Durante este sprint el equipo completó la documentación de arquitectura y diseño del producto (C4 Model, Class Diagram, Database Diagram, User Stories y Product Backlog), y desarrolló e implementó la Landing Page de BottleTrack (wireframe y mock-up de alta fidelidad, con estructura de navegación y presentación de la propuesta de valor). Las funcionalidades de la Web Application correspondientes a este sprint (gestión de identidad, usuarios y empresa) quedaron únicamente a nivel de diseño en Figma; su implementación en frontend y backend no se completó y pasa al siguiente sprint. |
-| **Sprint 1 Retrospective Summary**  | La retrospectiva evidenció que el equipo comprometió más trabajo del que pudo completar en el sprint: se planificó implementar la gestión de identidad, usuarios y empresa, pero el tiempo se concentró en cerrar la documentación técnica y la Landing Page, dejando el diseño en Figma de la Web Application sin pasar a código. El equipo concluyó que, para el siguiente sprint, el diseño en Figma de cada pantalla debe cerrarse *antes* de iniciar su implementación, y que la estimación de story points debe considerar el tiempo dedicado a documentación como trabajo real del equipo, no como actividad paralela sin costo. |
-| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Sprint 1 Goal**                   | Habilitar la base funcional de BottleTrack implementando la gestión de identidad, usuarios y empresa, junto con la Landing Page del producto. El objetivo se valida cuando un usuario puede autenticarse correctamente, un administrador puede gestionar usuarios y roles dentro de su empresa, y la Landing Page comunica la propuesta de valor de forma navegable y responsiva.                                                                                                                                                                |
-| **Sprint 1 Velocity**               | 8                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Sum of Story Points**             | 27                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sprint #  | Sprint 1 |
+| :-------- | :------- |
+| **Sprint Planning Background** | |
+| Date | 2026-09-02 |
+| Time | 5:00 PM |
+| Location | Reunión virtual por Discord |
+| Prepared By | Crispin Valdivia, Angel Gabriel |
+| Attendees (to planning meeting) | Crispin Valdivia, Angel Gabriel; Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose; Huapaya Buitron, Ariana Alheli |
+| Sprint 0 Review Summary | Es el primer Sprint del proyecto, por lo que no existe un Sprint anterior que revisar. |
+| Sprint 0 Retrospective Summary | Es el primer Sprint del proyecto, por lo que no existe una retrospectiva anterior. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | *Our focus is on* que los visitantes de los segmentos objetivo comprendan la propuesta de BottleTrack y encuentren su camino hacia la aplicación, mientras se preparan las bases de acceso de la Web Application.<br>*We believe it delivers* claridad sobre el problema que resolvemos y un punto de entrada por segmento *to* administradores de distribuidoras y supervisores de flota.<br>*This will be confirmed when* el Landing Page está publicado, se puede recorrer en inglés y en español desde escritorio y móvil, y cada segmento cuenta con su llamada a la acción. |
+| Sprint 1 Velocity | 27 |
+| Sum of Story Points | 27 |
 
 <a id="52x2-aspect-leader-and-colaborators"></a>
-#### 5.2.1.2. Aspect Leader and Colaborators.
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
-Durante este cuarto sprint, el equipo se enfocó principalmente en la consolidación de la plataforma, priorizando la resolución de errores detectados en sprints previos, el reforzamiento de la seguridad mediante el control de accesos y el refinamiento general de las funcionalidades para asegurar un sistema estable.
+Durante el Sprint 1 el equipo se organizó por aspectos, de modo que cada integrante condujo el área en la que tenía mayor conocimiento y colaboró en las demás. La matriz de Liderazgo y Colaboración (LACX) refleja la asignación acordada en el Sprint Planning y es coherente con las tareas del Sprint Backlog y con el historial de commits.
 
-Con el objetivo de optimizar la organización y la colaboración del equipo, se actualizó la matriz de Liderazgo y Colaboración (LACX), la cual asigna responsabilidades y roles específicos a cada miembro del equipo en relación con los aspectos clave abordados durante este cuarto Sprint.
-
-| Team Member <br> (Last Name, First Name) | Github Username | Resolución de errores de sprints previos <br> Leader (L) / Collaborator (C) | Seguridad, control de accesos y optimización de rendimiento <br> Leader (L) / Collaborator (C) | Refinamiento de funcionalidades y ajustes finales <br> Leader (L) / Collaborator (C) |
-|---|---|---|---|---|
-|Crispin Valdivia, Angel Gabriel|FaureGalliard | L | L | L |
-|Cumba Rengifo, Leonardo Raul| LeonardoC72 | C | C | C |
-|Palacin Lazo, Gerardo Valentin| GerardoPalacin03 | C | C | C |
-|Pezo Castilla, Maria Jose| MariaJosePezo | C | C | C |
-|Huapaya Buitron, Ariana Alheli | xxxx | C | C | C |
-
+| Team Member (Last Name, First Name) | GitHub Username | Requirements Specification | Needfinding & Impact Mapping | UX/UI Design | Software Architecture | Landing Page & Configuration Management |
+| :---------------------------------- | :-------------- | :-----: | :-----: | :-----: | :-----: | :-----: |
+| Crispin Valdivia, Angel Gabriel | FaureGalliard | C | C | C | C | L |
+| Cumba Rengifo, Leonardo Raul | LeonardoC72 | L | C | C | C | C |
+| Palacin Lazo, Gerardo Valentin | GeraldP03 | C | C | L | L | C |
+| Pezo Castilla, Maria Jose | MariaJosePezo | C | L | C | C | C |
+| Huapaya Buitron, Ariana Alheli | — | — | — | — | — | — |
 
 <a id="52x3-sprint-backlog-n"></a>
 #### 5.2.1.3. Sprint Backlog 1.
 
-| User Story ID | User Story Título | Task ID | Task Título | Descripción | Estimación (Horas) | Asignado a | Estado (To do/In-Process/To-Review/Done) |
-| --- | --- | --- | --- | --- | ---: | --- | --- |
-| US-01 | Conocer BottleTrack | UT-01 | Maquetar sección Hero | Diseñar y maquetar la sección Hero de la Landing Page que comunique la propuesta de valor de BottleTrack. | 3 | Angel Crispin | Done |
-| US-01 | Conocer BottleTrack | UT-02 | Maquetar sección "El problema" | Diseñar y maquetar la sección que describe el problema que resuelve BottleTrack (pérdidas en la ruta, falta de visibilidad). | 2 | Leonardo Cumba | Done |
-| US-02 | Conocer beneficios por segmento | UT-01 | Maquetar sección "Qué hace BottleTrack" | Diseñar las tarjetas de capacidades del producto (seguimiento de entregas y monitoreo IoT, reporte de incidencias). | 2 | Gerardo Palacin | Done |
-| US-02 | Conocer beneficios por segmento | UT-02 | Maquetar sección "Para quién es" | Diseñar las tarjetas de segmentos objetivo (supervisores de logística, jefes de distribución). | 2 | Maria Pezo | Done |
-| US-03 | Acceder a la aplicación | UT-01 | Crear navbar y botón CTA | Implementar la barra de navegación con el botón "Comenzar" que redirige al Login de la plataforma. | 2 | Angel Crispin | Done |
-| US-09 | Gestionar información de empresa | UT-01 | Diseñar en Figma pantalla de empresa | Diseñar en Figma la pantalla de configuración/edición de la información de la empresa distribuidora. | 2 | Maria Pezo | Done |
-| US-09 | Gestionar información de empresa | UT-02 | Implementar edición de datos de empresa | Desarrollar el formulario y el servicio para actualizar la información de la empresa. | 3 | Maria Pezo | To Do |
-| US-07 | Gestionar usuarios | UT-01 | Diseñar en Figma pantallas de usuarios | Diseñar en Figma el listado, registro y edición de usuarios de la empresa. | 3 | Leonardo Cumba | Done |
-| US-07 | Gestionar usuarios | UT-02 | Implementar CRUD de usuarios | Desarrollar el registro, listado y edición de usuarios en frontend y backend. | 5 | Leonardo Cumba | To Do |
-| US-08 | Asignar rol a usuario | UT-01 | Diseñar en Figma selector de rol | Diseñar en Figma el control para asignar rol (Administrador/Supervisor) dentro del formulario de usuario. | 1.5 | Leonardo Cumba | Done |
-| US-08 | Asignar rol a usuario | UT-02 | Implementar asignación de rol | Desarrollar la asignación de rol en backend y su reflejo en el frontend. | 2.5 | Gerardo Palacin | To Do |
-| US-04 | Iniciar sesión | UT-01 | Diseñar en Figma pantalla de Login | Diseñar en Figma la pantalla de inicio de sesión con validación de credenciales. | 2 | Gerardo Palacin | Done |
-| US-04 | Iniciar sesión | UT-02 | Implementar autenticación | Desarrollar el formulario de login, su validación y el servicio de autenticación en backend. | 5 | Angel Crispin | To Do |
-| US-05 | Cerrar sesión | UT-01 | Implementar cierre de sesión | Desarrollar la invalidación de la sesión activa al cerrar sesión. | 1 | Angel Crispin | To Do |
-| US-06 | Consultar perfil | UT-01 | Diseñar en Figma pantalla de perfil | Diseñar en Figma la pantalla de consulta de datos del perfil del usuario. | 1 | Gerardo Palacin | Done |
-| US-06 | Consultar perfil | UT-02 | Implementar consulta de perfil | Desarrollar el servicio y la vista que muestran los datos del perfil autenticado. | 1.5 | Maria Pezo | To Do |
+El Sprint 1 comprometió las User Stories del Landing Page y las de acceso e identidad de la Web Application, de acuerdo con el Sprint Goal. Cada User Story se descompuso en tareas de entre 4 y 8 horas. El tablero del Sprint se administró en Trello y se encuentra disponible en: https://trello.com/b/jGpO815B/bottletrack-product-backlog
 
-link: 
-
-https://trello.com/invite/b/6aad94b717b9b2347dd4d8e0/ATTIba07b47b67a6659798dd9dad4326f9e659F64594/sprint-1
+| Sprint # | Sprint 1 | | | | | | |
+| :------- | :------- | :- | :- | :- | :- | :- | :- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US01 | Conocer BottleTrack | T01 | Design system and style guide | Definir los tokens de color, tipografía y espaciado, los componentes base y la vista de style guide. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US01 | Conocer BottleTrack | T02 | Hero and problem sections | Implementar la sección hero con la propuesta de valor y la sección del problema. | 6 | Crispin Valdivia, Angel Gabriel | Done |
+| US01 | Conocer BottleTrack | T03 | English and Spanish translation | Implementar los diccionarios en_US y es_419 con detección del idioma del navegador y persistencia de la preferencia. | 6 | Crispin Valdivia, Angel Gabriel | Done |
+| US02 | Conocer beneficios por segmento | T01 | Features and how it works sections | Implementar las tarjetas de capacidades y la explicación del funcionamiento del producto. | 5 | Crispin Valdivia, Angel Gabriel | Done |
+| US02 | Conocer beneficios por segmento | T02 | Landing page UI design | Elaborar en Figma el wireframe y el mock-up del Landing Page. | 6 | Palacin Lazo, Gerardo Valentin | Done |
+| US03 | Acceder a la aplicación | T01 | Responsive navigation and segment calls to action | Implementar la navegación adaptable y las llamadas a la acción de cada segmento hacia la Web Application. | 5 | Crispin Valdivia, Angel Gabriel | Done |
+| US03 | Acceder a la aplicación | T02 | Terms of service and footer | Redactar los términos y condiciones de servicio y enlazarlos desde el pie de página. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US03 | Acceder a la aplicación | T03 | Deployment to GitHub Pages | Configurar GitHub Pages y publicar el release v0.1.0 desde la rama release/0.1.0. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US04 | Iniciar sesión | T01 | Login and profile UI design | Diseñar en Figma las vistas de inicio de sesión y de perfil. | 4 | Palacin Lazo, Gerardo Valentin | Done |
+| US04 | Iniciar sesión | T02 | Sign in implementation | Implementar el formulario de inicio de sesión y el servicio de autenticación. | 8 | Crispin Valdivia, Angel Gabriel | To-do |
+| US05 | Cerrar sesión | T01 | Sign out implementation | Implementar el cierre de sesión e invalidar la sesión activa. | 4 | Crispin Valdivia, Angel Gabriel | To-do |
+| US06 | Consultar perfil | T01 | Profile view implementation | Implementar la vista y el servicio que muestran el perfil del usuario autenticado. | 4 | Pezo Castilla, Maria Jose | To-do |
+| US07 | Gestionar usuarios | T01 | Users UI design | Diseñar en Figma el listado, el registro y la edición de usuarios. | 6 | Cumba Rengifo, Leonardo Raul | Done |
+| US07 | Gestionar usuarios | T02 | Users management implementation | Implementar el registro, el listado y la edición de usuarios. | 8 | Cumba Rengifo, Leonardo Raul | To-do |
+| US08 | Asignar rol a usuario | T01 | Role assignment implementation | Implementar la asignación del rol de administrador o supervisor. | 5 | Palacin Lazo, Gerardo Valentin | To-do |
+| US09 | Gestionar información de empresa | T01 | Company settings UI design | Diseñar en Figma la vista de configuración de la empresa. | 4 | Pezo Castilla, Maria Jose | Done |
+| US09 | Gestionar información de empresa | T02 | Company settings implementation | Implementar el formulario y el servicio para actualizar los datos de la empresa. | 5 | Pezo Castilla, Maria Jose | To-do |
 
 <a id="52x4-development-evidence-for-sprint-review"></a>
-#### 5.2.x.4. Development Evidence for Sprint Review.
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+En el Sprint 1 se implementó el Landing Page en el repositorio https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page siguiendo GitFlow: cada funcionalidad se desarrolló en una rama `feature/*` creada desde `develop`, se integró con merges `--no-ff` y se publicó desde la rama `release/0.1.0` con el tag `v0.1.0`. La siguiente tabla presenta los commits de la iteración.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :------------------ |
+| Landing-Page | main | 76546df | chore: initialize landing page repository | — | 2026-09-01 |
+| Landing-Page | feature/design-system | 387d995 | feat(design-system): add color, typography and spacing tokens | — | 2026-09-01 |
+| Landing-Page | feature/design-system | 347abc9 | feat(design-system): add reset, element defaults and layout utilities | — | 2026-09-01 |
+| Landing-Page | feature/design-system | bd041ec | feat(design-system): add button, card, chip and input components | — | 2026-09-01 |
+| Landing-Page | feature/design-system | e53ea73 | feat(style-guide): add style guide page styles | — | 2026-09-01 |
+| Landing-Page | feature/design-system | 971d12d | feat(style-guide): add copy to clipboard for color tokens | — | 2026-09-01 |
+| Landing-Page | feature/design-system | db11e4f | docs(design-system): add living style guide page | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 072a531 | feat(layout): add site header, navigation and footer styles | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 0aa1a2d | feat(landing): add hero, features and segments section styles | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 520176d | feat(i18n): add english and spanish dictionaries | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 0e81a16 | feat(i18n): add language switching with browser detection and persistence | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 6b31440 | feat(landing): add responsive navigation toggle | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 4bdb386 | feat(landing): add home page with segment calls to action | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 1a38b64 | feat(legal): add terms and conditions of service page | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 91b5085 | docs: describe landing page structure and conventions | — | 2026-09-01 |
+| Landing-Page | feature/about-the-team-video | a0da10b | refactor(landing): replace team member cards with about the team video | — | 2026-09-03 |
+| Landing-Page | feature/about-the-team-video | 7b3662f | docs: set github pages as the deployment target | — | 2026-09-03 |
 
 <a id="52x5-execution-evidence-for-sprint-review"></a>
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
-Se evidencia el avance del primer sprint por medio del desarrollo del los capitulos del reporte asi tambien como la creación de un landing page que evidencia nos de a conocer y el modelo de negocio. 
-Por medio de este enlace: https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/
+Al cierre del Sprint 1 el Landing Page se encuentra publicado en https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/. La versión implementa la sección hero con la propuesta de valor, la sección del problema, las capacidades del producto, el funcionamiento en tres pasos, los segmentos objetivo con su llamada a la acción, el video About the Team y el pie de página con los términos y condiciones. El contenido se presenta en inglés por defecto y en español latinoamericano mediante el selector de idioma, y la disposición se adapta a escritorio y a móvil.
+
+**Vista de escritorio**
+
+<img src="img/chapter5/landing-desktop.png" alt="Landing Page de BottleTrack en escritorio" width="800">
+
+**Vista móvil**
+
+<img src="img/chapter5/landing-mobile.png" alt="Landing Page de BottleTrack en móvil" width="320">
+
+**Términos y condiciones de servicio**
+
+<img src="img/chapter5/landing-terms.png" alt="Vista de términos y condiciones de servicio" width="800">
+
+**Style guide**
+
+<img src="img/chapter5/landing-style-guide.png" alt="Vista de style guide del design system de BottleTrack" width="800">
 
 <a id="52x6-services-documentation-evidence-for-sprint-review"></a>
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-En el primer Sprint solamente se ha desarrollado la Landing Page por lo que no se ha hecho uso de servicios web.
+El alcance del Sprint 1 corresponde al Landing Page, que es un sitio estático y no expone endpoints. La documentación de los servicios con OpenAPI se incorpora en el Sprint en el que se implementa la primera versión del Backend API, de acuerdo con la Technical Story TS13.
 
 <a id="52x7-software-deployment-evidence-for-sprint-review"></a>
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-Durante el Sprint 1 se realizó el proceso de implementación y despliegue de la primera versión funcional del Landing Page de BottleTrack, correspondiente al alcance definido para el primer entregable del proyecto. De acuerdo con el alcance de AV1, en este Sprint se priorizó contar con una versión publicada y accesible del Landing Page.
 
-Para el despliegue se utilizó GitHub Pages, aprovechando el repositorio destinado al desarrollo del Landing Page. La publicación permitió disponer de una versión accesible mediante una URL pública, facilitando la revisión de la solución y la posterior validación de la navegación y contenido implementado.
+El Landing Page se desplegó en GitHub Pages desde el repositorio de la organización. El proceso fue el siguiente:
 
-El proceso realizado durante el Sprint comprendió las siguientes actividades:
+1. Se integraron las ramas `feature/design-system`, `feature/landing-page` y `feature/about-the-team-video` en `develop` mediante merges `--no-ff`.
+2. Se creó la rama `release/0.1.0` desde `develop`, se integró en `main` y se etiquetó como `v0.1.0`, siguiendo Semantic Versioning.
+3. En *Settings → Pages* del repositorio se configuró la publicación desde la rama `main`, carpeta raíz.
+4. GitHub Actions ejecutó el flujo *pages build and deployment* y publicó el sitio.
+5. Se verificó el acceso a la URL pública, la navegación entre secciones, el cambio de idioma y la visualización en escritorio y en móvil.
 
-1. Desarrollo y organización de los archivos correspondientes al Landing Page.
-2. Integración de la estructura, contenido y estilos definidos para la primera versión.
-3. Verificación de la navegación entre las principales secciones del Landing Page.
-4. Revisión de la visualización en diferentes dimensiones de pantalla, considerando el enfoque responsive.
-5. Configuración del repositorio para la publicación mediante GitHub Pages.
-6. Publicación de la versión desarrollada en la rama configurada para el despliegue.
-7. Verificación del acceso mediante la URL pública del Landing Page.
-8. Comprobación final de las principales secciones y llamadas a la acción disponibles en la versión desplegada.
-
-**Información del despliegue**
-| Producto     | Repositorio / Plataforma | Tecnología               | Plataforma de Deployment | Estado     | URL                                                                                                                                |
-| ------------ | ------------------------ | ------------------------ | ------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Landing Page | GitHub – Landing-Page    | HTML5, CSS3 y JavaScript | GitHub Pages             | Desplegado | [https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/](https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/) |
-
-
-El Landing Page fue desarrollado utilizando HTML5, CSS3 y JavaScript, tecnologías establecidas para este producto en el proyecto. Asimismo, el uso de GitHub para el control de versiones y GitFlow/Conventional Commits forma parte de las convenciones definidas para el desarrollo del proyecto.
+| Producto | Repositorio | Tecnología | Plataforma | Versión | URL |
+| :------- | :---------- | :--------- | :--------- | :------ | :-- |
+| Landing Page | Landing-Page | HTML5, CSS3, JavaScript | GitHub Pages | v0.1.0 | https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/ |
 
 <a id="52x8-team-colaboration-insights-during-sprint"></a>
-#### 5.2.1.8. Team Colaboration Insights during Sprint.
-Durante el Sprint 1, el equipo trabajó de manera colaborativa en la implementación de la primera versión del Landing Page de BottleTrack. La coordinación de las actividades se realizó mediante Trello para el seguimiento del Product Backlog y Sprint Backlog, mientras que GitHub fue utilizado para el control de versiones y registro de las contribuciones realizadas durante el desarrollo.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-La distribución del trabajo permitió que los integrantes participaran en diferentes actividades relacionadas con la implementación, incluyendo la construcción de la estructura del Landing Page, incorporación de contenido, desarrollo de las secciones orientadas a los segmentos objetivo, navegación, llamadas a la acción, adaptación responsive y revisión de la versión desplegada.
+Durante el Sprint 1 el trabajo se distribuyó entre dos repositorios. En el repositorio del informe participaron cuatro integrantes, cada uno a cargo de los capítulos de su aspecto: Leonardo Cumba en los capítulos I y III, Maria Jose Pezo en el Needfinding, el Impact Mapping y el EventStorming, Gerardo Palacin en el diseño de las interfaces y en los diagramas C4, y Angel Crispin en las Style Guidelines, la arquitectura de información y la configuración del software. El repositorio del Landing Page concentró sus commits en Angel Crispin, responsable de su implementación, mientras que el diseño de la interfaz del Landing Page lo elaboró Gerardo Palacin en Figma.
 
+La siguiente tabla resume los commits de cada integrante en el Sprint 1, sin considerar los commits de integración de ramas:
+
+| Integrante | Report | Landing-Page |
+| :--------- | :----: | :----------: |
+| Crispin Valdivia, Angel Gabriel | 11 | 17 |
+| Cumba Rengifo, Leonardo Raul | 20 | 0 |
+| Pezo Castilla, Maria Jose | 10 | 0 |
+| Palacin Lazo, Gerardo Valentin | 7 | 0 |
+| Huapaya Buitron, Ariana Alheli | 0 | 0 |
+
+Para el Sprint 2 el equipo acordó que todos los integrantes participen con commits en el Landing Page y en la Frontend Web Application, cada uno en la rama de su bounded context.
+
+<a id="53-validation-interviews"></a>
+## 5.3. Validation Interviews.
+
+Las entrevistas de validación se realizan cuando los segmentos objetivo pueden interactuar con el Landing Page y con la Web Application desplegados. En esta sección se presenta su diseño, que se aplicará sobre la primera versión de la Web Application.
+
+<a id="531-diseno-de-entrevistas"></a>
+### 5.3.1. Diseño de Entrevistas.
+
+Se entrevistará a entre 3 y 5 representantes por segmento objetivo, preferentemente los mismos participantes de las entrevistas de Needfinding, para contrastar su situación actual con la experiencia que ofrece BottleTrack. Cada sesión se graba en video con la autorización del participante y comienza con la navegación libre del Landing Page, seguida de la ejecución de las tareas de su segmento en la Web Application.
+
+| Segmento | Escenario | Tareas que realiza el participante |
+| :------- | :-------- | :--------------------------------- |
+| Empresas distribuidoras de bebidas | El administrador revisa cómo terminó la jornada. | Encontrar en el Landing Page la llamada a la acción de su segmento. Consultar los indicadores del dashboard. Revisar el detalle de una operación finalizada y su merma. |
+| Supervisores o encargados de flota | El supervisor organiza y sigue la jornada. | Crear una operación con vehículo, conductor y tres puntos de entrega. Registrar una entrega parcial. Registrar una incidencia con una fotografía. Consultar el progreso de la operación. |
+| Bodegas y minimarkets | La bodega espera su pedido. | Consultar el estado de su pedido. Reportar un faltante al recibirlo. |
+
+Al finalizar las tareas se formulan las siguientes preguntas:
+
+| # | Pregunta |
+| :- | :------- |
+| 1 | ¿Qué fue lo primero que entendió que hace BottleTrack al ingresar al sitio? |
+| 2 | ¿En qué momento dudó sobre qué hacer a continuación? |
+| 3 | ¿Qué información esperaba encontrar y no encontró? |
+| 4 | ¿Cómo compara esta forma de trabajo con la que utiliza hoy? |
+| 5 | ¿Qué cambiaría para utilizarlo durante su jornada? |
+
+<a id="532-registro-de-entrevistas"></a>
+### 5.3.2. Registro de Entrevistas.
+
+El registro sigue el mismo formato de la sección 2.2.2: nombres, edad, distrito, captura y enlace del video en Microsoft Stream con su inicio y duración, y un resumen por entrevista. Las entrevistas se registran en el Sprint en el que se publica la primera versión de la Web Application.
+
+<a id="533-evaluaciones-segun-heuristicas"></a>
+### 5.3.3. Evaluaciones según heurísticas.
+
+La evaluación aplica las diez heurísticas de usabilidad de Nielsen sobre el Landing Page y la Web Application, con la escala de severidad del curso: 1, problema cosmético; 2, problema menor; 3, problema mayor; 4, problema muy grave. Cada problema se documenta con su descripción, la heurística que incumple, una captura y la recomendación de solución, y se resume en una tabla con las columnas #, Problema, Severidad y Heurística o principio violado.
+
+<a id="54-video-about-the-product"></a>
+## 5.4. Video About-the-Product.
+
+El video About-the-Product presenta BottleTrack a los visitantes del Landing Page: el problema que resuelve, a quién está dirigido y sus funcionalidades principales. Tiene una duración de entre 1 y 3 minutos, se publica en Microsoft Stream y en YouTube y se incrusta en el Landing Page. Se produce cuando la Web Application cuenta con las vistas del flujo principal, para mostrarlas en funcionamiento.
 
 <a id="conclusiones"></a>
 # Conclusiones
