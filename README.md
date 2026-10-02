@@ -618,6 +618,8 @@ A diferencia de estas soluciones, BottleTrack plantea inicialmente un enfoque or
 
 ### Competidor 1: SimpliRoute
 
+<img src="img/chapter2/logo-simpliroute.png" alt="Logo de SimpliRoute" width="48">
+
 **SimpliRoute** es una plataforma de gestión logística y última milla que permite a las empresas planificar y optimizar rutas de entrega.
 
 Entre sus principales capacidades se encuentran la planificación de rutas con múltiples puntos de entrega, monitoreo de vehículos y conductores, seguimiento de pedidos, registro de pruebas de entrega, generación de reportes y herramientas para la gestión de flotas.
@@ -626,6 +628,8 @@ La solución dispone además de una aplicación para conductores desde la cual p
 
 ### Competidor 2: Drivin
 
+<img src="img/chapter2/logo-drivin.png" alt="Logo de Descartes Drivin" width="48">
+
 **Drivin**, actualmente presentado como Descartes Drivin, es una plataforma SaaS de gestión de transporte (Transportation Management System - TMS).
 
 La solución permite planificar y optimizar rutas, administrar vehículos, monitorear operaciones en tiempo real, gestionar entregas y generar reportes asociados al desempeño logístico.
@@ -633,6 +637,8 @@ La solución permite planificar y optimizar rutas, administrar vehículos, monit
 Drivin también dispone de funcionalidades dirigidas a los conductores y permite integrar información proveniente de otros sistemas utilizados por las organizaciones.
 
 ### Competidor 3: DispatchTrack
+
+<img src="img/chapter2/logo-dispatchtrack.png" alt="Logo de DispatchTrack" width="48">
 
 **DispatchTrack** es una plataforma SaaS orientada a la gestión de operaciones de última milla.
 
@@ -653,16 +659,16 @@ La pregunta que orienta este análisis es:
 
 #### Competitive Analysis Landscape
 
-| Criterio | **BottleTrack - CodeCrafters** | **SimpliRoute** | **Drivin** | **DispatchTrack** |
+| Criterio | **BottleTrack - CodeCrafters** | <img src="img/chapter2/logo-simpliroute.png" alt="Logo de SimpliRoute" width="32"><br>**SimpliRoute** | <img src="img/chapter2/logo-drivin.png" alt="Logo de Drivin" width="32"><br>**Drivin** | <img src="img/chapter2/logo-dispatchtrack.png" alt="Logo de DispatchTrack" width="32"><br>**DispatchTrack** |
 | --- | --- | --- | --- | --- |
 | **Overview** | Plataforma web orientada a la gestión y seguimiento del transporte de bebidas embotelladas. | Plataforma de optimización de rutas y gestión de última milla. | TMS SaaS para planificación, monitoreo y gestión de operaciones de transporte. | Plataforma SaaS especializada en gestión y optimización de última milla. |
-| **Ventaja competitiva** | Enfoque específico en operaciones de distribución de bebidas embotelladas y propuesta inicial simplificada para pequeñas y medianas operaciones. | Optimización avanzada de rutas mediante algoritmos e inteligencia artificial. | Amplio conjunto de funcionalidades para administrar integralmente operaciones de transporte. | Plataforma integral de última milla con funcionalidades especializadas para diferentes industrias, incluyendo alimentos y bebidas. |
+| **Ventaja competitiva** | Único enfoque específico en bebidas embotelladas: registro de botellas rotas, faltantes y merma, monitoreo IoT de golpes y temperatura de la carga, y una vista de seguimiento para la bodega que recibe el pedido. | Optimización avanzada de rutas mediante algoritmos e inteligencia artificial. | Amplio conjunto de funcionalidades para administrar integralmente operaciones de transporte. | Plataforma integral de última milla con funcionalidades especializadas para diferentes industrias, incluyendo alimentos y bebidas. |
 | **Valor ofrecido al cliente** | Centralización de vehículos, conductores, rutas, entregas e incidencias en una plataforma enfocada en las necesidades del dominio. | Reducción de tiempos y recursos utilizados en la planificación y ejecución de rutas. | Mayor control y visibilidad de la operación logística desde la planificación hasta la entrega. | Gestión end-to-end de las operaciones de última milla y mejora de la visibilidad sobre las entregas. |
 | **Mercado objetivo** | Empresas distribuidoras de bebidas, especialmente aquellas que requieren organizar y controlar operaciones de reparto. | Empresas que realizan operaciones de distribución y última milla. | Empresas de diferentes industrias que requieren administrar operaciones de transporte. | Distribuidores, retailers, empresas logísticas y compañías que gestionan operaciones de última milla. |
 | **Estrategia de marketing** | Landing Page, demostraciones del producto, contacto directo con empresas distribuidoras y pruebas piloto. | Contenido digital, demostraciones, pruebas del producto, casos de éxito y herramientas gratuitas relacionadas con logística. | Demostraciones comerciales, casos de éxito, contenido especializado y contacto empresarial. | Demostraciones, contenido especializado, casos de clientes y estrategias B2B orientadas a distintas industrias. |
 | **Productos y servicios** | Gestión de vehículos, conductores, operaciones, rutas, entregas, incidencias y dashboard de seguimiento. | Optimización de rutas, monitoreo, gestión de flota, prueba de entrega, reportes y comunicación con clientes. | Planificación y optimización de rutas, monitoreo de flota, gestión de recursos, aplicación para conductores y reportes. | Optimización de rutas, seguimiento en tiempo real, aplicación para conductores, proof of delivery, comunicación con clientes y analytics. |
 | **Precios y costos** | Modelo SaaS por suscripción. La estructura final de planes y precios será validada posteriormente. | Dispone de planes por suscripción y alternativas personalizadas dependiendo del tamaño de la operación. | Modelo SaaS con pago periódico relacionado con la cantidad de vehículos utilizados. | Modelo SaaS orientado a empresas. Los precios se gestionan mediante contacto comercial y demostración. |
-| **Canales de distribución** | Web responsive. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. |
+| **Canales de distribución** | Aplicación web responsive, Landing Page y venta directa a distribuidoras. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. |
 
 
 ---
@@ -1199,7 +1205,50 @@ Su pain principal es la incertidumbre sobre la llegada del pedido y la falta de 
 
 <a id="24-big-picture-eventstorming"></a>
 ## 2.4. Big Picture EventStorming.
-<img src="img/chapter2/big-picture-eventstorming.jpeg" alt="Big Picture EventStorming">
+
+En esta sección el equipo introduce y resume el proceso realizado durante la sesión de Big Picture EventStorming, cuyo propósito fue comprender el dominio del transporte de bebidas embotelladas en general, plasmando los eventos significativos del negocio y sus relaciones antes de considerar cualquier decisión de software.
+
+El tablero se elaboró en Miro y se encuentra disponible en el siguiente enlace: https://miro.com/app/board/uXjVHm-Usq4=/
+
+**Desarrollo de la sesión**
+
+La sesión se organizó recorriendo la línea temporal del negocio de izquierda a derecha, y agrupó **43 eventos de dominio** en seis fases consecutivas:
+
+| Fase | Alcance |
+| :--- | :------ |
+| 1. Preparación de recursos | Incorporación de la empresa distribuidora, sus usuarios, los vehículos, los conductores y los puntos de entrega. |
+| 2. Despacho de la operación | Creación de la operación de transporte, asignación de vehículo y conductor, y autorización de salida. |
+| 3. Tránsito y monitoreo IoT | Inicio del recorrido y recepción de las lecturas de ubicación, temperatura e impactos enviadas por los dispositivos. |
+| 4. Ejecución de la entrega | Llegada a cada punto de entrega y registro de su resultado, incluyendo entregas parciales, no realizadas y faltantes. |
+| 5. Reporte de incidencias | Registro del problema por parte del conductor, adjunto de evidencia, revisión y resolución por parte del supervisor. |
+| 6. Cierre y análisis | Finalización de la operación, cálculo de la merma y actualización de los indicadores de la distribuidora. |
+
+**Pivotal events.** El equipo identificó tres eventos pivote, es decir, aquellos que marcan un cambio de responsabilidad en el proceso y separan una fase de la siguiente. En el tablero se representan como bandas verticales que atraviesan la línea temporal.
+
+| Pivotal event | Transición que marca |
+| :------------ | :------------------- |
+| **Operation Dispatched** | La operación deja de ser una planificación y pasa a ser una ejecución en curso. La responsabilidad se traslada del supervisor al conductor. |
+| **Delivery Point Reached** | El seguimiento del recorrido da paso a la atención del cliente en el punto de entrega. |
+| **Operation Completed** | La ejecución concluye y comienza el análisis de los resultados, que es la etapa que alimenta los indicadores del negocio. |
+
+Junto con los eventos, el equipo identificó los actores que participan en el proceso, los sistemas externos con los que la solución interactúa y los hot spots del dominio.
+
+**Actores identificados:** Fleet Supervisor, Driver, Distribution Manager y el propio IoT Device, que actúa como emisor de eventos sin intervención humana.
+
+**Sistemas externos identificados:** el servicio de mapas y geolocalización, y el proveedor de los dispositivos IoT instalados en los vehículos.
+
+**Hot spots.** Los hot spots corresponden a las preguntas del dominio que el equipo no puede responder por sí mismo y que debe resolver con los interesados durante las entrevistas:
+
+| Hot spot | Por qué importa |
+| :------- | :-------------- |
+| ¿Qué ocurre si el dispositivo IoT pierde conexión durante la ruta? | Determina si el seguimiento debe tolerar vacíos de información y cómo se comunican al supervisor. |
+| ¿Quién valida un faltante, el conductor o el cliente que recibe? | Define sobre quién recae la responsabilidad del registro y qué evidencia resulta suficiente. |
+| ¿Se puede reasignar una operación que ya fue iniciada? | Condiciona el ciclo de vida de la operación y las reglas de asignación de recursos. |
+| ¿Cuánto tiempo debe conservarse la evidencia de una incidencia? | Afecta las decisiones de almacenamiento y las obligaciones frente al cliente. |
+
+<img src="img/chapter2/big-picture-eventstorming.jpeg" alt="Big Picture EventStorming de BottleTrack en Miro">
+
+Los eventos identificados en esta sesión constituyen la base sobre la que se profundiza en el Design-Level EventStorming de la sección 4.6.1, donde se incorporan los comandos, las políticas y los agregados que dan lugar a los bounded contexts.
 
 <a id="25-ubiquitous-language"></a>
 ## 2.5. Ubiquitous Language.
