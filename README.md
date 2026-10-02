@@ -1679,7 +1679,7 @@ Las transiciones duran 160 milisegundos y se anulan cuando el sistema operativo 
 <a id="42-information-architecture"></a>
 ## 4.2. Information Architecture.
 
-En esta sección el equipo plantea las decisiones que dirigen la manera como se organiza el contenido en el Landing Page y en la Frontend Web Application de BottleTrack. El criterio que guía estas decisiones es que cada segmento objetivo encuentre lo que necesita sin recorrer contenido que no le corresponde, considerando que los segmentos operan en contextos muy distintos: el supervisor consulta la plataforma desde una oficina y el conductor desde un teléfono, en ruta y con poco tiempo disponible.
+En esta sección el equipo plantea las decisiones que dirigen la manera como se organiza el contenido en el Landing Page y en la Frontend Web Application de BottleTrack. El criterio que guía estas decisiones es que cada segmento objetivo encuentre lo que necesita sin recorrer contenido que no le corresponde, considerando que los segmentos operan en contextos muy distintos: el administrador y el supervisor consultan la plataforma desde una oficina, mientras que el responsable de la bodega lo hace desde un teléfono, con poco tiempo disponible y mientras atiende su negocio.
 
 <a id="421-organization-systems"></a>
 ### 4.2.1. Organization Systems.
@@ -1691,7 +1691,7 @@ En esta sección el equipo plantea las decisiones que dirigen la manera como se 
 | Landing Page | Jerárquica | El visitante llega sin conocer el producto, por lo que el contenido desciende desde la propuesta de valor hasta el detalle de las funcionalidades y los segmentos. |
 | Landing Page, sección "Cómo funciona" | Secuencial | La operación se explica como tres pasos ordenados en el tiempo, del despacho al cierre de la incidencia. |
 | Web Application, tablero de rutas | Matricial | El supervisor compara varias rutas simultáneas según estado, avance y alertas, sin que exista un orden de lectura obligatorio. |
-| Web Application, registro de incidencias | Secuencial | El reporte de una incidencia es un flujo de pasos que el conductor completa hasta adjuntar la evidencia. |
+| Web Application, registro de incidencias | Secuencial | El reporte de una incidencia es un flujo de pasos que el supervisor completa hasta adjuntar la evidencia. |
 
 **Esquemas de categorización**
 
@@ -1714,6 +1714,7 @@ Las etiquetas se redactan con el mínimo número de palabras y utilizan el vocab
 | Who it is for | Para quién es | Segmentos objetivo y sus llamados a la acción. |
 | The product | El producto | Video About the Product. |
 | The team | El equipo | Video About the Team. |
+| Contact | Contacto | Correo, teléfono y redes sociales de CodeCrafters. |
 | Route | Ruta | Recorrido asignado a un vehículo con sus puntos de entrega. |
 | Stop | Parada | Punto de entrega individual dentro de una ruta. |
 | Shipment | Envío | Carga de producto asociada a una ruta. |
@@ -1757,6 +1758,7 @@ Los siguientes valores se encuentran implementados en las vistas del Landing Pag
 | Monitoring | Fleet monitoring \| BottleTrack | Real time view of every active route, with cargo temperature and impact alerts. |
 | Incidents | Incident reporting \| BottleTrack | Report damaged product, broken bottles, missing units and delays with photographic evidence. |
 | Analytics | Delivery indicators \| BottleTrack | Product loss, delivery compliance and recurring failures across the distribution operation. |
+| Delivery tracking | Track your order \| BottleTrack | Check the status of your beverage order and report shortages or damaged products on arrival. |
 
 <a id="424-searching-systems"></a>
 ### 4.2.4. Searching Systems.
@@ -1785,14 +1787,14 @@ El recorrido esperado del visitante desciende desde la propuesta de valor hasta 
 | Segmento objetivo | Llamado a la acción | Vista de destino |
 | :---------------- | :------------------ | :--------------- |
 | Supervisores o encargados de flota | Monitor your fleet | Monitoring |
-| Conductores y repartidores | Report an incident | Incidents |
 | Empresas distribuidoras de bebidas | See the indicators | Analytics |
+| Bodegas y minimarkets | Track your order | Delivery tracking |
 
 En dispositivos con ancho menor a 48 rem la navegación se colapsa en un menú desplegable que expone su estado mediante el atributo `aria-expanded` y se cierra automáticamente al seleccionar un enlace. El pie de página repite los enlaces principales y añade el acceso a los términos y condiciones del servicio.
 
 **Frontend Web Application**
 
-La aplicación utiliza una barra lateral persistente como sistema de navegación global, con acceso a las secciones de rutas, incidencias e indicadores. Dentro de cada sección se emplea navegación contextual mediante una ruta de migas que permite regresar del detalle de una ruta o de una incidencia al listado del que se ingresó, sin perder los filtros aplicados.
+La aplicación utiliza una barra lateral persistente como sistema de navegación global. Sus opciones dependen del rol: el administrador accede a indicadores, flota, usuarios y configuración de la empresa; el supervisor, a operaciones, monitoreo, incidencias e historial; y el responsable de la bodega, únicamente a la vista de seguimiento de sus pedidos. Dentro de cada sección se emplea navegación contextual mediante una ruta de migas que permite regresar del detalle de una ruta o de una incidencia al listado del que se ingresó, sin perder los filtros aplicados.
 
 
 <a id="43-landing-page-ui-design"></a>
