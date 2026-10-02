@@ -782,8 +782,7 @@ Los segmentos considerados para las entrevistas son:
 
 1. Empresas distribuidoras de bebidas.
 2. Supervisores o encargados de flota.
-3. Conductores y repartidores.
-4. Bodegas y minimarkets.
+3. Bodegas y minimarkets.
 
 La información recopilada servirá posteriormente para realizar el análisis de entrevistas y construir los User Personas correspondientes a cada segmento.
 
@@ -945,17 +944,16 @@ Las entrevistas deberán registrarse en video para conservar evidencia del proce
 
 <a id="222-registro-de-entrevistas"></a>
 ### 2.2.2. Registro de entrevistas.
-**Segmento Ojetivo 1: Empresas distribuidoras de bebidas**
+**Segmento Objetivo 1: Empresas distribuidoras de bebidas**
 
 | # | Nombres y Apellidos         | Edad   | Distrito     | Screenshot                                                         | URL del video (Microsoft Stream)                                                                                                                                                                                                                                                                                                               | Inicio     | Duración |
 | :--- |:----------------------------|:-------|:-------------|:-------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:---------|
-| 1 | Luis Angel Tufiño Argüelles | 32     | Pueblo libre | <img src="img/chapter2/luisE.png" alt="Entrevista - Luis">         | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCr82Alu2z7SZKNCmFaEpDPASkBq9PbtANVy94HciHpe8M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m3dgc1) | 00:00:00   | 11:23    |
-| 2 | Luis Palacin Lope           | 51     | Santa Anita  | <img src="img/chapter2/luisP.png" alt="Entrevista - Luis Palacin"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c201_upc_edu_pe/IQBNb-6tNRj-SbxSJjcvfr6xASOZ3O2LshfMq-RH77aQrw4?e=Tqmjyc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                                             | 00:07      | 17:55    |
-| 3 | [Nombre Apellido]           | [Edad] | [Distrito]   | *(captura del video)*                                              | [URL privado]                                                                                                                                                                                                                                                                                                                                  | [hh:mm:ss] | [mm:ss]  |
+| 1 | Luis Angel Tufiño Argüelles | 32 años | Pueblo libre | <img src="img/chapter2/luisE.png" alt="Entrevista - Luis">         | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCr82Alu2z7SZKNCmFaEpDPASkBq9PbtANVy94HciHpe8M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m3dgc1) | 00:00:00   | 11:23    |
+| 2 | Luis Palacin Lope           | 51 años | Santa Anita  | <img src="img/chapter2/luisP.png" alt="Entrevista - Luis Palacin"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c201_upc_edu_pe/IQBNb-6tNRj-SbxSJjcvfr6xASOZ3O2LshfMq-RH77aQrw4?e=Tqmjyc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                                             | 00:00:07  | 17:55    |
 
 *Resumen de entrevista 1:*
 
-Luis Ramírez, supervisor de distribución con 8 años de experiencia, explica que su empresa organiza diariamente los pedidos, vehículos, conductores y rutas para abastecer bodegas, minimarkets y pequeños comercios. Actualmente utilizan principalmente Excel, Google Maps, WhatsApp y llamadas telefónicas, lo que dificulta mantener la información centralizada y hacer seguimiento a varias entregas al mismo tiempo.
+Luis Ángel Tufiño, supervisor de distribución con 8 años de experiencia, explica que su empresa organiza diariamente los pedidos, vehículos, conductores y rutas para abastecer bodegas, minimarkets y pequeños comercios. Actualmente utilizan principalmente Excel, Google Maps, WhatsApp y llamadas telefónicas, lo que dificulta mantener la información centralizada y hacer seguimiento a varias entregas al mismo tiempo.
 
 Los principales problemas identificados son la planificación manual de rutas, el seguimiento de los vehículos y el registro desordenado de incidencias como productos faltantes, dañados o entregas parciales. Luis considera importante contar con un sistema que permita visualizar en un solo lugar las rutas, vehículos, conductores y estado de cada entrega, además de registrar directamente si una entrega fue completada, parcial o presentó algún inconveniente.
 
@@ -966,15 +964,13 @@ Luis Palacín, gerente de operaciones de HPL Transport con más de 20 años de e
 
 Los principales problemas identificados son los tiempos de espera para realizar la carga en planta y la necesidad de mantener un seguimiento constante de las unidades durante los viajes. Luis considera importante contar con herramientas que faciliten el monitoreo en tiempo real, permitan controlar los tiempos de operación y mantener información actualizada sobre las entregas. También destacó la importancia de registrar las guías, horarios, destinos y estado de cada servicio para posteriormente evaluar y liquidar las operaciones.
 
-*Resumen de entrevista 3:*
-
-**Segmento Ojetivo 2: Supervisores o encargados de flota**
+**Segmento Objetivo 2: Supervisores o encargados de flota**
 
 | # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Rodrigo Alonso | 39 años | Miraflores | <img src="img/chapter2/interview-rodrigo-alonso.jpeg" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQBEz4WjtPJfQ7tdUoRLgCEGARl_T6mESG_qbuhWi5Yr9u0?e=pmUB2N) | 00:00:00 | 8:39 |
-| 2 | Jorge Castilla | 37 años | La Molina | <img src="img/chapter2/interview-jorge-castilla.jpeg" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQA8zEtRuL5WTqnoOyQuJX5xATWNF1bk48oNO7vGYDMmLLg?e=QSsQ3y) | 00:00:00 | 11:40 |
-| 3 | Pablo ludeña flores | 21 | Miraflores|  <img src="img/chapter2/EntrevistaA.png" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCANZeXFcbdQJFldztGiFupAXmK7J74aOjTF2SN9wugVdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KqzyQU) | 00 | 5:00] |
+| 2 | Jorge Castilla | 37 años | La Molina | <img src="img/chapter2/interview-jorge-castilla.jpeg" alt="Entrevista - Jorge Castilla"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQA8zEtRuL5WTqnoOyQuJX5xATWNF1bk48oNO7vGYDMmLLg?e=QSsQ3y) | 00:00:00 | 11:40 |
+| 3 | Pablo Ludeña Flores | 21 años | Miraflores | <img src="img/chapter2/EntrevistaA.png" alt="Entrevista - Pablo Ludeña"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCANZeXFcbdQJFldztGiFupAXmK7J74aOjTF2SN9wugVdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KqzyQU) | 00:00:00 | 5:00 |
 
 *Resumen de entrevista 1:*
 
@@ -985,7 +981,7 @@ El entrevistado señaló que una de las actividades que mayor tiempo le demanda 
 *Resumen de entrevista 2:*
 
 Jorge Castilla, supervisor de distribución con cinco años de experiencia en el área, describe sus principales actividades relacionadas con la organización y seguimiento de las operaciones de entrega. Durante su jornada coordina principalmente con conductores, personal de almacén y administración, utilizando WhatsApp, Excel, correo electrónico y Google Drive como herramientas de apoyo.
-La entrevista permitió identificar que la planificación de las operaciones se realiza considerando la disponibilidad de vehículos y conductores, así como la ubicación y cantidad de los puntos de entrega. Una vez iniciadas las rutas, el seguimiento depende principalmente de las actualizaciones proporcionadas por los conductores mediante WhatsApp. Cuando necesite información específica, debe solicitarla directamente, debido a que no dispone de una fuente única de consulta.
+La entrevista permitió identificar que la planificación de las operaciones se realiza considerando la disponibilidad de vehículos y conductores, así como la ubicación y cantidad de los puntos de entrega. Una vez iniciadas las rutas, el seguimiento depende principalmente de las actualizaciones proporcionadas por los conductores mediante WhatsApp. Cuando necesita información específica, debe solicitarla directamente, debido a que no dispone de una fuente única de consulta.
 Asimismo, se identificó que el registro de incidencias se realiza de manera distribuida. Las comunicaciones y fotografías pueden permanecer en WhatsApp, mientras que parte de la información se registra posteriormente en archivos Excel. Esta situación dificulta la reconstrucción de algunos eventos y la consulta de operaciones anteriores.
 El entrevistado considera importante contar con información actualizada, organizada y fácil de consultar. Durante las operaciones prefiere utilizar el teléfono inteligente debido a su movilidad, mientras utiliza la computadora para revisar información más detallada.
 
@@ -1001,13 +997,11 @@ Pablo considera importante contar con una herramienta que permita disponer de in
 
 
 
-**Segmento Ojetivo 3:Bodegas y minimarkets**
+**Segmento Objetivo 3: Bodegas y minimarkets**
 
 | # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Arturo Axel Saravia Huaricancha | 20 | Los Olivos |  <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">| [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) |  00:00:00 | 6:06 |
-| 2 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
-| 3 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+| 1 | Arturo Axel Saravia Huaricancha | 20 años | Los Olivos | <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">| [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) |  00:00:00 | 6:06 |
 
 *Resumen de entrevista 1:*
 
@@ -1017,13 +1011,85 @@ Se identificó que la bodega trabaja con varios distribuidores y que la comunica
 
 El entrevistado considera importante poder conocer el estado del pedido, la cantidad de productos, la hora aproximada de llegada y posibles retrasos, ya que esto permitiría organizarse mejor y reducir la necesidad de estar contactando constantemente al proveedor.
 
-*Resumen de entrevista 2:*
-
-*Resumen de entrevista 3:*
 
 <a id="223-analisis-de-entrevistas"></a>
 ### 2.2.3. Análisis de entrevistas.
 
+El análisis se realizó por segmento objetivo. Para cada uno, el equipo definió un conjunto de variables a partir de las preguntas de la guía de la sección 2.2.1 y contabilizó cuántos entrevistados manifestaron cada valor. Los porcentajes se calculan sobre el total de entrevistados del segmento. Estos resultados son la base de las características asignadas a cada User Persona en la sección 2.3.1.
+
+Las variables analizadas son las siguientes:
+
+| Variable | Pregunta de origen | Uso en el User Persona |
+| :------- | :----------------- | :--------------------- |
+| Edad y distrito | Información general, preguntas 1 y 2 | Demographic |
+| Experiencia en la actividad | Información general, pregunta 4 | Demographic y Background |
+| Herramientas y canales utilizados | Información general, preguntas 6 a 8 | Technology y Channels |
+| Forma de conocer el avance de las entregas | Preguntas principales del segmento | Scenario |
+| Forma de registrar las incidencias | Preguntas principales del segmento | Frustrations |
+| Principal dificultad mencionada | Preguntas principales del segmento | Frustrations |
+| Necesidad principal expresada | Pregunta de cierre del segmento | Goals y Key Needs |
+
+#### Segmento Objetivo 1: Empresas distribuidoras de bebidas
+
+Se entrevistó a 2 personas: un supervisor de distribución de 32 años con 8 años de experiencia y un gerente de operaciones de 51 años con más de 20 años de experiencia. Ambos tienen responsabilidad sobre la operación completa de la empresa y no solo sobre una ruta.
+
+| Variable | Resultado | Entrevistados | % |
+| :------- | :-------- | :-----------: | :-: |
+| Herramientas utilizadas | Excel | 2 de 2 | 100 % |
+| | WhatsApp y llamadas telefónicas | 2 de 2 | 100 % |
+| | Google Maps | 1 de 2 | 50 % |
+| | GPS de un proveedor externo (Frotcom) | 1 de 2 | 50 % |
+| Forma de conocer el avance | Mensajes y llamadas con los conductores | 2 de 2 | 100 % |
+| Principal dificultad | Seguimiento de los vehículos y entregas en curso | 2 de 2 | 100 % |
+| | Planificación manual de rutas | 1 de 2 | 50 % |
+| | Registro desordenado de incidencias | 1 de 2 | 50 % |
+| Necesidad principal | Ver en un solo lugar el estado de cada operación y entrega | 2 de 2 | 100 % |
+| | Conservar el registro de guías, horarios y destinos para evaluar la operación | 1 de 2 | 50 % |
+
+**Conclusión del segmento.** El 100 % de los entrevistados combina Excel con WhatsApp y llamadas, y ninguno cuenta con un único lugar donde consultar el estado de la operación. La necesidad que comparten es la visibilidad centralizada, más que la optimización de rutas, lo que confirma la estrategia de diferenciación de la sección 2.1.2. Estos hallazgos se reflejan en el User Persona Carlos Mendoza: administrador con más de 10 años de experiencia, cuyos canales son WhatsApp, correo y teléfono, y cuya frustración principal es la información distribuida en diferentes medios.
+
+#### Segmento Objetivo 2: Supervisores o encargados de flota
+
+Se entrevistó a 3 supervisores, de 21, 37 y 39 años, con entre 5 y 7 años de experiencia, que residen en Miraflores y La Molina.
+
+| Variable | Resultado | Entrevistados | % |
+| :------- | :-------- | :-----------: | :-: |
+| Herramientas utilizadas | WhatsApp | 3 de 3 | 100 % |
+| | Excel | 3 de 3 | 100 % |
+| | Correo electrónico y Google Drive | 2 de 3 | 67 % |
+| | Llamadas telefónicas | 1 de 3 | 33 % |
+| Forma de conocer el avance | Depende de los mensajes que envían los conductores | 3 de 3 | 100 % |
+| Forma de registrar las incidencias | Primero en WhatsApp y después en Excel | 3 de 3 | 100 % |
+| Principal dificultad | Recopilar el estado de varias operaciones simultáneas | 3 de 3 | 100 % |
+| | Consultar operaciones anteriores | 3 de 3 | 100 % |
+| Dispositivo preferido | Smartphone durante la operación y computadora para el detalle | 2 de 3 | 67 % |
+| Necesidad principal | Información actualizada, ordenada y en un solo lugar | 3 de 3 | 100 % |
+
+**Conclusión del segmento.** Es el segmento con el dolor más claro y homogéneo: el 100 % depende de los mensajes del conductor para conocer el avance, el 100 % registra las incidencias en dos medios distintos y el 100 % tiene dificultades para consultar el historial. El 67 % alterna entre el smartphone y la computadora, por lo que la aplicación debe ser responsive. Estos resultados sustentan al User Persona Luis Torres, de 34 años y 8 años de experiencia, que utiliza smartphone, laptop y computadora de escritorio, y cuya cita resume la necesidad del segmento: saber qué entregas se hicieron, cuáles faltan y cuáles tienen un problema.
+
+#### Segmento Objetivo 3: Bodegas y minimarkets
+
+Se entrevistó a 1 persona de 20 años, residente en Los Olivos, que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock.
+
+| Variable | Resultado | Entrevistados | % |
+| :------- | :-------- | :-----------: | :-: |
+| Cantidad de distribuidores | Trabaja con varios distribuidores | 1 de 1 | 100 % |
+| Canales utilizados | WhatsApp y llamadas telefónicas | 1 de 1 | 100 % |
+| Principal dificultad | No conocer la hora de llegada del pedido | 1 de 1 | 100 % |
+| | Recibir productos incompletos o distintos a lo solicitado | 1 de 1 | 100 % |
+| Necesidad principal | Conocer el estado del pedido, la cantidad y la hora aproximada de llegada | 1 de 1 | 100 % |
+
+**Conclusión del segmento.** La incertidumbre sobre la hora de llegada y los faltantes son los dos problemas principales de la bodega, y la comunicación con el distribuidor se realiza exclusivamente por WhatsApp y llamadas. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Al contar con una sola entrevista, este segmento tiene la menor muestra del estudio, por lo que el equipo amplía su registro en el siguiente sprint para confirmar estos porcentajes.
+
+#### Hallazgos transversales
+
+| Hallazgo | Segmentos en los que aparece |
+| :------- | :--------------------------- |
+| WhatsApp es el canal principal de coordinación y de reporte de incidencias. | 1, 2 y 3 |
+| El estado de la operación se conoce solo si alguien lo comunica, no porque esté registrado. | 1, 2 y 3 |
+| Las incidencias quedan repartidas entre conversaciones y hojas de cálculo. | 1 y 2 |
+| Consultar operaciones pasadas exige revisar archivos y chats antiguos. | 1 y 2 |
+| Ningún entrevistado mencionó la optimización automática de rutas como su necesidad principal. | 1, 2 y 3 |
 
 <a id="23-needfinding"></a>
 ## 2.3. Needfinding.
