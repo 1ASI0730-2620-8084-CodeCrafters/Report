@@ -2388,19 +2388,33 @@ Al cierre del Sprint 1 el Landing Page se encuentra publicado en https://1asi073
 
 **Vista de escritorio**
 
-<img src="img/chapter5/landing-desktop.png" alt="Landing Page de BottleTrack en escritorio" width="800">
+<img src="img/chapter5/landing-desktop-1.png" alt="Landing Page de BottleTrack en escritorio, parte 1 de 3" width="800">
+
+<img src="img/chapter5/landing-desktop-2.png" alt="Landing Page de BottleTrack en escritorio, parte 2 de 3" width="800">
+
+<img src="img/chapter5/landing-desktop-3.png" alt="Landing Page de BottleTrack en escritorio, parte 3 de 3" width="800">
 
 **Vista móvil**
 
-<img src="img/chapter5/landing-mobile.png" alt="Landing Page de BottleTrack en móvil" width="320">
+<table>
+<tr>
+<td><img src="img/chapter5/landing-mobile-1.png" alt="Landing Page de BottleTrack en móvil, parte 1 de 3" width="220"></td>
+<td><img src="img/chapter5/landing-mobile-2.png" alt="Landing Page de BottleTrack en móvil, parte 2 de 3" width="220"></td>
+<td><img src="img/chapter5/landing-mobile-3.png" alt="Landing Page de BottleTrack en móvil, parte 3 de 3" width="220"></td>
+</tr>
+</table>
 
 **Términos y condiciones de servicio**
 
-<img src="img/chapter5/landing-terms.png" alt="Vista de términos y condiciones de servicio" width="800">
+<img src="img/chapter5/landing-terms-1.png" alt="Vista de términos y condiciones de servicio, parte 1 de 2" width="800">
+
+<img src="img/chapter5/landing-terms-2.png" alt="Vista de términos y condiciones de servicio, parte 2 de 2" width="800">
 
 **Style guide**
 
-<img src="img/chapter5/landing-style-guide.png" alt="Vista de style guide del design system de BottleTrack" width="800">
+<img src="img/chapter5/landing-style-guide-1.png" alt="Vista de style guide del design system de BottleTrack, parte 1 de 2" width="800">
+
+<img src="img/chapter5/landing-style-guide-2.png" alt="Vista de style guide del design system de BottleTrack, parte 2 de 2" width="800">
 
 <a id="52x6-services-documentation-evidence-for-sprint-review"></a>
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
