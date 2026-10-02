@@ -1823,7 +1823,7 @@ La aplicación utiliza una barra lateral persistente como sistema de navegación
 <a id="43-landing-page-ui-design"></a>
 ## 4.3. Landing Page UI Design.
 
-En esta sección se presenta la propuesta de interfaz del Landing Page, elaborada en Figma antes de su implementación. La propuesta aplica las decisiones de la sección 4.1 y la organización de contenido de la sección 4.2: una navegación fija con selector de idioma, una sección hero con la propuesta de valor y su llamado a la acción principal, y un recorrido que desciende desde el problema hasta los segmentos objetivo.
+En esta sección se presenta la propuesta de interfaz del Landing Page, elaborada en Figma antes de su implementación. El archivo de diseño se encuentra disponible en https://www.figma.com/design/lBVdrnyGUWfjN6Mz4fhBpY/BOTTLETRACK?node-id=0-1. La propuesta aplica las decisiones de la sección 4.1 y la organización de contenido de la sección 4.2: una navegación fija con selector de idioma, una sección hero con la propuesta de valor y su llamado a la acción principal, y un recorrido que desciende desde el problema hasta los segmentos objetivo.
 
 <a id="431-landing-page-wireframe"></a>
 ### 4.3.1. Landing Page Wireframe.
@@ -1850,7 +1850,7 @@ El mock-up aplica el design system de BottleTrack sobre el wireframe: la rampa n
 <a id="44-web-applications-uxui-design"></a>
 ## 4.4. Web Applications UX/UI Design.
 
-En esta sección se presenta el diseño de la Frontend Web Application para sus dos roles principales: el administrador de la distribuidora y el supervisor de flota. Las vistas se diseñaron en Figma siguiendo el mismo design system del Landing Page, para que la experiencia sea consistente entre ambos productos.
+En esta sección se presenta el diseño de la Frontend Web Application para sus dos roles principales: el administrador de la distribuidora y el supervisor de flota. Las vistas se diseñaron en Figma siguiendo el mismo design system del Landing Page, para que la experiencia sea consistente entre ambos productos. El archivo de diseño se encuentra disponible en: https://www.figma.com/design/lBVdrnyGUWfjN6Mz4fhBpY/BOTTLETRACK?node-id=0-1
 
 <a id="441-web-applications-wireframes"></a>
 ### 4.4.1. Web Applications Wireframes.
@@ -2624,7 +2624,7 @@ En esta sección se registran los espacios de trabajo compartidos que el equipo 
 | Trello | Product Backlog y Sprint Backlog | https://trello.com/b/jGpO815B/bottletrack-product-backlog |
 | UXPressia | User Personas, Empathy Maps, Journey Maps e Impact Map | _Pendiente de registro._ |
 | Miro | Big Picture EventStorming y Design-Level EventStorming | https://miro.com/app/board/uXjVHm-Usq4=/ |
-| Figma | Wireframes, Mock-ups y Prototypes | _Pendiente de registro._ |
+| Figma | Wireframes, Mock-ups y Prototypes | https://www.figma.com/design/lBVdrnyGUWfjN6Mz4fhBpY/BOTTLETRACK?node-id=0-1 |
 | Structurizr DSL | Diagramas C4 de arquitectura de software | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report/tree/main/img/DD-SoftwareArchitecture |
 | PlantUML | Diagramas de clases y de base de datos | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report/tree/main/img/Software-Object-Oriented-Design |
 
