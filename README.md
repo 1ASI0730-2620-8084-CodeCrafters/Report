@@ -1800,145 +1800,171 @@ La aplicación utiliza una barra lateral persistente como sistema de navegación
 <a id="43-landing-page-ui-design"></a>
 ## 4.3. Landing Page UI Design.
 
+En esta sección se presenta la propuesta de interfaz del Landing Page, elaborada en Figma antes de su implementación. La propuesta aplica las decisiones de la sección 4.1 y la organización de contenido de la sección 4.2: una navegación fija con selector de idioma, una sección hero con la propuesta de valor y su llamado a la acción principal, y un recorrido que desciende desde el problema hasta los segmentos objetivo.
+
 <a id="431-landing-page-wireframe"></a>
 ### 4.3.1. Landing Page Wireframe.
 
-![image1](img/landingPageUIDesign/landing1_wireframe.png)
-![image2](img/landingPageUIDesign/landing2_wireframe.png)
-![image3](img/landingPageUIDesign/landing3_wireframe.png)
+El wireframe define la estructura y la jerarquía de cada sección sin aplicar color ni contenido final. Se organiza en una retícula de dos columnas para la sección hero, que combina el mensaje principal con una vista previa del estado de una ruta, y en una retícula de tres columnas para las tarjetas de problemas, capacidades y segmentos. En pantallas angostas las columnas se apilan en una sola, conservando el orden de lectura.
+
+<img src="img/landingPageUIDesign/landing1_wireframe.png" alt="Wireframe del Landing Page: navegación, sección hero y sección del problema" width="800">
+
+<img src="img/landingPageUIDesign/landing2_wireframe.png" alt="Wireframe del Landing Page: capacidades del producto y funcionamiento" width="800">
+
+<img src="img/landingPageUIDesign/landing3_wireframe.png" alt="Wireframe del Landing Page: segmentos objetivo, videos y pie de página" width="800">
 
 <a id="432-landing-page-mock-up"></a>
 ### 4.3.2. Landing Page Mock-up.
 
-![image4](img/landingPageUIDesign/landing1_mockup.png)
-![image5](img/landingPageUIDesign/landing2_mockup.png)
-![image6](img/landingPageUIDesign/landing3_mockup.png)
+El mock-up aplica el design system de BottleTrack sobre el wireframe: la rampa naranja para los llamados a la acción, la tipografía Manrope, las superficies alternadas para separar secciones y los colores de estado en la vista previa de la ruta, donde cada estado se acompaña de un texto y no depende solo del color. El mensaje principal, *Cada botella, rastreada desde la planta hasta el cliente*, resume la propuesta de valor, y la sección del problema traduce los tres puntos de dolor de las entrevistas: la falta de visibilidad, la falta de evidencia y la falta de datos.
 
+<img src="img/landingPageUIDesign/landing1_mockup.png" alt="Mock-up del Landing Page: sección hero y sección del problema" width="800">
+
+<img src="img/landingPageUIDesign/landing2_mockup.png" alt="Mock-up del Landing Page: capacidades y funcionamiento del producto" width="800">
+
+<img src="img/landingPageUIDesign/landing3_mockup.png" alt="Mock-up del Landing Page: segmentos objetivo y pie de página" width="800">
 
 <a id="44-web-applications-uxui-design"></a>
 ## 4.4. Web Applications UX/UI Design.
 
+En esta sección se presenta el diseño de la Frontend Web Application para sus dos roles principales: el administrador de la distribuidora y el supervisor de flota. Las vistas se diseñaron en Figma siguiendo el mismo design system del Landing Page, para que la experiencia sea consistente entre ambos productos.
+
 <a id="441-web-applications-wireframes"></a>
 ### 4.4.1. Web Applications Wireframes.
 
-**Login**<br>
-Formulario de inicio de sesión para acceder a la aplicación.
+Los wireframes comparten una estructura común: una barra lateral de navegación global a la izquierda y un área de contenido con el título de la vista, sus filtros y la información principal.
 
-<img src="img/webApplicationUxDesign/wireframes/loginWA_wireframe.png" alt=" login WF" width="800">
+**Vistas comunes**
 
-**Profile**<br>
-Sección del perfil de usuario con información personal, roles y certificaciones.
+**Login.** Formulario de inicio de sesión con correo y contraseña, selector de idioma y acceso a la recuperación de la contraseña.
 
-<img src="img/webApplicationUxDesign/wireframes/profileWA_wireframe.png" alt=" profile WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/loginWA_wireframe.png" alt="Wireframe de la vista de inicio de sesión" width="800">
+
+**Profile.** Datos personales del usuario autenticado, su rol y la empresa a la que pertenece.
+
+<img src="img/webApplicationUxDesign/wireframes/profileWA_wireframe.png" alt="Wireframe de la vista de perfil" width="800">
 
 <hr>
 
-**Administrator Interface**
+**Vistas del administrador**
 
-Permisos para registrar nuevos usuarios a la plataforma
+**Users.** Registro de nuevos usuarios de la empresa y asignación de su rol.
 
-<img src="img/webApplicationUxDesign/wireframes/registrouser_admin_WA_wireframe.png" alt=" user WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/registrouser_admin_WA_wireframe.png" alt="Wireframe del registro de usuarios" width="800">
 
-Configuración de empresa con sus respectivos datos
+**Company settings.** Datos de la empresa distribuidora.
 
-<img src="img/webApplicationUxDesign/wireframes/config_admin_WA_wireframe.png" alt=" configuration WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/config_admin_WA_wireframe.png" alt="Wireframe de la configuración de la empresa" width="800">
 
-Permisos para designar los datos de un vehículo en condiciones
+**Vehicles.** Registro de un vehículo con su placa, modelo, capacidad y estado.
 
-<img src="img/webApplicationUxDesign/wireframes/registrovehiculo_admin_WA_wireframe.png" alt=" vehicle WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/registrovehiculo_admin_WA_wireframe.png" alt="Wireframe del registro de vehículos" width="800">
 
-Permisos para designar los datos de una responsable conductor 
+**Drivers.** Registro de un conductor con sus datos de contacto y su licencia.
 
-<img src="img/webApplicationUxDesign/wireframes/registroconductor_admin_WA_wireframe.png" alt=" driver WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/registroconductor_admin_WA_wireframe.png" alt="Wireframe del registro de conductores" width="800">
 
-Panel de análisis con métricas, reportes e incidentes
+**Dashboard.** Indicadores de la operación, reportes e incidencias recientes.
 
-<img src="img/webApplicationUxDesign/wireframes/dashboard_admin_WA_wireframe.png" alt=" dashboard WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/dashboard_admin_WA_wireframe.png" alt="Wireframe del dashboard del administrador" width="800">
 
-**Supervisor Interface**
+<hr>
 
-Historial de operaciones registradas por el supervisor
+**Vistas del supervisor**
 
-<img src="img/webApplicationUxDesign/wireframes/browser_supervisor_WA_wireframe.png" alt=" config WF" width="800">
+**Operation history.** Listado de las operaciones finalizadas con sus filtros.
 
-Detalles de cada operación con respecto a la incidencia
+<img src="img/webApplicationUxDesign/wireframes/browser_supervisor_WA_wireframe.png" alt="Wireframe del historial de operaciones" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/incident_browser_supervisor_WA_wireframe.png" alt=" incident WF" width="800">
+**Incident detail.** Información de una incidencia y de la operación a la que pertenece.
 
-Visualización de puntos de entrega y sus cambios de estado
+<img src="img/webApplicationUxDesign/wireframes/incident_browser_supervisor_WA_wireframe.png" alt="Wireframe del detalle de una incidencia" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/deliverypoint_supervisor_WA_wireframe.png" alt=" delivery WF" width="800">
+**Delivery points.** Puntos de entrega de una operación y el estado de cada uno.
 
-Visualización de resumen por incidencia
+<img src="img/webApplicationUxDesign/wireframes/deliverypoint_supervisor_WA_wireframe.png" alt="Wireframe de los puntos de entrega" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/driver_browser_supervisor_WA_wireframe.png" alt=" driver WF" width="800">
+**Incident summary.** Resumen de las incidencias registradas.
 
-Creación de operación de transporte 
+<img src="img/webApplicationUxDesign/wireframes/driver_browser_supervisor_WA_wireframe.png" alt="Wireframe del resumen de incidencias" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/newoperation_supervisor_WA_wireframe.png" alt=" new operation WF" width="800">
+**New operation.** Creación de una operación de transporte en tres pasos: datos, vehículo y conductor.
 
-Lista resumen de las operacion asignadas al supervisor 
+<img src="img/webApplicationUxDesign/wireframes/newoperation_supervisor_WA_wireframe.png" alt="Wireframe de la creación de una operación" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/operationlist_supervisor_WA_wireframe.png" alt=" list WF" width="800">
+**Operations.** Listado de las operaciones asignadas al supervisor con su estado.
 
-Dashboard relacionado a las responsabilidades del supervisor
+<img src="img/webApplicationUxDesign/wireframes/operationlist_supervisor_WA_wireframe.png" alt="Wireframe del listado de operaciones" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/dashboard_supervisor_WA_wireframe.png" alt=" dashboard WF" width="800">
+**Dashboard.** Resumen de las operaciones del día, las entregas y las incidencias abiertas.
 
+<img src="img/webApplicationUxDesign/wireframes/dashboard_supervisor_WA_wireframe.png" alt="Wireframe del dashboard del supervisor" width="800">
 
 <a id="442-web-applications-wireflow-diagrams"></a>
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-Flujo del administrador
+Los wireflows conectan los wireframes según las acciones del usuario. Cada flecha parte del elemento que el usuario selecciona y llega a la vista resultante.
 
-<img src="img/webApplicationUxDesign/wireflow/admin_WA_wireflow.png" alt=" admin WF" width="800">
+**Wireflow del administrador.** Parte del inicio de sesión y llega al dashboard, desde el cual el administrador accede a la gestión de usuarios, vehículos, conductores y a la configuración de la empresa.
 
-Flujo del supervisor
+<img src="img/webApplicationUxDesign/wireflow/admin_WA_wireflow.png" alt="Wireflow del administrador" width="800">
 
-<img src="img/webApplicationUxDesign/wireflow/supervisor_WA_wireflow.png" alt=" supervisor WF" width="800">
+**Wireflow del supervisor.** Parte del inicio de sesión y recorre el ciclo de una operación: el listado de operaciones, la creación de una operación, sus puntos de entrega, las incidencias y el historial.
 
+<img src="img/webApplicationUxDesign/wireflow/supervisor_WA_wireflow.png" alt="Wireflow del supervisor" width="800">
 
 <a id="443-web-applications-mock-ups"></a>
 ### 4.4.3. Web Applications Mock-ups.
 
-**Administrador**
+Los mock-ups aplican el design system sobre los wireframes. La barra lateral usa el color `--chrome` para separar visualmente la navegación del contenido, los botones principales usan `--primary` y los estados de las operaciones y de las incidencias se muestran como etiquetas con color y texto.
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_login_WA_wireframe.png" alt=" supervisor WF" width="800">
+**Administrador.** Inicio de sesión, dashboard, gestión de usuarios y gestión de la flota.
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin1_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_login_WA_wireframe.png" alt="Mock-up de la vista de inicio de sesión" width="800">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin2_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin1_WA_wireframe.png" alt="Mock-up del dashboard del administrador" width="800">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin3_WA_wireframe.png" alt=" supervisor WF" width="500">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin2_WA_wireframe.png" alt="Mock-up de la gestión de usuarios" width="800">
 
-**Supervisor**
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin3_WA_wireframe.png" alt="Mock-up de la gestión de la flota" width="500">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super1_WA_wireframe.png" alt=" supervisor WF" width="800">
+**Supervisor.** Listado de operaciones, detalle de una operación con el progreso de sus entregas, creación de una operación e incidencias.
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super2_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super1_WA_wireframe.png" alt="Mock-up del listado de operaciones" width="800">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super3_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super2_WA_wireframe.png" alt="Mock-up del detalle de una operación" width="800">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super4_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super3_WA_wireframe.png" alt="Mock-up de la creación de una operación" width="800">
 
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super4_WA_wireframe.png" alt="Mock-up de las incidencias" width="800">
 
 <a id="444-web-applications-user-flow-diagrams"></a>
 ### 4.4.4. Web Applications User Flow Diagrams.
 
-**Admninistrador**
+Los User Flow Diagrams muestran, para cada User Goal, el recorrido que sigue el usuario sobre los mock-ups, incluyendo el camino principal y los caminos alternativos.
 
-<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_admin_WA_wireflow.png" alt=" supervisor WF" width="800">
+| User Goal | Rol | Happy path | Flujos alternativos |
+| :-------- | :-- | :--------- | :------------------ |
+| Crear y despachar una operación de transporte | Supervisor | Operaciones → Nueva operación → Datos → Vehículo disponible → Conductor disponible → Puntos de entrega → Guardar | No hay vehículos disponibles: la vista lo informa y ofrece volver al listado. Falta un dato obligatorio: el formulario marca el campo y no avanza. El supervisor cancela: la operación no se registra. |
+| Registrar el resultado de una entrega | Supervisor | Operación en curso → Punto de entrega → Completada | Entrega parcial: se registra la cantidad entregada y el motivo. Entrega no realizada: se registra el motivo. |
+| Registrar una incidencia con evidencia | Supervisor | Operación → Registrar incidencia → Tipo y descripción → Adjuntar foto → Guardar | La foto supera el tamaño permitido: se informa el límite. Falta el tipo de incidencia: no se permite guardar. |
+| Gestionar los usuarios de la empresa | Administrador | Dashboard → Usuarios → Nuevo usuario → Asignar rol → Guardar | El correo ya está registrado: se informa y no se crea el usuario. |
+| Iniciar sesión | Ambos | Login → Credenciales válidas → Dashboard según rol | Credenciales inválidas: se muestra el error y se mantiene el correo ingresado. |
+
+**Administrador**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_admin_WA_wireflow.png" alt="User flow del administrador sobre los mock-ups" width="800">
 
 **Supervisor**
 
-<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_super_WA_wireflow.png" alt=" supervisor WF" width="800">
-
-
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_super_WA_wireflow.png" alt="User flow del supervisor sobre los mock-ups" width="800">
 
 <a id="45-web-applications-prototyping"></a>
 ## 4.5. Web Applications Prototyping.
 
-<img src="img/webApplicationUxDesign/prototype_WA.png" alt=" supervisor WF" width="800">
+El prototipo navegable se construyó en Figma conectando los mock-ups de la sección 4.4.3. Permite recorrer el inicio de sesión, el dashboard, la creación de una operación, el detalle de sus entregas y el registro de incidencias, y se utilizará en las entrevistas de validación de la sección 5.3.
+
+<img src="img/webApplicationUxDesign/prototype_WA.png" alt="Prototipo navegable de la Web Application en Figma" width="800">
 
 <a id="46-domain-driven-software-architecture"></a>
 ## 4.6. Domain-Driven Software Architecture.
