@@ -1969,109 +1969,121 @@ El prototipo navegable se construyó en Figma conectando los mock-ups de la secc
 <a id="46-domain-driven-software-architecture"></a>
 ## 4.6. Domain-Driven Software Architecture.
 
+La arquitectura de BottleTrack se diseñó con Domain-Driven Design. El dominio se divide en cinco bounded contexts, cada uno con su propio lenguaje, sus agregados y su conjunto de tablas: **Identity and Access Management**, **Fleet Management**, **Operations and Routes**, **IoT Monitoring** e **Incident Management**. Los cuatro primeros corresponden a las capacidades del producto; IoT Monitoring se separa de Operations and Routes porque maneja datos de alta frecuencia e inmutables, tiene un vocabulario propio (lectura, rango seguro, alerta) y cambia por razones distintas, como el proveedor de los dispositivos.
+
+El Backend API se organiza como un **monolito modular**: un solo despliegue con un módulo por bounded context. Cada módulo aplica **arquitectura hexagonal** (puertos y adaptadores):
+
+| Capa | Contenido | Rol en la arquitectura hexagonal |
+| :--- | :-------- | :------------------------------- |
+| Interfaces | Controllers REST y manejadores de eventos | Adaptadores de entrada |
+| Application | Command Services y Query Services | Implementan los puertos de entrada y orquestan los casos de uso |
+| Domain | Agregados, entidades, value objects, eventos de dominio e interfaces de repositorio | Núcleo del negocio, sin dependencias de frameworks. Declara los puertos de salida |
+| Infrastructure | Repositorios con Entity Framework Core, cliente del servicio de mapas, emisión de tokens | Adaptadores de salida que implementan los puertos del dominio |
+
+Los bounded contexts no acceden a las tablas de los demás. Se comunican a través de **facades** (por ejemplo, Operations and Routes reserva un vehículo mediante la facade de Fleet Management) o de **eventos de dominio** (IoT Monitoring publica `AlertRaised` e Incident Management abre una incidencia).
+
 <a id="461-design-level-event-storming"></a>
 ### 4.6.1. Design-level Event Storming.
-<img src="img/chapter4/design-level-eventstorming.jpeg" alt="Design Level EventStorming">
+
+El Design-Level EventStorming parte de los eventos del Big Picture de la sección 2.4 y los agrupa por bounded context. Para cada contexto se identificaron los **agregados** (amarillo), los **comandos** que reciben (azul), los **eventos de dominio** que publican (naranja), las **políticas** que reaccionan a esos eventos (morado) y los **read models** que consultan los usuarios (verde). Las políticas definen las reglas que cruzan contextos, por ejemplo: *cuando se completa una operación, liberar el vehículo y el conductor*, o *cuando se levanta una alerta crítica, abrir una incidencia*.
+
+El tablero se encuentra disponible en: https://miro.com/app/board/uXjVHm-Usq4=/
+
+<img src="img/chapter4/design-level-eventstorming.jpeg" alt="Design-Level EventStorming con los cinco bounded contexts de BottleTrack">
 
 <a id="462-software-architecture-context-diagram"></a>
 ### 4.6.2. Software Architecture Context Diagram.
 
-![contextdiagram](img/DD-SoftwareArchitecture/contextDiagram.png)
+El diagrama de contexto muestra a BottleTrack como una caja negra y su relación con las personas y los sistemas externos. Sus usuarios son el administrador de la distribuidora, el supervisor de flota y el responsable de la bodega. El conductor aparece como actor del dominio que reporta al supervisor, pero no usa la aplicación. Los sistemas externos son los dispositivos IoT instalados en los vehículos y el servicio de mapas y geolocalización, que constituye el servicio de terceros que consume la solución.
 
-En el centro se encuentra el sistema BottleTrack, que interactúa principalmente con tres tipos de usuarios: el Administrator, el Fleet Supervisor y el Driver. 
-Cada uno utiliza el sistema según sus responsabilidades dentro de la operación de distribución. Además, BottleTrack recibe información del Vehicle IoT Device para obtener datos de telemetría de los vehículos.
+Los diagramas C4 se elaboraron con Structurizr DSL; el código fuente de cada diagrama se encuentra junto a su imagen en la carpeta `img/DD-SoftwareArchitecture` del repositorio.
+
+<img src="img/DD-SoftwareArchitecture/contextDiagram.png" alt="Diagrama de contexto C4 de BottleTrack" width="800">
 
 <a id="463-software-architecture-container-diagrams"></a>
 ### 4.6.3. Software Architecture Container Diagrams.
 
-![containerdiagram](img/DD-SoftwareArchitecture/containerDiagram.png)
+El diagrama de contenedores muestra las unidades desplegables de la solución:
 
-Aqui hacemos un zoom dentro de BottleTrack para mostrar sus principales containers. Tenemos la Landing Page, la Web Application, el Backend API y la Database. La Web Application utiliza Vue.js y PrimeVue, el Backend API utiliza ASP.NET Core, C# y Entity Framework Core, y la información se almacena en PostgreSQL. 
-La Web Application se comunica con el Backend API mediante HTTPS y JSON, mientras que el Backend API gestiona el acceso a la base de datos.
+| Contenedor | Tecnología | Despliegue |
+| :--------- | :--------- | :--------- |
+| Landing Page | HTML5, CSS3, JavaScript | GitHub Pages |
+| Web Application | Vue 3, PrimeVue, Pinia, Vue Router, vue-i18n, axios | Vercel |
+| Backend API | ASP.NET Core, C#, Entity Framework Core, documentado con OpenAPI | Proveedor de nube |
+| Database | MySQL | Proveedor de nube |
+
+El Landing Page redirige a cada segmento a su vista de la Web Application. La Web Application consume el Backend API mediante HTTPS y JSON, y el Backend API es el único contenedor que accede a la base de datos y al servicio de mapas.
+
+<img src="img/DD-SoftwareArchitecture/containerDiagram.png" alt="Diagrama de contenedores C4 de BottleTrack" width="800">
 
 <a id="464-software-architecture-components-diagrams"></a>
 ### 4.6.4. Software Architecture Components Diagrams.
 
-![component1](img/DD-SoftwareArchitecture/componentIAM_D.png)
+Se elaboró un diagrama de componentes por bounded context. Todos siguen la misma estructura hexagonal: un controller como adaptador de entrada, un command service y un query service en la capa de aplicación, el modelo de dominio con sus agregados, la interfaz del repositorio como puerto de salida (borde punteado) y el repositorio de Entity Framework Core como adaptador que lo implementa.
 
-Este diagrama representa la estructura interna del Bounded Context de Identidad y Accesos. Su función es gestionar la organización, los usuarios, los roles y la autenticación dentro de BottleTrack. El Controller recibe las solicitudes, el Service coordina la lógica de negocio y los Repository gestionan la persistencia de la información.
-<hr>
+**Identity and Access Management.** Gestiona la organización, los usuarios, sus roles y la autenticación. Incluye un servicio de tokens como adaptador de salida para emitir y validar JSON Web Tokens.
 
-![component2](img/DD-SoftwareArchitecture/componentFleetM_D.png)
+<img src="img/DD-SoftwareArchitecture/componentIAM_D.png" alt="Diagrama de componentes de Identity and Access Management" width="800">
 
-Este diagrama representa la estructura interna del Bounded Context de Gestión de Flota. Su función es administrar los vehículos y conductores, incluyendo su registro, instalación de dispositivos IoT y disponibilidad de los vehículos. El Controller recibe las solicitudes, el Service gestiona la lógica del negocio y los Repository se encargan de la persistencia de la información.
-<hr>
+**Fleet Management.** Gestiona los vehículos y los conductores y su disponibilidad. Expone una facade para que Operations and Routes reserve y libere recursos sin acceder a sus tablas.
 
-![component3](img/DD-SoftwareArchitecture/componentO&R_D.png)
+<img src="img/DD-SoftwareArchitecture/componentFleetM_D.png" alt="Diagrama de componentes de Fleet Management" width="800">
 
-Este diagrama representa la estructura interna del Bounded Context de Operaciones y Rutas. Su función es gestionar las operaciones de transporte, los puntos de entrega y los envíos, desde la creación y asignación de una operación hasta el despacho y la confirmación de las entregas. El Controller recibe las solicitudes, el Service coordina la lógica de negocio y los Repository gestionan la persistencia de cada elemento.
-<hr>
+**Operations and Routes.** Es el core del dominio. Gestiona el ciclo de vida de la operación de transporte, sus puntos de entrega y el resultado de cada entrega. Su capa anticorrupción traduce las llamadas a Fleet Management y al servicio de mapas.
 
-![component4](img/DD-SoftwareArchitecture/componentIoTM_D.png)
+<img src="img/DD-SoftwareArchitecture/componentO&R_D.png" alt="Diagrama de componentes de Operations and Routes" width="800">
 
-Este diagrama representa la estructura interna del Bounded Context de IoT Monitoring de BottleTrack. Su función es gestionar los dispositivos IoT registrados, las lecturas de sensores y las alertas generadas a partir de los rangos configurados. Se mantiene como un módulo interno del Backend API, ya que BottleTrack utiliza una arquitectura de modular monolith.
-<hr>
+**IoT Monitoring.** Recibe las lecturas de los dispositivos, las evalúa contra el rango seguro y levanta alertas. Publica el evento `AlertRaised` para que Incident Management actúe.
 
-![component5](img/DD-SoftwareArchitecture/componentIM_D.png)
-Representa la estructura interna de Incident Management, encargado de gestionar los incidentes, las evidencias asociadas, su severidad, revisión, resolución y cierre. Los agregados definidos en el reporte son Incident y Evidence.
-<hr>
+<img src="img/DD-SoftwareArchitecture/componentIoTM_D.png" alt="Diagrama de componentes de IoT Monitoring" width="800">
 
+**Incident Management.** Gestiona las incidencias, su evidencia, su severidad y su resolución. Abre incidencias a partir de los reportes del supervisor, de la bodega o de las alertas de IoT Monitoring.
+
+<img src="img/DD-SoftwareArchitecture/componentIM_D.png" alt="Diagrama de componentes de Incident Management" width="800">
 
 <a id="47-software-object-oriented-design"></a>
 ## 4.7. Software Object-Oriented Design.
 
-###  4.7.1 Class Diagrams
+<a id="471-class-diagrams"></a>
+### 4.7.1. Class Diagrams.
 
-Visualización general del diagrama de clases:
+El diagrama de clases representa el modelo de dominio de cada bounded context. Sigue las convenciones de C#: clases, enumeraciones y métodos en PascalCase, atributos en camelCase y todos los nombres en inglés, tomados del Ubiquitous Language de la sección 2.5. Cada clase se marca con su estereotipo de DDD (*Aggregate Root*, *Entity* o *Value Object*). Las relaciones entre contextos se representan con dependencias por identificador, ya que un agregado nunca contiene a otro de un contexto distinto.
 
-<img src="img/Software-Object-Oriented-Design/ClassDiagrams.png" alt="Class Diagrams" width="800">
+El diagrama se elaboró como Diagram-as-Code con PlantUML; su fuente es `img/Software-Object-Oriented-Design/class-diagrams.puml`.
 
-[Ver Diagrama de Arquitectura](https://lucid.app/lucidchart/ea3b075d-44d9-4fb0-a58f-6d6c2762bf85/edit?viewport_loc=-1138%2C-648%2C9955%2C6088%2C0_0&invitationId=inv_15a7c100-9dc0-469a-a127-a7b60c647f1e)
-<hr>
+<img src="img/Software-Object-Oriented-Design/ClassDiagrams.png" alt="Diagrama de clases completo de BottleTrack" width="800">
 
-### 1. Identity and Access
+**Identity and Access Management.** `Organization` y `User` son agregados independientes; el rol del usuario determina las vistas a las que accede.
 
-Gestiona las organizaciones y usuarios que forman parte de BottleTrack. Permite registrar la información de la empresa, crear usuarios, asignar roles y controlar su estado de acceso dentro de la plataforma.
-<img src="img/Software-Object-Oriented-Design/I&A_database.png" alt="Identity and Access class" width="800">
+<img src="img/Software-Object-Oriented-Design/class-identity-access.png" alt="Diagrama de clases de Identity and Access Management" width="800">
 
-### 2. Fleet Management
+**Fleet Management.** `Vehicle` y `Driver` controlan su propia disponibilidad mediante `Reserve` y `Release`.
 
-Gestiona los vehículos y conductores pertenecientes a una organización. Permite registrar sus datos, controlar su disponibilidad y estado, además de asociar dispositivos IoT a los vehículos.
+<img src="img/Software-Object-Oriented-Design/class-fleet-management.png" alt="Diagrama de clases de Fleet Management" width="800">
 
-<img src="img/Software-Object-Oriented-Design/FleetManagement_database.png" alt="Fleet Management class" width="800">
+**Operations and Routes.** `TransportOperation` es la raíz de agregado y contiene sus `DeliveryStop`. Toda modificación de una parada pasa por la operación, que valida las transiciones de estado y calcula el avance.
 
-### 3. IoT Monitoring
+<img src="img/Software-Object-Oriented-Design/class-operations-routes.png" alt="Diagrama de clases de Operations and Routes" width="800">
 
-Gestiona los dispositivos IoT instalados en los vehículos y las lecturas obtenidas durante su operación. Permite registrar ubicación, temperatura e impactos, así como generar y gestionar alertas ante condiciones fuera de los rangos establecidos.
+**IoT Monitoring.** `IoTDevice` evalúa cada `SensorReading` contra su `SafeRange` y genera una `Alert` cuando la lectura sale del rango o supera el umbral de impacto.
 
-<img src="img/Software-Object-Oriented-Design/IoTMonitoring_database.png" alt="IoT Monitoring class" width="800">
+<img src="img/Software-Object-Oriented-Design/class-iot-monitoring.png" alt="Diagrama de clases de IoT Monitoring" width="800">
 
-### 4. Operations and Routes
+**Incident Management.** `Incident` contiene sus `Evidence` y registra su origen: el supervisor, la bodega o una alerta IoT.
 
-Gestiona las operaciones de transporte desde su creación hasta su finalización. Permite asignar vehículos y conductores, definir puntos de entrega, registrar envíos y controlar el estado de cada operación y entrega.
+<img src="img/Software-Object-Oriented-Design/class-incident-management.png" alt="Diagrama de clases de Incident Management" width="800">
 
-<img src="img/Software-Object-Oriented-Design/Op&Routes_database.png" alt="Operations and Routes class" width="800">
-
-### 5. Incident Management
-
-Gestiona las incidencias que se presentan durante las operaciones de transporte. Permite registrar el problema, adjuntar evidencias, asignar su severidad, realizar su seguimiento y controlar su resolución y cierre.
-
-<img src="img/Software-Object-Oriented-Design/IncidentManagement_database.png" alt="Incident Management class" width="800">
-
-
-# 4.8. Database Design
-
-### 4.8.1. Database Diagrams.
-
-<p align="center">
-    <img src="img/DatabaseDiagrams.png" alt="DatabaseDiagrams.png" width="80%">
-</p>
-En esta sección se presentan los diagramas de base de datos correspondientes a cada Bounded Context del sistema. Los diagramas muestran las tablas, sus columnas, tipos de datos, claves primarias y foráneas, así como las relaciones entre las tablas, garantizando la persistencia correcta de la información.
+<a id="48-database-design"></a>
+## 4.8. Database Design.
 
 <a id="481-database-diagrams"></a>
 ### 4.8.1. Database Diagrams.
 
-<img src="img/Database-Design/DatabaseDiagrams.png" alt="Database Diagrams" width="800">
+El diagrama de base de datos corresponde al esquema relacional en MySQL. Las tablas se agrupan por bounded context y siguen una convención única: nombres de tablas en inglés, en plural y en snake_case, y columnas en snake_case. Las claves primarias son identificadores `CHAR(36)` generados por la aplicación, las claves foráneas se nombran como `<entidad>_id` y los estados se almacenan como `ENUM` con los mismos valores de las enumeraciones del diagrama de clases. La configuración de Entity Framework Core mapea las clases del dominio a estos nombres de tablas y columnas.
+
+El diagrama se elaboró como Diagram-as-Code con PlantUML; su fuente es `img/Database-Design/database-diagram.puml`.
+
+<img src="img/Database-Design/DatabaseDiagrams.png" alt="Diagrama de base de datos de BottleTrack" width="800">
 
 <hr>
 
