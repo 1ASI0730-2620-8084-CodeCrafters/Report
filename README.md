@@ -47,11 +47,24 @@
 | 1.12 | 2026-09-16 | Pezo Castilla, Maria Jose | Elaboración de los Empathy Maps correspondientes a los tres segmentos objetivo, organizando la información relacionada con lo que los usuarios dicen, ven, hacen, escuchan, piensan y sienten, además de sus pains y gains. |
 | 1.13 | 2026-09-17 | Pezo Castilla, Maria Jose | Desarrollo de los Impact Maps para los tres segmentos objetivo, definiendo Business Goals SMART, Actors, Impacts, Deliverables y User Stories, manteniendo la trazabilidad entre los objetivos empresariales y las necesidades identificadas. |
 | 1.14 | 2026-09-17 | Pezo Castilla, Maria Jose | Documentación de los resultados del Needfinding, Impact Mapping y User Stories en el repositorio colaborativo de GitHub, organizando los contenidos para facilitar su revisión y continuidad por parte del equipo. |
+| 1.15 | 2026-09-16 | Cumba Rengifo, Leonardo Raul | Incorporación de los Class Diagrams y del Database Diagram de las secciones 4.7 y 4.8. |
+| 1.16 | 2026-09-18 | Palacin Lazo, Gerardo Valentin | Incorporación de los wireframes, wireflows, mock-ups y prototipo de la Web Application, y del diseño de interfaz del Landing Page. |
+| 1.17 | 2026-09-18 | Pezo Castilla, Maria Jose | Incorporación del Big Picture y del Design-Level EventStorming, del registro de entrevistas y de la información de participación del Capítulo V. |
+| 1.18 | 2026-09-18 | Cumba Rengifo, Leonardo Raul | Revisión del registro de entrevistas, del Sprint Planning y de las conclusiones para la entrega AV1. |
+| 1.19 | 2026-10-01 | Palacin Lazo, Gerardo Valentin | Actualización del modelo C4, del Student Outcome y registro de una nueva entrevista del segmento de distribuidoras. |
+| 2.0 | 2026-10-01 | Crispin Valdivia, Angel Gabriel | Corrección integral según la revisión de AV1: Lean UX con plantilla Brand new initiative y Lean UX Canvas, alineación de los segmentos objetivo, análisis de entrevistas con porcentajes, narrativa del Needfinding y del EventStorming, User Stories con Epic y nuevas historias, Product Backlog ordenado por valor, arquitectura hexagonal en el modelo C4, diagramas de clases y de base de datos en inglés, y Sprint 1 completo. |
 
 <hr>
 
 <a id="project-report-collaboration-insights"></a>
 # **Project Report Collaboration Insights**
+
+El informe se elabora de forma colaborativa en el repositorio https://github.com/1ASI0730-2620-8084-CodeCrafters/Report de la organización del equipo. Cada integrante redacta las secciones del aspecto que lidera en una rama `feature/*` creada desde `develop`, y los cambios se integran mediante pull requests o merges `--no-ff`. Los mensajes de commit siguen Conventional Commits, con el tipo `docs` y el capítulo como alcance, por ejemplo `docs(needfinding): ...`.
+
+**AV1.** El trabajo se repartió por capítulos: Leonardo Cumba redactó los capítulos I y III y los primeros diagramas de clases y de base de datos; Maria Jose Pezo, el Needfinding, el Impact Mapping y el EventStorming; Gerardo Palacin, la plantilla del informe, el diseño de interfaces y el modelo C4; y Angel Crispin, las Style Guidelines, la arquitectura de información, la configuración del software, el Ubiquitous Language y los anexos.
+
+**TB1.** El equipo corrigió los artefactos observados en la revisión de AV1 en la rama `feature/report-tb1-corrections`, en commits separados por sección, de modo que cada corrección puede rastrearse en el historial del repositorio.
+
 
 <hr>
 
@@ -136,15 +149,15 @@
         - <a href="#513-source-code-style-guide-and-conventions">5.1.3. Source Code Style Guide and Conventions.</a>
         - <a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</a>
     - <a href="#52-landing-page-services-applications-implementation">5.2. Landing Page, Services & Applications Implementation.</a>
-        - <a href="#52x-sprint-n">5.2.x. Sprint n</a>
-            - <a href="#52x1-sprint-planning-n">5.2.x.1. Sprint Planning n.</a>
-            - <a href="#52x2-aspect-leader-and-colaborators">5.2.x.2. Aspect Leader and Colaborators.</a>
-            - <a href="#52x3-sprint-backlog-n">5.2.x.3. Sprint Backlog n.</a>
-            - <a href="#52x4-development-evidence-for-sprint-review">5.2.x.4. Development Evidence for Sprint Review.</a>
-            - <a href="#52x5-execution-evidence-for-sprint-review">5.2.x.5. Execution Evidence for Sprint Review.</a>
-            - <a href="#52x6-services-documentation-evidence-for-sprint-review">5.2.x.6. Services Documentation Evidence for Sprint Review.</a>
-            - <a href="#52x7-software-deployment-evidence-for-sprint-review">5.2.x.7. Software Deployment Evidence for Sprint Review.</a>
-            - <a href="#52x8-team-colaboration-insights-during-sprint">5.2.x.8. Team Colaboration Insights during Sprint.</a>
+        - <a href="#52x-sprint-n">5.2.1. Sprint 1.</a>
+            - <a href="#52x1-sprint-planning-n">5.2.1.1. Sprint Planning 1.</a>
+            - <a href="#52x2-aspect-leader-and-colaborators">5.2.1.2. Aspect Leaders and Collaborators.</a>
+            - <a href="#52x3-sprint-backlog-n">5.2.1.3. Sprint Backlog 1.</a>
+            - <a href="#52x4-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review.</a>
+            - <a href="#52x5-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</a>
+            - <a href="#52x6-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</a>
+            - <a href="#52x7-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</a>
+            - <a href="#52x8-team-colaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</a>
     - <a href="#53-validation-interviews">5.3. Validation Interviews.</a>
         - <a href="#531-diseno-de-entrevistas">5.3.1. Diseño de Entrevistas.</a>
         - <a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</a>
@@ -158,6 +171,12 @@
 - <a href="#bibliografia">Bibliografía</a>
 
 - <a href="#anexos">Anexos</a>
+    - <a href="#anexo-a-videos-de-exposiciones">Anexo A. Videos de Exposiciones.</a>
+    - <a href="#anexo-b-videos-de-entrevistas">Anexo B. Videos de Entrevistas.</a>
+    - <a href="#anexo-c-repositorios-del-proyecto">Anexo C. Repositorios del Proyecto.</a>
+    - <a href="#anexo-d-productos-desplegados">Anexo D. Productos Desplegados.</a>
+    - <a href="#anexo-e-herramientas-colaborativas">Anexo E. Herramientas Colaborativas.</a>
+    - <a href="#anexo-f-codigo-fuente-de-diagramas">Anexo F. Código Fuente de los Diagramas.</a>
 
 <hr>
 
@@ -176,7 +195,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Criterio específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones |
 | :------------------ |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :----------- |
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Crispin Valdivia, Angel Gabriel**<br>_AV1_<br>Lideró la definición del design system de BottleTrack, estableciendo la rampa de color de marca, la escala tipográfica y de espaciado, y los componentes compartidos, dejándolos documentados en una vista de style guide consultable por todo el equipo.<br>Lideró la implementación del Landing Page en HTML5, CSS3 y JavaScript, incluyendo la internacionalización en inglés y español latinoamericano y las características de accesibilidad.<br>Estableció el flujo de trabajo GitFlow y las convenciones de Conventional Commits y Semantic Versioning que el equipo aplica en los cuatro repositorios.<br><br>**Cumba Rengifo, Leonardo Raul**<br>_AV1_<br>Lideró la elaboración del Solution Profile, aplicando la técnica de las 5 W y 2 H sobre el dominio del transporte de bebidas embotelladas.<br>Condujo la ejecución del Lean UX Process, redactando el Problem Statement, los cinco tipos de assumptions y los hypothesis statements del proyecto.<br>Lideró el análisis competitivo frente a SimpliRoute, Drivin y DispatchTrack, y la especificación de los User Stories y el Product Backlog.<br><br>**Palacin Lazo, Gerardo Valentin**<br>_AV1_<br>Estableció la estructura base del informe del proyecto y la organización del repositorio de documentación del equipo.<br>_Pendiente de completar por el integrante._<br><br>**Huapaya Buitron, Ariana Alheli**<br>_AV1_<br>_Pendiente de completar por la integrante._<br><br>**Pezo Castilla, Maria Jose**<br>_AV1_<br>Lideró la ejecución del proceso de Needfinding, desarrollando y documentando los elementos correspondientes al análisis de los segmentos objetivo, incluyendo las User Personas, User Task Matrix, User Journey Maps y Empathy Maps, a partir de la información recopilada durante las entrevistas.<br>Participó en la identificación y organización de las necesidades, comportamientos, actividades y principales dificultades de los usuarios, contribuyendo a establecer una comprensión común del dominio antes de definir la solución.<br>Desarrolló los Impact Maps correspondientes a los segmentos objetivo, relacionando los objetivos empresariales con los actores, impactos, entregables y User Stories del producto.<br>Participó en la especificación de User Stories, contribuyendo a transformar las necesidades identificadas durante el Needfinding en requisitos funcionales alineados con los objetivos del proyecto.<br>Documentó los resultados del análisis y los artefactos de requisitos en el repositorio de GitHub, manteniendo organizada y trazable la información producida durante la iteración. | _AV1_<br>El equipo distribuyó el liderazgo por aspectos del proyecto en lugar de concentrarlo en una sola persona, de modo que cada integrante condujo el área en la que aportaba mayor conocimiento y colaboró en las restantes.<br>La adopción de GitFlow y de Conventional Commits desde el primer día permitió que el liderazgo ejercido por cada integrante quedara documentado de forma verificable en el historial de los repositorios, y no solo en la percepción de los miembros.<br>El equipo comprobó que definir un design system antes de implementar el Landing Page evitó decisiones visuales dispersas y redujo la necesidad de correcciones posteriores. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Crispin Valdivia, Angel Gabriel**<br>_AV1_<br>Incorporó criterios de diseño inclusivo en el Landing Page, con atributos ARIA, texto alternativo en las imágenes, enlace de salto al contenido y respeto por la preferencia de movimiento reducido del sistema operativo.<br>Implementó la internacionalización en inglés y español latinoamericano para que la experiencia sea accesible a los distintos perfiles de usuario de la operación.<br>Documentó las convenciones de código y de despliegue en el informe, de manera que cualquier integrante pueda incorporarse al desarrollo sin depender de explicaciones verbales.<br><br>**Cumba Rengifo, Leonardo Raul**<br>_AV1_<br>Identificó y caracterizó los segmentos objetivo del proyecto, incluyendo sus necesidades iniciales y su priorización.<br>Diseñó las guías de entrevista diferenciadas para cada segmento, considerando el contexto particular de conductores, supervisores y distribuidoras.<br>Estableció los criterios de priorización del Product Backlog en función del valor para el negocio.<br><br>**Palacin Lazo, Gerardo Valentin**<br>_AV1_<br>_Organizo y gestiono las estructuras del modelo C4 sobre nuestro negocio, ademas de encargarme de las entrevistas que delimitan a nuestor público objetivo entre 3 segmentos conociendo sus puntos de dolor y metas y necesidades._<br><br>**Huapaya Buitron, Ariana Alheli**<br>_AV1_<br>_Pendiente de completar por la integrante._<br><br>**Pezo Castilla, Maria Jose**<br>_AV1_<br>Organizó y documentó los resultados del Needfinding de manera estructurada para facilitar que los demás integrantes pudieran utilizar los hallazgos de las entrevistas como base para las siguientes etapas del proyecto.<br>Contribuyó a establecer una visión compartida de las necesidades de los segmentos objetivo mediante la elaboración de las Personas, User Task Matrix, User Journey Maps y Empathy Maps, permitiendo al equipo contrastar las características y dificultades identificadas en los usuarios.<br>Participó en la elaboración de los Impact Maps y User Stories, procurando mantener la trazabilidad entre los objetivos empresariales, las necesidades de los usuarios y los requisitos definidos para la solución.<br>Mantuvo la documentación correspondiente en GitHub, permitiendo que los integrantes pudieran consultar, revisar y dar continuidad al trabajo realizado.<br>La organización de estos artefactos permitió que el equipo avanzara de manera coordinada desde la identificación de necesidades hacia la especificación de requisitos, cumpliendo las actividades planificadas para AV1.                       | _AV1_<br>El equipo estableció como meta de la primera iteración la publicación del Landing Page y la especificación de los requisitos del producto, y organizó el trabajo en tareas asignadas a integrantes específicos para alcanzarla.<br>El uso de un tablero de control y de ramas de feature independientes permitió que varios integrantes avanzaran en paralelo sin bloquearse entre sí.<br>La incorporación de accesibilidad e internacionalización desde la primera versión del producto, y no como una corrección posterior, reflejó el compromiso del equipo con una solución inclusiva. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Crispin Valdivia, Angel Gabriel**<br>_AV1_<br>Incorporó criterios de diseño inclusivo en el Landing Page, con atributos ARIA, texto alternativo en las imágenes, enlace de salto al contenido y respeto por la preferencia de movimiento reducido del sistema operativo.<br>Implementó la internacionalización en inglés y español latinoamericano para que la experiencia sea accesible a los distintos perfiles de usuario de la operación.<br>Documentó las convenciones de código y de despliegue en el informe, de manera que cualquier integrante pueda incorporarse al desarrollo sin depender de explicaciones verbales.<br><br>**Cumba Rengifo, Leonardo Raul**<br>_AV1_<br>Identificó y caracterizó los segmentos objetivo del proyecto, incluyendo sus necesidades iniciales y su priorización.<br>Diseñó las guías de entrevista diferenciadas para cada segmento, considerando el contexto particular de conductores, supervisores y distribuidoras.<br>Estableció los criterios de priorización del Product Backlog en función del valor para el negocio.<br><br>**Palacin Lazo, Gerardo Valentin**<br>_AV1_<br>Organizó y gestionó la elaboración del modelo C4 del negocio, y se encargó de entrevistas que permitieron delimitar al público objetivo en tres segmentos, conociendo sus puntos de dolor, metas y necesidades.<br><br>**Huapaya Buitron, Ariana Alheli**<br>_AV1_<br>_Pendiente de completar por la integrante._<br><br>**Pezo Castilla, Maria Jose**<br>_AV1_<br>Organizó y documentó los resultados del Needfinding de manera estructurada para facilitar que los demás integrantes pudieran utilizar los hallazgos de las entrevistas como base para las siguientes etapas del proyecto.<br>Contribuyó a establecer una visión compartida de las necesidades de los segmentos objetivo mediante la elaboración de las Personas, User Task Matrix, User Journey Maps y Empathy Maps, permitiendo al equipo contrastar las características y dificultades identificadas en los usuarios.<br>Participó en la elaboración de los Impact Maps y User Stories, procurando mantener la trazabilidad entre los objetivos empresariales, las necesidades de los usuarios y los requisitos definidos para la solución.<br>Mantuvo la documentación correspondiente en GitHub, permitiendo que los integrantes pudieran consultar, revisar y dar continuidad al trabajo realizado.<br>La organización de estos artefactos permitió que el equipo avanzara de manera coordinada desde la identificación de necesidades hacia la especificación de requisitos, cumpliendo las actividades planificadas para AV1.                       | _AV1_<br>El equipo estableció como meta de la primera iteración la publicación del Landing Page y la especificación de los requisitos del producto, y organizó el trabajo en tareas asignadas a integrantes específicos para alcanzarla.<br>El uso de un tablero de control y de ramas de feature independientes permitió que varios integrantes avanzaran en paralelo sin bloquearse entre sí.<br>La incorporación de accesibilidad e internacionalización desde la primera versión del producto, y no como una corrección posterior, reflejó el compromiso del equipo con una solución inclusiva. |
 
 <hr>
 
@@ -2471,16 +2490,20 @@ El video About-the-Product presenta BottleTrack a los visitantes del Landing Pag
 
 3. El Sprint 1 mostró una brecha entre lo planificado y lo entregado (27 story points comprometidos frente a 8 realmente completados): el equipo priorizó cerrar la documentación técnica y la Landing Page, dejando las pantallas de identidad, usuarios y empresa solo a nivel de diseño en Figma, sin pasar a implementación.
 
+4. La revisión de AV1 mostró que cumplir la forma exacta de cada artefacto pesa tanto como su contenido. Por ello, el equipo reescribió el Problem Statement con la plantilla Brand new initiative, completó el Lean UX Canvas, analizó las entrevistas con variables y porcentajes, reordenó el Product Backlog según el valor para el negocio y rehízo los diagramas de clases y de base de datos con una sola convención de nombres en inglés.
+
 ### Recomendaciones
 
 1. Cerrar el diseño en Figma de cada pantalla *antes* de comprometerla en un sprint de implementación, para evitar que el tiempo de desarrollo se use en decisiones de diseño pendientes.
 
 2. Recalibrar la Sprint Velocity del equipo usando el dato real del Sprint 1 (8 puntos) en lugar de la capacidad estimada inicialmente (27), y reservar explícitamente horas para trabajo de documentación en la planificación de los siguientes sprints, en vez de tratarlo como actividad paralela sin costo.
 
-3. Resolver antes del Sprint 2 los dos puntos de arquitectura que quedaron abiertos: si el Bounded Context "Monitoreo IoT" sigue en alcance (no hay ninguna User Story que use sensores o alertas de dispositivo) y si se debe incorporar al C4 Model el sistema externo de mapas/geolocalización que piden EP09 y TS12 — ambos afectan directamente el Class Diagram, el Database Diagram y la estimación de las historias pendientes.
+3. Mantener la trazabilidad entre las secciones del informe cada vez que cambia una decisión. Tras la revisión de AV1, el equipo alineó los segmentos objetivo, los User Personas, las User Stories, el Landing Page y la arquitectura alrededor de las mismas tres decisiones: tres segmentos, el conductor como actor que no usa la aplicación y el monitoreo IoT dentro del alcance con lecturas simuladas.
 
 <a id="video-about-the-team"></a>
 ## Video About-the-Team.
+
+El video About-the-Team presenta a los integrantes de CodeCrafters, su motivación para construir BottleTrack y la forma en que el equipo trabajó en cada Sprint, incluyendo los testimonios que sustentan el Student Outcome. Tiene una duración aproximada de 5 minutos más 1 minuto por integrante, se publica en Microsoft Stream y en YouTube, y se incrusta en la sección *The team* del Landing Page.
 
 <hr>
 
@@ -2532,9 +2555,6 @@ En esta sección se registra de forma progresiva el video de exposición corresp
 | Entrega | Título del video | Enlace |
 | :------ | :--------------- | :----- |
 | AV1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-av1 | _Pendiente de publicación._ |
-| TB1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb1 | _Pendiente de publicación._ |
-| AV2 | upc-pre-202620-1asi0730-8084-codecrafters-expo-av2 | _Pendiente de publicación._ |
-| TB2 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb2 | _Pendiente de publicación._ |
 
 <hr>
 
@@ -2546,7 +2566,6 @@ En esta sección se consolidan los videos de entrevistas realizadas durante el c
 | Proceso | Sprint | Nombre del archivo | Enlace |
 | :------ | :----- | :----------------- | :----- |
 | Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | _Pendiente de publicación._ |
-| Validation Interviews | Sprint 3 | upc-pre-202620-1asi0730-8084-codecrafters-validation-sprint-3 | _Pendiente de publicación._ |
 
 <hr>
 
@@ -2567,14 +2586,11 @@ En esta sección se relacionan los repositorios de la organización pública de 
 <a id="anexo-d-productos-desplegados"></a>
 ## Anexo D. Productos Desplegados
 
-En esta sección se registran las URL de los productos publicados, que se irán incorporando conforme cada uno alcance su primer despliegue.
+En esta sección se registran las URL de los productos publicados. Cada producto se incorpora a la tabla en la entrega en que alcanza su primer despliegue.
 
 | Producto | Plataforma de despliegue | URL |
 | :------- | :----------------------- | :-- |
-| Landing Page | GitHub Pages | _Pendiente de publicación._ |
-| Frontend Web Application | Vercel | _Pendiente de publicación._ |
-| Web Services | Por definir | _Pendiente de publicación._ |
-| Documentación de la API | Swagger | _Pendiente de publicación._ |
+| Landing Page | GitHub Pages | https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/ |
 
 <hr>
 
@@ -2585,8 +2601,28 @@ En esta sección se registran los espacios de trabajo compartidos que el equipo 
 
 | Herramienta | Propósito | Enlace |
 | :---------- | :-------- | :----- |
-| Trello | Product Backlog y Sprint Backlog | _Pendiente de registro._ |
+| Trello | Product Backlog y Sprint Backlog | https://trello.com/b/jGpO815B/bottletrack-product-backlog |
 | UXPressia | User Personas, Empathy Maps, Journey Maps e Impact Map | _Pendiente de registro._ |
-| Miro | Big Picture EventStorming y Design-Level EventStorming | _Pendiente de registro._ |
+| Miro | Big Picture EventStorming y Design-Level EventStorming | https://miro.com/app/board/uXjVHm-Usq4=/ |
 | Figma | Wireframes, Mock-ups y Prototypes | _Pendiente de registro._ |
-| Structurizr | Diagramas C4 de arquitectura de software | _Pendiente de registro._ |
+| Structurizr DSL | Diagramas C4 de arquitectura de software | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report/tree/main/img/DD-SoftwareArchitecture |
+| PlantUML | Diagramas de clases y de base de datos | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report/tree/main/img/Software-Object-Oriented-Design |
+
+<hr>
+
+<a id="anexo-f-codigo-fuente-de-diagramas"></a>
+## Anexo F. Código Fuente de los Diagramas
+
+Los diagramas de arquitectura, de clases y de base de datos se elaboraron como Diagram-as-Code, una de las alternativas que contempla el enunciado del trabajo final. El código fuente se conserva en el repositorio del informe como evidencia del proceso de elaboración y permite regenerar cada imagen ante cualquier cambio del modelo.
+
+| Diagrama | Lenguaje | Archivo fuente |
+| :------- | :------- | :------------- |
+| C4 - System Context | Structurizr DSL | `img/DD-SoftwareArchitecture/contextDiagram.txt` |
+| C4 - Containers | Structurizr DSL | `img/DD-SoftwareArchitecture/containerDiagram.txt` |
+| C4 - Components, Identity and Access Management | Structurizr DSL | `img/DD-SoftwareArchitecture/componentIAM_D.txt` |
+| C4 - Components, Fleet Management | Structurizr DSL | `img/DD-SoftwareArchitecture/componentFleetM_D.txt` |
+| C4 - Components, Operations and Routes | Structurizr DSL | `img/DD-SoftwareArchitecture/componentO&R_D.txt` |
+| C4 - Components, IoT Monitoring | Structurizr DSL | `img/DD-SoftwareArchitecture/componentIoTM_D.txt` |
+| C4 - Components, Incident Management | Structurizr DSL | `img/DD-SoftwareArchitecture/componentIM_D.txt` |
+| Class Diagram | PlantUML | `img/Software-Object-Oriented-Design/class-diagrams.puml` |
+| Database Diagram | PlantUML | `img/Database-Design/database-diagram.puml` |
