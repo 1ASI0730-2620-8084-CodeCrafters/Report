@@ -1442,85 +1442,82 @@ Las Technical Stories representan los requisitos técnicos necesarios para imple
 <a id="33-product-backlog"></a>
 ## 3.3. Product Backlog
 
-El Product Backlog de BottleTrack contiene las User Stories y Technical Stories identificadas para el desarrollo del producto.
+El Product Backlog de BottleTrack contiene las 47 User Stories y las 15 Technical Stories del producto. Se administra en Trello y se encuentra disponible de forma pública en el siguiente enlace: https://trello.com/b/jGpO815B/bottletrack-product-backlog
 
-La priorización considera principalmente las dependencias técnicas entre funcionalidades (una operación no puede crearse sin usuarios ni recursos de flota registrados) y el valor aportado al core business de BottleTrack, representado por el proceso de creación, ejecución y seguimiento de una operación de transporte.
+El orden lo determina el valor que cada historia aporta al negocio y a los segmentos objetivo:
 
-Las estimaciones utilizan la escala de Story Points:
+1. **Landing Page.** Encabeza el backlog porque es el primer punto de contacto del visitante con el modelo de negocio y debe estar disponible desde el primer Sprint. Incluye una historia por segmento, cada una con su llamada a la acción hacia la Web Application.
+2. **Core business.** Le sigue el flujo que resuelve el dolor principal identificado en las entrevistas: crear una operación, ordenar sus puntos de entrega, registrar el resultado de cada entrega y documentar las incidencias. El 100 % de los supervisores entrevistados depende hoy de WhatsApp para estas tareas.
+3. **Recursos de flota.** Se ubican después del core porque solo son útiles en la medida en que alimentan una operación.
+4. **Diferenciales.** El monitoreo IoT de la carga y la vista de seguimiento para la bodega distinguen a BottleTrack de la competencia.
+5. **Analítica, administración y acceso.** Los indicadores, el historial y las historias de autenticación cierran el backlog, ya que son procesos de soporte y no generan valor por sí mismos.
 
-**1, 2, 3, 5 y 8.**
+Las Technical Stories se ordenan siguiendo el mismo criterio que las User Stories que soportan. Las estimaciones utilizan la escala de Story Points **1, 2, 3, 5 y 8**.
 
-| Orden | ID | Título | Story Points | Epic |
-| ---: | --- | --- | ---: | --- |
-| 1 | US09 | Gestionar información de empresa | 3 | EP03 - Company Management |
-| 2 | US07 | Gestionar usuarios | 5 | EP03 - Company Management |
-| 3 | US08 | Asignar rol a usuario | 3 | EP03 - Company Management |
-| 4 | US04 | Iniciar sesión | 5 | EP02 - Identity and Access Management |
-| 5 | US05 | Cerrar sesión | 1 | EP02 - Identity and Access Management |
-| 6 | US06 | Consultar perfil | 2 | EP02 - Identity and Access Management |
-| 7 | US10 | Registrar vehículo | 3 | EP04 - Fleet Management |
-| 8 | US11 | Actualizar vehículo | 2 | EP04 - Fleet Management |
-| 9 | US12 | Consultar vehículos disponibles | 2 | EP04 - Fleet Management |
-| 10 | US13 | Registrar conductor | 3 | EP04 - Fleet Management |
-| 11 | US14 | Actualizar conductor | 2 | EP04 - Fleet Management |
-| 12 | US15 | Consultar conductores disponibles | 2 | EP04 - Fleet Management |
-| 13 | US16 | Crear operación de transporte | 5 | EP05 - Transport Operations Management |
-| 14 | US17 | Asignar vehículo a operación | 3 | EP05 - Transport Operations Management |
-| 15 | US18 | Asignar conductor a operación | 3 | EP05 - Transport Operations Management |
-| 16 | US19 | Consultar operaciones | 3 | EP05 - Transport Operations Management |
-| 17 | US21 | Iniciar operación | 2 | EP05 - Transport Operations Management |
-| 18 | US22 | Finalizar operación | 3 | EP05 - Transport Operations Management |
-| 19 | US23 | Registrar punto de entrega | 5 | EP06 - Delivery Management |
-| 20 | US24 | Organizar puntos de entrega | 3 | EP06 - Delivery Management |
-| 21 | US25 | Consultar ruta de una operación | 3 | EP06 - Delivery Management |
-| 22 | US26 | Consultar detalle de entrega | 2 | EP06 - Delivery Management |
-| 23 | US27 | Actualizar estado de entrega | 5 | EP06 - Delivery Management |
-| 24 | US28 | Registrar entrega parcial | 3 | EP06 - Delivery Management |
-| 25 | US29 | Registrar entrega no realizada | 3 | EP06 - Delivery Management |
-| 26 | US30 | Registrar incidencia | 5 | EP07 - Incident Management |
-| 27 | US31 | Adjuntar evidencia de incidencia | 5 | EP07 - Incident Management |
-| 28 | US32 | Consultar incidencias | 3 | EP07 - Incident Management |
-| 29 | US33 | Actualizar estado de incidencia | 3 | EP07 - Incident Management |
-| 30 | US34 | Consultar progreso de operación | 5 | EP08 - Monitoring and Analytics |
-| 31 | US35 | Consultar dashboard | 5 | EP08 - Monitoring and Analytics |
-| 32 | US36 | Consultar historial de operaciones | 3 | EP08 - Monitoring and Analytics |
-| 33 | US37 | Consultar detalle histórico | 3 | EP08 - Monitoring and Analytics |
-| 34 | US38 | Consultar ubicación de entrega | 5 | EP09 - External Services Integration |
-| 35 | US01 | Conocer BottleTrack | 3 | EP01 - Landing Page |
-| 36 | US02 | Conocer beneficios por segmento | 3 | EP01 - Landing Page |
-| 37 | US03 | Acceder a la aplicación | 2 | EP01 - Landing Page |
-| 38 | TS02 | User and Company REST API | 8 | EP03 - Company Management |
-| 39 | TS01 | Authentication REST API | 5 | EP02 - Identity and Access Management |
-| 40 | TS13 | OpenAPI Documentation | 5 | EP02 - Identity and Access Management |
-| 41 | TS03 | Vehicle Management REST API | 5 | EP04 - Fleet Management |
-| 42 | TS04 | Driver Management REST API | 5 | EP04 - Fleet Management |
-| 43 | TS05 | Transport Operations REST API | 8 | EP05 - Transport Operations Management |
-| 44 | TS06 | Resource Assignment Service | 5 | EP05 - Transport Operations Management |
-| 45 | TS07 | Delivery Management REST API | 8 | EP06 - Delivery Management |
-| 46 | TS08 | Incident Management REST API | 8 | EP07 - Incident Management |
-| 47 | TS09 | Incident Evidence Service | 5 | EP07 - Incident Management |
-| 48 | TS10 | Monitoring REST API | 8 | EP08 - Monitoring and Analytics |
-| 49 | TS11 | Operation History REST API | 5 | EP08 - Monitoring and Analytics |
-| 50 | TS12 | Maps Service Integration | 8 | EP09 - External Services Integration |
-
-### Criterios de priorización
-
-La priorización del Product Backlog considera los siguientes criterios:
-
-1. Dependencias técnicas entre funcionalidades (una operación no puede crearse ni asignarse sin que existan primero la empresa, los usuarios y los recursos de flota).
-2. Valor generado para las operaciones de transporte.
-3. Importancia para los principales usuarios de BottleTrack.
-4. Relación con el core business del producto.
-5. Necesidad para construir y validar el MVP.
-6. Complejidad estimada de implementación.
-
-El flujo principal priorizado es:
-
-**Registrar empresa y usuarios → Registrar vehículos y conductores → Crear operación → Asignar vehículo y conductor → Registrar puntos de entrega → Ejecutar ruta → Actualizar entregas → Registrar incidencias → Monitorear operación → Finalizar operación → Consultar historial.**
-
-Las User Stories relacionadas con el Landing Page deberán ser consideradas desde el primer Sprint (en paralelo, por un frontstream independiente) debido a que este producto forma parte del alcance requerido para BottleTrack, aunque su valor para el core business del transporte sea menor.
-
-Las Technical Stories representan principalmente el trabajo requerido en el Backend RESTful API para proporcionar los servicios utilizados por el Frontend Web Application.
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+| ---: | --- | --- | --- | ---: |
+| 1 | US01 | Conocer BottleTrack | Como visitante, deseo conocer qué es BottleTrack para determinar si la solución responde a mis necesidades. | 3 |
+| 2 | US02 | Conocer beneficios por segmento | Como visitante perteneciente a un segmento objetivo, deseo conocer los beneficios relacionados con mi perfil para comprender cómo BottleTrack podría ayudarme. | 3 |
+| 3 | US39 | Conocer beneficios para distribuidoras | Como visitante del segmento de empresas distribuidoras, deseo conocer cómo BottleTrack mejora el control de mis operaciones para evaluar si me conviene contratarlo. | 2 |
+| 4 | US40 | Conocer beneficios para supervisores | Como visitante del segmento de supervisores de flota, deseo conocer cómo BottleTrack me ayuda a seguir mis rutas para decidir si lo utilizo en mi jornada. | 2 |
+| 5 | US41 | Conocer beneficios para bodegas | Como visitante del segmento de bodegas y minimarkets, deseo conocer cómo puedo seguir mis pedidos para reducir la incertidumbre sobre su llegada. | 2 |
+| 6 | US03 | Acceder a la aplicación | Como visitante interesado en BottleTrack, deseo acceder a la aplicación web para continuar mi experiencia con el producto. | 2 |
+| 7 | US42 | Contactar a CodeCrafters | Como visitante interesado, deseo conocer los medios de contacto y las redes sociales de CodeCrafters para solicitar una demostración. | 1 |
+| 8 | US16 | Crear operación de transporte | Como supervisor de flota, deseo registrar una operación de transporte para organizar una nueva jornada de distribución. | 5 |
+| 9 | US17 | Asignar vehículo a operación | Como supervisor de flota, deseo asignar un vehículo disponible a una operación para establecer el recurso que realizará el transporte. | 3 |
+| 10 | US18 | Asignar conductor a operación | Como supervisor de flota, deseo asignar un conductor disponible a una operación para determinar quién será responsable de ejecutarla. | 3 |
+| 11 | US23 | Registrar punto de entrega | Como supervisor de flota, deseo agregar puntos de entrega a una operación para establecer los establecimientos que deberán ser atendidos. | 5 |
+| 12 | US24 | Organizar puntos de entrega | Como supervisor de flota, deseo establecer el orden de los puntos de entrega para definir la secuencia de atención de la operación. | 3 |
+| 13 | US25 | Consultar ruta de una operación | Como supervisor de flota, deseo consultar los puntos de entrega de una operación para conocer los lugares que deben ser atendidos. | 3 |
+| 14 | US21 | Iniciar operación | Como supervisor de flota, deseo iniciar una operación de transporte para registrar que la ejecución de la ruta ha comenzado. | 2 |
+| 15 | US27 | Actualizar estado de entrega | Como supervisor de flota, deseo actualizar el estado de una entrega para registrar el resultado de la visita reportado por el conductor. | 5 |
+| 16 | US28 | Registrar entrega parcial | Como supervisor de flota, deseo registrar una entrega parcial para dejar constancia de que solo una parte de los productos pudo ser entregada. | 3 |
+| 17 | US29 | Registrar entrega no realizada | Como supervisor de flota, deseo registrar que una entrega no pudo realizarse para dejar constancia del resultado de la visita. | 3 |
+| 18 | US34 | Consultar progreso de operación | Como supervisor de flota, deseo consultar el progreso de una operación para conocer el estado de sus entregas. | 5 |
+| 19 | US30 | Registrar incidencia | Como supervisor de flota, deseo registrar una incidencia para dejar constancia de un problema ocurrido durante una operación o entrega. | 5 |
+| 20 | US31 | Adjuntar evidencia de incidencia | Como supervisor de flota, deseo adjuntar evidencia a una incidencia para complementar la información del problema ocurrido. | 5 |
+| 21 | US32 | Consultar incidencias | Como supervisor de flota, deseo consultar las incidencias registradas para conocer los problemas ocurridos durante las operaciones. | 3 |
+| 22 | US33 | Actualizar estado de incidencia | Como supervisor de flota, deseo actualizar el estado de una incidencia para realizar seguimiento hasta su resolución. | 3 |
+| 23 | US22 | Finalizar operación | Como supervisor de flota, deseo finalizar una operación cuando las actividades correspondientes hayan concluido para dejar constancia de su cierre. | 3 |
+| 24 | US19 | Consultar operaciones | Como supervisor de flota, deseo consultar las operaciones registradas para conocer su estado y principales datos. | 3 |
+| 25 | US26 | Consultar detalle de entrega | Como supervisor de flota, deseo consultar información de un punto de entrega para conocer los datos necesarios antes de dar seguimiento a su atención. | 2 |
+| 26 | US20 | Cancelar operación | Como supervisor de flota, deseo cancelar una operación que aún no ha iniciado para liberar el vehículo y el conductor asignados. | 2 |
+| 27 | US10 | Registrar vehículo | Como administrador o supervisor, deseo registrar un vehículo para incorporarlo a los recursos disponibles para las operaciones. | 3 |
+| 28 | US12 | Consultar vehículos disponibles | Como supervisor de flota, deseo conocer los vehículos disponibles para determinar cuáles pueden ser asignados a una operación. | 2 |
+| 29 | US13 | Registrar conductor | Como administrador o supervisor, deseo registrar un conductor para incorporarlo al personal disponible para las operaciones. | 3 |
+| 30 | US15 | Consultar conductores disponibles | Como supervisor de flota, deseo conocer los conductores disponibles para determinar quién puede ser asignado a una operación. | 2 |
+| 31 | US11 | Actualizar vehículo | Como administrador o supervisor, deseo actualizar la información de un vehículo para mantener los datos de la flota vigentes. | 2 |
+| 32 | US14 | Actualizar conductor | Como administrador o supervisor, deseo actualizar la información de un conductor para mantener sus datos vigentes. | 2 |
+| 33 | US43 | Consultar lecturas IoT de una operación | Como supervisor de flota, deseo consultar las lecturas de temperatura, golpes y ubicación de una operación en curso para conocer el estado de la carga. | 5 |
+| 34 | US44 | Recibir alerta de carga en riesgo | Como supervisor de flota, deseo recibir una alerta cuando una lectura salga del rango seguro o se detecte un golpe para actuar antes de que el producto se dañe. | 5 |
+| 35 | US45 | Configurar rango seguro | Como administrador, deseo configurar el rango seguro de temperatura y el umbral de golpes para adaptar las alertas al tipo de bebida transportada. | 3 |
+| 36 | US46 | Consultar estado de mi pedido | Como responsable de una bodega, deseo consultar el estado de mi pedido para saber cuándo llegará. | 3 |
+| 37 | US47 | Reportar problema de recepción | Como responsable de una bodega, deseo reportar un faltante o un producto dañado al recibir mi pedido para que quede constancia y la distribuidora lo atienda. | 5 |
+| 38 | US35 | Consultar dashboard | Como administrador o supervisor, deseo consultar indicadores generales para conocer rápidamente el estado de las operaciones de transporte. | 5 |
+| 39 | US36 | Consultar historial de operaciones | Como supervisor de flota, deseo consultar operaciones anteriores para revisar información histórica sobre entregas e incidencias. | 3 |
+| 40 | US37 | Consultar detalle histórico | Como supervisor de flota, deseo consultar el detalle de una operación finalizada para analizar los resultados de su ejecución. | 3 |
+| 41 | US38 | Consultar ubicación de entrega | Como supervisor de flota, deseo consultar la ubicación de un punto de entrega para facilitar la identificación del destino. | 5 |
+| 42 | US09 | Gestionar información de empresa | Como administrador, deseo mantener actualizada la información de la empresa para que BottleTrack utilice correctamente sus datos. | 3 |
+| 43 | US07 | Gestionar usuarios | Como administrador, deseo registrar y actualizar usuarios para controlar quiénes pueden utilizar BottleTrack dentro de la empresa. | 5 |
+| 44 | US08 | Asignar rol a usuario | Como administrador, deseo asignar roles a los usuarios para determinar las funcionalidades a las que pueden acceder. | 3 |
+| 45 | US04 | Iniciar sesión | Como usuario registrado, deseo autenticarme en BottleTrack para acceder a las funcionalidades correspondientes a mi rol. | 5 |
+| 46 | US05 | Cerrar sesión | Como usuario autenticado, deseo finalizar mi sesión para evitar accesos posteriores desde la sesión activa. | 1 |
+| 47 | US06 | Consultar perfil | Como usuario autenticado, deseo consultar la información de mi perfil para conocer los datos asociados con mi cuenta. | 2 |
+| 48 | TS05 | Transport Operations REST API | Como Developer, deseo disponer de servicios RESTful para crear, consultar y actualizar operaciones de transporte para soportar el proceso principal de BottleTrack. | 8 |
+| 49 | TS06 | Resource Assignment Service | Como Developer, deseo implementar servicios para asignar vehículos y conductores a operaciones para garantizar que los recursos utilizados se encuentren disponibles. | 5 |
+| 50 | TS07 | Delivery Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar puntos de entrega y sus estados para soportar la ejecución y seguimiento de las rutas. | 8 |
+| 51 | TS08 | Incident Management REST API | Como Developer, deseo disponer de servicios RESTful para registrar, consultar y actualizar incidencias para soportar el seguimiento de problemas ocurridos durante las operaciones. | 8 |
+| 52 | TS09 | Incident Evidence Service | Como Developer, deseo disponer de un servicio para gestionar evidencias asociadas a incidencias para conservar información complementaria de los problemas reportados. | 5 |
+| 53 | TS03 | Vehicle Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar vehículos para permitir que el Frontend gestione los recursos de la flota. | 5 |
+| 54 | TS04 | Driver Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar conductores para soportar la gestión del personal encargado de las operaciones. | 5 |
+| 55 | TS14 | IoT Telemetry REST API | Como Developer, deseo disponer de servicios RESTful para registrar y consultar lecturas de sensores y alertas para soportar el monitoreo de la carga. | 8 |
+| 56 | TS15 | Delivery Point Tracking REST API | Como Developer, deseo disponer de servicios RESTful para que una bodega consulte su pedido y reporte problemas de recepción. | 5 |
+| 57 | TS10 | Monitoring REST API | Como Developer, deseo disponer de servicios de consulta y cálculo de indicadores para soportar el seguimiento y dashboard de las operaciones de transporte. | 8 |
+| 58 | TS11 | Operation History REST API | Como Developer, deseo disponer de servicios para consultar operaciones finalizadas para proporcionar información histórica al Frontend Web Application. | 5 |
+| 59 | TS12 | Maps Service Integration | Como Developer, deseo integrar BottleTrack con un servicio externo de mapas o geolocalización para obtener información geográfica relacionada con los puntos de entrega. | 8 |
+| 60 | TS02 | User and Company REST API | Como Developer, deseo disponer de servicios RESTful para administrar usuarios, roles y empresas para soportar las funcionalidades administrativas de BottleTrack. | 8 |
+| 61 | TS01 | Authentication REST API | Como Developer, deseo disponer de servicios RESTful de autenticación para permitir que los usuarios autorizados accedan a BottleTrack. | 5 |
+| 62 | TS13 | OpenAPI Documentation | Como Developer, deseo documentar los servicios RESTful mediante OpenAPI para facilitar su comprensión, prueba e integración con el Frontend Web Application. | 5 |
 
 <hr>
 
