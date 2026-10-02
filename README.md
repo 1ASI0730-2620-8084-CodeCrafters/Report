@@ -367,107 +367,108 @@ Durante esta etapa se definirán las creencias iniciales del equipo sobre el neg
 <a id="1221-lean-ux-problem-statements"></a>
 #### 1.2.2.1. Lean UX Problem Statements
 
-BottleTrack corresponde a una nueva iniciativa, por lo que el Problem Statement se plantea considerando el estado actual del dominio, los segmentos involucrados, las brechas identificadas y la estrategia inicial del producto.
+BottleTrack corresponde a una nueva iniciativa, por lo que el equipo aplica la plantilla **Brand new initiative** de Lean UX y formula un único Problem Statement para todo el proyecto, considerando de forma conjunta los tres segmentos objetivo. El enunciado se construye a partir de los hallazgos del análisis 5W + 2H de la sección 1.2.1: el **Who** define los segmentos, el **What** y el **How** describen el flujo de trabajo actual y sus puntos de dolor, el **Where** y el **When** delimitan el momento en que ocurre el problema y el **How Much** se traduce en los indicadores con los que se medirá el éxito.
 
-##### Problem Statement
+> **Problem Statement**
+>
+> El estado actual de la distribución de bebidas embotelladas en Lima se ha enfocado principalmente en que las **empresas distribuidoras** y sus **supervisores de flota** coordinen vehículos, conductores, rutas y puntos de entrega mediante hojas de cálculo, mensajes de WhatsApp y llamadas telefónicas, mientras que las **bodegas y minimarkets** reciben los pedidos sin conocer su estado ni contar con un canal formal para reportar faltantes o productos dañados.
+>
+> Lo que los productos y servicios existentes no logran resolver es una solución especializada y de baja complejidad para pequeñas y medianas distribuidoras: las plataformas de última milla como SimpliRoute, Drivin y DispatchTrack se concentran en la optimización de rutas para múltiples industrias, con un costo y una curva de adopción elevados, y no consideran los riesgos propios del producto embotellado, como las botellas rotas, los faltantes y la merma.
+>
+> Nuestro producto abordará esta brecha mediante una aplicación web responsive que centralice en un solo lugar las operaciones de transporte, el estado de cada punto de entrega, el registro de incidencias con evidencia y el monitoreo de la carga mediante dispositivos IoT, bajo un modelo de suscripción SaaS.
+>
+> Nuestro enfoque inicial serán los **supervisores de flota de distribuidoras pequeñas y medianas de Lima Metropolitana**, que son quienes hoy consolidan manualmente la información de la jornada, junto con los administradores de esas empresas y las bodegas que atienden.
+>
+> Sabremos que hemos tenido éxito cuando observemos que los supervisores consultan el estado de una operación en menos de 1 minuto sin llamar al conductor, que al menos el 80 % de las incidencias de una jornada queda registrada con evidencia en la plataforma y que el 70 % de las bodegas atendidas consulta el estado de su pedido antes de comunicarse con la distribuidora.
 
-El estado actual de la distribución de bebidas embotelladas requiere que las empresas distribuidoras, supervisores de flota, conductores y repartidores coordinen vehículos, rutas, puntos de entrega y diferentes situaciones que pueden ocurrir durante las operaciones de transporte.
+**Restricciones que se aplican al Problem Statement**
 
-Las alternativas y procesos actualmente utilizados pueden no ofrecer una visión centralizada de todos los elementos involucrados en una operación, dificultando el seguimiento de las entregas y el registro organizado de las incidencias.
-
-BottleTrack busca abordar esta brecha mediante una plataforma web que centralice la gestión de vehículos, conductores, rutas, entregas e incidencias relacionadas con las operaciones de distribución.
-
-Nuestro enfoque inicial estará dirigido principalmente a los **supervisores o encargados de flota y conductores o repartidores de empresas distribuidoras de bebidas**, considerando también a las bodegas y minimarkets como actores relacionados con el proceso de entrega.
-
-Consideraremos que BottleTrack está generando valor cuando los usuarios puedan consultar el estado de sus operaciones, registrar el avance de las entregas y comunicar incidencias utilizando una única plataforma de manera sencilla y comprensible.
+- El alcance se limita al transporte de bebidas embotelladas desde el centro de distribución hasta el punto de entrega; no incluye facturación, inventario ni contabilidad.
+- Los usuarios de la aplicación son el administrador de la distribuidora, el supervisor de flota y el responsable de la bodega. El conductor participa del proceso, pero el registro de los resultados de la ruta lo realiza el supervisor.
+- La optimización automática de rutas queda fuera del alcance; el orden de las paradas lo define el supervisor.
+- Durante el desarrollo, las lecturas de los dispositivos IoT se simulan desde el RESTful API, ya que el equipo no dispone de hardware físico.
+- La solución debe funcionar en navegadores de escritorio y móviles, y estar disponible en inglés y en español latinoamericano.
 
 ---
 
 <a id="1222-lean-ux-assumptions"></a>
 #### 1.2.2.2. Lean UX Assumptions
 
-Las siguientes assumptions representan las creencias iniciales de CodeCrafters y deberán ser validadas mediante investigación con los segmentos objetivo.
+Las assumptions representan las creencias iniciales de CodeCrafters. Cada una se redacta de forma que pueda ser validada o refutada con un dato concreto, ya sea durante las entrevistas o durante el uso de la aplicación.
 
 ##### Business Assumptions
 
-- Creemos que existe una necesidad de mejorar la gestión y seguimiento de las operaciones de transporte en empresas distribuidoras de bebidas.
-- Creemos que centralizar la información de las operaciones puede generar valor para las empresas distribuidoras.
-- Creemos que una solución especializada en seguimiento de transporte puede diferenciarse de herramientas genéricas utilizadas para registrar información.
-- Creemos que BottleTrack puede funcionar bajo un modelo de negocio **Software as a Service (SaaS)**.
-- Creemos que empresas distribuidoras podrían estar dispuestas a pagar una suscripción periódica si la plataforma demuestra beneficios en la gestión de sus operaciones.
+- Creemos que las distribuidoras pequeñas y medianas de Lima, con flotas de entre 3 y 20 vehículos, no utilizan una plataforma especializada y coordinan sus operaciones con Excel y WhatsApp.
+- Creemos que el principal costo oculto de estas distribuidoras es el tiempo que el supervisor dedica a consolidar información y la merma que no queda registrada.
+- Creemos que estas empresas pagarían una suscripción mensual calculada por vehículo, siempre que el costo sea inferior al de las plataformas de última milla existentes.
+- Creemos que una plataforma especializada en el producto embotellado se diferencia lo suficiente de las soluciones genéricas como para justificar el cambio de herramienta.
+- Creemos que las bodegas pueden convertirse en un canal de adopción: si reciben información de sus pedidos, presionarán a otras distribuidoras para que usen la misma plataforma.
 
 ##### Business Outcome Assumptions
 
-- Creemos que BottleTrack puede reducir el tiempo requerido por los supervisores para conocer el estado de una operación.
-- Creemos que la plataforma puede incrementar la cantidad de operaciones cuyo estado puede ser consultado desde un único sistema.
-- Creemos que BottleTrack puede aumentar la cantidad de incidencias que quedan registradas y disponibles para seguimiento.
-- Creemos que una experiencia sencilla puede favorecer el uso recurrente de la plataforma por parte de los usuarios.
-- Creemos que las empresas que perciban mejoras en la visibilidad de sus operaciones tendrán mayor disposición a continuar utilizando el servicio.
+- Creemos que BottleTrack reducirá en al menos 25 % el tiempo que el supervisor dedica a consolidar el estado de la jornada.
+- Creemos que al menos el 80 % de las operaciones de las empresas piloto quedará registrado y será consultable en la plataforma durante los primeros 6 meses.
+- Creemos que el porcentaje de incidencias registradas con evidencia pasará de un registro informal en WhatsApp a más del 80 % dentro de la plataforma.
+- Creemos que al menos el 60 % de las empresas que completen un piloto de 3 meses contratará una suscripción.
 
 ##### User Assumptions
 
-- Creemos que los supervisores o encargados de flota necesitan conocer el estado de las rutas y entregas que supervisan.
-- Creemos que los conductores y repartidores necesitan consultar las operaciones y puntos de entrega que tienen asignados.
-- Creemos que los conductores necesitan una forma rápida de comunicar problemas ocurridos durante una entrega.
-- Creemos que las bodegas y minimarkets se ven afectados cuando existen retrasos, faltantes o productos dañados.
-- Creemos que los usuarios involucrados en las operaciones valorarán una plataforma que pueda utilizarse desde diferentes dispositivos.
-- Creemos que los conductores utilizarán principalmente dispositivos móviles durante las operaciones de transporte.
+- Creemos que el supervisor de flota es quien más tiempo pierde, porque debe llamar o escribir a cada conductor para conocer el avance de la ruta.
+- Creemos que el administrador de la distribuidora necesita indicadores consolidados y el historial de operaciones para tomar decisiones, no el detalle de cada parada.
+- Creemos que el responsable de la bodega no sabe a qué hora llegará su pedido y comunica los problemas de recepción por WhatsApp o por teléfono, sin que quede constancia.
+- Creemos que el supervisor alterna entre la computadora y el smartphone durante la jornada, mientras que la bodega utiliza principalmente el smartphone.
 
 ##### User Outcome and Benefit Assumptions
 
-- Creemos que los supervisores desean conocer rápidamente qué operaciones se encuentran en curso, completadas o presentan problemas.
-- Creemos que los conductores desean registrar el resultado de una entrega sin realizar procesos complejos.
-- Creemos que los supervisores desean reducir la necesidad de recopilar manualmente información de diferentes fuentes.
-- Creemos que los conductores desean comunicar una incidencia de forma rápida y dejar constancia de lo ocurrido.
-- Creemos que las empresas desean disponer de un historial de operaciones que pueda ser consultado posteriormente.
-- Creemos que una mayor disponibilidad de información permitirá responder con mayor rapidez ante problemas durante una distribución.
+- Creemos que el supervisor desea saber en todo momento qué entregas se completaron, cuáles están pendientes y cuáles presentan un problema, sin depender de llamadas.
+- Creemos que el administrador desea revisar el resultado de cada jornada y la merma acumulada para evaluar el desempeño de la operación.
+- Creemos que el responsable de la bodega desea conocer el estado de su pedido y dejar constancia de un faltante o de un producto dañado en el momento de la recepción.
+- Creemos que todos los usuarios valoran una herramienta que puedan aprender a usar en una sola jornada.
 
 ##### Feature Assumptions
 
-- Creemos que un **módulo de gestión de vehículos y conductores** permitirá organizar los recursos utilizados en las operaciones de transporte.
-- Creemos que un **módulo de gestión de operaciones y rutas** permitirá asignar vehículos, conductores y puntos de entrega de manera organizada.
-- Creemos que una **funcionalidad de seguimiento del estado de las entregas** permitirá conocer el avance de una operación.
-- Creemos que un **módulo de registro y seguimiento de incidencias** permitirá documentar los problemas ocurridos durante el transporte.
-- Creemos que un **dashboard de operaciones** permitirá a los supervisores identificar rápidamente el estado general de las rutas y entregas.
-- Creemos que una **interfaz web responsive** permitirá a los conductores consultar rutas y actualizar entregas desde dispositivos móviles.
+- Creemos que un **módulo de gestión de flota** permitirá mantener actualizada la disponibilidad de vehículos y conductores.
+- Creemos que un **módulo de operaciones y rutas** permitirá crear una operación, asignar recursos y ordenar sus puntos de entrega.
+- Creemos que el **seguimiento del estado de cada punto de entrega** permitirá conocer el avance de la operación sin llamar al conductor.
+- Creemos que un **módulo de incidencias con evidencia fotográfica** permitirá dejar constancia de las botellas rotas, los faltantes y los retrasos.
+- Creemos que el **monitoreo IoT de la carga con alertas** permitirá detectar golpes y temperaturas fuera de rango antes de que el producto llegue dañado.
+- Creemos que un **dashboard con indicadores e historial** permitirá al administrador evaluar el desempeño de las operaciones.
+- Creemos que una **vista de seguimiento para la bodega** permitirá conocer el estado del pedido y reportar problemas de recepción.
 
 ---
 
 <a id="1223-lean-ux-hypothesis-statements"></a>
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Los siguientes Hypothesis Statements se derivan directamente de los Feature Assumptions establecidos anteriormente.
+Se formula un Hypothesis Statement por cada Feature Assumption, siguiendo la plantilla *We believe we will achieve [business outcome] if [personas] attain [benefit] with [feature]*. Cada uno se vincula con el indicador de éxito del Problem Statement que permitirá validarlo.
 
-##### Hypothesis Statement 1 - Gestión de vehículos y conductores
-
-Creemos que lograremos **mejorar la organización de los recursos utilizados en las operaciones de transporte** si los **supervisores o encargados de flota** logran **consultar y gestionar de manera centralizada la información de los vehículos y conductores disponibles** mediante un **módulo de gestión de vehículos y conductores**.
-
-##### Hypothesis Statement 2 - Gestión de operaciones y rutas
-
-Creemos que lograremos **mejorar la organización de las operaciones de distribución** si los **supervisores o encargados de flota** logran **asignar vehículos, conductores y puntos de entrega de manera organizada** mediante un **módulo de gestión de operaciones y rutas**.
-
-##### Hypothesis Statement 3 - Seguimiento de entregas
-
-Creemos que lograremos **mejorar la visibilidad sobre el avance de las operaciones** si los **supervisores y conductores** logran **conocer y actualizar el estado de las diferentes entregas de una ruta** mediante una **funcionalidad de seguimiento del estado de las entregas**.
-
-##### Hypothesis Statement 4 - Registro de incidencias
-
-Creemos que lograremos **mejorar el registro y comunicación de los problemas ocurridos durante las operaciones** si los **conductores y supervisores** logran **registrar, consultar y realizar seguimiento de los eventos ocurridos durante una entrega** mediante un **módulo de registro y seguimiento de incidencias**.
-
-##### Hypothesis Statement 5 - Dashboard de operaciones
-
-Creemos que lograremos **reducir el esfuerzo requerido para conocer el estado general de las operaciones** si los **supervisores o encargados de flota** logran **identificar rápidamente rutas, entregas e incidencias relevantes** mediante un **dashboard de operaciones**.
-
-##### Hypothesis Statement 6 - Experiencia responsive
-
-Creemos que lograremos **facilitar la actualización de información durante las operaciones de transporte** si los **conductores y repartidores** logran **consultar sus rutas y registrar el estado de sus entregas desde el dispositivo que utilizan durante su jornada** mediante una **interfaz web responsive**.
+| # | Hypothesis Statement | Indicador de validación |
+| :- | :------------------- | :---------------------- |
+| H1 | Creemos que lograremos **reducir las operaciones que no pueden iniciarse por falta de recursos** si los **supervisores de flota** logran **conocer qué vehículos y conductores están disponibles al planificar la jornada** con un **módulo de gestión de flota**. | Porcentaje de operaciones reprogramadas por falta de recursos. |
+| H2 | Creemos que lograremos que **al menos el 80 % de las operaciones de las empresas piloto quede registrado** si los **supervisores de flota** logran **crear una operación, asignar sus recursos y ordenar sus paradas en un solo lugar** con un **módulo de operaciones y rutas**. | Operaciones registradas respecto del total de operaciones de la empresa. |
+| H3 | Creemos que lograremos **reducir en 25 % el tiempo dedicado a consolidar el estado de la jornada** si los **supervisores de flota** logran **conocer el avance de cada operación sin llamar al conductor** con el **seguimiento del estado de cada punto de entrega**. | Tiempo promedio para conocer el estado de una operación. |
+| H4 | Creemos que lograremos que **más del 80 % de las incidencias quede registrado con evidencia** si los **supervisores de flota** logran **dejar constancia de lo ocurrido en el momento en que se reporta** con un **módulo de incidencias con evidencia fotográfica**. | Incidencias con evidencia respecto del total reportado. |
+| H5 | Creemos que lograremos **reducir la merma por botellas rotas y producto dañado** si los **supervisores de flota** logran **detectar golpes y temperaturas fuera de rango durante el trayecto** con el **monitoreo IoT de la carga con alertas**. | Merma por operación antes y después del piloto. |
+| H6 | Creemos que lograremos que **el 60 % de las empresas piloto contrate una suscripción** si los **administradores de las distribuidoras** logran **evaluar el desempeño y la merma de sus operaciones** con un **dashboard con indicadores e historial**. | Tasa de conversión de piloto a suscripción. |
+| H7 | Creemos que lograremos **reducir las llamadas de las bodegas a la distribuidora** si los **responsables de bodegas y minimarkets** logran **conocer el estado de su pedido y reportar problemas de recepción** con una **vista de seguimiento para la bodega**. | Porcentaje de bodegas que consultan su pedido antes de llamar. |
 
 ---
 
 <a id="1224-lean-ux-canvas"></a>
-#### <i>**1.2.2.4. Lean UX Canvas.**</i>
+#### 1.2.2.4. Lean UX Canvas
 
+El Lean UX Canvas resume en un solo cuadro la propuesta del equipo. Cada casillero se alimenta de las secciones anteriores y de los hallazgos de las entrevistas registradas en el Capítulo II.
 
+| Casillero | Contenido |
+| :-------- | :-------- |
+| **1. Business Problem** | Las distribuidoras pequeñas y medianas de bebidas embotelladas coordinan sus operaciones con Excel, WhatsApp y llamadas. La información de la jornada queda dispersa, el supervisor invierte gran parte de su tiempo en consolidarla y la merma por botellas rotas y faltantes no queda registrada. Las plataformas existentes son costosas y no están especializadas en este producto. |
+| **2. Business Outcomes** | Reducir en 25 % el tiempo de consolidación del supervisor. Registrar el 80 % de las operaciones y de las incidencias en la plataforma. Convertir el 60 % de los pilotos en suscripciones. |
+| **3. Users** | Carlos Mendoza, administrador de una distribuidora. Luis Torres, supervisor de operaciones y flota. María Fernández, propietaria de un minimarket. |
+| **4. User Outcomes and Benefits** | Carlos revisa indicadores, merma e historial sin pedir reportes. Luis conoce el avance de cada ruta y atiende las incidencias sin llamar al conductor. María sabe cuándo llega su pedido y deja constancia de cualquier problema de recepción. |
+| **5. Solutions** | Gestión de flota. Operaciones y rutas con puntos de entrega ordenados. Seguimiento del estado de cada entrega. Incidencias con evidencia fotográfica. Monitoreo IoT con alertas de golpes y temperatura. Dashboard con historial. Vista de seguimiento para la bodega. |
+| **6. Hypotheses** | H1 a H7 de la sección 1.2.2.3. |
+| **7. What's the most important thing we need to learn first?** | Si los supervisores registrarán el resultado de cada entrega en la plataforma en lugar de hacerlo por WhatsApp, ya que de ese registro dependen el seguimiento, el dashboard y la vista de la bodega. |
+| **8. What's the least amount of work we need to do to learn the next most important thing?** | Un prototipo navegable en Figma del flujo *crear operación → actualizar entrega → registrar incidencia*, validado con los supervisores entrevistados, seguido de una primera versión de la aplicación web conectada a un API simulado con json-server. |
 
 <a id="13-segmentos-objetivo"></a>
 ## 1.3. Segmentos objetivo
