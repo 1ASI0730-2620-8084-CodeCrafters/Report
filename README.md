@@ -1103,40 +1103,99 @@ Estos artefactos permiten consolidar los hallazgos de la investigación y establ
 
 <a id="231-user-personas"></a>
 ### 2.3.1. User Personas.
+
+Cada User Persona representa a un segmento objetivo y se construyó con los valores más frecuentes de las variables analizadas en la sección 2.2.3. Los datos demográficos, los canales y las frustraciones provienen de lo que repitieron los entrevistados de cada segmento, y no de suposiciones del equipo.
+
 #### User Persona del Segmento Objetivo 1: Empresas distribuidoras de bebidas
-<img src="img/chapter2/user-persona-1.jpeg" alt="User Persona 1">
+
+Carlos Mendoza, de 42 años, administra una distribuidora de bebidas en Ate y tiene 12 años en el rubro. Representa al cliente que contrata BottleTrack. Su objetivo es tener visibilidad del estado de las entregas y un historial confiable para tomar decisiones, y su principal frustración es que la información de la operación está repartida entre distintos medios, tal como lo indicó el 100 % de los entrevistados del segmento.
+
+<img src="img/chapter2/user-persona-1.jpeg" alt="User Persona Carlos Mendoza, administrador de una empresa distribuidora de bebidas">
 
 #### User Persona del Segmento Objetivo 2: Supervisores o encargados de flota
-<img src="img/chapter2/user-persona-2.jpeg" alt="User Persona 2">
 
-#### User Persona del Segmento Objetivo 3: Bodegas y minimercados
-<img src="img/chapter2/user-persona-3.jpeg" alt="User Persona 3">
+Luis Torres, de 34 años, es supervisor de operaciones y encargado de flota en San Martín de Porres, con 8 años de experiencia. Es el usuario principal de la aplicación. Coordina la jornada desde la computadora y el smartphone, depende de los mensajes de WhatsApp para conocer el avance de las rutas y necesita identificar rápidamente las entregas con problemas.
+
+<img src="img/chapter2/user-persona-2.jpeg" alt="User Persona Luis Torres, supervisor de operaciones y encargado de flota">
+
+#### User Persona del Segmento Objetivo 3: Bodegas y minimarkets
+
+María Fernández, de 39 años, es propietaria de un minimarket en Los Olivos y trabaja con varios distribuidores. Necesita saber cuándo llegará su pedido y poder comunicar rápidamente un faltante o un producto dañado. Utiliza principalmente el smartphone, y sus canales son WhatsApp, el teléfono e Instagram.
+
+<img src="img/chapter2/user-persona-3.jpeg" alt="User Persona María Fernández, propietaria de un minimarket">
 
 <a id="232-user-task-matrix"></a>
 ### 2.3.2. User Task Matrix.
-<img src="img/chapter2/user-task-matrix.jpeg" alt="User Task Matix">
+
+El User Task Matrix compara las tareas que realiza cada User Persona según su frecuencia y su importancia. Las tareas marcadas con guion no forman parte de la actividad de esa Persona.
+
+| Tarea | Carlos Mendoza<br>Frecuencia | Carlos Mendoza<br>Importancia | Luis Torres<br>Frecuencia | Luis Torres<br>Importancia | María Fernández<br>Frecuencia | María Fernández<br>Importancia |
+| :---- | :-: | :-: | :-: | :-: | :-: | :-: |
+| Planificar operaciones de distribución | Alta | Alta | Alta | Alta | - | - |
+| Coordinar vehículos | Alta | Alta | Alta | Alta | - | - |
+| Coordinar recursos para las entregas | Alta | Alta | Alta | Alta | Media | Media |
+| Organizar rutas y puntos de entrega | Alta | Alta | Alta | Alta | - | - |
+| Coordinar entregas | Alta | Alta | Alta | Alta | Alta | Alta |
+| Consultar el avance de las entregas | Alta | Alta | Alta | Alta | Alta | Alta |
+| Verificar la recepción de productos | - | - | Media | Media | Alta | Alta |
+| Verificar cantidades recibidas | - | - | Media | Media | Alta | Alta |
+| Verificar condición de productos | - | - | Media | Media | Alta | Alta |
+| Comunicar retrasos | Alta | Alta | Alta | Alta | Media | Alta |
+| Comunicar faltantes o daños | Media | Alta | Alta | Alta | Alta | Alta |
+| Resolver problemas de entrega | Media | Alta | Alta | Alta | Media | Alta |
+| Registrar información de la operación | Alta | Alta | Alta | Alta | Media | Media |
+| Revisar operaciones anteriores | Media | Alta | Media | Alta | Baja | Media |
+| Evaluar resultados de la operación | Alta | Alta | Alta | Alta | Baja | Media |
+
+La única tarea con frecuencia e importancia altas para las tres Personas es **consultar el avance de las entregas**, por lo que el seguimiento del estado de cada punto de entrega se ubica en el centro del producto. La verificación de cantidades y condición es crítica solo para la bodega, lo que justifica una vista propia para ese segmento.
+
+<img src="img/chapter2/user-task-matrix.jpeg" alt="User Task Matrix de las tres User Personas">
 
 <a id="233-user-journey-mapping"></a>
 ### 2.3.3. User Journey Mapping.
+
+Los User Journey Maps representan el escenario As-Is de cada Persona, es decir, cómo realiza hoy su trabajo sin BottleTrack. Cada mapa recorre las etapas de la jornada e identifica en cada una las acciones, los canales, los pensamientos, las emociones, los puntos de dolor y las oportunidades.
+
 #### User Persona 1: Carlos Mendoza
-<img src="img/chapter2/user-journey-map-segmento-1.jpeg" alt="User Journey Mapping - Segmento 1">
+
+El recorrido del administrador atraviesa seis etapas: planificar la operación, coordinar recursos, ejecutar entregas, supervisar el avance, resolver incidencias y revisar resultados. Solo la primera y la última se realizan desde la laptop; las cuatro etapas centrales dependen de WhatsApp. La emoción pasa de la incertidumbre a la frustración y la ansiedad mientras espera actualizaciones y atiende incidencias, y recién se recupera al revisar los resultados. Las oportunidades identificadas son mostrar de forma organizada el estado de las operaciones y contar con un historial de operaciones e incidencias.
+
+<img src="img/chapter2/user-journey-map-segmento-1.jpeg" alt="User Journey Map As-Is de Carlos Mendoza">
 
 #### User Persona 2: Luis Torres
-<img src="img/chapter2/user-journey-map-segmento-2.jpeg" alt="User Journey Mapping - Segmento 2">
+
+El recorrido del supervisor atraviesa seis etapas: revisar operaciones, organizar recursos, coordinar rutas, dar seguimiento, atender incidencias y cerrar operaciones. Cuatro de ellas se realizan por WhatsApp. La emoción desciende hasta la frustración y la ansiedad en las etapas de seguimiento y atención de incidencias, porque depende de mensajes que pueden llegar tarde o incompletos. Las oportunidades identificadas son facilitar la consulta del estado de las entregas y registrar las incidencias relacionadas con cada entrega.
+
+<img src="img/chapter2/user-journey-map-segmento-2.jpeg" alt="User Journey Map As-Is de Luis Torres">
 
 #### User Persona 3: María Fernández
-<img src="img/chapter2/user-journey-map-segmento-3.jpeg" alt="User Journey Mapping - Segmento 3">
+
+El recorrido de la bodega atraviesa seis etapas: coordinar el pedido, esperar la entrega, recibir los productos, verificar el pedido, comunicar el problema y resolver la incidencia. La verificación se realiza con una lista impresa y la comunicación con el distribuidor, por WhatsApp. Los momentos de mayor tensión son la espera sin información clara sobre el estado de la entrega y la comunicación de un faltante o daño, que no queda registrada de forma organizada. Las oportunidades identificadas son informar el estado de la entrega y facilitar el registro de las diferencias detectadas en la recepción.
+
+<img src="img/chapter2/user-journey-map-segmento-3.jpeg" alt="User Journey Map As-Is de María Fernández">
 
 <a id="234-empathy-mapping"></a>
 ### 2.3.4. Empathy Mapping.
+
+Los Empathy Maps organizan lo que cada Persona dice, piensa, hace, ve, escucha y siente, junto con sus pains y gains. Permiten al equipo contrastar las tres perspectivas sobre un mismo proceso de distribución.
+
 #### User Persona 1: Carlos Mendoza
-<img src="img/chapter2/empathy-map-segmento-1.jpeg" alt="Empathy Mapping - Segmento 1">
+
+Su pain principal es no poder evaluar el desempeño de la operación sin pedir reportes, y su gain es la información centralizada y confiable para decidir.
+
+<img src="img/chapter2/empathy-map-segmento-1.jpeg" alt="Empathy Map de Carlos Mendoza">
 
 #### User Persona 2: Luis Torres
-<img src="img/chapter2/empathy-map-segmento-2.jpeg" alt="Empathy Mapping - Segmento 2">
+
+Su pain principal es la dependencia de los mensajes de los conductores, y su gain es saber en todo momento qué entregas se completaron, cuáles faltan y cuáles presentan un problema.
+
+<img src="img/chapter2/empathy-map-segmento-2.jpeg" alt="Empathy Map de Luis Torres">
 
 #### User Persona 3: María Fernández
-<img src="img/chapter2/empathy-map-segmento-3.jpeg" alt="Empathy Mapping - Segmento 3">
+
+Su pain principal es la incertidumbre sobre la llegada del pedido y la falta de constancia de los problemas, y su gain es recibir lo solicitado y comunicar una incidencia de forma rápida.
+
+<img src="img/chapter2/empathy-map-segmento-3.jpeg" alt="Empathy Map de María Fernández">
 
 <a id="24-big-picture-eventstorming"></a>
 ## 2.4. Big Picture EventStorming.
