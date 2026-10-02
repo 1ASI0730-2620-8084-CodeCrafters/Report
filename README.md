@@ -194,7 +194,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 Como parte de esta iniciativa, CodeCrafters desarrolla **BottleTrack**, una plataforma web enfocada en la **gestión y seguimiento del transporte de bebidas embotelladas**. La solución permite centralizar información relacionada con vehículos, conductores, rutas, entregas e incidencias ocurridas durante el proceso de distribución.
 
-BottleTrack está dirigida principalmente a **empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores y repartidores, así como bodegas y minimarkets que reciben los productos**.
+BottleTrack está dirigida principalmente a **empresas distribuidoras de bebidas, a sus supervisores o encargados de flota y a las bodegas y minimarkets que reciben los productos**.
 
 La plataforma busca mejorar la organización de las operaciones de transporte, facilitar el seguimiento de las entregas y permitir un mejor control de las incidencias que puedan presentarse durante la distribución.
 
@@ -226,8 +226,7 @@ BottleTrack está dirigido principalmente a los siguientes segmentos:
 
 * **Empresas distribuidoras de bebidas:** organizaciones que necesitan gestionar y supervisar sus operaciones de transporte y distribución.
 * **Supervisores o encargados de flota:** responsables de asignar vehículos, conductores y rutas, además de realizar el seguimiento de las operaciones.
-* **Conductores y repartidores:** usuarios encargados de realizar las rutas, actualizar el estado de las entregas y reportar incidencias durante el transporte.
-* **Bodegas y minimarkets:** establecimientos que reciben las bebidas y forman parte de los puntos de entrega dentro de las rutas de distribución.
+* **Bodegas y minimarkets:** establecimientos que reciben las bebidas, consultan el estado de sus pedidos y reportan los problemas de recepción.
 
 El principal valor diferencial de **BottleTrack** consiste en centralizar la gestión de las operaciones de transporte en una única plataforma, permitiendo conocer el estado de las entregas, registrar incidencias y mantener organizada la información relacionada con vehículos, conductores y rutas.
 
@@ -290,7 +289,7 @@ BottleTrack es una plataforma web desarrollada por CodeCrafters para apoyar la g
 
 La solución busca centralizar la información relacionada con vehículos, conductores, rutas, puntos de entrega e incidencias, permitiendo que las empresas distribuidoras tengan una mayor visibilidad sobre el desarrollo de sus operaciones.
 
-BottleTrack está orientado principalmente a empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores y repartidores, considerando también a las bodegas y minimarkets como actores relevantes dentro del proceso de distribución.
+BottleTrack está orientado a tres segmentos: las empresas distribuidoras de bebidas, sus supervisores o encargados de flota y las bodegas y minimarkets que reciben los productos. Los conductores participan en el proceso de distribución, pero no son usuarios directos de la aplicación: el resultado de cada entrega lo registra el supervisor a partir de lo que el conductor le reporta.
 
 <a id="121-antecedentes-y-problematica"></a>
 ### 1.2.1. Antecedentes y problemática
@@ -307,7 +306,7 @@ Para comprender inicialmente la problemática se aplica la técnica **5W + 2H (W
 
 | Pregunta | Descripción |
 | --- | --- |
-| **Who - ¿Quiénes están involucrados?** | Empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores, repartidores, bodegas y minimarkets. |
+| **Who - ¿Quiénes están involucrados?** | Empresas distribuidoras de bebidas y sus administradores, supervisores o encargados de flota, y bodegas y minimarkets. Los conductores participan como fuente de la información de la ruta. |
 | **What - ¿Cuál es el problema?** | Existe dificultad para centralizar y consultar el estado de las operaciones de transporte, incluyendo información de vehículos, conductores, rutas, entregas e incidencias. |
 | **Where - ¿Dónde ocurre?** | Durante las operaciones de distribución de bebidas, desde la salida del vehículo hasta los diferentes puntos de entrega como bodegas y minimarkets. |
 | **When - ¿Cuándo ocurre?** | Durante la planificación, ejecución y seguimiento de las operaciones de transporte y especialmente cuando se presentan retrasos, entregas incompletas u otras incidencias. |
@@ -319,7 +318,7 @@ Para comprender inicialmente la problemática se aplica la técnica **5W + 2H (W
 
 Las empresas que realizan distribución de bebidas embotelladas necesitan coordinar vehículos, conductores, rutas y múltiples puntos de entrega. Sin embargo, cuando la información relacionada con estas operaciones se encuentra dispersa o no puede ser consultada de manera centralizada, los supervisores pueden tener dificultades para conocer el avance de las rutas y responder oportunamente ante retrasos o incidencias.
 
-Los conductores y repartidores, por su parte, necesitan consultar las entregas asignadas y comunicar el resultado de cada una de ellas durante el desarrollo de su jornada.
+Las bodegas y minimarkets, por su parte, no conocen la hora de llegada de sus pedidos y comunican los faltantes o productos dañados por WhatsApp o por teléfono, sin que quede constancia de lo ocurrido.
 
 Esta situación genera una oportunidad para desarrollar una solución que permita organizar y mantener disponible la información relevante de las operaciones de transporte.
 
@@ -351,7 +350,7 @@ Para mantener un alcance viable durante el desarrollo del proyecto, se considera
 - La solución será desarrollada como una aplicación web responsive.
 - El proyecto se centrará inicialmente en la gestión y seguimiento de las operaciones de transporte.
 - La optimización automática avanzada de rutas no formará parte del alcance inicial.
-- La integración con dispositivos IoT o GPS podrá considerarse como una ampliación futura y no será indispensable para el funcionamiento del MVP.
+- El monitoreo con dispositivos IoT forma parte del alcance, pero durante el desarrollo las lecturas de los sensores se simulan desde el RESTful API, ya que el equipo no dispone de hardware físico.
 - La plataforma no reemplazará sistemas contables, de facturación o de inventario que puedan utilizar las empresas distribuidoras.
 - Las necesidades planteadas inicialmente deberán ser validadas mediante entrevistas con representantes reales de los segmentos objetivo.
 
@@ -477,7 +476,7 @@ Los segmentos objetivo de BottleTrack se encuentran relacionados con las diferen
 
 La definición presentada en esta etapa corresponde a una aproximación inicial realizada por CodeCrafters. Las características específicas, comportamientos y necesidades de cada segmento deberán ser posteriormente contrastadas mediante las entrevistas realizadas durante el proceso de Requirements Elicitation & Analysis.
 
-Los segmentos considerados inicialmente son las **empresas distribuidoras de bebidas**, los **supervisores o encargados de flota**, los **conductores y repartidores** y las **bodegas o minimarkets**.
+Los segmentos objetivo son las **empresas distribuidoras de bebidas**, los **supervisores o encargados de flota** y las **bodegas o minimarkets**. Los conductores y repartidores fueron considerados en la etapa inicial, pero el equipo decidió no tratarlos como segmento: no son quienes contratan ni quienes consultan la información, y su participación queda representada por los registros que realiza el supervisor.
 
 ### Empresas distribuidoras de bebidas
 
@@ -539,40 +538,6 @@ Son responsables de organizar y supervisar los recursos involucrados en las oper
 
 ---
 
-### Conductores y repartidores
-
-Los conductores y repartidores constituyen el segundo grupo principal de usuarios operativos de BottleTrack.
-
-Son responsables de ejecutar las rutas de distribución y trasladar las bebidas desde los puntos de origen hacia los establecimientos asignados.
-
-#### Características demográficas iniciales
-
-- **Edad referencial:** 21 a 55 años.
-- **Ocupación:** conductor de reparto, transportista o repartidor.
-- **Entorno laboral:** transporte y distribución de productos.
-- **Nivel de adopción tecnológica esperado:** bajo a medio.
-- **Dispositivo de mayor disponibilidad:** smartphone.
-
-
-#### Características del segmento
-
-- Realizan desplazamientos frecuentes durante su jornada laboral.
-- Atienden diferentes puntos de entrega.
-- Necesitan conocer la ruta y las entregas que tienen asignadas.
-- Deben comunicar problemas ocurridos durante el recorrido.
-- Utilizan dispositivos móviles con mayor frecuencia debido a la naturaleza de su trabajo.
-
-#### Necesidades iniciales identificadas
-
-- Consultar las entregas que deben realizar.
-- Conocer los diferentes puntos que forman parte de una ruta.
-- Registrar rápidamente el resultado de una entrega.
-- Comunicar retrasos, productos dañados, faltantes u otras incidencias.
-- Evitar procesos complejos que interfieran con la ejecución de sus actividades.
-
-
----
-
 ### Bodegas y minimarkets
 
 Las bodegas y minimarkets representan establecimientos que reciben los productos transportados por las empresas distribuidoras de bebidas.
@@ -613,15 +578,14 @@ A partir de la relación de cada segmento con las operaciones que busca soportar
 | Segmento | Relación con BottleTrack | Prioridad inicial |
 | --- | --- | --- |
 | **Supervisores o encargados de flota** | Gestionan y supervisan directamente las operaciones de transporte. | Muy alta |
-| **Conductores y repartidores** | Ejecutan las rutas y registran el resultado de las entregas. | Muy alta |
 | **Empresas distribuidoras de bebidas** | Constituyen el cliente organizacional y potencial comprador del servicio. | Alta |
-| **Bodegas y minimarkets** | Constituyen puntos de entrega y actores relevantes dentro del proceso de distribución. | Media - Alta |
+| **Bodegas y minimarkets** | Reciben los pedidos, consultan su estado y reportan los problemas de recepción. | Media |
 
-Los **supervisores o encargados de flota** y los **conductores o repartidores** serán considerados inicialmente los principales usuarios de la aplicación debido a su participación directa en la planificación, ejecución y seguimiento de las operaciones.
+Los **supervisores o encargados de flota** son los principales usuarios de la aplicación, debido a su participación directa en la planificación, ejecución y seguimiento de las operaciones.
 
 Las **empresas distribuidoras de bebidas** representan principalmente al cliente organizacional de BottleTrack, mientras que las **bodegas y minimarkets** permitirán comprender desde la perspectiva del receptor los problemas que pueden presentarse durante las entregas.
 
-Esta clasificación inicial será revisada después de realizar las entrevistas y analizar la información obtenida de representantes reales de cada segmento.
+Esta priorización fue contrastada con las entrevistas del Capítulo II, que confirmaron que el supervisor concentra la mayor parte de la coordinación diaria y que la bodega es la principal afectada por los retrasos y faltantes.
 <hr>
 
 
@@ -650,7 +614,7 @@ Los competidores seleccionados son:
 
 Estas plataformas constituyen competidores directos o parcialmente directos debido a que atienden necesidades relacionadas con la gestión de última milla, planificación de rutas, seguimiento de vehículos, control de entregas y comunicación de incidencias.
 
-A diferencia de estas soluciones, BottleTrack plantea inicialmente un enfoque orientado a las operaciones de distribución de bebidas embotelladas, buscando ofrecer una experiencia más acotada y sencilla para empresas distribuidoras, supervisores de flota y conductores o repartidores.
+A diferencia de estas soluciones, BottleTrack plantea inicialmente un enfoque orientado a las operaciones de distribución de bebidas embotelladas, buscando ofrecer una experiencia más acotada y sencilla para empresas distribuidoras, supervisores de flota y bodegas o minimarkets.
 
 ### Competidor 1: SimpliRoute
 
