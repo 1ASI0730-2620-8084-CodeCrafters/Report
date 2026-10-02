@@ -283,7 +283,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | :------------------------ | :--------------------------- |
 | **Código del Estudiante** | U202311912 |
 | **Carrera**               | Ingeniería de Software |
-| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Descripción**           | Mi nombre es Leonardo Raul Cumba Rengifo, tengo 20 años y curso la carrera de Ingeniería de Software. Me considero una persona creativa y responsable. En mis tiempos libres me gusta aprender cosas nuevas. En este proyecto aporto todos los conocimientos que he adquirido en los últimos años. |
 | **Foto**                  | <img src="img/team-members/leonardo-cumba.jpeg" alt="Fotografía de Leonardo Raul Cumba Rengifo" width="140"> |
 
 ---
@@ -1231,7 +1231,7 @@ Su pain principal es la incertidumbre sobre la llegada del pedido y la falta de 
 
 En esta sección el equipo introduce y resume el proceso realizado durante la sesión de Big Picture EventStorming, cuyo propósito fue comprender el dominio del transporte de bebidas embotelladas en general, plasmando los eventos significativos del negocio y sus relaciones antes de considerar cualquier decisión de software.
 
-El tablero se elaboró en Miro y se encuentra disponible en el siguiente enlace: https://miro.com/app/board/uXjVHm-Usq4=/
+El tablero se elaboró en Miro y se encuentra disponible en el siguiente enlace: https://miro.com/welcomeonboard/aEpQNnI1bURVdldqRzNDWk5aUnR6bStSQnhiSmpuYi9RM01sVkxtOWNsM3V5T1NkRW5pdHFuZ003VHcrV0hxR29tQ0xvRTJHV1VNTzNYUWV1VmwyWUZGRzlld2tuSnZKRTNrM3RnczNnc0NMQWt2WlB6WnEzRXBES1h0d2svaStnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=491275847129
 
 **Desarrollo de la sesión**
 
@@ -2010,7 +2010,7 @@ Los bounded contexts no acceden a las tablas de los demás. Se comunican a trav�
 
 El Design-Level EventStorming parte de los eventos del Big Picture de la sección 2.4 y los agrupa por bounded context. Para cada contexto se identificaron los **agregados** (amarillo), los **comandos** que reciben (azul), los **eventos de dominio** que publican (naranja), las **políticas** que reaccionan a esos eventos (morado) y los **read models** que consultan los usuarios (verde). Las políticas definen las reglas que cruzan contextos, por ejemplo: *cuando se completa una operación, liberar el vehículo y el conductor*, o *cuando se levanta una alerta crítica, abrir una incidencia*.
 
-El tablero se encuentra disponible en: https://miro.com/app/board/uXjVHm-Usq4=/
+El tablero se encuentra disponible en: https://miro.com/welcomeonboard/aEpQNnI1bURVdldqRzNDWk5aUnR6bStSQnhiSmpuYi9RM01sVkxtOWNsM3V5T1NkRW5pdHFuZ003VHcrV0hxR29tQ0xvRTJHV1VNTzNYUWV1VmwyWUZGRzlld2tuSnZKRTNrM3RnczNnc0NMQWt2WlB6WnEzRXBES1h0d2svaStnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=491275847129
 
 <img src="img/chapter4/design-level-eventstorming.jpeg" alt="Design-Level EventStorming con los cinco bounded contexts de BottleTrack">
 
@@ -2623,7 +2623,7 @@ En esta sección se registran los espacios de trabajo compartidos que el equipo 
 | :---------- | :-------- | :----- |
 | Trello | Product Backlog y Sprint Backlog | https://trello.com/b/jGpO815B/bottletrack-product-backlog |
 | UXPressia | User Personas, Empathy Maps, Journey Maps e Impact Map | _Pendiente de registro._ |
-| Miro | Big Picture EventStorming y Design-Level EventStorming | https://miro.com/app/board/uXjVHm-Usq4=/ |
+| Miro | Big Picture EventStorming y Design-Level EventStorming | https://miro.com/welcomeonboard/aEpQNnI1bURVdldqRzNDWk5aUnR6bStSQnhiSmpuYi9RM01sVkxtOWNsM3V5T1NkRW5pdHFuZ003VHcrV0hxR29tQ0xvRTJHV1VNTzNYUWV1VmwyWUZGRzlld2tuSnZKRTNrM3RnczNnc0NMQWt2WlB6WnEzRXBES1h0d2svaStnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=491275847129 |
 | Figma | Wireframes, Mock-ups y Prototypes | https://www.figma.com/design/lBVdrnyGUWfjN6Mz4fhBpY/BOTTLETRACK?node-id=0-1 |
 | Structurizr DSL | Diagramas C4 de arquitectura de software | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report/tree/main/img/DD-SoftwareArchitecture |
 | PlantUML | Diagramas de clases y de base de datos | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report/tree/main/img/Software-Object-Oriented-Design |
