@@ -755,7 +755,7 @@ En lugar de competir inicialmente por cantidad de funcionalidades, BottleTrack b
 **Tácticas:**
 
 - Reducir la cantidad de pasos necesarios para actualizar una entrega.
-- Diseñar una interfaz responsive adecuada para conductores.
+- Diseñar una interfaz responsive que el supervisor y la bodega puedan usar desde el smartphone.
 - Priorizar las operaciones más frecuentes identificadas durante las entrevistas.
 - Evitar incorporar funcionalidades avanzadas que no hayan demostrado aportar valor a los segmentos objetivo.
 
@@ -1581,7 +1581,7 @@ El equipo definió las siguientes dimensiones para el lenguaje aplicado en toda 
 | Dimensión | Decisión | Sustento |
 | :-------- | :------- | :------- |
 | Divertido / Serio | Serio | El usuario consulta la plataforma mientras la carga está en riesgo; el contenido informa, no entretiene. |
-| Formal / Casual | Casual moderado | Los segmentos incluyen conductores y supervisores de operación, para quienes un lenguaje excesivamente formal genera distancia. |
+| Formal / Casual | Casual moderado | Los segmentos incluyen supervisores de operación y responsables de bodegas, para quienes un lenguaje excesivamente formal genera distancia. |
 | Respetuoso / Irreverente | Respetuoso | La plataforma registra incidencias que afectan el desempeño de personas, por lo que el lenguaje evita cualquier tono de sanción. |
 | Entusiasta / Sereno | Sereno | Las alertas deben leerse con calma para no amplificar la urgencia de la operación. |
 
