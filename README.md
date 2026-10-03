@@ -2623,7 +2623,18 @@ En esta sección se consolidan los videos de entrevistas realizadas durante el c
 
 | Proceso | Sprint | Nombre del archivo | Enlace |
 | :------ | :----- | :----------------- | :----- |
-| Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | _Pendiente de publicación._ |
+| Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20221g181_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221g181%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8084%2Dcodecrafters%2Dneedfinding%2Dsprint%2D1%2Emp4&ga=1) |
+
+El video de Needfinding reúne las seis entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos.
+
+| # | Entrevistado | Segmento objetivo | Inicio | Duración |
+| :- | :----------- | :---------------- | :----- | :------- |
+| 1 | Luis Angel Tufiño Argüelles | Empresas distribuidoras de bebidas | 00:00:00 | 11:27 |
+| 2 | Luis Palacin Lope | Empresas distribuidoras de bebidas | 00:11:27 | 17:55 |
+| 3 | Rodrigo Alonso | Supervisores o encargados de flota | 00:29:22 | 08:42 |
+| 4 | Jorge Castilla | Supervisores o encargados de flota | 00:38:05 | 11:44 |
+| 5 | Pablo Ludeña Flores | Supervisores o encargados de flota | 00:49:48 | 04:36 |
+| 6 | Arturo Axel Saravia Huaricancha | Bodegas y minimarkets | 00:54:24 | 06:10 |
 
 <hr>
 
