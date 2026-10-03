@@ -292,7 +292,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | :------------------------ | :----------------------------- |
 | **Código del Estudiante** | U201819645 |
 | **Carrera**               | Ingeniería de Software |
-| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Descripción**           | Soy estudiante de Ingeniería de Software y me interesa entender cómo la tecnología puede simplificar el trabajo diario de las personas. Me considero una persona perseverante, que se adapta a nuevos retos y que aprende mejor cuando trabaja en equipo. En este proyecto busco fortalecer mis conocimientos en desarrollo web y aportar en la construcción de una solución útil para el transporte de bebidas. |
 | **Foto**                  | <img src="img/team-members/ariana-huapaya.jpeg" alt="Fotografía de Ariana Alheli Huapaya Buitron" width="140"> |
 
 ---
