@@ -1141,17 +1141,23 @@ Carlos Mendoza, de 42 años, administra una distribuidora de bebidas en Ate y ti
 
 <img src="img/chapter2/user-persona-1.jpeg" alt="User Persona Carlos Mendoza, administrador de una empresa distribuidora de bebidas">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/GS0Vk
+
 #### User Persona del Segmento Objetivo 2: Supervisores o encargados de flota
 
 Luis Torres, de 34 años, es supervisor de operaciones y encargado de flota en San Martín de Porres, con 8 años de experiencia. Es el usuario principal de la aplicación. Coordina la jornada desde la computadora y el smartphone, depende de los mensajes de WhatsApp para conocer el avance de las rutas y necesita identificar rápidamente las entregas con problemas.
 
 <img src="img/chapter2/user-persona-2.jpeg" alt="User Persona Luis Torres, supervisor de operaciones y encargado de flota">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/ZvlM6
+
 #### User Persona del Segmento Objetivo 3: Bodegas y minimarkets
 
 María Fernández, de 39 años, es propietaria de un minimarket en Los Olivos y trabaja con varios distribuidores. Necesita saber cuándo llegará su pedido y poder comunicar rápidamente un faltante o un producto dañado. Utiliza principalmente el smartphone, y sus canales son WhatsApp, el teléfono e Instagram.
 
 <img src="img/chapter2/user-persona-3.jpeg" alt="User Persona María Fernández, propietaria de un minimarket">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/p2gAf
 
 <a id="232-user-task-matrix"></a>
 ### 2.3.2. User Task Matrix.
@@ -1191,17 +1197,23 @@ El recorrido del administrador atraviesa seis etapas: planificar la operación, 
 
 <img src="img/chapter2/user-journey-map-segmento-1.jpeg" alt="User Journey Map As-Is de Carlos Mendoza">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/m/1XPXj
+
 #### User Persona 2: Luis Torres
 
 El recorrido del supervisor atraviesa seis etapas: revisar operaciones, organizar recursos, coordinar rutas, dar seguimiento, atender incidencias y cerrar operaciones. Cuatro de ellas se realizan por WhatsApp. La emoción desciende hasta la frustración y la ansiedad en las etapas de seguimiento y atención de incidencias, porque depende de mensajes que pueden llegar tarde o incompletos. Las oportunidades identificadas son facilitar la consulta del estado de las entregas y registrar las incidencias relacionadas con cada entrega.
 
 <img src="img/chapter2/user-journey-map-segmento-2.jpeg" alt="User Journey Map As-Is de Luis Torres">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/m/cnzpG
+
 #### User Persona 3: María Fernández
 
 El recorrido de la bodega atraviesa seis etapas: coordinar el pedido, esperar la entrega, recibir los productos, verificar el pedido, comunicar el problema y resolver la incidencia. La verificación se realiza con una lista impresa y la comunicación con el distribuidor, por WhatsApp. Los momentos de mayor tensión son la espera sin información clara sobre el estado de la entrega y la comunicación de un faltante o daño, que no queda registrada de forma organizada. Las oportunidades identificadas son informar el estado de la entrega y facilitar el registro de las diferencias detectadas en la recepción.
 
 <img src="img/chapter2/user-journey-map-segmento-3.jpeg" alt="User Journey Map As-Is de María Fernández">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/m/XFb9u
 
 <a id="234-empathy-mapping"></a>
 ### 2.3.4. Empathy Mapping.
@@ -1214,17 +1226,23 @@ Su pain principal es no poder evaluar el desempeño de la operación sin pedir r
 
 <img src="img/chapter2/empathy-map-segmento-1.jpeg" alt="Empathy Map de Carlos Mendoza">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/ByEH9
+
 #### User Persona 2: Luis Torres
 
 Su pain principal es la dependencia de los mensajes de los conductores, y su gain es saber en todo momento qué entregas se completaron, cuáles faltan y cuáles presentan un problema.
 
 <img src="img/chapter2/empathy-map-segmento-2.jpeg" alt="Empathy Map de Luis Torres">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/kjfDJ
+
 #### User Persona 3: María Fernández
 
 Su pain principal es la incertidumbre sobre la llegada del pedido y la falta de constancia de los problemas, y su gain es recibir lo solicitado y comunicar una incidencia de forma rápida.
 
 <img src="img/chapter2/empathy-map-segmento-3.jpeg" alt="Empathy Map de María Fernández">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/97hC8
 
 <a id="24-big-picture-eventstorming"></a>
 ## 2.4. Big Picture EventStorming.
@@ -1470,13 +1488,19 @@ Los objetivos coinciden con los indicadores de éxito del Problem Statement de l
 
 <img src="img/chapter3/impact-map-segmento-1.jpeg" alt="Impact Map - Segmento 1">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/ewgWb
+
 #### User Persona 2: Luis Torres
 
 <img src="img/chapter3/impact-map-segmento-2.jpeg" alt="Impact Map - Segmento 2">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/kjQEJ
+
 #### User Persona 3: María Fernández
 
 <img src="img/chapter3/impact-map-segmento-3.jpeg" alt="Impact Map - Segmento 3">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/1v4vF
 
 <a id="33-product-backlog"></a>
 ## 3.3. Product Backlog
@@ -2636,7 +2660,10 @@ En esta sección se registran los espacios de trabajo compartidos que el equipo 
 | Herramienta | Propósito | Enlace |
 | :---------- | :-------- | :----- |
 | Trello | Product Backlog y Sprint Backlog | https://trello.com/b/jGpO815B/bottletrack-product-backlog |
-| UXPressia | User Personas, Empathy Maps, Journey Maps e Impact Map | _Pendiente de registro._ |
+| UXPressia | User Personas (Carlos Mendoza, Luis Torres, María Fernández) | https://uxpressia.com/w/v8FzI/p/GS0Vk<br>https://uxpressia.com/w/v8FzI/p/ZvlM6<br>https://uxpressia.com/w/v8FzI/p/p2gAf |
+| UXPressia | User Journey Maps | https://uxpressia.com/w/v8FzI/m/1XPXj<br>https://uxpressia.com/w/v8FzI/m/cnzpG<br>https://uxpressia.com/w/v8FzI/m/XFb9u |
+| UXPressia | Empathy Maps | https://uxpressia.com/w/v8FzI/p/ByEH9<br>https://uxpressia.com/w/v8FzI/p/kjfDJ<br>https://uxpressia.com/w/v8FzI/p/97hC8 |
+| UXPressia | Impact Maps | https://uxpressia.com/w/v8FzI/i/ewgWb<br>https://uxpressia.com/w/v8FzI/i/kjQEJ<br>https://uxpressia.com/w/v8FzI/i/1v4vF |
 | Miro | Big Picture EventStorming y Design-Level EventStorming | https://miro.com/welcomeonboard/aEpQNnI1bURVdldqRzNDWk5aUnR6bStSQnhiSmpuYi9RM01sVkxtOWNsM3V5T1NkRW5pdHFuZ003VHcrV0hxR29tQ0xvRTJHV1VNTzNYUWV1VmwyWUZGRzlld2tuSnZKRTNrM3RnczNnc0NMQWt2WlB6WnEzRXBES1h0d2svaStnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=491275847129 |
 | Figma | Wireframes, Mock-ups y Prototypes | https://www.figma.com/design/lBVdrnyGUWfjN6Mz4fhBpY/BOTTLETRACK?node-id=0-1 |
 | Structurizr DSL | Diagramas C4 de arquitectura de software | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report/tree/main/img/DD-SoftwareArchitecture |
