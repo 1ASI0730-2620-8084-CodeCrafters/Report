@@ -2206,7 +2206,7 @@ El seguimiento de modificaciones se realiza con Git, gestionado desde GitHub. El
 | Repositorio | Contenido | URL |
 | :---------- | :-------- | :-- |
 | Landing-Page | Sitio web estático en HTML5, CSS3 y JavaScript. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page |
-| Frontend-Web-Application | Aplicación web desarrollada con Vue Framework. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Application |
+| Frontend-Web-Aplication | Aplicación web desarrollada con Vue Framework. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Aplication |
 | Web-Services | RESTful API en ASP.NET Core, incluyendo las pruebas unitarias y de aceptación. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Web-Services |
 | Report | Informe del proyecto en formato Markdown. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report |
 
@@ -2302,7 +2302,7 @@ El Landing Page se publica en GitHub Pages a partir de la rama `main` del reposi
 
 **Frontend Web Application**
 
-La aplicación web se publica en Vercel a partir de la rama `main` del repositorio `Frontend-Web-Application`, mediante la integración de Vercel con GitHub. Los pasos son los siguientes:
+La aplicación web se publica en Vercel a partir de la rama `main` del repositorio `Frontend-Web-Aplication`, mediante la integración de Vercel con GitHub. Los pasos son los siguientes:
 
 1. Importar el repositorio desde el panel de Vercel.
 2. Configurar el comando de construcción y el directorio de salida que corresponden a un proyecto de Vue.
@@ -2647,7 +2647,7 @@ En esta sección se relacionan los repositorios de la organización pública de 
 | :------- | :---------- |
 | Informe del proyecto | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report |
 | Landing Page | https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page |
-| Frontend Web Application | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Application |
+| Frontend Web Application | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Aplication |
 | Web Services | https://github.com/1ASI0730-2620-8084-CodeCrafters/Web-Services |
 
 <hr>
@@ -2660,6 +2660,7 @@ En esta sección se registran las URL de los productos publicados. Cada producto
 | Producto | Plataforma de despliegue | URL |
 | :------- | :----------------------- | :-- |
 | Landing Page | GitHub Pages | https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/ |
+| Frontend Web Application | Vercel | https://frontend-web-aplication.vercel.app |
 
 <hr>
 
