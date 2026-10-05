@@ -1,29 +1,38 @@
 <p align="center">
-    <img src="img/UPC.png" alt="Logo UPC" width="50%">
+    <img src="img/UPC.png" alt="Logo UPC" width="12%">
 </p>
-<h3 align="center">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h3>
 
-<h3 align="center">INGENIERÍA DE SOFTWARE</h3>
-<h4 align="center">CICLO 5</h4>
-<h4 align="center">1ASI0730 - APLICACIONES WEB</h4>
-<h4 align="center"><strong>NRC:</strong> 8084</h4>
-<h4 align="center"><strong>PROFESOR:</strong> Velásquez Núñez, Ángel Augusto</h4>
+<p align="center" style="margin:4pt 0;font-size:11pt">Universidad Peruana de Ciencias Aplicadas</p>
+<p align="center" style="margin:4pt 0;font-size:11pt">Carrera de Ingeniería de Software</p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:12pt"><strong>1ASI0730</strong></p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>Aplicaciones Web</strong></p>
+<p align="center" style="margin:4pt 0;font-size:11pt">NRC</p>
+<p align="center" style="margin:4pt 0;font-size:12pt"><strong>8084</strong></p>
+<p align="center" style="margin:4pt 0;font-size:15pt"><strong>Informe del Trabajo Final</strong></p>
+<p align="center" style="margin:4pt 0;font-size:11pt">Docente</p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>Velásquez Núñez, Ángel Augusto</strong></p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt">Equipo</p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>CodeCrafters</strong></p>
+<p align="center" style="margin:4pt 0;font-size:11pt">Proyecto</p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>BottleTrack</strong></p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt"><strong>Integrantes</strong></p>
 
-<h3 align="center">INFORME DE TRABAJO FINAL</h3>
-<h4 align="center"><strong>CICLO:</strong> 2026-20</h4>
-<h4 align="center"><strong>STARTUP:</strong> CodeCrafters</h4>
-<h4 align="center"><strong>PRODUCT:</strong> BottleTrack</h4>
+<table align="center" style="width:auto;margin:4pt auto;border:none">
+<tr><th style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt;background:none">Código</th><th style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt;background:none">Apellidos y Nombres</th></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u20221g181</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Crispin Valdivia, Angel Gabriel</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u202311912</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Cumba Rengifo, Leonardo Raul</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u201819645</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Huapaya Buitron, Ariana Alheli</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u20211c201</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Palacin Lazo, Gerardo Valentin</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u20221c590</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Pezo Castilla, Maria Jose</td></tr>
+</table>
 
-<h4 align="center"><strong>INTEGRANTES:</strong></h4>
-
-<h4 align="center">U20211C201 - Palacin Lazo, Gerardo Valentin</h4>
-<h4 align="center">U20221g181 - Crispin Valdivia, Angel Gabriel</h4>
-<h4 align="center">U202311912 - Cumba Rengifo, Leonardo Raul</h4>
-<h4 align="center">U201819645 - Huapaya Buitron, Ariana Alheli</h4>
-<h4 align="center">U20221c590 - Pezo Castilla, Maria Jose</h4>
-
-
-<h4 align="center"><i>SETIEMBRE 2026</i></h4>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt"><strong>Período 202620</strong></p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt"><strong>Octubre 2026</strong></p>
 
 <hr>
 
