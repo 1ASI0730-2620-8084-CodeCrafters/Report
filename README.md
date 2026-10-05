@@ -2755,6 +2755,26 @@ El Landing Page incorpora las correcciones de AV1: el segmento de bodegas y mini
 </tr>
 </table>
 
+<a id="5226-services-documentation-evidence-for-sprint-review"></a>
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+El Sprint 2 no incluye los Web Services, que se implementan en el Sprint 3 con su documentación en OpenAPI. Mientras tanto, la Frontend Web Application consume un fake API construido con json-server a partir del archivo `server/db.json` del repositorio. Las rutas se publican bajo el prefijo `/api/v1` y cada una se configura en el archivo de entorno con una variable `VITE_<RECURSO>_ENDPOINT_PATH`, de modo que el cambio al RESTful API definitivo solo requiera actualizar la URL base.
+
+| Recurso | Bounded context | Verbos HTTP utilizados |
+| :------ | :-------------- | :--------------------- |
+| `/users` | Identity and Access Management | GET, POST, PATCH |
+| `/organizations` | Identity and Access Management | GET, PATCH |
+| `/vehicles` | Fleet Management | GET, POST, PATCH |
+| `/drivers` | Fleet Management | GET, POST, PATCH |
+| `/delivery-points` | Operations and Routes | GET |
+| `/transport-operations` | Operations and Routes | GET, POST, PATCH |
+| `/delivery-stops` | Operations and Routes | GET, POST, PATCH |
+| `/iot-devices` | IoT Monitoring | GET, PATCH |
+| `/sensor-readings` | IoT Monitoring | GET, POST |
+| `/alerts` | IoT Monitoring | GET, PATCH |
+| `/incidents` | Incident Management | GET, POST, PATCH |
+| `/evidences` | Incident Management | GET, POST |
+
 <a id="53-validation-interviews"></a>
 ## 5.3. Validation Interviews.
 
