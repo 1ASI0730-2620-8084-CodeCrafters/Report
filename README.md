@@ -2601,6 +2601,67 @@ El Sprint 2 comprometió las historias de acceso que quedaron pendientes en el S
 | US33 | Actualizar estado de incidencia | T01 | Advance incident dialog | Implementar el avance de estado de la incidencia hasta su cierre. | 3 | Pezo Castilla, Maria Jose | Done |
 | US35 | Consultar dashboard | T01 | Analytics dashboard | Implementar el dashboard con las operaciones del mes, las entregas completadas, las incidencias abiertas y la merma. | 6 | Pezo Castilla, Maria Jose | Done |
 
+<a id="5224-development-evidence-for-sprint-review"></a>
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+En el Sprint 2 se implementó la primera versión de la Frontend Web Application en el repositorio https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Aplication, con Vue 3, PrimeVue, Pinia, Vue Router, vue-i18n y axios, en JavaScript. El código se organiza por bounded context, y cada uno se divide en las capas `domain`, `application`, `infrastructure` y `presentation`. Angel Crispin preparó la base del proyecto en `feature/project-setup`, y luego cada integrante desarrolló su bounded context en una rama de feature propia, integrada en `develop` mediante un merge `--no-ff`. La versión se publicó desde `release/0.1.0` con la etiqueta `v0.1.0`.
+
+En el repositorio del Landing Page se aplicaron las correcciones de AV1 y se publicó la versión `v0.2.0`. En la rama `develop` se revirtió un commit que eliminaba la sección del producto, porque Gerardo Palacin la había actualizado en paralelo con las capturas de la aplicación.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :------------------ |
+| Frontend-Web-Aplication | main | 7e9d951 | chore: initialize vue project with vite | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | da71179 | feat: add design tokens and primevue theme preset | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 15fdbe3 | style: add global layout styles | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 96d0a01 | feat: configure i18n, pinia and router | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 3f87eb6 | feat: add shared http client base and fake api setup | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 6e6a35a | feat: add shared presentation components and views | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 6ad9864 | docs: add readme with architecture and team ownership | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | 7d826b2 | feat(iam): add user and organization domain model with api gateway | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | 932a0b6 | feat(iam): add iam store with session handling | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | 0d4056f | feat(iam): add sign-in view | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | b4a580a | feat(iam): add application shell with authentication section | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | cf99561 | feat(iam): add user management view | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | 1dc83df | feat(iam): add profile and company settings views | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | 2da7ae9 | feat(iam): register iam routes, guard and translations | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | 712f660 | chore(iam): add users and organizations to fake api | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/operations-and-routes | d32c5cc | feat(operations): add transport operation and delivery order domain model | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/fleet-management | ecf11f6 | feat(fleet): add vehicle and driver domain model with api gateway | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/operations-and-routes | f236e17 | feat(operations): add operations api gateways and assemblers | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/fleet-management | a63f5bd | feat(fleet): add fleet store and vehicle management view | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 8a47738 | feat(operations): add operations and transport operations stores | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/iot-monitoring | 5a8323a | feat(monitoring): add iot device domain model with api gateway | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 7476ac7 | feat(operations): add operation list with create dialog | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/fleet-management | 60490b9 | feat(fleet): add driver management view | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/fleet-management | 263aeec | feat(fleet): register fleet routes, translations and fake api data | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/operations-and-routes | b4a7813 | feat(operations): add operation route and progress components | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/incident-management | 8f0da71 | feat(incidents): add incident and evidence domain model with api gateway | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/iot-monitoring | a35030a | feat(monitoring): add monitoring store and device settings with safe ranges | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 8b7ac23 | feat(operations): add resource, stop and cancel dialogs | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/incident-management | deed4a1 | feat(incidents): add incidents store with report and advance dialogs | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 5761bfa | feat(operations): add operation detail and history views | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/iot-monitoring | 9d2d126 | feat(monitoring): add alert list and monitored operation card | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 7554002 | feat(operations): add delivery order card and result dialog | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/incident-management | 85bc163 | feat(incidents): add incident list with evidence attachment | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 567e394 | feat(operations): add delivery order tracking for delivery point owners | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/iot-monitoring | dd523ff | feat(monitoring): add monitoring dashboard and register routes | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | cc0a4c2 | feat(operations): register operations routes and english translations | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 9213feb | feat(operations): add spanish translations | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 30b4d0d | chore(operations): add delivery points, operations and stops to fake api | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/iot-monitoring | f4c3635 | chore(monitoring): add iot devices, sensor readings and alerts to fake api | — | 2026-10-03 |
+| Frontend-Web-Aplication | feature/incident-management | 6365298 | feat(incidents): add analytics dashboard | — | 2026-10-03 |
+| Frontend-Web-Aplication | feature/incident-management | a51a526 | feat(incidents): register incidents routes, translations and fake api data | — | 2026-10-03 |
+| Frontend-Web-Aplication | release/0.1.0 | 36f92e5 | chore(release): bump version to 0.1.0 | — | 2026-10-04 |
+| Landing-Page | feature/product-screenshots | 6239460 | feat(landing): show application screenshots in product section. | — | 2026-10-03 |
+| Landing-Page | feature/remove-team-video-placeholder | 4a9b9d4 | refactor(landing): remove about the team video placeholder | — | 2026-10-04 |
+| Landing-Page | feature/remove-team-video-placeholder | 2cb5051 | refactor(landing): remove about the product video placeholder | — | 2026-10-04 |
+| Landing-Page | develop | 1b40c6d | Revert "refactor(landing): remove about the product video placeholder" | — | 2026-10-04 |
+| Landing-Page | feature/product-screenshots-copy | 9555745 | refactor(landing): describe the product section as application screenshots | — | 2026-10-04 |
+| Landing-Page | feature/delivery-point-segment | 5fb86e2 | feat(landing): replace driver segment with delivery points and link ctas to the web app | — | 2026-10-04 |
+| Landing-Page | feature/contact-and-social | c385ba0 | feat(landing): add contact form and social media links | — | 2026-10-04 |
+| Landing-Page | feature/favicon | 6bd6720 | feat(landing): add brand favicon to every page | — | 2026-10-04 |
+| Landing-Page | release/0.2.0 | 9fd01d0 | docs(release): document web application links for 0.2.0 | — | 2026-10-04 |
+
 <a id="53-validation-interviews"></a>
 ## 5.3. Validation Interviews.
 
