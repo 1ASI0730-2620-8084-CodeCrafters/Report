@@ -2775,6 +2775,48 @@ El Sprint 2 no incluye los Web Services, que se implementan en el Sprint 3 con s
 | `/incidents` | Incident Management | GET, POST, PATCH |
 | `/evidences` | Incident Management | GET, POST |
 
+<a id="5227-software-deployment-evidence-for-sprint-review"></a>
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+En el Sprint 2 se publicaron dos productos.
+
+**Frontend Web Application en Vercel**
+
+1. Se integraron en `develop` las ramas `feature/project-setup`, `feature/identity-access-management`, `feature/fleet-management`, `feature/operations-and-routes`, `feature/iot-monitoring` y `feature/incident-management`, cada una con un merge `--no-ff`.
+2. Se creó la rama `release/0.1.0`, se integró en `main` y se etiquetó como `v0.1.0`, siguiendo Semantic Versioning.
+3. Desde la cuenta de Vercel del equipo se importó el repositorio `Frontend-Web-Aplication` de la organización de GitHub, con el preset de Vite, el comando `npm run build`, el directorio de salida `dist` y la rama de producción `main`.
+4. El archivo `vercel.json` del repositorio redirige todas las rutas a `index.html`, para que Vue Router resuelva las rutas de la aplicación al ingresar directamente a ellas desde las llamadas a la acción del Landing Page.
+5. Vercel publica una nueva versión ante cada integración en `main`. Se verificó el acceso a la URL pública y a las rutas `/monitoring`, `/tracking` y `/analytics`.
+
+**Landing Page en GitHub Pages**
+
+1. Se integraron en `develop` las ramas de las correcciones de AV1 y la rama `feature/product-screenshots`.
+2. Se creó la rama `release/0.2.0`, se integró en `main` y se etiquetó como `v0.2.0`.
+3. GitHub Pages publica el sitio desde la rama `main`, carpeta raíz.
+
+| Producto | Repositorio | Tecnología | Plataforma | Versión | URL |
+| :------- | :---------- | :--------- | :--------- | :------ | :-- |
+| Landing Page | Landing-Page | HTML5, CSS3, JavaScript | GitHub Pages | v0.2.0 | https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/ |
+| Frontend Web Application | Frontend-Web-Aplication | Vue 3, PrimeVue, JavaScript | Vercel | v0.1.0 | https://frontend-web-aplication.vercel.app |
+
+**Repositorio de la Frontend Web Application**
+
+<img src="img/chapter5/sprint2/github-frontend-repo.png" alt="Página principal del repositorio Frontend-Web-Aplication" width="800">
+
+**Ramas del repositorio Frontend-Web-Aplication según GitFlow**
+
+<img src="img/chapter5/sprint2/github-frontend-branches.png" alt="Ramas main, develop, release y feature del repositorio Frontend-Web-Aplication" width="800">
+
+**Tag del release v0.1.0 de la Frontend Web Application**
+
+<img src="img/chapter5/sprint2/github-frontend-tags.png" alt="Tag v0.1.0 del repositorio Frontend-Web-Aplication" width="800">
+
+**Ramas y tags del repositorio Landing-Page**
+
+<img src="img/chapter5/sprint2/github-landing-branches.png" alt="Ramas del repositorio Landing-Page" width="800">
+
+<img src="img/chapter5/sprint2/github-landing-tags.png" alt="Tags v0.1.0 y v0.2.0 del repositorio Landing-Page" width="800">
+
 <a id="53-validation-interviews"></a>
 ## 5.3. Validation Interviews.
 
