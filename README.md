@@ -1,29 +1,38 @@
 <p align="center">
-    <img src="img/UPC.png" alt="Logo UPC" width="50%">
+    <img src="img/UPC.png" alt="Logo UPC" width="12%">
 </p>
-<h3 align="center">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h3>
 
-<h3 align="center">INGENIERÍA DE SOFTWARE</h3>
-<h4 align="center">CICLO 5</h4>
-<h4 align="center">1ASI0730 - APLICACIONES WEB</h4>
-<h4 align="center"><strong>NRC:</strong> 8084</h4>
-<h4 align="center"><strong>PROFESOR:</strong> Velásquez Núñez, Ángel Augusto</h4>
+<p align="center" style="margin:4pt 0;font-size:11pt">Universidad Peruana de Ciencias Aplicadas</p>
+<p align="center" style="margin:4pt 0;font-size:11pt">Carrera de Ingeniería de Software</p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:12pt"><strong>1ASI0730</strong></p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>Aplicaciones Web</strong></p>
+<p align="center" style="margin:4pt 0;font-size:11pt">NRC</p>
+<p align="center" style="margin:4pt 0;font-size:12pt"><strong>8084</strong></p>
+<p align="center" style="margin:4pt 0;font-size:15pt"><strong>Informe del Trabajo Final</strong></p>
+<p align="center" style="margin:4pt 0;font-size:11pt">Docente</p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>Velásquez Núñez, Ángel Augusto</strong></p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt">Equipo</p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>CodeCrafters</strong></p>
+<p align="center" style="margin:4pt 0;font-size:11pt">Proyecto</p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>BottleTrack</strong></p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt"><strong>Integrantes</strong></p>
 
-<h3 align="center">INFORME DE TRABAJO FINAL</h3>
-<h4 align="center"><strong>CICLO:</strong> 2026-20</h4>
-<h4 align="center"><strong>STARTUP:</strong> CodeCrafters</h4>
-<h4 align="center"><strong>PRODUCT:</strong> BottleTrack</h4>
+<table align="center" style="width:auto;margin:4pt auto;border:none">
+<tr><th style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt;background:none">Código</th><th style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt;background:none">Apellidos y Nombres</th></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u20221g181</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Crispin Valdivia, Angel Gabriel</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u202311912</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Cumba Rengifo, Leonardo Raul</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u201819645</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Huapaya Buitron, Ariana Alheli</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u20211c201</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Palacin Lazo, Gerardo Valentin</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u20221c590</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Pezo Castilla, Maria Jose</td></tr>
+</table>
 
-<h4 align="center"><strong>INTEGRANTES:</strong></h4>
-
-<h4 align="center">U20211C201 - Palacin Lazo, Gerardo Valentin</h4>
-<h4 align="center">U20221g181 - Crispin Valdivia, Angel Gabriel</h4>
-<h4 align="center">U202311912 - Cumba Rengifo, Leonardo Raul</h4>
-<h4 align="center">U201819645 - Huapaya Buitron, Ariana Alheli</h4>
-<h4 align="center">U20221c590 - Pezo Castilla, Maria Jose</h4>
-
-
-<h4 align="center"><i>SETIEMBRE 2026</i></h4>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt"><strong>Período 202620</strong></p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt"><strong>Octubre 2026</strong></p>
 
 <hr>
 
@@ -162,6 +171,15 @@ La siguiente captura muestra los analíticos de contribución del repositorio de
             - <a href="#52x6-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</a>
             - <a href="#52x7-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</a>
             - <a href="#52x8-team-colaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</a>
+        - <a href="#522-sprint-2">5.2.2. Sprint 2.</a>
+            - <a href="#5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</a>
+            - <a href="#5222-aspect-leaders-and-collaborators">5.2.2.2. Aspect Leaders and Collaborators.</a>
+            - <a href="#5223-sprint-backlog-2">5.2.2.3. Sprint Backlog 2.</a>
+            - <a href="#5224-development-evidence-for-sprint-review">5.2.2.4. Development Evidence for Sprint Review.</a>
+            - <a href="#5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review.</a>
+            - <a href="#5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review.</a>
+            - <a href="#5227-software-deployment-evidence-for-sprint-review">5.2.2.7. Software Deployment Evidence for Sprint Review.</a>
+            - <a href="#5228-team-collaboration-insights-during-sprint">5.2.2.8. Team Collaboration Insights during Sprint.</a>
     - <a href="#53-validation-interviews">5.3. Validation Interviews.</a>
         - <a href="#531-diseno-de-entrevistas">5.3.1. Diseño de Entrevistas.</a>
         - <a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</a>
@@ -2496,6 +2514,346 @@ La siguiente tabla resume los commits de cada integrante en el Sprint 1, sin con
 <img src="img/chapter5/insights-landing-network.png" alt="Grafo de red de ramas del repositorio Landing-Page" width="800">
 
 Para el Sprint 2 el equipo acordó que todos los integrantes participen con commits en el Landing Page y en la Frontend Web Application, cada uno en la rama de su bounded context.
+
+<a id="522-sprint-2"></a>
+### 5.2.2. Sprint 2
+
+<a id="5221-sprint-planning-2"></a>
+#### 5.2.2.1. Sprint Planning 2.
+
+| Sprint #  | Sprint 2 |
+| :-------- | :------- |
+| **Sprint Planning Background** | |
+| Date | 2026-09-28 |
+| Time | 9:00 PM |
+| Location | Reunión virtual por Discord |
+| Prepared By | Crispin Valdivia, Angel Gabriel |
+| Attendees (to planning meeting) | Crispin Valdivia, Angel Gabriel; Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose; Huapaya Buitron, Ariana Alheli |
+| Sprint 1 Review Summary | En el Sprint 1 se publicó el Landing Page v0.1.0 en GitHub Pages y se completaron las User Stories US01, US02 y US03. La revisión de AV1 señaló que el Landing Page no mostraba medios de contacto, redes sociales ni capturas de la aplicación, que el informe conservaba textos pendientes y que el segmento de conductores no correspondía a un usuario de la aplicación. Las historias de acceso US04 a US09 quedaron pendientes de implementación. |
+| Sprint 1 Retrospective Summary | El equipo valoró el design system y el uso de GitFlow desde el primer día. Como aspectos a mejorar identificó que el código se concentró en un solo integrante y que se entregaron secciones con textos pendientes. Se acordó que cada integrante lidere un bounded context de la Frontend Web Application en su propia rama, que ninguna sección se entregue con contenido pendiente y que las correcciones de AV1 se resuelvan dentro del Sprint 2. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | *Our focus is on* que el supervisor de flota, el administrador y el responsable de la bodega operen en la Frontend Web Application el ciclo completo de una operación de transporte: planificarla con sus recursos, seguir sus entregas y la carga con lecturas IoT, y registrar las incidencias con evidencia.<br>*We believe it delivers* visibilidad sobre el estado de cada entrega y de la carga *to* las distribuidoras de bebidas, sus supervisores de flota y las bodegas que reciben los pedidos.<br>*This will be confirmed when* un supervisor crea y ejecuta una operación, atiende una alerta de la carga registrando una incidencia, y la bodega consulta su pedido desde la aplicación publicada en Vercel, a la que se llega desde la llamada a la acción de su segmento en el Landing Page. |
+| Sprint 2 Velocity | 143 |
+| Sum of Story Points | 143 |
+
+<a id="5222-aspect-leaders-and-collaborators"></a>
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+En el Sprint 2 los aspectos corresponden a los bounded contexts de la Frontend Web Application, a la configuración base del proyecto y al Landing Page. Cada integrante lidera el bounded context que implementó en su rama de feature y colabora en los contextos con los que el suyo se integra. Angel Crispin colabora en todos los contextos porque revisó e integró cada rama en `develop` y mantuvo el Shared Kernel del que todos dependen.
+
+| Team Member (Last Name, First Name) | GitHub Username | Project Setup & Configuration Management | Identity and Access Management | Fleet Management | Operations and Routes | IoT Monitoring | Incident Management | Landing Page |
+| :---------------------------------- | :-------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| Crispin Valdivia, Angel Gabriel | FaureGalliard | L | L | C | C | C | C | L |
+| Cumba Rengifo, Leonardo Raul | LeonardoC72 | C | C | C | L | C | C | C |
+| Palacin Lazo, Gerardo Valentin | GeraldP03 | C | C | C | C | L | C | C |
+| Pezo Castilla, Maria Jose | MariaJosePezo | C | C | C | C | C | L | C |
+| Huapaya Buitron, Ariana Alheli | arianahuapayabui | C | C | L | C | C | C | C |
+
+<a id="5223-sprint-backlog-2"></a>
+#### 5.2.2.3. Sprint Backlog 2.
+
+El Sprint 2 comprometió las historias de acceso que quedaron pendientes en el Sprint 1, todas las User Stories de la Frontend Web Application que pueden resolverse con el fake API y las historias del Landing Page por segmento y de contacto. Las Technical Stories del RESTful API se planifican para el Sprint 3, junto con la primera versión de los Web Services. Las 51 tareas suman 216 horas y se gestionan en el tablero del proyecto: https://trello.com/b/jGpO815B/bottletrack-product-backlog
+
+| Sprint # | Sprint 2 | | | | | | |
+| :------- | :------- | :- | :- | :- | :- | :- | :- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US39 | Conocer beneficios para distribuidoras | T01 | Distributor segment call to action | Enlazar la llamada a la acción del segmento de distribuidoras con la vista `/analytics` de la Web Application. | 2 | Crispin Valdivia, Angel Gabriel | Done |
+| US39 | Conocer beneficios para distribuidoras | T02 | Application screenshots | Incorporar en la sección del producto las capturas del dashboard, de las operaciones y de las incidencias. | 4 | Palacin Lazo, Gerardo Valentin | Done |
+| US40 | Conocer beneficios para supervisores | T01 | Supervisor segment call to action | Enlazar la llamada a la acción del segmento de supervisores con la vista `/monitoring` de la Web Application. | 2 | Crispin Valdivia, Angel Gabriel | Done |
+| US41 | Conocer beneficios para bodegas | T01 | Delivery point segment | Reemplazar el segmento de conductores por el de bodegas y minimarkets, con su llamada a la acción hacia `/tracking`. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US42 | Contactar a CodeCrafters | T01 | Contact form and social links | Implementar el formulario de contacto, los enlaces a redes sociales en el footer y el favicon de la marca. | 5 | Crispin Valdivia, Angel Gabriel | Done |
+| US04 | Iniciar sesión | T01 | Project setup | Configurar Vite, PrimeVue, Pinia, Vue Router, vue-i18n, axios, los design tokens y el fake API con json-server. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US04 | Iniciar sesión | T02 | Sign in implementation | Implementar el formulario de inicio de sesión, el store de IAM y el guard de autenticación por rol. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US05 | Cerrar sesión | T01 | Sign out implementation | Implementar el cierre de sesión desde la barra lateral e invalidar la sesión activa. | 2 | Crispin Valdivia, Angel Gabriel | Done |
+| US06 | Consultar perfil | T01 | Profile view implementation | Implementar la vista del perfil del usuario autenticado. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US07 | Gestionar usuarios | T01 | Users management implementation | Implementar el listado, el registro y la edición de usuarios de la empresa. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US08 | Asignar rol a usuario | T01 | Role assignment implementation | Implementar la selección del rol en el formulario de usuario y la navegación filtrada por rol. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US09 | Gestionar información de empresa | T01 | Company settings implementation | Implementar la vista y el servicio para actualizar los datos de la empresa. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US10 | Registrar vehículo | T01 | Fleet domain and gateway | Implementar las entidades de vehículo y conductor, sus assemblers y el gateway del fake API. | 6 | Huapaya Buitron, Ariana Alheli | Done |
+| US10 | Registrar vehículo | T02 | Vehicle registration | Implementar el formulario de registro de vehículos. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US11 | Actualizar vehículo | T01 | Vehicle edition | Implementar la edición de vehículos desde el listado. | 3 | Huapaya Buitron, Ariana Alheli | Done |
+| US12 | Consultar vehículos disponibles | T01 | Vehicle list view | Implementar el listado de vehículos con su estado de disponibilidad. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US13 | Registrar conductor | T01 | Driver registration | Implementar el formulario de registro de conductores. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US14 | Actualizar conductor | T01 | Driver edition | Implementar la edición de conductores desde el listado. | 3 | Huapaya Buitron, Ariana Alheli | Done |
+| US15 | Consultar conductores disponibles | T01 | Driver list view | Implementar el listado de conductores y registrar las rutas, traducciones y datos de la flota. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US16 | Crear operación de transporte | T01 | Operations domain and gateway | Implementar las entidades de operación y de orden de entrega, sus assemblers y los gateways del fake API. | 8 | Cumba Rengifo, Leonardo Raul | Done |
+| US16 | Crear operación de transporte | T02 | Create operation dialog | Implementar el diálogo de creación de operaciones y el store de operaciones. | 6 | Cumba Rengifo, Leonardo Raul | Done |
+| US17 | Asignar vehículo a operación | T01 | Vehicle assignment | Implementar la asignación de un vehículo disponible en la sección de recursos de la operación. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US18 | Asignar conductor a operación | T01 | Driver assignment | Implementar la asignación de un conductor disponible en la sección de recursos de la operación. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US19 | Consultar operaciones | T01 | Operation list view | Implementar el listado de operaciones con su estado y sus datos principales. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US20 | Cancelar operación | T01 | Cancel operation dialog | Implementar la cancelación de operaciones no iniciadas con el motivo obligatorio. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US21 | Iniciar operación | T01 | Start operation | Implementar el inicio de la operación cuando tiene recursos y puntos de entrega. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US22 | Finalizar operación | T01 | Finish operation | Implementar el cierre de la operación cuando todas las entregas tienen resultado. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US23 | Registrar punto de entrega | T01 | Add stop dialog | Implementar el diálogo para agregar puntos de entrega con la cantidad planificada. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US24 | Organizar puntos de entrega | T01 | Stop ordering | Implementar el cambio de orden de los puntos de entrega dentro de la ruta. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US25 | Consultar ruta de una operación | T01 | Operation route component | Implementar la tabla de la ruta con los puntos de entrega, su estado y sus acciones. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US26 | Consultar detalle de entrega | T01 | Delivery order card | Implementar la tarjeta con el detalle de cada orden de entrega. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US27 | Actualizar estado de entrega | T01 | Delivery result dialog | Implementar el registro del resultado de cada entrega. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US28 | Registrar entrega parcial | T01 | Partial delivery | Validar la cantidad entregada y el motivo en las entregas parciales. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US29 | Registrar entrega no realizada | T01 | Failed delivery | Registrar las entregas no realizadas con su motivo. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US34 | Consultar progreso de operación | T01 | Operation progress component | Implementar el avance de la operación con el conteo de entregas por estado. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US36 | Consultar historial de operaciones | T01 | Operation history view | Implementar el historial de operaciones finalizadas y canceladas. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US37 | Consultar detalle histórico | T01 | Historical detail | Enlazar cada operación del historial con su vista de detalle. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US38 | Consultar ubicación de entrega | T01 | Delivery location link | Mostrar la dirección del punto de entrega con el enlace a su ubicación en el mapa. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US46 | Consultar estado de mi pedido | T01 | Delivery order tracking view | Implementar la vista de pedidos en camino y recibidos para el responsable de la bodega. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US47 | Reportar problema de recepción | T01 | Reception problem dialog | Implementar el reporte de faltantes o productos dañados al recibir el pedido. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US47 | Reportar problema de recepción | T02 | Operations translations and data | Registrar las rutas, las traducciones y los datos del fake API de las operaciones. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US43 | Consultar lecturas IoT de una operación | T01 | IoT domain and gateway | Implementar la entidad de dispositivo IoT, sus assemblers y el gateway de lecturas y alertas. | 6 | Palacin Lazo, Gerardo Valentin | Done |
+| US43 | Consultar lecturas IoT de una operación | T02 | Monitoring dashboard | Implementar el dashboard de monitoreo con la tarjeta de cada operación en curso. | 6 | Palacin Lazo, Gerardo Valentin | Done |
+| US44 | Recibir alerta de carga en riesgo | T01 | Alert list | Implementar la lista de alertas pendientes con el registro de incidencia y la revisión. | 4 | Palacin Lazo, Gerardo Valentin | Done |
+| US45 | Configurar rango seguro | T01 | Device settings view | Implementar la configuración de dispositivos con el rango seguro de temperatura y el umbral de golpes. | 5 | Palacin Lazo, Gerardo Valentin | Done |
+| US30 | Registrar incidencia | T01 | Incidents domain and gateway | Implementar las entidades de incidencia y evidencia, su assembler y el gateway del fake API. | 6 | Pezo Castilla, Maria Jose | Done |
+| US30 | Registrar incidencia | T02 | Report incident dialog | Implementar el diálogo de registro de incidencias y el store de incidencias. | 5 | Pezo Castilla, Maria Jose | Done |
+| US31 | Adjuntar evidencia de incidencia | T01 | Attach evidence dialog | Implementar la carga de evidencias asociadas a una incidencia. | 5 | Pezo Castilla, Maria Jose | Done |
+| US32 | Consultar incidencias | T01 | Incident list view | Implementar el listado de incidencias con su tipo, operación y estado. | 4 | Pezo Castilla, Maria Jose | Done |
+| US33 | Actualizar estado de incidencia | T01 | Advance incident dialog | Implementar el avance de estado de la incidencia hasta su cierre. | 3 | Pezo Castilla, Maria Jose | Done |
+| US35 | Consultar dashboard | T01 | Analytics dashboard | Implementar el dashboard con las operaciones del mes, las entregas completadas, las incidencias abiertas y la merma. | 6 | Pezo Castilla, Maria Jose | Done |
+
+<a id="5224-development-evidence-for-sprint-review"></a>
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+En el Sprint 2 se implementó la primera versión de la Frontend Web Application en el repositorio https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Aplication, con Vue 3, PrimeVue, Pinia, Vue Router, vue-i18n y axios, en JavaScript. El código se organiza por bounded context, y cada uno se divide en las capas `domain`, `application`, `infrastructure` y `presentation`. Angel Crispin preparó la base del proyecto en `feature/project-setup`, y luego cada integrante desarrolló su bounded context en una rama de feature propia, integrada en `develop` mediante un merge `--no-ff`. La versión se publicó desde `release/0.1.0` con la etiqueta `v0.1.0`.
+
+En el repositorio del Landing Page se aplicaron las correcciones de AV1 y se publicó la versión `v0.2.0`. En la rama `develop` se revirtió un commit que eliminaba la sección del producto, porque Gerardo Palacin la había actualizado en paralelo con las capturas de la aplicación.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :------------------ |
+| Frontend-Web-Aplication | main | 7e9d951 | chore: initialize vue project with vite | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | da71179 | feat: add design tokens and primevue theme preset | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 15fdbe3 | style: add global layout styles | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 96d0a01 | feat: configure i18n, pinia and router | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 3f87eb6 | feat: add shared http client base and fake api setup | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 6e6a35a | feat: add shared presentation components and views | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 6ad9864 | docs: add readme with architecture and team ownership | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | 7d826b2 | feat(iam): add user and organization domain model with api gateway | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | 932a0b6 | feat(iam): add iam store with session handling | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | 0d4056f | feat(iam): add sign-in view | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | b4a580a | feat(iam): add application shell with authentication section | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | cf99561 | feat(iam): add user management view | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | 1dc83df | feat(iam): add profile and company settings views | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | 2da7ae9 | feat(iam): register iam routes, guard and translations | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | 712f660 | chore(iam): add users and organizations to fake api | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/operations-and-routes | d32c5cc | feat(operations): add transport operation and delivery order domain model | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/fleet-management | ecf11f6 | feat(fleet): add vehicle and driver domain model with api gateway | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/operations-and-routes | f236e17 | feat(operations): add operations api gateways and assemblers | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/fleet-management | a63f5bd | feat(fleet): add fleet store and vehicle management view | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 8a47738 | feat(operations): add operations and transport operations stores | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/iot-monitoring | 5a8323a | feat(monitoring): add iot device domain model with api gateway | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 7476ac7 | feat(operations): add operation list with create dialog | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/fleet-management | 60490b9 | feat(fleet): add driver management view | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/fleet-management | 263aeec | feat(fleet): register fleet routes, translations and fake api data | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/operations-and-routes | b4a7813 | feat(operations): add operation route and progress components | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/incident-management | 8f0da71 | feat(incidents): add incident and evidence domain model with api gateway | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/iot-monitoring | a35030a | feat(monitoring): add monitoring store and device settings with safe ranges | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 8b7ac23 | feat(operations): add resource, stop and cancel dialogs | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/incident-management | deed4a1 | feat(incidents): add incidents store with report and advance dialogs | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 5761bfa | feat(operations): add operation detail and history views | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/iot-monitoring | 9d2d126 | feat(monitoring): add alert list and monitored operation card | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 7554002 | feat(operations): add delivery order card and result dialog | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/incident-management | 85bc163 | feat(incidents): add incident list with evidence attachment | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 567e394 | feat(operations): add delivery order tracking for delivery point owners | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/iot-monitoring | dd523ff | feat(monitoring): add monitoring dashboard and register routes | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | cc0a4c2 | feat(operations): register operations routes and english translations | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 9213feb | feat(operations): add spanish translations | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 30b4d0d | chore(operations): add delivery points, operations and stops to fake api | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/iot-monitoring | f4c3635 | chore(monitoring): add iot devices, sensor readings and alerts to fake api | — | 2026-10-03 |
+| Frontend-Web-Aplication | feature/incident-management | 6365298 | feat(incidents): add analytics dashboard | — | 2026-10-03 |
+| Frontend-Web-Aplication | feature/incident-management | a51a526 | feat(incidents): register incidents routes, translations and fake api data | — | 2026-10-03 |
+| Frontend-Web-Aplication | release/0.1.0 | 36f92e5 | chore(release): bump version to 0.1.0 | — | 2026-10-04 |
+| Landing-Page | feature/product-screenshots | 6239460 | feat(landing): show application screenshots in product section. | — | 2026-10-03 |
+| Landing-Page | feature/remove-team-video-placeholder | 4a9b9d4 | refactor(landing): remove about the team video placeholder | — | 2026-10-04 |
+| Landing-Page | feature/remove-team-video-placeholder | 2cb5051 | refactor(landing): remove about the product video placeholder | — | 2026-10-04 |
+| Landing-Page | develop | 1b40c6d | Revert "refactor(landing): remove about the product video placeholder" | — | 2026-10-04 |
+| Landing-Page | feature/product-screenshots-copy | 9555745 | refactor(landing): describe the product section as application screenshots | — | 2026-10-04 |
+| Landing-Page | feature/delivery-point-segment | 5fb86e2 | feat(landing): replace driver segment with delivery points and link ctas to the web app | — | 2026-10-04 |
+| Landing-Page | feature/contact-and-social | c385ba0 | feat(landing): add contact form and social media links | — | 2026-10-04 |
+| Landing-Page | feature/favicon | 6bd6720 | feat(landing): add brand favicon to every page | — | 2026-10-04 |
+| Landing-Page | release/0.2.0 | 9fd01d0 | docs(release): document web application links for 0.2.0 | — | 2026-10-04 |
+
+<a id="5225-execution-evidence-for-sprint-review"></a>
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+Al cierre del Sprint 2 la Frontend Web Application v0.1.0 se encuentra publicada en https://frontend-web-aplication.vercel.app. La aplicación ofrece una experiencia distinta para cada rol: el administrador gestiona los usuarios, la empresa, la flota y los dispositivos IoT; el supervisor de flota planifica y ejecuta las operaciones, monitorea la carga y registra las incidencias; y el responsable de la bodega sigue sus pedidos y reporta los problemas de recepción. Las vistas que siguen se capturaron con los datos del fake API y el idioma español; la aplicación cambia a inglés desde el selector de idioma.
+
+**Inicio de sesión**
+
+<img src="img/chapter5/sprint2/app-sign-in.png" alt="Vista de inicio de sesión de BottleTrack" width="800">
+
+**Inicio del supervisor de flota**
+
+<img src="img/chapter5/sprint2/app-home.png" alt="Vista de inicio con la navegación del supervisor de flota" width="800">
+
+**Listado de operaciones**
+
+<img src="img/chapter5/sprint2/app-operations.png" alt="Listado de operaciones de transporte" width="800">
+
+**Detalle de una operación en curso**
+
+<img src="img/chapter5/sprint2/app-operation-detail.png" alt="Detalle de la operación OP-004 con recursos, avance y ruta" width="800">
+
+**Historial de operaciones**
+
+<img src="img/chapter5/sprint2/app-history.png" alt="Historial de operaciones finalizadas y canceladas" width="800">
+
+**Monitoreo IoT**
+
+<img src="img/chapter5/sprint2/app-monitoring.png" alt="Dashboard de monitoreo con una alerta de golpe y las lecturas del dispositivo" width="800">
+
+**Incidencias**
+
+<img src="img/chapter5/sprint2/app-incidents.png" alt="Listado de incidencias con su estado" width="800">
+
+**Seguimiento de pedidos de la bodega**
+
+<img src="img/chapter5/sprint2/app-tracking.png" alt="Vista Mis pedidos del responsable de la bodega" width="800">
+
+**Dashboard de indicadores**
+
+<img src="img/chapter5/sprint2/app-analytics.png" alt="Dashboard con las operaciones del mes, las entregas completadas, las incidencias abiertas y la merma" width="800">
+
+**Vehículos**
+
+<img src="img/chapter5/sprint2/app-vehicles.png" alt="Listado de vehículos de la flota" width="800">
+
+**Conductores**
+
+<img src="img/chapter5/sprint2/app-drivers.png" alt="Listado de conductores" width="800">
+
+**Dispositivos IoT**
+
+<img src="img/chapter5/sprint2/app-devices.png" alt="Configuración de los dispositivos IoT con su rango seguro" width="800">
+
+**Usuarios**
+
+<img src="img/chapter5/sprint2/app-users.png" alt="Gestión de usuarios de la empresa" width="800">
+
+**Empresa**
+
+<img src="img/chapter5/sprint2/app-company.png" alt="Configuración de los datos de la empresa" width="800">
+
+**Perfil**
+
+<img src="img/chapter5/sprint2/app-profile.png" alt="Perfil del usuario autenticado" width="800">
+
+**Vista móvil**
+
+<table>
+<tr>
+<td><img src="img/chapter5/sprint2/app-mobile-sign-in.png" alt="Inicio de sesión en móvil" width="220"></td>
+<td><img src="img/chapter5/sprint2/app-mobile-operations.png" alt="Listado de operaciones en móvil" width="220"></td>
+<td><img src="img/chapter5/sprint2/app-mobile-monitoring.png" alt="Monitoreo IoT en móvil" width="220"></td>
+</tr>
+</table>
+
+**Landing Page v0.2.0**
+
+El Landing Page incorpora las correcciones de AV1: el segmento de bodegas y minimarkets reemplaza al de conductores, las tres llamadas a la acción llevan a la vista correspondiente de la Web Application, la sección del producto muestra capturas de la aplicación, y se agregaron la sección de contacto, los enlaces a redes sociales y el favicon.
+
+<img src="img/chapter5/sprint2/landing-v2-segments.png" alt="Segmentos con sus llamadas a la acción hacia la Web Application" width="800">
+
+<img src="img/chapter5/sprint2/landing-v2-product.png" alt="Sección del producto con capturas de la aplicación" width="800">
+
+<img src="img/chapter5/sprint2/landing-v2-contact.png" alt="Sección de contacto" width="800">
+
+<img src="img/chapter5/sprint2/landing-v2-footer.png" alt="Footer con los enlaces a redes sociales y a los términos del servicio" width="800">
+
+<table>
+<tr>
+<td><img src="img/chapter5/sprint2/landing-v2-mobile-contact.png" alt="Sección de contacto del Landing Page en móvil" width="220"></td>
+</tr>
+</table>
+
+<a id="5226-services-documentation-evidence-for-sprint-review"></a>
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+El Sprint 2 no incluye los Web Services, que se implementan en el Sprint 3 con su documentación en OpenAPI. Mientras tanto, la Frontend Web Application consume un fake API construido con json-server a partir del archivo `server/db.json` del repositorio. Las rutas se publican bajo el prefijo `/api/v1` y cada una se configura en el archivo de entorno con una variable `VITE_<RECURSO>_ENDPOINT_PATH`, de modo que el cambio al RESTful API definitivo solo requiera actualizar la URL base.
+
+| Recurso | Bounded context | Verbos HTTP utilizados |
+| :------ | :-------------- | :--------------------- |
+| `/users` | Identity and Access Management | GET, POST, PATCH |
+| `/organizations` | Identity and Access Management | GET, PATCH |
+| `/vehicles` | Fleet Management | GET, POST, PATCH |
+| `/drivers` | Fleet Management | GET, POST, PATCH |
+| `/delivery-points` | Operations and Routes | GET |
+| `/transport-operations` | Operations and Routes | GET, POST, PATCH |
+| `/delivery-stops` | Operations and Routes | GET, POST, PATCH |
+| `/iot-devices` | IoT Monitoring | GET, PATCH |
+| `/sensor-readings` | IoT Monitoring | GET, POST |
+| `/alerts` | IoT Monitoring | GET, PATCH |
+| `/incidents` | Incident Management | GET, POST, PATCH |
+| `/evidences` | Incident Management | GET, POST |
+
+<a id="5227-software-deployment-evidence-for-sprint-review"></a>
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+En el Sprint 2 se publicaron dos productos.
+
+**Frontend Web Application en Vercel**
+
+1. Se integraron en `develop` las ramas `feature/project-setup`, `feature/identity-access-management`, `feature/fleet-management`, `feature/operations-and-routes`, `feature/iot-monitoring` y `feature/incident-management`, cada una con un merge `--no-ff`.
+2. Se creó la rama `release/0.1.0`, se integró en `main` y se etiquetó como `v0.1.0`, siguiendo Semantic Versioning.
+3. Desde la cuenta de Vercel del equipo se importó el repositorio `Frontend-Web-Aplication` de la organización de GitHub, con el preset de Vite, el comando `npm run build`, el directorio de salida `dist` y la rama de producción `main`.
+4. El archivo `vercel.json` del repositorio redirige todas las rutas a `index.html`, para que Vue Router resuelva las rutas de la aplicación al ingresar directamente a ellas desde las llamadas a la acción del Landing Page.
+5. Vercel publica una nueva versión ante cada integración en `main`. Se verificó el acceso a la URL pública y a las rutas `/monitoring`, `/tracking` y `/analytics`.
+
+**Landing Page en GitHub Pages**
+
+1. Se integraron en `develop` las ramas de las correcciones de AV1 y la rama `feature/product-screenshots`.
+2. Se creó la rama `release/0.2.0`, se integró en `main` y se etiquetó como `v0.2.0`.
+3. GitHub Pages publica el sitio desde la rama `main`, carpeta raíz.
+
+| Producto | Repositorio | Tecnología | Plataforma | Versión | URL |
+| :------- | :---------- | :--------- | :--------- | :------ | :-- |
+| Landing Page | Landing-Page | HTML5, CSS3, JavaScript | GitHub Pages | v0.2.0 | https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/ |
+| Frontend Web Application | Frontend-Web-Aplication | Vue 3, PrimeVue, JavaScript | Vercel | v0.1.0 | https://frontend-web-aplication.vercel.app |
+
+**Repositorio de la Frontend Web Application**
+
+<img src="img/chapter5/sprint2/github-frontend-repo.png" alt="Página principal del repositorio Frontend-Web-Aplication" width="800">
+
+**Ramas del repositorio Frontend-Web-Aplication según GitFlow**
+
+<img src="img/chapter5/sprint2/github-frontend-branches.png" alt="Ramas main, develop, release y feature del repositorio Frontend-Web-Aplication" width="800">
+
+**Tag del release v0.1.0 de la Frontend Web Application**
+
+<img src="img/chapter5/sprint2/github-frontend-tags.png" alt="Tag v0.1.0 del repositorio Frontend-Web-Aplication" width="800">
+
+**Ramas y tags del repositorio Landing-Page**
+
+<img src="img/chapter5/sprint2/github-landing-branches.png" alt="Ramas del repositorio Landing-Page" width="800">
+
+<img src="img/chapter5/sprint2/github-landing-tags.png" alt="Tags v0.1.0 y v0.2.0 del repositorio Landing-Page" width="800">
+
+<a id="5228-team-collaboration-insights-during-sprint"></a>
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0.
+
+La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin considerar los commits de integración de ramas:
+
+| Integrante | Frontend-Web-Aplication | Landing-Page |
+| :--------- | :---------------------: | :----------: |
+| Crispin Valdivia, Angel Gabriel | 16 | 8 |
+| Cumba Rengifo, Leonardo Raul | 12 | 0 |
+| Palacin Lazo, Gerardo Valentin | 5 | 1 |
+| Pezo Castilla, Maria Jose | 5 | 0 |
+| Huapaya Buitron, Ariana Alheli | 4 | 0 |
+
+**Analíticos de contribución del repositorio Frontend-Web-Aplication**
+
+<img src="img/chapter5/sprint2/insights-frontend-contributors.png" alt="GitHub Insights, contribuidores del repositorio Frontend-Web-Aplication" width="800">
+
+**Grafo de ramas del repositorio Frontend-Web-Aplication.** Se aprecian las ramas de los cinco bounded contexts integradas en `develop` y la publicación del release v0.1.0 en `main`.
+
+<img src="img/chapter5/sprint2/insights-frontend-network.png" alt="Grafo de red de ramas del repositorio Frontend-Web-Aplication" width="800">
+
+**Analíticos de contribución del repositorio Landing-Page**
+
+<img src="img/chapter5/sprint2/insights-landing-contributors.png" alt="GitHub Insights, contribuidores del repositorio Landing-Page" width="800">
+
+<img src="img/chapter5/sprint2/insights-landing-network.png" alt="Grafo de red de ramas del repositorio Landing-Page" width="800">
 
 <a id="53-validation-interviews"></a>
 ## 5.3. Validation Interviews.
