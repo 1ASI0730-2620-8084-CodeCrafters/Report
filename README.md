@@ -2073,7 +2073,7 @@ El diagrama de contenedores muestra las unidades desplegables de la solución:
 
 | Contenedor | Tecnología | Despliegue |
 | :--------- | :--------- | :--------- |
-| Landing Page | HTML5, CSS3, JavaScript | GitHub Pages |
+| Landing Page | HTML5, CSS3, JavaScript | Netlify |
 | Web Application | Vue 3, PrimeVue, Pinia, Vue Router, vue-i18n, axios | Vercel |
 | Backend API | ASP.NET Core, C#, Entity Framework Core, documentado con OpenAPI | Proveedor de nube |
 | Database | MySQL | Proveedor de nube |
@@ -2207,7 +2207,7 @@ A continuación se indican los productos de software que utiliza el equipo, el p
 
 | Producto | Propósito | Ruta de referencia |
 | :------- | :-------- | :----------------- |
-| GitHub Pages | Publicación del Landing Page. | https://pages.github.com |
+| Netlify | Publicación del Landing Page. | https://www.netlify.com |
 | Vercel | Publicación de la Frontend Web Application. | https://vercel.com |
 
 **Software Documentation**
@@ -2311,13 +2311,13 @@ El código se escribe sin comentarios: la legibilidad se sostiene con nombres au
 
 **Landing Page**
 
-El Landing Page se publica en GitHub Pages a partir de la rama `main` del repositorio `Landing-Page`. Al tratarse de un sitio web estático sin proceso de construcción, no requiere configuración adicional. Los pasos son los siguientes:
+El Landing Page se publica en Netlify a partir de la rama `main` del repositorio `Landing-Page`, mediante la integración de Netlify con GitHub. Durante el Sprint 1 se publicó en GitHub Pages; desde el Sprint 2 se utiliza Netlify, que vuelve a publicar el sitio de forma automática ante cada integración en `main`. Al tratarse de un sitio web estático sin proceso de construcción, no requiere un comando de build. Los pasos son los siguientes:
 
 1. Integrar en `develop` las ramas de feature terminadas mediante un merge sin avance rápido.
 2. Crear la rama `release/<versión>` a partir de `develop`.
 3. Integrar la rama de release en `main`, etiquetar la versión con Semantic Versioning y publicar los cambios junto con la etiqueta.
-4. En la configuración del repositorio, en la sección Pages, seleccionar la publicación desde la rama `main` y el directorio raíz.
-5. Verificar la publicación en la URL entregada por GitHub Pages.
+4. En Netlify, importar el repositorio desde GitHub, seleccionar la rama `main`, dejar vacío el comando de construcción y publicar el directorio raíz.
+5. Verificar la publicación en la URL entregada por Netlify.
 
 **Frontend Web Application**
 
@@ -2554,6 +2554,14 @@ En el Sprint 2 los aspectos corresponden a los bounded contexts de la Frontend W
 #### 5.2.2.3. Sprint Backlog 2.
 
 El Sprint 2 comprometió las historias de acceso que quedaron pendientes en el Sprint 1, todas las User Stories de la Frontend Web Application que pueden resolverse con el fake API y las historias del Landing Page por segmento y de contacto. Las Technical Stories del RESTful API se planifican para el Sprint 3, junto con la primera versión de los Web Services. Las 51 tareas suman 216 horas y se gestionan en el tablero del proyecto: https://trello.com/b/jGpO815B/bottletrack-product-backlog
+
+**Tablero del proyecto en Trello.** El Product Backlog contiene las User Stories y Technical Stories pendientes, y las listas de cada Sprint registran el avance de sus historias.
+
+<img src="img/chapter5/sprint2/trello-board.png" alt="Tablero de Trello de BottleTrack con el Product Backlog y las listas del Sprint 1" width="800">
+
+**Historias del Sprint 2 en la lista Sprint 2 - Done.** Cada tarjeta registra en su descripción las tareas, las horas estimadas y el responsable.
+
+<img src="img/chapter5/sprint2/trello-sprint-2.png" alt="Listas del Sprint 2 en Trello con las historias terminadas" width="800">
 
 | Sprint # | Sprint 2 | | | | | | |
 | :------- | :------- | :- | :- | :- | :- | :- | :- |
@@ -2798,15 +2806,34 @@ En el Sprint 2 se publicaron dos productos.
 4. El archivo `vercel.json` del repositorio redirige todas las rutas a `index.html`, para que Vue Router resuelva las rutas de la aplicación al ingresar directamente a ellas desde las llamadas a la acción del Landing Page.
 5. Vercel publica una nueva versión ante cada integración en `main`. Se verificó el acceso a la URL pública y a las rutas `/monitoring`, `/tracking` y `/analytics`.
 
-**Landing Page en GitHub Pages**
+**Proyecto de la Frontend Web Application en Vercel**, con el deployment de producción generado desde la rama `main`.
+
+<img src="img/chapter5/sprint2/vercel-project.png" alt="Vista general del proyecto frontend-web-aplication en Vercel" width="800">
+
+**Historial de deployments en Vercel**
+
+<img src="img/chapter5/sprint2/vercel-deployments.png" alt="Historial de deployments del proyecto en Vercel" width="800">
+
+**Configuración de construcción con el preset de Vite**
+
+<img src="img/chapter5/sprint2/vercel-build-settings.png" alt="Configuración de construcción del proyecto en Vercel con el preset de Vite" width="800">
+
+**Integración del proyecto con el repositorio de GitHub**
+
+<img src="img/chapter5/sprint2/vercel-git.png" alt="Repositorio de GitHub conectado al proyecto de Vercel" width="800">
+
+**Landing Page en Netlify**
+
+A partir del Sprint 2 el Landing Page se publica en Netlify, que reemplaza a GitHub Pages porque este último dejó de publicar las nuevas versiones del sitio.
 
 1. Se integraron en `develop` las ramas de las correcciones de AV1 y la rama `feature/product-screenshots`.
 2. Se creó la rama `release/0.2.0`, se integró en `main` y se etiquetó como `v0.2.0`.
-3. GitHub Pages publica el sitio desde la rama `main`, carpeta raíz.
+3. Desde la cuenta de Netlify del equipo se importó el repositorio `Landing-Page`, con la rama de producción `main`, sin comando de construcción y con la carpeta raíz como directorio de publicación.
+4. Netlify publica una nueva versión ante cada integración en `main`. Se verificó la URL pública y que las llamadas a la acción de cada segmento lleven a la vista correspondiente de la Web Application.
 
 | Producto | Repositorio | Tecnología | Plataforma | Versión | URL |
 | :------- | :---------- | :--------- | :--------- | :------ | :-- |
-| Landing Page | Landing-Page | HTML5, CSS3, JavaScript | GitHub Pages | v0.2.0 | https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/ |
+| Landing Page | Landing-Page | HTML5, CSS3, JavaScript | Netlify | v0.2.0 | https://1asi0730-2620-8084-codecrafters.netlify.app/ |
 | Frontend Web Application | Frontend-Web-Aplication | Vue 3, PrimeVue, JavaScript | Vercel | v0.1.0 | https://frontend-web-aplication.vercel.app |
 
 **Repositorio de la Frontend Web Application**
@@ -2973,6 +3000,10 @@ World Wide Web Consortium. (2023, 5 de octubre). *Web Content Accessibility Guid
 
 En esta sección se registra de forma progresiva el video de exposición correspondiente a cada entrega del proyecto. Cada video se publica en Microsoft Stream con enlace privado y sigue la nomenclatura establecida en el enunciado del trabajo final: `upc-pre-202620-1asi0730-8084-codecrafters-expo-<entrega>`. El registro de los videos inicia con la entrega TB1.
 
+| Entrega | Video | Enlace |
+| :------ | :---- | :----- |
+| TB1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g181_upc_edu_pe/IQAW5AoryW7TQIT2jHGQtKZNAdP-jqq74aJtOCkKLweoWaY?e=c7yrEz |
+
 <hr>
 
 <a id="anexo-b-videos-de-entrevistas"></a>
@@ -3018,7 +3049,7 @@ En esta sección se registran las URL de los productos publicados. Cada producto
 
 | Producto | Plataforma de despliegue | URL |
 | :------- | :----------------------- | :-- |
-| Landing Page | GitHub Pages | https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/ |
+| Landing Page | Netlify | https://1asi0730-2620-8084-codecrafters.netlify.app/ |
 | Frontend Web Application | Vercel | https://frontend-web-aplication.vercel.app |
 
 <hr>
