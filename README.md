@@ -2662,6 +2662,99 @@ En el repositorio del Landing Page se aplicaron las correcciones de AV1 y se pub
 | Landing-Page | feature/favicon | 6bd6720 | feat(landing): add brand favicon to every page | — | 2026-10-04 |
 | Landing-Page | release/0.2.0 | 9fd01d0 | docs(release): document web application links for 0.2.0 | — | 2026-10-04 |
 
+<a id="5225-execution-evidence-for-sprint-review"></a>
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+Al cierre del Sprint 2 la Frontend Web Application v0.1.0 se encuentra publicada en https://frontend-web-aplication.vercel.app. La aplicación ofrece una experiencia distinta para cada rol: el administrador gestiona los usuarios, la empresa, la flota y los dispositivos IoT; el supervisor de flota planifica y ejecuta las operaciones, monitorea la carga y registra las incidencias; y el responsable de la bodega sigue sus pedidos y reporta los problemas de recepción. Las vistas que siguen se capturaron con los datos del fake API y el idioma español; la aplicación cambia a inglés desde el selector de idioma.
+
+**Inicio de sesión**
+
+<img src="img/chapter5/sprint2/app-sign-in.png" alt="Vista de inicio de sesión de BottleTrack" width="800">
+
+**Inicio del supervisor de flota**
+
+<img src="img/chapter5/sprint2/app-home.png" alt="Vista de inicio con la navegación del supervisor de flota" width="800">
+
+**Listado de operaciones**
+
+<img src="img/chapter5/sprint2/app-operations.png" alt="Listado de operaciones de transporte" width="800">
+
+**Detalle de una operación en curso**
+
+<img src="img/chapter5/sprint2/app-operation-detail.png" alt="Detalle de la operación OP-004 con recursos, avance y ruta" width="800">
+
+**Historial de operaciones**
+
+<img src="img/chapter5/sprint2/app-history.png" alt="Historial de operaciones finalizadas y canceladas" width="800">
+
+**Monitoreo IoT**
+
+<img src="img/chapter5/sprint2/app-monitoring.png" alt="Dashboard de monitoreo con una alerta de golpe y las lecturas del dispositivo" width="800">
+
+**Incidencias**
+
+<img src="img/chapter5/sprint2/app-incidents.png" alt="Listado de incidencias con su estado" width="800">
+
+**Seguimiento de pedidos de la bodega**
+
+<img src="img/chapter5/sprint2/app-tracking.png" alt="Vista Mis pedidos del responsable de la bodega" width="800">
+
+**Dashboard de indicadores**
+
+<img src="img/chapter5/sprint2/app-analytics.png" alt="Dashboard con las operaciones del mes, las entregas completadas, las incidencias abiertas y la merma" width="800">
+
+**Vehículos**
+
+<img src="img/chapter5/sprint2/app-vehicles.png" alt="Listado de vehículos de la flota" width="800">
+
+**Conductores**
+
+<img src="img/chapter5/sprint2/app-drivers.png" alt="Listado de conductores" width="800">
+
+**Dispositivos IoT**
+
+<img src="img/chapter5/sprint2/app-devices.png" alt="Configuración de los dispositivos IoT con su rango seguro" width="800">
+
+**Usuarios**
+
+<img src="img/chapter5/sprint2/app-users.png" alt="Gestión de usuarios de la empresa" width="800">
+
+**Empresa**
+
+<img src="img/chapter5/sprint2/app-company.png" alt="Configuración de los datos de la empresa" width="800">
+
+**Perfil**
+
+<img src="img/chapter5/sprint2/app-profile.png" alt="Perfil del usuario autenticado" width="800">
+
+**Vista móvil**
+
+<table>
+<tr>
+<td><img src="img/chapter5/sprint2/app-mobile-sign-in.png" alt="Inicio de sesión en móvil" width="220"></td>
+<td><img src="img/chapter5/sprint2/app-mobile-operations.png" alt="Listado de operaciones en móvil" width="220"></td>
+<td><img src="img/chapter5/sprint2/app-mobile-monitoring.png" alt="Monitoreo IoT en móvil" width="220"></td>
+</tr>
+</table>
+
+**Landing Page v0.2.0**
+
+El Landing Page incorpora las correcciones de AV1: el segmento de bodegas y minimarkets reemplaza al de conductores, las tres llamadas a la acción llevan a la vista correspondiente de la Web Application, la sección del producto muestra capturas de la aplicación, y se agregaron la sección de contacto, los enlaces a redes sociales y el favicon.
+
+<img src="img/chapter5/sprint2/landing-v2-segments.png" alt="Segmentos con sus llamadas a la acción hacia la Web Application" width="800">
+
+<img src="img/chapter5/sprint2/landing-v2-product.png" alt="Sección del producto con capturas de la aplicación" width="800">
+
+<img src="img/chapter5/sprint2/landing-v2-contact.png" alt="Sección de contacto" width="800">
+
+<img src="img/chapter5/sprint2/landing-v2-footer.png" alt="Footer con los enlaces a redes sociales y a los términos del servicio" width="800">
+
+<table>
+<tr>
+<td><img src="img/chapter5/sprint2/landing-v2-mobile-contact.png" alt="Sección de contacto del Landing Page en móvil" width="220"></td>
+</tr>
+</table>
+
 <a id="53-validation-interviews"></a>
 ## 5.3. Validation Interviews.
 
