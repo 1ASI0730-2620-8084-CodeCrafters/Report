@@ -2540,6 +2540,67 @@ En el Sprint 2 los aspectos corresponden a los bounded contexts de la Frontend W
 | Pezo Castilla, Maria Jose | MariaJosePezo | C | C | C | C | C | L | C |
 | Huapaya Buitron, Ariana Alheli | arianahuapayabui | C | C | L | C | C | C | C |
 
+<a id="5223-sprint-backlog-2"></a>
+#### 5.2.2.3. Sprint Backlog 2.
+
+El Sprint 2 comprometió las historias de acceso que quedaron pendientes en el Sprint 1, todas las User Stories de la Frontend Web Application que pueden resolverse con el fake API y las historias del Landing Page por segmento y de contacto. Las Technical Stories del RESTful API se planifican para el Sprint 3, junto con la primera versión de los Web Services. Las 51 tareas suman 216 horas y se gestionan en el tablero del proyecto: https://trello.com/b/jGpO815B/bottletrack-product-backlog
+
+| Sprint # | Sprint 2 | | | | | | |
+| :------- | :------- | :- | :- | :- | :- | :- | :- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US39 | Conocer beneficios para distribuidoras | T01 | Distributor segment call to action | Enlazar la llamada a la acción del segmento de distribuidoras con la vista `/analytics` de la Web Application. | 2 | Crispin Valdivia, Angel Gabriel | Done |
+| US39 | Conocer beneficios para distribuidoras | T02 | Application screenshots | Incorporar en la sección del producto las capturas del dashboard, de las operaciones y de las incidencias. | 4 | Palacin Lazo, Gerardo Valentin | Done |
+| US40 | Conocer beneficios para supervisores | T01 | Supervisor segment call to action | Enlazar la llamada a la acción del segmento de supervisores con la vista `/monitoring` de la Web Application. | 2 | Crispin Valdivia, Angel Gabriel | Done |
+| US41 | Conocer beneficios para bodegas | T01 | Delivery point segment | Reemplazar el segmento de conductores por el de bodegas y minimarkets, con su llamada a la acción hacia `/tracking`. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US42 | Contactar a CodeCrafters | T01 | Contact form and social links | Implementar el formulario de contacto, los enlaces a redes sociales en el footer y el favicon de la marca. | 5 | Crispin Valdivia, Angel Gabriel | Done |
+| US04 | Iniciar sesión | T01 | Project setup | Configurar Vite, PrimeVue, Pinia, Vue Router, vue-i18n, axios, los design tokens y el fake API con json-server. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US04 | Iniciar sesión | T02 | Sign in implementation | Implementar el formulario de inicio de sesión, el store de IAM y el guard de autenticación por rol. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US05 | Cerrar sesión | T01 | Sign out implementation | Implementar el cierre de sesión desde la barra lateral e invalidar la sesión activa. | 2 | Crispin Valdivia, Angel Gabriel | Done |
+| US06 | Consultar perfil | T01 | Profile view implementation | Implementar la vista del perfil del usuario autenticado. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US07 | Gestionar usuarios | T01 | Users management implementation | Implementar el listado, el registro y la edición de usuarios de la empresa. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US08 | Asignar rol a usuario | T01 | Role assignment implementation | Implementar la selección del rol en el formulario de usuario y la navegación filtrada por rol. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US09 | Gestionar información de empresa | T01 | Company settings implementation | Implementar la vista y el servicio para actualizar los datos de la empresa. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US10 | Registrar vehículo | T01 | Fleet domain and gateway | Implementar las entidades de vehículo y conductor, sus assemblers y el gateway del fake API. | 6 | Huapaya Buitron, Ariana Alheli | Done |
+| US10 | Registrar vehículo | T02 | Vehicle registration | Implementar el formulario de registro de vehículos. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US11 | Actualizar vehículo | T01 | Vehicle edition | Implementar la edición de vehículos desde el listado. | 3 | Huapaya Buitron, Ariana Alheli | Done |
+| US12 | Consultar vehículos disponibles | T01 | Vehicle list view | Implementar el listado de vehículos con su estado de disponibilidad. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US13 | Registrar conductor | T01 | Driver registration | Implementar el formulario de registro de conductores. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US14 | Actualizar conductor | T01 | Driver edition | Implementar la edición de conductores desde el listado. | 3 | Huapaya Buitron, Ariana Alheli | Done |
+| US15 | Consultar conductores disponibles | T01 | Driver list view | Implementar el listado de conductores y registrar las rutas, traducciones y datos de la flota. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US16 | Crear operación de transporte | T01 | Operations domain and gateway | Implementar las entidades de operación y de orden de entrega, sus assemblers y los gateways del fake API. | 8 | Cumba Rengifo, Leonardo Raul | Done |
+| US16 | Crear operación de transporte | T02 | Create operation dialog | Implementar el diálogo de creación de operaciones y el store de operaciones. | 6 | Cumba Rengifo, Leonardo Raul | Done |
+| US17 | Asignar vehículo a operación | T01 | Vehicle assignment | Implementar la asignación de un vehículo disponible en la sección de recursos de la operación. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US18 | Asignar conductor a operación | T01 | Driver assignment | Implementar la asignación de un conductor disponible en la sección de recursos de la operación. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US19 | Consultar operaciones | T01 | Operation list view | Implementar el listado de operaciones con su estado y sus datos principales. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US20 | Cancelar operación | T01 | Cancel operation dialog | Implementar la cancelación de operaciones no iniciadas con el motivo obligatorio. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US21 | Iniciar operación | T01 | Start operation | Implementar el inicio de la operación cuando tiene recursos y puntos de entrega. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US22 | Finalizar operación | T01 | Finish operation | Implementar el cierre de la operación cuando todas las entregas tienen resultado. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US23 | Registrar punto de entrega | T01 | Add stop dialog | Implementar el diálogo para agregar puntos de entrega con la cantidad planificada. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US24 | Organizar puntos de entrega | T01 | Stop ordering | Implementar el cambio de orden de los puntos de entrega dentro de la ruta. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US25 | Consultar ruta de una operación | T01 | Operation route component | Implementar la tabla de la ruta con los puntos de entrega, su estado y sus acciones. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US26 | Consultar detalle de entrega | T01 | Delivery order card | Implementar la tarjeta con el detalle de cada orden de entrega. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US27 | Actualizar estado de entrega | T01 | Delivery result dialog | Implementar el registro del resultado de cada entrega. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US28 | Registrar entrega parcial | T01 | Partial delivery | Validar la cantidad entregada y el motivo en las entregas parciales. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US29 | Registrar entrega no realizada | T01 | Failed delivery | Registrar las entregas no realizadas con su motivo. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US34 | Consultar progreso de operación | T01 | Operation progress component | Implementar el avance de la operación con el conteo de entregas por estado. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US36 | Consultar historial de operaciones | T01 | Operation history view | Implementar el historial de operaciones finalizadas y canceladas. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US37 | Consultar detalle histórico | T01 | Historical detail | Enlazar cada operación del historial con su vista de detalle. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US38 | Consultar ubicación de entrega | T01 | Delivery location link | Mostrar la dirección del punto de entrega con el enlace a su ubicación en el mapa. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US46 | Consultar estado de mi pedido | T01 | Delivery order tracking view | Implementar la vista de pedidos en camino y recibidos para el responsable de la bodega. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US47 | Reportar problema de recepción | T01 | Reception problem dialog | Implementar el reporte de faltantes o productos dañados al recibir el pedido. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US47 | Reportar problema de recepción | T02 | Operations translations and data | Registrar las rutas, las traducciones y los datos del fake API de las operaciones. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US43 | Consultar lecturas IoT de una operación | T01 | IoT domain and gateway | Implementar la entidad de dispositivo IoT, sus assemblers y el gateway de lecturas y alertas. | 6 | Palacin Lazo, Gerardo Valentin | Done |
+| US43 | Consultar lecturas IoT de una operación | T02 | Monitoring dashboard | Implementar el dashboard de monitoreo con la tarjeta de cada operación en curso. | 6 | Palacin Lazo, Gerardo Valentin | Done |
+| US44 | Recibir alerta de carga en riesgo | T01 | Alert list | Implementar la lista de alertas pendientes con el registro de incidencia y la revisión. | 4 | Palacin Lazo, Gerardo Valentin | Done |
+| US45 | Configurar rango seguro | T01 | Device settings view | Implementar la configuración de dispositivos con el rango seguro de temperatura y el umbral de golpes. | 5 | Palacin Lazo, Gerardo Valentin | Done |
+| US30 | Registrar incidencia | T01 | Incidents domain and gateway | Implementar las entidades de incidencia y evidencia, su assembler y el gateway del fake API. | 6 | Pezo Castilla, Maria Jose | Done |
+| US30 | Registrar incidencia | T02 | Report incident dialog | Implementar el diálogo de registro de incidencias y el store de incidencias. | 5 | Pezo Castilla, Maria Jose | Done |
+| US31 | Adjuntar evidencia de incidencia | T01 | Attach evidence dialog | Implementar la carga de evidencias asociadas a una incidencia. | 5 | Pezo Castilla, Maria Jose | Done |
+| US32 | Consultar incidencias | T01 | Incident list view | Implementar el listado de incidencias con su tipo, operación y estado. | 4 | Pezo Castilla, Maria Jose | Done |
+| US33 | Actualizar estado de incidencia | T01 | Advance incident dialog | Implementar el avance de estado de la incidencia hasta su cierre. | 3 | Pezo Castilla, Maria Jose | Done |
+| US35 | Consultar dashboard | T01 | Analytics dashboard | Implementar el dashboard con las operaciones del mes, las entregas completadas, las incidencias abiertas y la merma. | 6 | Pezo Castilla, Maria Jose | Done |
+
 <a id="53-validation-interviews"></a>
 ## 5.3. Validation Interviews.
 
