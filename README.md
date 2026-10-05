@@ -64,6 +64,7 @@
 | 2.0 | 2026-10-01 | Crispin Valdivia, Angel Gabriel | Corrección integral según la revisión de AV1: Lean UX con plantilla Brand new initiative y Lean UX Canvas, alineación de los segmentos objetivo, análisis de entrevistas con porcentajes, narrativa del Needfinding y del EventStorming, User Stories con Epic y nuevas historias, Product Backlog ordenado por valor, arquitectura hexagonal en el modelo C4, diagramas de clases y de base de datos en inglés, y Sprint 1 completo. |
 | 2.1 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Actualización de la carátula según la guía del docente, documentación del Sprint 2 con sus evidencias de Trello, Vercel y GitHub, registro del Student Outcome de TB1, publicación del Landing Page en Netlify, fake API público en Beeceptor y registro del video de exposición de TB1. |
 | 2.2 | 2026-10-05 | Cumba Rengifo, Leonardo Raul | Incorporación de los wireflows y User Flow Diagrams por User Goal del administrador y del supervisor de flota en las secciones 4.4.2 y 4.4.4. |
+| 2.3 | 2026-10-05 | Cumba Rengifo, Leonardo Raul | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), actualización de su análisis de entrevistas con los nuevos porcentajes y del Anexo B con el video de Needfinding del Sprint 2. |
 
 <hr>
 
@@ -1051,6 +1052,7 @@ Pablo considera importante contar con una herramienta que permita disponer de in
 | # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Arturo Axel Saravia Huaricancha | 20 años | Los Olivos | <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">| [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) |  00:00:00 | 6:06 |
+| 2 | Leo Giovany Yañez Santos | 23 años | Pueblo Libre | <img src="img/chapter2/interview-leo-yanez.png" alt="Entrevista - Leo Yañez"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQBojonPPXthQZqzYym1KU4AAaZRMaqOFJhhf7FbnKeIYyU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J1wLT6) | 00:00:00 | 03:00 |
 
 *Resumen de entrevista 1:*
 
@@ -1059,6 +1061,14 @@ En esta entrevista, el participante es un estudiante universitario que trabaja m
 Se identificó que la bodega trabaja con varios distribuidores y que la comunicación se realiza principalmente mediante WhatsApp y llamadas. Uno de los principales problemas es no conocer con precisión la hora de llegada de los pedidos, además de recibir ocasionalmente productos incompletos o con diferencias respecto a lo solicitado.
 
 El entrevistado considera importante poder conocer el estado del pedido, la cantidad de productos, la hora aproximada de llegada y posibles retrasos, ya que esto permitiría organizarse mejor y reducir la necesidad de estar contactando constantemente al proveedor.
+
+*Resumen de entrevista 2:*
+
+En esta entrevista simulada, el participante es Leo, encargado de un minimarket, quien realiza sus pedidos de bebidas por WhatsApp o mediante un vendedor.
+
+Se identificó que sus principales problemas son los retrasos, los productos faltantes y la falta de una hora precisa de entrega, situaciones que afectan sus ventas y la organización del negocio.
+
+El entrevistado considera que BottleTrack le ayudaría a consultar el estado de sus pedidos, recibir avisos y reportar incidencias con fotos, siempre que la herramienta sea fácil de usar desde el celular.
 
 
 <a id="223-analisis-de-entrevistas"></a>
@@ -1118,17 +1128,24 @@ Se entrevistó a 3 supervisores, de 21, 37 y 39 años, con entre 5 y 7 años de 
 
 #### Segmento Objetivo 3: Bodegas y minimarkets
 
-Se entrevistó a 1 persona de 20 años, residente en Los Olivos, que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock.
+Se entrevistó a 2 personas de 20 y 23 años, residentes en Los Olivos y Pueblo Libre: una persona que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock, y el encargado de un minimarket, que realiza los pedidos de bebidas.
 
 | Variable | Resultado | Entrevistados | % |
 | :------- | :-------- | :-----------: | :-: |
-| Cantidad de distribuidores | Trabaja con varios distribuidores | 1 de 1 | 100 % |
-| Canales utilizados | WhatsApp y llamadas telefónicas | 1 de 1 | 100 % |
-| Principal dificultad | No conocer la hora de llegada del pedido | 1 de 1 | 100 % |
-| | Recibir productos incompletos o distintos a lo solicitado | 1 de 1 | 100 % |
-| Necesidad principal | Conocer el estado del pedido, la cantidad y la hora aproximada de llegada | 1 de 1 | 100 % |
+| Cantidad de distribuidores | Trabaja con varios distribuidores | 1 de 2 | 50 % |
+| Canales utilizados | WhatsApp | 2 de 2 | 100 % |
+| | Llamadas telefónicas | 1 de 2 | 50 % |
+| | Pedido mediante un vendedor | 1 de 2 | 50 % |
+| Principal dificultad | No conocer la hora de llegada del pedido | 2 de 2 | 100 % |
+| | Recibir productos incompletos o distintos a lo solicitado | 2 de 2 | 100 % |
+| | Retrasos en la entrega del pedido | 1 de 2 | 50 % |
+| Dispositivo preferido | Celular, con una herramienta fácil de usar | 1 de 2 | 50 % |
+| Necesidad principal | Consultar el estado del pedido | 2 de 2 | 100 % |
+| | Conocer la cantidad y la hora aproximada de llegada | 1 de 2 | 50 % |
+| | Recibir avisos sobre sus pedidos | 1 de 2 | 50 % |
+| | Reportar incidencias con fotos | 1 de 2 | 50 % |
 
-**Conclusión del segmento.** La incertidumbre sobre la hora de llegada y los faltantes son los dos problemas principales de la bodega, y la comunicación con el distribuidor se realiza exclusivamente por WhatsApp y llamadas. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Al contar con una sola entrevista, este segmento tiene la menor muestra del estudio, por lo que el equipo amplía su registro en el siguiente sprint para confirmar estos porcentajes.
+**Conclusión del segmento.** El 100 % de los entrevistados señala como problemas principales no conocer la hora de llegada del pedido y recibir productos faltantes, y el 100 % coordina sus pedidos por WhatsApp, complementado con llamadas o con un vendedor. La necesidad que comparten es consultar el estado del pedido; además, la mitad de la muestra pide recibir avisos, reportar incidencias con fotos y usar la herramienta desde el celular, por lo que la vista para la bodega debe ser simple y adaptada al móvil. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Con dos entrevistas, este segmento sigue teniendo la menor muestra del estudio, por lo que el equipo continúa ampliando su registro para confirmar estos porcentajes.
 
 #### Hallazgos transversales
 
@@ -3210,8 +3227,9 @@ En esta sección se consolidan los videos de entrevistas realizadas durante el c
 | Proceso | Sprint | Nombre del archivo | Enlace |
 | :------ | :----- | :----------------- | :----- |
 | Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20221g181_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221g181%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8084%2Dcodecrafters%2Dneedfinding%2Dsprint%2D1%2Emp4&ga=1) |
+| Needfinding Interviews | Sprint 2 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-2 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQBojonPPXthQZqzYym1KU4AAaZRMaqOFJhhf7FbnKeIYyU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J1wLT6) |
 
-El video de Needfinding reúne las seis entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos.
+El video de Needfinding del Sprint 1 reúne las seis primeras entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos. La séptima entrevista, a Leo Giovany Yañez Santos del segmento Bodegas y minimarkets, se registró en el Sprint 2 en un video aparte, con una duración de 3 minutos.
 
 | # | Entrevistado | Segmento objetivo | Inicio | Duración |
 | :- | :----------- | :---------------- | :----- | :------- |
