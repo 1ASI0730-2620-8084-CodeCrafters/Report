@@ -2506,6 +2506,40 @@ La siguiente tabla resume los commits de cada integrante en el Sprint 1, sin con
 
 Para el Sprint 2 el equipo acordó que todos los integrantes participen con commits en el Landing Page y en la Frontend Web Application, cada uno en la rama de su bounded context.
 
+<a id="522-sprint-2"></a>
+### 5.2.2. Sprint 2
+
+<a id="5221-sprint-planning-2"></a>
+#### 5.2.2.1. Sprint Planning 2.
+
+| Sprint #  | Sprint 2 |
+| :-------- | :------- |
+| **Sprint Planning Background** | |
+| Date | 2026-09-28 |
+| Time | 9:00 PM |
+| Location | Reunión virtual por Discord |
+| Prepared By | Crispin Valdivia, Angel Gabriel |
+| Attendees (to planning meeting) | Crispin Valdivia, Angel Gabriel; Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose; Huapaya Buitron, Ariana Alheli |
+| Sprint 1 Review Summary | En el Sprint 1 se publicó el Landing Page v0.1.0 en GitHub Pages y se completaron las User Stories US01, US02 y US03. La revisión de AV1 señaló que el Landing Page no mostraba medios de contacto, redes sociales ni capturas de la aplicación, que el informe conservaba textos pendientes y que el segmento de conductores no correspondía a un usuario de la aplicación. Las historias de acceso US04 a US09 quedaron pendientes de implementación. |
+| Sprint 1 Retrospective Summary | El equipo valoró el design system y el uso de GitFlow desde el primer día. Como aspectos a mejorar identificó que el código se concentró en un solo integrante y que se entregaron secciones con textos pendientes. Se acordó que cada integrante lidere un bounded context de la Frontend Web Application en su propia rama, que ninguna sección se entregue con contenido pendiente y que las correcciones de AV1 se resuelvan dentro del Sprint 2. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | *Our focus is on* que el supervisor de flota, el administrador y el responsable de la bodega operen en la Frontend Web Application el ciclo completo de una operación de transporte: planificarla con sus recursos, seguir sus entregas y la carga con lecturas IoT, y registrar las incidencias con evidencia.<br>*We believe it delivers* visibilidad sobre el estado de cada entrega y de la carga *to* las distribuidoras de bebidas, sus supervisores de flota y las bodegas que reciben los pedidos.<br>*This will be confirmed when* un supervisor crea y ejecuta una operación, atiende una alerta de la carga registrando una incidencia, y la bodega consulta su pedido desde la aplicación publicada en Vercel, a la que se llega desde la llamada a la acción de su segmento en el Landing Page. |
+| Sprint 2 Velocity | 143 |
+| Sum of Story Points | 143 |
+
+<a id="5222-aspect-leaders-and-collaborators"></a>
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+En el Sprint 2 los aspectos corresponden a los bounded contexts de la Frontend Web Application, a la configuración base del proyecto y al Landing Page. Cada integrante lidera el bounded context que implementó en su rama de feature y colabora en los contextos con los que el suyo se integra. Angel Crispin colabora en todos los contextos porque revisó e integró cada rama en `develop` y mantuvo el Shared Kernel del que todos dependen.
+
+| Team Member (Last Name, First Name) | GitHub Username | Project Setup & Configuration Management | Identity and Access Management | Fleet Management | Operations and Routes | IoT Monitoring | Incident Management | Landing Page |
+| :---------------------------------- | :-------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| Crispin Valdivia, Angel Gabriel | FaureGalliard | L | L | C | C | C | C | L |
+| Cumba Rengifo, Leonardo Raul | LeonardoC72 | C | C | C | L | C | C | C |
+| Palacin Lazo, Gerardo Valentin | GeraldP03 | C | C | C | C | L | C | C |
+| Pezo Castilla, Maria Jose | MariaJosePezo | C | C | C | C | C | L | C |
+| Huapaya Buitron, Ariana Alheli | arianahuapayabui | C | C | L | C | C | C | C |
+
 <a id="53-validation-interviews"></a>
 ## 5.3. Validation Interviews.
 
