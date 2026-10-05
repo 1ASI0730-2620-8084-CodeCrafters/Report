@@ -171,6 +171,15 @@ La siguiente captura muestra los analíticos de contribución del repositorio de
             - <a href="#52x6-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</a>
             - <a href="#52x7-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</a>
             - <a href="#52x8-team-colaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</a>
+        - <a href="#522-sprint-2">5.2.2. Sprint 2.</a>
+            - <a href="#5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</a>
+            - <a href="#5222-aspect-leaders-and-collaborators">5.2.2.2. Aspect Leaders and Collaborators.</a>
+            - <a href="#5223-sprint-backlog-2">5.2.2.3. Sprint Backlog 2.</a>
+            - <a href="#5224-development-evidence-for-sprint-review">5.2.2.4. Development Evidence for Sprint Review.</a>
+            - <a href="#5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review.</a>
+            - <a href="#5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review.</a>
+            - <a href="#5227-software-deployment-evidence-for-sprint-review">5.2.2.7. Software Deployment Evidence for Sprint Review.</a>
+            - <a href="#5228-team-collaboration-insights-during-sprint">5.2.2.8. Team Collaboration Insights during Sprint.</a>
     - <a href="#53-validation-interviews">5.3. Validation Interviews.</a>
         - <a href="#531-diseno-de-entrevistas">5.3.1. Diseño de Entrevistas.</a>
         - <a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</a>
@@ -2816,6 +2825,35 @@ En el Sprint 2 se publicaron dos productos.
 <img src="img/chapter5/sprint2/github-landing-branches.png" alt="Ramas del repositorio Landing-Page" width="800">
 
 <img src="img/chapter5/sprint2/github-landing-tags.png" alt="Tags v0.1.0 y v0.2.0 del repositorio Landing-Page" width="800">
+
+<a id="5228-team-collaboration-insights-during-sprint"></a>
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0.
+
+La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin considerar los commits de integración de ramas:
+
+| Integrante | Frontend-Web-Aplication | Landing-Page |
+| :--------- | :---------------------: | :----------: |
+| Crispin Valdivia, Angel Gabriel | 16 | 8 |
+| Cumba Rengifo, Leonardo Raul | 12 | 0 |
+| Palacin Lazo, Gerardo Valentin | 5 | 1 |
+| Pezo Castilla, Maria Jose | 5 | 0 |
+| Huapaya Buitron, Ariana Alheli | 4 | 0 |
+
+**Analíticos de contribución del repositorio Frontend-Web-Aplication**
+
+<img src="img/chapter5/sprint2/insights-frontend-contributors.png" alt="GitHub Insights, contribuidores del repositorio Frontend-Web-Aplication" width="800">
+
+**Grafo de ramas del repositorio Frontend-Web-Aplication.** Se aprecian las ramas de los cinco bounded contexts integradas en `develop` y la publicación del release v0.1.0 en `main`.
+
+<img src="img/chapter5/sprint2/insights-frontend-network.png" alt="Grafo de red de ramas del repositorio Frontend-Web-Aplication" width="800">
+
+**Analíticos de contribución del repositorio Landing-Page**
+
+<img src="img/chapter5/sprint2/insights-landing-contributors.png" alt="GitHub Insights, contribuidores del repositorio Landing-Page" width="800">
+
+<img src="img/chapter5/sprint2/insights-landing-network.png" alt="Grafo de red de ramas del repositorio Landing-Page" width="800">
 
 <a id="53-validation-interviews"></a>
 ## 5.3. Validation Interviews.
