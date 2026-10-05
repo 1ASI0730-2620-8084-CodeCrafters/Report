@@ -61,8 +61,8 @@
 | 1.17 | 2026-09-18 | Pezo Castilla, Maria Jose | Incorporación del Big Picture y del Design-Level EventStorming, del registro de entrevistas y de la información de participación del Capítulo V. |
 | 1.18 | 2026-09-18 | Cumba Rengifo, Leonardo Raul | Revisión del registro de entrevistas, del Sprint Planning y de las conclusiones para la entrega AV1. |
 | 1.19 | 2026-10-01 | Palacin Lazo, Gerardo Valentin | Actualización del modelo C4, del Student Outcome y registro de una nueva entrevista del segmento de distribuidoras. |
-| 1.20 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Actualización de la carátula según la guía del docente, documentación del Sprint 2, corrección de los enlaces al repositorio de la Frontend Web Application y registro del Student Outcome de TB1. |
 | 2.0 | 2026-10-01 | Crispin Valdivia, Angel Gabriel | Corrección integral según la revisión de AV1: Lean UX con plantilla Brand new initiative y Lean UX Canvas, alineación de los segmentos objetivo, análisis de entrevistas con porcentajes, narrativa del Needfinding y del EventStorming, User Stories con Epic y nuevas historias, Product Backlog ordenado por valor, arquitectura hexagonal en el modelo C4, diagramas de clases y de base de datos en inglés, y Sprint 1 completo. |
+| 2.1 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Actualización de la carátula según la guía del docente, documentación del Sprint 2 con sus evidencias de Trello, Vercel y GitHub, registro del Student Outcome de TB1, publicación del Landing Page en Netlify, fake API público en Beeceptor y registro del video de exposición de TB1. |
 
 <hr>
 
@@ -2325,7 +2325,7 @@ La aplicación web se publica en Vercel a partir de la rama `main` del repositor
 
 1. Importar el repositorio desde el panel de Vercel.
 2. Configurar el comando de construcción y el directorio de salida que corresponden a un proyecto de Vue.
-3. Registrar la variable de entorno con la URL base de los Web Services.
+3. Registrar en el archivo `.env.production` la URL base del API. Mientras no existan los Web Services, apunta al fake API publicado en Beeceptor.
 4. Confirmar la publicación automática que Vercel ejecuta ante cada integración en `main`.
 
 Una vez publicada la aplicación, la URL definitiva se registra en los llamados a la acción de cada segmento objetivo del Landing Page, de modo que ambos productos queden enlazados.
@@ -2670,6 +2670,9 @@ En el repositorio del Landing Page se aplicaron las correcciones de AV1 y se pub
 | Frontend-Web-Aplication | feature/incident-management | 6365298 | feat(incidents): add analytics dashboard | — | 2026-10-03 |
 | Frontend-Web-Aplication | feature/incident-management | a51a526 | feat(incidents): register incidents routes, translations and fake api data | — | 2026-10-03 |
 | Frontend-Web-Aplication | release/0.1.0 | 36f92e5 | chore(release): bump version to 0.1.0 | — | 2026-10-04 |
+| Frontend-Web-Aplication | feature/beeceptor-snapshot-api | 8886464 | feat(shared): add snapshot adapter to serve the api from a single download | — | 2026-10-05 |
+| Frontend-Web-Aplication | feature/beeceptor-snapshot-api | 94e4e9c | feat(shared): use the beeceptor snapshot in production builds | — | 2026-10-05 |
+| Frontend-Web-Aplication | release/0.2.0 | ac4cf8c | chore(release): bump version to 0.2.0 | — | 2026-10-05 |
 | Landing-Page | feature/product-screenshots | 6239460 | feat(landing): show application screenshots in product section. | — | 2026-10-03 |
 | Landing-Page | feature/remove-team-video-placeholder | 4a9b9d4 | refactor(landing): remove about the team video placeholder | — | 2026-10-04 |
 | Landing-Page | feature/remove-team-video-placeholder | 2cb5051 | refactor(landing): remove about the product video placeholder | — | 2026-10-04 |
@@ -2679,6 +2682,7 @@ En el repositorio del Landing Page se aplicaron las correcciones de AV1 y se pub
 | Landing-Page | feature/contact-and-social | c385ba0 | feat(landing): add contact form and social media links | — | 2026-10-04 |
 | Landing-Page | feature/favicon | 6bd6720 | feat(landing): add brand favicon to every page | — | 2026-10-04 |
 | Landing-Page | release/0.2.0 | 9fd01d0 | docs(release): document web application links for 0.2.0 | — | 2026-10-04 |
+| Landing-Page | feature/netlify-deployment | f89ea12 | docs: set netlify as the deployment target | — | 2026-10-05 |
 
 <a id="5225-execution-evidence-for-sprint-review"></a>
 #### 5.2.2.5. Execution Evidence for Sprint Review.
@@ -2778,6 +2782,8 @@ El Landing Page incorpora las correcciones de AV1: el segmento de bodegas y mini
 
 El Sprint 2 no incluye los Web Services, que se implementan en el Sprint 3 con su documentación en OpenAPI. Mientras tanto, la Frontend Web Application consume un fake API construido con json-server a partir del archivo `server/db.json` del repositorio. Las rutas se publican bajo el prefijo `/api/v1` y cada una se configura en el archivo de entorno con una variable `VITE_<RECURSO>_ENDPOINT_PATH`, de modo que el cambio al RESTful API definitivo solo requiera actualizar la URL base.
 
+En producción el fake API se publica en Beeceptor, en https://bottle-track.free.beeceptor.com/api/v1. Como el plan gratuito de Beeceptor admite pocas solicitudes por día, el endpoint expone una sola regla, `GET /api/v1/db`, que entrega el conjunto completo de datos. La aplicación lo descarga una vez por pestaña del navegador y el adaptador `snapshot.adapter.js` de la capa de infraestructura compartida responde las demás solicitudes con las mismas reglas de json-server, sin modificar los gateways de los bounded contexts.
+
 | Recurso | Bounded context | Verbos HTTP utilizados |
 | :------ | :-------------- | :--------------------- |
 | `/users` | Identity and Access Management | GET, POST, PATCH |
@@ -2805,6 +2811,7 @@ En el Sprint 2 se publicaron dos productos.
 3. Desde la cuenta de Vercel del equipo se importó el repositorio `Frontend-Web-Aplication` de la organización de GitHub, con el preset de Vite, el comando `npm run build`, el directorio de salida `dist` y la rama de producción `main`.
 4. El archivo `vercel.json` del repositorio redirige todas las rutas a `index.html`, para que Vue Router resuelva las rutas de la aplicación al ingresar directamente a ellas desde las llamadas a la acción del Landing Page.
 5. Vercel publica una nueva versión ante cada integración en `main`. Se verificó el acceso a la URL pública y a las rutas `/monitoring`, `/tracking` y `/analytics`.
+6. Se publicó el release `v0.2.0`, que agrega el archivo `.env.production` y el adaptador que consume el fake API de Beeceptor.
 
 **Proyecto de la Frontend Web Application en Vercel**, con el deployment de producción generado desde la rama `main`.
 
@@ -2834,7 +2841,7 @@ A partir del Sprint 2 el Landing Page se publica en Netlify, que reemplaza a Git
 | Producto | Repositorio | Tecnología | Plataforma | Versión | URL |
 | :------- | :---------- | :--------- | :--------- | :------ | :-- |
 | Landing Page | Landing-Page | HTML5, CSS3, JavaScript | Netlify | v0.2.0 | https://1asi0730-2620-8084-codecrafters.netlify.app/ |
-| Frontend Web Application | Frontend-Web-Aplication | Vue 3, PrimeVue, JavaScript | Vercel | v0.1.0 | https://frontend-web-aplication.vercel.app |
+| Frontend Web Application | Frontend-Web-Aplication | Vue 3, PrimeVue, JavaScript | Vercel | v0.2.0 | https://frontend-web-aplication.vercel.app |
 
 **Repositorio de la Frontend Web Application**
 
@@ -2863,7 +2870,7 @@ La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin con
 
 | Integrante | Frontend-Web-Aplication | Landing-Page |
 | :--------- | :---------------------: | :----------: |
-| Crispin Valdivia, Angel Gabriel | 16 | 8 |
+| Crispin Valdivia, Angel Gabriel | 19 | 9 |
 | Cumba Rengifo, Leonardo Raul | 12 | 0 |
 | Palacin Lazo, Gerardo Valentin | 5 | 1 |
 | Pezo Castilla, Maria Jose | 5 | 0 |
