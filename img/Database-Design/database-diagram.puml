@@ -1,0 +1,188 @@
+@startuml
+hide circle
+skinparam linetype ortho
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam class {
+  BackgroundColor #ffffff
+  BorderColor #b34900
+  ArrowColor #4f2000
+}
+skinparam package {
+  BackgroundColor #fff7ed
+  BorderColor #f97316
+}
+
+package "Identity and Access Management" {
+  entity organizations {
+    * id : CHAR(36) <<PK>>
+    --
+    * business_name : VARCHAR(255)
+    * tax_id : VARCHAR(20) <<UQ>>
+    * email : VARCHAR(255)
+    phone : VARCHAR(30)
+    address : VARCHAR(255)
+    * created_at : DATETIME
+  }
+  entity users {
+    * id : CHAR(36) <<PK>>
+    --
+    * organization_id : CHAR(36) <<FK>>
+    * first_name : VARCHAR(100)
+    * last_name : VARCHAR(100)
+    * email : VARCHAR(255) <<UQ>>
+    * password_hash : VARCHAR(255)
+    * role : ENUM('administrator','fleet_supervisor','delivery_point_owner')
+    * status : ENUM('active','inactive')
+    * created_at : DATETIME
+  }
+}
+
+package "Fleet Management" {
+  entity vehicles {
+    * id : CHAR(36) <<PK>>
+    --
+    * organization_id : CHAR(36) <<FK>>
+    * plate_number : VARCHAR(10) <<UQ>>
+    * brand : VARCHAR(60)
+    * model : VARCHAR(60)
+    * capacity_in_boxes : INT
+    * status : ENUM('available','assigned','in_maintenance')
+  }
+  entity drivers {
+    * id : CHAR(36) <<PK>>
+    --
+    * organization_id : CHAR(36) <<FK>>
+    * first_name : VARCHAR(100)
+    * last_name : VARCHAR(100)
+    * document_number : VARCHAR(15) <<UQ>>
+    * license_number : VARCHAR(30) <<UQ>>
+    phone : VARCHAR(30)
+    * status : ENUM('available','assigned','inactive')
+  }
+}
+
+package "Operations and Routes" {
+  entity delivery_points {
+    * id : CHAR(36) <<PK>>
+    --
+    * organization_id : CHAR(36) <<FK>>
+    owner_user_id : CHAR(36) <<FK>>
+    * business_name : VARCHAR(255)
+    * address : VARCHAR(255)
+    * district : VARCHAR(100)
+    latitude : DECIMAL(9,6)
+    longitude : DECIMAL(9,6)
+  }
+  entity transport_operations {
+    * id : CHAR(36) <<PK>>
+    --
+    * organization_id : CHAR(36) <<FK>>
+    * code : VARCHAR(10) <<UQ>>
+    * description : VARCHAR(255)
+    * scheduled_date : DATE
+    vehicle_id : CHAR(36) <<FK>>
+    driver_id : CHAR(36) <<FK>>
+    * status : ENUM('pending','dispatched','in_progress','completed','cancelled')
+    dispatched_at : DATETIME
+    completed_at : DATETIME
+  }
+  entity delivery_stops {
+    * id : CHAR(36) <<PK>>
+    --
+    * transport_operation_id : CHAR(36) <<FK>>
+    * delivery_point_id : CHAR(36) <<FK>>
+    * sequence_number : INT
+    * planned_quantity : INT
+    delivered_quantity : INT
+    * status : ENUM('pending','delivered','partially_delivered','not_delivered')
+    failure_reason : VARCHAR(255)
+    confirmed_at : DATETIME
+  }
+}
+
+package "IoT Monitoring" {
+  entity iot_devices {
+    * id : CHAR(36) <<PK>>
+    --
+    * serial_number : VARCHAR(60) <<UQ>>
+    vehicle_id : CHAR(36) <<FK>>
+    * safe_temperature_min : DECIMAL(5,2)
+    * safe_temperature_max : DECIMAL(5,2)
+    * impact_threshold : DECIMAL(5,2)
+    * status : ENUM('active','offline','retired')
+  }
+  entity sensor_readings {
+    * id : CHAR(36) <<PK>>
+    --
+    * iot_device_id : CHAR(36) <<FK>>
+    transport_operation_id : CHAR(36) <<FK>>
+    * recorded_at : DATETIME
+    latitude : DECIMAL(9,6)
+    longitude : DECIMAL(9,6)
+    temperature_celsius : DECIMAL(5,2)
+    impact_force : DECIMAL(5,2)
+  }
+  entity alerts {
+    * id : CHAR(36) <<PK>>
+    --
+    * iot_device_id : CHAR(36) <<FK>>
+    * transport_operation_id : CHAR(36) <<FK>>
+    * type : ENUM('temperature_out_of_range','impact_detected','device_offline')
+    * raised_at : DATETIME
+    acknowledged_by : CHAR(36) <<FK>>
+    acknowledged_at : DATETIME
+  }
+}
+
+package "Incident Management" {
+  entity incidents {
+    * id : CHAR(36) <<PK>>
+    --
+    * code : VARCHAR(10) <<UQ>>
+    * transport_operation_id : CHAR(36) <<FK>>
+    delivery_stop_id : CHAR(36) <<FK>>
+    * reported_by : CHAR(36) <<FK>>
+    * source : ENUM('fleet_supervisor','delivery_point','iot_alert')
+    * type : ENUM('broken_bottles','damaged_product','shortage','delay')
+    * severity : ENUM('low','medium','high','critical')
+    * description : VARCHAR(500)
+    affected_quantity : INT
+    * status : ENUM('reported','under_review','resolved','closed')
+    resolution : VARCHAR(500)
+    * reported_at : DATETIME
+    resolved_at : DATETIME
+  }
+  entity evidences {
+    * id : CHAR(36) <<PK>>
+    --
+    * incident_id : CHAR(36) <<FK>>
+    * file_url : VARCHAR(500)
+    * file_type : VARCHAR(30)
+    * uploaded_by : CHAR(36) <<FK>>
+    * uploaded_at : DATETIME
+  }
+}
+
+organizations ||--|{ users
+organizations ||--o{ vehicles
+organizations ||--o{ drivers
+organizations ||--o{ delivery_points
+organizations ||--o{ transport_operations
+users |o--o{ delivery_points
+vehicles |o--o{ transport_operations
+drivers |o--o{ transport_operations
+transport_operations ||--|{ delivery_stops
+delivery_points ||--o{ delivery_stops
+vehicles |o--o| iot_devices
+iot_devices ||--o{ sensor_readings
+transport_operations |o--o{ sensor_readings
+iot_devices ||--o{ alerts
+transport_operations ||--o{ alerts
+users |o--o{ alerts
+transport_operations ||--o{ incidents
+delivery_stops |o--o{ incidents
+users ||--o{ incidents
+incidents ||--o{ evidences
+users ||--o{ evidences
+@enduml

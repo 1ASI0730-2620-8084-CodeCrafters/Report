@@ -1,29 +1,38 @@
 <p align="center">
-    <img src="img/UPC.png" alt="Logo UPC" width="50%">
+    <img src="img/UPC.png" alt="Logo UPC" width="12%">
 </p>
-<h3 align="center">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h3>
 
-<h3 align="center">INGENIERÍA DE SOFTWARE</h3>
-<h4 align="center">CICLO 5</h4>
-<h4 align="center">1ASI0730 - APLICACIONES WEB</h4>
-<h4 align="center"><strong>NRC:</strong> 8084</h4>
-<h4 align="center"><strong>PROFESOR:</strong> Velásquez Núñez, Ángel Augusto</h4>
+<p align="center" style="margin:4pt 0;font-size:11pt">Universidad Peruana de Ciencias Aplicadas</p>
+<p align="center" style="margin:4pt 0;font-size:11pt">Carrera de Ingeniería de Software</p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:12pt"><strong>1ASI0730</strong></p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>Aplicaciones Web</strong></p>
+<p align="center" style="margin:4pt 0;font-size:11pt">NRC</p>
+<p align="center" style="margin:4pt 0;font-size:12pt"><strong>8084</strong></p>
+<p align="center" style="margin:4pt 0;font-size:15pt"><strong>Informe del Trabajo Final</strong></p>
+<p align="center" style="margin:4pt 0;font-size:11pt">Docente</p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>Velásquez Núñez, Ángel Augusto</strong></p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt">Equipo</p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>CodeCrafters</strong></p>
+<p align="center" style="margin:4pt 0;font-size:11pt">Proyecto</p>
+<p align="center" style="margin:4pt 0;font-size:13pt"><strong>BottleTrack</strong></p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt"><strong>Integrantes</strong></p>
 
-<h3 align="center">INFORME DE TRABAJO FINAL</h3>
-<h4 align="center"><strong>CICLO:</strong> 2026-20</h4>
-<h4 align="center"><strong>STARTUP:</strong> CodeCrafters</h4>
-<h4 align="center"><strong>PRODUCT:</strong> BottleTrack</h4>
+<table align="center" style="width:auto;margin:4pt auto;border:none">
+<tr><th style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt;background:none">Código</th><th style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt;background:none">Apellidos y Nombres</th></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u20221g181</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Crispin Valdivia, Angel Gabriel</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u202311912</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Cumba Rengifo, Leonardo Raul</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u201819645</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Huapaya Buitron, Ariana Alheli</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u20211c201</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Palacin Lazo, Gerardo Valentin</td></tr>
+<tr><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">u20221c590</td><td style="border:none;padding:2pt 10pt;text-align:left;font-size:11pt">Pezo Castilla, Maria Jose</td></tr>
+</table>
 
-<h4 align="center"><strong>INTEGRANTES:</strong></h4>
-
-<h4 align="center">U20211C201 - Palacin Lazo, Gerardo Valentin</h4>
-<h4 align="center">U20221g181 - Crispin Valdivia, Angel Gabriel</h4>
-<h4 align="center">U202311912 - Cumba Rengifo, Leonardo Raul</h4>
-<h4 align="center">U201819645 - Huapaya Buitron, Ariana Alheli</h4>
-<h4 align="center">U20221c590 - Pezo Castilla, Maria Jose</h4>
-
-
-<h4 align="center"><i>SETIEMBRE 2026</i></h4>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt"><strong>Período 202620</strong></p>
+<br>
+<p align="center" style="margin:4pt 0;font-size:11pt"><strong>Octubre 2026</strong></p>
 
 <hr>
 
@@ -47,11 +56,29 @@
 | 1.12 | 2026-09-16 | Pezo Castilla, Maria Jose | Elaboración de los Empathy Maps correspondientes a los tres segmentos objetivo, organizando la información relacionada con lo que los usuarios dicen, ven, hacen, escuchan, piensan y sienten, además de sus pains y gains. |
 | 1.13 | 2026-09-17 | Pezo Castilla, Maria Jose | Desarrollo de los Impact Maps para los tres segmentos objetivo, definiendo Business Goals SMART, Actors, Impacts, Deliverables y User Stories, manteniendo la trazabilidad entre los objetivos empresariales y las necesidades identificadas. |
 | 1.14 | 2026-09-17 | Pezo Castilla, Maria Jose | Documentación de los resultados del Needfinding, Impact Mapping y User Stories en el repositorio colaborativo de GitHub, organizando los contenidos para facilitar su revisión y continuidad por parte del equipo. |
+| 1.15 | 2026-09-16 | Cumba Rengifo, Leonardo Raul | Incorporación de los Class Diagrams y del Database Diagram de las secciones 4.7 y 4.8. |
+| 1.16 | 2026-09-18 | Palacin Lazo, Gerardo Valentin | Incorporación de los wireframes, wireflows, mock-ups y prototipo de la Web Application, y del diseño de interfaz del Landing Page. |
+| 1.17 | 2026-09-18 | Pezo Castilla, Maria Jose | Incorporación del Big Picture y del Design-Level EventStorming, del registro de entrevistas y de la información de participación del Capítulo V. |
+| 1.18 | 2026-09-18 | Cumba Rengifo, Leonardo Raul | Revisión del registro de entrevistas, del Sprint Planning y de las conclusiones para la entrega AV1. |
+| 1.19 | 2026-10-01 | Palacin Lazo, Gerardo Valentin | Actualización del modelo C4, del Student Outcome y registro de una nueva entrevista del segmento de distribuidoras. |
+| 2.0 | 2026-10-01 | Crispin Valdivia, Angel Gabriel | Corrección integral según la revisión de AV1: Lean UX con plantilla Brand new initiative y Lean UX Canvas, alineación de los segmentos objetivo, análisis de entrevistas con porcentajes, narrativa del Needfinding y del EventStorming, User Stories con Epic y nuevas historias, Product Backlog ordenado por valor, arquitectura hexagonal en el modelo C4, diagramas de clases y de base de datos en inglés, y Sprint 1 completo. |
+| 2.1 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Actualización de la carátula según la guía del docente, documentación del Sprint 2 con sus evidencias de Trello, Vercel y GitHub, registro del Student Outcome de TB1, publicación del Landing Page en Netlify, fake API público en Beeceptor y registro del video de exposición de TB1. |
 
 <hr>
 
 <a id="project-report-collaboration-insights"></a>
 # **Project Report Collaboration Insights**
+
+El informe se elabora de forma colaborativa en el repositorio https://github.com/1ASI0730-2620-8084-CodeCrafters/Report de la organización del equipo. Cada integrante redacta las secciones del aspecto que lidera en una rama `feature/*` creada desde `develop`, y los cambios se integran mediante pull requests o merges `--no-ff`. Los mensajes de commit siguen Conventional Commits, con el tipo `docs` y el capítulo como alcance, por ejemplo `docs(needfinding): ...`.
+
+**AV1.** El trabajo se repartió por capítulos: Leonardo Cumba redactó los capítulos I y III y los primeros diagramas de clases y de base de datos; Maria Jose Pezo, el Needfinding, el Impact Mapping y el EventStorming; Gerardo Palacin, la plantilla del informe, el diseño de interfaces y el modelo C4; y Angel Crispin, las Style Guidelines, la arquitectura de información, la configuración del software, el Ubiquitous Language y los anexos.
+
+**TB1.** El equipo corrigió los artefactos observados en la revisión de AV1 en la rama `feature/report-tb1-corrections`, en commits separados por sección, de modo que cada corrección puede rastrearse en el historial del repositorio.
+
+La siguiente captura muestra los analíticos de contribución del repositorio del informe al cierre de AV1:
+
+<img src="img/chapter5/insights-report-contributors.png" alt="GitHub Insights, contribuidores del repositorio Report" width="800">
+
 
 <hr>
 
@@ -136,15 +163,24 @@
         - <a href="#513-source-code-style-guide-and-conventions">5.1.3. Source Code Style Guide and Conventions.</a>
         - <a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</a>
     - <a href="#52-landing-page-services-applications-implementation">5.2. Landing Page, Services & Applications Implementation.</a>
-        - <a href="#52x-sprint-n">5.2.x. Sprint n</a>
-            - <a href="#52x1-sprint-planning-n">5.2.x.1. Sprint Planning n.</a>
-            - <a href="#52x2-aspect-leader-and-colaborators">5.2.x.2. Aspect Leader and Colaborators.</a>
-            - <a href="#52x3-sprint-backlog-n">5.2.x.3. Sprint Backlog n.</a>
-            - <a href="#52x4-development-evidence-for-sprint-review">5.2.x.4. Development Evidence for Sprint Review.</a>
-            - <a href="#52x5-execution-evidence-for-sprint-review">5.2.x.5. Execution Evidence for Sprint Review.</a>
-            - <a href="#52x6-services-documentation-evidence-for-sprint-review">5.2.x.6. Services Documentation Evidence for Sprint Review.</a>
-            - <a href="#52x7-software-deployment-evidence-for-sprint-review">5.2.x.7. Software Deployment Evidence for Sprint Review.</a>
-            - <a href="#52x8-team-colaboration-insights-during-sprint">5.2.x.8. Team Colaboration Insights during Sprint.</a>
+        - <a href="#52x-sprint-n">5.2.1. Sprint 1.</a>
+            - <a href="#52x1-sprint-planning-n">5.2.1.1. Sprint Planning 1.</a>
+            - <a href="#52x2-aspect-leader-and-colaborators">5.2.1.2. Aspect Leaders and Collaborators.</a>
+            - <a href="#52x3-sprint-backlog-n">5.2.1.3. Sprint Backlog 1.</a>
+            - <a href="#52x4-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review.</a>
+            - <a href="#52x5-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</a>
+            - <a href="#52x6-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</a>
+            - <a href="#52x7-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</a>
+            - <a href="#52x8-team-colaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</a>
+        - <a href="#522-sprint-2">5.2.2. Sprint 2.</a>
+            - <a href="#5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</a>
+            - <a href="#5222-aspect-leaders-and-collaborators">5.2.2.2. Aspect Leaders and Collaborators.</a>
+            - <a href="#5223-sprint-backlog-2">5.2.2.3. Sprint Backlog 2.</a>
+            - <a href="#5224-development-evidence-for-sprint-review">5.2.2.4. Development Evidence for Sprint Review.</a>
+            - <a href="#5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review.</a>
+            - <a href="#5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review.</a>
+            - <a href="#5227-software-deployment-evidence-for-sprint-review">5.2.2.7. Software Deployment Evidence for Sprint Review.</a>
+            - <a href="#5228-team-collaboration-insights-during-sprint">5.2.2.8. Team Collaboration Insights during Sprint.</a>
     - <a href="#53-validation-interviews">5.3. Validation Interviews.</a>
         - <a href="#531-diseno-de-entrevistas">5.3.1. Diseño de Entrevistas.</a>
         - <a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</a>
@@ -158,6 +194,12 @@
 - <a href="#bibliografia">Bibliografía</a>
 
 - <a href="#anexos">Anexos</a>
+    - <a href="#anexo-a-videos-de-exposiciones">Anexo A. Videos de Exposiciones.</a>
+    - <a href="#anexo-b-videos-de-entrevistas">Anexo B. Videos de Entrevistas.</a>
+    - <a href="#anexo-c-repositorios-del-proyecto">Anexo C. Repositorios del Proyecto.</a>
+    - <a href="#anexo-d-productos-desplegados">Anexo D. Productos Desplegados.</a>
+    - <a href="#anexo-e-herramientas-colaborativas">Anexo E. Herramientas Colaborativas.</a>
+    - <a href="#anexo-f-codigo-fuente-de-diagramas">Anexo F. Código Fuente de los Diagramas.</a>
 
 <hr>
 
@@ -175,8 +217,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones |
 | :------------------ |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :----------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Crispin Valdivia, Angel Gabriel**<br>_AV1_<br>Lideró la definición del design system de BottleTrack, estableciendo la rampa de color de marca, la escala tipográfica y de espaciado, y los componentes compartidos, dejándolos documentados en una vista de style guide consultable por todo el equipo.<br>Lideró la implementación del Landing Page en HTML5, CSS3 y JavaScript, incluyendo la internacionalización en inglés y español latinoamericano y las características de accesibilidad.<br>Estableció el flujo de trabajo GitFlow y las convenciones de Conventional Commits y Semantic Versioning que el equipo aplica en los cuatro repositorios.<br><br>**Cumba Rengifo, Leonardo Raul**<br>_AV1_<br>Lideró la elaboración del Solution Profile, aplicando la técnica de las 5 W y 2 H sobre el dominio del transporte de bebidas embotelladas.<br>Condujo la ejecución del Lean UX Process, redactando el Problem Statement, los cinco tipos de assumptions y los hypothesis statements del proyecto.<br>Lideró el análisis competitivo frente a SimpliRoute, Drivin y DispatchTrack, y la especificación de los User Stories y el Product Backlog.<br><br>**Palacin Lazo, Gerardo Valentin**<br>_AV1_<br>Estableció la estructura base del informe del proyecto y la organización del repositorio de documentación del equipo.<br>_Pendiente de completar por el integrante._<br><br>**Huapaya Buitron, Ariana Alheli**<br>_AV1_<br>_Pendiente de completar por la integrante._<br><br>**Pezo Castilla, Maria Jose**<br>_AV1_<br>Lideró la ejecución del proceso de Needfinding, desarrollando y documentando los elementos correspondientes al análisis de los segmentos objetivo, incluyendo las User Personas, User Task Matrix, User Journey Maps y Empathy Maps, a partir de la información recopilada durante las entrevistas.<br>Participó en la identificación y organización de las necesidades, comportamientos, actividades y principales dificultades de los usuarios, contribuyendo a establecer una comprensión común del dominio antes de definir la solución.<br>Desarrolló los Impact Maps correspondientes a los segmentos objetivo, relacionando los objetivos empresariales con los actores, impactos, entregables y User Stories del producto.<br>Participó en la especificación de User Stories, contribuyendo a transformar las necesidades identificadas durante el Needfinding en requisitos funcionales alineados con los objetivos del proyecto.<br>Documentó los resultados del análisis y los artefactos de requisitos en el repositorio de GitHub, manteniendo organizada y trazable la información producida durante la iteración. | _AV1_<br>El equipo distribuyó el liderazgo por aspectos del proyecto en lugar de concentrarlo en una sola persona, de modo que cada integrante condujo el área en la que aportaba mayor conocimiento y colaboró en las restantes.<br>La adopción de GitFlow y de Conventional Commits desde el primer día permitió que el liderazgo ejercido por cada integrante quedara documentado de forma verificable en el historial de los repositorios, y no solo en la percepción de los miembros.<br>El equipo comprobó que definir un design system antes de implementar el Landing Page evitó decisiones visuales dispersas y redujo la necesidad de correcciones posteriores. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Crispin Valdivia, Angel Gabriel**<br>_AV1_<br>Incorporó criterios de diseño inclusivo en el Landing Page, con atributos ARIA, texto alternativo en las imágenes, enlace de salto al contenido y respeto por la preferencia de movimiento reducido del sistema operativo.<br>Implementó la internacionalización en inglés y español latinoamericano para que la experiencia sea accesible a los distintos perfiles de usuario de la operación.<br>Documentó las convenciones de código y de despliegue en el informe, de manera que cualquier integrante pueda incorporarse al desarrollo sin depender de explicaciones verbales.<br><br>**Cumba Rengifo, Leonardo Raul**<br>_AV1_<br>Identificó y caracterizó los segmentos objetivo del proyecto, incluyendo sus necesidades iniciales y su priorización.<br>Diseñó las guías de entrevista diferenciadas para cada segmento, considerando el contexto particular de conductores, supervisores y distribuidoras.<br>Estableció los criterios de priorización del Product Backlog en función del valor para el negocio.<br><br>**Palacin Lazo, Gerardo Valentin**<br>_AV1_<br>_Organizo y gestiono las estructuras del modelo C4 sobre nuestro negocio, ademas de encargarme de las entrevistas que delimitan a nuestor público objetivo entre 3 segmentos conociendo sus puntos de dolor y metas y necesidades._<br><br>**Huapaya Buitron, Ariana Alheli**<br>_AV1_<br>_Pendiente de completar por la integrante._<br><br>**Pezo Castilla, Maria Jose**<br>_AV1_<br>Organizó y documentó los resultados del Needfinding de manera estructurada para facilitar que los demás integrantes pudieran utilizar los hallazgos de las entrevistas como base para las siguientes etapas del proyecto.<br>Contribuyó a establecer una visión compartida de las necesidades de los segmentos objetivo mediante la elaboración de las Personas, User Task Matrix, User Journey Maps y Empathy Maps, permitiendo al equipo contrastar las características y dificultades identificadas en los usuarios.<br>Participó en la elaboración de los Impact Maps y User Stories, procurando mantener la trazabilidad entre los objetivos empresariales, las necesidades de los usuarios y los requisitos definidos para la solución.<br>Mantuvo la documentación correspondiente en GitHub, permitiendo que los integrantes pudieran consultar, revisar y dar continuidad al trabajo realizado.<br>La organización de estos artefactos permitió que el equipo avanzara de manera coordinada desde la identificación de necesidades hacia la especificación de requisitos, cumpliendo las actividades planificadas para AV1.                       | _AV1_<br>El equipo estableció como meta de la primera iteración la publicación del Landing Page y la especificación de los requisitos del producto, y organizó el trabajo en tareas asignadas a integrantes específicos para alcanzarla.<br>El uso de un tablero de control y de ramas de feature independientes permitió que varios integrantes avanzaran en paralelo sin bloquearse entre sí.<br>La incorporación de accesibilidad e internacionalización desde la primera versión del producto, y no como una corrección posterior, reflejó el compromiso del equipo con una solución inclusiva. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Crispin Valdivia, Angel Gabriel**<br>_AV1_<br>Lideró la definición del design system de BottleTrack, estableciendo la rampa de color de marca, la escala tipográfica y de espaciado, y los componentes compartidos, dejándolos documentados en una vista de style guide consultable por todo el equipo.<br>Lideró la implementación del Landing Page en HTML5, CSS3 y JavaScript, incluyendo la internacionalización en inglés y español latinoamericano y las características de accesibilidad.<br>Estableció el flujo de trabajo GitFlow y las convenciones de Conventional Commits y Semantic Versioning que el equipo aplica en los cuatro repositorios.<br><br>_TB1_<br>Lideró la configuración base de la Frontend Web Application, con Vue, PrimeVue, Pinia, vue-i18n, Vue Router, el cliente HTTP compartido y el fake API, y el bounded context Identity and Access Management.<br>Coordinó el Sprint Planning 2, la asignación de un bounded context por integrante y la integración de las cinco ramas de feature en develop.<br>Publicó el release v0.1.0 de la Web Application en Vercel y el Landing Page v0.2.0 con las correcciones de AV1.<br><br>**Cumba Rengifo, Leonardo Raul**<br>_AV1_<br>Lideró la elaboración del Solution Profile, aplicando la técnica de las 5 W y 2 H sobre el dominio del transporte de bebidas embotelladas.<br>Condujo la ejecución del Lean UX Process, redactando el Problem Statement, los cinco tipos de assumptions y los hypothesis statements del proyecto.<br>Lideró el análisis competitivo frente a SimpliRoute, Drivin y DispatchTrack, y la especificación de los User Stories y el Product Backlog.<br><br>_TB1_<br>Lideró el bounded context Operations and Routes, el de mayor alcance del Sprint 2, con la planificación, la ejecución y el historial de las operaciones de transporte.<br>Implementó la vista de seguimiento de pedidos para el responsable de la bodega, que conecta el flujo de la distribuidora con el del punto de entrega.<br><br>**Palacin Lazo, Gerardo Valentin**<br>_AV1_<br>Estableció la estructura base del informe del proyecto y la organización del repositorio de documentación del equipo.<br><br>_TB1_<br>Lideró el bounded context IoT Monitoring, con el dashboard de monitoreo de la carga, las alertas y la configuración de los rangos seguros de los dispositivos.<br>Incorporó en el Landing Page las capturas de la aplicación en la sección del producto.<br><br>**Pezo Castilla, Maria Jose**<br>_AV1_<br>Lideró la ejecución del proceso de Needfinding, desarrollando y documentando los elementos correspondientes al análisis de los segmentos objetivo, incluyendo las User Personas, User Task Matrix, User Journey Maps y Empathy Maps, a partir de la información recopilada durante las entrevistas.<br>Participó en la identificación y organización de las necesidades, comportamientos, actividades y principales dificultades de los usuarios, contribuyendo a establecer una comprensión común del dominio antes de definir la solución.<br>Desarrolló los Impact Maps correspondientes a los segmentos objetivo, relacionando los objetivos empresariales con los actores, impactos, entregables y User Stories del producto.<br>Participó en la especificación de User Stories, contribuyendo a transformar las necesidades identificadas durante el Needfinding en requisitos funcionales alineados con los objetivos del proyecto.<br>Documentó los resultados del análisis y los artefactos de requisitos en el repositorio de GitHub, manteniendo organizada y trazable la información producida durante la iteración.<br><br>_TB1_<br>Lideró el bounded context Incident Management, con el registro, la evidencia y el seguimiento de las incidencias hasta su cierre.<br>Implementó el dashboard de indicadores que consolida las operaciones, las entregas, las incidencias y la merma.<br><br>**Huapaya Buitron, Ariana Alheli**<br>_TB1_<br>Lideró el bounded context Fleet Management, con la gestión de vehículos y conductores que alimenta la asignación de recursos de las operaciones. | _AV1_<br>El equipo distribuyó el liderazgo por aspectos del proyecto en lugar de concentrarlo en una sola persona, de modo que cada integrante condujo el área en la que aportaba mayor conocimiento y colaboró en las restantes.<br>La adopción de GitFlow y de Conventional Commits desde el primer día permitió que el liderazgo ejercido por cada integrante quedara documentado de forma verificable en el historial de los repositorios, y no solo en la percepción de los miembros.<br>El equipo comprobó que definir un design system antes de implementar el Landing Page evitó decisiones visuales dispersas y redujo la necesidad de correcciones posteriores.<br><br>_TB1_<br>En el Sprint 2 el liderazgo se distribuyó por bounded context: cada integrante condujo un módulo de la Frontend Web Application de principio a fin, desde el modelo de dominio hasta las vistas.<br>La rama de feature de cada contexto y sus commits permiten verificar en GitHub el aporte individual de cada integrante. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Crispin Valdivia, Angel Gabriel**<br>_AV1_<br>Incorporó criterios de diseño inclusivo en el Landing Page, con atributos ARIA, texto alternativo en las imágenes, enlace de salto al contenido y respeto por la preferencia de movimiento reducido del sistema operativo.<br>Implementó la internacionalización en inglés y español latinoamericano para que la experiencia sea accesible a los distintos perfiles de usuario de la operación.<br>Documentó las convenciones de código y de despliegue en el informe, de manera que cualquier integrante pueda incorporarse al desarrollo sin depender de explicaciones verbales.<br><br>_TB1_<br>Documentó en el README del repositorio las convenciones para agregar un bounded context, de modo que cada integrante pudiera avanzar sin depender de explicaciones verbales.<br>Mantuvo el Shared Kernel con los componentes, los design tokens y el cliente HTTP que reutilizan todos los contextos.<br><br>**Cumba Rengifo, Leonardo Raul**<br>_AV1_<br>Identificó y caracterizó los segmentos objetivo del proyecto, incluyendo sus necesidades iniciales y su priorización.<br>Diseñó las guías de entrevista diferenciadas para cada segmento, considerando el contexto particular de conductores, supervisores y distribuidoras.<br>Estableció los criterios de priorización del Product Backlog en función del valor para el negocio.<br><br>_TB1_<br>Coordinó con los responsables de Fleet Management e Incident Management la asignación de recursos a las operaciones y el registro de los problemas de recepción.<br>Completó las traducciones en inglés y español de su contexto.<br><br>**Palacin Lazo, Gerardo Valentin**<br>_AV1_<br>Organizó y gestionó la elaboración del modelo C4 del negocio, y se encargó de entrevistas que permitieron delimitar al público objetivo en tres segmentos, conociendo sus puntos de dolor, metas y necesidades.<br><br>_TB1_<br>Coordinó con el responsable de Operations and Routes la lectura de las operaciones en curso y con la responsable de Incident Management el registro de incidencias desde las alertas.<br><br>**Pezo Castilla, Maria Jose**<br>_AV1_<br>Organizó y documentó los resultados del Needfinding de manera estructurada para facilitar que los demás integrantes pudieran utilizar los hallazgos de las entrevistas como base para las siguientes etapas del proyecto.<br>Contribuyó a establecer una visión compartida de las necesidades de los segmentos objetivo mediante la elaboración de las Personas, User Task Matrix, User Journey Maps y Empathy Maps, permitiendo al equipo contrastar las características y dificultades identificadas en los usuarios.<br>Participó en la elaboración de los Impact Maps y User Stories, procurando mantener la trazabilidad entre los objetivos empresariales, las necesidades de los usuarios y los requisitos definidos para la solución.<br>Mantuvo la documentación correspondiente en GitHub, permitiendo que los integrantes pudieran consultar, revisar y dar continuidad al trabajo realizado.<br>La organización de estos artefactos permitió que el equipo avanzara de manera coordinada desde la identificación de necesidades hacia la especificación de requisitos, cumpliendo las actividades planificadas para AV1.<br><br>_TB1_<br>Acordó con los demás integrantes los datos que consume el dashboard, de modo que los indicadores reflejen la información de las operaciones, la flota y las incidencias.<br><br>**Huapaya Buitron, Ariana Alheli**<br>_TB1_<br>Entregó la información de vehículos y conductores disponibles que consume el bounded context Operations and Routes. | _AV1_<br>El equipo estableció como meta de la primera iteración la publicación del Landing Page y la especificación de los requisitos del producto, y organizó el trabajo en tareas asignadas a integrantes específicos para alcanzarla.<br>El uso de un tablero de control y de ramas de feature independientes permitió que varios integrantes avanzaran en paralelo sin bloquearse entre sí.<br>La incorporación de accesibilidad e internacionalización desde la primera versión del producto, y no como una corrección posterior, reflejó el compromiso del equipo con una solución inclusiva.<br><br>_TB1_<br>El equipo fijó como meta del Sprint 2 la primera versión de la Frontend Web Application y la corrección de lo observado en AV1, y la dividió en tareas por bounded context con estimación y responsable.<br>Las cinco ramas se integraron en develop sin bloquear el trabajo de los demás, y la versión se publicó en Vercel antes del cierre del Sprint. |
 
 <hr>
 
@@ -194,7 +236,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 Como parte de esta iniciativa, CodeCrafters desarrolla **BottleTrack**, una plataforma web enfocada en la **gestión y seguimiento del transporte de bebidas embotelladas**. La solución permite centralizar información relacionada con vehículos, conductores, rutas, entregas e incidencias ocurridas durante el proceso de distribución.
 
-BottleTrack está dirigida principalmente a **empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores y repartidores, así como bodegas y minimarkets que reciben los productos**.
+BottleTrack está dirigida principalmente a **empresas distribuidoras de bebidas, a sus supervisores o encargados de flota y a las bodegas y minimarkets que reciben los productos**.
 
 La plataforma busca mejorar la organización de las operaciones de transporte, facilitar el seguimiento de las entregas y permitir un mejor control de las incidencias que puedan presentarse durante la distribución.
 
@@ -226,8 +268,7 @@ BottleTrack está dirigido principalmente a los siguientes segmentos:
 
 * **Empresas distribuidoras de bebidas:** organizaciones que necesitan gestionar y supervisar sus operaciones de transporte y distribución.
 * **Supervisores o encargados de flota:** responsables de asignar vehículos, conductores y rutas, además de realizar el seguimiento de las operaciones.
-* **Conductores y repartidores:** usuarios encargados de realizar las rutas, actualizar el estado de las entregas y reportar incidencias durante el transporte.
-* **Bodegas y minimarkets:** establecimientos que reciben las bebidas y forman parte de los puntos de entrega dentro de las rutas de distribución.
+* **Bodegas y minimarkets:** establecimientos que reciben las bebidas, consultan el estado de sus pedidos y reportan los problemas de recepción.
 
 El principal valor diferencial de **BottleTrack** consiste en centralizar la gestión de las operaciones de transporte en una única plataforma, permitiendo conocer el estado de las entregas, registrar incidencias y mantener organizada la información relacionada con vehículos, conductores y rutas.
 
@@ -252,7 +293,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | :------------------------ | :------------------------------ |
 | **Código del Estudiante** | U20221G181 |
 | **Carrera**               | Ingeniería de Software |
-| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Descripción**           | Soy estudiante de Ingeniería de Software y trabajo a la par de mis estudios, lo que me ha enseñado a organizar mi tiempo y a priorizar lo que realmente aporta valor. Me interesa el desarrollo frontend y el diseño de interfaces: disfruto construir design systems, cuidar la accesibilidad y lograr que un producto se vea y se comporte de forma consistente en cualquier dispositivo. Tengo experiencia con HTML, CSS y JavaScript, y con el trabajo colaborativo en Git mediante GitFlow y Conventional Commits. Me considero una persona ordenada, exigente con los detalles y comprometida con que el equipo cumpla sus entregas. |
 | **Foto**                  | <img src="img/team-members/angel-crispin.jpg" alt="Fotografía de Angel Gabriel Crispin Valdivia" width="140"> |
 
 ---
@@ -261,7 +302,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | :------------------------ | :--------------------------- |
 | **Código del Estudiante** | U202311912 |
 | **Carrera**               | Ingeniería de Software |
-| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Descripción**           | Mi nombre es Leonardo Raul Cumba Rengifo, tengo 20 años y curso la carrera de Ingeniería de Software. Me considero una persona creativa y responsable. En mis tiempos libres me gusta aprender cosas nuevas. En este proyecto aporto todos los conocimientos que he adquirido en los últimos años. |
 | **Foto**                  | <img src="img/team-members/leonardo-cumba.jpeg" alt="Fotografía de Leonardo Raul Cumba Rengifo" width="140"> |
 
 ---
@@ -270,7 +311,7 @@ A continuación se presenta la ficha de cada integrante del equipo, indicando su
 | :------------------------ | :----------------------------- |
 | **Código del Estudiante** | U201819645 |
 | **Carrera**               | Ingeniería de Software |
-| **Descripción**           | _Pendiente de redacción por el integrante._ |
+| **Descripción**           | Soy estudiante de Ingeniería de Software y me interesa entender cómo la tecnología puede simplificar el trabajo diario de las personas. Me considero una persona perseverante, que se adapta a nuevos retos y que aprende mejor cuando trabaja en equipo. En este proyecto busco fortalecer mis conocimientos en desarrollo web y aportar en la construcción de una solución útil para el transporte de bebidas. |
 | **Foto**                  | <img src="img/team-members/ariana-huapaya.jpeg" alt="Fotografía de Ariana Alheli Huapaya Buitron" width="140"> |
 
 ---
@@ -290,7 +331,7 @@ BottleTrack es una plataforma web desarrollada por CodeCrafters para apoyar la g
 
 La solución busca centralizar la información relacionada con vehículos, conductores, rutas, puntos de entrega e incidencias, permitiendo que las empresas distribuidoras tengan una mayor visibilidad sobre el desarrollo de sus operaciones.
 
-BottleTrack está orientado principalmente a empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores y repartidores, considerando también a las bodegas y minimarkets como actores relevantes dentro del proceso de distribución.
+BottleTrack está orientado a tres segmentos: las empresas distribuidoras de bebidas, sus supervisores o encargados de flota y las bodegas y minimarkets que reciben los productos. Los conductores participan en el proceso de distribución, pero no son usuarios directos de la aplicación: el resultado de cada entrega lo registra el supervisor a partir de lo que el conductor le reporta.
 
 <a id="121-antecedentes-y-problematica"></a>
 ### 1.2.1. Antecedentes y problemática
@@ -307,7 +348,7 @@ Para comprender inicialmente la problemática se aplica la técnica **5W + 2H (W
 
 | Pregunta | Descripción |
 | --- | --- |
-| **Who - ¿Quiénes están involucrados?** | Empresas distribuidoras de bebidas, supervisores o encargados de flota, conductores, repartidores, bodegas y minimarkets. |
+| **Who - ¿Quiénes están involucrados?** | Empresas distribuidoras de bebidas y sus administradores, supervisores o encargados de flota, y bodegas y minimarkets. Los conductores participan como fuente de la información de la ruta. |
 | **What - ¿Cuál es el problema?** | Existe dificultad para centralizar y consultar el estado de las operaciones de transporte, incluyendo información de vehículos, conductores, rutas, entregas e incidencias. |
 | **Where - ¿Dónde ocurre?** | Durante las operaciones de distribución de bebidas, desde la salida del vehículo hasta los diferentes puntos de entrega como bodegas y minimarkets. |
 | **When - ¿Cuándo ocurre?** | Durante la planificación, ejecución y seguimiento de las operaciones de transporte y especialmente cuando se presentan retrasos, entregas incompletas u otras incidencias. |
@@ -319,7 +360,7 @@ Para comprender inicialmente la problemática se aplica la técnica **5W + 2H (W
 
 Las empresas que realizan distribución de bebidas embotelladas necesitan coordinar vehículos, conductores, rutas y múltiples puntos de entrega. Sin embargo, cuando la información relacionada con estas operaciones se encuentra dispersa o no puede ser consultada de manera centralizada, los supervisores pueden tener dificultades para conocer el avance de las rutas y responder oportunamente ante retrasos o incidencias.
 
-Los conductores y repartidores, por su parte, necesitan consultar las entregas asignadas y comunicar el resultado de cada una de ellas durante el desarrollo de su jornada.
+Las bodegas y minimarkets, por su parte, no conocen la hora de llegada de sus pedidos y comunican los faltantes o productos dañados por WhatsApp o por teléfono, sin que quede constancia de lo ocurrido.
 
 Esta situación genera una oportunidad para desarrollar una solución que permita organizar y mantener disponible la información relevante de las operaciones de transporte.
 
@@ -351,7 +392,7 @@ Para mantener un alcance viable durante el desarrollo del proyecto, se considera
 - La solución será desarrollada como una aplicación web responsive.
 - El proyecto se centrará inicialmente en la gestión y seguimiento de las operaciones de transporte.
 - La optimización automática avanzada de rutas no formará parte del alcance inicial.
-- La integración con dispositivos IoT o GPS podrá considerarse como una ampliación futura y no será indispensable para el funcionamiento del MVP.
+- El monitoreo con dispositivos IoT forma parte del alcance, pero durante el desarrollo las lecturas de los sensores se simulan desde el RESTful API, ya que el equipo no dispone de hardware físico.
 - La plataforma no reemplazará sistemas contables, de facturación o de inventario que puedan utilizar las empresas distribuidoras.
 - Las necesidades planteadas inicialmente deberán ser validadas mediante entrevistas con representantes reales de los segmentos objetivo.
 
@@ -367,107 +408,108 @@ Durante esta etapa se definirán las creencias iniciales del equipo sobre el neg
 <a id="1221-lean-ux-problem-statements"></a>
 #### 1.2.2.1. Lean UX Problem Statements
 
-BottleTrack corresponde a una nueva iniciativa, por lo que el Problem Statement se plantea considerando el estado actual del dominio, los segmentos involucrados, las brechas identificadas y la estrategia inicial del producto.
+BottleTrack corresponde a una nueva iniciativa, por lo que el equipo aplica la plantilla **Brand new initiative** de Lean UX y formula un único Problem Statement para todo el proyecto, considerando de forma conjunta los tres segmentos objetivo. El enunciado se construye a partir de los hallazgos del análisis 5W + 2H de la sección 1.2.1: el **Who** define los segmentos, el **What** y el **How** describen el flujo de trabajo actual y sus puntos de dolor, el **Where** y el **When** delimitan el momento en que ocurre el problema y el **How Much** se traduce en los indicadores con los que se medirá el éxito.
 
-##### Problem Statement
+> **Problem Statement**
+>
+> El estado actual de la distribución de bebidas embotelladas en Lima se ha enfocado principalmente en que las **empresas distribuidoras** y sus **supervisores de flota** coordinen vehículos, conductores, rutas y puntos de entrega mediante hojas de cálculo, mensajes de WhatsApp y llamadas telefónicas, mientras que las **bodegas y minimarkets** reciben los pedidos sin conocer su estado ni contar con un canal formal para reportar faltantes o productos dañados.
+>
+> Lo que los productos y servicios existentes no logran resolver es una solución especializada y de baja complejidad para pequeñas y medianas distribuidoras: las plataformas de última milla como SimpliRoute, Drivin y DispatchTrack se concentran en la optimización de rutas para múltiples industrias, con un costo y una curva de adopción elevados, y no consideran los riesgos propios del producto embotellado, como las botellas rotas, los faltantes y la merma.
+>
+> Nuestro producto abordará esta brecha mediante una aplicación web responsive que centralice en un solo lugar las operaciones de transporte, el estado de cada punto de entrega, el registro de incidencias con evidencia y el monitoreo de la carga mediante dispositivos IoT, bajo un modelo de suscripción SaaS.
+>
+> Nuestro enfoque inicial serán los **supervisores de flota de distribuidoras pequeñas y medianas de Lima Metropolitana**, que son quienes hoy consolidan manualmente la información de la jornada, junto con los administradores de esas empresas y las bodegas que atienden.
+>
+> Sabremos que hemos tenido éxito cuando observemos que los supervisores consultan el estado de una operación en menos de 1 minuto sin llamar al conductor, que al menos el 80 % de las incidencias de una jornada queda registrada con evidencia en la plataforma y que el 70 % de las bodegas atendidas consulta el estado de su pedido antes de comunicarse con la distribuidora.
 
-El estado actual de la distribución de bebidas embotelladas requiere que las empresas distribuidoras, supervisores de flota, conductores y repartidores coordinen vehículos, rutas, puntos de entrega y diferentes situaciones que pueden ocurrir durante las operaciones de transporte.
+**Restricciones que se aplican al Problem Statement**
 
-Las alternativas y procesos actualmente utilizados pueden no ofrecer una visión centralizada de todos los elementos involucrados en una operación, dificultando el seguimiento de las entregas y el registro organizado de las incidencias.
-
-BottleTrack busca abordar esta brecha mediante una plataforma web que centralice la gestión de vehículos, conductores, rutas, entregas e incidencias relacionadas con las operaciones de distribución.
-
-Nuestro enfoque inicial estará dirigido principalmente a los **supervisores o encargados de flota y conductores o repartidores de empresas distribuidoras de bebidas**, considerando también a las bodegas y minimarkets como actores relacionados con el proceso de entrega.
-
-Consideraremos que BottleTrack está generando valor cuando los usuarios puedan consultar el estado de sus operaciones, registrar el avance de las entregas y comunicar incidencias utilizando una única plataforma de manera sencilla y comprensible.
+- El alcance se limita al transporte de bebidas embotelladas desde el centro de distribución hasta el punto de entrega; no incluye facturación, inventario ni contabilidad.
+- Los usuarios de la aplicación son el administrador de la distribuidora, el supervisor de flota y el responsable de la bodega. El conductor participa del proceso, pero el registro de los resultados de la ruta lo realiza el supervisor.
+- La optimización automática de rutas queda fuera del alcance; el orden de las paradas lo define el supervisor.
+- Durante el desarrollo, las lecturas de los dispositivos IoT se simulan desde el RESTful API, ya que el equipo no dispone de hardware físico.
+- La solución debe funcionar en navegadores de escritorio y móviles, y estar disponible en inglés y en español latinoamericano.
 
 ---
 
 <a id="1222-lean-ux-assumptions"></a>
 #### 1.2.2.2. Lean UX Assumptions
 
-Las siguientes assumptions representan las creencias iniciales de CodeCrafters y deberán ser validadas mediante investigación con los segmentos objetivo.
+Las assumptions representan las creencias iniciales de CodeCrafters. Cada una se redacta de forma que pueda ser validada o refutada con un dato concreto, ya sea durante las entrevistas o durante el uso de la aplicación.
 
 ##### Business Assumptions
 
-- Creemos que existe una necesidad de mejorar la gestión y seguimiento de las operaciones de transporte en empresas distribuidoras de bebidas.
-- Creemos que centralizar la información de las operaciones puede generar valor para las empresas distribuidoras.
-- Creemos que una solución especializada en seguimiento de transporte puede diferenciarse de herramientas genéricas utilizadas para registrar información.
-- Creemos que BottleTrack puede funcionar bajo un modelo de negocio **Software as a Service (SaaS)**.
-- Creemos que empresas distribuidoras podrían estar dispuestas a pagar una suscripción periódica si la plataforma demuestra beneficios en la gestión de sus operaciones.
+- Creemos que las distribuidoras pequeñas y medianas de Lima, con flotas de entre 3 y 20 vehículos, no utilizan una plataforma especializada y coordinan sus operaciones con Excel y WhatsApp.
+- Creemos que el principal costo oculto de estas distribuidoras es el tiempo que el supervisor dedica a consolidar información y la merma que no queda registrada.
+- Creemos que estas empresas pagarían una suscripción mensual calculada por vehículo, siempre que el costo sea inferior al de las plataformas de última milla existentes.
+- Creemos que una plataforma especializada en el producto embotellado se diferencia lo suficiente de las soluciones genéricas como para justificar el cambio de herramienta.
+- Creemos que las bodegas pueden convertirse en un canal de adopción: si reciben información de sus pedidos, presionarán a otras distribuidoras para que usen la misma plataforma.
 
 ##### Business Outcome Assumptions
 
-- Creemos que BottleTrack puede reducir el tiempo requerido por los supervisores para conocer el estado de una operación.
-- Creemos que la plataforma puede incrementar la cantidad de operaciones cuyo estado puede ser consultado desde un único sistema.
-- Creemos que BottleTrack puede aumentar la cantidad de incidencias que quedan registradas y disponibles para seguimiento.
-- Creemos que una experiencia sencilla puede favorecer el uso recurrente de la plataforma por parte de los usuarios.
-- Creemos que las empresas que perciban mejoras en la visibilidad de sus operaciones tendrán mayor disposición a continuar utilizando el servicio.
+- Creemos que BottleTrack reducirá en al menos 25 % el tiempo que el supervisor dedica a consolidar el estado de la jornada.
+- Creemos que al menos el 80 % de las operaciones de las empresas piloto quedará registrado y será consultable en la plataforma durante los primeros 6 meses.
+- Creemos que el porcentaje de incidencias registradas con evidencia pasará de un registro informal en WhatsApp a más del 80 % dentro de la plataforma.
+- Creemos que al menos el 60 % de las empresas que completen un piloto de 3 meses contratará una suscripción.
 
 ##### User Assumptions
 
-- Creemos que los supervisores o encargados de flota necesitan conocer el estado de las rutas y entregas que supervisan.
-- Creemos que los conductores y repartidores necesitan consultar las operaciones y puntos de entrega que tienen asignados.
-- Creemos que los conductores necesitan una forma rápida de comunicar problemas ocurridos durante una entrega.
-- Creemos que las bodegas y minimarkets se ven afectados cuando existen retrasos, faltantes o productos dañados.
-- Creemos que los usuarios involucrados en las operaciones valorarán una plataforma que pueda utilizarse desde diferentes dispositivos.
-- Creemos que los conductores utilizarán principalmente dispositivos móviles durante las operaciones de transporte.
+- Creemos que el supervisor de flota es quien más tiempo pierde, porque debe llamar o escribir a cada conductor para conocer el avance de la ruta.
+- Creemos que el administrador de la distribuidora necesita indicadores consolidados y el historial de operaciones para tomar decisiones, no el detalle de cada parada.
+- Creemos que el responsable de la bodega no sabe a qué hora llegará su pedido y comunica los problemas de recepción por WhatsApp o por teléfono, sin que quede constancia.
+- Creemos que el supervisor alterna entre la computadora y el smartphone durante la jornada, mientras que la bodega utiliza principalmente el smartphone.
 
 ##### User Outcome and Benefit Assumptions
 
-- Creemos que los supervisores desean conocer rápidamente qué operaciones se encuentran en curso, completadas o presentan problemas.
-- Creemos que los conductores desean registrar el resultado de una entrega sin realizar procesos complejos.
-- Creemos que los supervisores desean reducir la necesidad de recopilar manualmente información de diferentes fuentes.
-- Creemos que los conductores desean comunicar una incidencia de forma rápida y dejar constancia de lo ocurrido.
-- Creemos que las empresas desean disponer de un historial de operaciones que pueda ser consultado posteriormente.
-- Creemos que una mayor disponibilidad de información permitirá responder con mayor rapidez ante problemas durante una distribución.
+- Creemos que el supervisor desea saber en todo momento qué entregas se completaron, cuáles están pendientes y cuáles presentan un problema, sin depender de llamadas.
+- Creemos que el administrador desea revisar el resultado de cada jornada y la merma acumulada para evaluar el desempeño de la operación.
+- Creemos que el responsable de la bodega desea conocer el estado de su pedido y dejar constancia de un faltante o de un producto dañado en el momento de la recepción.
+- Creemos que todos los usuarios valoran una herramienta que puedan aprender a usar en una sola jornada.
 
 ##### Feature Assumptions
 
-- Creemos que un **módulo de gestión de vehículos y conductores** permitirá organizar los recursos utilizados en las operaciones de transporte.
-- Creemos que un **módulo de gestión de operaciones y rutas** permitirá asignar vehículos, conductores y puntos de entrega de manera organizada.
-- Creemos que una **funcionalidad de seguimiento del estado de las entregas** permitirá conocer el avance de una operación.
-- Creemos que un **módulo de registro y seguimiento de incidencias** permitirá documentar los problemas ocurridos durante el transporte.
-- Creemos que un **dashboard de operaciones** permitirá a los supervisores identificar rápidamente el estado general de las rutas y entregas.
-- Creemos que una **interfaz web responsive** permitirá a los conductores consultar rutas y actualizar entregas desde dispositivos móviles.
+- Creemos que un **módulo de gestión de flota** permitirá mantener actualizada la disponibilidad de vehículos y conductores.
+- Creemos que un **módulo de operaciones y rutas** permitirá crear una operación, asignar recursos y ordenar sus puntos de entrega.
+- Creemos que el **seguimiento del estado de cada punto de entrega** permitirá conocer el avance de la operación sin llamar al conductor.
+- Creemos que un **módulo de incidencias con evidencia fotográfica** permitirá dejar constancia de las botellas rotas, los faltantes y los retrasos.
+- Creemos que el **monitoreo IoT de la carga con alertas** permitirá detectar golpes y temperaturas fuera de rango antes de que el producto llegue dañado.
+- Creemos que un **dashboard con indicadores e historial** permitirá al administrador evaluar el desempeño de las operaciones.
+- Creemos que una **vista de seguimiento para la bodega** permitirá conocer el estado del pedido y reportar problemas de recepción.
 
 ---
 
 <a id="1223-lean-ux-hypothesis-statements"></a>
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Los siguientes Hypothesis Statements se derivan directamente de los Feature Assumptions establecidos anteriormente.
+Se formula un Hypothesis Statement por cada Feature Assumption, siguiendo la plantilla *We believe we will achieve [business outcome] if [personas] attain [benefit] with [feature]*. Cada uno se vincula con el indicador de éxito del Problem Statement que permitirá validarlo.
 
-##### Hypothesis Statement 1 - Gestión de vehículos y conductores
-
-Creemos que lograremos **mejorar la organización de los recursos utilizados en las operaciones de transporte** si los **supervisores o encargados de flota** logran **consultar y gestionar de manera centralizada la información de los vehículos y conductores disponibles** mediante un **módulo de gestión de vehículos y conductores**.
-
-##### Hypothesis Statement 2 - Gestión de operaciones y rutas
-
-Creemos que lograremos **mejorar la organización de las operaciones de distribución** si los **supervisores o encargados de flota** logran **asignar vehículos, conductores y puntos de entrega de manera organizada** mediante un **módulo de gestión de operaciones y rutas**.
-
-##### Hypothesis Statement 3 - Seguimiento de entregas
-
-Creemos que lograremos **mejorar la visibilidad sobre el avance de las operaciones** si los **supervisores y conductores** logran **conocer y actualizar el estado de las diferentes entregas de una ruta** mediante una **funcionalidad de seguimiento del estado de las entregas**.
-
-##### Hypothesis Statement 4 - Registro de incidencias
-
-Creemos que lograremos **mejorar el registro y comunicación de los problemas ocurridos durante las operaciones** si los **conductores y supervisores** logran **registrar, consultar y realizar seguimiento de los eventos ocurridos durante una entrega** mediante un **módulo de registro y seguimiento de incidencias**.
-
-##### Hypothesis Statement 5 - Dashboard de operaciones
-
-Creemos que lograremos **reducir el esfuerzo requerido para conocer el estado general de las operaciones** si los **supervisores o encargados de flota** logran **identificar rápidamente rutas, entregas e incidencias relevantes** mediante un **dashboard de operaciones**.
-
-##### Hypothesis Statement 6 - Experiencia responsive
-
-Creemos que lograremos **facilitar la actualización de información durante las operaciones de transporte** si los **conductores y repartidores** logran **consultar sus rutas y registrar el estado de sus entregas desde el dispositivo que utilizan durante su jornada** mediante una **interfaz web responsive**.
+| # | Hypothesis Statement | Indicador de validación |
+| :- | :------------------- | :---------------------- |
+| H1 | Creemos que lograremos **reducir las operaciones que no pueden iniciarse por falta de recursos** si los **supervisores de flota** logran **conocer qué vehículos y conductores están disponibles al planificar la jornada** con un **módulo de gestión de flota**. | Porcentaje de operaciones reprogramadas por falta de recursos. |
+| H2 | Creemos que lograremos que **al menos el 80 % de las operaciones de las empresas piloto quede registrado** si los **supervisores de flota** logran **crear una operación, asignar sus recursos y ordenar sus paradas en un solo lugar** con un **módulo de operaciones y rutas**. | Operaciones registradas respecto del total de operaciones de la empresa. |
+| H3 | Creemos que lograremos **reducir en 25 % el tiempo dedicado a consolidar el estado de la jornada** si los **supervisores de flota** logran **conocer el avance de cada operación sin llamar al conductor** con el **seguimiento del estado de cada punto de entrega**. | Tiempo promedio para conocer el estado de una operación. |
+| H4 | Creemos que lograremos que **más del 80 % de las incidencias quede registrado con evidencia** si los **supervisores de flota** logran **dejar constancia de lo ocurrido en el momento en que se reporta** con un **módulo de incidencias con evidencia fotográfica**. | Incidencias con evidencia respecto del total reportado. |
+| H5 | Creemos que lograremos **reducir la merma por botellas rotas y producto dañado** si los **supervisores de flota** logran **detectar golpes y temperaturas fuera de rango durante el trayecto** con el **monitoreo IoT de la carga con alertas**. | Merma por operación antes y después del piloto. |
+| H6 | Creemos que lograremos que **el 60 % de las empresas piloto contrate una suscripción** si los **administradores de las distribuidoras** logran **evaluar el desempeño y la merma de sus operaciones** con un **dashboard con indicadores e historial**. | Tasa de conversión de piloto a suscripción. |
+| H7 | Creemos que lograremos **reducir las llamadas de las bodegas a la distribuidora** si los **responsables de bodegas y minimarkets** logran **conocer el estado de su pedido y reportar problemas de recepción** con una **vista de seguimiento para la bodega**. | Porcentaje de bodegas que consultan su pedido antes de llamar. |
 
 ---
 
 <a id="1224-lean-ux-canvas"></a>
-#### <i>**1.2.2.4. Lean UX Canvas.**</i>
+#### 1.2.2.4. Lean UX Canvas
 
+El Lean UX Canvas resume en un solo cuadro la propuesta del equipo. Cada casillero se alimenta de las secciones anteriores y de los hallazgos de las entrevistas registradas en el Capítulo II.
 
+| Casillero | Contenido |
+| :-------- | :-------- |
+| **1. Business Problem** | Las distribuidoras pequeñas y medianas de bebidas embotelladas coordinan sus operaciones con Excel, WhatsApp y llamadas. La información de la jornada queda dispersa, el supervisor invierte gran parte de su tiempo en consolidarla y la merma por botellas rotas y faltantes no queda registrada. Las plataformas existentes son costosas y no están especializadas en este producto. |
+| **2. Business Outcomes** | Reducir en 25 % el tiempo de consolidación del supervisor. Registrar el 80 % de las operaciones y de las incidencias en la plataforma. Convertir el 60 % de los pilotos en suscripciones. |
+| **3. Users** | Carlos Mendoza, administrador de una distribuidora. Luis Torres, supervisor de operaciones y flota. María Fernández, propietaria de un minimarket. |
+| **4. User Outcomes and Benefits** | Carlos revisa indicadores, merma e historial sin pedir reportes. Luis conoce el avance de cada ruta y atiende las incidencias sin llamar al conductor. María sabe cuándo llega su pedido y deja constancia de cualquier problema de recepción. |
+| **5. Solutions** | Gestión de flota. Operaciones y rutas con puntos de entrega ordenados. Seguimiento del estado de cada entrega. Incidencias con evidencia fotográfica. Monitoreo IoT con alertas de golpes y temperatura. Dashboard con historial. Vista de seguimiento para la bodega. |
+| **6. Hypotheses** | H1 a H7 de la sección 1.2.2.3. |
+| **7. What's the most important thing we need to learn first?** | Si los supervisores registrarán el resultado de cada entrega en la plataforma en lugar de hacerlo por WhatsApp, ya que de ese registro dependen el seguimiento, el dashboard y la vista de la bodega. |
+| **8. What's the least amount of work we need to do to learn the next most important thing?** | Un prototipo navegable en Figma del flujo *crear operación → actualizar entrega → registrar incidencia*, validado con los supervisores entrevistados, seguido de una primera versión de la aplicación web conectada a un API simulado con json-server. |
 
 <a id="13-segmentos-objetivo"></a>
 ## 1.3. Segmentos objetivo
@@ -476,7 +518,7 @@ Los segmentos objetivo de BottleTrack se encuentran relacionados con las diferen
 
 La definición presentada en esta etapa corresponde a una aproximación inicial realizada por CodeCrafters. Las características específicas, comportamientos y necesidades de cada segmento deberán ser posteriormente contrastadas mediante las entrevistas realizadas durante el proceso de Requirements Elicitation & Analysis.
 
-Los segmentos considerados inicialmente son las **empresas distribuidoras de bebidas**, los **supervisores o encargados de flota**, los **conductores y repartidores** y las **bodegas o minimarkets**.
+Los segmentos objetivo son las **empresas distribuidoras de bebidas**, los **supervisores o encargados de flota** y las **bodegas o minimarkets**. Los conductores y repartidores fueron considerados en la etapa inicial, pero el equipo decidió no tratarlos como segmento: no son quienes contratan ni quienes consultan la información, y su participación queda representada por los registros que realiza el supervisor.
 
 ### Empresas distribuidoras de bebidas
 
@@ -538,40 +580,6 @@ Son responsables de organizar y supervisar los recursos involucrados en las oper
 
 ---
 
-### Conductores y repartidores
-
-Los conductores y repartidores constituyen el segundo grupo principal de usuarios operativos de BottleTrack.
-
-Son responsables de ejecutar las rutas de distribución y trasladar las bebidas desde los puntos de origen hacia los establecimientos asignados.
-
-#### Características demográficas iniciales
-
-- **Edad referencial:** 21 a 55 años.
-- **Ocupación:** conductor de reparto, transportista o repartidor.
-- **Entorno laboral:** transporte y distribución de productos.
-- **Nivel de adopción tecnológica esperado:** bajo a medio.
-- **Dispositivo de mayor disponibilidad:** smartphone.
-
-
-#### Características del segmento
-
-- Realizan desplazamientos frecuentes durante su jornada laboral.
-- Atienden diferentes puntos de entrega.
-- Necesitan conocer la ruta y las entregas que tienen asignadas.
-- Deben comunicar problemas ocurridos durante el recorrido.
-- Utilizan dispositivos móviles con mayor frecuencia debido a la naturaleza de su trabajo.
-
-#### Necesidades iniciales identificadas
-
-- Consultar las entregas que deben realizar.
-- Conocer los diferentes puntos que forman parte de una ruta.
-- Registrar rápidamente el resultado de una entrega.
-- Comunicar retrasos, productos dañados, faltantes u otras incidencias.
-- Evitar procesos complejos que interfieran con la ejecución de sus actividades.
-
-
----
-
 ### Bodegas y minimarkets
 
 Las bodegas y minimarkets representan establecimientos que reciben los productos transportados por las empresas distribuidoras de bebidas.
@@ -612,15 +620,14 @@ A partir de la relación de cada segmento con las operaciones que busca soportar
 | Segmento | Relación con BottleTrack | Prioridad inicial |
 | --- | --- | --- |
 | **Supervisores o encargados de flota** | Gestionan y supervisan directamente las operaciones de transporte. | Muy alta |
-| **Conductores y repartidores** | Ejecutan las rutas y registran el resultado de las entregas. | Muy alta |
 | **Empresas distribuidoras de bebidas** | Constituyen el cliente organizacional y potencial comprador del servicio. | Alta |
-| **Bodegas y minimarkets** | Constituyen puntos de entrega y actores relevantes dentro del proceso de distribución. | Media - Alta |
+| **Bodegas y minimarkets** | Reciben los pedidos, consultan su estado y reportan los problemas de recepción. | Media |
 
-Los **supervisores o encargados de flota** y los **conductores o repartidores** serán considerados inicialmente los principales usuarios de la aplicación debido a su participación directa en la planificación, ejecución y seguimiento de las operaciones.
+Los **supervisores o encargados de flota** son los principales usuarios de la aplicación, debido a su participación directa en la planificación, ejecución y seguimiento de las operaciones.
 
 Las **empresas distribuidoras de bebidas** representan principalmente al cliente organizacional de BottleTrack, mientras que las **bodegas y minimarkets** permitirán comprender desde la perspectiva del receptor los problemas que pueden presentarse durante las entregas.
 
-Esta clasificación inicial será revisada después de realizar las entrevistas y analizar la información obtenida de representantes reales de cada segmento.
+Esta priorización fue contrastada con las entrevistas del Capítulo II, que confirmaron que el supervisor concentra la mayor parte de la coordinación diaria y que la bodega es la principal afectada por los retrasos y faltantes.
 <hr>
 
 
@@ -649,9 +656,11 @@ Los competidores seleccionados son:
 
 Estas plataformas constituyen competidores directos o parcialmente directos debido a que atienden necesidades relacionadas con la gestión de última milla, planificación de rutas, seguimiento de vehículos, control de entregas y comunicación de incidencias.
 
-A diferencia de estas soluciones, BottleTrack plantea inicialmente un enfoque orientado a las operaciones de distribución de bebidas embotelladas, buscando ofrecer una experiencia más acotada y sencilla para empresas distribuidoras, supervisores de flota y conductores o repartidores.
+A diferencia de estas soluciones, BottleTrack plantea inicialmente un enfoque orientado a las operaciones de distribución de bebidas embotelladas, buscando ofrecer una experiencia más acotada y sencilla para empresas distribuidoras, supervisores de flota y bodegas o minimarkets.
 
 ### Competidor 1: SimpliRoute
+
+<img src="img/chapter2/logo-simpliroute.png" alt="Logo de SimpliRoute" width="48">
 
 **SimpliRoute** es una plataforma de gestión logística y última milla que permite a las empresas planificar y optimizar rutas de entrega.
 
@@ -661,6 +670,8 @@ La solución dispone además de una aplicación para conductores desde la cual p
 
 ### Competidor 2: Drivin
 
+<img src="img/chapter2/logo-drivin.png" alt="Logo de Descartes Drivin" width="48">
+
 **Drivin**, actualmente presentado como Descartes Drivin, es una plataforma SaaS de gestión de transporte (Transportation Management System - TMS).
 
 La solución permite planificar y optimizar rutas, administrar vehículos, monitorear operaciones en tiempo real, gestionar entregas y generar reportes asociados al desempeño logístico.
@@ -668,6 +679,8 @@ La solución permite planificar y optimizar rutas, administrar vehículos, monit
 Drivin también dispone de funcionalidades dirigidas a los conductores y permite integrar información proveniente de otros sistemas utilizados por las organizaciones.
 
 ### Competidor 3: DispatchTrack
+
+<img src="img/chapter2/logo-dispatchtrack.png" alt="Logo de DispatchTrack" width="48">
 
 **DispatchTrack** es una plataforma SaaS orientada a la gestión de operaciones de última milla.
 
@@ -688,16 +701,16 @@ La pregunta que orienta este análisis es:
 
 #### Competitive Analysis Landscape
 
-| Criterio | **BottleTrack - CodeCrafters** | **SimpliRoute** | **Drivin** | **DispatchTrack** |
+| Criterio | **BottleTrack - CodeCrafters** | <img src="img/chapter2/logo-simpliroute.png" alt="Logo de SimpliRoute" width="32"><br>**SimpliRoute** | <img src="img/chapter2/logo-drivin.png" alt="Logo de Drivin" width="32"><br>**Drivin** | <img src="img/chapter2/logo-dispatchtrack.png" alt="Logo de DispatchTrack" width="32"><br>**DispatchTrack** |
 | --- | --- | --- | --- | --- |
 | **Overview** | Plataforma web orientada a la gestión y seguimiento del transporte de bebidas embotelladas. | Plataforma de optimización de rutas y gestión de última milla. | TMS SaaS para planificación, monitoreo y gestión de operaciones de transporte. | Plataforma SaaS especializada en gestión y optimización de última milla. |
-| **Ventaja competitiva** | Enfoque específico en operaciones de distribución de bebidas embotelladas y propuesta inicial simplificada para pequeñas y medianas operaciones. | Optimización avanzada de rutas mediante algoritmos e inteligencia artificial. | Amplio conjunto de funcionalidades para administrar integralmente operaciones de transporte. | Plataforma integral de última milla con funcionalidades especializadas para diferentes industrias, incluyendo alimentos y bebidas. |
+| **Ventaja competitiva** | Único enfoque específico en bebidas embotelladas: registro de botellas rotas, faltantes y merma, monitoreo IoT de golpes y temperatura de la carga, y una vista de seguimiento para la bodega que recibe el pedido. | Optimización avanzada de rutas mediante algoritmos e inteligencia artificial. | Amplio conjunto de funcionalidades para administrar integralmente operaciones de transporte. | Plataforma integral de última milla con funcionalidades especializadas para diferentes industrias, incluyendo alimentos y bebidas. |
 | **Valor ofrecido al cliente** | Centralización de vehículos, conductores, rutas, entregas e incidencias en una plataforma enfocada en las necesidades del dominio. | Reducción de tiempos y recursos utilizados en la planificación y ejecución de rutas. | Mayor control y visibilidad de la operación logística desde la planificación hasta la entrega. | Gestión end-to-end de las operaciones de última milla y mejora de la visibilidad sobre las entregas. |
 | **Mercado objetivo** | Empresas distribuidoras de bebidas, especialmente aquellas que requieren organizar y controlar operaciones de reparto. | Empresas que realizan operaciones de distribución y última milla. | Empresas de diferentes industrias que requieren administrar operaciones de transporte. | Distribuidores, retailers, empresas logísticas y compañías que gestionan operaciones de última milla. |
 | **Estrategia de marketing** | Landing Page, demostraciones del producto, contacto directo con empresas distribuidoras y pruebas piloto. | Contenido digital, demostraciones, pruebas del producto, casos de éxito y herramientas gratuitas relacionadas con logística. | Demostraciones comerciales, casos de éxito, contenido especializado y contacto empresarial. | Demostraciones, contenido especializado, casos de clientes y estrategias B2B orientadas a distintas industrias. |
 | **Productos y servicios** | Gestión de vehículos, conductores, operaciones, rutas, entregas, incidencias y dashboard de seguimiento. | Optimización de rutas, monitoreo, gestión de flota, prueba de entrega, reportes y comunicación con clientes. | Planificación y optimización de rutas, monitoreo de flota, gestión de recursos, aplicación para conductores y reportes. | Optimización de rutas, seguimiento en tiempo real, aplicación para conductores, proof of delivery, comunicación con clientes y analytics. |
 | **Precios y costos** | Modelo SaaS por suscripción. La estructura final de planes y precios será validada posteriormente. | Dispone de planes por suscripción y alternativas personalizadas dependiendo del tamaño de la operación. | Modelo SaaS con pago periódico relacionado con la cantidad de vehículos utilizados. | Modelo SaaS orientado a empresas. Los precios se gestionan mediante contacto comercial y demostración. |
-| **Canales de distribución** | Web responsive. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. |
+| **Canales de distribución** | Aplicación web responsive, Landing Page y venta directa a distribuidoras. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. | Plataforma web y aplicación móvil para conductores. |
 
 
 ---
@@ -765,7 +778,7 @@ En lugar de competir inicialmente por cantidad de funcionalidades, BottleTrack b
 **Tácticas:**
 
 - Reducir la cantidad de pasos necesarios para actualizar una entrega.
-- Diseñar una interfaz responsive adecuada para conductores.
+- Diseñar una interfaz responsive que el supervisor y la bodega puedan usar desde el smartphone.
 - Priorizar las operaciones más frecuentes identificadas durante las entrevistas.
 - Evitar incorporar funcionalidades avanzadas que no hayan demostrado aportar valor a los segmentos objetivo.
 
@@ -817,8 +830,7 @@ Los segmentos considerados para las entrevistas son:
 
 1. Empresas distribuidoras de bebidas.
 2. Supervisores o encargados de flota.
-3. Conductores y repartidores.
-4. Bodegas y minimarkets.
+3. Bodegas y minimarkets.
 
 La información recopilada servirá posteriormente para realizar el análisis de entrevistas y construir los User Personas correspondientes a cada segmento.
 
@@ -980,17 +992,16 @@ Las entrevistas deberán registrarse en video para conservar evidencia del proce
 
 <a id="222-registro-de-entrevistas"></a>
 ### 2.2.2. Registro de entrevistas.
-**Segmento Ojetivo 1: Empresas distribuidoras de bebidas**
+**Segmento Objetivo 1: Empresas distribuidoras de bebidas**
 
 | # | Nombres y Apellidos         | Edad   | Distrito     | Screenshot                                                         | URL del video (Microsoft Stream)                                                                                                                                                                                                                                                                                                               | Inicio     | Duración |
 | :--- |:----------------------------|:-------|:-------------|:-------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:---------|
-| 1 | Luis Angel Tufiño Argüelles | 32     | Pueblo libre | <img src="img/chapter2/luisE.png" alt="Entrevista - Luis">         | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCr82Alu2z7SZKNCmFaEpDPASkBq9PbtANVy94HciHpe8M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m3dgc1) | 00:00:00   | 11:23    |
-| 2 | Luis Palacin Lope           | 51     | Santa Anita  | <img src="img/chapter2/luisP.png" alt="Entrevista - Luis Palacin"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c201_upc_edu_pe/IQBNb-6tNRj-SbxSJjcvfr6xASOZ3O2LshfMq-RH77aQrw4?e=Tqmjyc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                                             | 00:07      | 17:55    |
-| 3 | [Nombre Apellido]           | [Edad] | [Distrito]   | *(captura del video)*                                              | [URL privado]                                                                                                                                                                                                                                                                                                                                  | [hh:mm:ss] | [mm:ss]  |
+| 1 | Luis Angel Tufiño Argüelles | 32 años | Pueblo libre | <img src="img/chapter2/luisE.png" alt="Entrevista - Luis">         | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCr82Alu2z7SZKNCmFaEpDPASkBq9PbtANVy94HciHpe8M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m3dgc1) | 00:00:00   | 11:23    |
+| 2 | Luis Palacin Lope           | 51 años | Santa Anita  | <img src="img/chapter2/luisP.png" alt="Entrevista - Luis Palacin"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c201_upc_edu_pe/IQBNb-6tNRj-SbxSJjcvfr6xASOZ3O2LshfMq-RH77aQrw4?e=Tqmjyc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                                             | 00:00:07  | 17:55    |
 
 *Resumen de entrevista 1:*
 
-Luis Ramírez, supervisor de distribución con 8 años de experiencia, explica que su empresa organiza diariamente los pedidos, vehículos, conductores y rutas para abastecer bodegas, minimarkets y pequeños comercios. Actualmente utilizan principalmente Excel, Google Maps, WhatsApp y llamadas telefónicas, lo que dificulta mantener la información centralizada y hacer seguimiento a varias entregas al mismo tiempo.
+Luis Ángel Tufiño, supervisor de distribución con 8 años de experiencia, explica que su empresa organiza diariamente los pedidos, vehículos, conductores y rutas para abastecer bodegas, minimarkets y pequeños comercios. Actualmente utilizan principalmente Excel, Google Maps, WhatsApp y llamadas telefónicas, lo que dificulta mantener la información centralizada y hacer seguimiento a varias entregas al mismo tiempo.
 
 Los principales problemas identificados son la planificación manual de rutas, el seguimiento de los vehículos y el registro desordenado de incidencias como productos faltantes, dañados o entregas parciales. Luis considera importante contar con un sistema que permita visualizar en un solo lugar las rutas, vehículos, conductores y estado de cada entrega, además de registrar directamente si una entrega fue completada, parcial o presentó algún inconveniente.
 
@@ -1001,15 +1012,13 @@ Luis Palacín, gerente de operaciones de HPL Transport con más de 20 años de e
 
 Los principales problemas identificados son los tiempos de espera para realizar la carga en planta y la necesidad de mantener un seguimiento constante de las unidades durante los viajes. Luis considera importante contar con herramientas que faciliten el monitoreo en tiempo real, permitan controlar los tiempos de operación y mantener información actualizada sobre las entregas. También destacó la importancia de registrar las guías, horarios, destinos y estado de cada servicio para posteriormente evaluar y liquidar las operaciones.
 
-*Resumen de entrevista 3:*
-
-**Segmento Ojetivo 2: Supervisores o encargados de flota**
+**Segmento Objetivo 2: Supervisores o encargados de flota**
 
 | # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Rodrigo Alonso | 39 años | Miraflores | <img src="img/chapter2/interview-rodrigo-alonso.jpeg" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQBEz4WjtPJfQ7tdUoRLgCEGARl_T6mESG_qbuhWi5Yr9u0?e=pmUB2N) | 00:00:00 | 8:39 |
-| 2 | Jorge Castilla | 37 años | La Molina | <img src="img/chapter2/interview-jorge-castilla.jpeg" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQA8zEtRuL5WTqnoOyQuJX5xATWNF1bk48oNO7vGYDMmLLg?e=QSsQ3y) | 00:00:00 | 11:40 |
-| 3 | Pablo ludeña flores | 21 | Miraflores|  <img src="img/chapter2/EntrevistaA.png" alt="Entrevista - Rodrigo Alonso"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCANZeXFcbdQJFldztGiFupAXmK7J74aOjTF2SN9wugVdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KqzyQU) | 00 | 5:00] |
+| 2 | Jorge Castilla | 37 años | La Molina | <img src="img/chapter2/interview-jorge-castilla.jpeg" alt="Entrevista - Jorge Castilla"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c590_upc_edu_pe/IQA8zEtRuL5WTqnoOyQuJX5xATWNF1bk48oNO7vGYDMmLLg?e=QSsQ3y) | 00:00:00 | 11:40 |
+| 3 | Pablo Ludeña Flores | 21 años | Miraflores | <img src="img/chapter2/EntrevistaA.png" alt="Entrevista - Pablo Ludeña"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQCANZeXFcbdQJFldztGiFupAXmK7J74aOjTF2SN9wugVdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KqzyQU) | 00:00:00 | 5:00 |
 
 *Resumen de entrevista 1:*
 
@@ -1020,7 +1029,7 @@ El entrevistado señaló que una de las actividades que mayor tiempo le demanda 
 *Resumen de entrevista 2:*
 
 Jorge Castilla, supervisor de distribución con cinco años de experiencia en el área, describe sus principales actividades relacionadas con la organización y seguimiento de las operaciones de entrega. Durante su jornada coordina principalmente con conductores, personal de almacén y administración, utilizando WhatsApp, Excel, correo electrónico y Google Drive como herramientas de apoyo.
-La entrevista permitió identificar que la planificación de las operaciones se realiza considerando la disponibilidad de vehículos y conductores, así como la ubicación y cantidad de los puntos de entrega. Una vez iniciadas las rutas, el seguimiento depende principalmente de las actualizaciones proporcionadas por los conductores mediante WhatsApp. Cuando necesite información específica, debe solicitarla directamente, debido a que no dispone de una fuente única de consulta.
+La entrevista permitió identificar que la planificación de las operaciones se realiza considerando la disponibilidad de vehículos y conductores, así como la ubicación y cantidad de los puntos de entrega. Una vez iniciadas las rutas, el seguimiento depende principalmente de las actualizaciones proporcionadas por los conductores mediante WhatsApp. Cuando necesita información específica, debe solicitarla directamente, debido a que no dispone de una fuente única de consulta.
 Asimismo, se identificó que el registro de incidencias se realiza de manera distribuida. Las comunicaciones y fotografías pueden permanecer en WhatsApp, mientras que parte de la información se registra posteriormente en archivos Excel. Esta situación dificulta la reconstrucción de algunos eventos y la consulta de operaciones anteriores.
 El entrevistado considera importante contar con información actualizada, organizada y fácil de consultar. Durante las operaciones prefiere utilizar el teléfono inteligente debido a su movilidad, mientras utiliza la computadora para revisar información más detallada.
 
@@ -1036,13 +1045,11 @@ Pablo considera importante contar con una herramienta que permita disponer de in
 
 
 
-**Segmento Ojetivo 3:Bodegas y minimarkets**
+**Segmento Objetivo 3: Bodegas y minimarkets**
 
 | # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Arturo Axel Saravia Huaricancha | 20 | Los Olivos |  <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">| [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) |  00:00:00 | 6:06 |
-| 2 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
-| 3 | [Nombre Apellido] | [Edad] | [Distrito] | *(captura del video)* | [URL privado] | [hh:mm:ss] | [mm:ss] |
+| 1 | Arturo Axel Saravia Huaricancha | 20 años | Los Olivos | <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">| [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) |  00:00:00 | 6:06 |
 
 *Resumen de entrevista 1:*
 
@@ -1052,13 +1059,85 @@ Se identificó que la bodega trabaja con varios distribuidores y que la comunica
 
 El entrevistado considera importante poder conocer el estado del pedido, la cantidad de productos, la hora aproximada de llegada y posibles retrasos, ya que esto permitiría organizarse mejor y reducir la necesidad de estar contactando constantemente al proveedor.
 
-*Resumen de entrevista 2:*
-
-*Resumen de entrevista 3:*
 
 <a id="223-analisis-de-entrevistas"></a>
 ### 2.2.3. Análisis de entrevistas.
 
+El análisis se realizó por segmento objetivo. Para cada uno, el equipo definió un conjunto de variables a partir de las preguntas de la guía de la sección 2.2.1 y contabilizó cuántos entrevistados manifestaron cada valor. Los porcentajes se calculan sobre el total de entrevistados del segmento. Estos resultados son la base de las características asignadas a cada User Persona en la sección 2.3.1.
+
+Las variables analizadas son las siguientes:
+
+| Variable | Pregunta de origen | Uso en el User Persona |
+| :------- | :----------------- | :--------------------- |
+| Edad y distrito | Información general, preguntas 1 y 2 | Demographic |
+| Experiencia en la actividad | Información general, pregunta 4 | Demographic y Background |
+| Herramientas y canales utilizados | Información general, preguntas 6 a 8 | Technology y Channels |
+| Forma de conocer el avance de las entregas | Preguntas principales del segmento | Scenario |
+| Forma de registrar las incidencias | Preguntas principales del segmento | Frustrations |
+| Principal dificultad mencionada | Preguntas principales del segmento | Frustrations |
+| Necesidad principal expresada | Pregunta de cierre del segmento | Goals y Key Needs |
+
+#### Segmento Objetivo 1: Empresas distribuidoras de bebidas
+
+Se entrevistó a 2 personas: un supervisor de distribución de 32 años con 8 años de experiencia y un gerente de operaciones de 51 años con más de 20 años de experiencia. Ambos tienen responsabilidad sobre la operación completa de la empresa y no solo sobre una ruta.
+
+| Variable | Resultado | Entrevistados | % |
+| :------- | :-------- | :-----------: | :-: |
+| Herramientas utilizadas | Excel | 2 de 2 | 100 % |
+| | WhatsApp y llamadas telefónicas | 2 de 2 | 100 % |
+| | Google Maps | 1 de 2 | 50 % |
+| | GPS de un proveedor externo (Frotcom) | 1 de 2 | 50 % |
+| Forma de conocer el avance | Mensajes y llamadas con los conductores | 2 de 2 | 100 % |
+| Principal dificultad | Seguimiento de los vehículos y entregas en curso | 2 de 2 | 100 % |
+| | Planificación manual de rutas | 1 de 2 | 50 % |
+| | Registro desordenado de incidencias | 1 de 2 | 50 % |
+| Necesidad principal | Ver en un solo lugar el estado de cada operación y entrega | 2 de 2 | 100 % |
+| | Conservar el registro de guías, horarios y destinos para evaluar la operación | 1 de 2 | 50 % |
+
+**Conclusión del segmento.** El 100 % de los entrevistados combina Excel con WhatsApp y llamadas, y ninguno cuenta con un único lugar donde consultar el estado de la operación. La necesidad que comparten es la visibilidad centralizada, más que la optimización de rutas, lo que confirma la estrategia de diferenciación de la sección 2.1.2. Estos hallazgos se reflejan en el User Persona Carlos Mendoza: administrador con más de 10 años de experiencia, cuyos canales son WhatsApp, correo y teléfono, y cuya frustración principal es la información distribuida en diferentes medios.
+
+#### Segmento Objetivo 2: Supervisores o encargados de flota
+
+Se entrevistó a 3 supervisores, de 21, 37 y 39 años, con entre 5 y 7 años de experiencia, que residen en Miraflores y La Molina.
+
+| Variable | Resultado | Entrevistados | % |
+| :------- | :-------- | :-----------: | :-: |
+| Herramientas utilizadas | WhatsApp | 3 de 3 | 100 % |
+| | Excel | 3 de 3 | 100 % |
+| | Correo electrónico y Google Drive | 2 de 3 | 67 % |
+| | Llamadas telefónicas | 1 de 3 | 33 % |
+| Forma de conocer el avance | Depende de los mensajes que envían los conductores | 3 de 3 | 100 % |
+| Forma de registrar las incidencias | Primero en WhatsApp y después en Excel | 3 de 3 | 100 % |
+| Principal dificultad | Recopilar el estado de varias operaciones simultáneas | 3 de 3 | 100 % |
+| | Consultar operaciones anteriores | 3 de 3 | 100 % |
+| Dispositivo preferido | Smartphone durante la operación y computadora para el detalle | 2 de 3 | 67 % |
+| Necesidad principal | Información actualizada, ordenada y en un solo lugar | 3 de 3 | 100 % |
+
+**Conclusión del segmento.** Es el segmento con el dolor más claro y homogéneo: el 100 % depende de los mensajes del conductor para conocer el avance, el 100 % registra las incidencias en dos medios distintos y el 100 % tiene dificultades para consultar el historial. El 67 % alterna entre el smartphone y la computadora, por lo que la aplicación debe ser responsive. Estos resultados sustentan al User Persona Luis Torres, de 34 años y 8 años de experiencia, que utiliza smartphone, laptop y computadora de escritorio, y cuya cita resume la necesidad del segmento: saber qué entregas se hicieron, cuáles faltan y cuáles tienen un problema.
+
+#### Segmento Objetivo 3: Bodegas y minimarkets
+
+Se entrevistó a 1 persona de 20 años, residente en Los Olivos, que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock.
+
+| Variable | Resultado | Entrevistados | % |
+| :------- | :-------- | :-----------: | :-: |
+| Cantidad de distribuidores | Trabaja con varios distribuidores | 1 de 1 | 100 % |
+| Canales utilizados | WhatsApp y llamadas telefónicas | 1 de 1 | 100 % |
+| Principal dificultad | No conocer la hora de llegada del pedido | 1 de 1 | 100 % |
+| | Recibir productos incompletos o distintos a lo solicitado | 1 de 1 | 100 % |
+| Necesidad principal | Conocer el estado del pedido, la cantidad y la hora aproximada de llegada | 1 de 1 | 100 % |
+
+**Conclusión del segmento.** La incertidumbre sobre la hora de llegada y los faltantes son los dos problemas principales de la bodega, y la comunicación con el distribuidor se realiza exclusivamente por WhatsApp y llamadas. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Al contar con una sola entrevista, este segmento tiene la menor muestra del estudio, por lo que el equipo amplía su registro en el siguiente sprint para confirmar estos porcentajes.
+
+#### Hallazgos transversales
+
+| Hallazgo | Segmentos en los que aparece |
+| :------- | :--------------------------- |
+| WhatsApp es el canal principal de coordinación y de reporte de incidencias. | 1, 2 y 3 |
+| El estado de la operación se conoce solo si alguien lo comunica, no porque esté registrado. | 1, 2 y 3 |
+| Las incidencias quedan repartidas entre conversaciones y hojas de cálculo. | 1 y 2 |
+| Consultar operaciones pasadas exige revisar archivos y chats antiguos. | 1 y 2 |
+| Ningún entrevistado mencionó la optimización automática de rutas como su necesidad principal. | 1, 2 y 3 |
 
 <a id="23-needfinding"></a>
 ## 2.3. Needfinding.
@@ -1072,44 +1151,164 @@ Estos artefactos permiten consolidar los hallazgos de la investigación y establ
 
 <a id="231-user-personas"></a>
 ### 2.3.1. User Personas.
+
+Cada User Persona representa a un segmento objetivo y se construyó con los valores más frecuentes de las variables analizadas en la sección 2.2.3. Los datos demográficos, los canales y las frustraciones provienen de lo que repitieron los entrevistados de cada segmento, y no de suposiciones del equipo.
+
 #### User Persona del Segmento Objetivo 1: Empresas distribuidoras de bebidas
-<img src="img/chapter2/user-persona-1.jpeg" alt="User Persona 1">
+
+Carlos Mendoza, de 42 años, administra una distribuidora de bebidas en Ate y tiene 12 años en el rubro. Representa al cliente que contrata BottleTrack. Su objetivo es tener visibilidad del estado de las entregas y un historial confiable para tomar decisiones, y su principal frustración es que la información de la operación está repartida entre distintos medios, tal como lo indicó el 100 % de los entrevistados del segmento.
+
+<img src="img/chapter2/user-persona-1.jpeg" alt="User Persona Carlos Mendoza, administrador de una empresa distribuidora de bebidas">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/GS0Vk
 
 #### User Persona del Segmento Objetivo 2: Supervisores o encargados de flota
-<img src="img/chapter2/user-persona-2.jpeg" alt="User Persona 2">
 
-#### User Persona del Segmento Objetivo 3: Bodegas y minimercados
-<img src="img/chapter2/user-persona-3.jpeg" alt="User Persona 3">
+Luis Torres, de 34 años, es supervisor de operaciones y encargado de flota en San Martín de Porres, con 8 años de experiencia. Es el usuario principal de la aplicación. Coordina la jornada desde la computadora y el smartphone, depende de los mensajes de WhatsApp para conocer el avance de las rutas y necesita identificar rápidamente las entregas con problemas.
+
+<img src="img/chapter2/user-persona-2.jpeg" alt="User Persona Luis Torres, supervisor de operaciones y encargado de flota">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/ZvlM6
+
+#### User Persona del Segmento Objetivo 3: Bodegas y minimarkets
+
+María Fernández, de 39 años, es propietaria de un minimarket en Los Olivos y trabaja con varios distribuidores. Necesita saber cuándo llegará su pedido y poder comunicar rápidamente un faltante o un producto dañado. Utiliza principalmente el smartphone, y sus canales son WhatsApp, el teléfono e Instagram.
+
+<img src="img/chapter2/user-persona-3.jpeg" alt="User Persona María Fernández, propietaria de un minimarket">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/p2gAf
 
 <a id="232-user-task-matrix"></a>
 ### 2.3.2. User Task Matrix.
-<img src="img/chapter2/user-task-matrix.jpeg" alt="User Task Matix">
+
+El User Task Matrix compara las tareas que realiza cada User Persona según su frecuencia y su importancia. Las tareas marcadas con guion no forman parte de la actividad de esa Persona.
+
+| Tarea | Carlos Mendoza<br>Frecuencia | Carlos Mendoza<br>Importancia | Luis Torres<br>Frecuencia | Luis Torres<br>Importancia | María Fernández<br>Frecuencia | María Fernández<br>Importancia |
+| :---- | :-: | :-: | :-: | :-: | :-: | :-: |
+| Planificar operaciones de distribución | Alta | Alta | Alta | Alta | - | - |
+| Coordinar vehículos | Alta | Alta | Alta | Alta | - | - |
+| Coordinar recursos para las entregas | Alta | Alta | Alta | Alta | Media | Media |
+| Organizar rutas y puntos de entrega | Alta | Alta | Alta | Alta | - | - |
+| Coordinar entregas | Alta | Alta | Alta | Alta | Alta | Alta |
+| Consultar el avance de las entregas | Alta | Alta | Alta | Alta | Alta | Alta |
+| Verificar la recepción de productos | - | - | Media | Media | Alta | Alta |
+| Verificar cantidades recibidas | - | - | Media | Media | Alta | Alta |
+| Verificar condición de productos | - | - | Media | Media | Alta | Alta |
+| Comunicar retrasos | Alta | Alta | Alta | Alta | Media | Alta |
+| Comunicar faltantes o daños | Media | Alta | Alta | Alta | Alta | Alta |
+| Resolver problemas de entrega | Media | Alta | Alta | Alta | Media | Alta |
+| Registrar información de la operación | Alta | Alta | Alta | Alta | Media | Media |
+| Revisar operaciones anteriores | Media | Alta | Media | Alta | Baja | Media |
+| Evaluar resultados de la operación | Alta | Alta | Alta | Alta | Baja | Media |
+
+La única tarea con frecuencia e importancia altas para las tres Personas es **consultar el avance de las entregas**, por lo que el seguimiento del estado de cada punto de entrega se ubica en el centro del producto. La verificación de cantidades y condición es crítica solo para la bodega, lo que justifica una vista propia para ese segmento.
+
+<img src="img/chapter2/user-task-matrix.jpeg" alt="User Task Matrix de las tres User Personas">
 
 <a id="233-user-journey-mapping"></a>
 ### 2.3.3. User Journey Mapping.
+
+Los User Journey Maps representan el escenario As-Is de cada Persona, es decir, cómo realiza hoy su trabajo sin BottleTrack. Cada mapa recorre las etapas de la jornada e identifica en cada una las acciones, los canales, los pensamientos, las emociones, los puntos de dolor y las oportunidades.
+
 #### User Persona 1: Carlos Mendoza
-<img src="img/chapter2/user-journey-map-segmento-1.jpeg" alt="User Journey Mapping - Segmento 1">
+
+El recorrido del administrador atraviesa seis etapas: planificar la operación, coordinar recursos, ejecutar entregas, supervisar el avance, resolver incidencias y revisar resultados. Solo la primera y la última se realizan desde la laptop; las cuatro etapas centrales dependen de WhatsApp. La emoción pasa de la incertidumbre a la frustración y la ansiedad mientras espera actualizaciones y atiende incidencias, y recién se recupera al revisar los resultados. Las oportunidades identificadas son mostrar de forma organizada el estado de las operaciones y contar con un historial de operaciones e incidencias.
+
+<img src="img/chapter2/user-journey-map-segmento-1.jpeg" alt="User Journey Map As-Is de Carlos Mendoza">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/m/1XPXj
 
 #### User Persona 2: Luis Torres
-<img src="img/chapter2/user-journey-map-segmento-2.jpeg" alt="User Journey Mapping - Segmento 2">
+
+El recorrido del supervisor atraviesa seis etapas: revisar operaciones, organizar recursos, coordinar rutas, dar seguimiento, atender incidencias y cerrar operaciones. Cuatro de ellas se realizan por WhatsApp. La emoción desciende hasta la frustración y la ansiedad en las etapas de seguimiento y atención de incidencias, porque depende de mensajes que pueden llegar tarde o incompletos. Las oportunidades identificadas son facilitar la consulta del estado de las entregas y registrar las incidencias relacionadas con cada entrega.
+
+<img src="img/chapter2/user-journey-map-segmento-2.jpeg" alt="User Journey Map As-Is de Luis Torres">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/m/cnzpG
 
 #### User Persona 3: María Fernández
-<img src="img/chapter2/user-journey-map-segmento-3.jpeg" alt="User Journey Mapping - Segmento 3">
+
+El recorrido de la bodega atraviesa seis etapas: coordinar el pedido, esperar la entrega, recibir los productos, verificar el pedido, comunicar el problema y resolver la incidencia. La verificación se realiza con una lista impresa y la comunicación con el distribuidor, por WhatsApp. Los momentos de mayor tensión son la espera sin información clara sobre el estado de la entrega y la comunicación de un faltante o daño, que no queda registrada de forma organizada. Las oportunidades identificadas son informar el estado de la entrega y facilitar el registro de las diferencias detectadas en la recepción.
+
+<img src="img/chapter2/user-journey-map-segmento-3.jpeg" alt="User Journey Map As-Is de María Fernández">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/m/XFb9u
 
 <a id="234-empathy-mapping"></a>
 ### 2.3.4. Empathy Mapping.
+
+Los Empathy Maps organizan lo que cada Persona dice, piensa, hace, ve, escucha y siente, junto con sus pains y gains. Permiten al equipo contrastar las tres perspectivas sobre un mismo proceso de distribución.
+
 #### User Persona 1: Carlos Mendoza
-<img src="img/chapter2/empathy-map-segmento-1.jpeg" alt="Empathy Mapping - Segmento 1">
+
+Su pain principal es no poder evaluar el desempeño de la operación sin pedir reportes, y su gain es la información centralizada y confiable para decidir.
+
+<img src="img/chapter2/empathy-map-segmento-1.jpeg" alt="Empathy Map de Carlos Mendoza">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/ByEH9
 
 #### User Persona 2: Luis Torres
-<img src="img/chapter2/empathy-map-segmento-2.jpeg" alt="Empathy Mapping - Segmento 2">
+
+Su pain principal es la dependencia de los mensajes de los conductores, y su gain es saber en todo momento qué entregas se completaron, cuáles faltan y cuáles presentan un problema.
+
+<img src="img/chapter2/empathy-map-segmento-2.jpeg" alt="Empathy Map de Luis Torres">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/kjfDJ
 
 #### User Persona 3: María Fernández
-<img src="img/chapter2/empathy-map-segmento-3.jpeg" alt="Empathy Mapping - Segmento 3">
+
+Su pain principal es la incertidumbre sobre la llegada del pedido y la falta de constancia de los problemas, y su gain es recibir lo solicitado y comunicar una incidencia de forma rápida.
+
+<img src="img/chapter2/empathy-map-segmento-3.jpeg" alt="Empathy Map de María Fernández">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/p/97hC8
 
 <a id="24-big-picture-eventstorming"></a>
 ## 2.4. Big Picture EventStorming.
-<img src="img/chapter2/big-picture-eventstorming.jpeg" alt="Big Picture EventStorming">
+
+En esta sección el equipo introduce y resume el proceso realizado durante la sesión de Big Picture EventStorming, cuyo propósito fue comprender el dominio del transporte de bebidas embotelladas en general, plasmando los eventos significativos del negocio y sus relaciones antes de considerar cualquier decisión de software.
+
+El tablero se elaboró en Miro y se encuentra disponible en el siguiente enlace: https://miro.com/welcomeonboard/aEpQNnI1bURVdldqRzNDWk5aUnR6bStSQnhiSmpuYi9RM01sVkxtOWNsM3V5T1NkRW5pdHFuZ003VHcrV0hxR29tQ0xvRTJHV1VNTzNYUWV1VmwyWUZGRzlld2tuSnZKRTNrM3RnczNnc0NMQWt2WlB6WnEzRXBES1h0d2svaStnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=491275847129
+
+**Desarrollo de la sesión**
+
+La sesión se organizó recorriendo la línea temporal del negocio de izquierda a derecha, y agrupó **43 eventos de dominio** en seis fases consecutivas:
+
+| Fase | Alcance |
+| :--- | :------ |
+| 1. Preparación de recursos | Incorporación de la empresa distribuidora, sus usuarios, los vehículos, los conductores y los puntos de entrega. |
+| 2. Despacho de la operación | Creación de la operación de transporte, asignación de vehículo y conductor, y autorización de salida. |
+| 3. Tránsito y monitoreo IoT | Inicio del recorrido y recepción de las lecturas de ubicación, temperatura e impactos enviadas por los dispositivos. |
+| 4. Ejecución de la entrega | Llegada a cada punto de entrega y registro de su resultado, incluyendo entregas parciales, no realizadas y faltantes. |
+| 5. Reporte de incidencias | Registro del problema por parte del conductor, adjunto de evidencia, revisión y resolución por parte del supervisor. |
+| 6. Cierre y análisis | Finalización de la operación, cálculo de la merma y actualización de los indicadores de la distribuidora. |
+
+**Pivotal events.** El equipo identificó tres eventos pivote, es decir, aquellos que marcan un cambio de responsabilidad en el proceso y separan una fase de la siguiente. En el tablero se representan como bandas verticales que atraviesan la línea temporal.
+
+| Pivotal event | Transición que marca |
+| :------------ | :------------------- |
+| **Operation Dispatched** | La operación deja de ser una planificación y pasa a ser una ejecución en curso. La responsabilidad se traslada del supervisor al conductor. |
+| **Delivery Point Reached** | El seguimiento del recorrido da paso a la atención del cliente en el punto de entrega. |
+| **Operation Completed** | La ejecución concluye y comienza el análisis de los resultados, que es la etapa que alimenta los indicadores del negocio. |
+
+Junto con los eventos, el equipo identificó los actores que participan en el proceso, los sistemas externos con los que la solución interactúa y los hot spots del dominio.
+
+**Actores identificados:** Fleet Supervisor, Driver, Distribution Manager y el propio IoT Device, que actúa como emisor de eventos sin intervención humana.
+
+**Sistemas externos identificados:** el servicio de mapas y geolocalización, y el proveedor de los dispositivos IoT instalados en los vehículos.
+
+**Hot spots.** Los hot spots corresponden a las preguntas del dominio que el equipo no puede responder por sí mismo y que debe resolver con los interesados durante las entrevistas:
+
+| Hot spot | Por qué importa |
+| :------- | :-------------- |
+| ¿Qué ocurre si el dispositivo IoT pierde conexión durante la ruta? | Determina si el seguimiento debe tolerar vacíos de información y cómo se comunican al supervisor. |
+| ¿Quién valida un faltante, el conductor o el cliente que recibe? | Define sobre quién recae la responsabilidad del registro y qué evidencia resulta suficiente. |
+| ¿Se puede reasignar una operación que ya fue iniciada? | Condiciona el ciclo de vida de la operación y las reglas de asignación de recursos. |
+| ¿Cuánto tiempo debe conservarse la evidencia de una incidencia? | Afecta las decisiones de almacenamiento y las obligaciones frente al cliente. |
+
+<img src="img/chapter2/big-picture-eventstorming.jpeg" alt="Big Picture EventStorming de BottleTrack en Miro">
+
+Los eventos identificados en esta sesión constituyen la base sobre la que se profundiza en el Design-Level EventStorming de la sección 4.6.1, donde se incorporan los comandos, las políticas y los agregados que dan lugar a los bounded contexts.
 
 <a id="25-ubiquitous-language"></a>
 ## 2.5. Ubiquitous Language.
@@ -1184,7 +1383,7 @@ La Web Application estará orientada principalmente a tres tipos de usuario:
 
 - Administradores de las empresas distribuidoras.
 - Supervisores o encargados de flota.
-- Conductores o repartidores.
+- Responsables de bodegas y minimarkets, que acceden a una vista de seguimiento de sus pedidos.
 
 Los requisitos funcionales serán representados mediante Epics y User Stories. Asimismo, se incluirán Technical Stories relacionadas con los servicios requeridos por el RESTful API y las integraciones externas de BottleTrack.
 
@@ -1208,166 +1407,199 @@ Las Epics de BottleTrack agrupan las principales capacidades del producto y perm
 | **EP07** | Incident Management | Registro, evidencia, consulta y seguimiento de incidencias ocurridas durante las operaciones de transporte. |
 | **EP08** | Monitoring and Analytics | Seguimiento del progreso de las operaciones, dashboard, indicadores e historial de operaciones. |
 | **EP09** | External Services Integration | Integración de BottleTrack con servicios externos de mapas y geolocalización para complementar las operaciones de transporte. |
+| **EP10** | IoT Cargo Monitoring | Recepción de lecturas de los dispositivos IoT, configuración de rangos seguros y generación de alertas sobre la carga. |
+| **EP11** | Delivery Point Tracking | Consulta del estado del pedido y reporte de problemas de recepción por parte de las bodegas y minimarkets. |
 
 
 
 ### User Stories
 
-| ID | Título | Descripción | Criterios de Aceptación |
-| --- | --- | --- | --- |
-| **US01** | Conocer BottleTrack | Como visitante, deseo conocer qué es BottleTrack para determinar si la solución responde a mis necesidades. | **Escenario 1:** Given que el visitante accede al sitio del producto, when consulta la información de BottleTrack, then obtiene una descripción de su propósito y propuesta de valor.<br><br>**Escenario 2:** Given que el visitante desea conocer la solución, when consulta sus beneficios, then puede identificar los principales problemas que BottleTrack busca atender. |
-| **US02** | Conocer beneficios por segmento | Como visitante perteneciente a un segmento objetivo, deseo conocer los beneficios relacionados con mi perfil para comprender cómo BottleTrack podría ayudarme. | **Escenario 1:** Given que existen diferentes segmentos objetivo, when el visitante consulta la información del producto, then puede identificar beneficios asociados con los segmentos considerados. |
-| **US03** | Acceder a la aplicación | Como visitante interesado en BottleTrack, deseo acceder a la aplicación web para continuar mi experiencia con el producto. | **Escenario 1:** Given que el visitante desea utilizar BottleTrack, when realiza la acción de acceso al producto, then es dirigido hacia la experiencia web correspondiente. |
-| **US04** | Iniciar sesión | Como usuario registrado, deseo autenticarme en BottleTrack para acceder a las funcionalidades correspondientes a mi rol. | **Escenario 1:** Given que el usuario proporciona credenciales válidas, when solicita autenticarse, then el sistema autoriza su acceso.<br><br>**Escenario 2:** Given que las credenciales son inválidas, when se solicita la autenticación, then el sistema rechaza el acceso. |
-| **US05** | Cerrar sesión | Como usuario autenticado, deseo finalizar mi sesión para evitar accesos posteriores desde la sesión activa. | **Escenario 1:** Given que existe una sesión activa, when el usuario solicita finalizarla, then el sistema invalida la sesión correspondiente. |
-| **US06** | Consultar perfil | Como usuario autenticado, deseo consultar la información de mi perfil para conocer los datos asociados con mi cuenta. | **Escenario 1:** Given que el usuario se encuentra autenticado, when consulta su perfil, then el sistema proporciona la información registrada para su cuenta. |
-| **US07** | Gestionar usuarios | Como administrador, deseo registrar y actualizar usuarios para controlar quiénes pueden utilizar BottleTrack dentro de la empresa. | **Escenario 1:** Given que se proporcionan datos válidos, when el administrador registra un usuario, then el usuario queda asociado con la empresa.<br><br>**Escenario 2:** Given que existe un usuario registrado, when el administrador actualiza sus datos, then el sistema conserva la nueva información. |
-| **US08** | Asignar rol a usuario | Como administrador, deseo asignar roles a los usuarios para determinar las funcionalidades a las que pueden acceder. | **Escenario 1:** Given que existe un usuario registrado, when el administrador asigna un rol válido, then el sistema conserva la relación entre el usuario y el rol. |
-| **US09** | Gestionar información de empresa | Como administrador, deseo mantener actualizada la información de la empresa para que BottleTrack utilice correctamente sus datos. | **Escenario 1:** Given que la empresa se encuentra registrada, when el administrador actualiza información válida, then el sistema conserva los cambios. |
-| **US10** | Registrar vehículo | Como administrador o supervisor, deseo registrar un vehículo para incorporarlo a los recursos disponibles para las operaciones. | **Escenario 1:** Given que se proporcionan datos válidos del vehículo, when se solicita su registro, then el vehículo queda almacenado.<br><br>**Escenario 2:** Given que faltan datos obligatorios, when se intenta registrar el vehículo, then el sistema rechaza el registro. |
-| **US11** | Actualizar vehículo | Como administrador o supervisor, deseo actualizar la información de un vehículo para mantener los datos de la flota vigentes. | **Escenario 1:** Given que existe un vehículo registrado, when se proporcionan datos válidos para actualizarlo, then el sistema conserva la nueva información. |
-| **US12** | Consultar vehículos disponibles | Como supervisor de flota, deseo conocer los vehículos disponibles para determinar cuáles pueden ser asignados a una operación. | **Escenario 1:** Given que existen vehículos registrados, when el supervisor consulta los vehículos disponibles, then el sistema proporciona aquellos cuyo estado permite su asignación. |
-| **US13** | Registrar conductor | Como administrador o supervisor, deseo registrar un conductor para incorporarlo al personal disponible para las operaciones. | **Escenario 1:** Given que se proporcionan datos válidos del conductor, when se solicita su registro, then el conductor queda almacenado.<br><br>**Escenario 2:** Given que falta información requerida, when se intenta realizar el registro, then el sistema rechaza la operación. |
-| **US14** | Actualizar conductor | Como administrador o supervisor, deseo actualizar la información de un conductor para mantener sus datos vigentes. | **Escenario 1:** Given que existe un conductor registrado, when se proporcionan datos válidos para actualizarlo, then el sistema conserva la nueva información. |
-| **US15** | Consultar conductores disponibles | Como supervisor de flota, deseo conocer los conductores disponibles para determinar quién puede ser asignado a una operación. | **Escenario 1:** Given que existen conductores registrados, when se consulta la disponibilidad, then el sistema proporciona aquellos que pueden participar en una operación. |
-| **US16** | Crear operación de transporte | Como supervisor de flota, deseo registrar una operación de transporte para organizar una nueva jornada de distribución. | **Escenario 1:** Given que se proporcionan los datos requeridos, when el supervisor registra la operación, then el sistema crea la operación con estado pendiente.<br><br>**Escenario 2:** Given que falta información obligatoria, when se intenta registrar la operación, then el sistema rechaza la solicitud. |
-| **US17** | Asignar vehículo a operación | Como supervisor de flota, deseo asignar un vehículo disponible a una operación para establecer el recurso que realizará el transporte. | **Escenario 1:** Given que existe un vehículo disponible, when el supervisor realiza la asignación, then el vehículo queda asociado con la operación.<br><br>**Escenario 2:** Given que el vehículo no se encuentra disponible, when se intenta realizar la asignación, then el sistema rechaza la solicitud. |
-| **US18** | Asignar conductor a operación | Como supervisor de flota, deseo asignar un conductor disponible a una operación para determinar quién será responsable de ejecutarla. | **Escenario 1:** Given que existe un conductor disponible, when el supervisor realiza la asignación, then el conductor queda asociado con la operación.<br><br>**Escenario 2:** Given que el conductor no se encuentra disponible, when se intenta realizar la asignación, then el sistema rechaza la solicitud. |
-| **US19** | Consultar operaciones | Como supervisor de flota, deseo consultar las operaciones registradas para conocer su estado y principales datos. | **Escenario 1:** Given que existen operaciones registradas, when el supervisor realiza la consulta, then el sistema proporciona las operaciones correspondientes. |
-| **US21** | Iniciar operación | Como supervisor de flota, deseo iniciar una operación de transporte para registrar que la ejecución de la ruta ha comenzado. | **Escenario 1:** Given que existe una operación pendiente, when el supervisor registra el inicio, then la operación cambia a estado en curso. |
-| **US22** | Finalizar operación | Como supervisor de flota, deseo finalizar una operación cuando las actividades correspondientes hayan concluido para dejar constancia de su cierre. | **Escenario 1:** Given que una operación se encuentra en curso y cumple las condiciones de finalización, when el supervisor solicita finalizarla, then la operación queda registrada como completada. |
-| **US23** | Registrar punto de entrega | Como supervisor de flota, deseo agregar puntos de entrega a una operación para establecer los establecimientos que deberán ser atendidos. | **Escenario 1:** Given que existe una operación, when se registra información válida de un punto de entrega, then el punto queda asociado con la operación.<br><br>**Escenario 2:** Given que faltan datos obligatorios, when se intenta registrar el punto, then el sistema rechaza la solicitud. |
-| **US24** | Organizar puntos de entrega | Como supervisor de flota, deseo establecer el orden de los puntos de entrega para definir la secuencia de atención de la operación. | **Escenario 1:** Given que existen varios puntos de entrega asociados con una operación, when el supervisor define su secuencia, then el sistema conserva el orden establecido. |
-| **US25** | Consultar ruta de una operación | Como supervisor de flota, deseo consultar los puntos de entrega de una operación para conocer los lugares que deben ser atendidos. | **Escenario 1:** Given que existe una operación registrada, when el supervisor consulta sus puntos de entrega, then el sistema proporciona los puntos asociados y su estado. |
-| **US26** | Consultar detalle de entrega | Como supervisor de flota, deseo consultar información de un punto de entrega para conocer los datos necesarios antes de dar seguimiento a su atención. | **Escenario 1:** Given que existe un punto de entrega registrado, when el supervisor solicita su información, then el sistema proporciona los datos registrados para dicho punto. |
-| **US27** | Actualizar estado de entrega | Como supervisor de flota, deseo actualizar el estado de una entrega para registrar el resultado de la visita reportado por el conductor. | **Escenario 1:** Given que existe una entrega pendiente, when el supervisor registra un estado permitido, then el sistema conserva el nuevo estado. |
-| **US28** | Registrar entrega parcial | Como supervisor de flota, deseo registrar una entrega parcial para dejar constancia de que solo una parte de los productos pudo ser entregada. | **Escenario 1:** Given que una entrega no puede completarse totalmente, when el supervisor registra el resultado y el motivo correspondiente, then la entrega queda identificada como parcial. |
-| **US29** | Registrar entrega no realizada | Como supervisor de flota, deseo registrar que una entrega no pudo realizarse para dejar constancia del resultado de la visita. | **Escenario 1:** Given que una entrega no puede efectuarse, when el supervisor registra el motivo correspondiente, then el sistema conserva la entrega como no realizada. |
-| **US30** | Registrar incidencia | Como supervisor de flota, deseo registrar una incidencia para dejar constancia de un problema ocurrido durante una operación o entrega. | **Escenario 1:** Given que ocurre un problema durante la operación, when el supervisor proporciona la información requerida, then la incidencia queda registrada y relacionada con la operación.<br><br>**Escenario 2:** Given que faltan datos requeridos, when se intenta registrar la incidencia, then el sistema rechaza la solicitud. |
-| **US31** | Adjuntar evidencia de incidencia | Como supervisor de flota, deseo adjuntar evidencia a una incidencia para complementar la información del problema ocurrido. | **Escenario 1:** Given que existe una incidencia registrada, when se proporciona evidencia válida, then la evidencia queda asociada con la incidencia. |
-| **US32** | Consultar incidencias | Como supervisor de flota, deseo consultar las incidencias registradas para conocer los problemas ocurridos durante las operaciones. | **Escenario 1:** Given que existen incidencias registradas, when el supervisor realiza la consulta, then el sistema proporciona los registros correspondientes. |
-| **US33** | Actualizar estado de incidencia | Como supervisor de flota, deseo actualizar el estado de una incidencia para realizar seguimiento hasta su resolución. | **Escenario 1:** Given que existe una incidencia pendiente, when el supervisor registra un nuevo estado válido, then el sistema conserva la modificación. |
-| **US34** | Consultar progreso de operación | Como supervisor de flota, deseo consultar el progreso de una operación para conocer el estado de sus entregas. | **Escenario 1:** Given que existe una operación en curso, when el supervisor consulta su progreso, then obtiene las entregas completadas, pendientes, parciales y no realizadas. |
-| **US35** | Consultar dashboard | Como administrador o supervisor, deseo consultar indicadores generales para conocer rápidamente el estado de las operaciones de transporte. | **Escenario 1:** Given que existen operaciones registradas, when el usuario consulta los indicadores, then el sistema proporciona información calculada a partir de las operaciones disponibles. |
-| **US36** | Consultar historial de operaciones | Como supervisor de flota, deseo consultar operaciones anteriores para revisar información histórica sobre entregas e incidencias. | **Escenario 1:** Given que existen operaciones finalizadas, when el supervisor consulta el historial, then el sistema proporciona los registros correspondientes. |
-| **US37** | Consultar detalle histórico | Como supervisor de flota, deseo consultar el detalle de una operación finalizada para analizar los resultados de su ejecución. | **Escenario 1:** Given que existe una operación finalizada, when el supervisor consulta su detalle, then obtiene información relacionada con vehículo, conductor, entregas e incidencias. |
-| **US38** | Consultar ubicación de entrega | Como supervisor de flota, deseo consultar la ubicación de un punto de entrega para facilitar la identificación del destino. | **Escenario 1:** Given que el punto de entrega contiene una ubicación válida, when se solicita consultar su ubicación, then el sistema obtiene información geográfica asociada al destino. |
+| ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| --- | --- | --- | --- | --- |
+| **US01** | Conocer BottleTrack | Como visitante, deseo conocer qué es BottleTrack para determinar si la solución responde a mis necesidades. | **Escenario 1:** Given que el visitante accede al Landing Page, when consulta la sección principal, then obtiene el nombre del producto, su propuesta de valor y el problema que resuelve.<br><br>**Escenario 2:** Given que el visitante tiene configurado el navegador en español, when accede al sitio, then el contenido se presenta en español latinoamericano. | EP01 |
+| **US02** | Conocer beneficios por segmento | Como visitante perteneciente a un segmento objetivo, deseo conocer los beneficios relacionados con mi perfil para comprender cómo BottleTrack podría ayudarme. | **Escenario 1:** Given que el visitante consulta las capacidades del producto, when revisa la información de BottleTrack, then obtiene la descripción del seguimiento de entregas, el registro de incidencias y el monitoreo IoT. | EP01 |
+| **US03** | Acceder a la aplicación | Como visitante interesado en BottleTrack, deseo acceder a la aplicación web para continuar mi experiencia con el producto. | **Escenario 1:** Given que el visitante pertenece a un segmento objetivo, when realiza la acción de acceso de su segmento, then es dirigido a la vista de la Web Application que corresponde a ese segmento. | EP01 |
+| **US04** | Iniciar sesión | Como usuario registrado, deseo autenticarme en BottleTrack para acceder a las funcionalidades correspondientes a mi rol. | **Escenario 1:** Given que el usuario proporciona credenciales válidas, when solicita autenticarse, then el sistema autoriza su acceso.<br><br>**Escenario 2:** Given que las credenciales son inválidas, when se solicita la autenticación, then el sistema rechaza el acceso. | EP02 |
+| **US05** | Cerrar sesión | Como usuario autenticado, deseo finalizar mi sesión para evitar accesos posteriores desde la sesión activa. | **Escenario 1:** Given que existe una sesión activa, when el usuario solicita finalizarla, then el sistema invalida la sesión correspondiente. | EP02 |
+| **US06** | Consultar perfil | Como usuario autenticado, deseo consultar la información de mi perfil para conocer los datos asociados con mi cuenta. | **Escenario 1:** Given que el usuario se encuentra autenticado, when consulta su perfil, then el sistema proporciona la información registrada para su cuenta. | EP02 |
+| **US07** | Gestionar usuarios | Como administrador, deseo registrar y actualizar usuarios para controlar quiénes pueden utilizar BottleTrack dentro de la empresa. | **Escenario 1:** Given que se proporcionan datos válidos, when el administrador registra un usuario, then el usuario queda asociado con la empresa.<br><br>**Escenario 2:** Given que existe un usuario registrado, when el administrador actualiza sus datos, then el sistema conserva la nueva información. | EP03 |
+| **US08** | Asignar rol a usuario | Como administrador, deseo asignar roles a los usuarios para determinar las funcionalidades a las que pueden acceder. | **Escenario 1:** Given que existe un usuario registrado, when el administrador asigna un rol válido, then el sistema conserva la relación entre el usuario y el rol. | EP03 |
+| **US09** | Gestionar información de empresa | Como administrador, deseo mantener actualizada la información de la empresa para que BottleTrack utilice correctamente sus datos. | **Escenario 1:** Given que la empresa se encuentra registrada, when el administrador actualiza información válida, then el sistema conserva los cambios. | EP03 |
+| **US10** | Registrar vehículo | Como administrador o supervisor, deseo registrar un vehículo para incorporarlo a los recursos disponibles para las operaciones. | **Escenario 1:** Given que se proporcionan datos válidos del vehículo, when se solicita su registro, then el vehículo queda almacenado.<br><br>**Escenario 2:** Given que faltan datos obligatorios, when se intenta registrar el vehículo, then el sistema rechaza el registro. | EP04 |
+| **US11** | Actualizar vehículo | Como administrador o supervisor, deseo actualizar la información de un vehículo para mantener los datos de la flota vigentes. | **Escenario 1:** Given que existe un vehículo registrado, when se proporcionan datos válidos para actualizarlo, then el sistema conserva la nueva información. | EP04 |
+| **US12** | Consultar vehículos disponibles | Como supervisor de flota, deseo conocer los vehículos disponibles para determinar cuáles pueden ser asignados a una operación. | **Escenario 1:** Given que existen vehículos con estado disponible y en mantenimiento, when el supervisor consulta los vehículos disponibles, then el sistema proporciona solo los vehículos con estado disponible.<br><br>**Escenario 2:** Given que todos los vehículos están asignados, when el supervisor consulta los disponibles, then el sistema informa que no hay vehículos disponibles. | EP04 |
+| **US13** | Registrar conductor | Como administrador o supervisor, deseo registrar un conductor para incorporarlo al personal disponible para las operaciones. | **Escenario 1:** Given que se proporcionan datos válidos del conductor, when se solicita su registro, then el conductor queda almacenado.<br><br>**Escenario 2:** Given que falta información requerida, when se intenta realizar el registro, then el sistema rechaza la operación. | EP04 |
+| **US14** | Actualizar conductor | Como administrador o supervisor, deseo actualizar la información de un conductor para mantener sus datos vigentes. | **Escenario 1:** Given que existe un conductor registrado, when se proporcionan datos válidos para actualizarlo, then el sistema conserva la nueva información. | EP04 |
+| **US15** | Consultar conductores disponibles | Como supervisor de flota, deseo conocer los conductores disponibles para determinar quién puede ser asignado a una operación. | **Escenario 1:** Given que existen conductores con estado activo y sin operación en curso, when el supervisor consulta la disponibilidad, then el sistema proporciona solo esos conductores.<br><br>**Escenario 2:** Given que un conductor tiene una operación en curso, when se consulta la disponibilidad, then el conductor no forma parte del resultado. | EP04 |
+| **US16** | Crear operación de transporte | Como supervisor de flota, deseo registrar una operación de transporte para organizar una nueva jornada de distribución. | **Escenario 1:** Given que se proporcionan los datos requeridos, when el supervisor registra la operación, then el sistema crea la operación con estado pendiente.<br><br>**Escenario 2:** Given que falta información obligatoria, when se intenta registrar la operación, then el sistema rechaza la solicitud. | EP05 |
+| **US17** | Asignar vehículo a operación | Como supervisor de flota, deseo asignar un vehículo disponible a una operación para establecer el recurso que realizará el transporte. | **Escenario 1:** Given que existe un vehículo disponible, when el supervisor realiza la asignación, then el vehículo queda asociado con la operación.<br><br>**Escenario 2:** Given que el vehículo no se encuentra disponible, when se intenta realizar la asignación, then el sistema rechaza la solicitud. | EP05 |
+| **US18** | Asignar conductor a operación | Como supervisor de flota, deseo asignar un conductor disponible a una operación para determinar quién será responsable de ejecutarla. | **Escenario 1:** Given que existe un conductor disponible, when el supervisor realiza la asignación, then el conductor queda asociado con la operación.<br><br>**Escenario 2:** Given que el conductor no se encuentra disponible, when se intenta realizar la asignación, then el sistema rechaza la solicitud. | EP05 |
+| **US19** | Consultar operaciones | Como supervisor de flota, deseo consultar las operaciones registradas para conocer su estado y principales datos. | **Escenario 1:** Given que existen operaciones registradas, when el supervisor filtra por estado en curso, then el sistema proporciona solo las operaciones en curso con su vehículo, conductor y avance. | EP05 |
+| **US20** | Cancelar operación | Como supervisor de flota, deseo cancelar una operación que aún no ha iniciado para liberar el vehículo y el conductor asignados. | **Escenario 1:** Given que existe una operación pendiente con recursos asignados, when el supervisor la cancela indicando el motivo, then la operación cambia a estado cancelada y el vehículo y el conductor quedan disponibles.<br><br>**Escenario 2:** Given que la operación ya fue iniciada, when el supervisor intenta cancelarla, then el sistema rechaza la solicitud. | EP05 |
+| **US21** | Iniciar operación | Como supervisor de flota, deseo iniciar una operación de transporte para registrar que la ejecución de la ruta ha comenzado. | **Escenario 1:** Given que existe una operación pendiente, when el supervisor registra el inicio, then la operación cambia a estado en curso. | EP05 |
+| **US22** | Finalizar operación | Como supervisor de flota, deseo finalizar una operación cuando las actividades correspondientes hayan concluido para dejar constancia de su cierre. | **Escenario 1:** Given que una operación está en curso y todas sus entregas tienen un resultado registrado, when el supervisor solicita finalizarla, then la operación cambia a estado completada.<br><br>**Escenario 2:** Given que una operación tiene entregas pendientes, when el supervisor solicita finalizarla, then el sistema rechaza la solicitud e indica las entregas pendientes. | EP05 |
+| **US23** | Registrar punto de entrega | Como supervisor de flota, deseo agregar puntos de entrega a una operación para establecer los establecimientos que deberán ser atendidos. | **Escenario 1:** Given que existe una operación, when se registra información válida de un punto de entrega, then el punto queda asociado con la operación.<br><br>**Escenario 2:** Given que faltan datos obligatorios, when se intenta registrar el punto, then el sistema rechaza la solicitud. | EP06 |
+| **US24** | Organizar puntos de entrega | Como supervisor de flota, deseo establecer el orden de los puntos de entrega para definir la secuencia de atención de la operación. | **Escenario 1:** Given que existen varios puntos de entrega asociados con una operación, when el supervisor define su secuencia, then el sistema conserva el orden establecido. | EP06 |
+| **US25** | Consultar ruta de una operación | Como supervisor de flota, deseo consultar los puntos de entrega de una operación para conocer los lugares que deben ser atendidos. | **Escenario 1:** Given que existe una operación registrada, when el supervisor consulta sus puntos de entrega, then el sistema proporciona los puntos asociados y su estado. | EP06 |
+| **US26** | Consultar detalle de entrega | Como supervisor de flota, deseo consultar información de un punto de entrega para conocer los datos necesarios antes de dar seguimiento a su atención. | **Escenario 1:** Given que existe un punto de entrega registrado, when el supervisor solicita su información, then el sistema proporciona el nombre del establecimiento, la dirección, el contacto, la cantidad de producto programada y el estado de la entrega. | EP06 |
+| **US27** | Actualizar estado de entrega | Como supervisor de flota, deseo actualizar el estado de una entrega para registrar el resultado de la visita reportado por el conductor. | **Escenario 1:** Given que existe una entrega pendiente, when el supervisor registra un estado permitido, then el sistema conserva el nuevo estado. | EP06 |
+| **US28** | Registrar entrega parcial | Como supervisor de flota, deseo registrar una entrega parcial para dejar constancia de que solo una parte de los productos pudo ser entregada. | **Escenario 1:** Given que una entrega no puede completarse totalmente, when el supervisor registra el resultado y el motivo correspondiente, then la entrega queda identificada como parcial. | EP06 |
+| **US29** | Registrar entrega no realizada | Como supervisor de flota, deseo registrar que una entrega no pudo realizarse para dejar constancia del resultado de la visita. | **Escenario 1:** Given que una entrega no puede efectuarse, when el supervisor registra el motivo correspondiente, then el sistema conserva la entrega como no realizada. | EP06 |
+| **US30** | Registrar incidencia | Como supervisor de flota, deseo registrar una incidencia para dejar constancia de un problema ocurrido durante una operación o entrega. | **Escenario 1:** Given que ocurre un problema durante la operación, when el supervisor proporciona la información requerida, then la incidencia queda registrada y relacionada con la operación.<br><br>**Escenario 2:** Given que faltan datos requeridos, when se intenta registrar la incidencia, then el sistema rechaza la solicitud. | EP07 |
+| **US31** | Adjuntar evidencia de incidencia | Como supervisor de flota, deseo adjuntar evidencia a una incidencia para complementar la información del problema ocurrido. | **Escenario 1:** Given que existe una incidencia registrada, when se proporciona evidencia válida, then la evidencia queda asociada con la incidencia. | EP07 |
+| **US32** | Consultar incidencias | Como supervisor de flota, deseo consultar las incidencias registradas para conocer los problemas ocurridos durante las operaciones. | **Escenario 1:** Given que existen incidencias registradas, when el supervisor realiza la consulta, then el sistema proporciona los registros correspondientes. | EP07 |
+| **US33** | Actualizar estado de incidencia | Como supervisor de flota, deseo actualizar el estado de una incidencia para realizar seguimiento hasta su resolución. | **Escenario 1:** Given que existe una incidencia pendiente, when el supervisor registra un nuevo estado válido, then el sistema conserva la modificación. | EP07 |
+| **US34** | Consultar progreso de operación | Como supervisor de flota, deseo consultar el progreso de una operación para conocer el estado de sus entregas. | **Escenario 1:** Given que existe una operación en curso, when el supervisor consulta su progreso, then obtiene las entregas completadas, pendientes, parciales y no realizadas. | EP08 |
+| **US35** | Consultar dashboard | Como administrador o supervisor, deseo consultar indicadores generales para conocer rápidamente el estado de las operaciones de transporte. | **Escenario 1:** Given que existen operaciones registradas en el mes, when el usuario consulta los indicadores, then el sistema proporciona el total de operaciones, el porcentaje de entregas completadas, la cantidad de incidencias abiertas y la merma acumulada.<br><br>**Escenario 2:** Given que no existen operaciones registradas, when el usuario consulta los indicadores, then el sistema proporciona los indicadores con valor cero. | EP08 |
+| **US36** | Consultar historial de operaciones | Como supervisor de flota, deseo consultar operaciones anteriores para revisar información histórica sobre entregas e incidencias. | **Escenario 1:** Given que existen operaciones finalizadas, when el supervisor consulta el historial filtrando por rango de fechas, then el sistema proporciona las operaciones finalizadas en ese rango ordenadas de la más reciente a la más antigua. | EP08 |
+| **US37** | Consultar detalle histórico | Como supervisor de flota, deseo consultar el detalle de una operación finalizada para analizar los resultados de su ejecución. | **Escenario 1:** Given que existe una operación finalizada, when el supervisor consulta su detalle, then obtiene información relacionada con vehículo, conductor, entregas e incidencias. | EP08 |
+| **US38** | Consultar ubicación de entrega | Como supervisor de flota, deseo consultar la ubicación de un punto de entrega para facilitar la identificación del destino. | **Escenario 1:** Given que el punto de entrega contiene una ubicación válida, when se solicita consultar su ubicación, then el sistema obtiene información geográfica asociada al destino. | EP09 |
+| **US39** | Conocer beneficios para distribuidoras | Como visitante del segmento de empresas distribuidoras, deseo conocer cómo BottleTrack mejora el control de mis operaciones para evaluar si me conviene contratarlo. | **Escenario 1:** Given que el visitante consulta la información del segmento de distribuidoras, when revisa sus beneficios, then obtiene los beneficios de indicadores, historial y control de la merma.<br><br>**Escenario 2:** Given que el visitante decide continuar, when realiza la acción de acceso del segmento, then es dirigido a la vista de indicadores de la Web Application. | EP01 |
+| **US40** | Conocer beneficios para supervisores | Como visitante del segmento de supervisores de flota, deseo conocer cómo BottleTrack me ayuda a seguir mis rutas para decidir si lo utilizo en mi jornada. | **Escenario 1:** Given que el visitante consulta la información del segmento de supervisores, when revisa sus beneficios, then obtiene los beneficios de seguimiento de entregas e incidencias.<br><br>**Escenario 2:** Given que el visitante decide continuar, when realiza la acción de acceso del segmento, then es dirigido a la vista de operaciones de la Web Application. | EP01 |
+| **US41** | Conocer beneficios para bodegas | Como visitante del segmento de bodegas y minimarkets, deseo conocer cómo puedo seguir mis pedidos para reducir la incertidumbre sobre su llegada. | **Escenario 1:** Given que el visitante consulta la información del segmento de bodegas, when revisa sus beneficios, then obtiene los beneficios de seguimiento del pedido y reporte de problemas de recepción.<br><br>**Escenario 2:** Given que el visitante decide continuar, when realiza la acción de acceso del segmento, then es dirigido a la vista de seguimiento de pedidos de la Web Application. | EP01 |
+| **US42** | Contactar a CodeCrafters | Como visitante interesado, deseo conocer los medios de contacto y las redes sociales de CodeCrafters para solicitar una demostración. | **Escenario 1:** Given que el visitante desea comunicarse con la startup, when consulta la información de contacto, then obtiene el correo, el teléfono y los enlaces a las redes sociales. | EP01 |
+| **US43** | Consultar lecturas IoT de una operación | Como supervisor de flota, deseo consultar las lecturas de temperatura, golpes y ubicación de una operación en curso para conocer el estado de la carga. | **Escenario 1:** Given que una operación en curso tiene un dispositivo IoT asociado, when el supervisor consulta sus lecturas, then el sistema proporciona la última lectura de cada sensor con su fecha y hora.<br><br>**Escenario 2:** Given que el dispositivo no envía lecturas desde hace más de 10 minutos, when el supervisor consulta la operación, then el sistema indica que el dispositivo está sin conexión. | EP10 |
+| **US44** | Recibir alerta de carga en riesgo | Como supervisor de flota, deseo recibir una alerta cuando una lectura salga del rango seguro o se detecte un golpe para actuar antes de que el producto se dañe. | **Escenario 1:** Given que el rango seguro de temperatura es de 2 °C a 25 °C, when se registra una lectura de 28 °C, then el sistema genera una alerta asociada a la operación.<br><br>**Escenario 2:** Given que se genera una alerta, when el supervisor la revisa, then puede registrar una incidencia a partir de ella. | EP10 |
+| **US45** | Configurar rango seguro | Como administrador, deseo configurar el rango seguro de temperatura y el umbral de golpes para adaptar las alertas al tipo de bebida transportada. | **Escenario 1:** Given que se proporcionan un mínimo y un máximo válidos, when el administrador guarda el rango, then las nuevas lecturas se evalúan con ese rango.<br><br>**Escenario 2:** Given que el mínimo es mayor que el máximo, when se intenta guardar el rango, then el sistema rechaza la solicitud. | EP10 |
+| **US46** | Consultar estado de mi pedido | Como responsable de una bodega, deseo consultar el estado de mi pedido para saber cuándo llegará. | **Escenario 1:** Given que la bodega es un punto de entrega de una operación en curso, when su responsable consulta el pedido, then el sistema proporciona el estado de la entrega y la cantidad de paradas previas.<br><br>**Escenario 2:** Given que la entrega fue completada, when se consulta el pedido, then el sistema proporciona la cantidad entregada y la fecha de entrega. | EP11 |
+| **US47** | Reportar problema de recepción | Como responsable de una bodega, deseo reportar un faltante o un producto dañado al recibir mi pedido para que quede constancia y la distribuidora lo atienda. | **Escenario 1:** Given que la entrega fue registrada, when el responsable reporta un faltante indicando la cantidad, then se genera una incidencia asociada a la entrega y visible para el supervisor.<br><br>**Escenario 2:** Given que no se indica el tipo de problema, when se intenta enviar el reporte, then el sistema rechaza la solicitud. | EP11 |
 
 
 ### Technical Stories
 
-Las Technical Stories representan los requerimientos técnicos necesarios para implementar el Backend RESTful API de BottleTrack, así como las integraciones necesarias para soportar las funcionalidades de la Web Application.
+Las Technical Stories representan los requisitos técnicos necesarios para implementar el Backend RESTful API de BottleTrack, así como las integraciones necesarias para soportar las funcionalidades de la Web Application.
 
-| ID | Título | Descripción | Criterios de Aceptación |
-| --- | --- | --- | --- |
-| **TS01** | Authentication REST API | Como Developer, deseo disponer de servicios RESTful de autenticación para permitir que los usuarios autorizados accedan a BottleTrack. | **Escenario 1:** Given que el servicio recibe credenciales válidas, when procesa la solicitud de autenticación, then devuelve una respuesta exitosa con la información necesaria para autorizar al usuario.<br><br>**Escenario 2:** Given que el servicio recibe credenciales inválidas, when procesa la solicitud, then devuelve una respuesta de autenticación fallida.<br><br>**Escenario 3:** Given que un usuario no se encuentra autorizado, when intenta acceder a un recurso protegido, then el servicio rechaza la solicitud. |
-| **TS02** | User and Company REST API | Como Developer, deseo disponer de servicios RESTful para administrar usuarios, roles y empresas para soportar las funcionalidades administrativas de BottleTrack. | **Escenario 1:** Given que se recibe información válida de un usuario, when se solicita su registro, then el servicio crea el recurso y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Given que existe un usuario registrado, when se solicita actualizar información válida, then el servicio conserva los cambios.<br><br>**Escenario 3:** Given que se recibe información inválida, when el servicio procesa la solicitud, then devuelve el código de error correspondiente. |
-| **TS03** | Vehicle Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar vehículos para permitir que el Frontend gestione los recursos de la flota. | **Escenario 1:** Given que se proporciona información válida de un vehículo, when se solicita su registro, then el servicio almacena el recurso y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Given que existe un vehículo registrado, when se solicita su actualización con información válida, then el servicio conserva los cambios.<br><br>**Escenario 3:** Given que se solicitan los vehículos disponibles, when el servicio procesa la consulta, then devuelve los vehículos cuyo estado permite su asignación. |
-| **TS04** | Driver Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar conductores para soportar la gestión del personal encargado de las operaciones. | **Escenario 1:** Given que se proporciona información válida de un conductor, when se solicita su registro, then el servicio almacena el recurso.<br><br>**Escenario 2:** Given que existe un conductor registrado, when se solicita actualizar sus datos, then el servicio conserva la información modificada.<br><br>**Escenario 3:** Given que se solicitan conductores disponibles, when el servicio procesa la consulta, then devuelve aquellos que pueden ser asignados a una operación. |
-| **TS05** | Transport Operations REST API | Como Developer, deseo disponer de servicios RESTful para crear, consultar y actualizar operaciones de transporte para soportar el proceso principal de BottleTrack. | **Escenario 1:** Given que se recibe información válida de una operación, when se solicita su creación, then el servicio almacena la operación y devuelve el recurso creado.<br><br>**Escenario 2:** Given que existe una operación registrada, when se solicita su información, then el servicio devuelve los datos correspondientes.<br><br>**Escenario 3:** Given que una operación cumple las condiciones para cambiar de estado, when se solicita la actualización, then el servicio conserva el nuevo estado. |
-| **TS06** | Resource Assignment Service | Como Developer, deseo implementar servicios para asignar vehículos y conductores a operaciones para garantizar que los recursos utilizados se encuentren disponibles. | **Escenario 1:** Given que el vehículo y conductor se encuentran disponibles, when se solicita su asignación, then el servicio registra la relación con la operación.<br><br>**Escenario 2:** Given que un vehículo ya está asignado a una operación incompatible, when se intenta asignarlo nuevamente, then el servicio rechaza la solicitud.<br><br>**Escenario 3:** Given que un conductor no se encuentra disponible, when se intenta asignarlo, then el servicio rechaza la operación. |
-| **TS07** | Delivery Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar puntos de entrega y sus estados para soportar la ejecución y seguimiento de las rutas. | **Escenario 1:** Given que existe una operación válida, when se registra un punto de entrega con información correcta, then queda asociado con la operación.<br><br>**Escenario 2:** Given que existen varios puntos de entrega, when se actualiza su secuencia, then el servicio conserva el nuevo orden.<br><br>**Escenario 3:** Given que existe una entrega pendiente, when se recibe una actualización de estado válida, then el servicio conserva el nuevo estado. |
-| **TS08** | Incident Management REST API | Como Developer, deseo disponer de servicios RESTful para registrar, consultar y actualizar incidencias para soportar el seguimiento de problemas ocurridos durante las operaciones. | **Escenario 1:** Given que se recibe información válida de una incidencia, when se solicita su registro, then queda almacenada y asociada con la operación o entrega correspondiente.<br><br>**Escenario 2:** Given que existen incidencias registradas, when se solicita su consulta, then el servicio devuelve los registros correspondientes.<br><br>**Escenario 3:** Given que existe una incidencia pendiente, when se proporciona un nuevo estado válido, then el servicio conserva la actualización. |
-| **TS09** | Incident Evidence Service | Como Developer, deseo disponer de un servicio para gestionar evidencias asociadas a incidencias para conservar información complementaria de los problemas reportados. | **Escenario 1:** Given que existe una incidencia válida, when se proporciona una evidencia permitida, then el servicio almacena la referencia y la relaciona con la incidencia.<br><br>**Escenario 2:** Given que la evidencia no cumple con las restricciones establecidas, when se intenta almacenarla, then el servicio rechaza la solicitud.<br><br>**Escenario 3:** Given que una incidencia posee evidencias, when se consulta su detalle, then el servicio proporciona la información asociada. |
-| **TS10** | Monitoring REST API | Como Developer, deseo disponer de servicios de consulta y cálculo de indicadores para soportar el seguimiento y dashboard de las operaciones de transporte. | **Escenario 1:** Given que existen operaciones registradas, when se solicita el resumen operacional, then el servicio devuelve indicadores calculados a partir de la información disponible.<br><br>**Escenario 2:** Given que existe una operación en curso, when se solicita su progreso, then el servicio devuelve los estados de sus entregas.<br><br>**Escenario 3:** Given que no existen datos suficientes, when se solicitan indicadores, then el servicio devuelve resultados consistentes sin generar errores. |
-| **TS11** | Operation History REST API | Como Developer, deseo disponer de servicios para consultar operaciones finalizadas para proporcionar información histórica al Frontend Web Application. | **Escenario 1:** Given que existen operaciones finalizadas, when se solicita el historial, then el servicio devuelve los registros correspondientes.<br><br>**Escenario 2:** Given que se solicita el detalle de una operación existente, when el servicio procesa la consulta, then devuelve información de vehículo, conductor, entregas e incidencias relacionadas.<br><br>**Escenario 3:** Given que la operación solicitada no existe, when se procesa la consulta, then el servicio devuelve la respuesta de recurso no encontrado correspondiente. |
-| **TS12** | Maps Service Integration | Como Developer, deseo integrar BottleTrack con un servicio externo de mapas o geolocalización para obtener información geográfica relacionada con los puntos de entrega. | **Escenario 1:** Given que se proporciona una ubicación válida, when BottleTrack consulta el servicio externo, then obtiene información geográfica utilizable.<br><br>**Escenario 2:** Given que el servicio externo no se encuentra disponible, when BottleTrack realiza la solicitud, then controla el fallo sin afectar la información principal de la operación.<br><br>**Escenario 3:** Given que la ubicación proporcionada no puede ser identificada, when se realiza la consulta, then el sistema informa que no fue posible obtener la información geográfica. |
-| **TS13** | OpenAPI Documentation | Como Developer, deseo documentar los servicios RESTful mediante OpenAPI para facilitar su comprensión, prueba e integración con el Frontend Web Application. | **Escenario 1:** Given que un endpoint forma parte del RESTful API, when se consulta la documentación, then se muestran sus operaciones, parámetros, requests y responses principales.<br><br>**Escenario 2:** Given que un endpoint requiere autenticación, when se consulta su documentación, then se identifica el mecanismo de autorización requerido.<br><br>**Escenario 3:** Given que el API se encuentra desplegado, when un Developer accede a su documentación, then puede conocer y probar los endpoints disponibles. |
+| ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| --- | --- | --- | --- | --- |
+| **TS01** | Authentication REST API | Como Developer, deseo disponer de servicios RESTful de autenticación para permitir que los usuarios autorizados accedan a BottleTrack. | **Escenario 1:** Given que el servicio recibe credenciales válidas, when procesa la solicitud de autenticación, then devuelve una respuesta exitosa con la información necesaria para autorizar al usuario.<br><br>**Escenario 2:** Given que el servicio recibe credenciales inválidas, when procesa la solicitud, then devuelve una respuesta de autenticación fallida.<br><br>**Escenario 3:** Given que un usuario no se encuentra autorizado, when intenta acceder a un recurso protegido, then el servicio rechaza la solicitud. | EP02 |
+| **TS02** | User and Company REST API | Como Developer, deseo disponer de servicios RESTful para administrar usuarios, roles y empresas para soportar las funcionalidades administrativas de BottleTrack. | **Escenario 1:** Given que se recibe información válida de un usuario, when se solicita su registro, then el servicio crea el recurso y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Given que existe un usuario registrado, when se solicita actualizar información válida, then el servicio conserva los cambios.<br><br>**Escenario 3:** Given que se recibe información inválida, when el servicio procesa la solicitud, then devuelve el código de error correspondiente. | EP03 |
+| **TS03** | Vehicle Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar vehículos para permitir que el Frontend gestione los recursos de la flota. | **Escenario 1:** Given que se proporciona información válida de un vehículo, when se solicita su registro, then el servicio almacena el recurso y devuelve una respuesta exitosa.<br><br>**Escenario 2:** Given que existe un vehículo registrado, when se solicita su actualización con información válida, then el servicio conserva los cambios.<br><br>**Escenario 3:** Given que se solicitan los vehículos disponibles, when el servicio procesa la consulta, then devuelve los vehículos cuyo estado permite su asignación. | EP04 |
+| **TS04** | Driver Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar conductores para soportar la gestión del personal encargado de las operaciones. | **Escenario 1:** Given que se proporciona información válida de un conductor, when se solicita su registro, then el servicio almacena el recurso.<br><br>**Escenario 2:** Given que existe un conductor registrado, when se solicita actualizar sus datos, then el servicio conserva la información modificada.<br><br>**Escenario 3:** Given que se solicitan conductores disponibles, when el servicio procesa la consulta, then devuelve aquellos que pueden ser asignados a una operación. | EP04 |
+| **TS05** | Transport Operations REST API | Como Developer, deseo disponer de servicios RESTful para crear, consultar y actualizar operaciones de transporte para soportar el proceso principal de BottleTrack. | **Escenario 1:** Given que se recibe información válida de una operación, when se solicita su creación, then el servicio almacena la operación y devuelve el recurso creado.<br><br>**Escenario 2:** Given que existe una operación registrada, when se solicita su información, then el servicio devuelve los datos correspondientes.<br><br>**Escenario 3:** Given que una operación cumple las condiciones para cambiar de estado, when se solicita la actualización, then el servicio conserva el nuevo estado. | EP05 |
+| **TS06** | Resource Assignment Service | Como Developer, deseo implementar servicios para asignar vehículos y conductores a operaciones para garantizar que los recursos utilizados se encuentren disponibles. | **Escenario 1:** Given que el vehículo y conductor se encuentran disponibles, when se solicita su asignación, then el servicio registra la relación con la operación.<br><br>**Escenario 2:** Given que un vehículo ya está asignado a una operación incompatible, when se intenta asignarlo nuevamente, then el servicio rechaza la solicitud.<br><br>**Escenario 3:** Given que un conductor no se encuentra disponible, when se intenta asignarlo, then el servicio rechaza la operación. | EP05 |
+| **TS07** | Delivery Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar puntos de entrega y sus estados para soportar la ejecución y seguimiento de las rutas. | **Escenario 1:** Given que existe una operación válida, when se registra un punto de entrega con información correcta, then queda asociado con la operación.<br><br>**Escenario 2:** Given que existen varios puntos de entrega, when se actualiza su secuencia, then el servicio conserva el nuevo orden.<br><br>**Escenario 3:** Given que existe una entrega pendiente, when se recibe una actualización de estado válida, then el servicio conserva el nuevo estado. | EP06 |
+| **TS08** | Incident Management REST API | Como Developer, deseo disponer de servicios RESTful para registrar, consultar y actualizar incidencias para soportar el seguimiento de problemas ocurridos durante las operaciones. | **Escenario 1:** Given que se recibe información válida de una incidencia, when se solicita su registro, then queda almacenada y asociada con la operación o entrega correspondiente.<br><br>**Escenario 2:** Given que existen incidencias registradas, when se solicita su consulta, then el servicio devuelve los registros correspondientes.<br><br>**Escenario 3:** Given que existe una incidencia pendiente, when se proporciona un nuevo estado válido, then el servicio conserva la actualización. | EP07 |
+| **TS09** | Incident Evidence Service | Como Developer, deseo disponer de un servicio para gestionar evidencias asociadas a incidencias para conservar información complementaria de los problemas reportados. | **Escenario 1:** Given que existe una incidencia válida, when se proporciona una evidencia permitida, then el servicio almacena la referencia y la relaciona con la incidencia.<br><br>**Escenario 2:** Given que la evidencia no cumple con las restricciones establecidas, when se intenta almacenarla, then el servicio rechaza la solicitud.<br><br>**Escenario 3:** Given que una incidencia posee evidencias, when se consulta su detalle, then el servicio proporciona la información asociada. | EP07 |
+| **TS10** | Monitoring REST API | Como Developer, deseo disponer de servicios de consulta y cálculo de indicadores para soportar el seguimiento y dashboard de las operaciones de transporte. | **Escenario 1:** Given que existen operaciones registradas, when se solicita el resumen operacional, then el servicio devuelve indicadores calculados a partir de la información disponible.<br><br>**Escenario 2:** Given que existe una operación en curso, when se solicita su progreso, then el servicio devuelve los estados de sus entregas.<br><br>**Escenario 3:** Given que no existen datos suficientes, when se solicitan indicadores, then el servicio devuelve resultados consistentes sin generar errores. | EP08 |
+| **TS11** | Operation History REST API | Como Developer, deseo disponer de servicios para consultar operaciones finalizadas para proporcionar información histórica al Frontend Web Application. | **Escenario 1:** Given que existen operaciones finalizadas, when se solicita el historial, then el servicio devuelve los registros correspondientes.<br><br>**Escenario 2:** Given que se solicita el detalle de una operación existente, when el servicio procesa la consulta, then devuelve información de vehículo, conductor, entregas e incidencias relacionadas.<br><br>**Escenario 3:** Given que la operación solicitada no existe, when se procesa la consulta, then el servicio devuelve la respuesta de recurso no encontrado correspondiente. | EP08 |
+| **TS12** | Maps Service Integration | Como Developer, deseo integrar BottleTrack con un servicio externo de mapas o geolocalización para obtener información geográfica relacionada con los puntos de entrega. | **Escenario 1:** Given que se proporciona una ubicación válida, when BottleTrack consulta el servicio externo, then obtiene información geográfica utilizable.<br><br>**Escenario 2:** Given que el servicio externo no se encuentra disponible, when BottleTrack realiza la solicitud, then controla el fallo sin afectar la información principal de la operación.<br><br>**Escenario 3:** Given que la ubicación proporcionada no puede ser identificada, when se realiza la consulta, then el sistema informa que no fue posible obtener la información geográfica. | EP09 |
+| **TS13** | OpenAPI Documentation | Como Developer, deseo documentar los servicios RESTful mediante OpenAPI para facilitar su comprensión, prueba e integración con el Frontend Web Application. | **Escenario 1:** Given que un endpoint forma parte del RESTful API, when se consulta la documentación, then se muestran sus operaciones, parámetros, requests y responses principales.<br><br>**Escenario 2:** Given que un endpoint requiere autenticación, when se consulta su documentación, then se identifica el mecanismo de autorización requerido.<br><br>**Escenario 3:** Given que el API se encuentra desplegado, when un Developer accede a su documentación, then puede conocer y probar los endpoints disponibles. | EP02 |
+| **TS14** | IoT Telemetry REST API | Como Developer, deseo disponer de servicios RESTful para registrar y consultar lecturas de sensores y alertas para soportar el monitoreo de la carga. | **Escenario 1:** Given que el API recibe un POST a /api/v1/sensor-readings con un dispositivo registrado y un valor numérico, when procesa la solicitud, then responde 201 Created con la lectura registrada.<br><br>**Escenario 2:** Given que la lectura está fuera del rango seguro, when se registra, then el API crea una alerta asociada a la operación.<br><br>**Escenario 3:** Given que el dispositivo no existe, when se envía la lectura, then el API responde 404 Not Found. | EP10 |
+| **TS15** | Delivery Point Tracking REST API | Como Developer, deseo disponer de servicios RESTful para que una bodega consulte su pedido y reporte problemas de recepción. | **Escenario 1:** Given que existe una entrega asociada a la bodega, when se recibe un GET a /api/v1/delivery-points/{id}/deliveries, then el API responde 200 OK con el estado de cada entrega.<br><br>**Escenario 2:** Given que se recibe un POST de un reporte de recepción válido, when el API lo procesa, then responde 201 Created y crea la incidencia correspondiente. | EP11 |
 
 
 <a id="32-impact-mapping"></a>
 ## 3.2. Impact Mapping.
+
+El Impact Mapping relaciona los objetivos de negocio de CodeCrafters con el comportamiento que se espera de cada User Persona y con las User Stories que lo hacen posible. Se elaboró un mapa por segmento en UXPressia. Cada mapa se lee de izquierda a derecha: **Business Goal** SMART, **Persona** que debe cambiar su comportamiento, **Impact** esperado, **Deliverable** que lo habilita y **User Stories** que lo implementan.
+
+| Persona | Business Goal (SMART) | User Stories principales |
+| :------ | :-------------------- | :----------------------- |
+| Carlos Mendoza | Alcanzar que al menos el 80 % de las operaciones de transporte de las empresas piloto sean registradas y consultables en BottleTrack durante los primeros 6 meses de operación. | US16, US19, US10, US11 |
+| Carlos Mendoza | Reducir en al menos 25 % el tiempo promedio dedicado a recopilar información sobre el estado de las operaciones de transporte al finalizar los primeros 6 meses de uso. | US34, US35, US36, US37 |
+| Luis Torres | Lograr que al menos el 80 % de las operaciones planificadas en las empresas piloto cuenten con vehículo, responsable y puntos de entrega registrados en BottleTrack durante los primeros 6 meses de operación. | US16, US17, US18, US23, US24 |
+| Luis Torres | Conseguir que al menos el 80 % de las incidencias reportadas durante las operaciones piloto queden registradas y asociadas con su operación durante los primeros 6 meses de uso. | US30, US31, US32, US33 |
+| María Fernández | Lograr que al menos el 75 % de las entregas realizadas a establecimientos piloto cuenten con información de estado consultable durante los primeros 6 meses de operación. | US46, US26, US27 |
+| María Fernández | Conseguir que al menos el 80 % de los problemas identificados en las entregas de establecimientos piloto sean comunicados y queden registrados durante los primeros 6 meses de operación. | US47, US30, US31 |
+
+Los objetivos coinciden con los indicadores de éxito del Problem Statement de la sección 1.2.2.1, de modo que cada User Story del backlog puede rastrearse hasta un resultado de negocio medible.
 #### User Persona 1: Carlos Mendoza
+
 <img src="img/chapter3/impact-map-segmento-1.jpeg" alt="Impact Map - Segmento 1">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/ewgWb
+
 #### User Persona 2: Luis Torres
+
 <img src="img/chapter3/impact-map-segmento-2.jpeg" alt="Impact Map - Segmento 2">
 
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/kjQEJ
+
 #### User Persona 3: María Fernández
+
 <img src="img/chapter3/impact-map-segmento-3.jpeg" alt="Impact Map - Segmento 3">
+
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/1v4vF
 
 <a id="33-product-backlog"></a>
 ## 3.3. Product Backlog
 
-El Product Backlog de BottleTrack contiene las User Stories y Technical Stories identificadas para el desarrollo del producto.
+El Product Backlog de BottleTrack contiene las 47 User Stories y las 15 Technical Stories del producto. Se administra en Trello y se encuentra disponible de forma pública en el siguiente enlace: https://trello.com/b/jGpO815B/bottletrack-product-backlog
 
-La priorización considera principalmente las dependencias técnicas entre funcionalidades (una operación no puede crearse sin usuarios ni recursos de flota registrados) y el valor aportado al core business de BottleTrack, representado por el proceso de creación, ejecución y seguimiento de una operación de transporte.
+El orden lo determina el valor que cada historia aporta al negocio y a los segmentos objetivo:
 
-Las estimaciones utilizan la escala de Story Points:
+1. **Landing Page.** Encabeza el backlog porque es el primer punto de contacto del visitante con el modelo de negocio y debe estar disponible desde el primer Sprint. Incluye una historia por segmento, cada una con su llamada a la acción hacia la Web Application.
+2. **Core business.** Le sigue el flujo que resuelve el dolor principal identificado en las entrevistas: crear una operación, ordenar sus puntos de entrega, registrar el resultado de cada entrega y documentar las incidencias. El 100 % de los supervisores entrevistados depende hoy de WhatsApp para estas tareas.
+3. **Recursos de flota.** Se ubican después del core porque solo son útiles en la medida en que alimentan una operación.
+4. **Diferenciales.** El monitoreo IoT de la carga y la vista de seguimiento para la bodega distinguen a BottleTrack de la competencia.
+5. **Analítica, administración y acceso.** Los indicadores, el historial y las historias de autenticación cierran el backlog, ya que son procesos de soporte y no generan valor por sí mismos.
 
-**1, 2, 3, 5 y 8.**
+Las Technical Stories se ordenan siguiendo el mismo criterio que las User Stories que soportan. Las estimaciones utilizan la escala de Story Points **1, 2, 3, 5 y 8**.
 
-| Orden | ID | Título | Story Points | Epic |
-| ---: | --- | --- | ---: | --- |
-| 1 | US09 | Gestionar información de empresa | 3 | EP03 - Company Management |
-| 2 | US07 | Gestionar usuarios | 5 | EP03 - Company Management |
-| 3 | US08 | Asignar rol a usuario | 3 | EP03 - Company Management |
-| 4 | US04 | Iniciar sesión | 5 | EP02 - Identity and Access Management |
-| 5 | US05 | Cerrar sesión | 1 | EP02 - Identity and Access Management |
-| 6 | US06 | Consultar perfil | 2 | EP02 - Identity and Access Management |
-| 7 | US10 | Registrar vehículo | 3 | EP04 - Fleet Management |
-| 8 | US11 | Actualizar vehículo | 2 | EP04 - Fleet Management |
-| 9 | US12 | Consultar vehículos disponibles | 2 | EP04 - Fleet Management |
-| 10 | US13 | Registrar conductor | 3 | EP04 - Fleet Management |
-| 11 | US14 | Actualizar conductor | 2 | EP04 - Fleet Management |
-| 12 | US15 | Consultar conductores disponibles | 2 | EP04 - Fleet Management |
-| 13 | US16 | Crear operación de transporte | 5 | EP05 - Transport Operations Management |
-| 14 | US17 | Asignar vehículo a operación | 3 | EP05 - Transport Operations Management |
-| 15 | US18 | Asignar conductor a operación | 3 | EP05 - Transport Operations Management |
-| 16 | US19 | Consultar operaciones | 3 | EP05 - Transport Operations Management |
-| 17 | US21 | Iniciar operación | 2 | EP05 - Transport Operations Management |
-| 18 | US22 | Finalizar operación | 3 | EP05 - Transport Operations Management |
-| 19 | US23 | Registrar punto de entrega | 5 | EP06 - Delivery Management |
-| 20 | US24 | Organizar puntos de entrega | 3 | EP06 - Delivery Management |
-| 21 | US25 | Consultar ruta de una operación | 3 | EP06 - Delivery Management |
-| 22 | US26 | Consultar detalle de entrega | 2 | EP06 - Delivery Management |
-| 23 | US27 | Actualizar estado de entrega | 5 | EP06 - Delivery Management |
-| 24 | US28 | Registrar entrega parcial | 3 | EP06 - Delivery Management |
-| 25 | US29 | Registrar entrega no realizada | 3 | EP06 - Delivery Management |
-| 26 | US30 | Registrar incidencia | 5 | EP07 - Incident Management |
-| 27 | US31 | Adjuntar evidencia de incidencia | 5 | EP07 - Incident Management |
-| 28 | US32 | Consultar incidencias | 3 | EP07 - Incident Management |
-| 29 | US33 | Actualizar estado de incidencia | 3 | EP07 - Incident Management |
-| 30 | US34 | Consultar progreso de operación | 5 | EP08 - Monitoring and Analytics |
-| 31 | US35 | Consultar dashboard | 5 | EP08 - Monitoring and Analytics |
-| 32 | US36 | Consultar historial de operaciones | 3 | EP08 - Monitoring and Analytics |
-| 33 | US37 | Consultar detalle histórico | 3 | EP08 - Monitoring and Analytics |
-| 34 | US38 | Consultar ubicación de entrega | 5 | EP09 - External Services Integration |
-| 35 | US01 | Conocer BottleTrack | 3 | EP01 - Landing Page |
-| 36 | US02 | Conocer beneficios por segmento | 3 | EP01 - Landing Page |
-| 37 | US03 | Acceder a la aplicación | 2 | EP01 - Landing Page |
-| 38 | TS02 | User and Company REST API | 8 | EP03 - Company Management |
-| 39 | TS01 | Authentication REST API | 5 | EP02 - Identity and Access Management |
-| 40 | TS13 | OpenAPI Documentation | 5 | EP02 - Identity and Access Management |
-| 41 | TS03 | Vehicle Management REST API | 5 | EP04 - Fleet Management |
-| 42 | TS04 | Driver Management REST API | 5 | EP04 - Fleet Management |
-| 43 | TS05 | Transport Operations REST API | 8 | EP05 - Transport Operations Management |
-| 44 | TS06 | Resource Assignment Service | 5 | EP05 - Transport Operations Management |
-| 45 | TS07 | Delivery Management REST API | 8 | EP06 - Delivery Management |
-| 46 | TS08 | Incident Management REST API | 8 | EP07 - Incident Management |
-| 47 | TS09 | Incident Evidence Service | 5 | EP07 - Incident Management |
-| 48 | TS10 | Monitoring REST API | 8 | EP08 - Monitoring and Analytics |
-| 49 | TS11 | Operation History REST API | 5 | EP08 - Monitoring and Analytics |
-| 50 | TS12 | Maps Service Integration | 8 | EP09 - External Services Integration |
-
-### Criterios de priorización
-
-La priorización del Product Backlog considera los siguientes criterios:
-
-1. Dependencias técnicas entre funcionalidades (una operación no puede crearse ni asignarse sin que existan primero la empresa, los usuarios y los recursos de flota).
-2. Valor generado para las operaciones de transporte.
-3. Importancia para los principales usuarios de BottleTrack.
-4. Relación con el core business del producto.
-5. Necesidad para construir y validar el MVP.
-6. Complejidad estimada de implementación.
-
-El flujo principal priorizado es:
-
-**Registrar empresa y usuarios → Registrar vehículos y conductores → Crear operación → Asignar vehículo y conductor → Registrar puntos de entrega → Ejecutar ruta → Actualizar entregas → Registrar incidencias → Monitorear operación → Finalizar operación → Consultar historial.**
-
-Las User Stories relacionadas con el Landing Page deberán ser consideradas desde el primer Sprint (en paralelo, por un frontstream independiente) debido a que este producto forma parte del alcance requerido para BottleTrack, aunque su valor para el core business del transporte sea menor.
-
-Las Technical Stories representan principalmente el trabajo requerido en el Backend RESTful API para proporcionar los servicios utilizados por el Frontend Web Application.
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+| ---: | --- | --- | --- | ---: |
+| 1 | US01 | Conocer BottleTrack | Como visitante, deseo conocer qué es BottleTrack para determinar si la solución responde a mis necesidades. | 3 |
+| 2 | US02 | Conocer beneficios por segmento | Como visitante perteneciente a un segmento objetivo, deseo conocer los beneficios relacionados con mi perfil para comprender cómo BottleTrack podría ayudarme. | 3 |
+| 3 | US39 | Conocer beneficios para distribuidoras | Como visitante del segmento de empresas distribuidoras, deseo conocer cómo BottleTrack mejora el control de mis operaciones para evaluar si me conviene contratarlo. | 2 |
+| 4 | US40 | Conocer beneficios para supervisores | Como visitante del segmento de supervisores de flota, deseo conocer cómo BottleTrack me ayuda a seguir mis rutas para decidir si lo utilizo en mi jornada. | 2 |
+| 5 | US41 | Conocer beneficios para bodegas | Como visitante del segmento de bodegas y minimarkets, deseo conocer cómo puedo seguir mis pedidos para reducir la incertidumbre sobre su llegada. | 2 |
+| 6 | US03 | Acceder a la aplicación | Como visitante interesado en BottleTrack, deseo acceder a la aplicación web para continuar mi experiencia con el producto. | 2 |
+| 7 | US42 | Contactar a CodeCrafters | Como visitante interesado, deseo conocer los medios de contacto y las redes sociales de CodeCrafters para solicitar una demostración. | 1 |
+| 8 | US16 | Crear operación de transporte | Como supervisor de flota, deseo registrar una operación de transporte para organizar una nueva jornada de distribución. | 5 |
+| 9 | US17 | Asignar vehículo a operación | Como supervisor de flota, deseo asignar un vehículo disponible a una operación para establecer el recurso que realizará el transporte. | 3 |
+| 10 | US18 | Asignar conductor a operación | Como supervisor de flota, deseo asignar un conductor disponible a una operación para determinar quién será responsable de ejecutarla. | 3 |
+| 11 | US23 | Registrar punto de entrega | Como supervisor de flota, deseo agregar puntos de entrega a una operación para establecer los establecimientos que deberán ser atendidos. | 5 |
+| 12 | US24 | Organizar puntos de entrega | Como supervisor de flota, deseo establecer el orden de los puntos de entrega para definir la secuencia de atención de la operación. | 3 |
+| 13 | US25 | Consultar ruta de una operación | Como supervisor de flota, deseo consultar los puntos de entrega de una operación para conocer los lugares que deben ser atendidos. | 3 |
+| 14 | US21 | Iniciar operación | Como supervisor de flota, deseo iniciar una operación de transporte para registrar que la ejecución de la ruta ha comenzado. | 2 |
+| 15 | US27 | Actualizar estado de entrega | Como supervisor de flota, deseo actualizar el estado de una entrega para registrar el resultado de la visita reportado por el conductor. | 5 |
+| 16 | US28 | Registrar entrega parcial | Como supervisor de flota, deseo registrar una entrega parcial para dejar constancia de que solo una parte de los productos pudo ser entregada. | 3 |
+| 17 | US29 | Registrar entrega no realizada | Como supervisor de flota, deseo registrar que una entrega no pudo realizarse para dejar constancia del resultado de la visita. | 3 |
+| 18 | US34 | Consultar progreso de operación | Como supervisor de flota, deseo consultar el progreso de una operación para conocer el estado de sus entregas. | 5 |
+| 19 | US30 | Registrar incidencia | Como supervisor de flota, deseo registrar una incidencia para dejar constancia de un problema ocurrido durante una operación o entrega. | 5 |
+| 20 | US31 | Adjuntar evidencia de incidencia | Como supervisor de flota, deseo adjuntar evidencia a una incidencia para complementar la información del problema ocurrido. | 5 |
+| 21 | US32 | Consultar incidencias | Como supervisor de flota, deseo consultar las incidencias registradas para conocer los problemas ocurridos durante las operaciones. | 3 |
+| 22 | US33 | Actualizar estado de incidencia | Como supervisor de flota, deseo actualizar el estado de una incidencia para realizar seguimiento hasta su resolución. | 3 |
+| 23 | US22 | Finalizar operación | Como supervisor de flota, deseo finalizar una operación cuando las actividades correspondientes hayan concluido para dejar constancia de su cierre. | 3 |
+| 24 | US19 | Consultar operaciones | Como supervisor de flota, deseo consultar las operaciones registradas para conocer su estado y principales datos. | 3 |
+| 25 | US26 | Consultar detalle de entrega | Como supervisor de flota, deseo consultar información de un punto de entrega para conocer los datos necesarios antes de dar seguimiento a su atención. | 2 |
+| 26 | US20 | Cancelar operación | Como supervisor de flota, deseo cancelar una operación que aún no ha iniciado para liberar el vehículo y el conductor asignados. | 2 |
+| 27 | US10 | Registrar vehículo | Como administrador o supervisor, deseo registrar un vehículo para incorporarlo a los recursos disponibles para las operaciones. | 3 |
+| 28 | US12 | Consultar vehículos disponibles | Como supervisor de flota, deseo conocer los vehículos disponibles para determinar cuáles pueden ser asignados a una operación. | 2 |
+| 29 | US13 | Registrar conductor | Como administrador o supervisor, deseo registrar un conductor para incorporarlo al personal disponible para las operaciones. | 3 |
+| 30 | US15 | Consultar conductores disponibles | Como supervisor de flota, deseo conocer los conductores disponibles para determinar quién puede ser asignado a una operación. | 2 |
+| 31 | US11 | Actualizar vehículo | Como administrador o supervisor, deseo actualizar la información de un vehículo para mantener los datos de la flota vigentes. | 2 |
+| 32 | US14 | Actualizar conductor | Como administrador o supervisor, deseo actualizar la información de un conductor para mantener sus datos vigentes. | 2 |
+| 33 | US43 | Consultar lecturas IoT de una operación | Como supervisor de flota, deseo consultar las lecturas de temperatura, golpes y ubicación de una operación en curso para conocer el estado de la carga. | 5 |
+| 34 | US44 | Recibir alerta de carga en riesgo | Como supervisor de flota, deseo recibir una alerta cuando una lectura salga del rango seguro o se detecte un golpe para actuar antes de que el producto se dañe. | 5 |
+| 35 | US45 | Configurar rango seguro | Como administrador, deseo configurar el rango seguro de temperatura y el umbral de golpes para adaptar las alertas al tipo de bebida transportada. | 3 |
+| 36 | US46 | Consultar estado de mi pedido | Como responsable de una bodega, deseo consultar el estado de mi pedido para saber cuándo llegará. | 3 |
+| 37 | US47 | Reportar problema de recepción | Como responsable de una bodega, deseo reportar un faltante o un producto dañado al recibir mi pedido para que quede constancia y la distribuidora lo atienda. | 5 |
+| 38 | US35 | Consultar dashboard | Como administrador o supervisor, deseo consultar indicadores generales para conocer rápidamente el estado de las operaciones de transporte. | 5 |
+| 39 | US36 | Consultar historial de operaciones | Como supervisor de flota, deseo consultar operaciones anteriores para revisar información histórica sobre entregas e incidencias. | 3 |
+| 40 | US37 | Consultar detalle histórico | Como supervisor de flota, deseo consultar el detalle de una operación finalizada para analizar los resultados de su ejecución. | 3 |
+| 41 | US38 | Consultar ubicación de entrega | Como supervisor de flota, deseo consultar la ubicación de un punto de entrega para facilitar la identificación del destino. | 5 |
+| 42 | US09 | Gestionar información de empresa | Como administrador, deseo mantener actualizada la información de la empresa para que BottleTrack utilice correctamente sus datos. | 3 |
+| 43 | US07 | Gestionar usuarios | Como administrador, deseo registrar y actualizar usuarios para controlar quiénes pueden utilizar BottleTrack dentro de la empresa. | 5 |
+| 44 | US08 | Asignar rol a usuario | Como administrador, deseo asignar roles a los usuarios para determinar las funcionalidades a las que pueden acceder. | 3 |
+| 45 | US04 | Iniciar sesión | Como usuario registrado, deseo autenticarme en BottleTrack para acceder a las funcionalidades correspondientes a mi rol. | 5 |
+| 46 | US05 | Cerrar sesión | Como usuario autenticado, deseo finalizar mi sesión para evitar accesos posteriores desde la sesión activa. | 1 |
+| 47 | US06 | Consultar perfil | Como usuario autenticado, deseo consultar la información de mi perfil para conocer los datos asociados con mi cuenta. | 2 |
+| 48 | TS05 | Transport Operations REST API | Como Developer, deseo disponer de servicios RESTful para crear, consultar y actualizar operaciones de transporte para soportar el proceso principal de BottleTrack. | 8 |
+| 49 | TS06 | Resource Assignment Service | Como Developer, deseo implementar servicios para asignar vehículos y conductores a operaciones para garantizar que los recursos utilizados se encuentren disponibles. | 5 |
+| 50 | TS07 | Delivery Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar puntos de entrega y sus estados para soportar la ejecución y seguimiento de las rutas. | 8 |
+| 51 | TS08 | Incident Management REST API | Como Developer, deseo disponer de servicios RESTful para registrar, consultar y actualizar incidencias para soportar el seguimiento de problemas ocurridos durante las operaciones. | 8 |
+| 52 | TS09 | Incident Evidence Service | Como Developer, deseo disponer de un servicio para gestionar evidencias asociadas a incidencias para conservar información complementaria de los problemas reportados. | 5 |
+| 53 | TS03 | Vehicle Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar vehículos para permitir que el Frontend gestione los recursos de la flota. | 5 |
+| 54 | TS04 | Driver Management REST API | Como Developer, deseo disponer de servicios RESTful para administrar conductores para soportar la gestión del personal encargado de las operaciones. | 5 |
+| 55 | TS14 | IoT Telemetry REST API | Como Developer, deseo disponer de servicios RESTful para registrar y consultar lecturas de sensores y alertas para soportar el monitoreo de la carga. | 8 |
+| 56 | TS15 | Delivery Point Tracking REST API | Como Developer, deseo disponer de servicios RESTful para que una bodega consulte su pedido y reporte problemas de recepción. | 5 |
+| 57 | TS10 | Monitoring REST API | Como Developer, deseo disponer de servicios de consulta y cálculo de indicadores para soportar el seguimiento y dashboard de las operaciones de transporte. | 8 |
+| 58 | TS11 | Operation History REST API | Como Developer, deseo disponer de servicios para consultar operaciones finalizadas para proporcionar información histórica al Frontend Web Application. | 5 |
+| 59 | TS12 | Maps Service Integration | Como Developer, deseo integrar BottleTrack con un servicio externo de mapas o geolocalización para obtener información geográfica relacionada con los puntos de entrega. | 8 |
+| 60 | TS02 | User and Company REST API | Como Developer, deseo disponer de servicios RESTful para administrar usuarios, roles y empresas para soportar las funcionalidades administrativas de BottleTrack. | 8 |
+| 61 | TS01 | Authentication REST API | Como Developer, deseo disponer de servicios RESTful de autenticación para permitir que los usuarios autorizados accedan a BottleTrack. | 5 |
+| 62 | TS13 | OpenAPI Documentation | Como Developer, deseo documentar los servicios RESTful mediante OpenAPI para facilitar su comprensión, prueba e integración con el Frontend Web Application. | 5 |
 
 <hr>
 
@@ -1396,7 +1628,7 @@ El equipo definió las siguientes dimensiones para el lenguaje aplicado en toda 
 | Dimensión | Decisión | Sustento |
 | :-------- | :------- | :------- |
 | Divertido / Serio | Serio | El usuario consulta la plataforma mientras la carga está en riesgo; el contenido informa, no entretiene. |
-| Formal / Casual | Casual moderado | Los segmentos incluyen conductores y supervisores de operación, para quienes un lenguaje excesivamente formal genera distancia. |
+| Formal / Casual | Casual moderado | Los segmentos incluyen supervisores de operación y responsables de bodegas, para quienes un lenguaje excesivamente formal genera distancia. |
 | Respetuoso / Irreverente | Respetuoso | La plataforma registra incidencias que afectan el desempeño de personas, por lo que el lenguaje evita cualquier tono de sanción. |
 | Entusiasta / Sereno | Sereno | Las alertas deben leerse con calma para no amplificar la urgencia de la operación. |
 
@@ -1513,7 +1745,7 @@ Las transiciones duran 160 milisegundos y se anulan cuando el sistema operativo 
 <a id="42-information-architecture"></a>
 ## 4.2. Information Architecture.
 
-En esta sección el equipo plantea las decisiones que dirigen la manera como se organiza el contenido en el Landing Page y en la Frontend Web Application de BottleTrack. El criterio que guía estas decisiones es que cada segmento objetivo encuentre lo que necesita sin recorrer contenido que no le corresponde, considerando que los segmentos operan en contextos muy distintos: el supervisor consulta la plataforma desde una oficina y el conductor desde un teléfono, en ruta y con poco tiempo disponible.
+En esta sección el equipo plantea las decisiones que dirigen la manera como se organiza el contenido en el Landing Page y en la Frontend Web Application de BottleTrack. El criterio que guía estas decisiones es que cada segmento objetivo encuentre lo que necesita sin recorrer contenido que no le corresponde, considerando que los segmentos operan en contextos muy distintos: el administrador y el supervisor consultan la plataforma desde una oficina, mientras que el responsable de la bodega lo hace desde un teléfono, con poco tiempo disponible y mientras atiende su negocio.
 
 <a id="421-organization-systems"></a>
 ### 4.2.1. Organization Systems.
@@ -1525,7 +1757,7 @@ En esta sección el equipo plantea las decisiones que dirigen la manera como se 
 | Landing Page | Jerárquica | El visitante llega sin conocer el producto, por lo que el contenido desciende desde la propuesta de valor hasta el detalle de las funcionalidades y los segmentos. |
 | Landing Page, sección "Cómo funciona" | Secuencial | La operación se explica como tres pasos ordenados en el tiempo, del despacho al cierre de la incidencia. |
 | Web Application, tablero de rutas | Matricial | El supervisor compara varias rutas simultáneas según estado, avance y alertas, sin que exista un orden de lectura obligatorio. |
-| Web Application, registro de incidencias | Secuencial | El reporte de una incidencia es un flujo de pasos que el conductor completa hasta adjuntar la evidencia. |
+| Web Application, registro de incidencias | Secuencial | El reporte de una incidencia es un flujo de pasos que el supervisor completa hasta adjuntar la evidencia. |
 
 **Esquemas de categorización**
 
@@ -1548,6 +1780,7 @@ Las etiquetas se redactan con el mínimo número de palabras y utilizan el vocab
 | Who it is for | Para quién es | Segmentos objetivo y sus llamados a la acción. |
 | The product | El producto | Video About the Product. |
 | The team | El equipo | Video About the Team. |
+| Contact | Contacto | Correo, teléfono y redes sociales de CodeCrafters. |
 | Route | Ruta | Recorrido asignado a un vehículo con sus puntos de entrega. |
 | Stop | Parada | Punto de entrega individual dentro de una ruta. |
 | Shipment | Envío | Carga de producto asociada a una ruta. |
@@ -1591,6 +1824,7 @@ Los siguientes valores se encuentran implementados en las vistas del Landing Pag
 | Monitoring | Fleet monitoring \| BottleTrack | Real time view of every active route, with cargo temperature and impact alerts. |
 | Incidents | Incident reporting \| BottleTrack | Report damaged product, broken bottles, missing units and delays with photographic evidence. |
 | Analytics | Delivery indicators \| BottleTrack | Product loss, delivery compliance and recurring failures across the distribution operation. |
+| Delivery tracking | Track your order \| BottleTrack | Check the status of your beverage order and report shortages or damaged products on arrival. |
 
 <a id="424-searching-systems"></a>
 ### 4.2.4. Searching Systems.
@@ -1619,265 +1853,303 @@ El recorrido esperado del visitante desciende desde la propuesta de valor hasta 
 | Segmento objetivo | Llamado a la acción | Vista de destino |
 | :---------------- | :------------------ | :--------------- |
 | Supervisores o encargados de flota | Monitor your fleet | Monitoring |
-| Conductores y repartidores | Report an incident | Incidents |
 | Empresas distribuidoras de bebidas | See the indicators | Analytics |
+| Bodegas y minimarkets | Track your order | Delivery tracking |
 
 En dispositivos con ancho menor a 48 rem la navegación se colapsa en un menú desplegable que expone su estado mediante el atributo `aria-expanded` y se cierra automáticamente al seleccionar un enlace. El pie de página repite los enlaces principales y añade el acceso a los términos y condiciones del servicio.
 
 **Frontend Web Application**
 
-La aplicación utiliza una barra lateral persistente como sistema de navegación global, con acceso a las secciones de rutas, incidencias e indicadores. Dentro de cada sección se emplea navegación contextual mediante una ruta de migas que permite regresar del detalle de una ruta o de una incidencia al listado del que se ingresó, sin perder los filtros aplicados.
+La aplicación utiliza una barra lateral persistente como sistema de navegación global. Sus opciones dependen del rol: el administrador accede a indicadores, flota, usuarios y configuración de la empresa; el supervisor, a operaciones, monitoreo, incidencias e historial; y el responsable de la bodega, únicamente a la vista de seguimiento de sus pedidos. Dentro de cada sección se emplea navegación contextual mediante una ruta de migas que permite regresar del detalle de una ruta o de una incidencia al listado del que se ingresó, sin perder los filtros aplicados.
 
 
 <a id="43-landing-page-ui-design"></a>
 ## 4.3. Landing Page UI Design.
 
+En esta sección se presenta la propuesta de interfaz del Landing Page, elaborada en Figma antes de su implementación. El archivo de diseño se encuentra disponible en https://www.figma.com/design/lBVdrnyGUWfjN6Mz4fhBpY/BOTTLETRACK?node-id=0-1. La propuesta aplica las decisiones de la sección 4.1 y la organización de contenido de la sección 4.2: una navegación fija con selector de idioma, una sección hero con la propuesta de valor y su llamado a la acción principal, y un recorrido que desciende desde el problema hasta los segmentos objetivo.
+
 <a id="431-landing-page-wireframe"></a>
 ### 4.3.1. Landing Page Wireframe.
 
-![image1](img/landingPageUIDesign/landing1_wireframe.png)
-![image2](img/landingPageUIDesign/landing2_wireframe.png)
-![image3](img/landingPageUIDesign/landing3_wireframe.png)
+El wireframe define la estructura y la jerarquía de cada sección sin aplicar color ni contenido final. Se organiza en una retícula de dos columnas para la sección hero, que combina el mensaje principal con una vista previa del estado de una ruta, y en una retícula de tres columnas para las tarjetas de problemas, capacidades y segmentos. En pantallas angostas las columnas se apilan en una sola, conservando el orden de lectura.
+
+<img src="img/landingPageUIDesign/landing1_wireframe.png" alt="Wireframe del Landing Page: navegación, sección hero y sección del problema" width="800">
+
+<img src="img/landingPageUIDesign/landing2_wireframe.png" alt="Wireframe del Landing Page: capacidades del producto y funcionamiento" width="800">
+
+<img src="img/landingPageUIDesign/landing3_wireframe.png" alt="Wireframe del Landing Page: segmentos objetivo, videos y pie de página" width="800">
 
 <a id="432-landing-page-mock-up"></a>
 ### 4.3.2. Landing Page Mock-up.
 
-![image4](img/landingPageUIDesign/landing1_mockup.png)
-![image5](img/landingPageUIDesign/landing2_mockup.png)
-![image6](img/landingPageUIDesign/landing3_mockup.png)
+El mock-up aplica el design system de BottleTrack sobre el wireframe: la rampa naranja para los llamados a la acción, la tipografía Manrope, las superficies alternadas para separar secciones y los colores de estado en la vista previa de la ruta, donde cada estado se acompaña de un texto y no depende solo del color. El mensaje principal, *Cada botella, rastreada desde la planta hasta el cliente*, resume la propuesta de valor, y la sección del problema traduce los tres puntos de dolor de las entrevistas: la falta de visibilidad, la falta de evidencia y la falta de datos.
 
+<img src="img/landingPageUIDesign/landing1_mockup.png" alt="Mock-up del Landing Page: sección hero y sección del problema" width="800">
+
+<img src="img/landingPageUIDesign/landing2_mockup.png" alt="Mock-up del Landing Page: capacidades y funcionamiento del producto" width="800">
+
+<img src="img/landingPageUIDesign/landing3_mockup.png" alt="Mock-up del Landing Page: segmentos objetivo y pie de página" width="800">
 
 <a id="44-web-applications-uxui-design"></a>
 ## 4.4. Web Applications UX/UI Design.
 
+En esta sección se presenta el diseño de la Frontend Web Application para sus dos roles principales: el administrador de la distribuidora y el supervisor de flota. Las vistas se diseñaron en Figma siguiendo el mismo design system del Landing Page, para que la experiencia sea consistente entre ambos productos. El archivo de diseño se encuentra disponible en: https://www.figma.com/design/lBVdrnyGUWfjN6Mz4fhBpY/BOTTLETRACK?node-id=0-1
+
 <a id="441-web-applications-wireframes"></a>
 ### 4.4.1. Web Applications Wireframes.
 
-**Login**<br>
-Formulario de inicio de sesión para acceder a la aplicación.
+Los wireframes comparten una estructura común: una barra lateral de navegación global a la izquierda y un área de contenido con el título de la vista, sus filtros y la información principal.
 
-<img src="img/webApplicationUxDesign/wireframes/loginWA_wireframe.png" alt=" login WF" width="800">
+**Vistas comunes**
 
-**Profile**<br>
-Sección del perfil de usuario con información personal, roles y certificaciones.
+**Login.** Formulario de inicio de sesión con correo y contraseña, selector de idioma y acceso a la recuperación de la contraseña.
 
-<img src="img/webApplicationUxDesign/wireframes/profileWA_wireframe.png" alt=" profile WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/loginWA_wireframe.png" alt="Wireframe de la vista de inicio de sesión" width="800">
+
+**Profile.** Datos personales del usuario autenticado, su rol y la empresa a la que pertenece.
+
+<img src="img/webApplicationUxDesign/wireframes/profileWA_wireframe.png" alt="Wireframe de la vista de perfil" width="800">
 
 <hr>
 
-**Administrator Interface**
+**Vistas del administrador**
 
-Permisos para registrar nuevos usuarios a la plataforma
+**Users.** Registro de nuevos usuarios de la empresa y asignación de su rol.
 
-<img src="img/webApplicationUxDesign/wireframes/registrouser_admin_WA_wireframe.png" alt=" user WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/registrouser_admin_WA_wireframe.png" alt="Wireframe del registro de usuarios" width="800">
 
-Configuración de empresa con sus respectivos datos
+**Company settings.** Datos de la empresa distribuidora.
 
-<img src="img/webApplicationUxDesign/wireframes/config_admin_WA_wireframe.png" alt=" configuration WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/config_admin_WA_wireframe.png" alt="Wireframe de la configuración de la empresa" width="800">
 
-Permisos para designar los datos de un vehículo en condiciones
+**Vehicles.** Registro de un vehículo con su placa, modelo, capacidad y estado.
 
-<img src="img/webApplicationUxDesign/wireframes/registrovehiculo_admin_WA_wireframe.png" alt=" vehicle WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/registrovehiculo_admin_WA_wireframe.png" alt="Wireframe del registro de vehículos" width="800">
 
-Permisos para designar los datos de una responsable conductor 
+**Drivers.** Registro de un conductor con sus datos de contacto y su licencia.
 
-<img src="img/webApplicationUxDesign/wireframes/registroconductor_admin_WA_wireframe.png" alt=" driver WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/registroconductor_admin_WA_wireframe.png" alt="Wireframe del registro de conductores" width="800">
 
-Panel de análisis con métricas, reportes e incidentes
+**Dashboard.** Indicadores de la operación, reportes e incidencias recientes.
 
-<img src="img/webApplicationUxDesign/wireframes/dashboard_admin_WA_wireframe.png" alt=" dashboard WF" width="800">
+<img src="img/webApplicationUxDesign/wireframes/dashboard_admin_WA_wireframe.png" alt="Wireframe del dashboard del administrador" width="800">
 
-**Supervisor Interface**
+<hr>
 
-Historial de operaciones registradas por el supervisor
+**Vistas del supervisor**
 
-<img src="img/webApplicationUxDesign/wireframes/browser_supervisor_WA_wireframe.png" alt=" config WF" width="800">
+**Operation history.** Listado de las operaciones finalizadas con sus filtros.
 
-Detalles de cada operación con respecto a la incidencia
+<img src="img/webApplicationUxDesign/wireframes/browser_supervisor_WA_wireframe.png" alt="Wireframe del historial de operaciones" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/incident_browser_supervisor_WA_wireframe.png" alt=" incident WF" width="800">
+**Incident detail.** Información de una incidencia y de la operación a la que pertenece.
 
-Visualización de puntos de entrega y sus cambios de estado
+<img src="img/webApplicationUxDesign/wireframes/incident_browser_supervisor_WA_wireframe.png" alt="Wireframe del detalle de una incidencia" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/deliverypoint_supervisor_WA_wireframe.png" alt=" delivery WF" width="800">
+**Delivery points.** Puntos de entrega de una operación y el estado de cada uno.
 
-Visualización de resumen por incidencia
+<img src="img/webApplicationUxDesign/wireframes/deliverypoint_supervisor_WA_wireframe.png" alt="Wireframe de los puntos de entrega" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/driver_browser_supervisor_WA_wireframe.png" alt=" driver WF" width="800">
+**Incident summary.** Resumen de las incidencias registradas.
 
-Creación de operación de transporte 
+<img src="img/webApplicationUxDesign/wireframes/driver_browser_supervisor_WA_wireframe.png" alt="Wireframe del resumen de incidencias" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/newoperation_supervisor_WA_wireframe.png" alt=" new operation WF" width="800">
+**New operation.** Creación de una operación de transporte en tres pasos: datos, vehículo y conductor.
 
-Lista resumen de las operacion asignadas al supervisor 
+<img src="img/webApplicationUxDesign/wireframes/newoperation_supervisor_WA_wireframe.png" alt="Wireframe de la creación de una operación" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/operationlist_supervisor_WA_wireframe.png" alt=" list WF" width="800">
+**Operations.** Listado de las operaciones asignadas al supervisor con su estado.
 
-Dashboard relacionado a las responsabilidades del supervisor
+<img src="img/webApplicationUxDesign/wireframes/operationlist_supervisor_WA_wireframe.png" alt="Wireframe del listado de operaciones" width="800">
 
-<img src="img/webApplicationUxDesign/wireframes/dashboard_supervisor_WA_wireframe.png" alt=" dashboard WF" width="800">
+**Dashboard.** Resumen de las operaciones del día, las entregas y las incidencias abiertas.
 
+<img src="img/webApplicationUxDesign/wireframes/dashboard_supervisor_WA_wireframe.png" alt="Wireframe del dashboard del supervisor" width="800">
 
 <a id="442-web-applications-wireflow-diagrams"></a>
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-Flujo del administrador
+Los wireflows conectan los wireframes según las acciones del usuario. Cada flecha parte del elemento que el usuario selecciona y llega a la vista resultante.
 
-<img src="img/webApplicationUxDesign/wireflow/admin_WA_wireflow.png" alt=" admin WF" width="800">
+**Wireflow del administrador.** Parte del inicio de sesión y llega al dashboard, desde el cual el administrador accede a la gestión de usuarios, vehículos, conductores y a la configuración de la empresa.
 
-Flujo del supervisor
+<img src="img/webApplicationUxDesign/wireflow/admin_WA_wireflow.png" alt="Wireflow del administrador" width="800">
 
-<img src="img/webApplicationUxDesign/wireflow/supervisor_WA_wireflow.png" alt=" supervisor WF" width="800">
+**Wireflow del supervisor.** Parte del inicio de sesión y recorre el ciclo de una operación: el listado de operaciones, la creación de una operación, sus puntos de entrega, las incidencias y el historial.
 
+<img src="img/webApplicationUxDesign/wireflow/supervisor_WA_wireflow.png" alt="Wireflow del supervisor" width="800">
 
 <a id="443-web-applications-mock-ups"></a>
 ### 4.4.3. Web Applications Mock-ups.
 
-**Administrador**
+Los mock-ups aplican el design system sobre los wireframes. La barra lateral usa el color `--chrome` para separar visualmente la navegación del contenido, los botones principales usan `--primary` y los estados de las operaciones y de las incidencias se muestran como etiquetas con color y texto.
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_login_WA_wireframe.png" alt=" supervisor WF" width="800">
+**Administrador.** Inicio de sesión, dashboard, gestión de usuarios y gestión de la flota.
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin1_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_login_WA_wireframe.png" alt="Mock-up de la vista de inicio de sesión" width="800">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin2_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin1_WA_wireframe.png" alt="Mock-up del dashboard del administrador" width="800">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin3_WA_wireframe.png" alt=" supervisor WF" width="500">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin2_WA_wireframe.png" alt="Mock-up de la gestión de usuarios" width="800">
 
-**Supervisor**
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_admin3_WA_wireframe.png" alt="Mock-up de la gestión de la flota" width="500">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super1_WA_wireframe.png" alt=" supervisor WF" width="800">
+**Supervisor.** Listado de operaciones, detalle de una operación con el progreso de sus entregas, creación de una operación e incidencias.
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super2_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super1_WA_wireframe.png" alt="Mock-up del listado de operaciones" width="800">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super3_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super2_WA_wireframe.png" alt="Mock-up del detalle de una operación" width="800">
 
-<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super4_WA_wireframe.png" alt=" supervisor WF" width="800">
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super3_WA_wireframe.png" alt="Mock-up de la creación de una operación" width="800">
 
+<img src="img/webApplicationUxDesign/mock-ups-wireframe/mockup_super4_WA_wireframe.png" alt="Mock-up de las incidencias" width="800">
 
 <a id="444-web-applications-user-flow-diagrams"></a>
 ### 4.4.4. Web Applications User Flow Diagrams.
 
-**Admninistrador**
+Los User Flow Diagrams muestran, para cada User Goal, el recorrido que sigue el usuario sobre los mock-ups, incluyendo el camino principal y los caminos alternativos.
 
-<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_admin_WA_wireflow.png" alt=" supervisor WF" width="800">
+| User Goal | Rol | Happy path | Flujos alternativos |
+| :-------- | :-- | :--------- | :------------------ |
+| Crear y despachar una operación de transporte | Supervisor | Operaciones → Nueva operación → Datos → Vehículo disponible → Conductor disponible → Puntos de entrega → Guardar | No hay vehículos disponibles: la vista lo informa y ofrece volver al listado. Falta un dato obligatorio: el formulario marca el campo y no avanza. El supervisor cancela: la operación no se registra. |
+| Registrar el resultado de una entrega | Supervisor | Operación en curso → Punto de entrega → Completada | Entrega parcial: se registra la cantidad entregada y el motivo. Entrega no realizada: se registra el motivo. |
+| Registrar una incidencia con evidencia | Supervisor | Operación → Registrar incidencia → Tipo y descripción → Adjuntar foto → Guardar | La foto supera el tamaño permitido: se informa el límite. Falta el tipo de incidencia: no se permite guardar. |
+| Gestionar los usuarios de la empresa | Administrador | Dashboard → Usuarios → Nuevo usuario → Asignar rol → Guardar | El correo ya está registrado: se informa y no se crea el usuario. |
+| Iniciar sesión | Ambos | Login → Credenciales válidas → Dashboard según rol | Credenciales inválidas: se muestra el error y se mantiene el correo ingresado. |
+
+**Administrador**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_admin_WA_wireflow.png" alt="User flow del administrador sobre los mock-ups" width="800">
 
 **Supervisor**
 
-<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_super_WA_wireflow.png" alt=" supervisor WF" width="800">
-
-
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_super_WA_wireflow.png" alt="User flow del supervisor sobre los mock-ups" width="800">
 
 <a id="45-web-applications-prototyping"></a>
 ## 4.5. Web Applications Prototyping.
 
-<img src="img/webApplicationUxDesign/prototype_WA.png" alt=" supervisor WF" width="800">
+El prototipo navegable se construyó en Figma conectando los mock-ups de la sección 4.4.3. Permite recorrer el inicio de sesión, el dashboard, la creación de una operación, el detalle de sus entregas y el registro de incidencias, y se utilizará en las entrevistas de validación de la sección 5.3.
+
+<img src="img/webApplicationUxDesign/prototype_WA.png" alt="Prototipo navegable de la Web Application en Figma" width="800">
 
 <a id="46-domain-driven-software-architecture"></a>
 ## 4.6. Domain-Driven Software Architecture.
 
+La arquitectura de BottleTrack se diseñó con Domain-Driven Design. El dominio se divide en cinco bounded contexts, cada uno con su propio lenguaje, sus agregados y su conjunto de tablas: **Identity and Access Management**, **Fleet Management**, **Operations and Routes**, **IoT Monitoring** e **Incident Management**. Los cuatro primeros corresponden a las capacidades del producto; IoT Monitoring se separa de Operations and Routes porque maneja datos de alta frecuencia e inmutables, tiene un vocabulario propio (lectura, rango seguro, alerta) y cambia por razones distintas, como el proveedor de los dispositivos.
+
+El Backend API se organiza como un **monolito modular**: un solo despliegue con un módulo por bounded context. Cada módulo aplica **arquitectura hexagonal** (puertos y adaptadores):
+
+| Capa | Contenido | Rol en la arquitectura hexagonal |
+| :--- | :-------- | :------------------------------- |
+| Interfaces | Controllers REST y manejadores de eventos | Adaptadores de entrada |
+| Application | Command Services y Query Services | Implementan los puertos de entrada y orquestan los casos de uso |
+| Domain | Agregados, entidades, value objects, eventos de dominio e interfaces de repositorio | Núcleo del negocio, sin dependencias de frameworks. Declara los puertos de salida |
+| Infrastructure | Repositorios con Entity Framework Core, cliente del servicio de mapas, emisión de tokens | Adaptadores de salida que implementan los puertos del dominio |
+
+Los bounded contexts no acceden a las tablas de los demás. Se comunican a través de **facades** (por ejemplo, Operations and Routes reserva un vehículo mediante la facade de Fleet Management) o de **eventos de dominio** (IoT Monitoring publica `AlertRaised` e Incident Management abre una incidencia).
+
 <a id="461-design-level-event-storming"></a>
 ### 4.6.1. Design-level Event Storming.
-<img src="img/chapter4/design-level-eventstorming.jpeg" alt="Design Level EventStorming">
+
+El Design-Level EventStorming parte de los eventos del Big Picture de la sección 2.4 y los agrupa por bounded context. Para cada contexto se identificaron los **agregados** (amarillo), los **comandos** que reciben (azul), los **eventos de dominio** que publican (naranja), las **políticas** que reaccionan a esos eventos (morado) y los **read models** que consultan los usuarios (verde). Las políticas definen las reglas que cruzan contextos, por ejemplo: *cuando se completa una operación, liberar el vehículo y el conductor*, o *cuando se levanta una alerta crítica, abrir una incidencia*.
+
+El tablero se encuentra disponible en: https://miro.com/welcomeonboard/aEpQNnI1bURVdldqRzNDWk5aUnR6bStSQnhiSmpuYi9RM01sVkxtOWNsM3V5T1NkRW5pdHFuZ003VHcrV0hxR29tQ0xvRTJHV1VNTzNYUWV1VmwyWUZGRzlld2tuSnZKRTNrM3RnczNnc0NMQWt2WlB6WnEzRXBES1h0d2svaStnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=491275847129
+
+<img src="img/chapter4/design-level-eventstorming.jpeg" alt="Design-Level EventStorming con los cinco bounded contexts de BottleTrack">
 
 <a id="462-software-architecture-context-diagram"></a>
 ### 4.6.2. Software Architecture Context Diagram.
 
-![contextdiagram](img/DD-SoftwareArchitecture/contextDiagram.png)
+El diagrama de contexto muestra a BottleTrack como una caja negra y su relación con las personas y los sistemas externos. Sus usuarios son el administrador de la distribuidora, el supervisor de flota y el responsable de la bodega. El conductor aparece como actor del dominio que reporta al supervisor, pero no usa la aplicación. Los sistemas externos son los dispositivos IoT instalados en los vehículos y el servicio de mapas y geolocalización, que constituye el servicio de terceros que consume la solución.
 
-En el centro se encuentra el sistema BottleTrack, que interactúa principalmente con tres tipos de usuarios: el Administrator, el Fleet Supervisor y el Driver. 
-Cada uno utiliza el sistema según sus responsabilidades dentro de la operación de distribución. Además, BottleTrack recibe información del Vehicle IoT Device para obtener datos de telemetría de los vehículos.
+Los diagramas C4 se elaboraron con Structurizr DSL; el código fuente de cada diagrama se encuentra junto a su imagen en la carpeta `img/DD-SoftwareArchitecture` del repositorio.
+
+<img src="img/DD-SoftwareArchitecture/contextDiagram.png" alt="Diagrama de contexto C4 de BottleTrack" width="800">
 
 <a id="463-software-architecture-container-diagrams"></a>
 ### 4.6.3. Software Architecture Container Diagrams.
 
-![containerdiagram](img/DD-SoftwareArchitecture/containerDiagram.png)
+El diagrama de contenedores muestra las unidades desplegables de la solución:
 
-Aqui hacemos un zoom dentro de BottleTrack para mostrar sus principales containers. Tenemos la Landing Page, la Web Application, el Backend API y la Database. La Web Application utiliza Vue.js y PrimeVue, el Backend API utiliza ASP.NET Core, C# y Entity Framework Core, y la información se almacena en PostgreSQL. 
-La Web Application se comunica con el Backend API mediante HTTPS y JSON, mientras que el Backend API gestiona el acceso a la base de datos.
+| Contenedor | Tecnología | Despliegue |
+| :--------- | :--------- | :--------- |
+| Landing Page | HTML5, CSS3, JavaScript | Netlify |
+| Web Application | Vue 3, PrimeVue, Pinia, Vue Router, vue-i18n, axios | Vercel |
+| Backend API | ASP.NET Core, C#, Entity Framework Core, documentado con OpenAPI | Proveedor de nube |
+| Database | MySQL | Proveedor de nube |
+
+El Landing Page redirige a cada segmento a su vista de la Web Application. La Web Application consume el Backend API mediante HTTPS y JSON, y el Backend API es el único contenedor que accede a la base de datos y al servicio de mapas.
+
+<img src="img/DD-SoftwareArchitecture/containerDiagram.png" alt="Diagrama de contenedores C4 de BottleTrack" width="800">
 
 <a id="464-software-architecture-components-diagrams"></a>
 ### 4.6.4. Software Architecture Components Diagrams.
 
-![component1](img/DD-SoftwareArchitecture/componentIAM_D.png)
+Se elaboró un diagrama de componentes por bounded context. Todos siguen la misma estructura hexagonal: un controller como adaptador de entrada, un command service y un query service en la capa de aplicación, el modelo de dominio con sus agregados, la interfaz del repositorio como puerto de salida (borde punteado) y el repositorio de Entity Framework Core como adaptador que lo implementa.
 
-Este diagrama representa la estructura interna del Bounded Context de Identidad y Accesos. Su función es gestionar la organización, los usuarios, los roles y la autenticación dentro de BottleTrack. El Controller recibe las solicitudes, el Service coordina la lógica de negocio y los Repository gestionan la persistencia de la información.
-<hr>
+**Identity and Access Management.** Gestiona la organización, los usuarios, sus roles y la autenticación. Incluye un servicio de tokens como adaptador de salida para emitir y validar JSON Web Tokens.
 
-![component2](img/DD-SoftwareArchitecture/componentFleetM_D.png)
+<img src="img/DD-SoftwareArchitecture/componentIAM_D.png" alt="Diagrama de componentes de Identity and Access Management" width="800">
 
-Este diagrama representa la estructura interna del Bounded Context de Gestión de Flota. Su función es administrar los vehículos y conductores, incluyendo su registro, instalación de dispositivos IoT y disponibilidad de los vehículos. El Controller recibe las solicitudes, el Service gestiona la lógica del negocio y los Repository se encargan de la persistencia de la información.
-<hr>
+**Fleet Management.** Gestiona los vehículos y los conductores y su disponibilidad. Expone una facade para que Operations and Routes reserve y libere recursos sin acceder a sus tablas.
 
-![component3](img/DD-SoftwareArchitecture/componentO&R_D.png)
+<img src="img/DD-SoftwareArchitecture/componentFleetM_D.png" alt="Diagrama de componentes de Fleet Management" width="800">
 
-Este diagrama representa la estructura interna del Bounded Context de Operaciones y Rutas. Su función es gestionar las operaciones de transporte, los puntos de entrega y los envíos, desde la creación y asignación de una operación hasta el despacho y la confirmación de las entregas. El Controller recibe las solicitudes, el Service coordina la lógica de negocio y los Repository gestionan la persistencia de cada elemento.
-<hr>
+**Operations and Routes.** Es el core del dominio. Gestiona el ciclo de vida de la operación de transporte, sus puntos de entrega y el resultado de cada entrega. Su capa anticorrupción traduce las llamadas a Fleet Management y al servicio de mapas.
 
-![component4](img/DD-SoftwareArchitecture/componentIoTM_D.png)
+<img src="img/DD-SoftwareArchitecture/componentO&R_D.png" alt="Diagrama de componentes de Operations and Routes" width="800">
 
-Este diagrama representa la estructura interna del Bounded Context de IoT Monitoring de BottleTrack. Su función es gestionar los dispositivos IoT registrados, las lecturas de sensores y las alertas generadas a partir de los rangos configurados. Se mantiene como un módulo interno del Backend API, ya que BottleTrack utiliza una arquitectura de modular monolith.
-<hr>
+**IoT Monitoring.** Recibe las lecturas de los dispositivos, las evalúa contra el rango seguro y levanta alertas. Publica el evento `AlertRaised` para que Incident Management actúe.
 
-![component5](img/DD-SoftwareArchitecture/componentIM_D.png)
-Representa la estructura interna de Incident Management, encargado de gestionar los incidentes, las evidencias asociadas, su severidad, revisión, resolución y cierre. Los agregados definidos en el reporte son Incident y Evidence.
-<hr>
+<img src="img/DD-SoftwareArchitecture/componentIoTM_D.png" alt="Diagrama de componentes de IoT Monitoring" width="800">
 
+**Incident Management.** Gestiona las incidencias, su evidencia, su severidad y su resolución. Abre incidencias a partir de los reportes del supervisor, de la bodega o de las alertas de IoT Monitoring.
+
+<img src="img/DD-SoftwareArchitecture/componentIM_D.png" alt="Diagrama de componentes de Incident Management" width="800">
 
 <a id="47-software-object-oriented-design"></a>
 ## 4.7. Software Object-Oriented Design.
 
-###  4.7.1 Class Diagrams
+<a id="471-class-diagrams"></a>
+### 4.7.1. Class Diagrams.
 
-Visualización general del diagrama de clases:
+El diagrama de clases representa el modelo de dominio de cada bounded context. Sigue las convenciones de C#: clases, enumeraciones y métodos en PascalCase, atributos en camelCase y todos los nombres en inglés, tomados del Ubiquitous Language de la sección 2.5. Cada clase se marca con su estereotipo de DDD (*Aggregate Root*, *Entity* o *Value Object*). Las relaciones entre contextos se representan con dependencias por identificador, ya que un agregado nunca contiene a otro de un contexto distinto.
 
-<img src="img/Software-Object-Oriented-Design/ClassDiagrams.png" alt="Class Diagrams" width="800">
+El diagrama se elaboró como Diagram-as-Code con PlantUML; su fuente es `img/Software-Object-Oriented-Design/class-diagrams.puml`.
 
-[Ver Diagrama de Arquitectura](https://lucid.app/lucidchart/ea3b075d-44d9-4fb0-a58f-6d6c2762bf85/edit?viewport_loc=-1138%2C-648%2C9955%2C6088%2C0_0&invitationId=inv_15a7c100-9dc0-469a-a127-a7b60c647f1e)
-<hr>
+<img src="img/Software-Object-Oriented-Design/ClassDiagrams.png" alt="Diagrama de clases completo de BottleTrack" width="800">
 
-### 1. Identity and Access
+**Identity and Access Management.** `Organization` y `User` son agregados independientes; el rol del usuario determina las vistas a las que accede.
 
-Gestiona las organizaciones y usuarios que forman parte de BottleTrack. Permite registrar la información de la empresa, crear usuarios, asignar roles y controlar su estado de acceso dentro de la plataforma.
-<img src="img/Software-Object-Oriented-Design/I&A_database.png" alt="Identity and Access class" width="800">
+<img src="img/Software-Object-Oriented-Design/class-identity-access.png" alt="Diagrama de clases de Identity and Access Management" width="800">
 
-### 2. Fleet Management
+**Fleet Management.** `Vehicle` y `Driver` controlan su propia disponibilidad mediante `Reserve` y `Release`.
 
-Gestiona los vehículos y conductores pertenecientes a una organización. Permite registrar sus datos, controlar su disponibilidad y estado, además de asociar dispositivos IoT a los vehículos.
+<img src="img/Software-Object-Oriented-Design/class-fleet-management.png" alt="Diagrama de clases de Fleet Management" width="800">
 
-<img src="img/Software-Object-Oriented-Design/FleetManagement_database.png" alt="Fleet Management class" width="800">
+**Operations and Routes.** `TransportOperation` es la raíz de agregado y contiene sus `DeliveryStop`. Toda modificación de una parada pasa por la operación, que valida las transiciones de estado y calcula el avance.
 
-### 3. IoT Monitoring
+<img src="img/Software-Object-Oriented-Design/class-operations-routes.png" alt="Diagrama de clases de Operations and Routes" width="800">
 
-Gestiona los dispositivos IoT instalados en los vehículos y las lecturas obtenidas durante su operación. Permite registrar ubicación, temperatura e impactos, así como generar y gestionar alertas ante condiciones fuera de los rangos establecidos.
+**IoT Monitoring.** `IoTDevice` evalúa cada `SensorReading` contra su `SafeRange` y genera una `Alert` cuando la lectura sale del rango o supera el umbral de impacto.
 
-<img src="img/Software-Object-Oriented-Design/IoTMonitoring_database.png" alt="IoT Monitoring class" width="800">
+<img src="img/Software-Object-Oriented-Design/class-iot-monitoring.png" alt="Diagrama de clases de IoT Monitoring" width="800">
 
-### 4. Operations and Routes
+**Incident Management.** `Incident` contiene sus `Evidence` y registra su origen: el supervisor, la bodega o una alerta IoT.
 
-Gestiona las operaciones de transporte desde su creación hasta su finalización. Permite asignar vehículos y conductores, definir puntos de entrega, registrar envíos y controlar el estado de cada operación y entrega.
+<img src="img/Software-Object-Oriented-Design/class-incident-management.png" alt="Diagrama de clases de Incident Management" width="800">
 
-<img src="img/Software-Object-Oriented-Design/Op&Routes_database.png" alt="Operations and Routes class" width="800">
-
-### 5. Incident Management
-
-Gestiona las incidencias que se presentan durante las operaciones de transporte. Permite registrar el problema, adjuntar evidencias, asignar su severidad, realizar su seguimiento y controlar su resolución y cierre.
-
-<img src="img/Software-Object-Oriented-Design/IncidentManagement_database.png" alt="Incident Management class" width="800">
-
-
-# 4.8. Database Design
-
-### 4.8.1. Database Diagrams.
-
-<p align="center">
-    <img src="img/DatabaseDiagrams.png" alt="DatabaseDiagrams.png" width="80%">
-</p>
-En esta sección se presentan los diagramas de base de datos correspondientes a cada Bounded Context del sistema. Los diagramas muestran las tablas, sus columnas, tipos de datos, claves primarias y foráneas, así como las relaciones entre las tablas, garantizando la persistencia correcta de la información.
+<a id="48-database-design"></a>
+## 4.8. Database Design.
 
 <a id="481-database-diagrams"></a>
 ### 4.8.1. Database Diagrams.
 
-<img src="img/Database-Design/DatabaseDiagrams.png" alt="Database Diagrams" width="800">
+El diagrama de base de datos corresponde al esquema relacional en MySQL. Las tablas se agrupan por bounded context y siguen una convención única: nombres de tablas en inglés, en plural y en snake_case, y columnas en snake_case. Las claves primarias son identificadores `CHAR(36)` generados por la aplicación, las claves foráneas se nombran como `<entidad>_id` y los estados se almacenan como `ENUM` con los mismos valores de las enumeraciones del diagrama de clases. La configuración de Entity Framework Core mapea las clases del dominio a estos nombres de tablas y columnas.
+
+El diagrama se elaboró como Diagram-as-Code con PlantUML; su fuente es `img/Database-Design/database-diagram.puml`.
+
+<img src="img/Database-Design/DatabaseDiagrams.png" alt="Diagrama de base de datos de BottleTrack" width="800">
 
 <hr>
 
@@ -1935,7 +2207,7 @@ A continuación se indican los productos de software que utiliza el equipo, el p
 
 | Producto | Propósito | Ruta de referencia |
 | :------- | :-------- | :----------------- |
-| GitHub Pages | Publicación del Landing Page. | https://pages.github.com |
+| Netlify | Publicación del Landing Page. | https://www.netlify.com |
 | Vercel | Publicación de la Frontend Web Application. | https://vercel.com |
 
 **Software Documentation**
@@ -1953,7 +2225,7 @@ El seguimiento de modificaciones se realiza con Git, gestionado desde GitHub. El
 | Repositorio | Contenido | URL |
 | :---------- | :-------- | :-- |
 | Landing-Page | Sitio web estático en HTML5, CSS3 y JavaScript. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page |
-| Frontend-Web-Application | Aplicación web desarrollada con Vue Framework. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Application |
+| Frontend-Web-Aplication | Aplicación web desarrollada con Vue Framework. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Aplication |
 | Web-Services | RESTful API en ASP.NET Core, incluyendo las pruebas unitarias y de aceptación. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Web-Services |
 | Report | Informe del proyecto en formato Markdown. | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report |
 
@@ -2039,21 +2311,21 @@ El código se escribe sin comentarios: la legibilidad se sostiene con nombres au
 
 **Landing Page**
 
-El Landing Page se publica en GitHub Pages a partir de la rama `main` del repositorio `Landing-Page`. Al tratarse de un sitio web estático sin proceso de construcción, no requiere configuración adicional. Los pasos son los siguientes:
+El Landing Page se publica en Netlify a partir de la rama `main` del repositorio `Landing-Page`, mediante la integración de Netlify con GitHub. Durante el Sprint 1 se publicó en GitHub Pages; desde el Sprint 2 se utiliza Netlify, que vuelve a publicar el sitio de forma automática ante cada integración en `main`. Al tratarse de un sitio web estático sin proceso de construcción, no requiere un comando de build. Los pasos son los siguientes:
 
 1. Integrar en `develop` las ramas de feature terminadas mediante un merge sin avance rápido.
 2. Crear la rama `release/<versión>` a partir de `develop`.
 3. Integrar la rama de release en `main`, etiquetar la versión con Semantic Versioning y publicar los cambios junto con la etiqueta.
-4. En la configuración del repositorio, en la sección Pages, seleccionar la publicación desde la rama `main` y el directorio raíz.
-5. Verificar la publicación en la URL entregada por GitHub Pages.
+4. En Netlify, importar el repositorio desde GitHub, seleccionar la rama `main`, dejar vacío el comando de construcción y publicar el directorio raíz.
+5. Verificar la publicación en la URL entregada por Netlify.
 
 **Frontend Web Application**
 
-La aplicación web se publica en Vercel a partir de la rama `main` del repositorio `Frontend-Web-Application`, mediante la integración de Vercel con GitHub. Los pasos son los siguientes:
+La aplicación web se publica en Vercel a partir de la rama `main` del repositorio `Frontend-Web-Aplication`, mediante la integración de Vercel con GitHub. Los pasos son los siguientes:
 
 1. Importar el repositorio desde el panel de Vercel.
 2. Configurar el comando de construcción y el directorio de salida que corresponden a un proyecto de Vue.
-3. Registrar la variable de entorno con la URL base de los Web Services.
+3. Registrar en el archivo `.env.production` la URL base del API. Mientras no existan los Web Services, apunta al fake API publicado en Beeceptor.
 4. Confirmar la publicación automática que Vercel ejecuta ante cada integración en `main`.
 
 Una vez publicada la aplicación, la URL definitiva se registra en los llamados a la acción de cada segmento objetivo del Landing Page, de modo que ambos productos queden enlazados.
@@ -2066,114 +2338,598 @@ Los Web Services se publicarán en un proveedor de nube junto con la base de dat
 <a id="52-landing-page-services-applications-implementation"></a>
 ## 5.2. Landing Page, Services & Applications Implementation.
 
-<a id="52x1-sprint-planning-n"></a>
-#### 5.2.1.1. Sprint Planning 1.
+<a id="52x-sprint-n"></a>
+### 5.2.1. Sprint 1
 
 <a id="52x1-sprint-planning-n"></a>
 #### 5.2.1.1. Sprint Planning 1.
 
-| Sprint 1                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Date**                            | 2026-09-02                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Time**                            | 5:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Location**                        | Via Discord                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Prepared By**                     | Crispin Valdivia, Angel Gabriel                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Attendees to planning meeting**   | Crispin Valdivia, Angel Gabriel; Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose; Huapaya Buitron, Ariana Alheli                                                                                                                                                                                                                                                                                            |
-| **Sprint 1 Review Summary**         | Durante este sprint el equipo completó la documentación de arquitectura y diseño del producto (C4 Model, Class Diagram, Database Diagram, User Stories y Product Backlog), y desarrolló e implementó la Landing Page de BottleTrack (wireframe y mock-up de alta fidelidad, con estructura de navegación y presentación de la propuesta de valor). Las funcionalidades de la Web Application correspondientes a este sprint (gestión de identidad, usuarios y empresa) quedaron únicamente a nivel de diseño en Figma; su implementación en frontend y backend no se completó y pasa al siguiente sprint. |
-| **Sprint 1 Retrospective Summary**  | La retrospectiva evidenció que el equipo comprometió más trabajo del que pudo completar en el sprint: se planificó implementar la gestión de identidad, usuarios y empresa, pero el tiempo se concentró en cerrar la documentación técnica y la Landing Page, dejando el diseño en Figma de la Web Application sin pasar a código. El equipo concluyó que, para el siguiente sprint, el diseño en Figma de cada pantalla debe cerrarse *antes* de iniciar su implementación, y que la estimación de story points debe considerar el tiempo dedicado a documentación como trabajo real del equipo, no como actividad paralela sin costo. |
-| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Sprint 1 Goal**                   | Habilitar la base funcional de BottleTrack implementando la gestión de identidad, usuarios y empresa, junto con la Landing Page del producto. El objetivo se valida cuando un usuario puede autenticarse correctamente, un administrador puede gestionar usuarios y roles dentro de su empresa, y la Landing Page comunica la propuesta de valor de forma navegable y responsiva.                                                                                                                                                                |
-| **Sprint 1 Velocity**               | 8                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Sum of Story Points**             | 27                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sprint #  | Sprint 1 |
+| :-------- | :------- |
+| **Sprint Planning Background** | |
+| Date | 2026-09-02 |
+| Time | 5:00 PM |
+| Location | Reunión virtual por Discord |
+| Prepared By | Crispin Valdivia, Angel Gabriel |
+| Attendees (to planning meeting) | Crispin Valdivia, Angel Gabriel; Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose; Huapaya Buitron, Ariana Alheli |
+| Sprint 0 Review Summary | Es el primer Sprint del proyecto, por lo que no existe un Sprint anterior que revisar. |
+| Sprint 0 Retrospective Summary | Es el primer Sprint del proyecto, por lo que no existe una retrospectiva anterior. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | *Our focus is on* que los visitantes de los segmentos objetivo comprendan la propuesta de BottleTrack y encuentren su camino hacia la aplicación, mientras se preparan las bases de acceso de la Web Application.<br>*We believe it delivers* claridad sobre el problema que resolvemos y un punto de entrada por segmento *to* administradores de distribuidoras y supervisores de flota.<br>*This will be confirmed when* el Landing Page está publicado, se puede recorrer en inglés y en español desde escritorio y móvil, y cada segmento cuenta con su llamada a la acción. |
+| Sprint 1 Velocity | 27 |
+| Sum of Story Points | 27 |
 
 <a id="52x2-aspect-leader-and-colaborators"></a>
-#### 5.2.1.2. Aspect Leader and Colaborators.
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
-Durante este cuarto sprint, el equipo se enfocó principalmente en la consolidación de la plataforma, priorizando la resolución de errores detectados en sprints previos, el reforzamiento de la seguridad mediante el control de accesos y el refinamiento general de las funcionalidades para asegurar un sistema estable.
+Durante el Sprint 1 el equipo se organizó por aspectos, de modo que cada integrante condujo el área en la que tenía mayor conocimiento y colaboró en las demás. La matriz de Liderazgo y Colaboración (LACX) refleja la asignación acordada en el Sprint Planning y es coherente con las tareas del Sprint Backlog y con el historial de commits.
 
-Con el objetivo de optimizar la organización y la colaboración del equipo, se actualizó la matriz de Liderazgo y Colaboración (LACX), la cual asigna responsabilidades y roles específicos a cada miembro del equipo en relación con los aspectos clave abordados durante este cuarto Sprint.
-
-| Team Member <br> (Last Name, First Name) | Github Username | Resolución de errores de sprints previos <br> Leader (L) / Collaborator (C) | Seguridad, control de accesos y optimización de rendimiento <br> Leader (L) / Collaborator (C) | Refinamiento de funcionalidades y ajustes finales <br> Leader (L) / Collaborator (C) |
-|---|---|---|---|---|
-|Crispin Valdivia, Angel Gabriel|FaureGalliard | L | L | L |
-|Cumba Rengifo, Leonardo Raul| LeonardoC72 | C | C | C |
-|Palacin Lazo, Gerardo Valentin| GerardoPalacin03 | C | C | C |
-|Pezo Castilla, Maria Jose| MariaJosePezo | C | C | C |
-|Huapaya Buitron, Ariana Alheli | xxxx | C | C | C |
-
+| Team Member (Last Name, First Name) | GitHub Username | Requirements Specification | Needfinding & Impact Mapping | UX/UI Design | Software Architecture | Landing Page & Configuration Management |
+| :---------------------------------- | :-------------- | :-----: | :-----: | :-----: | :-----: | :-----: |
+| Crispin Valdivia, Angel Gabriel | FaureGalliard | C | C | C | C | L |
+| Cumba Rengifo, Leonardo Raul | LeonardoC72 | L | C | C | C | C |
+| Palacin Lazo, Gerardo Valentin | GeraldP03 | C | C | L | L | C |
+| Pezo Castilla, Maria Jose | MariaJosePezo | C | L | C | C | C |
+| Huapaya Buitron, Ariana Alheli | — | — | — | — | — | — |
 
 <a id="52x3-sprint-backlog-n"></a>
 #### 5.2.1.3. Sprint Backlog 1.
 
-| User Story ID | User Story Título | Task ID | Task Título | Descripción | Estimación (Horas) | Asignado a | Estado (To do/In-Process/To-Review/Done) |
-| --- | --- | --- | --- | --- | ---: | --- | --- |
-| US-01 | Conocer BottleTrack | UT-01 | Maquetar sección Hero | Diseñar y maquetar la sección Hero de la Landing Page que comunique la propuesta de valor de BottleTrack. | 3 | Angel Crispin | Done |
-| US-01 | Conocer BottleTrack | UT-02 | Maquetar sección "El problema" | Diseñar y maquetar la sección que describe el problema que resuelve BottleTrack (pérdidas en la ruta, falta de visibilidad). | 2 | Leonardo Cumba | Done |
-| US-02 | Conocer beneficios por segmento | UT-01 | Maquetar sección "Qué hace BottleTrack" | Diseñar las tarjetas de capacidades del producto (seguimiento de entregas y monitoreo IoT, reporte de incidencias). | 2 | Gerardo Palacin | Done |
-| US-02 | Conocer beneficios por segmento | UT-02 | Maquetar sección "Para quién es" | Diseñar las tarjetas de segmentos objetivo (supervisores de logística, jefes de distribución). | 2 | Maria Pezo | Done |
-| US-03 | Acceder a la aplicación | UT-01 | Crear navbar y botón CTA | Implementar la barra de navegación con el botón "Comenzar" que redirige al Login de la plataforma. | 2 | Angel Crispin | Done |
-| US-09 | Gestionar información de empresa | UT-01 | Diseñar en Figma pantalla de empresa | Diseñar en Figma la pantalla de configuración/edición de la información de la empresa distribuidora. | 2 | Maria Pezo | Done |
-| US-09 | Gestionar información de empresa | UT-02 | Implementar edición de datos de empresa | Desarrollar el formulario y el servicio para actualizar la información de la empresa. | 3 | Maria Pezo | To Do |
-| US-07 | Gestionar usuarios | UT-01 | Diseñar en Figma pantallas de usuarios | Diseñar en Figma el listado, registro y edición de usuarios de la empresa. | 3 | Leonardo Cumba | Done |
-| US-07 | Gestionar usuarios | UT-02 | Implementar CRUD de usuarios | Desarrollar el registro, listado y edición de usuarios en frontend y backend. | 5 | Leonardo Cumba | To Do |
-| US-08 | Asignar rol a usuario | UT-01 | Diseñar en Figma selector de rol | Diseñar en Figma el control para asignar rol (Administrador/Supervisor) dentro del formulario de usuario. | 1.5 | Leonardo Cumba | Done |
-| US-08 | Asignar rol a usuario | UT-02 | Implementar asignación de rol | Desarrollar la asignación de rol en backend y su reflejo en el frontend. | 2.5 | Gerardo Palacin | To Do |
-| US-04 | Iniciar sesión | UT-01 | Diseñar en Figma pantalla de Login | Diseñar en Figma la pantalla de inicio de sesión con validación de credenciales. | 2 | Gerardo Palacin | Done |
-| US-04 | Iniciar sesión | UT-02 | Implementar autenticación | Desarrollar el formulario de login, su validación y el servicio de autenticación en backend. | 5 | Angel Crispin | To Do |
-| US-05 | Cerrar sesión | UT-01 | Implementar cierre de sesión | Desarrollar la invalidación de la sesión activa al cerrar sesión. | 1 | Angel Crispin | To Do |
-| US-06 | Consultar perfil | UT-01 | Diseñar en Figma pantalla de perfil | Diseñar en Figma la pantalla de consulta de datos del perfil del usuario. | 1 | Gerardo Palacin | Done |
-| US-06 | Consultar perfil | UT-02 | Implementar consulta de perfil | Desarrollar el servicio y la vista que muestran los datos del perfil autenticado. | 1.5 | Maria Pezo | To Do |
+El Sprint 1 comprometió las User Stories del Landing Page y las de acceso e identidad de la Web Application, de acuerdo con el Sprint Goal. Cada User Story se descompuso en tareas de entre 4 y 8 horas. El tablero del Sprint se administró en Trello y se encuentra disponible en: https://trello.com/b/jGpO815B/bottletrack-product-backlog
 
-link: 
-
-https://trello.com/invite/b/6aad94b717b9b2347dd4d8e0/ATTIba07b47b67a6659798dd9dad4326f9e659F64594/sprint-1
+| Sprint # | Sprint 1 | | | | | | |
+| :------- | :------- | :- | :- | :- | :- | :- | :- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US01 | Conocer BottleTrack | T01 | Design system and style guide | Definir los tokens de color, tipografía y espaciado, los componentes base y la vista de style guide. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US01 | Conocer BottleTrack | T02 | Hero and problem sections | Implementar la sección hero con la propuesta de valor y la sección del problema. | 6 | Crispin Valdivia, Angel Gabriel | Done |
+| US01 | Conocer BottleTrack | T03 | English and Spanish translation | Implementar los diccionarios en_US y es_419 con detección del idioma del navegador y persistencia de la preferencia. | 6 | Crispin Valdivia, Angel Gabriel | Done |
+| US02 | Conocer beneficios por segmento | T01 | Features and how it works sections | Implementar las tarjetas de capacidades y la explicación del funcionamiento del producto. | 5 | Crispin Valdivia, Angel Gabriel | Done |
+| US02 | Conocer beneficios por segmento | T02 | Landing page UI design | Elaborar en Figma el wireframe y el mock-up del Landing Page. | 6 | Palacin Lazo, Gerardo Valentin | Done |
+| US03 | Acceder a la aplicación | T01 | Responsive navigation and segment calls to action | Implementar la navegación adaptable y las llamadas a la acción de cada segmento hacia la Web Application. | 5 | Crispin Valdivia, Angel Gabriel | Done |
+| US03 | Acceder a la aplicación | T02 | Terms of service and footer | Redactar los términos y condiciones de servicio y enlazarlos desde el pie de página. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US03 | Acceder a la aplicación | T03 | Deployment to GitHub Pages | Configurar GitHub Pages y publicar el release v0.1.0 desde la rama release/0.1.0. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US04 | Iniciar sesión | T01 | Login and profile UI design | Diseñar en Figma las vistas de inicio de sesión y de perfil. | 4 | Palacin Lazo, Gerardo Valentin | Done |
+| US04 | Iniciar sesión | T02 | Sign in implementation | Implementar el formulario de inicio de sesión y el servicio de autenticación. | 8 | Crispin Valdivia, Angel Gabriel | To-do |
+| US05 | Cerrar sesión | T01 | Sign out implementation | Implementar el cierre de sesión e invalidar la sesión activa. | 4 | Crispin Valdivia, Angel Gabriel | To-do |
+| US06 | Consultar perfil | T01 | Profile view implementation | Implementar la vista y el servicio que muestran el perfil del usuario autenticado. | 4 | Pezo Castilla, Maria Jose | To-do |
+| US07 | Gestionar usuarios | T01 | Users UI design | Diseñar en Figma el listado, el registro y la edición de usuarios. | 6 | Cumba Rengifo, Leonardo Raul | Done |
+| US07 | Gestionar usuarios | T02 | Users management implementation | Implementar el registro, el listado y la edición de usuarios. | 8 | Cumba Rengifo, Leonardo Raul | To-do |
+| US08 | Asignar rol a usuario | T01 | Role assignment implementation | Implementar la asignación del rol de administrador o supervisor. | 5 | Palacin Lazo, Gerardo Valentin | To-do |
+| US09 | Gestionar información de empresa | T01 | Company settings UI design | Diseñar en Figma la vista de configuración de la empresa. | 4 | Pezo Castilla, Maria Jose | Done |
+| US09 | Gestionar información de empresa | T02 | Company settings implementation | Implementar el formulario y el servicio para actualizar los datos de la empresa. | 5 | Pezo Castilla, Maria Jose | To-do |
 
 <a id="52x4-development-evidence-for-sprint-review"></a>
-#### 5.2.x.4. Development Evidence for Sprint Review.
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+En el Sprint 1 se implementó el Landing Page en el repositorio https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page siguiendo GitFlow: cada funcionalidad se desarrolló en una rama `feature/*` creada desde `develop`, se integró con merges `--no-ff` y se publicó desde la rama `release/0.1.0` con el tag `v0.1.0`. La siguiente tabla presenta los commits de la iteración.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :------------------ |
+| Landing-Page | main | 76546df | chore: initialize landing page repository | — | 2026-09-01 |
+| Landing-Page | feature/design-system | 387d995 | feat(design-system): add color, typography and spacing tokens | — | 2026-09-01 |
+| Landing-Page | feature/design-system | 347abc9 | feat(design-system): add reset, element defaults and layout utilities | — | 2026-09-01 |
+| Landing-Page | feature/design-system | bd041ec | feat(design-system): add button, card, chip and input components | — | 2026-09-01 |
+| Landing-Page | feature/design-system | e53ea73 | feat(style-guide): add style guide page styles | — | 2026-09-01 |
+| Landing-Page | feature/design-system | 971d12d | feat(style-guide): add copy to clipboard for color tokens | — | 2026-09-01 |
+| Landing-Page | feature/design-system | db11e4f | docs(design-system): add living style guide page | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 072a531 | feat(layout): add site header, navigation and footer styles | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 0aa1a2d | feat(landing): add hero, features and segments section styles | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 520176d | feat(i18n): add english and spanish dictionaries | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 0e81a16 | feat(i18n): add language switching with browser detection and persistence | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 6b31440 | feat(landing): add responsive navigation toggle | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 4bdb386 | feat(landing): add home page with segment calls to action | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 1a38b64 | feat(legal): add terms and conditions of service page | — | 2026-09-01 |
+| Landing-Page | feature/landing-page | 91b5085 | docs: describe landing page structure and conventions | — | 2026-09-01 |
+| Landing-Page | feature/about-the-team-video | a0da10b | refactor(landing): replace team member cards with about the team video | — | 2026-09-03 |
+| Landing-Page | feature/about-the-team-video | 7b3662f | docs: set github pages as the deployment target | — | 2026-09-03 |
 
 <a id="52x5-execution-evidence-for-sprint-review"></a>
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
-Se evidencia el avance del primer sprint por medio del desarrollo del los capitulos del reporte asi tambien como la creación de un landing page que evidencia nos de a conocer y el modelo de negocio. 
-Por medio de este enlace: https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/
+Al cierre del Sprint 1 el Landing Page se encuentra publicado en https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/. La versión implementa la sección hero con la propuesta de valor, la sección del problema, las capacidades del producto, el funcionamiento en tres pasos, los segmentos objetivo con su llamada a la acción, el video About the Team y el pie de página con los términos y condiciones. El contenido se presenta en inglés por defecto y en español latinoamericano mediante el selector de idioma, y la disposición se adapta a escritorio y a móvil.
+
+**Vista de escritorio**
+
+<img src="img/chapter5/landing-desktop-1.png" alt="Landing Page de BottleTrack en escritorio, parte 1 de 3" width="800">
+
+<img src="img/chapter5/landing-desktop-2.png" alt="Landing Page de BottleTrack en escritorio, parte 2 de 3" width="800">
+
+<img src="img/chapter5/landing-desktop-3.png" alt="Landing Page de BottleTrack en escritorio, parte 3 de 3" width="800">
+
+**Vista móvil**
+
+<table>
+<tr>
+<td><img src="img/chapter5/landing-mobile-1.png" alt="Landing Page de BottleTrack en móvil, parte 1 de 3" width="220"></td>
+<td><img src="img/chapter5/landing-mobile-2.png" alt="Landing Page de BottleTrack en móvil, parte 2 de 3" width="220"></td>
+<td><img src="img/chapter5/landing-mobile-3.png" alt="Landing Page de BottleTrack en móvil, parte 3 de 3" width="220"></td>
+</tr>
+</table>
+
+**Términos y condiciones de servicio**
+
+<img src="img/chapter5/landing-terms-1.png" alt="Vista de términos y condiciones de servicio, parte 1 de 2" width="800">
+
+<img src="img/chapter5/landing-terms-2.png" alt="Vista de términos y condiciones de servicio, parte 2 de 2" width="800">
+
+**Style guide**
+
+<img src="img/chapter5/landing-style-guide-1.png" alt="Vista de style guide del design system de BottleTrack, parte 1 de 2" width="800">
+
+<img src="img/chapter5/landing-style-guide-2.png" alt="Vista de style guide del design system de BottleTrack, parte 2 de 2" width="800">
 
 <a id="52x6-services-documentation-evidence-for-sprint-review"></a>
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-En el primer Sprint solamente se ha desarrollado la Landing Page por lo que no se ha hecho uso de servicios web.
+El alcance del Sprint 1 corresponde al Landing Page, que es un sitio estático y no expone endpoints. La documentación de los servicios con OpenAPI se incorpora en el Sprint en el que se implementa la primera versión del Backend API, de acuerdo con la Technical Story TS13.
 
 <a id="52x7-software-deployment-evidence-for-sprint-review"></a>
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-Durante el Sprint 1 se realizó el proceso de implementación y despliegue de la primera versión funcional del Landing Page de BottleTrack, correspondiente al alcance definido para el primer entregable del proyecto. De acuerdo con el alcance de AV1, en este Sprint se priorizó contar con una versión publicada y accesible del Landing Page.
 
-Para el despliegue se utilizó GitHub Pages, aprovechando el repositorio destinado al desarrollo del Landing Page. La publicación permitió disponer de una versión accesible mediante una URL pública, facilitando la revisión de la solución y la posterior validación de la navegación y contenido implementado.
+El Landing Page se desplegó en GitHub Pages desde el repositorio de la organización. El proceso fue el siguiente:
 
-El proceso realizado durante el Sprint comprendió las siguientes actividades:
+1. Se integraron las ramas `feature/design-system`, `feature/landing-page` y `feature/about-the-team-video` en `develop` mediante merges `--no-ff`.
+2. Se creó la rama `release/0.1.0` desde `develop`, se integró en `main` y se etiquetó como `v0.1.0`, siguiendo Semantic Versioning.
+3. En *Settings → Pages* del repositorio se configuró la publicación desde la rama `main`, carpeta raíz.
+4. GitHub Actions ejecutó el flujo *pages build and deployment* y publicó el sitio.
+5. Se verificó el acceso a la URL pública, la navegación entre secciones, el cambio de idioma y la visualización en escritorio y en móvil.
 
-1. Desarrollo y organización de los archivos correspondientes al Landing Page.
-2. Integración de la estructura, contenido y estilos definidos para la primera versión.
-3. Verificación de la navegación entre las principales secciones del Landing Page.
-4. Revisión de la visualización en diferentes dimensiones de pantalla, considerando el enfoque responsive.
-5. Configuración del repositorio para la publicación mediante GitHub Pages.
-6. Publicación de la versión desarrollada en la rama configurada para el despliegue.
-7. Verificación del acceso mediante la URL pública del Landing Page.
-8. Comprobación final de las principales secciones y llamadas a la acción disponibles en la versión desplegada.
+| Producto | Repositorio | Tecnología | Plataforma | Versión | URL |
+| :------- | :---------- | :--------- | :--------- | :------ | :-- |
+| Landing Page | Landing-Page | HTML5, CSS3, JavaScript | GitHub Pages | v0.1.0 | https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/ |
 
-**Información del despliegue**
-| Producto     | Repositorio / Plataforma | Tecnología               | Plataforma de Deployment | Estado     | URL                                                                                                                                |
-| ------------ | ------------------------ | ------------------------ | ------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Landing Page | GitHub – Landing-Page    | HTML5, CSS3 y JavaScript | GitHub Pages             | Desplegado | [https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/](https://1asi0730-2620-8084-codecrafters.github.io/Landing-Page/) |
+**Organización de GitHub con los repositorios de los productos**
 
+<img src="img/chapter5/github-organization.png" alt="Organización de GitHub 1ASI0730-2620-8084-CodeCrafters con sus cuatro repositorios" width="800">
 
-El Landing Page fue desarrollado utilizando HTML5, CSS3 y JavaScript, tecnologías establecidas para este producto en el proyecto. Asimismo, el uso de GitHub para el control de versiones y GitFlow/Conventional Commits forma parte de las convenciones definidas para el desarrollo del proyecto.
+**Ramas del repositorio Landing-Page según GitFlow**
+
+<img src="img/chapter5/landing-branches.png" alt="Ramas main, develop, release y feature del repositorio Landing-Page" width="800">
+
+**Tag del release v0.1.0**
+
+<img src="img/chapter5/landing-tags.png" alt="Tag v0.1.0 del repositorio Landing-Page" width="800">
 
 <a id="52x8-team-colaboration-insights-during-sprint"></a>
-#### 5.2.1.8. Team Colaboration Insights during Sprint.
-Durante el Sprint 1, el equipo trabajó de manera colaborativa en la implementación de la primera versión del Landing Page de BottleTrack. La coordinación de las actividades se realizó mediante Trello para el seguimiento del Product Backlog y Sprint Backlog, mientras que GitHub fue utilizado para el control de versiones y registro de las contribuciones realizadas durante el desarrollo.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-La distribución del trabajo permitió que los integrantes participaran en diferentes actividades relacionadas con la implementación, incluyendo la construcción de la estructura del Landing Page, incorporación de contenido, desarrollo de las secciones orientadas a los segmentos objetivo, navegación, llamadas a la acción, adaptación responsive y revisión de la versión desplegada.
+Durante el Sprint 1 el trabajo se distribuyó entre dos repositorios. En el repositorio del informe participaron cuatro integrantes, cada uno a cargo de los capítulos de su aspecto: Leonardo Cumba en los capítulos I y III, Maria Jose Pezo en el Needfinding, el Impact Mapping y el EventStorming, Gerardo Palacin en el diseño de las interfaces y en los diagramas C4, y Angel Crispin en las Style Guidelines, la arquitectura de información y la configuración del software. El repositorio del Landing Page concentró sus commits en Angel Crispin, responsable de su implementación, mientras que el diseño de la interfaz del Landing Page lo elaboró Gerardo Palacin en Figma.
 
+La siguiente tabla resume los commits de cada integrante en el Sprint 1, sin considerar los commits de integración de ramas:
+
+| Integrante | Report | Landing-Page |
+| :--------- | :----: | :----------: |
+| Crispin Valdivia, Angel Gabriel | 11 | 17 |
+| Cumba Rengifo, Leonardo Raul | 20 | 0 |
+| Pezo Castilla, Maria Jose | 10 | 0 |
+| Palacin Lazo, Gerardo Valentin | 7 | 0 |
+| Huapaya Buitron, Ariana Alheli | 0 | 0 |
+
+**Analíticos de contribución del repositorio Landing-Page**
+
+<img src="img/chapter5/insights-landing-contributors.png" alt="GitHub Insights, contribuidores del repositorio Landing-Page" width="800">
+
+**Grafo de ramas del repositorio Landing-Page.** Se aprecian las ramas `feature/design-system`, `feature/landing-page` y `feature/about-the-team-video` integradas en `develop` mediante merges `--no-ff`, y la publicación en `main`.
+
+<img src="img/chapter5/insights-landing-network.png" alt="Grafo de red de ramas del repositorio Landing-Page" width="800">
+
+Para el Sprint 2 el equipo acordó que todos los integrantes participen con commits en el Landing Page y en la Frontend Web Application, cada uno en la rama de su bounded context.
+
+<a id="522-sprint-2"></a>
+### 5.2.2. Sprint 2
+
+<a id="5221-sprint-planning-2"></a>
+#### 5.2.2.1. Sprint Planning 2.
+
+| Sprint #  | Sprint 2 |
+| :-------- | :------- |
+| **Sprint Planning Background** | |
+| Date | 2026-09-28 |
+| Time | 9:00 PM |
+| Location | Reunión virtual por Discord |
+| Prepared By | Crispin Valdivia, Angel Gabriel |
+| Attendees (to planning meeting) | Crispin Valdivia, Angel Gabriel; Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose; Huapaya Buitron, Ariana Alheli |
+| Sprint 1 Review Summary | En el Sprint 1 se publicó el Landing Page v0.1.0 en GitHub Pages y se completaron las User Stories US01, US02 y US03. La revisión de AV1 señaló que el Landing Page no mostraba medios de contacto, redes sociales ni capturas de la aplicación, que el informe conservaba textos pendientes y que el segmento de conductores no correspondía a un usuario de la aplicación. Las historias de acceso US04 a US09 quedaron pendientes de implementación. |
+| Sprint 1 Retrospective Summary | El equipo valoró el design system y el uso de GitFlow desde el primer día. Como aspectos a mejorar identificó que el código se concentró en un solo integrante y que se entregaron secciones con textos pendientes. Se acordó que cada integrante lidere un bounded context de la Frontend Web Application en su propia rama, que ninguna sección se entregue con contenido pendiente y que las correcciones de AV1 se resuelvan dentro del Sprint 2. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | *Our focus is on* que el supervisor de flota, el administrador y el responsable de la bodega operen en la Frontend Web Application el ciclo completo de una operación de transporte: planificarla con sus recursos, seguir sus entregas y la carga con lecturas IoT, y registrar las incidencias con evidencia.<br>*We believe it delivers* visibilidad sobre el estado de cada entrega y de la carga *to* las distribuidoras de bebidas, sus supervisores de flota y las bodegas que reciben los pedidos.<br>*This will be confirmed when* un supervisor crea y ejecuta una operación, atiende una alerta de la carga registrando una incidencia, y la bodega consulta su pedido desde la aplicación publicada en Vercel, a la que se llega desde la llamada a la acción de su segmento en el Landing Page. |
+| Sprint 2 Velocity | 143 |
+| Sum of Story Points | 143 |
+
+<a id="5222-aspect-leaders-and-collaborators"></a>
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+En el Sprint 2 los aspectos corresponden a los bounded contexts de la Frontend Web Application, a la configuración base del proyecto y al Landing Page. Cada integrante lidera el bounded context que implementó en su rama de feature y colabora en los contextos con los que el suyo se integra. Angel Crispin colabora en todos los contextos porque revisó e integró cada rama en `develop` y mantuvo el Shared Kernel del que todos dependen.
+
+| Team Member (Last Name, First Name) | GitHub Username | Project Setup & Configuration Management | Identity and Access Management | Fleet Management | Operations and Routes | IoT Monitoring | Incident Management | Landing Page |
+| :---------------------------------- | :-------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| Crispin Valdivia, Angel Gabriel | FaureGalliard | L | L | C | C | C | C | L |
+| Cumba Rengifo, Leonardo Raul | LeonardoC72 | C | C | C | L | C | C | C |
+| Palacin Lazo, Gerardo Valentin | GeraldP03 | C | C | C | C | L | C | C |
+| Pezo Castilla, Maria Jose | MariaJosePezo | C | C | C | C | C | L | C |
+| Huapaya Buitron, Ariana Alheli | arianahuapayabui | C | C | L | C | C | C | C |
+
+<a id="5223-sprint-backlog-2"></a>
+#### 5.2.2.3. Sprint Backlog 2.
+
+El Sprint 2 comprometió las historias de acceso que quedaron pendientes en el Sprint 1, todas las User Stories de la Frontend Web Application que pueden resolverse con el fake API y las historias del Landing Page por segmento y de contacto. Las Technical Stories del RESTful API se planifican para el Sprint 3, junto con la primera versión de los Web Services. Las 51 tareas suman 216 horas y se gestionan en el tablero del proyecto: https://trello.com/b/jGpO815B/bottletrack-product-backlog
+
+**Tablero del proyecto en Trello.** El Product Backlog contiene las User Stories y Technical Stories pendientes, y las listas de cada Sprint registran el avance de sus historias.
+
+<img src="img/chapter5/sprint2/trello-board.png" alt="Tablero de Trello de BottleTrack con el Product Backlog y las listas del Sprint 1" width="800">
+
+**Historias del Sprint 2 en la lista Sprint 2 - Done.** Cada tarjeta registra en su descripción las tareas, las horas estimadas y el responsable.
+
+<img src="img/chapter5/sprint2/trello-sprint-2.png" alt="Listas del Sprint 2 en Trello con las historias terminadas" width="800">
+
+| Sprint # | Sprint 2 | | | | | | |
+| :------- | :------- | :- | :- | :- | :- | :- | :- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US39 | Conocer beneficios para distribuidoras | T01 | Distributor segment call to action | Enlazar la llamada a la acción del segmento de distribuidoras con la vista `/analytics` de la Web Application. | 2 | Crispin Valdivia, Angel Gabriel | Done |
+| US39 | Conocer beneficios para distribuidoras | T02 | Application screenshots | Incorporar en la sección del producto las capturas del dashboard, de las operaciones y de las incidencias. | 4 | Palacin Lazo, Gerardo Valentin | Done |
+| US40 | Conocer beneficios para supervisores | T01 | Supervisor segment call to action | Enlazar la llamada a la acción del segmento de supervisores con la vista `/monitoring` de la Web Application. | 2 | Crispin Valdivia, Angel Gabriel | Done |
+| US41 | Conocer beneficios para bodegas | T01 | Delivery point segment | Reemplazar el segmento de conductores por el de bodegas y minimarkets, con su llamada a la acción hacia `/tracking`. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US42 | Contactar a CodeCrafters | T01 | Contact form and social links | Implementar el formulario de contacto, los enlaces a redes sociales en el footer y el favicon de la marca. | 5 | Crispin Valdivia, Angel Gabriel | Done |
+| US04 | Iniciar sesión | T01 | Project setup | Configurar Vite, PrimeVue, Pinia, Vue Router, vue-i18n, axios, los design tokens y el fake API con json-server. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US04 | Iniciar sesión | T02 | Sign in implementation | Implementar el formulario de inicio de sesión, el store de IAM y el guard de autenticación por rol. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US05 | Cerrar sesión | T01 | Sign out implementation | Implementar el cierre de sesión desde la barra lateral e invalidar la sesión activa. | 2 | Crispin Valdivia, Angel Gabriel | Done |
+| US06 | Consultar perfil | T01 | Profile view implementation | Implementar la vista del perfil del usuario autenticado. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US07 | Gestionar usuarios | T01 | Users management implementation | Implementar el listado, el registro y la edición de usuarios de la empresa. | 8 | Crispin Valdivia, Angel Gabriel | Done |
+| US08 | Asignar rol a usuario | T01 | Role assignment implementation | Implementar la selección del rol en el formulario de usuario y la navegación filtrada por rol. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US09 | Gestionar información de empresa | T01 | Company settings implementation | Implementar la vista y el servicio para actualizar los datos de la empresa. | 4 | Crispin Valdivia, Angel Gabriel | Done |
+| US10 | Registrar vehículo | T01 | Fleet domain and gateway | Implementar las entidades de vehículo y conductor, sus assemblers y el gateway del fake API. | 6 | Huapaya Buitron, Ariana Alheli | Done |
+| US10 | Registrar vehículo | T02 | Vehicle registration | Implementar el formulario de registro de vehículos. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US11 | Actualizar vehículo | T01 | Vehicle edition | Implementar la edición de vehículos desde el listado. | 3 | Huapaya Buitron, Ariana Alheli | Done |
+| US12 | Consultar vehículos disponibles | T01 | Vehicle list view | Implementar el listado de vehículos con su estado de disponibilidad. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US13 | Registrar conductor | T01 | Driver registration | Implementar el formulario de registro de conductores. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US14 | Actualizar conductor | T01 | Driver edition | Implementar la edición de conductores desde el listado. | 3 | Huapaya Buitron, Ariana Alheli | Done |
+| US15 | Consultar conductores disponibles | T01 | Driver list view | Implementar el listado de conductores y registrar las rutas, traducciones y datos de la flota. | 4 | Huapaya Buitron, Ariana Alheli | Done |
+| US16 | Crear operación de transporte | T01 | Operations domain and gateway | Implementar las entidades de operación y de orden de entrega, sus assemblers y los gateways del fake API. | 8 | Cumba Rengifo, Leonardo Raul | Done |
+| US16 | Crear operación de transporte | T02 | Create operation dialog | Implementar el diálogo de creación de operaciones y el store de operaciones. | 6 | Cumba Rengifo, Leonardo Raul | Done |
+| US17 | Asignar vehículo a operación | T01 | Vehicle assignment | Implementar la asignación de un vehículo disponible en la sección de recursos de la operación. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US18 | Asignar conductor a operación | T01 | Driver assignment | Implementar la asignación de un conductor disponible en la sección de recursos de la operación. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US19 | Consultar operaciones | T01 | Operation list view | Implementar el listado de operaciones con su estado y sus datos principales. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US20 | Cancelar operación | T01 | Cancel operation dialog | Implementar la cancelación de operaciones no iniciadas con el motivo obligatorio. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US21 | Iniciar operación | T01 | Start operation | Implementar el inicio de la operación cuando tiene recursos y puntos de entrega. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US22 | Finalizar operación | T01 | Finish operation | Implementar el cierre de la operación cuando todas las entregas tienen resultado. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US23 | Registrar punto de entrega | T01 | Add stop dialog | Implementar el diálogo para agregar puntos de entrega con la cantidad planificada. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US24 | Organizar puntos de entrega | T01 | Stop ordering | Implementar el cambio de orden de los puntos de entrega dentro de la ruta. | 3 | Cumba Rengifo, Leonardo Raul | Done |
+| US25 | Consultar ruta de una operación | T01 | Operation route component | Implementar la tabla de la ruta con los puntos de entrega, su estado y sus acciones. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US26 | Consultar detalle de entrega | T01 | Delivery order card | Implementar la tarjeta con el detalle de cada orden de entrega. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US27 | Actualizar estado de entrega | T01 | Delivery result dialog | Implementar el registro del resultado de cada entrega. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US28 | Registrar entrega parcial | T01 | Partial delivery | Validar la cantidad entregada y el motivo en las entregas parciales. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US29 | Registrar entrega no realizada | T01 | Failed delivery | Registrar las entregas no realizadas con su motivo. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US34 | Consultar progreso de operación | T01 | Operation progress component | Implementar el avance de la operación con el conteo de entregas por estado. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US36 | Consultar historial de operaciones | T01 | Operation history view | Implementar el historial de operaciones finalizadas y canceladas. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US37 | Consultar detalle histórico | T01 | Historical detail | Enlazar cada operación del historial con su vista de detalle. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US38 | Consultar ubicación de entrega | T01 | Delivery location link | Mostrar la dirección del punto de entrega con el enlace a su ubicación en el mapa. | 2 | Cumba Rengifo, Leonardo Raul | Done |
+| US46 | Consultar estado de mi pedido | T01 | Delivery order tracking view | Implementar la vista de pedidos en camino y recibidos para el responsable de la bodega. | 5 | Cumba Rengifo, Leonardo Raul | Done |
+| US47 | Reportar problema de recepción | T01 | Reception problem dialog | Implementar el reporte de faltantes o productos dañados al recibir el pedido. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US47 | Reportar problema de recepción | T02 | Operations translations and data | Registrar las rutas, las traducciones y los datos del fake API de las operaciones. | 4 | Cumba Rengifo, Leonardo Raul | Done |
+| US43 | Consultar lecturas IoT de una operación | T01 | IoT domain and gateway | Implementar la entidad de dispositivo IoT, sus assemblers y el gateway de lecturas y alertas. | 6 | Palacin Lazo, Gerardo Valentin | Done |
+| US43 | Consultar lecturas IoT de una operación | T02 | Monitoring dashboard | Implementar el dashboard de monitoreo con la tarjeta de cada operación en curso. | 6 | Palacin Lazo, Gerardo Valentin | Done |
+| US44 | Recibir alerta de carga en riesgo | T01 | Alert list | Implementar la lista de alertas pendientes con el registro de incidencia y la revisión. | 4 | Palacin Lazo, Gerardo Valentin | Done |
+| US45 | Configurar rango seguro | T01 | Device settings view | Implementar la configuración de dispositivos con el rango seguro de temperatura y el umbral de golpes. | 5 | Palacin Lazo, Gerardo Valentin | Done |
+| US30 | Registrar incidencia | T01 | Incidents domain and gateway | Implementar las entidades de incidencia y evidencia, su assembler y el gateway del fake API. | 6 | Pezo Castilla, Maria Jose | Done |
+| US30 | Registrar incidencia | T02 | Report incident dialog | Implementar el diálogo de registro de incidencias y el store de incidencias. | 5 | Pezo Castilla, Maria Jose | Done |
+| US31 | Adjuntar evidencia de incidencia | T01 | Attach evidence dialog | Implementar la carga de evidencias asociadas a una incidencia. | 5 | Pezo Castilla, Maria Jose | Done |
+| US32 | Consultar incidencias | T01 | Incident list view | Implementar el listado de incidencias con su tipo, operación y estado. | 4 | Pezo Castilla, Maria Jose | Done |
+| US33 | Actualizar estado de incidencia | T01 | Advance incident dialog | Implementar el avance de estado de la incidencia hasta su cierre. | 3 | Pezo Castilla, Maria Jose | Done |
+| US35 | Consultar dashboard | T01 | Analytics dashboard | Implementar el dashboard con las operaciones del mes, las entregas completadas, las incidencias abiertas y la merma. | 6 | Pezo Castilla, Maria Jose | Done |
+
+<a id="5224-development-evidence-for-sprint-review"></a>
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+En el Sprint 2 se implementó la primera versión de la Frontend Web Application en el repositorio https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Aplication, con Vue 3, PrimeVue, Pinia, Vue Router, vue-i18n y axios, en JavaScript. El código se organiza por bounded context, y cada uno se divide en las capas `domain`, `application`, `infrastructure` y `presentation`. Angel Crispin preparó la base del proyecto en `feature/project-setup`, y luego cada integrante desarrolló su bounded context en una rama de feature propia, integrada en `develop` mediante un merge `--no-ff`. La versión se publicó desde `release/0.1.0` con la etiqueta `v0.1.0`.
+
+En el repositorio del Landing Page se aplicaron las correcciones de AV1 y se publicó la versión `v0.2.0`. En la rama `develop` se revirtió un commit que eliminaba la sección del producto, porque Gerardo Palacin la había actualizado en paralelo con las capturas de la aplicación.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :------------------ |
+| Frontend-Web-Aplication | main | 7e9d951 | chore: initialize vue project with vite | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | da71179 | feat: add design tokens and primevue theme preset | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 15fdbe3 | style: add global layout styles | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 96d0a01 | feat: configure i18n, pinia and router | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 3f87eb6 | feat: add shared http client base and fake api setup | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 6e6a35a | feat: add shared presentation components and views | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/project-setup | 6ad9864 | docs: add readme with architecture and team ownership | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | 7d826b2 | feat(iam): add user and organization domain model with api gateway | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | 932a0b6 | feat(iam): add iam store with session handling | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | 0d4056f | feat(iam): add sign-in view | — | 2026-09-28 |
+| Frontend-Web-Aplication | feature/identity-access-management | b4a580a | feat(iam): add application shell with authentication section | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | cf99561 | feat(iam): add user management view | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | 1dc83df | feat(iam): add profile and company settings views | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | 2da7ae9 | feat(iam): register iam routes, guard and translations | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/identity-access-management | 712f660 | chore(iam): add users and organizations to fake api | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/operations-and-routes | d32c5cc | feat(operations): add transport operation and delivery order domain model | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/fleet-management | ecf11f6 | feat(fleet): add vehicle and driver domain model with api gateway | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/operations-and-routes | f236e17 | feat(operations): add operations api gateways and assemblers | — | 2026-09-29 |
+| Frontend-Web-Aplication | feature/fleet-management | a63f5bd | feat(fleet): add fleet store and vehicle management view | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 8a47738 | feat(operations): add operations and transport operations stores | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/iot-monitoring | 5a8323a | feat(monitoring): add iot device domain model with api gateway | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 7476ac7 | feat(operations): add operation list with create dialog | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/fleet-management | 60490b9 | feat(fleet): add driver management view | — | 2026-09-30 |
+| Frontend-Web-Aplication | feature/fleet-management | 263aeec | feat(fleet): register fleet routes, translations and fake api data | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/operations-and-routes | b4a7813 | feat(operations): add operation route and progress components | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/incident-management | 8f0da71 | feat(incidents): add incident and evidence domain model with api gateway | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/iot-monitoring | a35030a | feat(monitoring): add monitoring store and device settings with safe ranges | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 8b7ac23 | feat(operations): add resource, stop and cancel dialogs | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/incident-management | deed4a1 | feat(incidents): add incidents store with report and advance dialogs | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 5761bfa | feat(operations): add operation detail and history views | — | 2026-10-01 |
+| Frontend-Web-Aplication | feature/iot-monitoring | 9d2d126 | feat(monitoring): add alert list and monitored operation card | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 7554002 | feat(operations): add delivery order card and result dialog | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/incident-management | 85bc163 | feat(incidents): add incident list with evidence attachment | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 567e394 | feat(operations): add delivery order tracking for delivery point owners | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/iot-monitoring | dd523ff | feat(monitoring): add monitoring dashboard and register routes | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | cc0a4c2 | feat(operations): register operations routes and english translations | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 9213feb | feat(operations): add spanish translations | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/operations-and-routes | 30b4d0d | chore(operations): add delivery points, operations and stops to fake api | — | 2026-10-02 |
+| Frontend-Web-Aplication | feature/iot-monitoring | f4c3635 | chore(monitoring): add iot devices, sensor readings and alerts to fake api | — | 2026-10-03 |
+| Frontend-Web-Aplication | feature/incident-management | 6365298 | feat(incidents): add analytics dashboard | — | 2026-10-03 |
+| Frontend-Web-Aplication | feature/incident-management | a51a526 | feat(incidents): register incidents routes, translations and fake api data | — | 2026-10-03 |
+| Frontend-Web-Aplication | release/0.1.0 | 36f92e5 | chore(release): bump version to 0.1.0 | — | 2026-10-04 |
+| Frontend-Web-Aplication | feature/beeceptor-snapshot-api | 8886464 | feat(shared): add snapshot adapter to serve the api from a single download | — | 2026-10-05 |
+| Frontend-Web-Aplication | feature/beeceptor-snapshot-api | 94e4e9c | feat(shared): use the beeceptor snapshot in production builds | — | 2026-10-05 |
+| Frontend-Web-Aplication | release/0.2.0 | ac4cf8c | chore(release): bump version to 0.2.0 | — | 2026-10-05 |
+| Landing-Page | feature/product-screenshots | 6239460 | feat(landing): show application screenshots in product section. | — | 2026-10-03 |
+| Landing-Page | feature/remove-team-video-placeholder | 4a9b9d4 | refactor(landing): remove about the team video placeholder | — | 2026-10-04 |
+| Landing-Page | feature/remove-team-video-placeholder | 2cb5051 | refactor(landing): remove about the product video placeholder | — | 2026-10-04 |
+| Landing-Page | develop | 1b40c6d | Revert "refactor(landing): remove about the product video placeholder" | — | 2026-10-04 |
+| Landing-Page | feature/product-screenshots-copy | 9555745 | refactor(landing): describe the product section as application screenshots | — | 2026-10-04 |
+| Landing-Page | feature/delivery-point-segment | 5fb86e2 | feat(landing): replace driver segment with delivery points and link ctas to the web app | — | 2026-10-04 |
+| Landing-Page | feature/contact-and-social | c385ba0 | feat(landing): add contact form and social media links | — | 2026-10-04 |
+| Landing-Page | feature/favicon | 6bd6720 | feat(landing): add brand favicon to every page | — | 2026-10-04 |
+| Landing-Page | release/0.2.0 | 9fd01d0 | docs(release): document web application links for 0.2.0 | — | 2026-10-04 |
+| Landing-Page | feature/netlify-deployment | f89ea12 | docs: set netlify as the deployment target | — | 2026-10-05 |
+
+<a id="5225-execution-evidence-for-sprint-review"></a>
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+Al cierre del Sprint 2 la Frontend Web Application v0.1.0 se encuentra publicada en https://frontend-web-aplication.vercel.app. La aplicación ofrece una experiencia distinta para cada rol: el administrador gestiona los usuarios, la empresa, la flota y los dispositivos IoT; el supervisor de flota planifica y ejecuta las operaciones, monitorea la carga y registra las incidencias; y el responsable de la bodega sigue sus pedidos y reporta los problemas de recepción. Las vistas que siguen se capturaron con los datos del fake API y el idioma español; la aplicación cambia a inglés desde el selector de idioma.
+
+**Inicio de sesión**
+
+<img src="img/chapter5/sprint2/app-sign-in.png" alt="Vista de inicio de sesión de BottleTrack" width="800">
+
+**Inicio del supervisor de flota**
+
+<img src="img/chapter5/sprint2/app-home.png" alt="Vista de inicio con la navegación del supervisor de flota" width="800">
+
+**Listado de operaciones**
+
+<img src="img/chapter5/sprint2/app-operations.png" alt="Listado de operaciones de transporte" width="800">
+
+**Detalle de una operación en curso**
+
+<img src="img/chapter5/sprint2/app-operation-detail.png" alt="Detalle de la operación OP-004 con recursos, avance y ruta" width="800">
+
+**Historial de operaciones**
+
+<img src="img/chapter5/sprint2/app-history.png" alt="Historial de operaciones finalizadas y canceladas" width="800">
+
+**Monitoreo IoT**
+
+<img src="img/chapter5/sprint2/app-monitoring.png" alt="Dashboard de monitoreo con una alerta de golpe y las lecturas del dispositivo" width="800">
+
+**Incidencias**
+
+<img src="img/chapter5/sprint2/app-incidents.png" alt="Listado de incidencias con su estado" width="800">
+
+**Seguimiento de pedidos de la bodega**
+
+<img src="img/chapter5/sprint2/app-tracking.png" alt="Vista Mis pedidos del responsable de la bodega" width="800">
+
+**Dashboard de indicadores**
+
+<img src="img/chapter5/sprint2/app-analytics.png" alt="Dashboard con las operaciones del mes, las entregas completadas, las incidencias abiertas y la merma" width="800">
+
+**Vehículos**
+
+<img src="img/chapter5/sprint2/app-vehicles.png" alt="Listado de vehículos de la flota" width="800">
+
+**Conductores**
+
+<img src="img/chapter5/sprint2/app-drivers.png" alt="Listado de conductores" width="800">
+
+**Dispositivos IoT**
+
+<img src="img/chapter5/sprint2/app-devices.png" alt="Configuración de los dispositivos IoT con su rango seguro" width="800">
+
+**Usuarios**
+
+<img src="img/chapter5/sprint2/app-users.png" alt="Gestión de usuarios de la empresa" width="800">
+
+**Empresa**
+
+<img src="img/chapter5/sprint2/app-company.png" alt="Configuración de los datos de la empresa" width="800">
+
+**Perfil**
+
+<img src="img/chapter5/sprint2/app-profile.png" alt="Perfil del usuario autenticado" width="800">
+
+**Vista móvil**
+
+<table>
+<tr>
+<td><img src="img/chapter5/sprint2/app-mobile-sign-in.png" alt="Inicio de sesión en móvil" width="220"></td>
+<td><img src="img/chapter5/sprint2/app-mobile-operations.png" alt="Listado de operaciones en móvil" width="220"></td>
+<td><img src="img/chapter5/sprint2/app-mobile-monitoring.png" alt="Monitoreo IoT en móvil" width="220"></td>
+</tr>
+</table>
+
+**Landing Page v0.2.0**
+
+El Landing Page incorpora las correcciones de AV1: el segmento de bodegas y minimarkets reemplaza al de conductores, las tres llamadas a la acción llevan a la vista correspondiente de la Web Application, la sección del producto muestra capturas de la aplicación, y se agregaron la sección de contacto, los enlaces a redes sociales y el favicon.
+
+<img src="img/chapter5/sprint2/landing-v2-segments.png" alt="Segmentos con sus llamadas a la acción hacia la Web Application" width="800">
+
+<img src="img/chapter5/sprint2/landing-v2-product.png" alt="Sección del producto con capturas de la aplicación" width="800">
+
+<img src="img/chapter5/sprint2/landing-v2-contact.png" alt="Sección de contacto" width="800">
+
+<img src="img/chapter5/sprint2/landing-v2-footer.png" alt="Footer con los enlaces a redes sociales y a los términos del servicio" width="800">
+
+<table>
+<tr>
+<td><img src="img/chapter5/sprint2/landing-v2-mobile-contact.png" alt="Sección de contacto del Landing Page en móvil" width="220"></td>
+</tr>
+</table>
+
+<a id="5226-services-documentation-evidence-for-sprint-review"></a>
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+El Sprint 2 no incluye los Web Services, que se implementan en el Sprint 3 con su documentación en OpenAPI. Mientras tanto, la Frontend Web Application consume un fake API construido con json-server a partir del archivo `server/db.json` del repositorio. Las rutas se publican bajo el prefijo `/api/v1` y cada una se configura en el archivo de entorno con una variable `VITE_<RECURSO>_ENDPOINT_PATH`, de modo que el cambio al RESTful API definitivo solo requiera actualizar la URL base.
+
+En producción el fake API se publica en Beeceptor, en https://bottle-track.free.beeceptor.com/api/v1. Como el plan gratuito de Beeceptor admite pocas solicitudes por día, el endpoint expone una sola regla, `GET /api/v1/db`, que entrega el conjunto completo de datos. La aplicación lo descarga una vez por pestaña del navegador y el adaptador `snapshot.adapter.js` de la capa de infraestructura compartida responde las demás solicitudes con las mismas reglas de json-server, sin modificar los gateways de los bounded contexts.
+
+| Recurso | Bounded context | Verbos HTTP utilizados |
+| :------ | :-------------- | :--------------------- |
+| `/users` | Identity and Access Management | GET, POST, PATCH |
+| `/organizations` | Identity and Access Management | GET, PATCH |
+| `/vehicles` | Fleet Management | GET, POST, PATCH |
+| `/drivers` | Fleet Management | GET, POST, PATCH |
+| `/delivery-points` | Operations and Routes | GET |
+| `/transport-operations` | Operations and Routes | GET, POST, PATCH |
+| `/delivery-stops` | Operations and Routes | GET, POST, PATCH |
+| `/iot-devices` | IoT Monitoring | GET, PATCH |
+| `/sensor-readings` | IoT Monitoring | GET, POST |
+| `/alerts` | IoT Monitoring | GET, PATCH |
+| `/incidents` | Incident Management | GET, POST, PATCH |
+| `/evidences` | Incident Management | GET, POST |
+
+<a id="5227-software-deployment-evidence-for-sprint-review"></a>
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+En el Sprint 2 se publicaron dos productos.
+
+**Frontend Web Application en Vercel**
+
+1. Se integraron en `develop` las ramas `feature/project-setup`, `feature/identity-access-management`, `feature/fleet-management`, `feature/operations-and-routes`, `feature/iot-monitoring` y `feature/incident-management`, cada una con un merge `--no-ff`.
+2. Se creó la rama `release/0.1.0`, se integró en `main` y se etiquetó como `v0.1.0`, siguiendo Semantic Versioning.
+3. Desde la cuenta de Vercel del equipo se importó el repositorio `Frontend-Web-Aplication` de la organización de GitHub, con el preset de Vite, el comando `npm run build`, el directorio de salida `dist` y la rama de producción `main`.
+4. El archivo `vercel.json` del repositorio redirige todas las rutas a `index.html`, para que Vue Router resuelva las rutas de la aplicación al ingresar directamente a ellas desde las llamadas a la acción del Landing Page.
+5. Vercel publica una nueva versión ante cada integración en `main`. Se verificó el acceso a la URL pública y a las rutas `/monitoring`, `/tracking` y `/analytics`.
+6. Se publicó el release `v0.2.0`, que agrega el archivo `.env.production` y el adaptador que consume el fake API de Beeceptor.
+
+**Proyecto de la Frontend Web Application en Vercel**, con el deployment de producción generado desde la rama `main`.
+
+<img src="img/chapter5/sprint2/vercel-project.png" alt="Vista general del proyecto frontend-web-aplication en Vercel" width="800">
+
+**Historial de deployments en Vercel**
+
+<img src="img/chapter5/sprint2/vercel-deployments.png" alt="Historial de deployments del proyecto en Vercel" width="800">
+
+**Configuración de construcción con el preset de Vite**
+
+<img src="img/chapter5/sprint2/vercel-build-settings.png" alt="Configuración de construcción del proyecto en Vercel con el preset de Vite" width="800">
+
+**Integración del proyecto con el repositorio de GitHub**
+
+<img src="img/chapter5/sprint2/vercel-git.png" alt="Repositorio de GitHub conectado al proyecto de Vercel" width="800">
+
+**Landing Page en Netlify**
+
+A partir del Sprint 2 el Landing Page se publica en Netlify, que reemplaza a GitHub Pages porque este último dejó de publicar las nuevas versiones del sitio.
+
+1. Se integraron en `develop` las ramas de las correcciones de AV1 y la rama `feature/product-screenshots`.
+2. Se creó la rama `release/0.2.0`, se integró en `main` y se etiquetó como `v0.2.0`.
+3. Desde la cuenta de Netlify del equipo se importó el repositorio `Landing-Page`, con la rama de producción `main`, sin comando de construcción y con la carpeta raíz como directorio de publicación.
+4. Netlify publica una nueva versión ante cada integración en `main`. Se verificó la URL pública y que las llamadas a la acción de cada segmento lleven a la vista correspondiente de la Web Application.
+
+| Producto | Repositorio | Tecnología | Plataforma | Versión | URL |
+| :------- | :---------- | :--------- | :--------- | :------ | :-- |
+| Landing Page | Landing-Page | HTML5, CSS3, JavaScript | Netlify | v0.2.0 | https://1asi0730-2620-8084-codecrafters.netlify.app/ |
+| Frontend Web Application | Frontend-Web-Aplication | Vue 3, PrimeVue, JavaScript | Vercel | v0.2.0 | https://frontend-web-aplication.vercel.app |
+
+**Repositorio de la Frontend Web Application**
+
+<img src="img/chapter5/sprint2/github-frontend-repo.png" alt="Página principal del repositorio Frontend-Web-Aplication" width="800">
+
+**Ramas del repositorio Frontend-Web-Aplication según GitFlow**
+
+<img src="img/chapter5/sprint2/github-frontend-branches.png" alt="Ramas main, develop, release y feature del repositorio Frontend-Web-Aplication" width="800">
+
+**Tag del release v0.1.0 de la Frontend Web Application**
+
+<img src="img/chapter5/sprint2/github-frontend-tags.png" alt="Tag v0.1.0 del repositorio Frontend-Web-Aplication" width="800">
+
+**Ramas y tags del repositorio Landing-Page**
+
+<img src="img/chapter5/sprint2/github-landing-branches.png" alt="Ramas del repositorio Landing-Page" width="800">
+
+<img src="img/chapter5/sprint2/github-landing-tags.png" alt="Tags v0.1.0 y v0.2.0 del repositorio Landing-Page" width="800">
+
+<a id="5228-team-collaboration-insights-during-sprint"></a>
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0.
+
+La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin considerar los commits de integración de ramas:
+
+| Integrante | Frontend-Web-Aplication | Landing-Page |
+| :--------- | :---------------------: | :----------: |
+| Crispin Valdivia, Angel Gabriel | 19 | 9 |
+| Cumba Rengifo, Leonardo Raul | 12 | 0 |
+| Palacin Lazo, Gerardo Valentin | 5 | 1 |
+| Pezo Castilla, Maria Jose | 5 | 0 |
+| Huapaya Buitron, Ariana Alheli | 4 | 0 |
+
+**Analíticos de contribución del repositorio Frontend-Web-Aplication**
+
+<img src="img/chapter5/sprint2/insights-frontend-contributors.png" alt="GitHub Insights, contribuidores del repositorio Frontend-Web-Aplication" width="800">
+
+**Grafo de ramas del repositorio Frontend-Web-Aplication.** Se aprecian las ramas de los cinco bounded contexts integradas en `develop` y la publicación del release v0.1.0 en `main`.
+
+<img src="img/chapter5/sprint2/insights-frontend-network.png" alt="Grafo de red de ramas del repositorio Frontend-Web-Aplication" width="800">
+
+**Analíticos de contribución del repositorio Landing-Page**
+
+<img src="img/chapter5/sprint2/insights-landing-contributors.png" alt="GitHub Insights, contribuidores del repositorio Landing-Page" width="800">
+
+<img src="img/chapter5/sprint2/insights-landing-network.png" alt="Grafo de red de ramas del repositorio Landing-Page" width="800">
+
+<a id="53-validation-interviews"></a>
+## 5.3. Validation Interviews.
+
+Las entrevistas de validación se realizan cuando los segmentos objetivo pueden interactuar con el Landing Page y con la Web Application desplegados. En esta sección se presenta su diseño, que se aplicará sobre la primera versión de la Web Application.
+
+<a id="531-diseno-de-entrevistas"></a>
+### 5.3.1. Diseño de Entrevistas.
+
+Se entrevistará a entre 3 y 5 representantes por segmento objetivo, preferentemente los mismos participantes de las entrevistas de Needfinding, para contrastar su situación actual con la experiencia que ofrece BottleTrack. Cada sesión se graba en video con la autorización del participante y comienza con la navegación libre del Landing Page, seguida de la ejecución de las tareas de su segmento en la Web Application.
+
+| Segmento | Escenario | Tareas que realiza el participante |
+| :------- | :-------- | :--------------------------------- |
+| Empresas distribuidoras de bebidas | El administrador revisa cómo terminó la jornada. | Encontrar en el Landing Page la llamada a la acción de su segmento. Consultar los indicadores del dashboard. Revisar el detalle de una operación finalizada y su merma. |
+| Supervisores o encargados de flota | El supervisor organiza y sigue la jornada. | Crear una operación con vehículo, conductor y tres puntos de entrega. Registrar una entrega parcial. Registrar una incidencia con una fotografía. Consultar el progreso de la operación. |
+| Bodegas y minimarkets | La bodega espera su pedido. | Consultar el estado de su pedido. Reportar un faltante al recibirlo. |
+
+Al finalizar las tareas se formulan las siguientes preguntas:
+
+| # | Pregunta |
+| :- | :------- |
+| 1 | ¿Qué fue lo primero que entendió que hace BottleTrack al ingresar al sitio? |
+| 2 | ¿En qué momento dudó sobre qué hacer a continuación? |
+| 3 | ¿Qué información esperaba encontrar y no encontró? |
+| 4 | ¿Cómo compara esta forma de trabajo con la que utiliza hoy? |
+| 5 | ¿Qué cambiaría para utilizarlo durante su jornada? |
+
+<a id="532-registro-de-entrevistas"></a>
+### 5.3.2. Registro de Entrevistas.
+
+El registro sigue el mismo formato de la sección 2.2.2: nombres, edad, distrito, captura y enlace del video en Microsoft Stream con su inicio y duración, y un resumen por entrevista. Las entrevistas se registran en el Sprint en el que se publica la primera versión de la Web Application.
+
+<a id="533-evaluaciones-segun-heuristicas"></a>
+### 5.3.3. Evaluaciones según heurísticas.
+
+La evaluación aplica las diez heurísticas de usabilidad de Nielsen sobre el Landing Page y la Web Application, con la escala de severidad del curso: 1, problema cosmético; 2, problema menor; 3, problema mayor; 4, problema muy grave. Cada problema se documenta con su descripción, la heurística que incumple, una captura y la recomendación de solución, y se resume en una tabla con las columnas #, Problema, Severidad y Heurística o principio violado.
+
+<a id="54-video-about-the-product"></a>
+## 5.4. Video About-the-Product.
+
+El video About-the-Product presenta BottleTrack a los visitantes del Landing Page: el problema que resuelve, a quién está dirigido y sus funcionalidades principales. Tiene una duración de entre 1 y 3 minutos, se publica en Microsoft Stream y en YouTube y se incrusta en el Landing Page. Se produce cuando la Web Application cuenta con las vistas del flujo principal, para mostrarlas en funcionamiento.
 
 <a id="conclusiones"></a>
 # Conclusiones
@@ -2189,16 +2945,20 @@ La distribución del trabajo permitió que los integrantes participaran en difer
 
 3. El Sprint 1 mostró una brecha entre lo planificado y lo entregado (27 story points comprometidos frente a 8 realmente completados): el equipo priorizó cerrar la documentación técnica y la Landing Page, dejando las pantallas de identidad, usuarios y empresa solo a nivel de diseño en Figma, sin pasar a implementación.
 
+4. La revisión de AV1 mostró que cumplir la forma exacta de cada artefacto pesa tanto como su contenido. Por ello, el equipo reescribió el Problem Statement con la plantilla Brand new initiative, completó el Lean UX Canvas, analizó las entrevistas con variables y porcentajes, reordenó el Product Backlog según el valor para el negocio y rehízo los diagramas de clases y de base de datos con una sola convención de nombres en inglés.
+
 ### Recomendaciones
 
 1. Cerrar el diseño en Figma de cada pantalla *antes* de comprometerla en un sprint de implementación, para evitar que el tiempo de desarrollo se use en decisiones de diseño pendientes.
 
 2. Recalibrar la Sprint Velocity del equipo usando el dato real del Sprint 1 (8 puntos) en lugar de la capacidad estimada inicialmente (27), y reservar explícitamente horas para trabajo de documentación en la planificación de los siguientes sprints, en vez de tratarlo como actividad paralela sin costo.
 
-3. Resolver antes del Sprint 2 los dos puntos de arquitectura que quedaron abiertos: si el Bounded Context "Monitoreo IoT" sigue en alcance (no hay ninguna User Story que use sensores o alertas de dispositivo) y si se debe incorporar al C4 Model el sistema externo de mapas/geolocalización que piden EP09 y TS12 — ambos afectan directamente el Class Diagram, el Database Diagram y la estimación de las historias pendientes.
+3. Mantener la trazabilidad entre las secciones del informe cada vez que cambia una decisión. Tras la revisión de AV1, el equipo alineó los segmentos objetivo, los User Personas, las User Stories, el Landing Page y la arquitectura alrededor de las mismas tres decisiones: tres segmentos, el conductor como actor que no usa la aplicación y el monitoreo IoT dentro del alcance con lecturas simuladas.
 
 <a id="video-about-the-team"></a>
 ## Video About-the-Team.
+
+El video About-the-Team presenta a los integrantes de CodeCrafters, su motivación para construir BottleTrack y la forma en que el equipo trabajó en cada Sprint, incluyendo los testimonios que sustentan el Student Outcome. Tiene una duración aproximada de 5 minutos más 1 minuto por integrante, se publica en Microsoft Stream y en YouTube, y se incrusta en la sección *The team* del Landing Page.
 
 <hr>
 
@@ -2245,14 +3005,11 @@ World Wide Web Consortium. (2023, 5 de octubre). *Web Content Accessibility Guid
 <a id="anexo-a-videos-de-exposiciones"></a>
 ## Anexo A. Videos de Exposiciones
 
-En esta sección se registra de forma progresiva el video de exposición correspondiente a cada entrega del proyecto. Cada video se encuentra publicado en Microsoft Stream con enlace privado y sigue la nomenclatura establecida en el enunciado del trabajo final.
+En esta sección se registra de forma progresiva el video de exposición correspondiente a cada entrega del proyecto. Cada video se publica en Microsoft Stream con enlace privado y sigue la nomenclatura establecida en el enunciado del trabajo final: `upc-pre-202620-1asi0730-8084-codecrafters-expo-<entrega>`. El registro de los videos inicia con la entrega TB1.
 
-| Entrega | Título del video | Enlace |
-| :------ | :--------------- | :----- |
-| AV1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-av1 | _Pendiente de publicación._ |
-| TB1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb1 | _Pendiente de publicación._ |
-| AV2 | upc-pre-202620-1asi0730-8084-codecrafters-expo-av2 | _Pendiente de publicación._ |
-| TB2 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb2 | _Pendiente de publicación._ |
+| Entrega | Video | Enlace |
+| :------ | :---- | :----- |
+| TB1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g181_upc_edu_pe/IQAW5AoryW7TQIT2jHGQtKZNAdP-jqq74aJtOCkKLweoWaY?e=c7yrEz |
 
 <hr>
 
@@ -2263,8 +3020,18 @@ En esta sección se consolidan los videos de entrevistas realizadas durante el c
 
 | Proceso | Sprint | Nombre del archivo | Enlace |
 | :------ | :----- | :----------------- | :----- |
-| Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | _Pendiente de publicación._ |
-| Validation Interviews | Sprint 3 | upc-pre-202620-1asi0730-8084-codecrafters-validation-sprint-3 | _Pendiente de publicación._ |
+| Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20221g181_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221g181%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8084%2Dcodecrafters%2Dneedfinding%2Dsprint%2D1%2Emp4&ga=1) |
+
+El video de Needfinding reúne las seis entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos.
+
+| # | Entrevistado | Segmento objetivo | Inicio | Duración |
+| :- | :----------- | :---------------- | :----- | :------- |
+| 1 | Luis Angel Tufiño Argüelles | Empresas distribuidoras de bebidas | 00:00:00 | 11:27 |
+| 2 | Luis Palacin Lope | Empresas distribuidoras de bebidas | 00:11:27 | 17:55 |
+| 3 | Rodrigo Alonso | Supervisores o encargados de flota | 00:29:22 | 08:42 |
+| 4 | Jorge Castilla | Supervisores o encargados de flota | 00:38:05 | 11:44 |
+| 5 | Pablo Ludeña Flores | Supervisores o encargados de flota | 00:49:48 | 04:36 |
+| 6 | Arturo Axel Saravia Huaricancha | Bodegas y minimarkets | 00:54:24 | 06:10 |
 
 <hr>
 
@@ -2277,7 +3044,7 @@ En esta sección se relacionan los repositorios de la organización pública de 
 | :------- | :---------- |
 | Informe del proyecto | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report |
 | Landing Page | https://github.com/1ASI0730-2620-8084-CodeCrafters/Landing-Page |
-| Frontend Web Application | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Application |
+| Frontend Web Application | https://github.com/1ASI0730-2620-8084-CodeCrafters/Frontend-Web-Aplication |
 | Web Services | https://github.com/1ASI0730-2620-8084-CodeCrafters/Web-Services |
 
 <hr>
@@ -2285,14 +3052,12 @@ En esta sección se relacionan los repositorios de la organización pública de 
 <a id="anexo-d-productos-desplegados"></a>
 ## Anexo D. Productos Desplegados
 
-En esta sección se registran las URL de los productos publicados, que se irán incorporando conforme cada uno alcance su primer despliegue.
+En esta sección se registran las URL de los productos publicados. Cada producto se incorpora a la tabla en la entrega en que alcanza su primer despliegue.
 
 | Producto | Plataforma de despliegue | URL |
 | :------- | :----------------------- | :-- |
-| Landing Page | GitHub Pages | _Pendiente de publicación._ |
-| Frontend Web Application | Vercel | _Pendiente de publicación._ |
-| Web Services | Por definir | _Pendiente de publicación._ |
-| Documentación de la API | Swagger | _Pendiente de publicación._ |
+| Landing Page | Netlify | https://1asi0730-2620-8084-codecrafters.netlify.app/ |
+| Frontend Web Application | Vercel | https://frontend-web-aplication.vercel.app |
 
 <hr>
 
@@ -2303,8 +3068,31 @@ En esta sección se registran los espacios de trabajo compartidos que el equipo 
 
 | Herramienta | Propósito | Enlace |
 | :---------- | :-------- | :----- |
-| Trello | Product Backlog y Sprint Backlog | _Pendiente de registro._ |
-| UXPressia | User Personas, Empathy Maps, Journey Maps e Impact Map | _Pendiente de registro._ |
-| Miro | Big Picture EventStorming y Design-Level EventStorming | _Pendiente de registro._ |
-| Figma | Wireframes, Mock-ups y Prototypes | _Pendiente de registro._ |
-| Structurizr | Diagramas C4 de arquitectura de software | _Pendiente de registro._ |
+| Trello | Product Backlog y Sprint Backlog | https://trello.com/b/jGpO815B/bottletrack-product-backlog |
+| UXPressia | User Personas (Carlos Mendoza, Luis Torres, María Fernández) | https://uxpressia.com/w/v8FzI/p/GS0Vk<br>https://uxpressia.com/w/v8FzI/p/ZvlM6<br>https://uxpressia.com/w/v8FzI/p/p2gAf |
+| UXPressia | User Journey Maps | https://uxpressia.com/w/v8FzI/m/1XPXj<br>https://uxpressia.com/w/v8FzI/m/cnzpG<br>https://uxpressia.com/w/v8FzI/m/XFb9u |
+| UXPressia | Empathy Maps | https://uxpressia.com/w/v8FzI/p/ByEH9<br>https://uxpressia.com/w/v8FzI/p/kjfDJ<br>https://uxpressia.com/w/v8FzI/p/97hC8 |
+| UXPressia | Impact Maps | https://uxpressia.com/w/v8FzI/i/ewgWb<br>https://uxpressia.com/w/v8FzI/i/kjQEJ<br>https://uxpressia.com/w/v8FzI/i/1v4vF |
+| Miro | Big Picture EventStorming y Design-Level EventStorming | https://miro.com/welcomeonboard/aEpQNnI1bURVdldqRzNDWk5aUnR6bStSQnhiSmpuYi9RM01sVkxtOWNsM3V5T1NkRW5pdHFuZ003VHcrV0hxR29tQ0xvRTJHV1VNTzNYUWV1VmwyWUZGRzlld2tuSnZKRTNrM3RnczNnc0NMQWt2WlB6WnEzRXBES1h0d2svaStnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=491275847129 |
+| Figma | Wireframes, Mock-ups y Prototypes | https://www.figma.com/design/lBVdrnyGUWfjN6Mz4fhBpY/BOTTLETRACK?node-id=0-1 |
+| Structurizr DSL | Diagramas C4 de arquitectura de software | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report/tree/main/img/DD-SoftwareArchitecture |
+| PlantUML | Diagramas de clases y de base de datos | https://github.com/1ASI0730-2620-8084-CodeCrafters/Report/tree/main/img/Software-Object-Oriented-Design |
+
+<hr>
+
+<a id="anexo-f-codigo-fuente-de-diagramas"></a>
+## Anexo F. Código Fuente de los Diagramas
+
+Los diagramas de arquitectura, de clases y de base de datos se elaboraron como Diagram-as-Code, una de las alternativas que contempla el enunciado del trabajo final. El código fuente se conserva en el repositorio del informe como evidencia del proceso de elaboración y permite regenerar cada imagen ante cualquier cambio del modelo.
+
+| Diagrama | Lenguaje | Archivo fuente |
+| :------- | :------- | :------------- |
+| C4 - System Context | Structurizr DSL | `img/DD-SoftwareArchitecture/contextDiagram.txt` |
+| C4 - Containers | Structurizr DSL | `img/DD-SoftwareArchitecture/containerDiagram.txt` |
+| C4 - Components, Identity and Access Management | Structurizr DSL | `img/DD-SoftwareArchitecture/componentIAM_D.txt` |
+| C4 - Components, Fleet Management | Structurizr DSL | `img/DD-SoftwareArchitecture/componentFleetM_D.txt` |
+| C4 - Components, Operations and Routes | Structurizr DSL | `img/DD-SoftwareArchitecture/componentO&R_D.txt` |
+| C4 - Components, IoT Monitoring | Structurizr DSL | `img/DD-SoftwareArchitecture/componentIoTM_D.txt` |
+| C4 - Components, Incident Management | Structurizr DSL | `img/DD-SoftwareArchitecture/componentIM_D.txt` |
+| Class Diagram | PlantUML | `img/Software-Object-Oriented-Design/class-diagrams.puml` |
+| Database Diagram | PlantUML | `img/Database-Design/database-diagram.puml` |

@@ -1,85 +1,73 @@
-workspace "BottleTrack" "Beverage distribution management system" {
+workspace "BottleTrack" "Container diagram" {
 
     !identifiers hierarchical
 
     model {
+        administrator = person "Distributor Administrator" "Manages the company, its users, its fleet and reviews operation indicators."
+        fleetSupervisor = person "Fleet Supervisor" "Plans transport operations, records delivery results and follows up incidents."
+        deliveryPointOwner = person "Delivery Point Owner" "Owner of a convenience store or minimarket that tracks its orders and reports reception problems."
+        driver = person "Driver" "Drives the vehicle and reports delivery results to the fleet supervisor. Does not use the application."
+        iotDevice = softwareSystem "Vehicle IoT Device" "Sends location, cargo temperature and impact readings during the trip." "External"
+        mapsService = softwareSystem "Maps and Geolocation Service" "Third party service that geocodes delivery addresses and draws routes." "External"
 
-        administrator = person "Administrator" "Manages users, roles and distribution operations."
+        bottleTrack = softwareSystem "BottleTrack" "Manages and tracks bottled beverage transport operations with IoT monitoring and incident reporting." {
+            landingPage = container "Landing Page" "Presents the business model and redirects each segment to the web application." "HTML5, CSS3, JavaScript - GitHub Pages"
+            webApplication = container "Web Application" "Single page application organized by bounded contexts." "Vue 3, PrimeVue, Pinia, Vue Router, vue-i18n, axios - Vercel"
+            backendApi = container "Backend API" "RESTful API organized as a modular monolith, one module per bounded context, each one with a hexagonal architecture." "ASP.NET Core, C#, Entity Framework Core" {
 
-        fleetSupervisor = person "Fleet Supervisor" "Plans operations, assigns vehicles and drivers, monitors the fleet and manages incidents."
-
-        driver = person "Driver" "Executes deliveries, confirms delivery status and reports incidents."
-
-
-        bottleTrack = softwareSystem "BottleTrack" "Beverage distribution management system." {
-
-            landingPage = container "Landing Page" "Presents BottleTrack, its value proposition and information about the startup." "HTML5 / CSS3 / JavaScript"
-
-            webApplication = container "Web Application" "Provides the user interface for managing and monitoring distribution operations." "Vue.js / PrimeVue"
-
-            backendApi = container "backend API" "Provides the business logic and API endpoints for BottleTrack." "ASP.NET Core / C# / Entity Framework Core"
-
-            database = container "Database" "Stores users, vehicles, drivers, distribution operations, deliveries and incidents." "PostgreSQL"
+            }
+            database = container "Database" "Stores the data of every bounded context in its own set of tables." "MySQL" "Database"
         }
 
-
-        administrator -> bottleTrack.landingPage "Visits the landing page"
-
-        fleetSupervisor -> bottleTrack.landingPage "Visits the landing page"
-
-        driver -> bottleTrack.landingPage "Visits the landing page"
-
-
-        administrator -> bottleTrack.webApplication "Manages users and operations"
-
-        fleetSupervisor -> bottleTrack.webApplication "Plans, assigns and monitors distribution operations"
-
-        driver -> bottleTrack.webApplication "Views assigned operations, confirms deliveries and reports incidents"
-
-
-        bottleTrack.webApplication -> bottleTrack.backendApi "Makes API requests" "HTTPS/JSON"
-
+        administrator -> bottleTrack.landingPage "Visits"
+        deliveryPointOwner -> bottleTrack.landingPage "Visits"
+        administrator -> bottleTrack.webApplication "Uses" "HTTPS"
+        fleetSupervisor -> bottleTrack.webApplication "Uses" "HTTPS"
+        deliveryPointOwner -> bottleTrack.webApplication "Tracks orders" "HTTPS"
+        bottleTrack.landingPage -> bottleTrack.webApplication "Redirects each segment to its view" "HTTPS"
+        bottleTrack.webApplication -> bottleTrack.backendApi "Makes API requests" "HTTPS / JSON"
         bottleTrack.backendApi -> bottleTrack.database "Reads from and writes to" "Entity Framework Core"
+        bottleTrack.backendApi -> mapsService "Geocodes addresses" "HTTPS / JSON"
+        iotDevice -> bottleTrack.backendApi "Sends telemetry readings" "HTTPS / JSON"
     }
 
-
     views {
-
-        container bottleTrack "ContainerDiagram" {
-
-            include administrator
-            include fleetSupervisor
-            include driver
-
-            include bottleTrack.landingPage
-            include bottleTrack.webApplication
-            include bottleTrack.backendApi
-            include bottleTrack.database
-
+        container bottleTrack "Containers" {
+            include *
             autolayout lr
-
-            title "Container View - BottleTrack"
+            title "Container Diagram - BottleTrack"
         }
 
-
         styles {
-
             element "Person" {
                 shape person
-                background #08427b
+                background #4f2000
                 color #ffffff
             }
-
             element "Software System" {
-                background #1168bd
+                background #b34900
                 color #ffffff
             }
-
+            element "External" {
+                background #8a8a8a
+                color #ffffff
+            }
             element "Container" {
-                background #438dd5
+                background #f97316
                 color #ffffff
             }
-
+            element "Database" {
+                shape cylinder
+            }
+            element "Component" {
+                background #ffedd5
+                color #303030
+            }
+            element "Port" {
+                background #ffffff
+                color #303030
+                border dashed
+            }
             relationship "Relationship" {
                 thickness 2
             }

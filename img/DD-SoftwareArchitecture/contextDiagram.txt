@@ -1,49 +1,63 @@
-workspace "BottleTrack" "Beverage distribution management system" {
+workspace "BottleTrack" "System Context diagram" {
 
     !identifiers hierarchical
 
     model {
+        administrator = person "Distributor Administrator" "Manages the company, its users, its fleet and reviews operation indicators."
+        fleetSupervisor = person "Fleet Supervisor" "Plans transport operations, records delivery results and follows up incidents."
+        deliveryPointOwner = person "Delivery Point Owner" "Owner of a convenience store or minimarket that tracks its orders and reports reception problems."
+        driver = person "Driver" "Drives the vehicle and reports delivery results to the fleet supervisor. Does not use the application."
+        iotDevice = softwareSystem "Vehicle IoT Device" "Sends location, cargo temperature and impact readings during the trip." "External"
+        mapsService = softwareSystem "Maps and Geolocation Service" "Third party service that geocodes delivery addresses and draws routes." "External"
 
-        administrator = person "Administrator" "Manages users, roles and distribution operations."
+        bottleTrack = softwareSystem "BottleTrack" "Manages and tracks bottled beverage transport operations with IoT monitoring and incident reporting."
 
-        fleetSupervisor = person "Fleet Supervisor" "Plans operations, assigns vehicles and drivers, monitors the fleet and manages incidents."
-
-        driver = person "Driver" "Executes deliveries, confirms delivery status and reports incidents."
-
-        iotDevice = softwareSystem "Vehicle IoT Device" "Provides vehicle telemetry data during transportation."
-
-        bottleTrack = softwareSystem "BottleTrack" "Manages, plans and monitors beverage distribution operations."
-
-        administrator -> bottleTrack "Manages users, roles and operations"
-
-        fleetSupervisor -> bottleTrack "Plans, assigns and monitors operations"
-
-        driver -> bottleTrack "Views assigned operations, confirms deliveries and reports incidents"
-
-        iotDevice -> bottleTrack "Sends vehicle telemetry data"
+        administrator -> bottleTrack "Manages the company, fleet and users, and reviews indicators"
+        fleetSupervisor -> bottleTrack "Plans operations, records deliveries and follows up incidents"
+        deliveryPointOwner -> bottleTrack "Tracks orders and reports reception problems"
+        driver -> fleetSupervisor "Reports delivery results and incidents by phone"
+        iotDevice -> bottleTrack "Sends telemetry readings" "HTTPS / JSON"
+        bottleTrack -> mapsService "Geocodes addresses and gets routes" "HTTPS / JSON"
     }
 
     views {
-
         systemContext bottleTrack "SystemContext" {
             include *
+            include driver
             autolayout lr
-            title "System Context View - BottleTrack"
+            title "System Context - BottleTrack"
         }
 
         styles {
-
             element "Person" {
                 shape person
-                background #08427b
+                background #4f2000
                 color #ffffff
             }
-
             element "Software System" {
-                background #1168bd
+                background #b34900
                 color #ffffff
             }
-
+            element "External" {
+                background #8a8a8a
+                color #ffffff
+            }
+            element "Container" {
+                background #f97316
+                color #ffffff
+            }
+            element "Database" {
+                shape cylinder
+            }
+            element "Component" {
+                background #ffedd5
+                color #303030
+            }
+            element "Port" {
+                background #ffffff
+                color #303030
+                border dashed
+            }
             relationship "Relationship" {
                 thickness 2
             }
