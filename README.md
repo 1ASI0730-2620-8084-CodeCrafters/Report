@@ -1049,10 +1049,12 @@ Pablo considera importante contar con una herramienta que permita disponer de in
 
 **Segmento Objetivo 3: Bodegas y minimarkets**
 
-| # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Arturo Axel Saravia Huaricancha | 20 años | Los Olivos | <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">| [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) |  00:00:00 | 6:06 |
-| 2 | Leo Giovany Yañez Santos | 23 años | Pueblo Libre | <img src="img/chapter2/interview-leo-yanez.png" alt="Entrevista - Leo Yañez"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQBojonPPXthQZqzYym1KU4AAaZRMaqOFJhhf7FbnKeIYyU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J1wLT6) | 00:00:00 | 03:00 |
+| # | Nombres y Apellidos | Edad    | Distrito     | Screenshot                                                                    | URL del video (Microsoft Stream) | Inicio   | Duración |
+|:--| :--- |:--------|:-------------|:------------------------------------------------------------------------------| :--- |:---------|:---------|
+| 1 | Arturo Axel Saravia Huaricancha | 20 años | Los Olivos   | <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">                | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) | 00:00:00 | 6:06     |
+| 2 | Leo Giovany Yañez Santos | 23 años | Pueblo Libre | <img src="img/chapter2/interview-leo-yanez.png" alt="Entrevista - Leo Yañez"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQBojonPPXthQZqzYym1KU4AAaZRMaqOFJhhf7FbnKeIYyU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J1wLT6) | 00:00:00 | 03:00    |
+| 3 | Alma Rosa Rodríguez Chota | 36 años  | Santa Anita  | <img src="img/chapter2/AlmaE.png" alt="Entrevista - Alma Rodríguez">          | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c201_upc_edu_pe/IQB1G5FzKF5WTI8rIznLyzZXARsgezdS_X1Mothtyj9vjKo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fUwC72) | 00:03:00 | 11:32     |
+
 
 *Resumen de entrevista 1:*
 
@@ -1070,6 +1072,13 @@ Se identificó que sus principales problemas son los retrasos, los productos fal
 
 El entrevistado considera que BottleTrack le ayudaría a consultar el estado de sus pedidos, recibir avisos y reportar incidencias con fotos, siempre que la herramienta sea fácil de usar desde el celular.
 
+*Resumen de entrevista 3:*
+
+En esta entrevista, la participante es Alma Rosa Rodríguez Chota, de 36 años, quien trabaja desde hace 8 años en una bodega en Santa Anita, donde realiza compras y coordina con proveedores y distribuidores. Utiliza principalmente un celular Android, WhatsApp y llamadas para comunicarse, además de Excel para controlar sus pedidos.
+
+Se identificó que trabaja con varios proveedores y que sus principales problemas son los retrasos, productos faltantes o dañados y no conocer con precisión la hora de llegada de los pedidos. Para verificar las entregas, revisa las cantidades solicitadas y utiliza fotografías como evidencia cuando necesita realizar un reclamo.
+
+La entrevistada considera importante conocer rápidamente el estado del pedido, las cantidades, disponibilidad y hora de llegada, ya que los problemas en las entregas pueden ocasionarle pérdida de ventas y tiempo de atención a sus clientes. Para ella, una entrega satisfactoria debe ser rápida, completa, puntual y con productos en buenas condiciones.
 
 <a id="223-analisis-de-entrevistas"></a>
 ### 2.2.3. Análisis de entrevistas.
