@@ -1979,6 +1979,100 @@ Los wireflows conectan los wireframes según las acciones del usuario. Cada flec
 
 <img src="img/webApplicationUxDesign/wireflow/supervisor_WA_wireflow.png" alt="Wireflow del supervisor" width="800">
 
+A continuación se presentan los wireflows organizados por User Goal para cada rol de la Web Application.
+
+#### Administrador
+
+**Goal 1: Iniciar sesión y revisar el estado de la operación.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_login_WA_wireflow.png" alt="Wireflow del administrador: iniciar sesión y revisar el estado de la operación" width="800">
+
+**Goal:** El administrador quiere iniciar sesión en BottleTrack y revisar el estado general de las operaciones del día.
+
+El administrador ingresa su correo electrónico y su contraseña en la pantalla de inicio de sesión (US04) y presiona «Iniciar sesión». El sistema valida sus credenciales y lo dirige al Dashboard (US35). Allí ve los indicadores del día: operaciones de hoy, en curso, completadas y con incidencias, además de los vehículos y conductores disponibles. También encuentra el gráfico de operaciones por semana y una tabla con las últimas operaciones, su conductor, su vehículo y su estado.
+
+**Goal 2: Registrar un nuevo usuario.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_users_WA_wireflow.png" alt="Wireflow del administrador: registrar un nuevo usuario" width="800">
+
+**Goal:** El administrador quiere registrar un nuevo usuario de la empresa y asignarle un rol.
+
+Desde el Dashboard, el administrador selecciona «Usuarios» en el menú lateral. En Gestión de usuarios (US07, US08) ve la lista de usuarios con su nombre, apellidos, correo y teléfono, y puede filtrarla por rol y por estado. Al crear un usuario se abre el panel lateral «Nuevo usuario», donde completa el nombre, los apellidos, el correo y el teléfono, elige el rol (US08) y el estado, y presiona «Guardar». El nuevo usuario se agrega a la tabla.
+
+**Goal 3: Registrar vehículos y conductores de la flota.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_fleet_WA_wireflow.png" alt="Wireflow del administrador: registrar vehículos y conductores de la flota" width="800">
+
+**Goal:** El administrador quiere registrar los vehículos y los conductores de la flota para que estén disponibles al planificar operaciones.
+
+Desde el Dashboard, el administrador entra a Flota > Vehículos (US10, US11, US12). Ve la lista de vehículos con placa, marca, modelo, año y capacidad, con filtros por estado y marca, y en el panel «Registrar vehículo» completa esos datos junto con el estado del vehículo. Luego pasa a Flota > Conductores (US13, US14, US15), donde ve el nombre, los apellidos, el DNI, el número de licencia y el teléfono de cada conductor. En el panel «Registrar conductor» ingresa sus datos, lo deja como «Disponible» y presiona «Guardar».
+
+**Goal 4: Configurar los datos de la empresa.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_company_WA_wireflow.png" alt="Wireflow del administrador: configurar los datos de la empresa" width="800">
+
+**Goal:** El administrador quiere mantener actualizados los datos de su empresa en BottleTrack.
+
+Desde el Dashboard, el administrador selecciona «Empresa» en el menú lateral y llega a Configuración de empresa (US09). Puede cambiar el logo y editar la razón social, el RUC, el nombre comercial, el teléfono, el correo y la dirección. Al presionar «Guardar cambios» se actualiza la información; con «Cancelar» se descartan los cambios.
+
+**Goal 5: Recuperar el acceso a la cuenta.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_password_WA_wireflow.png" alt="Wireflow del administrador: recuperar el acceso a la cuenta" width="800">
+
+**Goal:** El usuario quiere recuperar el acceso a su cuenta cuando olvidó su contraseña.
+
+En la pantalla de inicio de sesión, el usuario selecciona «¿Olvidaste tu contraseña?». En Recuperar contraseña ingresa el correo de su cuenta y presiona «Enviar enlace de recuperación». El sistema envía un enlace para restablecer la contraseña, que vence en 30 minutos, y el usuario vuelve a la pantalla de inicio de sesión para ingresar con su nueva contraseña. Este flujo está disponible tanto para el administrador como para el supervisor.
+
+#### Supervisor de flota
+
+**Goal 1: Iniciar sesión y monitorear las operaciones del día.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_login_WA_wireflow.png" alt="Wireflow del supervisor de flota: iniciar sesión y monitorear las operaciones del día" width="800">
+
+**Goal:** El supervisor quiere iniciar sesión y conocer de inmediato el estado de las operaciones y entregas del día.
+
+El supervisor ingresa su correo y su contraseña (US04) y llega a su Dashboard (US35). Allí ve las operaciones de hoy, en curso, pendientes y completadas, y el estado de las entregas: completadas, pendientes, retrasadas y con incidencias. La tabla «Operaciones en curso» muestra la ruta, el conductor, el vehículo, el avance de las entregas (por ejemplo, 2/4) y el estado de cada operación.
+
+**Goal 2: Crear una operación de transporte y definir su ruta.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_create_operation_WA_wireflow.png" alt="Wireflow del supervisor de flota: crear una operación de transporte y definir su ruta" width="800">
+
+**Goal:** El supervisor quiere crear una operación de transporte, asignarle un vehículo y un conductor, y definir los puntos de entrega de su ruta.
+
+Desde el Dashboard, el supervisor entra a Operaciones (US19), donde ve la lista de operaciones con filtros por fecha, estado, conductor y vehículo, y presiona «Nueva operación». En Crear operación de transporte (US16, US17, US18) completa tres pasos: los datos de la operación (descripción y fecha), la asignación de un vehículo disponible y la asignación de un conductor disponible. Al presionar «Guardar y continuar a Ruta» pasa a Puntos de entrega (US23, US24), donde agrega cada establecimiento con su dirección y su distrito, los reordena arrastrándolos y puede eliminar los que no correspondan.
+
+**Goal 3: Hacer seguimiento a una operación y finalizarla.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_finish_operation_WA_wireflow.png" alt="Wireflow del supervisor de flota: hacer seguimiento a una operación y finalizarla" width="800">
+
+**Goal:** El supervisor quiere revisar el avance de una operación en curso y finalizarla cuando termine el recorrido.
+
+En la lista de operaciones, el supervisor selecciona una operación (por ejemplo, OP-001) y abre su detalle (US34). Ve el conductor, el vehículo, la fecha, las incidencias, una barra con el progreso de las entregas (2 de 4 completadas) y la lista de puntos de entrega con su estado. Al presionar «Finalizar operación» (US22) se abre una ventana de confirmación con el resumen de entregas completadas y pendientes, las incidencias abiertas y un campo de observaciones. Con «Confirmar finalización», la operación se cierra y pasa al historial.
+
+**Goal 4: Gestionar las incidencias de las operaciones.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_incidents_WA_wireflow.png" alt="Wireflow del supervisor de flota: gestionar las incidencias de las operaciones" width="800">
+
+**Goal:** El supervisor quiere revisar las incidencias reportadas durante las operaciones y actualizar su estado.
+
+Desde el detalle de una operación, el supervisor presiona «Ver incidencias» y llega a Gestión de incidencias (US32, US33). Ve la lista con el código, la operación, el punto de entrega y el tipo de cada incidencia, con filtros por tipo, severidad, estado y fecha. Al seleccionar una incidencia se abre un panel con la operación, la entrega, el tipo, la descripción y la evidencia fotográfica (US31). Desde ese panel actualiza el estado de la incidencia (US33) y presiona «Guardar».
+
+**Goal 5: Consultar el historial de operaciones.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_history_WA_wireflow.png" alt="Wireflow del supervisor de flota: consultar el historial de operaciones" width="800">
+
+**Goal:** El supervisor quiere consultar las operaciones finalizadas para analizar su resultado.
+
+Desde el Dashboard, el supervisor entra a Historial (US36). Filtra las operaciones por rango de fechas, conductor, vehículo, estado o si tuvieron incidencias, y ve en la tabla las entregas totales, las completadas, las incidencias y el estado final de cada una. Al abrir una fila se muestra el detalle de la operación en modo solo lectura (US37).
+
+**Goal 6: Revisar el perfil y cerrar sesión.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_profile_WA_wireflow.png" alt="Wireflow del supervisor de flota: revisar el perfil y cerrar sesión" width="800">
+
+**Goal:** El supervisor quiere revisar los datos de su cuenta y cerrar sesión de forma segura.
+
+Desde el menú lateral, el supervisor selecciona «Perfil». Ve su nombre, sus apellidos, su correo, su teléfono, su rol (Supervisor de flota) y la empresa a la que pertenece, y puede editar sus datos con «Editar datos». Al presionar «Cerrar sesión» (US05) finaliza su sesión y vuelve a la pantalla de inicio de sesión.
+
 <a id="443-web-applications-mock-ups"></a>
 ### 4.4.3. Web Applications Mock-ups.
 
@@ -2024,6 +2118,100 @@ Los User Flow Diagrams muestran, para cada User Goal, el recorrido que sigue el 
 **Supervisor**
 
 <img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_super_WA_wireflow.png" alt="User flow del supervisor sobre los mock-ups" width="800">
+
+A continuación se presentan los User Flow Diagrams organizados por User Goal para cada rol, construidos sobre los mock-ups de la Web Application.
+
+#### Administrador
+
+**Goal 1: Iniciar sesión y revisar el estado de la operación.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_login_WA_userflow.png" alt="User flow del administrador: iniciar sesión y revisar el estado de la operación" width="800">
+
+**Goal:** El administrador quiere iniciar sesión en BottleTrack y revisar el estado general de las operaciones del día.
+
+El administrador completa su correo y su contraseña, y puede marcar «Recordarme» o cambiar el idioma entre español e inglés. Al presionar «Iniciar sesión» llega al Dashboard, donde el indicador «Con incidencias» se resalta en rojo para llamar su atención y los estados de la tabla se distinguen por color (en curso, pendiente y completada). Camino alternativo: si el correo o la contraseña son incorrectos, el formulario muestra un mensaje de error y el administrador permanece en la pantalla de inicio de sesión.
+
+**Goal 2: Registrar un nuevo usuario.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_users_WA_userflow.png" alt="User flow del administrador: registrar un nuevo usuario" width="800">
+
+**Goal:** El administrador quiere registrar un nuevo usuario de la empresa y asignarle un rol.
+
+El administrador entra a «Usuarios» desde el menú lateral y abre el panel «Nuevo usuario», que se muestra sobre la lista oscurecida para mantener el contexto. Completa los datos, elige el rol y el estado, y confirma con el botón naranja «Guardar». Caminos alternativos: si el correo ya está registrado o falta un campo obligatorio, el panel marca el error junto al campo; si presiona «Cancelar», el panel se cierra sin guardar cambios.
+
+**Goal 3: Registrar vehículos y conductores de la flota.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_fleet_WA_userflow.png" alt="User flow del administrador: registrar vehículos y conductores de la flota" width="800">
+
+**Goal:** El administrador quiere registrar los vehículos y los conductores de la flota para que estén disponibles al planificar operaciones.
+
+El administrador recorre el submenú Flota: primero registra un vehículo y después un conductor, en paneles laterales con la misma estructura, lo que hace el flujo predecible. Los vehículos y conductores que quedan con estado «Disponible» aparecen después como opciones al crear una operación de transporte. Camino alternativo: si la placa, el DNI o el número de licencia ya existen, o tienen un formato inválido, el panel muestra el error y no guarda el registro.
+
+**Goal 4: Configurar los datos de la empresa.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_company_WA_userflow.png" alt="User flow del administrador: configurar los datos de la empresa" width="800">
+
+**Goal:** El administrador quiere mantener actualizados los datos de su empresa en BottleTrack.
+
+La pantalla agrupa los datos de la empresa en una sola tarjeta con el logo en la parte superior. El administrador edita los campos necesarios y confirma con el botón naranja «Guardar cambios». Camino alternativo: si el RUC no tiene 11 dígitos o el correo no es válido, el formulario señala el campo y no guarda hasta que se corrija.
+
+**Goal 5: Recuperar el acceso a la cuenta.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_password_WA_userflow.png" alt="User flow del administrador: recuperar el acceso a la cuenta" width="800">
+
+**Goal:** El usuario quiere recuperar el acceso a su cuenta cuando olvidó su contraseña.
+
+La pantalla de recuperación mantiene la misma composición que el inicio de sesión, por lo que el usuario no pierde el contexto. Un recuadro informativo le recuerda la vigencia del enlace y le sugiere revisar la carpeta de spam. Caminos alternativos: si el correo no tiene un formato válido, se marca el campo; con «Volver a iniciar sesión» puede regresar sin enviar el enlace.
+
+#### Supervisor de flota
+
+**Goal 1: Iniciar sesión y monitorear las operaciones del día.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_login_WA_userflow.png" alt="User flow del supervisor de flota: iniciar sesión y monitorear las operaciones del día" width="800">
+
+**Goal:** El supervisor quiere iniciar sesión y conocer de inmediato el estado de las operaciones y entregas del día.
+
+Tras iniciar sesión, el supervisor ve su Dashboard con el indicador de incidencias resaltado en rojo y los estados de las operaciones diferenciados por color. Desde la barra superior puede buscar una operación o una incidencia específica. Camino alternativo: si las credenciales no son válidas, se muestra un mensaje de error en el formulario de inicio de sesión.
+
+**Goal 2: Crear una operación de transporte y definir su ruta.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_create_operation_WA_userflow.png" alt="User flow del supervisor de flota: crear una operación de transporte y definir su ruta" width="800">
+
+**Goal:** El supervisor quiere crear una operación de transporte, asignarle un vehículo y un conductor, y definir los puntos de entrega de su ruta.
+
+El formulario de creación numera los pasos y resalta en naranja el vehículo y el conductor seleccionados; solo se listan los que tienen estado «Disponible». En la pantalla de ruta, el supervisor ve las paradas sobre el mapa y en la lista «Orden de paradas», y confirma la secuencia con «Guardar orden de ruta». Caminos alternativos: si no hay vehículos o conductores disponibles para la fecha, el paso correspondiente lo indica y no permite continuar; con «Cancelar» vuelve a la lista sin crear la operación.
+
+**Goal 3: Hacer seguimiento a una operación y finalizarla.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_finish_operation_WA_userflow.png" alt="User flow del supervisor de flota: hacer seguimiento a una operación y finalizarla" width="800">
+
+**Goal:** El supervisor quiere revisar el avance de una operación en curso y finalizarla cuando termine el recorrido.
+
+La barra de progreso naranja y las etiquetas de color de cada entrega permiten al supervisor ver de un vistazo qué falta. La ventana de confirmación le advierte que las entregas pendientes se registrarán como no entregadas, para evitar cierres por error. Caminos alternativos: con «Cancelar» la operación sigue en curso; con «Ver ruta» puede revisar las paradas en el mapa antes de finalizar.
+
+**Goal 4: Gestionar las incidencias de las operaciones.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_incidents_WA_userflow.png" alt="User flow del supervisor de flota: gestionar las incidencias de las operaciones" width="800">
+
+**Goal:** El supervisor quiere revisar las incidencias reportadas durante las operaciones y actualizar su estado.
+
+En los mockups, cada tipo de incidencia (retraso, producto dañado, falla de vehículo, dirección incorrecta) tiene un ícono, y los estados se distinguen por color: en revisión en amarillo, abierta en rojo y resuelta en verde. Al seleccionar una incidencia se abre el panel de detalle, donde el supervisor revisa la evidencia, cambia el estado y deja un comentario sobre la acción tomada. Camino alternativo: con «Cerrar» vuelve a la lista sin modificar la incidencia.
+
+**Goal 5: Consultar el historial de operaciones.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_history_WA_userflow.png" alt="User flow del supervisor de flota: consultar el historial de operaciones" width="800">
+
+**Goal:** El supervisor quiere consultar las operaciones finalizadas para analizar su resultado.
+
+La tabla del historial agrega la ruta y la duración de cada operación, y los estados finales se diferencian por color (completada en verde y cancelada en rojo). El supervisor puede exportar el historial filtrado con el botón «Exportar». Al abrir una operación, el detalle se muestra sin acciones de edición, porque la operación ya está cerrada.
+
+**Goal 6: Revisar el perfil y cerrar sesión.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_profile_WA_userflow.png" alt="User flow del supervisor de flota: revisar el perfil y cerrar sesión" width="800">
+
+**Goal:** El supervisor quiere revisar los datos de su cuenta y cerrar sesión de forma segura.
+
+La tarjeta de perfil muestra el rol del usuario como una etiqueta destacada y separa claramente las dos acciones: «Editar datos» y el botón naranja «Cerrar sesión». Al cerrar sesión, el sistema invalida la sesión actual y redirige al inicio de sesión, por lo que nadie puede volver a la aplicación con el botón «Atrás» del navegador.
 
 <a id="45-web-applications-prototyping"></a>
 ## 4.5. Web Applications Prototyping.
