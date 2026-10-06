@@ -73,6 +73,7 @@
 | 2.9 | 2026-10-05 | Pezo Castilla, Maria Jose | Actualización y consolidación del Impact Map de BottleTrack, integrando los tres segmentos objetivo en un único mapa y revisando la trazabilidad entre Business Goals, Actors, Impacts, Deliverables y User Stories. |
 | 2.10 | 2026-10-05 | Huapaya Buitron, Ariana Alheli | Registro de las acciones realizadas en AV1 en la sección Student Outcome. |
 | 2.11 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Incorporación en la sección Student Outcome de las acciones de TB1 realizadas en el informe por Cumba Rengifo, Palacin Lazo y Pezo Castilla. |
+| 2.12 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Actualización de los commits del informe por integrante en el Team Collaboration Insights del Sprint 2. |
 
 <hr>
 
@@ -3077,17 +3078,17 @@ A partir del Sprint 2 el Landing Page se publica en Netlify, que reemplaza a Git
 <a id="5228-team-collaboration-insights-during-sprint"></a>
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0. En el informe, Leonardo Cumba documentó los wireflows y User Flow Diagrams por objetivo de usuario y registró una nueva entrevista del segmento de bodegas y minimarkets; Gerardo Palacin registró otra entrevista de ese segmento; y Angel Crispin documentó el Sprint 2, aplicó las correcciones de AV1 y publicó los releases del informe.
+Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0. En el informe, Leonardo Cumba documentó los wireflows y User Flow Diagrams por objetivo de usuario y registró una nueva entrevista del segmento de bodegas y minimarkets; Gerardo Palacin registró otra entrevista de ese segmento; Maria Jose Pezo consolidó el Impact Map y actualizó las User Personas; Ariana Huapaya registró sus acciones en el Student Outcome; y Angel Crispin documentó el Sprint 2, aplicó las correcciones de AV1 y publicó los releases del informe.
 
 La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin considerar los commits de integración de ramas:
 
 | Integrante | Frontend-Web-Aplication | Landing-Page | Report |
 | :--------- | :---------------------: | :----------: | :----: |
-| Crispin Valdivia, Angel Gabriel | 19 | 9 | 44 |
+| Crispin Valdivia, Angel Gabriel | 19 | 9 | 47 |
 | Cumba Rengifo, Leonardo Raul | 12 | 0 | 6 |
 | Palacin Lazo, Gerardo Valentin | 5 | 1 | 6 |
-| Pezo Castilla, Maria Jose | 5 | 0 | 0 |
-| Huapaya Buitron, Ariana Alheli | 4 | 0 | 0 |
+| Pezo Castilla, Maria Jose | 5 | 0 | 2 |
+| Huapaya Buitron, Ariana Alheli | 4 | 0 | 1 |
 
 **Analíticos de contribución del repositorio Frontend-Web-Aplication**
 
