@@ -1137,24 +1137,24 @@ Se entrevistó a 3 supervisores, de 21, 37 y 39 años, con entre 5 y 7 años de 
 
 #### Segmento Objetivo 3: Bodegas y minimarkets
 
-Se entrevistó a 2 personas de 20 y 23 años, residentes en Los Olivos y Pueblo Libre: una persona que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock, y el encargado de un minimarket, que realiza los pedidos de bebidas.
+Se entrevistó a 3 personas de 20, 23 y 36 años, residentes en Los Olivos, Pueblo Libre y Santa Anita: una persona que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock; el encargado de un minimarket, que realiza los pedidos de bebidas; y la responsable de compras de una bodega, que coordina con proveedores y distribuidores desde hace 8 años.
 
 | Variable | Resultado | Entrevistados | % |
 | :------- | :-------- | :-----------: | :-: |
-| Cantidad de distribuidores | Trabaja con varios distribuidores | 1 de 2 | 50 % |
-| Canales utilizados | WhatsApp | 2 de 2 | 100 % |
-| | Llamadas telefónicas | 1 de 2 | 50 % |
-| | Pedido mediante un vendedor | 1 de 2 | 50 % |
-| Principal dificultad | No conocer la hora de llegada del pedido | 2 de 2 | 100 % |
-| | Recibir productos incompletos o distintos a lo solicitado | 2 de 2 | 100 % |
-| | Retrasos en la entrega del pedido | 1 de 2 | 50 % |
-| Dispositivo preferido | Celular, con una herramienta fácil de usar | 1 de 2 | 50 % |
-| Necesidad principal | Consultar el estado del pedido | 2 de 2 | 100 % |
-| | Conocer la cantidad y la hora aproximada de llegada | 1 de 2 | 50 % |
-| | Recibir avisos sobre sus pedidos | 1 de 2 | 50 % |
-| | Reportar incidencias con fotos | 1 de 2 | 50 % |
+| Cantidad de distribuidores | Trabaja con varios distribuidores | 2 de 3 | 67 % |
+| Canales utilizados | WhatsApp | 3 de 3 | 100 % |
+| | Llamadas telefónicas | 2 de 3 | 67 % |
+| | Pedido mediante un vendedor | 1 de 3 | 33 % |
+| Principal dificultad | No conocer la hora de llegada del pedido | 3 de 3 | 100 % |
+| | Recibir productos incompletos, dañados o distintos a lo solicitado | 3 de 3 | 100 % |
+| | Retrasos en la entrega del pedido | 2 de 3 | 67 % |
+| Dispositivo preferido | Celular, con una herramienta fácil de usar | 2 de 3 | 67 % |
+| Necesidad principal | Consultar el estado del pedido | 3 de 3 | 100 % |
+| | Conocer la cantidad y la hora aproximada de llegada | 2 de 3 | 67 % |
+| | Reportar incidencias con fotos como evidencia | 2 de 3 | 67 % |
+| | Recibir avisos sobre sus pedidos | 1 de 3 | 33 % |
 
-**Conclusión del segmento.** El 100 % de los entrevistados señala como problemas principales no conocer la hora de llegada del pedido y recibir productos faltantes, y el 100 % coordina sus pedidos por WhatsApp, complementado con llamadas o con un vendedor. La necesidad que comparten es consultar el estado del pedido; además, la mitad de la muestra pide recibir avisos, reportar incidencias con fotos y usar la herramienta desde el celular, por lo que la vista para la bodega debe ser simple y adaptada al móvil. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Con dos entrevistas, este segmento sigue teniendo la menor muestra del estudio, por lo que el equipo continúa ampliando su registro para confirmar estos porcentajes.
+**Conclusión del segmento.** El 100 % de los entrevistados señala como problemas principales no conocer la hora de llegada del pedido y recibir productos faltantes o dañados, y el 100 % coordina sus pedidos por WhatsApp, complementado con llamadas o con un vendedor. La necesidad que comparten es consultar el estado del pedido; además, dos de cada tres usan fotografías como evidencia para reclamar y prefieren una herramienta desde el celular, por lo que la vista para la bodega debe ser simple, adaptada al móvil y permitir reportar problemas de recepción con evidencia. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Con dos entrevistas, este segmento sigue teniendo la menor muestra del estudio, por lo que el equipo continúa ampliando su registro para confirmar estos porcentajes.
 
 #### Hallazgos transversales
 
@@ -3238,7 +3238,7 @@ En esta sección se consolidan los videos de entrevistas realizadas durante el c
 | Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20221g181_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221g181%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8084%2Dcodecrafters%2Dneedfinding%2Dsprint%2D1%2Emp4&ga=1) |
 | Needfinding Interviews | Sprint 2 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-2 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQBojonPPXthQZqzYym1KU4AAaZRMaqOFJhhf7FbnKeIYyU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J1wLT6) |
 
-El video de Needfinding del Sprint 1 reúne las seis primeras entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos. La séptima entrevista, a Leo Giovany Yañez Santos del segmento Bodegas y minimarkets, se registró en el Sprint 2 en un video aparte, con una duración de 3 minutos.
+El video de Needfinding del Sprint 1 reúne las seis primeras entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos. En el Sprint 2 se registraron dos entrevistas más del segmento Bodegas y minimarkets: la de Leo Giovany Yañez Santos, en el video de Needfinding del Sprint 2, y la de Alma Rosa Rodríguez Chota, en un video propio.
 
 | # | Entrevistado | Segmento objetivo | Inicio | Duración |
 | :- | :----------- | :---------------- | :----- | :------- |
@@ -3248,6 +3248,13 @@ El video de Needfinding del Sprint 1 reúne las seis primeras entrevistas regist
 | 4 | Jorge Castilla | Supervisores o encargados de flota | 00:38:05 | 11:44 |
 | 5 | Pablo Ludeña Flores | Supervisores o encargados de flota | 00:49:48 | 04:36 |
 | 6 | Arturo Axel Saravia Huaricancha | Bodegas y minimarkets | 00:54:24 | 06:10 |
+
+**Entrevistas del Sprint 2**
+
+| # | Entrevistado | Segmento objetivo | Video | Inicio | Duración |
+| :- | :----------- | :---------------- | :---- | :----- | :------- |
+| 7 | Leo Giovany Yañez Santos | Bodegas y minimarkets | Needfinding Sprint 2 | 00:00:00 | 03:00 |
+| 8 | Alma Rosa Rodríguez Chota | Bodegas y minimarkets | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c201_upc_edu_pe/IQB1G5FzKF5WTI8rIznLyzZXARsgezdS_X1Mothtyj9vjKo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fUwC72) | 00:03:00 | 11:32 |
 
 <hr>
 
