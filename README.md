@@ -65,6 +65,9 @@
 | 2.1 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Actualización de la carátula según la guía del docente, documentación del Sprint 2 con sus evidencias de Trello, Vercel y GitHub, registro del Student Outcome de TB1, publicación del Landing Page en Netlify, fake API público en Beeceptor y registro del video de exposición de TB1. |
 | 2.2 | 2026-10-05 | Cumba Rengifo, Leonardo Raul | Incorporación de los wireflows y User Flow Diagrams por User Goal del administrador y del supervisor de flota en las secciones 4.4.2 y 4.4.4. |
 | 2.3 | 2026-10-05 | Cumba Rengifo, Leonardo Raul | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), actualización de su análisis de entrevistas con los nuevos porcentajes y del Anexo B con el video de Needfinding del Sprint 2. |
+| 2.4 | 2026-10-05 | Palacin Lazo, Gerardo Valentin | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), con su resumen. |
+| 2.5 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Incorporación de la tercera entrevista de bodegas y minimarkets al análisis de entrevistas y al Anexo B, y de los commits del informe en el Team Collaboration Insights del Sprint 2. |
+| 2.6 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Corrección del resumen de la entrevista a Leo Giovany Yañez Santos del Segmento Objetivo 3. |
 
 <hr>
 
@@ -1066,7 +1069,7 @@ El entrevistado considera importante poder conocer el estado del pedido, la cant
 
 *Resumen de entrevista 2:*
 
-En esta entrevista simulada, el participante es Leo, encargado de un minimarket, quien realiza sus pedidos de bebidas por WhatsApp o mediante un vendedor.
+En esta entrevista, el participante es Leo Giovany Yañez Santos, de 23 años, encargado de un minimarket, quien realiza sus pedidos de bebidas por WhatsApp o mediante un vendedor.
 
 Se identificó que sus principales problemas son los retrasos, los productos faltantes y la falta de una hora precisa de entrega, situaciones que afectan sus ventas y la organización del negocio.
 
@@ -1137,24 +1140,24 @@ Se entrevistó a 3 supervisores, de 21, 37 y 39 años, con entre 5 y 7 años de 
 
 #### Segmento Objetivo 3: Bodegas y minimarkets
 
-Se entrevistó a 2 personas de 20 y 23 años, residentes en Los Olivos y Pueblo Libre: una persona que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock, y el encargado de un minimarket, que realiza los pedidos de bebidas.
+Se entrevistó a 3 personas de 20, 23 y 36 años, residentes en Los Olivos, Pueblo Libre y Santa Anita: una persona que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock; el encargado de un minimarket, que realiza los pedidos de bebidas; y la responsable de compras de una bodega, que coordina con proveedores y distribuidores desde hace 8 años.
 
 | Variable | Resultado | Entrevistados | % |
 | :------- | :-------- | :-----------: | :-: |
-| Cantidad de distribuidores | Trabaja con varios distribuidores | 1 de 2 | 50 % |
-| Canales utilizados | WhatsApp | 2 de 2 | 100 % |
-| | Llamadas telefónicas | 1 de 2 | 50 % |
-| | Pedido mediante un vendedor | 1 de 2 | 50 % |
-| Principal dificultad | No conocer la hora de llegada del pedido | 2 de 2 | 100 % |
-| | Recibir productos incompletos o distintos a lo solicitado | 2 de 2 | 100 % |
-| | Retrasos en la entrega del pedido | 1 de 2 | 50 % |
-| Dispositivo preferido | Celular, con una herramienta fácil de usar | 1 de 2 | 50 % |
-| Necesidad principal | Consultar el estado del pedido | 2 de 2 | 100 % |
-| | Conocer la cantidad y la hora aproximada de llegada | 1 de 2 | 50 % |
-| | Recibir avisos sobre sus pedidos | 1 de 2 | 50 % |
-| | Reportar incidencias con fotos | 1 de 2 | 50 % |
+| Cantidad de distribuidores | Trabaja con varios distribuidores | 2 de 3 | 67 % |
+| Canales utilizados | WhatsApp | 3 de 3 | 100 % |
+| | Llamadas telefónicas | 2 de 3 | 67 % |
+| | Pedido mediante un vendedor | 1 de 3 | 33 % |
+| Principal dificultad | No conocer la hora de llegada del pedido | 3 de 3 | 100 % |
+| | Recibir productos incompletos, dañados o distintos a lo solicitado | 3 de 3 | 100 % |
+| | Retrasos en la entrega del pedido | 2 de 3 | 67 % |
+| Dispositivo preferido | Celular, con una herramienta fácil de usar | 2 de 3 | 67 % |
+| Necesidad principal | Consultar el estado del pedido | 3 de 3 | 100 % |
+| | Conocer la cantidad y la hora aproximada de llegada | 2 de 3 | 67 % |
+| | Reportar incidencias con fotos como evidencia | 2 de 3 | 67 % |
+| | Recibir avisos sobre sus pedidos | 1 de 3 | 33 % |
 
-**Conclusión del segmento.** El 100 % de los entrevistados señala como problemas principales no conocer la hora de llegada del pedido y recibir productos faltantes, y el 100 % coordina sus pedidos por WhatsApp, complementado con llamadas o con un vendedor. La necesidad que comparten es consultar el estado del pedido; además, la mitad de la muestra pide recibir avisos, reportar incidencias con fotos y usar la herramienta desde el celular, por lo que la vista para la bodega debe ser simple y adaptada al móvil. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Con dos entrevistas, este segmento sigue teniendo la menor muestra del estudio, por lo que el equipo continúa ampliando su registro para confirmar estos porcentajes.
+**Conclusión del segmento.** El 100 % de los entrevistados señala como problemas principales no conocer la hora de llegada del pedido y recibir productos faltantes o dañados, y el 100 % coordina sus pedidos por WhatsApp, complementado con llamadas o con un vendedor. La necesidad que comparten es consultar el estado del pedido; además, dos de cada tres usan fotografías como evidencia para reclamar y prefieren una herramienta desde el celular, por lo que la vista para la bodega debe ser simple, adaptada al móvil y permitir reportar problemas de recepción con evidencia. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Con dos entrevistas, este segmento sigue teniendo la menor muestra del estudio, por lo que el equipo continúa ampliando su registro para confirmar estos porcentajes.
 
 #### Hallazgos transversales
 
@@ -3069,17 +3072,17 @@ A partir del Sprint 2 el Landing Page se publica en Netlify, que reemplaza a Git
 <a id="5228-team-collaboration-insights-during-sprint"></a>
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0.
+Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0. En el informe, Leonardo Cumba documentó los wireflows y User Flow Diagrams por objetivo de usuario y registró una nueva entrevista del segmento de bodegas y minimarkets; Gerardo Palacin registró otra entrevista de ese segmento; y Angel Crispin documentó el Sprint 2, aplicó las correcciones de AV1 y publicó los releases del informe.
 
 La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin considerar los commits de integración de ramas:
 
-| Integrante | Frontend-Web-Aplication | Landing-Page |
-| :--------- | :---------------------: | :----------: |
-| Crispin Valdivia, Angel Gabriel | 19 | 9 |
-| Cumba Rengifo, Leonardo Raul | 12 | 0 |
-| Palacin Lazo, Gerardo Valentin | 5 | 1 |
-| Pezo Castilla, Maria Jose | 5 | 0 |
-| Huapaya Buitron, Ariana Alheli | 4 | 0 |
+| Integrante | Frontend-Web-Aplication | Landing-Page | Report |
+| :--------- | :---------------------: | :----------: | :----: |
+| Crispin Valdivia, Angel Gabriel | 19 | 9 | 44 |
+| Cumba Rengifo, Leonardo Raul | 12 | 0 | 6 |
+| Palacin Lazo, Gerardo Valentin | 5 | 1 | 6 |
+| Pezo Castilla, Maria Jose | 5 | 0 | 0 |
+| Huapaya Buitron, Ariana Alheli | 4 | 0 | 0 |
 
 **Analíticos de contribución del repositorio Frontend-Web-Aplication**
 
@@ -3228,7 +3231,7 @@ En esta sección se consolidan los videos de entrevistas realizadas durante el c
 | Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20221g181_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221g181%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8084%2Dcodecrafters%2Dneedfinding%2Dsprint%2D1%2Emp4&ga=1) |
 | Needfinding Interviews | Sprint 2 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-2 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQBojonPPXthQZqzYym1KU4AAaZRMaqOFJhhf7FbnKeIYyU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J1wLT6) |
 
-El video de Needfinding del Sprint 1 reúne las seis primeras entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos. La séptima entrevista, a Leo Giovany Yañez Santos del segmento Bodegas y minimarkets, se registró en el Sprint 2 en un video aparte, con una duración de 3 minutos.
+El video de Needfinding del Sprint 1 reúne las seis primeras entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos. En el Sprint 2 se registraron dos entrevistas más del segmento Bodegas y minimarkets: la de Leo Giovany Yañez Santos, en el video de Needfinding del Sprint 2, y la de Alma Rosa Rodríguez Chota, en un video propio.
 
 | # | Entrevistado | Segmento objetivo | Inicio | Duración |
 | :- | :----------- | :---------------- | :----- | :------- |
@@ -3238,6 +3241,13 @@ El video de Needfinding del Sprint 1 reúne las seis primeras entrevistas regist
 | 4 | Jorge Castilla | Supervisores o encargados de flota | 00:38:05 | 11:44 |
 | 5 | Pablo Ludeña Flores | Supervisores o encargados de flota | 00:49:48 | 04:36 |
 | 6 | Arturo Axel Saravia Huaricancha | Bodegas y minimarkets | 00:54:24 | 06:10 |
+
+**Entrevistas del Sprint 2**
+
+| # | Entrevistado | Segmento objetivo | Video | Inicio | Duración |
+| :- | :----------- | :---------------- | :---- | :----- | :------- |
+| 7 | Leo Giovany Yañez Santos | Bodegas y minimarkets | Needfinding Sprint 2 | 00:00:00 | 03:00 |
+| 8 | Alma Rosa Rodríguez Chota | Bodegas y minimarkets | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c201_upc_edu_pe/IQB1G5FzKF5WTI8rIznLyzZXARsgezdS_X1Mothtyj9vjKo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fUwC72) | 00:03:00 | 11:32 |
 
 <hr>
 
