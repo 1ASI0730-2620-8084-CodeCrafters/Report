@@ -67,6 +67,7 @@
 | 2.3 | 2026-10-05 | Cumba Rengifo, Leonardo Raul | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), actualización de su análisis de entrevistas con los nuevos porcentajes y del Anexo B con el video de Needfinding del Sprint 2. |
 | 2.4 | 2026-10-05 | Palacin Lazo, Gerardo Valentin | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), con su resumen. |
 | 2.5 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Incorporación de la tercera entrevista de bodegas y minimarkets al análisis de entrevistas y al Anexo B, y de los commits del informe en el Team Collaboration Insights del Sprint 2. |
+| 2.6 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Corrección del resumen de la entrevista a Leo Giovany Yañez Santos del Segmento Objetivo 3. |
 
 <hr>
 
@@ -1068,7 +1069,7 @@ El entrevistado considera importante poder conocer el estado del pedido, la cant
 
 *Resumen de entrevista 2:*
 
-En esta entrevista simulada, el participante es Leo, encargado de un minimarket, quien realiza sus pedidos de bebidas por WhatsApp o mediante un vendedor.
+En esta entrevista, el participante es Leo Giovany Yañez Santos, de 23 años, encargado de un minimarket, quien realiza sus pedidos de bebidas por WhatsApp o mediante un vendedor.
 
 Se identificó que sus principales problemas son los retrasos, los productos faltantes y la falta de una hora precisa de entrega, situaciones que afectan sus ventas y la organización del negocio.
 
