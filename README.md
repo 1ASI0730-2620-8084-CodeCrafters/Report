@@ -65,6 +65,8 @@
 | 2.1 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Actualización de la carátula según la guía del docente, documentación del Sprint 2 con sus evidencias de Trello, Vercel y GitHub, registro del Student Outcome de TB1, publicación del Landing Page en Netlify, fake API público en Beeceptor y registro del video de exposición de TB1. |
 | 2.2 | 2026-10-05 | Cumba Rengifo, Leonardo Raul | Incorporación de los wireflows y User Flow Diagrams por User Goal del administrador y del supervisor de flota en las secciones 4.4.2 y 4.4.4. |
 | 2.3 | 2026-10-05 | Cumba Rengifo, Leonardo Raul | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), actualización de su análisis de entrevistas con los nuevos porcentajes y del Anexo B con el video de Needfinding del Sprint 2. |
+| 2.4 | 2026-10-05 | Palacin Lazo, Gerardo Valentin | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), con su resumen. |
+| 2.5 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Incorporación de la tercera entrevista de bodegas y minimarkets al análisis de entrevistas y al Anexo B, y de los commits del informe en el Team Collaboration Insights del Sprint 2. |
 
 <hr>
 
@@ -3079,17 +3081,17 @@ A partir del Sprint 2 el Landing Page se publica en Netlify, que reemplaza a Git
 <a id="5228-team-collaboration-insights-during-sprint"></a>
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0.
+Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0. En el informe, Leonardo Cumba documentó los wireflows y User Flow Diagrams por objetivo de usuario y registró una nueva entrevista del segmento de bodegas y minimarkets; Gerardo Palacin registró otra entrevista de ese segmento; y Angel Crispin documentó el Sprint 2, aplicó las correcciones de AV1 y publicó los releases del informe.
 
 La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin considerar los commits de integración de ramas:
 
-| Integrante | Frontend-Web-Aplication | Landing-Page |
-| :--------- | :---------------------: | :----------: |
-| Crispin Valdivia, Angel Gabriel | 19 | 9 |
-| Cumba Rengifo, Leonardo Raul | 12 | 0 |
-| Palacin Lazo, Gerardo Valentin | 5 | 1 |
-| Pezo Castilla, Maria Jose | 5 | 0 |
-| Huapaya Buitron, Ariana Alheli | 4 | 0 |
+| Integrante | Frontend-Web-Aplication | Landing-Page | Report |
+| :--------- | :---------------------: | :----------: | :----: |
+| Crispin Valdivia, Angel Gabriel | 19 | 9 | 44 |
+| Cumba Rengifo, Leonardo Raul | 12 | 0 | 6 |
+| Palacin Lazo, Gerardo Valentin | 5 | 1 | 6 |
+| Pezo Castilla, Maria Jose | 5 | 0 | 0 |
+| Huapaya Buitron, Ariana Alheli | 4 | 0 | 0 |
 
 **Analíticos de contribución del repositorio Frontend-Web-Aplication**
 
