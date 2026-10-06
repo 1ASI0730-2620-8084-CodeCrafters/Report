@@ -63,6 +63,10 @@
 | 1.19 | 2026-10-01 | Palacin Lazo, Gerardo Valentin | Actualización del modelo C4, del Student Outcome y registro de una nueva entrevista del segmento de distribuidoras. |
 | 2.0 | 2026-10-01 | Crispin Valdivia, Angel Gabriel | Corrección integral según la revisión de AV1: Lean UX con plantilla Brand new initiative y Lean UX Canvas, alineación de los segmentos objetivo, análisis de entrevistas con porcentajes, narrativa del Needfinding y del EventStorming, User Stories con Epic y nuevas historias, Product Backlog ordenado por valor, arquitectura hexagonal en el modelo C4, diagramas de clases y de base de datos en inglés, y Sprint 1 completo. |
 | 2.1 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Actualización de la carátula según la guía del docente, documentación del Sprint 2 con sus evidencias de Trello, Vercel y GitHub, registro del Student Outcome de TB1, publicación del Landing Page en Netlify, fake API público en Beeceptor y registro del video de exposición de TB1. |
+| 2.2 | 2026-10-05 | Cumba Rengifo, Leonardo Raul | Incorporación de los wireflows y User Flow Diagrams por User Goal del administrador y del supervisor de flota en las secciones 4.4.2 y 4.4.4. |
+| 2.3 | 2026-10-05 | Cumba Rengifo, Leonardo Raul | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), actualización de su análisis de entrevistas con los nuevos porcentajes y del Anexo B con el video de Needfinding del Sprint 2. |
+| 2.4 | 2026-10-05 | Palacin Lazo, Gerardo Valentin | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), con su resumen. |
+| 2.5 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Incorporación de la tercera entrevista de bodegas y minimarkets al análisis de entrevistas y al Anexo B, y de los commits del informe en el Team Collaboration Insights del Sprint 2. |
 
 <hr>
 
@@ -1047,9 +1051,12 @@ Pablo considera importante contar con una herramienta que permita disponer de in
 
 **Segmento Objetivo 3: Bodegas y minimarkets**
 
-| # | Nombres y Apellidos | Edad | Distrito | Screenshot | URL del video (Microsoft Stream) | Inicio | Duración |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Arturo Axel Saravia Huaricancha | 20 años | Los Olivos | <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">| [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) |  00:00:00 | 6:06 |
+| # | Nombres y Apellidos | Edad    | Distrito     | Screenshot                                                                    | URL del video (Microsoft Stream) | Inicio   | Duración |
+|:--| :--- |:--------|:-------------|:------------------------------------------------------------------------------| :--- |:---------|:---------|
+| 1 | Arturo Axel Saravia Huaricancha | 20 años | Los Olivos   | <img src="img/chapter2/ArturoE.png" alt="Entrevista - Arturo">                | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQAP-k4Zr1FKRpVP6YNhIdtoAWEK4ETOrCSKD40I474akTU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7FiX5J) | 00:00:00 | 6:06     |
+| 2 | Leo Giovany Yañez Santos | 23 años | Pueblo Libre | <img src="img/chapter2/interview-leo-yanez.png" alt="Entrevista - Leo Yañez"> | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQBojonPPXthQZqzYym1KU4AAaZRMaqOFJhhf7FbnKeIYyU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J1wLT6) | 00:00:00 | 03:00    |
+| 3 | Alma Rosa Rodríguez Chota | 36 años  | Santa Anita  | <img src="img/chapter2/AlmaE.png" alt="Entrevista - Alma Rodríguez">          | [Link del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c201_upc_edu_pe/IQB1G5FzKF5WTI8rIznLyzZXARsgezdS_X1Mothtyj9vjKo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fUwC72) | 00:03:00 | 11:32     |
+
 
 *Resumen de entrevista 1:*
 
@@ -1059,6 +1066,21 @@ Se identificó que la bodega trabaja con varios distribuidores y que la comunica
 
 El entrevistado considera importante poder conocer el estado del pedido, la cantidad de productos, la hora aproximada de llegada y posibles retrasos, ya que esto permitiría organizarse mejor y reducir la necesidad de estar contactando constantemente al proveedor.
 
+*Resumen de entrevista 2:*
+
+En esta entrevista simulada, el participante es Leo, encargado de un minimarket, quien realiza sus pedidos de bebidas por WhatsApp o mediante un vendedor.
+
+Se identificó que sus principales problemas son los retrasos, los productos faltantes y la falta de una hora precisa de entrega, situaciones que afectan sus ventas y la organización del negocio.
+
+El entrevistado considera que BottleTrack le ayudaría a consultar el estado de sus pedidos, recibir avisos y reportar incidencias con fotos, siempre que la herramienta sea fácil de usar desde el celular.
+
+*Resumen de entrevista 3:*
+
+En esta entrevista, la participante es Alma Rosa Rodríguez Chota, de 36 años, quien trabaja desde hace 8 años en una bodega en Santa Anita, donde realiza compras y coordina con proveedores y distribuidores. Utiliza principalmente un celular Android, WhatsApp y llamadas para comunicarse, además de Excel para controlar sus pedidos.
+
+Se identificó que trabaja con varios proveedores y que sus principales problemas son los retrasos, productos faltantes o dañados y no conocer con precisión la hora de llegada de los pedidos. Para verificar las entregas, revisa las cantidades solicitadas y utiliza fotografías como evidencia cuando necesita realizar un reclamo.
+
+La entrevistada considera importante conocer rápidamente el estado del pedido, las cantidades, disponibilidad y hora de llegada, ya que los problemas en las entregas pueden ocasionarle pérdida de ventas y tiempo de atención a sus clientes. Para ella, una entrega satisfactoria debe ser rápida, completa, puntual y con productos en buenas condiciones.
 
 <a id="223-analisis-de-entrevistas"></a>
 ### 2.2.3. Análisis de entrevistas.
@@ -1117,17 +1139,24 @@ Se entrevistó a 3 supervisores, de 21, 37 y 39 años, con entre 5 y 7 años de 
 
 #### Segmento Objetivo 3: Bodegas y minimarkets
 
-Se entrevistó a 1 persona de 20 años, residente en Los Olivos, que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock.
+Se entrevistó a 3 personas de 20, 23 y 36 años, residentes en Los Olivos, Pueblo Libre y Santa Anita: una persona que atiende una bodega, recibe los pedidos de los proveedores y revisa el stock; el encargado de un minimarket, que realiza los pedidos de bebidas; y la responsable de compras de una bodega, que coordina con proveedores y distribuidores desde hace 8 años.
 
 | Variable | Resultado | Entrevistados | % |
 | :------- | :-------- | :-----------: | :-: |
-| Cantidad de distribuidores | Trabaja con varios distribuidores | 1 de 1 | 100 % |
-| Canales utilizados | WhatsApp y llamadas telefónicas | 1 de 1 | 100 % |
-| Principal dificultad | No conocer la hora de llegada del pedido | 1 de 1 | 100 % |
-| | Recibir productos incompletos o distintos a lo solicitado | 1 de 1 | 100 % |
-| Necesidad principal | Conocer el estado del pedido, la cantidad y la hora aproximada de llegada | 1 de 1 | 100 % |
+| Cantidad de distribuidores | Trabaja con varios distribuidores | 2 de 3 | 67 % |
+| Canales utilizados | WhatsApp | 3 de 3 | 100 % |
+| | Llamadas telefónicas | 2 de 3 | 67 % |
+| | Pedido mediante un vendedor | 1 de 3 | 33 % |
+| Principal dificultad | No conocer la hora de llegada del pedido | 3 de 3 | 100 % |
+| | Recibir productos incompletos, dañados o distintos a lo solicitado | 3 de 3 | 100 % |
+| | Retrasos en la entrega del pedido | 2 de 3 | 67 % |
+| Dispositivo preferido | Celular, con una herramienta fácil de usar | 2 de 3 | 67 % |
+| Necesidad principal | Consultar el estado del pedido | 3 de 3 | 100 % |
+| | Conocer la cantidad y la hora aproximada de llegada | 2 de 3 | 67 % |
+| | Reportar incidencias con fotos como evidencia | 2 de 3 | 67 % |
+| | Recibir avisos sobre sus pedidos | 1 de 3 | 33 % |
 
-**Conclusión del segmento.** La incertidumbre sobre la hora de llegada y los faltantes son los dos problemas principales de la bodega, y la comunicación con el distribuidor se realiza exclusivamente por WhatsApp y llamadas. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Al contar con una sola entrevista, este segmento tiene la menor muestra del estudio, por lo que el equipo amplía su registro en el siguiente sprint para confirmar estos porcentajes.
+**Conclusión del segmento.** El 100 % de los entrevistados señala como problemas principales no conocer la hora de llegada del pedido y recibir productos faltantes o dañados, y el 100 % coordina sus pedidos por WhatsApp, complementado con llamadas o con un vendedor. La necesidad que comparten es consultar el estado del pedido; además, dos de cada tres usan fotografías como evidencia para reclamar y prefieren una herramienta desde el celular, por lo que la vista para la bodega debe ser simple, adaptada al móvil y permitir reportar problemas de recepción con evidencia. Estos hallazgos dan origen al User Persona María Fernández y a la vista de seguimiento para la bodega planteada en la hipótesis H7. Con dos entrevistas, este segmento sigue teniendo la menor muestra del estudio, por lo que el equipo continúa ampliando su registro para confirmar estos porcentajes.
 
 #### Hallazgos transversales
 
@@ -1979,6 +2008,100 @@ Los wireflows conectan los wireframes según las acciones del usuario. Cada flec
 
 <img src="img/webApplicationUxDesign/wireflow/supervisor_WA_wireflow.png" alt="Wireflow del supervisor" width="800">
 
+A continuación se presentan los wireflows organizados por User Goal para cada rol de la Web Application.
+
+#### Administrador
+
+**Goal 1: Iniciar sesión y revisar el estado de la operación.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_login_WA_wireflow.png" alt="Wireflow del administrador: iniciar sesión y revisar el estado de la operación" width="800">
+
+**Goal:** El administrador quiere iniciar sesión en BottleTrack y revisar el estado general de las operaciones del día.
+
+El administrador ingresa su correo electrónico y su contraseña en la pantalla de inicio de sesión (US04) y presiona «Iniciar sesión». El sistema valida sus credenciales y lo dirige al Dashboard (US35). Allí ve los indicadores del día: operaciones de hoy, en curso, completadas y con incidencias, además de los vehículos y conductores disponibles. También encuentra el gráfico de operaciones por semana y una tabla con las últimas operaciones, su conductor, su vehículo y su estado.
+
+**Goal 2: Registrar un nuevo usuario.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_users_WA_wireflow.png" alt="Wireflow del administrador: registrar un nuevo usuario" width="800">
+
+**Goal:** El administrador quiere registrar un nuevo usuario de la empresa y asignarle un rol.
+
+Desde el Dashboard, el administrador selecciona «Usuarios» en el menú lateral. En Gestión de usuarios (US07, US08) ve la lista de usuarios con su nombre, apellidos, correo y teléfono, y puede filtrarla por rol y por estado. Al crear un usuario se abre el panel lateral «Nuevo usuario», donde completa el nombre, los apellidos, el correo y el teléfono, elige el rol (US08) y el estado, y presiona «Guardar». El nuevo usuario se agrega a la tabla.
+
+**Goal 3: Registrar vehículos y conductores de la flota.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_fleet_WA_wireflow.png" alt="Wireflow del administrador: registrar vehículos y conductores de la flota" width="800">
+
+**Goal:** El administrador quiere registrar los vehículos y los conductores de la flota para que estén disponibles al planificar operaciones.
+
+Desde el Dashboard, el administrador entra a Flota > Vehículos (US10, US11, US12). Ve la lista de vehículos con placa, marca, modelo, año y capacidad, con filtros por estado y marca, y en el panel «Registrar vehículo» completa esos datos junto con el estado del vehículo. Luego pasa a Flota > Conductores (US13, US14, US15), donde ve el nombre, los apellidos, el DNI, el número de licencia y el teléfono de cada conductor. En el panel «Registrar conductor» ingresa sus datos, lo deja como «Disponible» y presiona «Guardar».
+
+**Goal 4: Configurar los datos de la empresa.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_company_WA_wireflow.png" alt="Wireflow del administrador: configurar los datos de la empresa" width="800">
+
+**Goal:** El administrador quiere mantener actualizados los datos de su empresa en BottleTrack.
+
+Desde el Dashboard, el administrador selecciona «Empresa» en el menú lateral y llega a Configuración de empresa (US09). Puede cambiar el logo y editar la razón social, el RUC, el nombre comercial, el teléfono, el correo y la dirección. Al presionar «Guardar cambios» se actualiza la información; con «Cancelar» se descartan los cambios.
+
+**Goal 5: Recuperar el acceso a la cuenta.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_admin_password_WA_wireflow.png" alt="Wireflow del administrador: recuperar el acceso a la cuenta" width="800">
+
+**Goal:** El usuario quiere recuperar el acceso a su cuenta cuando olvidó su contraseña.
+
+En la pantalla de inicio de sesión, el usuario selecciona «¿Olvidaste tu contraseña?». En Recuperar contraseña ingresa el correo de su cuenta y presiona «Enviar enlace de recuperación». El sistema envía un enlace para restablecer la contraseña, que vence en 30 minutos, y el usuario vuelve a la pantalla de inicio de sesión para ingresar con su nueva contraseña. Este flujo está disponible tanto para el administrador como para el supervisor.
+
+#### Supervisor de flota
+
+**Goal 1: Iniciar sesión y monitorear las operaciones del día.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_login_WA_wireflow.png" alt="Wireflow del supervisor de flota: iniciar sesión y monitorear las operaciones del día" width="800">
+
+**Goal:** El supervisor quiere iniciar sesión y conocer de inmediato el estado de las operaciones y entregas del día.
+
+El supervisor ingresa su correo y su contraseña (US04) y llega a su Dashboard (US35). Allí ve las operaciones de hoy, en curso, pendientes y completadas, y el estado de las entregas: completadas, pendientes, retrasadas y con incidencias. La tabla «Operaciones en curso» muestra la ruta, el conductor, el vehículo, el avance de las entregas (por ejemplo, 2/4) y el estado de cada operación.
+
+**Goal 2: Crear una operación de transporte y definir su ruta.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_create_operation_WA_wireflow.png" alt="Wireflow del supervisor de flota: crear una operación de transporte y definir su ruta" width="800">
+
+**Goal:** El supervisor quiere crear una operación de transporte, asignarle un vehículo y un conductor, y definir los puntos de entrega de su ruta.
+
+Desde el Dashboard, el supervisor entra a Operaciones (US19), donde ve la lista de operaciones con filtros por fecha, estado, conductor y vehículo, y presiona «Nueva operación». En Crear operación de transporte (US16, US17, US18) completa tres pasos: los datos de la operación (descripción y fecha), la asignación de un vehículo disponible y la asignación de un conductor disponible. Al presionar «Guardar y continuar a Ruta» pasa a Puntos de entrega (US23, US24), donde agrega cada establecimiento con su dirección y su distrito, los reordena arrastrándolos y puede eliminar los que no correspondan.
+
+**Goal 3: Hacer seguimiento a una operación y finalizarla.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_finish_operation_WA_wireflow.png" alt="Wireflow del supervisor de flota: hacer seguimiento a una operación y finalizarla" width="800">
+
+**Goal:** El supervisor quiere revisar el avance de una operación en curso y finalizarla cuando termine el recorrido.
+
+En la lista de operaciones, el supervisor selecciona una operación (por ejemplo, OP-001) y abre su detalle (US34). Ve el conductor, el vehículo, la fecha, las incidencias, una barra con el progreso de las entregas (2 de 4 completadas) y la lista de puntos de entrega con su estado. Al presionar «Finalizar operación» (US22) se abre una ventana de confirmación con el resumen de entregas completadas y pendientes, las incidencias abiertas y un campo de observaciones. Con «Confirmar finalización», la operación se cierra y pasa al historial.
+
+**Goal 4: Gestionar las incidencias de las operaciones.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_incidents_WA_wireflow.png" alt="Wireflow del supervisor de flota: gestionar las incidencias de las operaciones" width="800">
+
+**Goal:** El supervisor quiere revisar las incidencias reportadas durante las operaciones y actualizar su estado.
+
+Desde el detalle de una operación, el supervisor presiona «Ver incidencias» y llega a Gestión de incidencias (US32, US33). Ve la lista con el código, la operación, el punto de entrega y el tipo de cada incidencia, con filtros por tipo, severidad, estado y fecha. Al seleccionar una incidencia se abre un panel con la operación, la entrega, el tipo, la descripción y la evidencia fotográfica (US31). Desde ese panel actualiza el estado de la incidencia (US33) y presiona «Guardar».
+
+**Goal 5: Consultar el historial de operaciones.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_history_WA_wireflow.png" alt="Wireflow del supervisor de flota: consultar el historial de operaciones" width="800">
+
+**Goal:** El supervisor quiere consultar las operaciones finalizadas para analizar su resultado.
+
+Desde el Dashboard, el supervisor entra a Historial (US36). Filtra las operaciones por rango de fechas, conductor, vehículo, estado o si tuvieron incidencias, y ve en la tabla las entregas totales, las completadas, las incidencias y el estado final de cada una. Al abrir una fila se muestra el detalle de la operación en modo solo lectura (US37).
+
+**Goal 6: Revisar el perfil y cerrar sesión.**
+
+<img src="img/webApplicationUxDesign/wireflow/goal_super_profile_WA_wireflow.png" alt="Wireflow del supervisor de flota: revisar el perfil y cerrar sesión" width="800">
+
+**Goal:** El supervisor quiere revisar los datos de su cuenta y cerrar sesión de forma segura.
+
+Desde el menú lateral, el supervisor selecciona «Perfil». Ve su nombre, sus apellidos, su correo, su teléfono, su rol (Supervisor de flota) y la empresa a la que pertenece, y puede editar sus datos con «Editar datos». Al presionar «Cerrar sesión» (US05) finaliza su sesión y vuelve a la pantalla de inicio de sesión.
+
 <a id="443-web-applications-mock-ups"></a>
 ### 4.4.3. Web Applications Mock-ups.
 
@@ -2024,6 +2147,100 @@ Los User Flow Diagrams muestran, para cada User Goal, el recorrido que sigue el 
 **Supervisor**
 
 <img src="img/webApplicationUxDesign/mock-ups-wireflow/mockup_super_WA_wireflow.png" alt="User flow del supervisor sobre los mock-ups" width="800">
+
+A continuación se presentan los User Flow Diagrams organizados por User Goal para cada rol, construidos sobre los mock-ups de la Web Application.
+
+#### Administrador
+
+**Goal 1: Iniciar sesión y revisar el estado de la operación.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_login_WA_userflow.png" alt="User flow del administrador: iniciar sesión y revisar el estado de la operación" width="800">
+
+**Goal:** El administrador quiere iniciar sesión en BottleTrack y revisar el estado general de las operaciones del día.
+
+El administrador completa su correo y su contraseña, y puede marcar «Recordarme» o cambiar el idioma entre español e inglés. Al presionar «Iniciar sesión» llega al Dashboard, donde el indicador «Con incidencias» se resalta en rojo para llamar su atención y los estados de la tabla se distinguen por color (en curso, pendiente y completada). Camino alternativo: si el correo o la contraseña son incorrectos, el formulario muestra un mensaje de error y el administrador permanece en la pantalla de inicio de sesión.
+
+**Goal 2: Registrar un nuevo usuario.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_users_WA_userflow.png" alt="User flow del administrador: registrar un nuevo usuario" width="800">
+
+**Goal:** El administrador quiere registrar un nuevo usuario de la empresa y asignarle un rol.
+
+El administrador entra a «Usuarios» desde el menú lateral y abre el panel «Nuevo usuario», que se muestra sobre la lista oscurecida para mantener el contexto. Completa los datos, elige el rol y el estado, y confirma con el botón naranja «Guardar». Caminos alternativos: si el correo ya está registrado o falta un campo obligatorio, el panel marca el error junto al campo; si presiona «Cancelar», el panel se cierra sin guardar cambios.
+
+**Goal 3: Registrar vehículos y conductores de la flota.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_fleet_WA_userflow.png" alt="User flow del administrador: registrar vehículos y conductores de la flota" width="800">
+
+**Goal:** El administrador quiere registrar los vehículos y los conductores de la flota para que estén disponibles al planificar operaciones.
+
+El administrador recorre el submenú Flota: primero registra un vehículo y después un conductor, en paneles laterales con la misma estructura, lo que hace el flujo predecible. Los vehículos y conductores que quedan con estado «Disponible» aparecen después como opciones al crear una operación de transporte. Camino alternativo: si la placa, el DNI o el número de licencia ya existen, o tienen un formato inválido, el panel muestra el error y no guarda el registro.
+
+**Goal 4: Configurar los datos de la empresa.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_company_WA_userflow.png" alt="User flow del administrador: configurar los datos de la empresa" width="800">
+
+**Goal:** El administrador quiere mantener actualizados los datos de su empresa en BottleTrack.
+
+La pantalla agrupa los datos de la empresa en una sola tarjeta con el logo en la parte superior. El administrador edita los campos necesarios y confirma con el botón naranja «Guardar cambios». Camino alternativo: si el RUC no tiene 11 dígitos o el correo no es válido, el formulario señala el campo y no guarda hasta que se corrija.
+
+**Goal 5: Recuperar el acceso a la cuenta.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_admin_password_WA_userflow.png" alt="User flow del administrador: recuperar el acceso a la cuenta" width="800">
+
+**Goal:** El usuario quiere recuperar el acceso a su cuenta cuando olvidó su contraseña.
+
+La pantalla de recuperación mantiene la misma composición que el inicio de sesión, por lo que el usuario no pierde el contexto. Un recuadro informativo le recuerda la vigencia del enlace y le sugiere revisar la carpeta de spam. Caminos alternativos: si el correo no tiene un formato válido, se marca el campo; con «Volver a iniciar sesión» puede regresar sin enviar el enlace.
+
+#### Supervisor de flota
+
+**Goal 1: Iniciar sesión y monitorear las operaciones del día.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_login_WA_userflow.png" alt="User flow del supervisor de flota: iniciar sesión y monitorear las operaciones del día" width="800">
+
+**Goal:** El supervisor quiere iniciar sesión y conocer de inmediato el estado de las operaciones y entregas del día.
+
+Tras iniciar sesión, el supervisor ve su Dashboard con el indicador de incidencias resaltado en rojo y los estados de las operaciones diferenciados por color. Desde la barra superior puede buscar una operación o una incidencia específica. Camino alternativo: si las credenciales no son válidas, se muestra un mensaje de error en el formulario de inicio de sesión.
+
+**Goal 2: Crear una operación de transporte y definir su ruta.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_create_operation_WA_userflow.png" alt="User flow del supervisor de flota: crear una operación de transporte y definir su ruta" width="800">
+
+**Goal:** El supervisor quiere crear una operación de transporte, asignarle un vehículo y un conductor, y definir los puntos de entrega de su ruta.
+
+El formulario de creación numera los pasos y resalta en naranja el vehículo y el conductor seleccionados; solo se listan los que tienen estado «Disponible». En la pantalla de ruta, el supervisor ve las paradas sobre el mapa y en la lista «Orden de paradas», y confirma la secuencia con «Guardar orden de ruta». Caminos alternativos: si no hay vehículos o conductores disponibles para la fecha, el paso correspondiente lo indica y no permite continuar; con «Cancelar» vuelve a la lista sin crear la operación.
+
+**Goal 3: Hacer seguimiento a una operación y finalizarla.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_finish_operation_WA_userflow.png" alt="User flow del supervisor de flota: hacer seguimiento a una operación y finalizarla" width="800">
+
+**Goal:** El supervisor quiere revisar el avance de una operación en curso y finalizarla cuando termine el recorrido.
+
+La barra de progreso naranja y las etiquetas de color de cada entrega permiten al supervisor ver de un vistazo qué falta. La ventana de confirmación le advierte que las entregas pendientes se registrarán como no entregadas, para evitar cierres por error. Caminos alternativos: con «Cancelar» la operación sigue en curso; con «Ver ruta» puede revisar las paradas en el mapa antes de finalizar.
+
+**Goal 4: Gestionar las incidencias de las operaciones.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_incidents_WA_userflow.png" alt="User flow del supervisor de flota: gestionar las incidencias de las operaciones" width="800">
+
+**Goal:** El supervisor quiere revisar las incidencias reportadas durante las operaciones y actualizar su estado.
+
+En los mockups, cada tipo de incidencia (retraso, producto dañado, falla de vehículo, dirección incorrecta) tiene un ícono, y los estados se distinguen por color: en revisión en amarillo, abierta en rojo y resuelta en verde. Al seleccionar una incidencia se abre el panel de detalle, donde el supervisor revisa la evidencia, cambia el estado y deja un comentario sobre la acción tomada. Camino alternativo: con «Cerrar» vuelve a la lista sin modificar la incidencia.
+
+**Goal 5: Consultar el historial de operaciones.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_history_WA_userflow.png" alt="User flow del supervisor de flota: consultar el historial de operaciones" width="800">
+
+**Goal:** El supervisor quiere consultar las operaciones finalizadas para analizar su resultado.
+
+La tabla del historial agrega la ruta y la duración de cada operación, y los estados finales se diferencian por color (completada en verde y cancelada en rojo). El supervisor puede exportar el historial filtrado con el botón «Exportar». Al abrir una operación, el detalle se muestra sin acciones de edición, porque la operación ya está cerrada.
+
+**Goal 6: Revisar el perfil y cerrar sesión.**
+
+<img src="img/webApplicationUxDesign/mock-ups-wireflow/goal_super_profile_WA_userflow.png" alt="User flow del supervisor de flota: revisar el perfil y cerrar sesión" width="800">
+
+**Goal:** El supervisor quiere revisar los datos de su cuenta y cerrar sesión de forma segura.
+
+La tarjeta de perfil muestra el rol del usuario como una etiqueta destacada y separa claramente las dos acciones: «Editar datos» y el botón naranja «Cerrar sesión». Al cerrar sesión, el sistema invalida la sesión actual y redirige al inicio de sesión, por lo que nadie puede volver a la aplicación con el botón «Atrás» del navegador.
 
 <a id="45-web-applications-prototyping"></a>
 ## 4.5. Web Applications Prototyping.
@@ -2864,17 +3081,17 @@ A partir del Sprint 2 el Landing Page se publica en Netlify, que reemplaza a Git
 <a id="5228-team-collaboration-insights-during-sprint"></a>
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0.
+Durante el Sprint 2 los cinco integrantes participaron con commits en la Frontend Web Application, cada uno en la rama de su bounded context. Leonardo Cumba concentró el mayor volumen en Operations and Routes, el bounded context con más User Stories del Sprint; Angel Crispin aportó la base del proyecto, Identity and Access Management y la integración de las ramas; y Gerardo Palacin, Maria Jose Pezo y Ariana Huapaya implementaron IoT Monitoring, Incident Management y Fleet Management, respectivamente. En el Landing Page, Gerardo Palacin incorporó las capturas de la aplicación y Angel Crispin aplicó las correcciones de AV1 y publicó la versión v0.2.0. En el informe, Leonardo Cumba documentó los wireflows y User Flow Diagrams por objetivo de usuario y registró una nueva entrevista del segmento de bodegas y minimarkets; Gerardo Palacin registró otra entrevista de ese segmento; y Angel Crispin documentó el Sprint 2, aplicó las correcciones de AV1 y publicó los releases del informe.
 
 La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin considerar los commits de integración de ramas:
 
-| Integrante | Frontend-Web-Aplication | Landing-Page |
-| :--------- | :---------------------: | :----------: |
-| Crispin Valdivia, Angel Gabriel | 19 | 9 |
-| Cumba Rengifo, Leonardo Raul | 12 | 0 |
-| Palacin Lazo, Gerardo Valentin | 5 | 1 |
-| Pezo Castilla, Maria Jose | 5 | 0 |
-| Huapaya Buitron, Ariana Alheli | 4 | 0 |
+| Integrante | Frontend-Web-Aplication | Landing-Page | Report |
+| :--------- | :---------------------: | :----------: | :----: |
+| Crispin Valdivia, Angel Gabriel | 19 | 9 | 44 |
+| Cumba Rengifo, Leonardo Raul | 12 | 0 | 6 |
+| Palacin Lazo, Gerardo Valentin | 5 | 1 | 6 |
+| Pezo Castilla, Maria Jose | 5 | 0 | 0 |
+| Huapaya Buitron, Ariana Alheli | 4 | 0 | 0 |
 
 **Analíticos de contribución del repositorio Frontend-Web-Aplication**
 
@@ -3021,8 +3238,9 @@ En esta sección se consolidan los videos de entrevistas realizadas durante el c
 | Proceso | Sprint | Nombre del archivo | Enlace |
 | :------ | :----- | :----------------- | :----- |
 | Needfinding Interviews | Sprint 1 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-1 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20221g181_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221g181%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0730%2D8084%2Dcodecrafters%2Dneedfinding%2Dsprint%2D1%2Emp4&ga=1) |
+| Needfinding Interviews | Sprint 2 | upc-pre-202620-1asi0730-8084-codecrafters-needfinding-sprint-2 | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/IQBojonPPXthQZqzYym1KU4AAaZRMaqOFJhhf7FbnKeIYyU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J1wLT6) |
 
-El video de Needfinding reúne las seis entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos.
+El video de Needfinding del Sprint 1 reúne las seis primeras entrevistas registradas en la sección 2.2.2. Cada entrevista inicia con una portada que identifica al entrevistado, su segmento objetivo, su edad y su distrito. La duración total es de 1 hora, 0 minutos y 34 segundos. En el Sprint 2 se registraron dos entrevistas más del segmento Bodegas y minimarkets: la de Leo Giovany Yañez Santos, en el video de Needfinding del Sprint 2, y la de Alma Rosa Rodríguez Chota, en un video propio.
 
 | # | Entrevistado | Segmento objetivo | Inicio | Duración |
 | :- | :----------- | :---------------- | :----- | :------- |
@@ -3032,6 +3250,13 @@ El video de Needfinding reúne las seis entrevistas registradas en la sección 2
 | 4 | Jorge Castilla | Supervisores o encargados de flota | 00:38:05 | 11:44 |
 | 5 | Pablo Ludeña Flores | Supervisores o encargados de flota | 00:49:48 | 04:36 |
 | 6 | Arturo Axel Saravia Huaricancha | Bodegas y minimarkets | 00:54:24 | 06:10 |
+
+**Entrevistas del Sprint 2**
+
+| # | Entrevistado | Segmento objetivo | Video | Inicio | Duración |
+| :- | :----------- | :---------------- | :---- | :----- | :------- |
+| 7 | Leo Giovany Yañez Santos | Bodegas y minimarkets | Needfinding Sprint 2 | 00:00:00 | 03:00 |
+| 8 | Alma Rosa Rodríguez Chota | Bodegas y minimarkets | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c201_upc_edu_pe/IQB1G5FzKF5WTI8rIznLyzZXARsgezdS_X1Mothtyj9vjKo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fUwC72) | 00:03:00 | 11:32 |
 
 <hr>
 
