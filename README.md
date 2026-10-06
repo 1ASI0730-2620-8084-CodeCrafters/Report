@@ -74,6 +74,7 @@
 | 2.10 | 2026-10-05 | Huapaya Buitron, Ariana Alheli | Registro de las acciones realizadas en AV1 en la sección Student Outcome. |
 | 2.11 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Incorporación en la sección Student Outcome de las acciones de TB1 realizadas en el informe por Cumba Rengifo, Palacin Lazo y Pezo Castilla. |
 | 2.12 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Actualización de los commits del informe por integrante en el Team Collaboration Insights del Sprint 2. |
+| 2.13 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Registro del video de exposición de TB1 en el Anexo A y en la Execution Evidence del Sprint 2. |
 
 <hr>
 
@@ -2903,6 +2904,8 @@ En el repositorio del Landing Page se aplicaron las correcciones de AV1 y se pub
 
 Al cierre del Sprint 2 la Frontend Web Application v0.1.0 se encuentra publicada en https://frontend-web-aplication.vercel.app. La aplicación ofrece una experiencia distinta para cada rol: el administrador gestiona los usuarios, la empresa, la flota y los dispositivos IoT; el supervisor de flota planifica y ejecuta las operaciones, monitorea la carga y registra las incidencias; y el responsable de la bodega sigue sus pedidos y reporta los problemas de recepción. Las vistas que siguen se capturaron con los datos del fake API y el idioma español; la aplicación cambia a inglés desde el selector de idioma.
 
+El recorrido de la aplicación con los tres roles se muestra en el video de exposición de TB1, publicado en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g181_upc_edu_pe/IQB1u3FFP1TITYZ6Tj6d4ynQAcF7YM7w-LCNJYLUWoZkpE0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8x6kZa
+
 **Inicio de sesión**
 
 <img src="img/chapter5/sprint2/app-sign-in.png" alt="Vista de inicio de sesión de BottleTrack" width="800">
@@ -3084,7 +3087,7 @@ La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin con
 
 | Integrante | Frontend-Web-Aplication | Landing-Page | Report |
 | :--------- | :---------------------: | :----------: | :----: |
-| Crispin Valdivia, Angel Gabriel | 19 | 9 | 47 |
+| Crispin Valdivia, Angel Gabriel | 19 | 9 | 48 |
 | Cumba Rengifo, Leonardo Raul | 12 | 0 | 6 |
 | Palacin Lazo, Gerardo Valentin | 5 | 1 | 6 |
 | Pezo Castilla, Maria Jose | 5 | 0 | 2 |
@@ -3223,7 +3226,7 @@ En esta sección se registra de forma progresiva el video de exposición corresp
 
 | Entrega | Video | Enlace |
 | :------ | :---- | :----- |
-| TB1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g181_upc_edu_pe/IQAW5AoryW7TQIT2jHGQtKZNAdP-jqq74aJtOCkKLweoWaY?e=c7yrEz |
+| TB1 | upc-pre-202620-1asi0730-8084-codecrafters-expo-tb1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g181_upc_edu_pe/IQB1u3FFP1TITYZ6Tj6d4ynQAcF7YM7w-LCNJYLUWoZkpE0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8x6kZa |
 
 <hr>
 
