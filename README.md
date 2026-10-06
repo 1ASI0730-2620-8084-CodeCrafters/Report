@@ -1518,35 +1518,25 @@ Las Technical Stories representan los requisitos técnicos necesarios para imple
 <a id="32-impact-mapping"></a>
 ## 3.2. Impact Mapping.
 
-El Impact Mapping relaciona los objetivos de negocio de CodeCrafters con el comportamiento que se espera de cada User Persona y con las User Stories que lo hacen posible. Se elaboró un mapa por segmento en UXPressia. Cada mapa se lee de izquierda a derecha: **Business Goal** SMART, **Persona** que debe cambiar su comportamiento, **Impact** esperado, **Deliverable** que lo habilita y **User Stories** que lo implementan.
+El Impact Map de BottleTrack consolida en un único artefacto los objetivos de negocio y la contribución de los tres segmentos objetivo identificados durante el proceso de Needfinding. A diferencia de los mapas desarrollados inicialmente de manera independiente, esta versión permite visualizar de forma integral cómo las necesidades y comportamientos de los diferentes usuarios contribuyen al logro de los objetivos del producto.
+Los Business Goals fueron formulados bajo el criterio SMART, incorporando métricas y horizontes temporales que permiten determinar objetivamente el cumplimiento de los resultados esperados. A partir de estos objetivos se identificaron los tres actores principales: Carlos Mendoza, representante del segmento de empresas distribuidoras; Luis Torres, representante del segmento de supervisores o encargados de flota; y María Fernández, representante del segmento de bodegas y minimarkets.
+Los Impacts representan los cambios de comportamiento o resultados que se espera generar en cada persona como consecuencia del uso de BottleTrack. Estos impactos se relacionan con la necesidad de centralizar información, mejorar la visibilidad de las operaciones, reducir el seguimiento manual, gestionar incidencias y disponer de información actualizada sobre las entregas.
+Posteriormente, los impactos se traducen en Deliverables, correspondientes a capacidades funcionales de alto nivel de BottleTrack, como la gestión de operaciones, monitoreo, gestión de entregas y gestión de incidencias. Finalmente, cada Deliverable se descompone en User Stories, permitiendo establecer trazabilidad entre los objetivos estratégicos del producto, las necesidades de los usuarios y los requisitos funcionales que serán incorporados al Product Backlog.
+De esta manera, el Impact Map establece una relación directa entre valor de negocio, comportamiento esperado de los usuarios y funcionalidades del producto, facilitando la priorización de los requisitos y manteniendo la trazabilidad entre el proceso de UX Research y la especificación de requisitos.
 
 | Persona | Business Goal (SMART) | User Stories principales |
 | :------ | :-------------------- | :----------------------- |
-| Carlos Mendoza | Alcanzar que al menos el 80 % de las operaciones de transporte de las empresas piloto sean registradas y consultables en BottleTrack durante los primeros 6 meses de operación. | US16, US19, US10, US11 |
-| Carlos Mendoza | Reducir en al menos 25 % el tiempo promedio dedicado a recopilar información sobre el estado de las operaciones de transporte al finalizar los primeros 6 meses de uso. | US34, US35, US36, US37 |
-| Luis Torres | Lograr que al menos el 80 % de las operaciones planificadas en las empresas piloto cuenten con vehículo, responsable y puntos de entrega registrados en BottleTrack durante los primeros 6 meses de operación. | US16, US17, US18, US23, US24 |
-| Luis Torres | Conseguir que al menos el 80 % de las incidencias reportadas durante las operaciones piloto queden registradas y asociadas con su operación durante los primeros 6 meses de uso. | US30, US31, US32, US33 |
-| María Fernández | Lograr que al menos el 75 % de las entregas realizadas a establecimientos piloto cuenten con información de estado consultable durante los primeros 6 meses de operación. | US46, US26, US27 |
-| María Fernández | Conseguir que al menos el 80 % de los problemas identificados en las entregas de establecimientos piloto sean comunicados y queden registrados durante los primeros 6 meses de operación. | US47, US30, US31 |
+| Carlos Mendoza | Lograr que al menos el 80% de las operaciones de transporte de las empresas piloto sean registradas y consultables en BottleTrack durante los primeros 6 meses de operación. | US16, US19, US34, US35 |
+| Carlos Mendoza | Reducir en al menos 25% el tiempo promedio dedicado por administradores y supervisores a recopilar información sobre el estado de las operaciones durante los primeros 6 meses de operación. | US36, US37 |
+| Luis Torres | Lograr que al menos el 80% de las operaciones de transporte de las empresas piloto sean registradas y consultables en BottleTrack durante los primeros 6 meses de operación. | US16, US17, US18, US23, US24, US25 |
+| Luis Torres | Reducir en al menos 25% el tiempo promedio dedicado por administradores y supervisores a recopilar información sobre el estado de las operaciones durante los primeros 6 meses de operación. | US34, US35 |
+| Luis Torres | Lograr que al menos el 80% de las incidencias identificadas durante las operaciones piloto sean registradas y cuenten con seguimiento hasta su resolución durante los primeros 6 meses de operación. | US30, US31, US32, US33 |
+| María Fernández | Lograr que al menos el 75% de las entregas realizadas en los establecimientos piloto cuenten con información de estado consultable durante los primeros 6 meses de operación. | US26, US27, US30, US31, US32, US33 |
 
-Los objetivos coinciden con los indicadores de éxito del Problem Statement de la sección 1.2.2.1, de modo que cada User Story del backlog puede rastrearse hasta un resultado de negocio medible.
-#### User Persona 1: Carlos Mendoza
 
-<img src="img/chapter3/impact-map-segmento-1.jpeg" alt="Impact Map - Segmento 1">
+<img src="img/chapter3/impact-map.jpeg" alt="Impact Map">
 
-Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/ewgWb
-
-#### User Persona 2: Luis Torres
-
-<img src="img/chapter3/impact-map-segmento-2.jpeg" alt="Impact Map - Segmento 2">
-
-Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/kjQEJ
-
-#### User Persona 3: María Fernández
-
-<img src="img/chapter3/impact-map-segmento-3.jpeg" alt="Impact Map - Segmento 3">
-
-Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/1v4vF
+Ver en UXPressia: https://uxpressia.com/w/v8FzI/i/ewgWb?tagId=cK6vk
 
 <a id="33-product-backlog"></a>
 ## 3.3. Product Backlog
