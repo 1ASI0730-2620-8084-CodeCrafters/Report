@@ -68,6 +68,9 @@
 | 2.4 | 2026-10-05 | Palacin Lazo, Gerardo Valentin | Registro de una nueva entrevista del Segmento Objetivo 3 (Bodegas y minimarkets), con su resumen. |
 | 2.5 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Incorporación de la tercera entrevista de bodegas y minimarkets al análisis de entrevistas y al Anexo B, y de los commits del informe en el Team Collaboration Insights del Sprint 2. |
 | 2.6 | 2026-10-05 | Crispin Valdivia, Angel Gabriel | Corrección del resumen de la entrevista a Leo Giovany Yañez Santos del Segmento Objetivo 3. |
+| 2.7 | 2026-10-05 | Pezo Castilla, Maria Jose | Actualización del Capítulo I, incorporando ajustes en la definición y alineación de los segmentos objetivo y en la información relacionada con el contexto y alcance de BottleTrack, de acuerdo con las observaciones de la revisión de AV1. |
+| 2.8 | 2026-10-05 | Pezo Castilla, Maria Jose | Actualización del Capítulo II, incorporando ajustes en el análisis de Needfinding, la definición y presentación de las Personas de Usuario, User Journey Maps y Empathy Maps, asegurando la consistencia entre los segmentos objetivo y los resultados de las entrevistas. |
+| 2.9 | 2026-10-05 | Pezo Castilla, Maria Jose | Actualización y consolidación del Impact Map de BottleTrack, integrando los tres segmentos objetivo en un único mapa y revisando la trazabilidad entre Business Goals, Actors, Impacts, Deliverables y User Stories. |
 
 <hr>
 
