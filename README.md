@@ -3142,6 +3142,28 @@ La comprobación del Sprint Goal se realizará sobre la integración de la Web A
 Las lecturas IoT continuarán siendo simuladas, pero su registro, consulta y generación de alertas deberán realizarse mediante el backend. El conductor se mantiene como recurso de la operación y no como usuario de la plataforma.
 
 
+<a id="5232-aspect-leaders-and-collaborators"></a>
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Para el Sprint 3 se propone mantener la distribución por bounded context utilizada en el Sprint 2. Cada integrante liderará la implementación de los servicios relacionados con su contexto y colaborará en su integración con los demás componentes de BottleTrack.
+
+La matriz de Liderazgo y Colaboración (LACX) identifica al líder de cada aspecto con **L** y a sus colaboradores con **C**. Las asignaciones propuestas guardan relación con los responsables del Sprint Backlog y deben confirmarse durante el Sprint Planning.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Setup & Configuration Management | Identity and Access Management | Fleet Management | Operations and Routes | IoT Monitoring | Incident Management & Analytics | OpenAPI & Integration Verification | Landing Page |
+| :---------------------------------- | :-------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| Crispin Valdivia, Angel Gabriel | FaureGalliard | L | L | C | C | C | C | C | C |
+| Cumba Rengifo, Leonardo Raul | LeonardoC72 | C | C | C | L | C | C | C | C |
+| Palacin Lazo, Gerardo Valentin | GeraldP03 | C | C | C | C | L | C | C | L |
+| Pezo Castilla, Maria Jose | MariaJosePezo | C | C | C | C | C | L | C | C |
+
+
+Angel Crispin coordinará la configuración del backend, los servicios de autenticación y administración y el despliegue del API. Leonardo Cumba liderará las operaciones, la asignación de recursos, las entregas, el historial y el seguimiento de pedidos de las bodegas.
+
+Gerardo Palacin liderará el monitoreo IoT y colaborará con Operations and Routes mediante la integración del servicio externo de mapas. Maria Jose Pezo liderará las incidencias, sus evidencias y los indicadores operacionales. Angel Crispin liderará la gestión de vehículos y conductores y coordinará la revisión de OpenAPI y las pruebas de integración.
+
+Cada integrante será responsable de documentar y verificar los endpoints de su contexto. La coordinación de la documentación y de las pruebas no reemplaza la responsabilidad individual de proporcionar evidencias de implementación.
+
+
 
 
 
