@@ -3179,7 +3179,10 @@ El tablero del proyecto se encuentra disponible en: https://trello.com/b/jGpO815
 
 La captura del tablero se incorporará después de registrar y confirmar las historias, tareas y responsables de esta planificación en Trello.
 
-<!-- Incorporar aquí la captura real del tablero del Sprint 3. -->
+
+<img width="1909" height="844" alt="sptrin3" src="https://github.com/user-attachments/assets/2f472062-0f03-49fe-8962-90f7c0e6283f" />
+
+https://trello.com/invite/b/6ae377c3d33bbc1ab8709e54/ATTI0bb3ef72715819f3690e40368d3a0a003ACCDB35/sprint-3-bottletrack
 
 Las horas y asignaciones de la siguiente tabla son estimaciones propuestas. El estado inicial es **To-do** y deberá actualizarse según el avance comprobado en el tablero. Las tareas identificadas con **—** corresponden a trabajo transversal que no depende de una sola historia.
 
