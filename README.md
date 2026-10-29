@@ -3111,6 +3111,47 @@ La siguiente tabla resume los commits de cada integrante en el Sprint 2, sin con
 
 <img src="img/chapter5/sprint2/insights-landing-network.png" alt="Grafo de red de ramas del repositorio Landing-Page" width="800">
 
+
+<a id="523-sprint-3"></a>
+### 5.2.3. Sprint 3
+
+<a id="5231-sprint-planning-3"></a>
+#### 5.2.3.1. Sprint Planning 3.
+
+El Sprint 3 propone implementar la primera versión de los Web Services de BottleTrack e integrarlos con la Frontend Web Application desarrollada durante el Sprint 2. El incremento busca reemplazar el uso del fake API en los flujos principales por servicios RESTful con persistencia en MySQL, validaciones y reglas de negocio en el servidor.
+
+La planificación considera las Technical Stories TS01 a TS15 del Product Backlog, cuya estimación total es de 96 Story Points. La distribución de tareas y sus estimaciones constituyen una propuesta que debe validarse con la disponibilidad del equipo.
+
+| Sprint # | Sprint 3 |
+| :------- | :------- |
+| **Sprint Planning Background** | |
+| Date | 2026/10/28 |
+| Time | 8:00 pm |
+| Location | Discord |
+| Prepared By | Cumba Rengifo, Leonardo Raul |
+| Attendees (to planning meeting) | Crispin Valdivia, Angel Gabriel; Cumba Rengifo, Leonardo Raul; Palacin Lazo, Gerardo Valentin; Pezo Castilla, Maria Jose |
+| Sprint 2 Review Summary | Según las evidencias del Sprint 2, se publicó una nueva versión del Landing Page y la primera versión de la Frontend Web Application. Se implementaron las vistas de autenticación, usuarios, empresa, flota, operaciones, entregas, incidencias, monitoreo IoT y seguimiento de pedidos para bodegas, utilizando un fake API. También se incorporaron las correcciones de AV1 en el Landing Page. La implementación de los Web Services propios quedó prevista para el Sprint 3. |
+| Sprint 2 Retrospective Summary | El registro de colaboración del Sprint 2 evidencia la participación de los cinco integrantes en el frontend mediante la distribución por bounded context. Como propuesta de mejora para el Sprint 3, se plantea mantener esta distribución, acordar los contratos del API antes de integrar las vistas y distribuir las pruebas entre líderes y colaboradores. También se propone reservar tiempo para documentación, despliegue y validación con usuarios. Estas observaciones deben contrastarse en la reunión del equipo. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | *Our focus is on* que los usuarios de BottleTrack gestionen y consulten sus operaciones de transporte mediante una aplicación integrada con servicios propios y datos persistentes.<br>*We believe it delivers* continuidad y trazabilidad en la gestión de recursos, entregas, incidencias y alertas de carga *to* administradores de empresas distribuidoras, supervisores de flota y responsables de bodegas y minimarkets.<br>*This will be confirmed when* al cierre del Sprint 3 el administrador pueda gestionar sus recursos, el supervisor pueda crear y ejecutar una operación con entregas e incidencias y la bodega pueda consultar su pedido y reportar un problema de recepción desde la aplicación desplegada; los cambios se conserven al recargar y los endpoints utilizados estén disponibles en la documentación OpenAPI. |
+| Sprint 3 Velocity | 96 Story Points propuestos, sujetos a validación de capacidad del equipo. |
+| Sum of Story Points | 96 |
+
+La comprobación del Sprint Goal se realizará sobre la integración de la Web Application con los Web Services. El funcionamiento de una vista con datos del fake API no constituye evidencia suficiente del cumplimiento de una historia técnica.
+
+Las lecturas IoT continuarán siendo simuladas, pero su registro, consulta y generación de alertas deberán realizarse mediante el backend. El conductor se mantiene como recurso de la operación y no como usuario de la plataforma.
+
+
+
+
+
+
+
+
+
+
+
+
 <a id="53-validation-interviews"></a>
 ## 5.3. Validation Interviews.
 
